@@ -5,10 +5,12 @@ previous step's output file to exist for the same origin, otherwise it raises
 ``PrerequisiteError``. Handlers not yet implemented raise ``NotImplementedError``.
 """
 
-from rmr.paths import step_output_path
-from rmr.sources import scopus
+from functools import partial
 
-ORIGINS = ["scopus", "google", "github", "pwc"]
+from rmr.paths import step_output_path
+from rmr.sources import grey, scopus
+
+ORIGINS = ["scopus", "google", "github", "hf"]
 
 STEPS = {
     1: "initial complete search",
@@ -22,9 +24,12 @@ class PrerequisiteError(Exception):
     """Raised when a step is invoked before its predecessor ran for that origin."""
 
 
-# (origin, step) -> handler. Only Scopus step 1 is implemented so far.
+# (origin, step) -> handler. Step 1 is implemented for all origins.
 _HANDLERS = {
     ("scopus", 1): scopus.step1_initial_search,
+    ("google", 1): partial(grey.step1_initial_search, "google"),
+    ("github", 1): partial(grey.step1_initial_search, "github"),
+    ("hf", 1): partial(grey.step1_initial_search, "hf"),
 }
 
 

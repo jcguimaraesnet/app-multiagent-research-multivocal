@@ -98,6 +98,9 @@ def step1_initial_search() -> dict:
         records.extend(_parse_entry(entry) for entry in entries)
         print(f"[scopus] fetched {min(start + PAGE_SIZE, total)}/{total}")
 
+    # Assign a sequential, origin-prefixed identifier (SC1, SC2, ...) to each result.
+    records = [{"id": f"SC{i}", **record} for i, record in enumerate(records, start=1)]
+
     output = {
         "origin": "scopus",
         "step": 1,

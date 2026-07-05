@@ -26,12 +26,16 @@ Both parameters are **required**.
 
 ### Origins
 
-| Value    | Source                                   |
-|----------|------------------------------------------|
-| `scopus` | Scopus (academic literature)             |
-| `google` | Google (grey literature)                 |
-| `github` | GitHub (open-source repositories)        |
-| `pwc`    | Papers With Code                         |
+| Value    | Source                                                                 |
+|----------|------------------------------------------------------------------------|
+| `scopus` | Scopus (academic literature), via the Scopus Search API                |
+| `google` | Google general web (grey literature), via Firecrawl                     |
+| `github` | GitHub, via Firecrawl with `site:github.com`                            |
+| `hf`     | Hugging Face Papers, via Firecrawl with `site:huggingface.co/papers`    |
+
+The `hf` origin replaces Papers With Code, which was discontinued during the study and
+now redirects to Hugging Face Papers. In the manuscript this substitution is noted in the
+text; the PRISMA flow and Table 1 keep their original labels.
 
 ### Steps
 
