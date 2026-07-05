@@ -3,6 +3,9 @@
 .env.*
 !.env.example
 
+# Pipeline outputs (each step writes data/<origin>/step-<n>.json)
+data/
+
 # Python
 __pycache__/
 *.py[cod]

@@ -15,6 +15,16 @@ Review"* (UFRJ).
 - **Scopus API** — academic-literature search.
 - **Firecrawl API** — grey-literature scraping.
 
+## Tooling — REQUIRED
+
+- **Always use [uv](https://docs.astral.sh/uv/) for everything Python**: dependency
+  management, virtual environments, and running code. Never call `pip` or bare `python`.
+  - Add a dependency: `uv add <package>` (updates `pyproject.toml` and `uv.lock`).
+  - Run code: `uv run <cmd>` (e.g., `uv run python main.py --origin scopus --step 1`).
+  - Create/refresh the environment: `uv sync`.
+  - `pyproject.toml` + `uv.lock` are the source of truth for dependencies. Do not add a
+    `requirements.txt`.
+
 ## Teaching rule (OpenAI Agents SDK) — REQUIRED
 
 Throughout the **entire creation and development** of this app, **explain the OpenAI
