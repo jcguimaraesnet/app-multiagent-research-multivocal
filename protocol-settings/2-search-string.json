@@ -1,0 +1,49 @@
+{
+  "search_string": {
+    "population": [
+      "Code Generation",
+      "Code Writer",
+      "Code Completion",
+      "Code Evolution",
+      "Refactoring",
+      "Code Restructuring",
+      "Code Reorganization",
+      "Program Generation",
+      "Program Writer",
+      "Program Completion",
+      "Program Evolution"
+    ],
+    "intervention": [
+      "Generative AI",
+      "Generative Artificial Intelligence",
+      "Generative Model*",
+      "Large Language Model*",
+      "Language Model*",
+      "Small Language Model*",
+      "LLM*",
+      "RAG",
+      "Retrieval Augmented Generation",
+      "Natural Language Processing",
+      "NLP",
+      "LLM-based agent",
+      "AI Multi-Agent"
+    ],
+    "outcome": [
+      "Application",
+      "Technolog*",
+      "Approach*",
+      "Method*",
+      "Tool*",
+      "Framework*",
+      "Solution*",
+      "Strateg*",
+      "Model*",
+      "System*",
+      "Platform*",
+      "Technique*"
+    ],
+    "context": [
+      "Software Engineering"
+    ]
+  }
+}

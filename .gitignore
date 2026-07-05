@@ -1,0 +1,15 @@
+# Secrets — never commit real keys (Scopus, Firecrawl, OpenAI, Crossref)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+
+# OS / editor
+.DS_Store
+.vscode/

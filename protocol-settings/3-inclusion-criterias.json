@@ -1,0 +1,31 @@
+{
+  "type": "inclusion",
+  "applies_to": "primary sources",
+  "criteria": [
+    {
+      "id": "IC1",
+      "text": "Context must be software engineering, specifically software construction."
+    },
+    {
+      "id": "IC2",
+      "text": "Must apply Generative AI methods."
+    },
+    {
+      "id": "IC3",
+      "text": "Must describe practical implementations."
+    },
+    {
+      "id": "IC4",
+      "text": "Must present a usable solution (prototype or deployed)."
+    },
+    {
+      "id": "IC5",
+      "text": "Must be published after December 2021 and up to the search execution in 2025."
+    },
+    {
+      "id": "IC6",
+      "text": "Must provide data addressing at least one sub-question (RQa-RQh)."
+    }
+  ],
+  "_note": "IC1-IC6 apply uniformly to both academic and grey sources. Grey sources additionally undergo a qualitative quality appraisal (see 5-grey-quality-appraisal.json), applied via the grey-screening prompt because grey literature lacks the peer-review filter of academic venues."
+}

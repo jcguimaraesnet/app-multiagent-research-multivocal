@@ -1,0 +1,26 @@
+{
+  "type": "exclusion",
+  "applies_to": "primary sources",
+  "criteria": [
+    {
+      "id": "EC1",
+      "text": "Does not meet at least one IC."
+    },
+    {
+      "id": "EC2",
+      "text": "Duplicates across sources."
+    },
+    {
+      "id": "EC3",
+      "text": "Source unavailable or inaccessible."
+    },
+    {
+      "id": "EC4",
+      "text": "Non-English without official translation."
+    },
+    {
+      "id": "EC5",
+      "text": "Secondary or tertiary studies."
+    }
+  ]
+}
