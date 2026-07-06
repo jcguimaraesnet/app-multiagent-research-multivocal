@@ -1,6 +1,4 @@
 {
-  "type": "inclusion",
-  "applies_to": "primary sources",
   "criteria": [
     {
       "id": "IC1",
@@ -26,6 +24,5 @@
       "id": "IC6",
       "text": "Must provide data addressing at least one sub-question (RQa-RQh)."
     }
-  ],
-  "_note": "IC1-IC6 apply uniformly to both academic and grey sources. Grey sources additionally undergo a qualitative quality appraisal (see 5-grey-quality-appraisal.json), applied via the grey-screening prompt because grey literature lacks the peer-review filter of academic venues."
+  ]
 }

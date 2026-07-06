@@ -8,6 +8,7 @@ previous step's output file to exist for the same origin, otherwise it raises
 from functools import partial
 
 from rmr.paths import step_output_path
+from rmr.screening import title as title_screening
 from rmr.sources import grey, scopus
 
 ORIGINS = ["scopus", "google", "github", "hf"]
@@ -24,13 +25,17 @@ class PrerequisiteError(Exception):
     """Raised when a step is invoked before its predecessor ran for that origin."""
 
 
-# (origin, step) -> handler. Step 1 is implemented for all origins.
+# (origin, step) -> handler.
 _HANDLERS = {
     ("scopus", 1): scopus.step1_initial_search,
     ("google", 1): partial(grey.step1_initial_search, "google"),
     ("github", 1): partial(grey.step1_initial_search, "github"),
     ("hf", 1): partial(grey.step1_initial_search, "hf"),
 }
+
+# Step 2 (title screening) is uniform across origins.
+for _origin in ORIGINS:
+    _HANDLERS[(_origin, 2)] = partial(title_screening.step2_title_screening, _origin)
 
 
 def check_prerequisite(origin: str, step: int) -> None:

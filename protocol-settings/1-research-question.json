@@ -1,5 +1,4 @@
 {
-  "goal": "The primary goal of this RMR is to systematically identify and map Generative AI-based solutions available to support software construction activities in both academic and industrial contexts.",
   "central_question": {
     "id": "RQ",
     "text": "Which Generative AI-based solutions (tools, agents, models, etc.) are available to support software engineering activities, particularly software construction, within industry and academia?"
@@ -7,43 +6,35 @@
   "sub_questions": [
     {
       "id": "RQa",
-      "text": "Where can these solutions be found?",
-      "rationale": "Identifying the distribution channels or hosting platforms (e.g., GitHub, official websites) enables traceability and verifiability."
+      "text": "Where can these solutions be found?"
     },
     {
       "id": "RQb",
-      "text": "How can these solutions be used?",
-      "rationale": "Clarifies the nature of each tool (e.g., library, web service, plugin) and its application context within the SE lifecycle."
+      "text": "How can these solutions be used?"
     },
     {
       "id": "RQc",
-      "text": "What is the access and usage model for these solutions and costs?",
-      "rationale": "Assesses licensing, pricing, and authentication requirements, which are critical for adoption."
+      "text": "What is the access and usage model for these solutions and costs?"
     },
     {
       "id": "RQd",
-      "text": "What limitations must be considered for adopting these solutions?",
-      "rationale": "Documents technical, operational, or legal constraints that may hinder usage."
+      "text": "What limitations must be considered for adopting these solutions?"
     },
     {
       "id": "RQe",
-      "text": "What is the maturity level of these solutions?",
-      "rationale": "Determines whether solutions are experimental, beta, or production-ready."
+      "text": "What is the maturity level of these solutions?"
     },
     {
       "id": "RQf",
-      "text": "Is there technical documentation, support, or an active community to facilitate these solutions in academia and industry?",
-      "rationale": "Considers supporting resources and ecosystem activity as indicators of usability and sustainability."
+      "text": "Is there technical documentation, support, or an active community to facilitate these solutions in academia and industry?"
     },
     {
       "id": "RQg",
-      "text": "What types of target users or roles typically engage with the proposed solutions?",
-      "rationale": "Maps tools to potential end users such as developers, testers, or DevOps engineers."
+      "text": "What types of target users or roles typically engage with the proposed solutions?"
     },
     {
       "id": "RQh",
-      "text": "Is there any collaboration with the industry to validate the proposals through case studies or experiments?",
-      "rationale": "Validates the real-world applicability and industry relevance of the tools."
+      "text": "Is there any collaboration with the industry to validate the proposals through case studies or experiments?"
     }
   ]
 }

@@ -1,12 +1,4 @@
 {
-  "type": "grey_quality_appraisal",
-  "applies_to": "grey-literature sources only",
-  "_rationale": "Because grey literature lacks the peer-review filter of academic venues, an additional qualitative appraisal is applied to grey sources (following Garousi et al.). These are NOT separate inclusion criteria: IC1-IC6 remain the unified inclusion protocol for all sources. This appraisal operates jointly with IC3, IC4, and IC5, and traces back to reviewer comments A1/A12.",
-  "application": {
-    "mode": "subjective",
-    "how": "Injected as guidance into the grey-screening prompt (not the academic one). The screening agent weighs these dimensions qualitatively when deciding whether a grey source passes IC3/IC4 within the IC5 time window. Definitions are explicit and versioned; only the application is subjective.",
-    "target_prompt": "grey-screening"
-  },
   "appraisal_dimensions": [
     {
       "name": "Authority and credibility of the producer",

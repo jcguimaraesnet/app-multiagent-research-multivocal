@@ -27,8 +27,7 @@ SEARCH_URL = "https://api.firecrawl.dev/v2/search"
 # --- Invariant execution rules for the grey channels ---
 TBS = "cdr:1,cd_min:1/1/2022,cd_max:12/31/2025"  # after Dec 2021, up to 2025 (IC5)
 COUNTRY = "US"
-PER_CALL = 100        # Firecrawl's max results per search call
-TARGET = 100          # unique links kept per origin
+PER_CALL = 100        # top results kept per query (the search engine's max per query; meta-protocol §3.5)
 POP_CHUNK_SIZE = 3    # population terms per sub-query (keeps the query short enough)
 
 # Hugging Face Papers is the successor of the discontinued Papers With Code, whose
@@ -83,18 +82,17 @@ def step1_initial_search(origin):
     api_key = config.require_env("FIRECRAWL_API_KEY")
     queries = _build_queries(origin, config.load_search_string())
 
+    # Run every population block (so all terms are covered), take the top results of
+    # each, then union and deduplicate. No per-origin cap: the channel total is the
+    # size of the deduplicated union (meta-protocol Section 3.5).
     seen = set()
     records = []
     for query in queries:
-        if len(records) >= TARGET:
-            break
         for item in _search(origin, query, api_key):
             url = item.get("url", "")
             if url and url not in seen:
                 seen.add(url)
                 records.append({"title": item.get("title", ""), "link": url})
-                if len(records) >= TARGET:
-                    break
         print(f"[{origin}] unique so far: {len(records)}")
         time.sleep(1)
 

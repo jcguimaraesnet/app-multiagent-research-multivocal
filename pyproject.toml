@@ -4,5 +4,6 @@ version = "0.1.0"
 description = "Automation pipeline for the Rapid Multivocal Review (search, screening, cataloguing) supporting the UFRJ paper on AI solutions for software construction."
 requires-python = ">=3.11"
 dependencies = [
+    "openai-agents>=0.17.7",
     "requests>=2.31",
 ]

@@ -1,6 +1,4 @@
 {
-  "type": "exclusion",
-  "applies_to": "primary sources",
   "criteria": [
     {
       "id": "EC1",
