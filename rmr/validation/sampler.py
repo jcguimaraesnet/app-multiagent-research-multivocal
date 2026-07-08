@@ -19,12 +19,12 @@ import json
 import random
 from datetime import datetime, timezone
 
-from rmr.paths import (PROJECT_ROOT, content_path, ensure_parent, markdown_path,
-                       step_output_path, validation_dir)
+from rmr.paths import (PROJECT_ROOT, ensure_parent, full_path, step_output_path,
+                       validation_dir)
+from rmr.screening.abstract import read_abstract
 from rmr.validation import stats
 
 ORIGINS = ["scopus", "google", "github", "hf"]
-PDF_ORIGINS = ("scopus", "hf")  # step-4 full text lives in content/markdown/<id>.md
 DEFAULT_MARGIN = 0.08          # +/- for the precision estimate (drives include-sample size)
 DEFAULT_OVERLAP = 120          # step-3/4 items both raters label (inter-rater reliability)
 MIN_INCLUDE_PER_ORIGIN = 8     # floor so small origins are still represented
@@ -41,8 +41,7 @@ def _extra_fields(step: int) -> list[str]:
 
 def _fulltext_source(origin: str, item_id: str) -> str:
     """Repo-relative path to the full text a step-4 rater should read."""
-    path = markdown_path(origin, item_id) if origin in PDF_ORIGINS else content_path(origin, item_id)
-    return str(path.relative_to(PROJECT_ROOT))
+    return str(full_path(origin, item_id).relative_to(PROJECT_ROOT))
 
 
 def _load(origin: str, step: int) -> list[dict]:
@@ -68,9 +67,11 @@ def _load(origin: str, step: int) -> list[dict]:
                 continue
             d = record.get("data", {})
             base.update(llm_decision=decision, title=d.get("title", ""), link=d.get("link", ""))
-            if step == 3:
-                base["abstract"] = d.get("abstract") or d.get("summary") or ""
-                base["keywords"] = ", ".join(d.get("keywords", []) or [])
+            if step == 3:  # captured content now lives in content/abstract/<id>.json
+                cap = read_abstract(origin, record["id"])
+                base["title"] = base["title"] or cap.get("title", "")
+                base["abstract"] = cap.get("abstract") or cap.get("summary") or ""
+                base["keywords"] = ", ".join(cap.get("keywords", []) or [])
             else:  # step 4: point the rater at the full-text file
                 base["source"] = _fulltext_source(origin, record["id"])
         items.append(base)

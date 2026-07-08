@@ -41,6 +41,13 @@ def require_env(name: str) -> str:
     return value
 
 
+def model_experiment() -> str:
+    """Return ``MODEL_EXPERIMENT``: the subfolder name that isolates one model's screening
+    outputs (steps 2-4). It is NOT sent to OpenRouter; it only structures the data folders,
+    so runs with different models stay separate."""
+    return require_env("MODEL_EXPERIMENT")
+
+
 def load_search_string() -> dict:
     """Return the PICOC term lists from ``protocol-settings/2-search-string.json``."""
     path = PROTOCOL_DIR / "2-search-string.json"

@@ -65,7 +65,7 @@ def _parse_entry(item: dict) -> dict:
 
 
 def step1_initial_search() -> dict:
-    """Run the identification search on Scopus and write ``data/scopus/step-1.json``."""
+    """Run the identification search on Scopus and write ``data/scopus/step-1-initial-search.json``."""
     api_key = config.require_env("SCOPUS_API_KEY")
     query = build_query(config.load_search_string())
     headers = {"Accept": "application/json", "X-ELS-APIKey": api_key}

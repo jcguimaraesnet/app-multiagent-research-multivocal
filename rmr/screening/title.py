@@ -30,7 +30,6 @@ from openai import AsyncOpenAI
 from pydantic import BaseModel
 
 from rmr import config
-from rmr.content import arxiv, titles
 from rmr.paths import PROJECT_ROOT, ensure_parent, step_output_path
 
 # Tracing defaults to OpenAI's backend; we run through OpenRouter, so disable it.
@@ -64,44 +63,8 @@ def _build_agent():
     return agent, model_name
 
 
-def _enrich_hf_titles(records: list[dict]) -> None:
-    """HF search titles come truncated from the search snippet; replace them with the full
-    arXiv title, since HF Papers are arXiv papers."""
-    id_by_item = {r["id"]: arxiv.arxiv_id_from_link(r.get("link", "")) for r in records}
-    details = arxiv.fetch_many(list(id_by_item.values()))
-    enriched = 0
-    for record in records:
-        found = details.get(id_by_item[record["id"]])
-        if found and found.get("title"):
-            record["title"] = found["title"]
-            enriched += 1
-    print(f"[hf] step 2: enriched {enriched}/{len(records)} titles from arXiv")
-
-
-def _enrich_grey_titles(origin: str, records: list[dict]) -> None:
-    """Google/GitHub search titles are truncated by the engine; recover the full page
-    title (free GET, Firecrawl fallback for anti-bot pages)."""
-    full = titles.fetch_titles(records)
-    enriched = 0
-    for record in records:
-        recovered = full.get(record["id"])
-        if recovered:
-            record["title"] = recovered
-            enriched += 1
-    print(f"[{origin}] step 2: enriched {enriched}/{len(records)} titles")
-
-
-def _enrich_titles(origin: str, records: list[dict]) -> None:
-    """Recover full titles before screening, since the search snippet truncates them.
-    Scopus titles already come complete from the Search API, so they are left untouched."""
-    if origin == "hf":
-        _enrich_hf_titles(records)
-    elif origin in ("google", "github"):
-        _enrich_grey_titles(origin, records)
-
-
 def _load_existing(path) -> dict:
-    """Return {id: screened_record} from a prior step-2.json, for idempotent re-runs."""
+    """Return {id: screened_record} from a prior step-2 output, for idempotent re-runs."""
     if not path.exists():
         return {}
     try:
@@ -112,11 +75,12 @@ def _load_existing(path) -> dict:
 
 
 def step2_title_screening(origin: str) -> dict:
-    """Screen each step-1 record by its title; write data/<origin>/step-2.json.
+    """Screen each step-1 record by its title; write data/<origin>/step-2-screen-title.json.
 
     Idempotent per record: records already screened in a prior run are kept as-is, so a
-    re-run only screens (and re-enriches titles for) what is still pending. Delete the
-    step-2.json to force a full re-screen.
+    re-run only screens what is still pending. Delete the step-2 output to force a full
+    re-screen. Titles are already complete here (recovered at step 1), so this stage is
+    pure LLM screening with no network access of its own.
     """
     data = json.loads(step_output_path(origin, 1).read_text(encoding="utf-8"))
     records = data["records"]
@@ -128,7 +92,6 @@ def step2_title_screening(origin: str) -> dict:
     if existing:
         print(f"[{origin}] step 2: {len(existing)} already screened, {len(pending)} pending")
 
-    _enrich_titles(origin, pending)  # only recover titles for records still to be screened
     agent, model_name = _build_agent()
 
     screened: list[dict] = []

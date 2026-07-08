@@ -14,6 +14,7 @@ from html import unescape
 import requests
 
 from rmr import config
+from rmr.content import arxiv
 
 SCRAPE_URL = "https://api.firecrawl.dev/v2/scrape"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -115,3 +116,41 @@ def fetch_titles(records: list[dict]) -> dict[str, str]:
     print(f"[titles] {len(targets)} truncated: {free_ok} via free GET, "
           f"{fc_ok}/{fc_used} via Firecrawl fallback ({len(result)} recovered)")
     return result
+
+
+def _enrich_hf(records: list[dict]) -> None:
+    """HF search titles come truncated from the snippet; replace them with the full arXiv
+    title, since HF Papers are arXiv papers."""
+    id_by_item = {r["id"]: arxiv.arxiv_id_from_link(r.get("link", "")) for r in records}
+    details = arxiv.fetch_many(list(id_by_item.values()))
+    enriched = 0
+    for record in records:
+        found = details.get(id_by_item[record["id"]])
+        if found and found.get("title"):
+            record["title"] = found["title"]
+            enriched += 1
+    print(f"[hf] enriched {enriched}/{len(records)} titles from arXiv")
+
+
+def _enrich_grey(origin: str, records: list[dict]) -> None:
+    """Google/GitHub titles are truncated by the search engine; recover the full page title
+    (free GET, Firecrawl fallback for anti-bot pages)."""
+    full = fetch_titles(records)
+    enriched = 0
+    for record in records:
+        recovered = full.get(record["id"])
+        if recovered:
+            record["title"] = recovered
+            enriched += 1
+    print(f"[{origin}] enriched {enriched}/{len(records)} titles")
+
+
+def enrich_titles(origin: str, records: list[dict]) -> None:
+    """Recover full titles in place for a grey origin's records. Run at step 1, right after
+    the search, so the stored title is already complete for the title screening (step 2).
+    hf uses the arXiv API; google/github scrape the page title. Scopus is not a grey origin
+    and its titles already come complete from the Search API."""
+    if origin == "hf":
+        _enrich_hf(records)
+    elif origin in ("google", "github"):
+        _enrich_grey(origin, records)

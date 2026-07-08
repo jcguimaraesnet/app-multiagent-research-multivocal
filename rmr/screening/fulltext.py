@@ -17,7 +17,7 @@ the full text is obtained differs by origin:
   ``data/<origin>/content/<id>.md``; step 4 reads it directly (no download/conversion). A
   missing/empty scrape stays ``pending``. Status: ``pending -> screened``.
 
-The manifest ``data/<origin>/step-4.json`` is the source of truth; it is saved after every
+The manifest ``data/<origin>/step-4-screen-full.json`` is the source of truth; it is saved after every
 item, so a re-run resumes cleanly and re-screening only touches records not yet ``screened``.
 
 The screening reuses the step-3 machinery (the OpenAI Agents SDK ``ScreeningResult`` output
@@ -33,10 +33,10 @@ import requests
 from agents import Agent, ModelSettings, Runner, set_tracing_disabled
 
 from rmr.llm import openrouter_model
-from rmr.paths import (PROJECT_ROOT, content_path, ensure_parent, markdown_path,
-                       pdf_path, step_output_path)
+from rmr.paths import (PROJECT_ROOT, ensure_parent, full_path, pdf_path,
+                       step_output_path)
 from rmr.screening.abstract import (ScreeningResult, _criteria_from_result,
-                                    _decide, _mark_ec3, _reason)
+                                    _decide, _mark_ec3, _reason, read_abstract)
 
 set_tracing_disabled(True)
 
@@ -122,7 +122,7 @@ def _download_pdf(url: str, dest) -> str:
     return "ok"
 
 
-def _ensure_pdf(origin: str, record: dict, survivor: dict) -> bool:
+def _ensure_pdf(origin: str, record: dict) -> bool:
     """Ensure ``content/pdf/<id>.pdf`` exists and set the record status on failure.
 
     scopus PDFs are placed manually (a missing one stays ``pending``); hf PDFs are downloaded
@@ -135,8 +135,8 @@ def _ensure_pdf(origin: str, record: dict, survivor: dict) -> bool:
     if pdf.exists():
         return True
     if origin == "hf":
-        # Read the link from the fresh step-3 survivor (the step-4 record does not carry it).
-        url = survivor.get("data", {}).get("pdf_link", "")
+        # The arXiv link lives in the captured-content file (content/abstract/<id>.json).
+        url = read_abstract("hf", rid).get("pdf_link", "")
         record["data"]["pdf_link"] = url  # record what we used, for traceability
         if not url:
             record["status"] = PENDING
@@ -159,18 +159,18 @@ def _ensure_pdf(origin: str, record: dict, survivor: dict) -> bool:
     return False
 
 
-def _ensure_markdown(origin: str, record: dict, survivor: dict, save) -> str:
+def _ensure_markdown(origin: str, record: dict, save) -> str:
     """Return the full-text Markdown for a record, acquiring/converting the PDF if needed.
 
     Returns "" when the record is not ready to be screened (no PDF, or empty extraction),
     leaving its status as ``pending`` so the file can be supplied/retried on a re-run.
     """
     rid = record["id"]
-    if not _ensure_pdf(origin, record, survivor):
+    if not _ensure_pdf(origin, record):
         return ""  # _ensure_pdf already set the status (pending, or screened via EC3)
     pdf = pdf_path(origin, rid)
 
-    md = markdown_path(origin, rid)
+    md = full_path(origin, rid)
     if md.exists():
         cached = md.read_text(encoding="utf-8").strip()
         if cached:  # reuse a previous conversion, never reconvert
@@ -206,7 +206,7 @@ def _grey_fulltext(origin: str, record: dict) -> str:
     Returns "" (leaving the record ``pending``) when the step-3 scrape is missing/empty.
     """
     rid = record["id"]
-    path = content_path(origin, rid)
+    path = full_path(origin, rid)
     text = path.read_text(encoding="utf-8").strip() if path.exists() else ""
     if not text:
         record["status"] = PENDING
@@ -264,7 +264,7 @@ def step4_fulltext_screening(origin: str) -> dict:
         if record["status"] == SCREENED:
             continue
         full_text = (_grey_fulltext(origin, record) if origin in GREY
-                     else _ensure_markdown(origin, record, survivor, save))
+                     else _ensure_markdown(origin, record, save))
         if not full_text:
             save()  # persist the pending status
             continue

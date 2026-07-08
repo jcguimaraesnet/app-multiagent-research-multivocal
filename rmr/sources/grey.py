@@ -20,6 +20,7 @@ from datetime import datetime, timezone
 import requests
 
 from rmr import config
+from rmr.content import titles
 from rmr.paths import ensure_parent, step_output_path
 
 SEARCH_URL = "https://api.firecrawl.dev/v2/search"
@@ -76,7 +77,7 @@ def _search(origin, query, api_key):
 
 
 def step1_initial_search(origin):
-    """Run the identification search for a grey origin; write data/<origin>/step-1.json."""
+    """Run the identification search for a grey origin; write data/<origin>/step-1-initial-search.json."""
     if origin not in SITE_BY_ORIGIN:
         raise ValueError(f"unknown grey origin: {origin}")
     api_key = config.require_env("FIRECRAWL_API_KEY")
@@ -99,6 +100,10 @@ def step1_initial_search(origin):
     # Assign a sequential, origin-prefixed identifier (GO1, GH1, HF1, ...) to each result.
     prefix = ID_PREFIX[origin]
     records = [{"id": f"{prefix}{i}", **record} for i, record in enumerate(records, start=1)]
+
+    # Recover the full title now (search snippets are truncated), so step 2 screens the
+    # complete title and needs no network access of its own.
+    titles.enrich_titles(origin, records)
 
     output = {
         "origin": origin,
