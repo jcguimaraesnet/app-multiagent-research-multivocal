@@ -8,10 +8,13 @@ previous step's output file to exist for the same origin, otherwise it raises
 from functools import partial
 
 from rmr.paths import step_output_path
+from rmr.screening import abstract as abstract_screening
+from rmr.screening import fulltext as fulltext_screening
 from rmr.screening import title as title_screening
 from rmr.sources import grey, scopus
 
 ORIGINS = ["scopus", "google", "github", "hf"]
+SUBSTEPS = abstract_screening.SUBSTEPS  # valid only for step 3
 
 STEPS = {
     1: "initial complete search",
@@ -50,7 +53,11 @@ def check_prerequisite(origin: str, step: int) -> None:
         )
 
 
-def run(origin: str, step: int):
+def run(origin: str, step: int, substep: str | None = None):
+    if step == 3:
+        return abstract_screening.step3_screening(origin, substep=substep)
+    if step == 4:
+        return fulltext_screening.step4_fulltext_screening(origin)
     handler = _HANDLERS.get((origin, step))
     if handler is None:
         raise NotImplementedError(

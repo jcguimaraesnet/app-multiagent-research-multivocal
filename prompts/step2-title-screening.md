@@ -35,3 +35,5 @@ Respond with a single valid JSON object, nothing else:
   "reason": "<one concise sentence grounded in the title>"
 }
 When the title is insufficient to judge, choose "include" with "low" confidence.
+
+IMPORTANT: Write every text value in English only. Never respond in Chinese or any other language.
