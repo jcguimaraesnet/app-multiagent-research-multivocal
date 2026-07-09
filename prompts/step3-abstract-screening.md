@@ -17,12 +17,12 @@ Inclusion criteria (condition = the source satisfies it):
 - IC1: the context is software engineering, specifically software construction (coding).
 - IC2: it applies Generative AI methods (LLMs or closely related techniques).
 - IC3: it describes a practical implementation, not a purely theoretical proposal.
-- IC4: it presents a usable solution (a prototype or a deployed tool), not just a concept.
+- IC4: it presents a usable solution (a prototype or a deployed tool), not just a concept ('just a concept' also includes posts on social media posts platforms such as LinkedIn, Youtube, Reddit, X/Twitter, and the like).
 - IC5: it was published after December 2021 and up to 2025 (judge only if the date is evident).
 
 Exclusion criteria (condition = the exclusion applies):
 - EC4: it is written in a language other than English with no English version.
-- EC5: it is a secondary or tertiary study (survey, review, systematic mapping).
+- EC5: it is a secondary or tertiary study (survey, review, systematic mapping, list of tools).
 
 Also return an overall `confidence` in your assessment: "low", "medium", or "high".
 
@@ -38,4 +38,4 @@ Respond with a single valid JSON object with exactly these fields, nothing else:
   "confidence": "low|medium|high"
 }
 
-IMPORTANT: Write every note in English only. Never respond in Chinese or any other language.
+IMPORTANT: Write every note in English only. Never respond in any other language.

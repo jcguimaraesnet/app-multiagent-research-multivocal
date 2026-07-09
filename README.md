@@ -122,11 +122,22 @@ continues from where it stopped. A page that cannot be retrieved is excluded as 
 ## Step 4 (full-text screening)
 
 Implemented for all origins. For each step-3 survivor (decision = include), the full text is
-located and the final IC/EC screening is run over it, in a single pass (no `--substep`):
+located, then two LLM calls run over it, in a single pass (no `--substep`):
 
 ```
 uv run python main.py --origin <scopus|google|github|hf> --step 4
 ```
+
+1. **answer** (status -> `answered`): extract the research-question answers RQa-RQh. Each is
+   a `note` (concise, objective) plus a `value` classification from a fixed set (RQf takes a
+   list; the rest one value); the set is enforced by the model's structured output. The result
+   is stored under the record's `answers` object.
+2. **screen** (status -> `screened`): the final IC/EC screening, given **both** the full text
+   and the research answers as context. Unlike step 3, every criterion is **binary** (`met` /
+   `not_met`, never `unclear`) with a short note. IC2 also records the solution `type` (agent,
+   tool, language model, extension, IDE, technique/solution) and the coding-phase
+   `software_engineering_activity`; IC3 records its `type` (primary study / empirical case).
+   A field that fits none of its options is left empty and its criterion is `not_met`.
 
 How the full text is obtained differs by origin:
 
@@ -135,19 +146,19 @@ How the full text is obtained differs by origin:
   once with no PDFs to get the manifest and the exact filenames it expects, drop the PDFs
   in, then re-run). Each PDF is converted to `data/scopus/content/full/<id>.md` with
   **pymupdf4llm** (an existing conversion is reused; an empty extraction, e.g. a scanned
-  PDF, stays `pending` with a warning). Status: `pending -> converted -> screened`.
+  PDF, stays `pending` with a warning). Status: `pending -> converted -> answered -> screened`.
 - **hf**: HF Papers are arXiv papers, so the PDF is downloaded automatically from the arXiv
   link captured in step 3 into `data/hf/content/pdf/<id>.pdf` and converted the same way as
   scopus. A transient download error stays `pending` (retried later); a paper that is
   permanently gone (withdrawn / HTTP 404) is excluded via EC3 (content availability). Status:
-  `pending -> converted -> screened`.
+  `pending -> converted -> answered -> screened`.
 - **google/github**: the full page was already scraped in step 3 to
   `data/<origin>/content/full/<id>.md`, so step 4 reads it directly (no download/conversion). A
-  missing/empty scrape stays `pending`. Status: `pending -> screened`.
+  missing/empty scrape stays `pending`. Status: `pending -> answered -> screened`.
 
 The full text sent to the model is capped at 150000 characters (logged when it is
-truncated). The manifest is saved after every item, so a re-run only screens what is not
-yet `screened`.
+truncated). The manifest is saved after every phase, so a re-run resumes cleanly (an
+answered-but-not-screened record only runs screen; a screened record is skipped).
 
 ## Screening validation (steps 2, 3, 4)
 

@@ -34,6 +34,11 @@ def _is_truncated(title: str) -> bool:
     return t.endswith("...") or t.endswith("…") or "…" in t
 
 
+def _needs_recovery(title: str) -> bool:
+    """Recover a title when it is truncated or empty (e.g. blanked after link sanitization)."""
+    return (not (title or "").strip()) or _is_truncated(title)
+
+
 def _looks_blocked(title: str) -> bool:
     t = (title or "").strip().lower()
     return (not t) or t == "error" or any(m in t for m in BLOCKED_MARKERS)
@@ -92,8 +97,8 @@ def fetch_titles(records: list[dict]) -> dict[str, str]:
     """
     result: dict[str, str] = {}
     free_ok = fc_used = fc_ok = 0
-    targets = [r for r in records if _is_truncated(r.get("title", ""))]
-    print(f"[titles] recovering {len(targets)} truncated titles...")
+    targets = [r for r in records if _needs_recovery(r.get("title", ""))]
+    print(f"[titles] recovering {len(targets)} titles (truncated or blanked)...")
     for i, record in enumerate(targets, start=1):
         rid = record["id"]
         url = record.get("link", "")

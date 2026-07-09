@@ -21,4 +21,4 @@ Respond with a single valid JSON object, nothing else:
   "keywords": ["...", "... up to 5 items"]
 }
 
-IMPORTANT: Write the summary and all keywords in English only. Never respond in Chinese or any other language.
+IMPORTANT: Write the summary and all keywords in English only. Never respond in any other language.
