@@ -15,29 +15,22 @@ model here.
 """
 
 import json
-import os
 from datetime import datetime, timezone
 from typing import Literal
 
-from agents import (
-    Agent,
-    ModelSettings,
-    OpenAIChatCompletionsModel,
-    Runner,
-    set_tracing_disabled,
-)
-from openai import AsyncOpenAI
+from agents import Agent, Runner, set_tracing_disabled
 from pydantic import BaseModel
 
-from rmr import config
+from rmr.llm import chat_model, model_settings
 from rmr.paths import PROJECT_ROOT, ensure_parent, step_output_path
 
-# Tracing defaults to OpenAI's backend; we run through OpenRouter, so disable it.
+# Tracing defaults to OpenAI's backend; we use a custom endpoint, so disable it.
 set_tracing_disabled(True)
 
-OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
-DEFAULT_MODEL = ""
 PROMPT_PATH = PROJECT_ROOT / "prompts" / "step2-title-screening.md"
+# Cap the output budget so the provider reserves credit for a small completion (without an
+# explicit cap some providers reserve the model's full output window, tripping a 402/limit).
+TITLE_MAX_TOKENS = 500
 
 
 class TitleDecision(BaseModel):
@@ -49,15 +42,12 @@ class TitleDecision(BaseModel):
 
 
 def _build_agent():
-    api_key = config.require_env("OPENROUTER_API_KEY")
-    model_name = os.environ.get("OPENROUTER_MODEL", DEFAULT_MODEL).strip() or DEFAULT_MODEL
-    client = AsyncOpenAI(base_url=OPENROUTER_BASE_URL, api_key=api_key)
-    model = OpenAIChatCompletionsModel(model=model_name, openai_client=client)
+    model, model_name = chat_model()
     agent = Agent(
         name="Title screener",
         instructions=PROMPT_PATH.read_text(encoding="utf-8"),
         model=model,
-        model_settings=ModelSettings(temperature=0.2),
+        model_settings=model_settings(max_tokens=TITLE_MAX_TOKENS),
         output_type=TitleDecision,
     )
     return agent, model_name

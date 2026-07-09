@@ -30,11 +30,11 @@ import json
 from datetime import datetime, timezone
 from typing import Literal
 
-from agents import Agent, ModelSettings, Runner, set_tracing_disabled
+from agents import Agent, Runner, set_tracing_disabled
 from pydantic import BaseModel
 
 from rmr.content import arxiv, scopus_gateway, scrape
-from rmr.llm import openrouter_model
+from rmr.llm import chat_model, model_settings
 from rmr.paths import (PROJECT_ROOT, abstract_path, ensure_parent, full_path,
                        step_output_path)
 
@@ -66,6 +66,10 @@ HF_KEYWORDS_PROMPT = PROJECT_ROOT / "prompts" / "step3-hf-keywords.md"
 SCREEN_PROMPT = PROJECT_ROOT / "prompts" / "step3-abstract-screening.md"
 MAX_KEYWORDS = 5
 SUBSTEPS = ["scrape", "summary", "screen"]
+# Cap the output budget so OpenRouter reserves credit for a small completion (without an
+# explicit cap it reserves the model's full output window, which can trip a 402 on low balance).
+SUMMARY_MAX_TOKENS = 35662
+SCREEN_MAX_TOKENS = 35662
 
 PENDING, SCRAPED, SUMMARIZED, SCREENED = "pending", "scraped", "summarized", "screened"
 
@@ -303,12 +307,12 @@ def _phase_summary(origin, survivors, by_id, save) -> None:
     # keywords. Other grey sources have no structure: the LLM writes a full summary.
     is_hf = origin == "hf"
     prompt = HF_KEYWORDS_PROMPT if is_hf else SUMMARY_PROMPT
-    model, _ = openrouter_model()
+    model, _ = chat_model()
     agent = Agent(
         name="HF keyword extractor" if is_hf else "Summarizer",
         instructions=prompt.read_text(encoding="utf-8"),
         model=model,
-        model_settings=ModelSettings(temperature=0.2),
+        model_settings=model_settings(max_tokens=SUMMARY_MAX_TOKENS),
         output_type=KeywordsResult if is_hf else SourceSummary,
     )
     for survivor in survivors:
@@ -349,13 +353,13 @@ def _phase_summary(origin, survivors, by_id, save) -> None:
 
 def _phase_screen(origin, survivors, by_id, state, save) -> None:
     ready = _ready_status(origin)
-    model, model_name = openrouter_model()
+    model, model_name = chat_model()
     state["model"] = model_name
     agent = Agent(
         name="Abstract screener",
         instructions=SCREEN_PROMPT.read_text(encoding="utf-8"),
         model=model,
-        model_settings=ModelSettings(temperature=0.2),
+        model_settings=model_settings(max_tokens=SCREEN_MAX_TOKENS),
         output_type=ScreeningResult,
     )
     for survivor in survivors:

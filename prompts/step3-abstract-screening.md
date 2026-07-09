@@ -18,7 +18,7 @@ Inclusion criteria (condition = the source satisfies it):
 - IC2: it applies Generative AI methods (LLMs or closely related techniques).
 - IC3: it describes a practical implementation, not a purely theoretical proposal.
 - IC4: it presents a usable solution (a prototype or a deployed tool), not just a concept ('just a concept' also includes posts on social media posts platforms such as LinkedIn, Youtube, Reddit, X/Twitter, and the like).
-- IC5: it was published after December 2021 and up to 2025 (judge only if the date is evident).
+- IC5: it was published after 2020 and before 2027, i.e. between 2021 and 2026 (judge only if the date is evident).
 
 Exclusion criteria (condition = the exclusion applies):
 - EC4: it is written in a language other than English with no English version.

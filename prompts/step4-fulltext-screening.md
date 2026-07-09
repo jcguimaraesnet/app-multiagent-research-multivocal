@@ -30,7 +30,7 @@ Inclusion criteria (condition = the source satisfies it):
       "empirical case" (an empirical case of the solution applied in the field, including blog post or a popular code repository in gray literature).
   If it is neither, IC3 is "not_met" and "type" is left "" (empty).
 - IC4: it presents a usable solution (a prototype or a deployed tool), not just a concept.
-- IC5: it was published after December 2021 and up to 2025.
+- IC5: it was published after 2020 and before 2027, i.e. between 2021 and 2026.
 
 Exclusion criteria (condition = the exclusion applies):
 - EC4: it is written in a language other than English with no English version.

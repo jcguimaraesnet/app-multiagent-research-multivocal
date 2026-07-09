@@ -36,7 +36,7 @@ from rmr.paths import ensure_parent, step_output_path
 SEARCH_URL = "https://api.firecrawl.dev/v2/search"
 
 # --- Invariant execution rules for the grey channels ---
-TBS = "cdr:1,cd_min:1/1/2022,cd_max:12/31/2025"  # after Dec 2021, up to 2025 (IC5)
+TBS = "cdr:1,cd_min:1/1/2021,cd_max:12/31/2026"  # 2021 to 2026 (IC5)
 COUNTRY = "US"
 TARGET_TOTAL = 100    # channel target of UNIQUE results across ALL sub-queries (meta-protocol §3.5)
 POP_CHUNK_SIZE = 3    # population terms per sub-query (keeps the query short enough)

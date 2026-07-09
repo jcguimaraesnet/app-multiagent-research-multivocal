@@ -37,10 +37,10 @@ from typing import Literal
 
 import pymupdf4llm
 import requests
-from agents import Agent, ModelSettings, Runner, set_tracing_disabled
+from agents import Agent, Runner, set_tracing_disabled
 from pydantic import BaseModel
 
-from rmr.llm import openrouter_model
+from rmr.llm import chat_model, model_settings
 from rmr.paths import (PROJECT_ROOT, ensure_parent, full_path, pdf_path,
                        step_output_path)
 from rmr.screening.abstract import read_abstract
@@ -50,8 +50,8 @@ set_tracing_disabled(True)
 ANSWER_PROMPT = PROJECT_ROOT / "prompts" / "step4-research-answers.md"
 SCREEN_PROMPT = PROJECT_ROOT / "prompts" / "step4-fulltext-screening.md"
 FULLTEXT_MAX_CHARS = 150000  # cap the text sent to the model (a full paper fits comfortably)
-ANSWER_MAX_TOKENS = 2000    # output budget: the 8 research answers (note + value) fit easily
-SCREEN_MAX_TOKENS = 2000    # output budget: the binary-verdict JSON with the extra IC2/IC3 fields
+ANSWER_MAX_TOKENS = 35662    # output budget: the 8 research answers (note + value) fit easily
+SCREEN_MAX_TOKENS = 35662    # output budget: the binary-verdict JSON with the extra IC2/IC3 fields
 SCREEN_ATTEMPTS = 2         # retry a malformed/failed response before leaving it pending
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/120 Safari/537.36")
@@ -421,21 +421,21 @@ def step4_fulltext_screening(origin: str) -> dict:
     counts = {st: sum(1 for r in records if r["status"] == st) for st in _statuses(origin)}
     print(f"[{origin}] step 4: {len(records)} survivors; status={counts}")
 
-    llm, model_name = openrouter_model()
+    llm, model_name = chat_model()
     state["model"] = model_name
     # Give the structured JSON room to finish; a cut-off response is invalid JSON.
     answer_agent = Agent(
         name="Research-question answerer",
         instructions=ANSWER_PROMPT.read_text(encoding="utf-8"),
         model=llm,
-        model_settings=ModelSettings(temperature=0.2, max_tokens=ANSWER_MAX_TOKENS),
+        model_settings=model_settings(max_tokens=ANSWER_MAX_TOKENS),
         output_type=ResearchAnswers,
     )
     screen_agent = Agent(
         name="Full-text screener",
         instructions=SCREEN_PROMPT.read_text(encoding="utf-8"),
         model=llm,
-        model_settings=ModelSettings(temperature=0.2, max_tokens=SCREEN_MAX_TOKENS),
+        model_settings=model_settings(max_tokens=SCREEN_MAX_TOKENS),
         output_type=FullTextScreeningResult,
     )
 

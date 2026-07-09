@@ -20,8 +20,8 @@ SEARCH_URL = "https://api.elsevier.com/content/search/scopus"
 
 # --- Invariant execution rules for the Scopus channel ---
 FIELD_SCOPE = "TITLE-ABS-KEY"  # match terms in title, abstract, and author keywords
-START_YEAR = 2021              # PUBYEAR > 2021
-END_YEAR = 2026                # PUBYEAR < 2026
+START_YEAR = 2020              # PUBYEAR > 2020 (i.e. 2021 onward)
+END_YEAR = 2027                # PUBYEAR < 2027 (i.e. up to 2026)
 SUBJAREA = "COMP"              # Computer Science subject area
 DOCTYPE = "ar"                 # articles only (rapid-review scope)
 LANGUAGE = "English"
