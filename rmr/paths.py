@@ -65,6 +65,14 @@ def validation_dir(step: int) -> Path:
     return DATA_DIR / "validation" / config.model_experiment() / f"step-{step}"
 
 
+def review_dir() -> Path:
+    """Directory for the blind human-review spreadsheets of the current model experiment:
+    ``data/review/<MODEL_EXPERIMENT>/`` (step 5). Kept per experiment so review sheets of
+    different models do not mix."""
+    from rmr import config  # local import avoids a circular import at module load
+    return DATA_DIR / "review" / config.model_experiment()
+
+
 def ensure_parent(path: Path) -> None:
     """Create the parent directory of ``path`` if it does not exist."""
     path.parent.mkdir(parents=True, exist_ok=True)

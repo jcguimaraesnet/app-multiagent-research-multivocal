@@ -13,12 +13,14 @@ def build_parser() -> argparse.ArgumentParser:
         description="Rapid Multivocal Review pipeline: run search and filtering per origin and step.",
     )
     parser.add_argument(
-        "--origin", required=True, choices=ORIGINS,
-        help="Source to process: " + ", ".join(ORIGINS) + ".",
+        "--origin", choices=ORIGINS,
+        help="Source to process: " + ", ".join(ORIGINS) + ". Required for steps 1-4; "
+             "ignored for step 5 (which aggregates all origins).",
     )
     parser.add_argument(
         "--step", required=True, type=int, choices=list(STEPS),
-        help="1 initial complete search, 2 title, 3 abstract & keywords, 4 full text.",
+        help="1 initial complete search, 2 title, 3 abstract & keywords, 4 full text, "
+             "5 export blind human-review spreadsheets (all origins).",
     )
     parser.add_argument(
         "--substep", choices=SUBSTEPS, default=None,
@@ -32,6 +34,12 @@ def main(argv=None) -> None:
     args = parser.parse_args(argv)
     if args.substep and args.step != 3:
         parser.error("--substep is only valid with --step 3")
+    if args.step == 5:
+        from rmr import review  # local import keeps the openpyxl dependency out of steps 1-4
+        review.export_review_sheets()
+        return
+    if not args.origin:
+        parser.error("--origin is required for steps 1-4")
     try:
         steps.check_prerequisite(args.origin, args.step)
         steps.run(args.origin, args.step, args.substep)

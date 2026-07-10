@@ -21,6 +21,7 @@ STEPS = {
     2: "title screening",
     3: "abstract & keywords screening",
     4: "full-text screening",
+    5: "export blind human-review spreadsheets",
 }
 
 

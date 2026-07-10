@@ -6,6 +6,7 @@ requires-python = ">=3.11"
 dependencies = [
     "defusedxml>=0.7.1",
     "openai-agents>=0.17.7",
+    "openpyxl>=3.1.5",
     "pymupdf4llm>=1.28.0",
     "requests>=2.31",
 ]
