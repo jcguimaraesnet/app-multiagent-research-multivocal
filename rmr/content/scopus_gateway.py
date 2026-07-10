@@ -22,13 +22,27 @@ GATEWAY_URL = "https://www.scopus.com/gateway/doc-details/documents/{eid}"
 FIRECRAWL_SCRAPE_URL = "https://api.firecrawl.dev/v2/scrape"
 COOKIE_FILE = DATA_DIR / ".scopus_cookie.txt"
 
+# A real gateway response is a JSON document carrying at least one of these keys. A login /
+# redirect page (served when the session cookie is stale) does not, which is how we tell an
+# expired cookie apart from a genuinely empty document.
+_DOCUMENT_KEYS = ("abstract", "authorKeywords", "openAccess", "source")
+
+
+class ScopusAuthError(RuntimeError):
+    """The Scopus gateway did not return document data, most likely because the session
+    cookie is missing or expired (it served a login/redirect page instead of the JSON)."""
+
 
 def _cookie() -> str:
     if not COOKIE_FILE.exists() or not COOKIE_FILE.read_text(encoding="utf-8").strip():
-        raise RuntimeError(
+        raise ScopusAuthError(
             f"Scopus session cookie missing. Paste the browser Cookie header into {COOKIE_FILE}."
         )
     return COOKIE_FILE.read_text(encoding="utf-8").strip()
+
+
+def _is_document(data: dict) -> bool:
+    return isinstance(data, dict) and any(key in data for key in _DOCUMENT_KEYS)
 
 
 def _parse(raw: str) -> dict | None:
@@ -70,11 +84,23 @@ def fetch_details(eid: str) -> dict | None:
         )
         if resp.status_code != 200:
             return None
-        data = _parse(resp.json().get("data", {}).get("rawHtml", "") or "")
+        raw = resp.json().get("data", {}).get("rawHtml", "") or ""
     except requests.RequestException:
         return None
-    if not data:
-        return None
+    if not raw.strip():
+        return None  # empty response: transient proxy/gateway hiccup, retry later
+
+    data = _parse(raw)
+    if not _is_document(data or {}):
+        # Non-empty response that is not the document JSON: the gateway served a login/redirect
+        # page, so the session cookie is stale. Fail loudly instead of writing empty content.
+        raise ScopusAuthError(
+            "Scopus gateway returned no document data for "
+            f"eid={eid!r}; the session cookie in {COOKIE_FILE} is most likely expired. "
+            "Refresh it from a logged-in browser session (copy the Cookie header) and re-run "
+            "the scrape substep. If the cookie is fresh, the gateway may have returned an "
+            "unexpected response for this EID."
+        )
 
     abstract = data.get("abstract") or []
     return {

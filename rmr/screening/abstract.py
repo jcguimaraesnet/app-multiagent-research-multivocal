@@ -391,6 +391,14 @@ def _phase_screen(origin, survivors, by_id, state, save) -> None:
         if record["status"] != ready:
             continue
         captured = read_abstract(origin, rid)
+        if _is_academic(origin) and not (captured.get("abstract") or "").strip():
+            # An empty abstract on a scopus record means the gateway scrape did not really
+            # succeed (typically a stale session cookie). Don't screen empty content: warn and
+            # leave the record at SCRAPED so a re-run of the scrape substep (with a fresh
+            # cookie in data/.scopus_cookie.txt) can repopulate it.
+            print(f"[{origin}] screen {rid}: empty abstract; refresh the Scopus cookie and "
+                  f"re-run the scrape substep -> skipped")
+            continue
         user_msg = _screen_message(origin, captured)
         result: ScreeningResult = run_sync_english(
             agent, user_msg, label=f"[{origin}] screen {rid}")
