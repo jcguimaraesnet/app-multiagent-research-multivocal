@@ -1,0 +1,14 @@
+{
+  "title": "Retrieval-Augmented Code Generation: A Survey with Focus on Repository-Level Approaches",
+  "link": "https://arxiv.org/html/2510.04905v1",
+  "summary": "This survey provides a comprehensive review of Retrieval-Augmented Code Generation (RACG), with a particular focus on repository-level approaches where large language models must generate code spanning entire software repositories. It systematically categorizes existing work by retrieval strategy (non-graph-based and graph-based), training paradigms, agent architectures, downstream tasks, benchmarks, programming language support, and backbone models. The paper identifies limitations such as context window constraints, retrieval noise, and limited evaluation realism, and outlines future directions including multimodal code generation, graph-agent integration, and more realistic benchmarks. By synthesizing the state of the art, the survey aims to establish a unified analytical framework and inspire further research in AI-powered software engineering.",
+  "author": "Yicheng Tao, Yao Qin, Yepang Liu",
+  "publication_date": "2025-10-06",
+  "keywords": [
+    "Retrieval-Augmented Code Generation",
+    "Repository-Level Code Generation",
+    "Survey",
+    "Large Language Models",
+    "Code Retrieval"
+  ]
+}

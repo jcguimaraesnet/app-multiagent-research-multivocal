@@ -1,0 +1,3513 @@
+{
+  "origin": "google",
+  "step": 4,
+  "model": "",
+  "updated_at": "2026-07-10T04:26:39.778727+00:00",
+  "count": 37,
+  "by_status": {
+    "pending": 0,
+    "answered": 0,
+    "screened": 37
+  },
+  "included": 26,
+  "excluded": 11,
+  "records": [
+    {
+      "id": "GO1",
+      "status": "screened",
+      "data": {
+        "title": "Code Generation using Retrieval Augmented Generation + LangChain",
+        "link": "https://medium.com/@rubenszimbres/code-generation-using-retrieval-augmented-generation-langchain-861e3c1a1a53"
+      },
+      "answers": {
+        "solution_name": "LangChain + code-bison + RAG",
+        "RQa": {
+          "note": "The solution is described in a Medium blog post.",
+          "value": "Blog / article",
+          "evidence": "Code Generation using Retrieval Augmented Generation + LangChain (Medium article by Rubens Zimbres)"
+        },
+        "RQb": {
+          "note": "The solution is a framework for code generation that can be adapted for specific domains using RAG, making it general-purpose.",
+          "value": "General-purpose (GP)",
+          "evidence": "There are many possibilities for improvement and model tuning in RAG: ... you can develop your own ChatGPT — Duet AI code companion. For instance, if you are developing a PyTorch notebook, you can RAG the PyTorch GitHub repo to get a code companion specifically for your needs."
+        },
+        "RQc": {
+          "note": "The solution uses LangChain (open-source) and Google Cloud Vertex AI services, which may incur costs.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "Google ML Developer Programs team supported this work by providing Google Cloud Credit"
+        },
+        "RQd": {
+          "note": "The accuracy and hallucination of the generated code are concerns, as evidenced by the zero-shot prompt generating a useless import and the note that RAG can reduce hallucinations.",
+          "value": "Technical limitations",
+          "evidence": "We use low temperature to reduce hallucinations."
+        },
+        "RQe": {
+          "note": "The article describes a functional prototype and explores tuning possibilities, presenting it as an experimental setup.",
+          "value": "Experimental or beta phase",
+          "evidence": "There are many possibilities for improvement and model tuning in RAG ... its hyperparameters should be set according to the specificity of the problem being approached."
+        },
+        "RQf": {
+          "note": "The blog post itself serves as a tutorial with code examples, but no dedicated support channels or community are mentioned for this specific combination.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "Here are the tasks we will perform: ... We will install the necessary libraries: ... Let’s run it: ..."
+        },
+        "RQg": {
+          "note": "The solution is targeted at software developers, specifically those proficient in Python.",
+          "value": "Developers",
+          "evidence": "You are a proficient python developer. Respond with the syntactically correct & concise code for to the question below."
+        },
+        "RQh": {
+          "note": "The article does not describe industrial case studies or large-scale user studies to validate the proposal.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution is applied to code generation (Python) within a software repository context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Applies LangChain and Vertex AI code-bison LLM for software construction activity.",
+            "type": "tool",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Describes a practical implementation with runnable code and a working prototype.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Presents a functional prototype using LangChain, FAISS, and Vertex AI to generate code."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The article is dated November 15, 2023."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Article is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Article is a tutorial and demonstration of a solution, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO2",
+      "status": "screened",
+      "data": {
+        "title": "RAG for Code Generation, an AI Hacker Cup example",
+        "link": "https://www.youtube.com/watch?v=cObBj2UpWK8"
+      },
+      "answers": {
+        "solution_name": "RAG Code Generation Agent",
+        "RQa": {
+          "note": "The solution is presented as a lecture in the NeurIPS HackerCup AI Competition 2024 lecture series, a video tutorial.",
+          "value": "Course / educational",
+          "evidence": "As presented at the NeurIPS HackerCup AI Competition (HAC) 2024 lecture series"
+        },
+        "RQb": {
+          "note": "The solution is a code generation agent tailored for competitive programming challenges, using retrieval augmented generation and multi-agent strategies.",
+          "value": "Domain or language-specific",
+          "evidence": "Explore the advancements in LLM-powered competitive programming through this in-depth analysis of Retrieval Augmented Generation (RAG) for code generation agents."
+        },
+        "RQc": {
+          "note": "The agent’s code is publicly shared on GitHub as part of starter kits, making it open-source and free to use, though it relies on commercial LLM APIs.",
+          "value": "Open-source / free",
+          "evidence": "all of this code is on GitHub in the starta kits and like you can sort of like take a look"
+        },
+        "RQd": {
+          "note": "The approach faces technical issues such as dependency on initial solution quality, risk of hallucination, memory/time constraints, and the need for efficient large‑scale retrieval.",
+          "value": "Technical limitations",
+          "evidence": "if you start with a bad solution … you will end up with a bad trajectory … it's still bound to hallucinate … the whole point of … narrow down to a shorter subset was to … avoid … issues with memory and disk space"
+        },
+        "RQe": {
+          "note": "The agent is a prototype built for a competition, with limited evaluation on five practice problems and acknowledged scope for further work.",
+          "value": "Experimental or beta phase",
+          "evidence": "I spent a few days on this … there is like lot of scope for a lot more work"
+        },
+        "RQf": {
+          "note": "The solution is accompanied by a detailed video tutorial and its code is hosted on GitHub, which likely includes a readme and issue tracker.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "all of this code is on GitHub in the starta kits … this in-depth analysis … video showcases … the code that I used"
+        },
+        "RQg": {
+          "note": "The target audience is machine learning engineers and developers interested in AI for competitive programming.",
+          "value": "Developers",
+          "evidence": "I'm a machine learning engineer … I hope this inspires you … for this competition"
+        },
+        "RQh": {
+          "note": "Validation was done through a small experiment on five practice problems, with no mention of industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "I tested on the five different problems from last year's practice samples"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution is a code generation agent for competitive programming, a software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution uses LLMs (GPT-4) and RAG to generate code, fitting the agent type and supporting the coding activity.",
+            "type": "agent",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The video presents a practical prototype and its evaluation, which qualifies as an empirical case in gray literature.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "A working agent prototype is described and code is publicly available."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in August 2024, within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The video is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a presentation of a concrete solution, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO3",
+      "status": "screened",
+      "data": {
+        "title": "Context-aware code generation: RAG and Vertex AI Codey APIs | Google Cloud Blog",
+        "link": "https://cloud.google.com/blog/products/ai-machine-learning/context-aware-code-generation-rag-and-vertex-ai-codey-apis"
+      },
+      "answers": {
+        "solution_name": "Vertex AI Codey APIs",
+        "RQa": {
+          "note": "The text is a blog article posted on the Google Cloud Blog.",
+          "value": "Blog / article",
+          "evidence": "Posted in - AI & Machine Learning"
+        },
+        "RQb": {
+          "note": "Codey APIs are a suite of code generation models for general coding tasks, including code completion, code generation, and code chat.",
+          "value": "General-purpose (GP)",
+          "evidence": "Codey APIs, a suite of code generation models that can help software developers complete coding tasks faster."
+        },
+        "RQc": {
+          "note": "Vertex AI Codey APIs are available through Vertex AI, with a free trial, indicating a commercial product with freemium model.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "To get started with Codey, you can sign up for a free trial of Vertex AI."
+        },
+        "RQd": {
+          "note": "The article notes that RAG can generate inaccurate or misleading results due to knowledge base issues or misinterpretation, indicating technical limitations.",
+          "value": "Technical limitations",
+          "evidence": "RAG can generate inaccurate or misleading results. This is because the knowledge base or other external source that RAG uses may not be accurate or up-to-date, or the LLM may not be able to correctly interpret the information from the knowledge base."
+        },
+        "RQe": {
+          "note": "Codey APIs are part of Vertex AI, a generally available cloud platform, and the blog describes them as ready for use with integration into IDEs.",
+          "value": "Production-ready",
+          "evidence": "you can sign up for a free trial of Vertex AI."
+        },
+        "RQf": {
+          "note": "The article provides links to documentation and a step-by-step Jupyter notebook, but no mention of forums, issue trackers, or community channels.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "For detailed instructions on how to do this, you can follow the steps in the following notebook"
+        },
+        "RQg": {
+          "note": "The target users are software developers.",
+          "value": "Developers",
+          "evidence": "help software developers complete coding tasks faster."
+        },
+        "RQh": {
+          "note": "The article does not mention any industrial case studies or large-scale user studies; it only shows a demonstration example.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "the tool/technology operates in the software engineering context (coding)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "the solution uses Large Language Models (Codey APIs) for code generation and completion activities.",
+            "type": "language model",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "the article is a vendor blog post demonstrating the solution; it is not a primary study nor an empirical case of field application.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "the Vertex AI Codey APIs are a deployed, usable code generation tool available on Google Cloud."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "published in 2024, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "the article is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "the article is a technical blog post, not a secondary/tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO5",
+      "status": "screened",
+      "data": {
+        "title": "L2MAC: Large Language Model Automatic Computer for Extensive Code Generation // van der Schaar Lab",
+        "link": "https://www.vanderschaar-lab.com/l2mac/"
+      },
+      "answers": {
+        "solution_name": "L2MAC",
+        "RQa": {
+          "note": "The solution is presented in a blog article on the van der Schaar Lab website.",
+          "value": "Blog / article",
+          "evidence": "L2MAC: Large Language Model Automatic Computer for Extensive Code Generation"
+        },
+        "RQb": {
+          "note": "L2MAC is described as working for general-purpose, extensive text-based tasks beyond code, such as writing an entire book.",
+          "value": "General-purpose (GP)",
+          "evidence": "we showed that L2MAC works for general-purpose, extensive text-based tasks, such as writing an entire book"
+        },
+        "RQc": {
+          "note": "The code for L2MAC is publicly available on GitHub, allowing users to run it for their own tasks.",
+          "value": "Open-source / free",
+          "evidence": "you can get started running L2MAC for your own task or building your own complete application with the corresponding code (https://github.com/samholt/l2mac)."
+        },
+        "RQd": {
+          "note": "The authors identify technical limitations, noting future work is needed to handle complex instruction flows and improve interpretability.",
+          "value": "Technical limitations",
+          "evidence": "exciting avenues for future work include addressing complex instruction flows (such as having instructions with if / else conditions and loops) and enhancing the interpretability of prompt programs."
+        },
+        "RQe": {
+          "note": "The solution is an initial work accepted at a conference, indicating it is in an experimental or beta phase.",
+          "value": "Experimental or beta phase",
+          "evidence": "While L2MAC is an initial work, it is an important step forward"
+        },
+        "RQf": {
+          "note": "A user guide is provided for generating a book, and the GitHub repository contains the code.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "Here is the code we used to generate this book on GitHub (https://samholt.github.io/L2MAC/guide/use_cases/book_generator.html)."
+        },
+        "RQg": {
+          "note": "The solution targets developers, as it is aimed at generating large code bases.",
+          "value": "Developers",
+          "evidence": "such tasks, for example, include generating a large code base complete with many files"
+        },
+        "RQh": {
+          "note": "The evaluation uses standard benchmarks but does not report industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "evaluated Code-L2MAC on the standard HumanEval benchmark and observed that it achieves a competitive score of 90.2% Pass@1"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution is explicitly designed for extensive code-base generation in software engineering contexts."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "L2MAC is a framework that applies LLMs to the software construction activity of coding.",
+            "type": "technique/solution",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The blog describes an implemented system (Code-L2MAC) with experimental results and published code, making it a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "A practical instantiation (Code-L2MAC) with released code is provided, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is April 15, 2024, which falls within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a blog post presenting a new framework, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO6",
+      "status": "screened",
+      "data": {
+        "title": "RAGdeterm: Deterministic retrieval-augmented generation for code generation",
+        "link": "https://www.sciencedirect.com/science/article/pii/S2352711026001299"
+      },
+      "answers": {
+        "solution_name": "RAGdeterm",
+        "RQa": {
+          "note": "The solution is described in a journal article published in SoftwareX.",
+          "value": "Academic Paper",
+          "evidence": "SoftwareX, Volume 34, June 2026, 102636"
+        },
+        "RQb": {
+          "note": "The solution is a technique for augmenting LLM prompts for code generation using deterministic relational database retrieval.",
+          "value": "General-purpose (GP)",
+          "evidence": "RAGdeterm enriches prompts using a relational database that explicitly represents object-oriented code structures and dependencies, rather than vector embeddings and similarity search."
+        },
+        "RQc": {
+          "note": "The article is published under an open access Creative Commons license, indicating free availability of the published source. The exact access and usage model of the solution itself beyond the paper is not specified, but it is presented as open access.",
+          "value": "Open-source / free",
+          "evidence": "Under a Creative Commons license; Open access"
+        },
+        "RQd": {
+          "note": "The solution is an alternative to embedding-based RAG and agentic approaches, which can be considered a technical limitation.",
+          "value": "Technical limitations",
+          "evidence": "RAGdeterm is positioned as an alternative to traditional, enhanced, and agentic RAG approaches in software engineering where predictability and reproducibility are important."
+        },
+        "RQe": {
+          "note": "The paper introduces RAGdeterm as a proposed approach, implying it is in an experimental or beta phase.",
+          "value": "Experimental or beta phase",
+          "evidence": "This paper introduces RAGdeterm"
+        },
+        "RQf": {
+          "note": "The provided text does not mention any technical documentation, support, or active community features. The paper itself is the only source of information.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The solution is aimed at software development contexts using LLMs for code generation, targeting developers.",
+          "value": "Developers",
+          "evidence": "Large language models (LLMs) are increasingly used in software development..."
+        },
+        "RQh": {
+          "note": "The text does not mention any industrial case studies or large-scale user studies to validate the proposal.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution targets code generation in software development, clearly a software engineering context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies retrieval-augmented generation (Generative AI) to augment large language model prompts for code generation.",
+            "type": "technique/solution",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The provided text only introduces the approach without describing a concrete implementation, prototype, or empirical application.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No prototype or deployed tool is mentioned; only the conceptual deterministic RAG technique is described."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in June 2026, which falls within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study proposing a new technique, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO8",
+      "status": "screened",
+      "data": {
+        "title": "LangGraph: Building self-correcting RAG agent",
+        "link": "https://learnopencv.com/langgraph-self-correcting-agent-code-generation/"
+      },
+      "answers": {
+        "solution_name": "Self-Correcting RAG Agent",
+        "RQa": {
+          "note": "The solution is described in a blog article on LearnOpenCV.",
+          "value": "Blog / article",
+          "evidence": "Welcome back to our LangGraph series! In our previous post..."
+        },
+        "RQb": {
+          "note": "The agent is domain-specific, generating code only for the diffusers library.",
+          "value": "Domain or language-specific",
+          "evidence": "You are an expert coding assistant specializing in the Hugging Face diffusers library."
+        },
+        "RQc": {
+          "note": "The code is provided for free download, indicating an open-source/free access model.",
+          "value": "Open-source / free",
+          "evidence": "To easily follow along this tutorial, please download code by clicking on the button below. It's FREE!"
+        },
+        "RQd": {
+          "note": "The solution has operational constraints: a retry limit and dependency on live code execution via exec().",
+          "value": "Operational constraints",
+          "evidence": "looping until it succeeds or reaches a retry limit."
+        },
+        "RQe": {
+          "note": "The solution is presented as an experimental tutorial, not a production-ready product.",
+          "value": "Experimental or beta phase",
+          "evidence": "Experiment with this agent! Give it different code generation tasks, introduce artificial errors, and observe how it uses its internal loop to resolve issues."
+        },
+        "RQf": {
+          "note": "The blog post itself provides documentation and tutorial guidance.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "The article is a step-by-step tutorial with code download."
+        },
+        "RQg": {
+          "note": "The target users are developers building AI agents and generating code.",
+          "value": "Developers",
+          "evidence": "You are an expert coding assistant specializing in the Hugging Face diffusers library."
+        },
+        "RQh": {
+          "note": "No industrial case studies or large-scale user studies are mentioned; the article is a tutorial.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The blog post describes a code-generation agent that generates Python code for the diffusers library, clearly operating in software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution is an LLM-based RAG agent that performs code generation, a core coding activity.",
+            "type": "agent",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The blog provides a practical implementation with downloadable code, constituting a primary study proposing the solution.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The solution is a fully implemented prototype, with source code provided and runnable by users."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is July 29, 2025, which falls within the 2021–2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is in English, so the exclusion for non-English language does not apply."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The article is a tutorial/blog post, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO9",
+      "status": "screened",
+      "data": {
+        "title": "Retrieval-Augmented Generation (RAG) and LLMs for smart code generation: Advancing Plant Simulation SimTalk and beyond - Tecnomatix",
+        "link": "https://blogs.sw.siemens.com/tecnomatix/retrieval-augmented-generation-rag-and-llms-for-smart-code-generation-advancing-plant-simulation-simtalk-and-beyond/"
+      },
+      "answers": {
+        "solution_name": "SimTalk Copilot",
+        "RQa": {
+          "note": "The source is a blog post on the Siemens Tecnomatix blog describing an internal code generation assistant project.",
+          "value": "Blog / article",
+          "evidence": "This article first appeared on the Siemens Digital Industries Software blog at https://blogs.sw.siemens.com/tecnomatix/retrieval-augmented-generation-rag-and-llms-for-smart-code-generation-advancing-plant-simulation-simtalk-and-beyond/"
+        },
+        "RQb": {
+          "note": "The solution is specifically designed to generate SimTalk code, the scripting language for Siemens Plant Simulation software.",
+          "value": "Domain or language-specific",
+          "evidence": "building a code generation assistant for SimTalk, the scripting language used in Siemens Plant Simulation software."
+        },
+        "RQc": {
+          "note": "The text does not mention the access model, cost, or licensing for this solution, though it describes internal Siemens work.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "The text notes that SimTalk has limited publicly available training data and that off-the-shelf embedding models may not capture domain nuances without fine-tuning.",
+          "value": "Technical limitations",
+          "evidence": "SimTalk has limited publicly available training data... In certain cases where off-the-shelf embedding models are not trained on the domain of your interest, it will not be able to capture the nuances of user query. This will in turn harm the retrieval performance, leading to poor answers or hallucinations by LLMs."
+        },
+        "RQe": {
+          "note": "The blog describes an exploratory project and does not state it is production-ready; it discusses techniques and experiments.",
+          "value": "Experimental or beta phase",
+          "evidence": "Recently, I wrote about how we are applying artificial intelligence (AI) at Siemens to help our users gain major efficiencies and become more productive."
+        },
+        "RQf": {
+          "note": "The blog points to external Medium articles for deeper technical details but does not mention dedicated documentation, forums, trackers, release notes, or community chats.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The article mentions users of Plant Simulation who customize simulations with SimTalk, implying developers or simulation engineers.",
+          "value": "Developers",
+          "evidence": "This powerful tool enables our users to model, simulate, and optimize manufacturing systems and processes. By leveraging SimTalk, users can customize and extend standard simulation objects."
+        },
+        "RQh": {
+          "note": "No industrial case studies or large-scale user studies are described; the discussion is about technical exploration and evaluation strategies.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution generates SimTalk code, a scripting language used in manufacturing simulation, which is a software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The project applies LLMs with RAG to generate SimTalk code, a coding-phase activity.",
+            "type": "tool",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The blog post describes an implemented internal project with experiments, not a purely theoretical proposal.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The blog presents a prototype of a code generation assistant (SimTalk Copilot), not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The blog appears to be from 2025, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The blog is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The blog is a primary description of a project, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO12",
+      "status": "screened",
+      "data": {
+        "title": "Understanding LLMs for Code Generation",
+        "link": "https://www.youtube.com/watch?v=eaTIrJnkuNI"
+      },
+      "answers": {
+        "solution_name": "LLMs for Code Generation",
+        "RQa": {
+          "note": "The source is a live webinar (educational session) hosted by DataCamp, available on YouTube.",
+          "value": "Course / educational",
+          "evidence": "welcome to the webinar"
+        },
+        "RQb": {
+          "note": "The solution is a general-purpose approach to using large language models for code generation tasks, not tied to a specific domain.",
+          "value": "General-purpose (GP)",
+          "evidence": "As interest in leveraging LLMs for coding tasks continues to grow, companies are pushing the boundaries by transforming natural language into code generation, resulting in products like GitHub Copilot."
+        },
+        "RQc": {
+          "note": "The webinar and the technique it teaches are freely available; no cost is mentioned.",
+          "value": "Open-source / free",
+          "evidence": "Visibility: Public"
+        },
+        "RQd": {
+          "note": "The webinar highlights technical limitations such as tokenizer issues, context window constraints, staying up-to-date, and hallucination.",
+          "value": "Technical limitations",
+          "evidence": "The inherent challenges of LLMs for code generation."
+        },
+        "RQe": {
+          "note": "LLM-based code generation is already used in production tools like GitHub Copilot, indicating the technique is production-ready.",
+          "value": "Production-ready",
+          "evidence": "GitHub Copilot is an AI-powered code completion tool that is developed by GitHub and OpenAI and basically it allows us to get and to generate blocks of code or even a full program"
+        },
+        "RQf": {
+          "note": "The webinar provides slides and a hands-on notebook, but no mention of forums, issue trackers, release notes, or community chat.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "Resources: https://bit.ly/3XLfTgB   Code Along with Us in DataLab: https://bit.ly/4dslZbF"
+        },
+        "RQg": {
+          "note": "The session is aimed at developers and data scientists seeking to use LLMs for coding tasks.",
+          "value": "Developers",
+          "evidence": "Whether you're interested in understanding how models work for coding or looking for ways to streamline your coding workflow"
+        },
+        "RQh": {
+          "note": "The webinar is an educational session, not a validated study; no industrial case studies or large-scale user studies are mentioned.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It focuses on using LLMs for code generation tasks in software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It teaches prompt engineering techniques for coding activities.",
+            "type": "technique/solution",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It is an educational webinar, not a primary study proposing an implementation or an empirical case.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It teaches concepts and strategies but does not present a usable prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The webinar was published in 2024-10-01."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The main content and transcript are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is an educational webinar, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO15",
+      "status": "screened",
+      "data": {
+        "title": "A Collective Evaluation Platform for LLM Code Generation",
+        "link": "https://aclanthology.org/2025.acl-demo.48/"
+      },
+      "answers": {
+        "solution_name": "CodeArena",
+        "RQa": {
+          "note": "This is an academic paper published in ACL 2025 proceedings.",
+          "value": "Academic Paper",
+          "evidence": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)"
+        },
+        "RQb": {
+          "note": "CodeArena is an evaluation framework designed for code generation by LLMs.",
+          "value": "Domain or language-specific",
+          "evidence": "LLMs have reshaped code generation... numerous efforts to quantitatively evaluate their coding capabilities. ... we introduce CodeArena, an online evaluation framework tailored for LLM code generation."
+        },
+        "RQc": {
+          "note": "It ensures open access to submitted solutions and test cases, though no explicit pricing model is mentioned.",
+          "value": "Open-source / free",
+          "evidence": "CodeArena ensures open access to all submitted solutions and test cases"
+        },
+        "RQd": {
+          "note": "Key limitations include benchmark leakage, data dissipation, and system accessibility issues that affect assessment accuracy.",
+          "value": "Technical limitations",
+          "evidence": "persistent challenges, such as benchmark leakage, data dissipation, and limited system accessibility, continue to impede a timely and accurate assessment."
+        },
+        "RQe": {
+          "note": "The system is described in an active, working state addressing specific challenges.",
+          "value": "Experimental or beta phase",
+          "evidence": "its key innovation is a collective evaluation mechanism... a public repository of solutions and test cases... automation-ready APIs for seamless integration"
+        },
+        "RQf": {
+          "note": "The source provides APIs and public solutions, but does not mention forums, release notes, or community channels.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "open access to all submitted solutions and test cases and provides automation-friendly APIs"
+        },
+        "RQg": {
+          "note": "The solution targets developers engaged in LLM code generation evaluation.",
+          "value": "Developers",
+          "evidence": "substantially boosting developer productivity. ... tailored for LLM code generation."
+        },
+        "RQh": {
+          "note": "No industrial case studies or large-scale user studies are mentioned.",
+          "value": "Unspecified",
+          "evidence": "(a) collective evaluation system, (b) a public repository of solutions and test cases, and (c) automation-ready APIs"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies LLMs to the software-construction activity of code generation evaluation.",
+            "type": "tool",
+            "software_engineering_activity": "code generation evaluation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical implemented evaluation framework.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "CodeArena is a usable online evaluation framework with accessible APIs."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper was published in 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper presents a new evaluation framework, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO16",
+      "status": "screened",
+      "data": {
+        "title": "Enhancing LLM Code Generation with RAG and AST-Based Chunking",
+        "link": "https://vxrl.medium.com/enhancing-llm-code-generation-with-rag-and-ast-based-chunking-5b81902ae9fc"
+      },
+      "answers": {
+        "solution_name": "AST-Based Chunking",
+        "RQa": {
+          "note": "The source is a Medium blog post.",
+          "value": "Blog / article",
+          "evidence": "Enhancing LLM Code Generation with RAG and AST-Based Chunking"
+        },
+        "RQb": {
+          "note": "The solution is specifically aimed at code generation tasks.",
+          "value": "Domain or language-specific",
+          "evidence": "Code generation is one of the prominent applications."
+        },
+        "RQc": {
+          "note": "All components described are open-source libraries and no paid product is mentioned.",
+          "value": "Open-source / free",
+          "evidence": "pip3 install tree_sitter"
+        },
+        "RQd": {
+          "note": "The blog acknowledges context length limitations as a technical challenge.",
+          "value": "Technical limitations",
+          "evidence": "lengthy source code can exceed the context length limitations of both encoder and generation LLMs"
+        },
+        "RQe": {
+          "note": "The technique is presented as a tutorial with suggestions for further enhancement, indicating it is experimental.",
+          "value": "Experimental or beta phase",
+          "evidence": "We left this as an exercise for the reader to explore."
+        },
+        "RQf": {
+          "note": "The blog post itself serves as a tutorial, providing step-by-step instructions and code examples.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "Implementing AST-Based Chunking with Tree-Sitter"
+        },
+        "RQg": {
+          "note": "The intended users are developers working on code generation.",
+          "value": "Developers",
+          "evidence": "LLMs have been used to generate code snippets, documentation, and even entire programs."
+        },
+        "RQh": {
+          "note": "No industrial case studies or large-scale user studies are described; only a reference to an external repository is provided.",
+          "value": "Unspecified",
+          "evidence": "For practical implementation details, the AWS Science team has open-sourced a comprehensive evaluation framework at auto-rag-eval"
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is code generation, a software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution applies LLM-based code generation using RAG and AST-based chunking.",
+            "type": "technique/solution",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The blog post provides a practical tutorial with implementation code, fitting the empirical case definition.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The source describes a technique with code snippets but does not present a packaged prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The blog post was published in March 2025, within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a blog post describing a technique, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO18",
+      "status": "screened",
+      "data": {
+        "title": "LLM-based and Retrieval-Augmented Control Code Generation | Proceedings of the 1st International Workshop on Large Language Models for Code",
+        "link": "https://dl.acm.org/doi/10.1145/3643795.3648384"
+      },
+      "answers": {
+        "solution_name": "LLM-based and Retrieval-Augmented Control Code Generation",
+        "RQa": {
+          "note": "This is an academic paper published in the proceedings of the LLM4Code 2024 workshop.",
+          "value": "Academic Paper",
+          "evidence": "LLM4Code '24: Proceedings of the 1st International Workshop on Large Language Models for Code"
+        },
+        "RQb": {
+          "note": "The solution generates control code for industrial automation, making it domain-specific.",
+          "value": "Domain or language-specific",
+          "evidence": "Control code is designed and implemented for industrial automation applications that manage power plants, petrochemical processes, or steel production."
+        },
+        "RQc": {
+          "note": "The code is available in a public GitHub repository, suggesting an open-source/free prototype.",
+          "value": "Open-source / free",
+          "evidence": "Heiko Koziolek, ... 2023. LLM-CodeGen-RAG Github Repository. https://github.com/hkoziolek/LLM-CodeGen-RAG."
+        },
+        "RQd": {
+          "note": "The abstract does not mention any limitations, so the limitations are unspecified.",
+          "value": "Legal and ethical concerns",
+          "evidence": ""
+        },
+        "RQe": {
+          "note": "The solution is a prototypical implementation evaluated only in spot sample tests, not production-ready.",
+          "value": "Experimental or beta phase",
+          "evidence": "We have evaluated the method using a prototypical implementation ... In several spot sample tests"
+        },
+        "RQf": {
+          "note": "The GitHub repository likely provides a README as documentation and an issue tracker.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "Heiko Koziolek, ... 2023. LLM-CodeGen-RAG Github Repository. https://github.com/hkoziolek/LLM-CodeGen-RAG."
+        },
+        "RQg": {
+          "note": "The target users are control engineers, a role outside the typical developer/DevOps/QA categories.",
+          "value": "Others",
+          "evidence": "control engineers can benefit from the code generation capabilities"
+        },
+        "RQh": {
+          "note": "Only spot sample tests were performed; no industrial case studies or large-scale user studies are mentioned.",
+          "value": "Unspecified",
+          "evidence": "spot sample tests"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper focuses on generating control code for industrial automation, a software construction (coding) activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution applies GPT-4 (an LLM) to generate IEC 61131-3 ST control code, fitting a tool for code generation.",
+            "type": "tool",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper describes a prototypical implementation and evaluates it with spot sample tests, making it a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "A prototypical implementation based on GPT-4, LangChain, and Open-PLC is presented and tested."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper was published in 2024, within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary research article proposing a new method, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO22",
+      "status": "screened",
+      "data": {
+        "title": "Enhancing repository-level code completion with selective retrieval",
+        "link": "https://www.amazon.science/blog/enhancing-repository-level-code-completion-with-selective-retrieval"
+      },
+      "answers": {
+        "solution_name": "Repoformer",
+        "RQa": {
+          "note": "The solution is described in an academic paper presented at ICML 2024.",
+          "value": "Academic Paper",
+          "evidence": "In a paper we presented at this year’s International Conference on Machine Learning (ICML)"
+        },
+        "RQb": {
+          "note": "Repoformer is a method for repository-level code completion, which is a specific domain and language task.",
+          "value": "Domain or language-specific",
+          "evidence": "Enhancing repository-level code completion with selective retrieval"
+        },
+        "RQc": {
+          "note": "The text mentions using open-license repositories and fine-tuning an LLM, but does not specify the access model or cost of the resulting solution.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "The method has technical limitations, hypothesizing that performance could be improved with semantic retrieval using structure-aware chunking.",
+          "value": "Technical limitations",
+          "evidence": "We hypothesize that we can achieve better performance with semantic retrieval that uses structure-aware chunking rather than fixed lines of chunking. We leave this as future work."
+        },
+        "RQe": {
+          "note": "The solution is described as a research paper with future work planned, indicating it is experimental.",
+          "value": "Experimental or beta phase",
+          "evidence": "We leave this as future work."
+        },
+        "RQf": {
+          "note": "The text links to a paper presented at ICML and to code and datasets, suggesting documentation and repository access, but does not mention forums, issue trackers, release notes, or chat communities.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "In a paper we presented at this year’s International Conference on Machine Learning (ICML)... Code and datasets"
+        },
+        "RQg": {
+          "note": "The solution is a code completion tool, and the target users are developers.",
+          "value": "Developers",
+          "evidence": "Enhancing repository-level code completion with selective retrieval"
+        },
+        "RQh": {
+          "note": "The text does not mention industrial case studies or large-scale user studies; it describes experiments on benchmarks.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution operates in a software engineering context, specifically code completion in IDEs."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution fine-tunes an LLM (a Generative AI method) to perform code completion.",
+            "type": "technique/solution",
+            "software_engineering_activity": "code completion"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The blog describes a practical implementation (Repoformer) that was implemented and experimentally evaluated.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The Repoformer method has been implemented as a usable prototype with experimental results showing speed and accuracy improvements."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is October 17, 2024, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a blog post describing a single method (Repoformer), not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO23",
+      "status": "screened",
+      "data": {
+        "title": "RAGdeterm: Deterministic retrieval-augmented generation for code generation",
+        "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5986423"
+      },
+      "answers": {
+        "solution_name": "RAGdeterm",
+        "RQa": {
+          "note": "The solution is described in a peer-reviewed journal publication.",
+          "value": "Academic Paper",
+          "evidence": "SoftwareX, Volume 34, June 2026, 102636"
+        },
+        "RQb": {
+          "note": "The solution is a general-purpose method for enriching LLM prompts with project-specific code context for code generation.",
+          "value": "General-purpose (GP)",
+          "evidence": "RAGdeterm, a deterministic Retrieval-Augmented Generation approach proposed as an alternative to embedding-based RAG architectures. RAGdeterm enriches prompts using a relational database that explicitly represents object-oriented code structures and dependencies ... This design enables deterministic and repeatable retrieval of contextual information"
+        },
+        "RQc": {
+          "note": "The paper is published open access, but the access/cost model for the tool itself is not specified in the text.",
+          "value": "Unspecified",
+          "evidence": "Under a Creative Commons license. Open access"
+        },
+        "RQd": {
+          "note": "The solution's key constraint is its reliance on a relational database schema, which may limit adoption in projects or contexts that do not use object-oriented structures or relational databases to represent code dependencies.",
+          "value": "Technical limitations",
+          "evidence": "This paper introduces RAGdeterm, a deterministic Retrieval-Augmented Generation approach proposed as an alternative to embedding-based RAG architectures."
+        },
+        "RQe": {
+          "note": "The paper proposes a new approach, indicating it is in an experimental or beta phase and not yet described as production-ready.",
+          "value": "Experimental or beta phase",
+          "evidence": "This paper introduces RAGdeterm, a deterministic Retrieval-Augmented Generation approach proposed as an alternative..."
+        },
+        "RQf": {
+          "note": "The provided text does not mention any documentation, support channels, or community resources for this solution.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The solution is designed to support software developers by providing LLMs with better project-specific code context.",
+          "value": "Developers",
+          "evidence": "Large language models (LLMs) are increasingly used in software development, yet effective code generation requires reliable access to up-to-date project-specific source code."
+        },
+        "RQh": {
+          "note": "The abstract introduces the approach but does not mention any industrial case studies or user studies to validate it.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper focuses on code generation, a core software engineering (coding-phase) activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution uses LLMs with a deterministic RAG approach for code generation.",
+            "type": "technique/solution",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The abstract only introduces a concept and does not describe a practical implementation or concrete system.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No prototype, tool, or usable solution is described; the paper presents a method only."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in June 2026, falling within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study proposing a new approach, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO24",
+      "status": "screened",
+      "data": {
+        "title": "Code generation using Code Llama 70B and Mixtral 8x7B on Amazon SageMaker | Amazon Web Services",
+        "link": "https://aws.amazon.com/blogs/machine-learning/code-generation-using-code-llama-70b-and-mixtral-8x7b-on-amazon-sagemaker/"
+      },
+      "answers": {
+        "solution_name": "Code Llama 70B",
+        "RQa": {
+          "note": "The solution is described in a blog article on the AWS Machine Learning blog.",
+          "value": "Blog / article",
+          "evidence": "AWS Machine Learning Blog"
+        },
+        "RQb": {
+          "note": "The model can generate code across multiple programming languages and also handle natural language tasks, making it applicable for general-purpose use.",
+          "value": "General-purpose (GP)",
+          "evidence": "While both of these models excel at generating code, their capabilities extend beyond programming languages. They can also assist with natural language tasks, such as text generation, summarization, and question answering, making them versatile tools for various applications."
+        },
+        "RQc": {
+          "note": "The solution is deployed via Amazon SageMaker, a commercial cloud service, and running endpoints incurs costs.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "Delete the model endpoints deployed using Amazon SageMaker for Code Llama and Mistral to avoid incurring any additional costs in your account."
+        },
+        "RQd": {
+          "note": "The model may produce minor errors in generated code and is prone to hallucinations; human oversight is needed.",
+          "value": "Technical limitations",
+          "evidence": "Because the model might be prone to minor errors in generating the response output, make sure you run the code. ... You should be mindful of potential hallucinations when working with generative AI, and use the analysis only as a tool to assist and speed up code generation."
+        },
+        "RQe": {
+          "note": "The model is publicly available and can be deployed for use via SageMaker JumpStart, indicating it is production-ready.",
+          "value": "Production-ready",
+          "evidence": "Code Llama 70B and Mixtral 8x7B are available in Amazon SageMaker JumpStart, a hub that provides access to pre-trained models and solutions."
+        },
+        "RQf": {
+          "note": "The blog provides step-by-step deployment instructions and links to a GitHub repository with example code, serving as documentation and tutorial.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "Additional details on deployment can be found in Code Llama 70B is now available in Amazon SageMaker JumpStart ... as showcased in our GitHub repository."
+        },
+        "RQg": {
+          "note": "The solution is aimed at developers and data scientists for code generation tasks.",
+          "value": "Developers",
+          "evidence": "promises to revolutionize the way developers and data scientists approach coding tasks"
+        },
+        "RQh": {
+          "note": "The blog does not describe any industrial case studies or large-scale user studies to validate the proposal.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is clearly software engineering, with the model used for code generation, code infilling, and other coding tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution applies a Generative AI method (LLM) to multiple software construction activities like code generation and cross-language transformation.",
+            "type": "language model",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The blog post serves as an empirical case demonstrating the practical deployment and use of the models on Amazon SageMaker.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents a usable, deployable solution via SageMaker JumpStart, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The blog post was published on May 30, 2024, which falls within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is written in English, so there is no language barrier to inclusion."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a blog post demonstrating a practical tool and is not a secondary study such as a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO25",
+      "status": "screened",
+      "data": {
+        "title": "CodeRAG: Supportive Code Retrieval on Bigraph for Real-World Code Generation",
+        "link": "https://arxiv.org/html/2504.10046v1"
+      },
+      "answers": {
+        "solution_name": "CodeRAG",
+        "RQa": {
+          "note": "The paper is hosted on arXiv, an open-access repository for research papers, and formatted as an academic paper.",
+          "value": "Preprint",
+          "evidence": "arXiv:2504.10046v1 [cs.SE] 14 Apr 2025"
+        },
+        "RQb": {
+          "note": "CodeRAG is a general-purpose framework for real-world repo-level code generation, not limited to a specific domain or language feature.",
+          "value": "General-purpose (GP)",
+          "evidence": "CodeRAG, a retrieval-augmented code generation (RAG) framework to comprehensively retrieve supportive codes for real-world code generation."
+        },
+        "RQc": {
+          "note": "The paper describes various tools and an agentic framework but does not specify its licensing or cost model.",
+          "value": "Unspecified",
+          "evidence": "We store all nodes and edges of DS-code graph into Neo4j... we apply advanced LLM (i.e., DeepSeek-V2.5)... we use DuckDuckGo... we design a language server tool based on tree-sitter"
+        },
+        "RQd": {
+          "note": "The main limitations discussed are technical, such as reliance on LLM-generated requirements and the need for more accurate graph modeling methods.",
+          "value": "Technical limitations",
+          "evidence": "Threats to external validity include the quality of the datasets. ... we use LLMs to generate requirements... To ensure the reliability, we manually analyze... In the future, we will explore more accurate ways to model the requirement graph."
+        },
+        "RQe": {
+          "note": "The solution is presented as a research framework demonstrated through experiments, suggesting it is in an experimental phase.",
+          "value": "Experimental or beta phase",
+          "evidence": "In this paper, we propose CodeRAG... Experiments show that CodeRAG achieves significant improvements... These results highlight our framework's potential in real-world coding challenges."
+        },
+        "RQf": {
+          "note": "The paper provides detailed instructions for the requirement graph and references external code repositories (e.g., tree-sitter, Black), but does not explicitly mention forums, issue trackers, release notes, or community channels.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "We present the instructions employed in requirement graph, including requirement generation instructions and requirement relation extraction instructions. Each instruction has undergone iterative refinement..."
+        },
+        "RQg": {
+          "note": "The solution is designed to assist LLMs in code generation and is evaluated in the context of software development, targeting developers.",
+          "value": "Developers",
+          "evidence": "LLMs to adaptively and sequentially retrieve other supportive codes according to LLMs' needs... developers typically analyze..."
+        },
+        "RQh": {
+          "note": "Evaluation is performed on a standard benchmark dataset, without mention of industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "We employ a repo-level code generation dataset DevEval to evaluate CodeRAG on mainstream LLMs..."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution operates in the software construction context, focusing on repo-level code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "CodeRAG applies LLMs (e.g., GPT-4o) to automated code generation, a core coding activity.",
+            "type": "technique/solution",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper implements the framework and reports quantitative experiments on the DevEval dataset.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The framework is a working prototype that was evaluated against baselines and commercial tools."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published on arXiv in April 2025, which falls within the 2021–2026 timeframe."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper presents an original framework and experimental evaluation, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO26",
+      "status": "screened",
+      "data": {
+        "title": "AI-Driven Code Refactoring: Improving Legacy Codebases Automatically - Jorrik Klijnsma",
+        "link": "https://www.youtube.com/watch?v=u8tvVxUOwvY"
+      },
+      "answers": {
+        "solution_name": "AI-Driven Code Refactoring (talk by Jorrik Klijnsma)",
+        "RQa": {
+          "note": "The source is a talk recording from an NDC conference, available as a YouTube video. This is a presentation/session, so it's best classified under 'Blog / article' for a talk/video content.",
+          "value": "Blog / article",
+          "evidence": "This talk was recorded at NDC Melbourne in Melbourne, Australia."
+        },
+        "RQb": {
+          "note": "The talk discusses AI-driven code refactoring to improve legacy codebases, which is a general-purpose software development activity, not limited to specific domains or frontend/automation.",
+          "value": "General-purpose (GP)",
+          "evidence": "Step into the world of AI-powered code refactoring, where smart algorithms take on the challenge of sprucing up cluttered codebases."
+        },
+        "RQc": {
+          "note": "The text does not specify a cost or licensing model for the solution; it is a talk about the concept, so the access and usage model is unspecified.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "The talk mentions exploring the current limits of AI-driven refactoring, which points to technical limitations.",
+          "value": "Technical limitations",
+          "evidence": "explore real-world success stories, understand the current limits"
+        },
+        "RQe": {
+          "note": "The talk is about AI-powered refactoring concepts and tools; there's no claim of production readiness. It presents the state of the art, which suggests experimental or beta phase.",
+          "value": "Experimental or beta phase",
+          "evidence": "See how AI deciphers code DNA, performs digital reconstructive surgery, and scales from small scripts to sprawling systems. Explore real-world success stories, understand the current limits, and discover tools that'll make your development process smoother"
+        },
+        "RQf": {
+          "note": "The text is a YouTube video description; no technical documentation, forum, GitHub, release notes, or community links are provided.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The talk is aimed at developers, as indicated by the hashtags #softwaredeveloper #developer and the context of code refactoring.",
+          "value": "Developers",
+          "evidence": "#softwaredeveloper #developer"
+        },
+        "RQh": {
+          "note": "The text does not mention any collaboration with industry, case studies, or experiments.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The talk is about AI-driven code refactoring in software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies generative AI methods to refactoring, a coding-phase activity.",
+            "type": "technique/solution",
+            "software_engineering_activity": "refactoring"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The conference talk describes an empirical case of applying AI for refactoring.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The talk presents practical concepts and real-world stories, not just a theoretical concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The video was published on Jul 2, 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The text is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a conference talk, not a survey, review, or systematic mapping."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO34",
+      "status": "screened",
+      "data": {
+        "title": "Refactoring With AI — Thoughtworks Technology Podcast",
+        "link": "https://www.youtube.com/watch?v=Kx7eIYxKARk"
+      },
+      "answers": {
+        "solution_name": "CodeScene",
+        "RQa": {
+          "note": "The podcast discusses the tool CodeScene, which is described on the company's website and white papers. The source includes links to the CodeScene website and white papers.",
+          "value": "Product / vendor website",
+          "evidence": "CodeScene's new automated refactoring tool is now in beta. Learn more: https://codescene.com/campaigns/ai"
+        },
+        "RQb": {
+          "note": "CodeScene is a tool for analyzing code quality (code health) and provides automated refactoring suggestions. It is designed to work across codebases to improve maintainability, making it general-purpose.",
+          "value": "General-purpose (GP)",
+          "evidence": "what we've been working on for like the past six uh to seven years is to develop the codal metric... we have a tool that is capable of identifying bad code prioritizing it"
+        },
+        "RQc": {
+          "note": "The tool is a commercial product by CodeScene, which offers a beta version, implying a commercial (paid/freemium/enterprise) model.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "CodeScene's new automated refactoring tool is now in beta. Learn more: https://codescene.com/campaigns/ai"
+        },
+        "RQd": {
+          "note": "A key limitation identified in the discussion is that AI refactoring tools can introduce subtle behavioral changes (breaking tests in two-thirds of cases) or fail to improve code health. This is a technical limitation.",
+          "value": "Technical limitations",
+          "evidence": "in two-thirds of the cases the AI actually broke the tests meaning it's not a refactoring it has actually changed the behavior"
+        },
+        "RQe": {
+          "note": "The new automated refactoring tool from CodeScene is described as being in the beta phase.",
+          "value": "Experimental or beta phase",
+          "evidence": "CodeScene's new automated refactoring tool is now in beta."
+        },
+        "RQf": {
+          "note": "The description provides links to white papers and a website for learning more. There is no mention of forums, GitHub issue trackers, release notes, or Slack/Discord communities in the provided text.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "Read CodeScene's Refactoring vs. Refuctoring white paper... https://codescene.com/hubfs/whitepapers/... Learn more: https://codescene.com/campaigns/ai"
+        },
+        "RQg": {
+          "note": "The podcast discussion and the tool are aimed at software developers who refactor code and care about code quality.",
+          "value": "Developers",
+          "evidence": "what would you recommend for developers getting into using these coding assistants... we have a tool that is capable of identifying bad code prioritizing it but then of course you need to act on that data right you need to do something with the code improve it"
+        },
+        "RQh": {
+          "note": "The discussion references a white paper and study by CodeScene involving a benchmark of AI services on a data lake of 100,000 examples to validate their refactoring approach, but it does not mention collaboration with industry case studies.",
+          "value": "Unspecified",
+          "evidence": "we started out with was a data lake with more than 100,000 examples of poor code... we Benchmark a bunch of AI services"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The podcast discusses refactoring, code quality, and AI-assisted coding, clearly within software engineering context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The tool CodeScene applies generative AI to refactoring, a coding-phase activity.",
+            "type": "tool",
+            "software_engineering_activity": "refactoring"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The podcast presents the tool's practical implementation and its evaluation, fitting an empirical case from gray literature.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The tool is in beta and described as a usable automated refactoring solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The podcast was uploaded in April 2024, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English; the podcast and transcript are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a podcast discussion, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO36",
+      "status": "screened",
+      "data": {
+        "title": "Announcing AI-assisted refactoring in the Moderne Platform",
+        "link": "https://www.moderne.ai/blog/ai-assisted-refactoring-in-the-moderne-platform"
+      },
+      "answers": {
+        "solution_name": "Moderne Platform",
+        "RQa": {
+          "note": "The source is a blog post on the Moderne website.",
+          "value": "Blog / article",
+          "evidence": "https://moderne.ai/blog/ai-assisted-refactoring-in-the-moderne-platform/"
+        },
+        "RQb": {
+          "note": "The solution is an AI-assisted auto-refactoring platform for code transformation at scale.",
+          "value": "Automation (AU)",
+          "evidence": "We are announcing AI-assisted auto-refactoring in the Moderne Platform."
+        },
+        "RQc": {
+          "note": "The text does not specify the pricing or licensing model of the platform.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "The text implies that pure AI editing requires developer review and lacks accuracy at scale, highlighting a technical limitation that the proposed solution aims to address.",
+          "value": "Technical limitations",
+          "evidence": "Every single edit with AI is based on immediate context and is suggestive, requiring developer review. If you want to refactor at scale, you need accuracy and trust in your system."
+        },
+        "RQe": {
+          "note": "The solution is being announced and used for customer case studies, suggesting it is production-ready.",
+          "value": "Production-ready",
+          "evidence": "We are announcing AI-assisted auto-refactoring in the Moderne Platform. It’s the best of both worlds..."
+        },
+        "RQf": {
+          "note": "The text links to Moderne's administrative documentation.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "https://docs.moderne.io/administrator-documentation/moderne-platform/references/architecture"
+        },
+        "RQg": {
+          "note": "Developers are the target users who review and commit the changes.",
+          "value": "Developers",
+          "evidence": "The Moderne Platform produces diffs for developers to review and commit back to source code management (SCM)..."
+        },
+        "RQh": {
+          "note": "The text describes a specific case study with a customer to validate the proposal.",
+          "value": "Industrial case studies",
+          "evidence": "Une étude de cas avec l'intelligence artificielle: Finding and fixing misencoded French... One of our customers came to us with a problem ripe for an automated fix."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The platform operates in the software engineering context, specifically for code refactoring and transformation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It integrates AI LLMs with OpenRewrite recipes for code refactoring, a software-construction activity.",
+            "type": "tool",
+            "software_engineering_activity": "refactoring"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The blog post describes a concrete implementation used in a customer case study.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The Moderne Platform is a deployed tool with AI-assisted auto-refactoring capabilities, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The blog post is undated, but a related post is from 2026, falling within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is written in English except for one French section heading; an English version is available and the content is English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a blog post describing a practical solution, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO40",
+      "status": "screened",
+      "data": {
+        "title": "Can AI help me refactor legacy code?",
+        "link": "https://understandlegacycode.com/blog/can-ai-refactor-legacy-code/"
+      },
+      "answers": {
+        "solution_name": "Rubberduck",
+        "RQa": {
+          "note": "It describes a specific AI-powered coding assistant, Rubberduck, through a practical blog article with examples.",
+          "value": "Blog / article",
+          "evidence": "This is a follow-up to this post... I will be using Rubberduck... a blog article."
+        },
+        "RQb": {
+          "note": "Rubberduck is a general-purpose AI coding assistant used within the editor for various coding tasks, not limited to a specific domain or language.",
+          "value": "General-purpose (GP)",
+          "evidence": "I will be using Rubberduck: an AI-powered coding assistant for VS Code... it provides concrete actions for use cases such as: Diagnose Errors, Explain Code, Generate Tests, Edit Code, Find Bugs... I'm gonna use Rubberduck to assist me."
+        },
+        "RQc": {
+          "note": "The extension is explicitly described as open-source, with the author contributing to its development.",
+          "value": "Open-source / free",
+          "evidence": "I have been contributing to the extension myself... it's open-source, I have been contributing to the extension myself... it's an open-source project..."
+        },
+        "RQd": {
+          "note": "The article highlights technical limitations including inaccuracies, potential for regressions, and the need for manual oversight.",
+          "value": "Technical limitations",
+          "evidence": "AI makes mistakes. Yet, it sounds confident. If it doesn't know, it may just make things up... can I trust it? ...it has the nasty habit of making things up when it doesn't know... The risk is to introduce a regression."
+        },
+        "RQe": {
+          "note": "It is available on the VS Code marketplace and recommended for use, though it has a '0.x' version number suggesting it is beyond an internal prototype but not necessarily a mature 1.0 product; the text treats it as a usable tool.",
+          "value": "Experimental or beta phase",
+          "evidence": "I have been contributing to the extension myself... I happily recommend that you install the Rubberduck extension... I helped on improving it..."
+        },
+        "RQf": {
+          "note": "The project is open-source and contributions are mentioned, implicitly involving issue trackers; docs are not explicitly listed. No forum or Slack is mentioned.",
+          "value": [
+            "GitHub issue trackers"
+          ],
+          "evidence": "I have been contributing to the extension myself... it's an open-source project... GitHub issue trackers are implied by open-source contribution but not explicitly mentioned..."
+        },
+        "RQg": {
+          "note": "The tool is designed for and used by developers for coding tasks within an IDE.",
+          "value": "Developers",
+          "evidence": "I'm gonna use Rubberduck to assist me... If you are an expert, however, the results are even better since your instructions are clearer... For JS and TS devs using VS Code..."
+        },
+        "RQh": {
+          "note": "Validation is primarily done through a personal use case and a coding kata, not formal industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "I will be using Rubberduck... I've done this refactoring a lot, but today I'm gonna use Rubberduck to assist me... this playground... simulates what an actual legacy web application could look like..."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Met; the context is software refactoring, a core software construction (coding) activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Met; Rubberduck is an AI-powered coding assistant (LLM-based) used for refactoring code.",
+            "type": "tool",
+            "software_engineering_activity": "refactoring"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Met; the article is a practical, hands-on experience report (a blog post) applying the tool to a real coding kata.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Met; Rubberduck is a downloadable, usable VS Code extension, and the post demonstrates its workings."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Met; the post refers to recent trends like ChatGPT and is from 2023 onwards, placing its publication between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Not met; the text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Not met; it is a blog post describing personal use of a tool, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO42",
+      "status": "screened",
+      "data": {
+        "title": "LLM-Driven Code Refactoring: Opportunities and Limitations",
+        "link": "https://seal-queensu.github.io/publications/pdf/IDE-Jonathan-2025.pdf"
+      },
+      "answers": {
+        "solution_name": "LLM-Based Code Refactoring",
+        "RQa": {
+          "note": "The document is a position paper from an academic conference.",
+          "value": "Academic Paper",
+          "evidence": "In this position paper, we examine the limitations of existing LLM-based refactoring techniques."
+        },
+        "RQb": {
+          "note": "The solution is focused on code refactoring, which is a domain-specific task for software maintenance.",
+          "value": "Domain or language-specific",
+          "evidence": "Refactoring is a systematic process of improving code quality while preserving the functional behavior of the software."
+        },
+        "RQc": {
+          "note": "The paper does not specify an access model or cost for the overall LLM-driven refactoring approach it discusses.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "The paper highlights significant technical limitations of LLM-based refactoring, including hallucinations and lack of semantic correctness.",
+          "value": "Technical limitations",
+          "evidence": "LLMs are prone to generating “hallucinations,” for various reasons. For example, the LLMs suggest changes that are syntactically valid but semantically incorrect or the generated refactorings are irrelevant to the given context."
+        },
+        "RQe": {
+          "note": "The solution is described as having current limitations with proposed future research directions, indicating an experimental phase.",
+          "value": "Experimental or beta phase",
+          "evidence": "In this position paper, we examine the limitations of existing LLM-based refactoring techniques. We propose research directions to address these limitations and improve the quality of LLM-based code refactoring for reliable software maintenance."
+        },
+        "RQf": {
+          "note": "The paper does not mention any documentation, support channels, or community resources for the proposed LLM-based refactoring approach.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The solution is intended to assist developers in their coding and refactoring tasks.",
+          "value": "Developers",
+          "evidence": "LLMs have also demonstrated remarkable potential in generating and refactoring code...often require humans in the loop to verify the performed modifications."
+        },
+        "RQh": {
+          "note": "The paper references previous empirical studies comparing LLM to developer refactorings, but these are not large-scale user studies or industrial case studies validating a specific proposal.",
+          "value": "Unspecified",
+          "evidence": "In our previous work [7], we observe that StarCoder2 [8] demonstrates superior performance in reducing cohesion and complexity metrics..."
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper discusses code refactoring, a software engineering construction activity."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The paper is a position paper that does not present a concrete generative AI solution for a coding activity.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The paper is a purely theoretical position paper, not a primary study or empirical case.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No prototype or deployed tool is described."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper appears to be from 2024, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a position paper, not a secondary or tertiary study like a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO44",
+      "status": "screened",
+      "data": {
+        "title": "Code Refactoring with Agentic AI and Reinforcement Learning",
+        "link": "https://medium.com/@azirotechnologies/code-refactoring-with-agentic-ai-and-reinforcement-learning-e7f30a59397c"
+      },
+      "answers": {
+        "solution_name": "OpenAI Codex",
+        "RQa": {
+          "note": "The source is a blog article on Medium.",
+          "value": "Blog / article",
+          "evidence": "Medium blog post with title 'Code Refactoring with Agentic AI and Reinforcement Learning', author Aziro, 5 min read."
+        },
+        "RQb": {
+          "note": "The solution is a general-purpose AI agent for code refactoring, applicable across different software engineering tasks.",
+          "value": "General-purpose (GP)",
+          "evidence": "agentic AI systems can operate on codebases as virtual developers, iteratively identifying and applying refactorings to improve code quality."
+        },
+        "RQc": {
+          "note": "The text does not specify the access, license, or cost model for OpenAI Codex. No mention of free or commercial details.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "The primary limitation highlighted is the technical difficulty of defining effective reward functions for reinforcement learning.",
+          "value": "Technical limitations",
+          "evidence": "A central challenge is designing rewards that capture 'better code.'"
+        },
+        "RQe": {
+          "note": "The blog states Codex is proving the approach at scale, indicating production readiness.",
+          "value": "Production-ready",
+          "evidence": "Some prominent tools, such as OpenAI’s Codex and other experimental AI agents, are already proving that this approach works at scale."
+        },
+        "RQf": {
+          "note": "No documentation, forums, issue trackers, release notes, or community channels are mentioned for Codex in this article.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The intended users are software developers and development teams.",
+          "value": "Developers",
+          "evidence": "agentic AI systems can operate on codebases as virtual developers ... enabling development teams to focus on higher-value work."
+        },
+        "RQh": {
+          "note": "The article references Codex as a prominent tool but does not describe any case studies, user studies, or industrial collaboration beyond that mention.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The blog discusses code refactoring, which is a software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It describes the use of LLMs and RL in agentic AI for code refactoring, a coding activity, with OpenAI Codex as an example agent.",
+            "type": "agent",
+            "software_engineering_activity": "code refactoring"
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The blog is a conceptual overview and does not constitute a primary study proposing/implementing the solution nor an empirical case study of its application.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "OpenAI Codex is described as a deployed agentic tool that operates on code repositories, indicating a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is August 25, 2025, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The blog is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The blog is not a secondary or tertiary study; it is a general conceptual article."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO47",
+      "status": "screened",
+      "data": {
+        "title": "An empirical comparison of AI assisted software refactoring tools - Scientific Reports",
+        "link": "https://www.nature.com/articles/s41598-026-49590-0"
+      },
+      "answers": {
+        "solution_name": "Gemini",
+        "RQa": {
+          "note": "The solution is described in an article published in the journal Scientific Reports.",
+          "value": "Academic Paper",
+          "evidence": "An empirical comparison of AI assisted software refactoring tools"
+        },
+        "RQb": {
+          "note": "The solution is used for general-purpose code refactoring tasks, specifically evaluated on Python.",
+          "value": "General-purpose (GP)",
+          "evidence": "the three prominent AI-supported tools, namely ChatGPT, Gemini, and Codeium, in the context of basic Python code refactoring"
+        },
+        "RQc": {
+          "note": "The paper evaluates existing commercial/freemium APIs (ChatGPT, Gemini, Codeium) but does not specify its own solution's cost or licensing model.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "ChatGPT based upon model Open AI or GPT-3.5-turbo, Gemini based upon model of Google-Flash-1.5-8B and Codeium based upon Meta’s Llama 3.1405B model"
+        },
+        "RQd": {
+          "note": "The primary limitation noted is the degradation in effectiveness with increasing code size and complexity.",
+          "value": "Technical limitations",
+          "evidence": "all tools showed limitations when handling larger lines of code segments such as beyond 500 lines of code, suggesting that current AI-assisted refactoring tools may be more suitable for small to medium-sized codebases rather than full-scale projects"
+        },
+        "RQe": {
+          "note": "The study treats the tools as experimental subjects with limitations for full-scale projects, but the tools themselves (ChatGPT, Gemini, Codeium) are publicly available services.",
+          "value": "Experimental or beta phase",
+          "evidence": "current AI-assisted refactoring tools may be more suitable for small to medium-sized codebases rather than full-scale projects"
+        },
+        "RQf": {
+          "note": "The paper is a comparative study and does not mention providing documentation, forums, issue trackers, release notes, or a community for a specific single solution.",
+          "value": [],
+          "evidence": "The findings provide insights into the relative strengths and limitations of these tools"
+        },
+        "RQg": {
+          "note": "The target users for the evaluated tools are software developers performing code refactoring tasks.",
+          "value": "Developers",
+          "evidence": "Developers face the daunting task...This study helps software developers to use suitable AI-supported code refactoring tools"
+        },
+        "RQh": {
+          "note": "The validation is done through an empirical experiment using SonarQube metrics, not through industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "This study has conducted a detailed evaluation of ChatGPT, Gemini, and Codeium from a code refactoring point of view while focusing on maintaining functionality and ensuring correctness. ... To generate the reports for ChatGPT, Gemini, and Codeium, both original and refactored code, the tool SonarQube is utilized."
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC2, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The paper is a comparative study of multiple AI tools, not a tool, technology, agent, or model itself."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The source is a comparative evaluation, not a specific solution that applies Generative AI methods.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper is an empirical case study involving practical experiments.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The paper does not present a usable solution; it evaluates existing tools."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in 2026, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper is a primary empirical study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO48",
+      "status": "screened",
+      "data": {
+        "title": "How to effectively utilise AI to enhance large-scale refactoring",
+        "link": "https://www.atlassian.com/blog/development/how-to-effectively-utilise-ai-to-enhance-large-scale-refactoring"
+      },
+      "answers": {
+        "solution_name": "Rovo Dev",
+        "RQa": {
+          "note": "The solution is described in a blog post on the Atlassian website.",
+          "value": "Blog / article",
+          "evidence": "https://www.atlassian.com/blog/development/how-to-effectively-utilise-ai-to-enhance-large-scale-refactoring"
+        },
+        "RQb": {
+          "note": "The solution is applied to a specific, large-scale code cleanup task at Atlassian, not a general-purpose or domain-specific tool itself.",
+          "value": "Automation (AU)",
+          "evidence": "a practical, end-to-end approach for using AI ... to identify and remove new Navigation (Nav4) feature gates (FG) and mocks across the monorepo"
+        },
+        "RQc": {
+          "note": "The blog post documents an internal process using Rovo Dev but does not specify its access and usage model or cost.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "Generated code required thorough human review and manual refactoring due to quality issues, representing a technical limitation.",
+          "value": "Technical limitations",
+          "evidence": "evidence showed that our developers had to thoroughly review and manually refactor the generated code due to quality issues, increasing our workload."
+        },
+        "RQe": {
+          "note": "The solution is described as having been used successfully in a robust pipeline for a real-world task, reducing weeks of manual work.",
+          "value": "Production-ready",
+          "evidence": "The Rovo Dev process reduced weeks of manual, error-prone work into a robust automation pipeline."
+        },
+        "RQf": {
+          "note": "The source is a blog post describing an internal process and does not mention any documentation, support, or community resources for the solution itself.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The described approach is designed to assist developers in large-scale refactoring tasks.",
+          "value": "Developers",
+          "evidence": "Asking two developers to manually clean ... seems impossible, but 'We made it, with the power of AI.'"
+        },
+        "RQh": {
+          "note": "The proposal is validated through a practical, industrial case study at Atlassian.",
+          "value": "Industrial case studies",
+          "evidence": "I will share the experience using AI to enhance cleanup at Atlassian and the lessons learned."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The blog post describes an AI-assisted refactoring of a large codebase, clearly within software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Rovo Dev is an AI agent that uses generative AI for code refactoring.",
+            "type": "agent",
+            "software_engineering_activity": "refactoring"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The blog post documents a real, practical application of the tool at Atlassian, not a theoretical proposal.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Rovo Dev is a deployed AI agent, a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published on December 4, 2025, within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a practical case study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO49",
+      "status": "screened",
+      "data": {
+        "title": "Automated Code Refactoring: AI-Powered Transformation at Scale | Morph",
+        "link": "https://www.morphllm.com/automated-code-refactoring"
+      },
+      "answers": {
+        "solution_name": "Morph LLM Automated Code Refactoring",
+        "RQa": {
+          "note": "The source is a product page on the Morph LLM website.",
+          "value": "Product / vendor website",
+          "evidence": "Product / vendor website"
+        },
+        "RQb": {
+          "note": "The solution is aimed at general-purpose code improvement and transformation, not limited to a specific domain or use case.",
+          "value": "General-purpose (GP)",
+          "evidence": "Transform legacy codebases at scale with AI-powered refactoring."
+        },
+        "RQc": {
+          "note": "The product offers a free trial and demo booking, indicating a commercial model likely with paid tiers.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "[Start Free Trial](https://www.morphllm.com/api-keys) [Book Demo](https://www.morphllm.com/contact)"
+        },
+        "RQd": {
+          "note": "The system requires comprehensive test coverage, manual review checkpoints, and feature branches for safety, pointing to operational constraints.",
+          "value": "Operational constraints",
+          "evidence": "Validate transformations...ensures test coverage."
+        },
+        "RQe": {
+          "note": "The article is dated December 2024 and describes current features, case studies, and a 'Start Free Trial' call-to-action, suggesting it is production-ready.",
+          "value": "Production-ready",
+          "evidence": "December 18, 2024·1 min read"
+        },
+        "RQf": {
+          "note": "The text mentions a Quickstart Guide, but no other community or support channels are indicated.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "For implementation details and integration patterns, see the [Morph Quickstart Guide](https://docs.morphllm.com/quickstart)."
+        },
+        "RQg": {
+          "note": "The described tasks and benefits are targeted at software developers.",
+          "value": "Developers",
+          "evidence": "Improve code maintainability scores...accelerate development with AI-powered refactoring."
+        },
+        "RQh": {
+          "note": "The source presents detailed case studies of use at a Fortune 500 retailer and a global bank.",
+          "value": "Industrial case studies",
+          "evidence": "Fortune 500 Retailer: Legacy Modernization...Global Bank: Regulatory Compliance"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically automated code refactoring."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The product applies AI techniques to refactor code, a coding activity.",
+            "type": "tool",
+            "software_engineering_activity": "refactoring"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The page describes a practical tool with case studies, fitting an empirical case.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The solution is a deployed tool available via free trial and API."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in December 2024, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO51",
+      "status": "screened",
+      "data": {
+        "title": "Evaluating and improving LLM-based competitive program generation",
+        "link": "https://www.sciencedirect.com/science/article/abs/pii/S0950584925003167"
+      },
+      "answers": {
+        "solution_name": "Taxonomy-driven multi-phase improvement framework",
+        "RQa": {
+          "note": "The solution is described in a research article published in a peer-reviewed academic journal.",
+          "value": "Academic Paper",
+          "evidence": "Information and Software Technology ... Volume 191, March 2026, 107977"
+        },
+        "RQb": {
+          "note": "The solution is a framework for evaluating and improving LLM-based competitive programming generation, a domain-specific task focused on algorithmic reasoning and contest problems.",
+          "value": "Domain or language-specific",
+          "evidence": "the most challenging task... competitive program generation"
+        },
+        "RQc": {
+          "note": "The paper states that scripts and benchmarks are shared on GitHub, but does not specify a license or any cost, implying open-source availability.",
+          "value": "Open-source / free",
+          "evidence": "we share the benchmark, scripts, and detailed results on GitHub"
+        },
+        "RQd": {
+          "note": "The main limitation is the LLM's limited correctness and efficiency in solving competitive programming problems, especially complex ones, even with the improvement framework.",
+          "value": "Technical limitations",
+          "evidence": "Experimental results show that only 5 out of 80 problems are fully accepted when using basic prompts... Our study highlights the current limitations of LLM-based competitive program generation"
+        },
+        "RQe": {
+          "note": "The proposed framework is a research contribution that shows promising results but is not described as a production-ready tool; it guides future research.",
+          "value": "Experimental or beta phase",
+          "evidence": "Our evaluation... revealed significant performance limitations, motivating an in-depth error analysis and the creation of a detailed error taxonomy... Promising results can provide practical insights to guide future research"
+        },
+        "RQf": {
+          "note": "The paper mentions sharing artifacts on GitHub, indicating a repository, but does not mention user manuals, forums, or community channels.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "we share the benchmark, scripts, and detailed results on GitHub"
+        },
+        "RQg": {
+          "note": "The target audience is primarily software engineering researchers and developers working on AI-driven code generation.",
+          "value": "Developers",
+          "evidence": "The primary goal of LLM-based code generation is to automate software development... our study... can provide practical insights to guide future research"
+        },
+        "RQh": {
+          "note": "The study constructs a benchmark from real-world contests but does not report on industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "We initially collect 117 problems from nine regional ICPC/CCPC contests held in 2024"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper clearly operates in software engineering, focusing on code generation for competitive programming."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies LLMs to generate code, fitting a coding-phase activity.",
+            "type": "technique/solution",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The study presents a primary empirical evaluation and practical framework implementation.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The improvement framework is implemented and its artifacts are shared as a usable prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in March 2026, which falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO53",
+      "status": "screened",
+      "data": {
+        "title": "GenAssist: Interactive Prompt-Driven XR Program Generation",
+        "link": "https://www.youtube.com/watch?v=48YDX3rMR6U"
+      },
+      "answers": {
+        "solution_name": "GenAssist",
+        "RQa": {
+          "note": "The source is a video presentation and abstract from the IEEE Virtual Reality Conference, indicating an academic paper.",
+          "value": "Academic Paper",
+          "evidence": "📅 Session: Scene synthesis ... 📜 Abstract: GenAssist is a system for generating interactive Extended Reality (XR) programs from natural language. ... IEEE Virtual Reality Conference"
+        },
+        "RQb": {
+          "note": "GenAssist generates complete, executable XR programs from natural language descriptions, placing it in the application generation category.",
+          "value": "Application generation (AG)",
+          "evidence": "GenAssist is a system for generating interactive Extended Reality (XR) programs from natural language."
+        },
+        "RQc": {
+          "note": "The presenter states that code and project web pages are available, suggesting free access typical of open-source research prototypes.",
+          "value": "Open-source / free",
+          "evidence": "The code and project web pages are available which you can get from this QR code on the slide."
+        },
+        "RQd": {
+          "note": "The system still faces errors in spatial reasoning and 3D layouts, which are inherent technical limitations of the LLM-based approach.",
+          "value": "Technical limitations",
+          "evidence": "even with retrieval augmentation, LLM still make mistakes, especially with spatial reasoning and 3D layouts."
+        },
+        "RQe": {
+          "note": "The work is presented by a PhD student as ongoing research at an academic conference, indicating it is still experimental.",
+          "value": "Experimental or beta phase",
+          "evidence": "Hi everyone, my name is Shi Shinati and I'm a PhD student at Carnegie Melon University. Today I'll be presenting my work gen assist interactive prompt-driven XR program generation."
+        },
+        "RQf": {
+          "note": "The availability of a project web page and code implies documentation and a code repository with an issue tracker.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "The code and project web pages are available which you can get from this QR code on the slide."
+        },
+        "RQg": {
+          "note": "The solution is aimed at non‑expert users, enabling anyone to create XR content without specialised programming or 3D skills.",
+          "value": "Others",
+          "evidence": "anyone can create XR content."
+        },
+        "RQh": {
+          "note": "Evaluation uses a small benchmark and human raters; no industrial case studies or large‑scale user studies are mentioned.",
+          "value": "Unspecified",
+          "evidence": "we created a benchmark of 50 diverse prompts spanning multiple XR categories ... Human raiders scored each output for correctness and functionality"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The system operates in software engineering by generating XR programs from natural language, which is a coding activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "GenAssist uses LLMs (GPT-40) to generate executable code, applying Generative AI to software construction.",
+            "type": "tool",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper presents a fully implemented prototype with an evaluation, making it a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "A working system is demonstrated, capable of generating and running XR programs interactively."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published at IEEE VR 2026, which falls within the 2021–2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary paper, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO54",
+      "status": "screened",
+      "data": {
+        "title": "Evaluating and Improving Large Language Models for Competitive Program Generation",
+        "link": "https://arxiv.org/abs/2506.22954"
+      },
+      "answers": {
+        "solution_name": "DeepSeek-R1 with improvement framework (for competitive programming generation)",
+        "RQa": {
+          "note": "This is a preprint of an academic paper on arXiv, not a product, repository, or commercial page.",
+          "value": "Preprint",
+          "evidence": "arXiv:2506.22954 (cs) [Submitted on 28 Jun 2025]; Subjects: Social and Information Networks (cs.SI); Software Engineering (cs.SE)"
+        },
+        "RQb": {
+          "note": "The solution focuses specifically on generating solutions for competitive programming problems, which require strong algorithmic reasoning and strict format adherence.",
+          "value": "Domain or language-specific",
+          "evidence": "competitive programming generation by large language models (LLMs) is considered the most challenging problem in current LLM-based code generation"
+        },
+        "RQc": {
+          "note": "DeepSeek-R1 is an LLM with known open-weight/cost claims, but the paper does not state its access model or cost.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "The original LLM exhibits many errors in generation, including general errors (design, boundary, condition, etc.) and specialized errors (math problems, greedy algorithms, graph theories). The paper focuses on limitations related to error types.",
+          "value": "Technical limitations",
+          "evidence": "For the unsolved problems, we construct the error taxonomy, including general errors (such as design, boundary, condition, data type, syntax, and input/output errors) and specialized errors (such as those in mathematical problems, greedy algorithms, and graph theories)."
+        },
+        "RQe": {
+          "note": "The paper proposes an improvement framework and evaluates it on a benchmark, indicating it is in an experimental phase rather than a production-ready product.",
+          "value": "Experimental or beta phase",
+          "evidence": "we propose a targeted improvement framework ... we substantially increased the number of correct solutions, with 46 out of 80 problems successfully accepted."
+        },
+        "RQf": {
+          "note": "No technical documentation, support, or community channels for the proposed improvement framework are mentioned.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The solution is intended for generating code to solve programming challenges, primarily used by developers or programmers participating in such contests.",
+          "value": "Developers",
+          "evidence": "competitive programming generation by large language models (LLMs)"
+        },
+        "RQh": {
+          "note": "The evaluation uses a benchmark of 80 contest problems and online judge platforms, not industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper focuses on generating code for competitive programming, a core software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution uses DeepSeek-R1, a generative AI language model, to generate code for programming problems.",
+            "type": "technique/solution",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper describes an experimental evaluation of the model and framework, qualifying as a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The improvement framework is implemented and tested, constituting a prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper was submitted in June 2025, within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary study proposing and evaluating an improvement framework, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO58",
+      "status": "screened",
+      "data": {
+        "title": "Enabling Tensor Language Model to Assist in Generating High-Performance Tensor Programs for Deep Learning | USENIX",
+        "link": "https://www.usenix.org/conference/osdi24/presentation/zhai"
+      },
+      "answers": {
+        "solution_name": "TLM",
+        "RQa": {
+          "note": "This solution is presented in a peer-reviewed paper at the USENIX OSDI 2024 conference.",
+          "value": "Academic Paper",
+          "evidence": "OSDI '24 Open Access Sponsored by ... USENIX is committed to Open Access ..."
+        },
+        "RQb": {
+          "note": "It is a framework specifically designed for generating high-performance tensor programs for deep learning.",
+          "value": "Domain or language-specific",
+          "evidence": "We propose a tensor program generation framework for deep learning applications."
+        },
+        "RQc": {
+          "note": "The code is publicly available on GitHub, suggesting an open-source model, though licensing is not explicitly stated.",
+          "value": "Open-source / free",
+          "evidence": "Code available at https://github.com/zhaiyi000/tlm"
+        },
+        "RQd": {
+          "note": "The text discusses the general challenge of balancing exploration space and efficiency, and the lack of generalizability in heuristic approaches, which are technical limitations.",
+          "value": "Technical limitations",
+          "evidence": "Obtaining high-performance tensor programs with high efficiency continues to be a substantial challenge. Approaches that favor efficiency typically limit their exploration space through heuristic constraints, which often lack generalizability."
+        },
+        "RQe": {
+          "note": "The solution demonstrates strong experimental results and is presented as a completed research prototype with a public artifact evaluation, suggesting it is past the experimental phase.",
+          "value": "Production-ready",
+          "evidence": "Experimental results indicate that TLM excels in delivering both efficiency and performance. Compared to fully tuned Ansor/MetaSchedule, TLM matches their performance with a compilation speedup of 61×."
+        },
+        "RQf": {
+          "note": "A code repository is provided. The GitHub link implies the possibility of issue trackers.",
+          "value": [
+            "GitHub issue trackers"
+          ],
+          "evidence": "Code available at https://github.com/zhaiyi000/tlm"
+        },
+        "RQg": {
+          "note": "The solution is a framework for generating tensor programs, targeting users who develop deep learning applications.",
+          "value": "Developers",
+          "evidence": "We propose a tensor program generation framework for deep learning applications."
+        },
+        "RQh": {
+          "note": "Validation is performed through experimental comparisons with other systems like Ansor, MetaSchedule, and Roller, not industry case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "Experimental results indicate that TLM excels in delivering both efficiency and performance. Compared to fully tuned Ansor/MetaSchedule, TLM matches their performance with a compilation speedup of 61×."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution targets software construction by generating high-performance tensor programs."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The framework uses a tensor language model (LLM) for program generation, a coding-phase activity.",
+            "type": "tool",
+            "software_engineering_activity": "program generation (coding)"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper proposes and implements a practical framework with experimental evaluation and a public code repository.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The source code is publicly accessible on GitHub, indicating a usable prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper was published in 2024."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper presents original research, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO62",
+      "status": "screened",
+      "data": {
+        "title": "Generating Safety-Critical Automotive C-programs using ...",
+        "link": "https://openreview.net/forum?id=xcLrUIeGo3"
+      },
+      "answers": {
+        "solution_name": "Unspecified",
+        "RQa": {
+          "note": "The source is a browser verification page for OpenReview, not a description of a Generative AI solution.",
+          "value": "Other",
+          "evidence": "Verifying your browser"
+        },
+        "RQb": {
+          "note": "No usage context for a coding solution can be determined from this page.",
+          "value": "General-purpose (GP)",
+          "evidence": ""
+        },
+        "RQc": {
+          "note": "Access and cost are not mentioned.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "No limitations are discussed.",
+          "value": "Technical limitations",
+          "evidence": ""
+        },
+        "RQe": {
+          "note": "Maturity level cannot be assessed.",
+          "value": "Experimental or beta phase",
+          "evidence": ""
+        },
+        "RQf": {
+          "note": "No documentation or community support is indicated.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "Target users are not indicated.",
+          "value": "Developers",
+          "evidence": ""
+        },
+        "RQh": {
+          "note": "No collaboration or case studies are mentioned.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC2, IC3, IC4, IC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "not_met"
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "not_met",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "not_met",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "not_met"
+          },
+          "IC5": {
+            "verdict": "not_met",
+            "note": "not_met"
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "not_met"
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "not_met"
+          }
+        }
+      }
+    },
+    {
+      "id": "GO64",
+      "status": "screened",
+      "data": {
+        "title": "Convo: a conversational programming language",
+        "link": "https://community.openai.com/t/convo-a-conversational-programming-language/969667"
+      },
+      "answers": {
+        "solution_name": "Convo",
+        "RQa": {
+          "note": "The solution is presented in a community forum post on community.openai.com.",
+          "value": "Blog / article",
+          "evidence": "Welcome to the OpenAI Developer Community, a forum for developers to meet and chat with other developers while building with OpenAI’s APIs and developer platform."
+        },
+        "RQb": {
+          "note": "Convo can describe any program and be translated into various target languages, making it a general-purpose approach.",
+          "value": "General-purpose (GP)",
+          "evidence": "Convo is a high-level, conversational programming language designed to be interpreted by Generative AI models. It allows developers to write code in plain, natural language, making programming more accessible and intuitive."
+        },
+        "RQc": {
+          "note": "The convo specification is openly available on GitHub; no fees or commercial restrictions are mentioned.",
+          "value": "Open-source / free",
+          "evidence": "There’s a convo-spec that you append to your prompt which teaches the LLM how to write a convo program and that spec is only needed at program generation time."
+        },
+        "RQd": {
+          "note": "The language depends heavily on the underlying LLM's coding ability, which constitutes a technical limitation.",
+          "value": "Technical limitations",
+          "evidence": "The idea is that as LLM’s improve coding wise you can simply re-port your Convo programs to a target language using the newer version of the model."
+        },
+        "RQe": {
+          "note": "It is a newly proposed language with a specification shared on a forum and GitHub, indicating an experimental stage.",
+          "value": "Experimental or beta phase",
+          "evidence": "Convo is a high-level, conversational programming language designed to be interpreted by Generative AI models."
+        },
+        "RQf": {
+          "note": "A specification document (convo-spec) is provided on GitHub, and the solution is discussed on the OpenAI developer forum.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "Forum"
+          ],
+          "evidence": "Welcome to the OpenAI Developer Community, a forum for developers to meet and chat with other developers while building with OpenAI’s APIs and developer platform. There’s a convo-spec that you append to your prompt which teaches the LLM how to write a convo program."
+        },
+        "RQg": {
+          "note": "The target audience is software developers who want a more intuitive way to instruct LLMs to generate code.",
+          "value": "Developers",
+          "evidence": "It allows developers to write code in plain, natural language, making programming more accessible and intuitive."
+        },
+        "RQh": {
+          "note": "The text does not mention any industrial case studies, experiments, or large-scale user studies to validate the proposal.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution is a conversational programming language for software construction, clearly in the software engineering context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Convo applies LLMs to interpret natural language programs and generate target code.",
+            "type": "technique/solution",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The forum post proposes and describes a concrete language specification (primary study), not just a theoretical concept.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "A usable specification and example are provided, allowing developers to apply the approach."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The post is dated October 2024, within the 2021-2026 time frame."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a primary forum post, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO77",
+      "status": "screened",
+      "data": {
+        "title": "Adversarial Program Evolution in Core War with LLMs",
+        "link": "https://sakana.ai/drq/"
+      },
+      "answers": {
+        "solution_name": "Digital Red Queen (DRQ)",
+        "RQa": {
+          "note": "The solution is described in a blog article announcing a research paper and code release.",
+          "value": "Blog / article",
+          "evidence": "For further details, please read our technical report (web paper, arxiv) and released code (github)."
+        },
+        "RQb": {
+          "note": "DRQ is specifically designed for evolving warriors in the Core War game using the Redcode assembly language.",
+          "value": "Domain or language-specific",
+          "evidence": "In this work, we explore what happens when large language models (LLMs) drive an adversarial evolutionary arms race in this domain [Core War]... programs are written in Redcode, a specialized assembly language."
+        },
+        "RQc": {
+          "note": "The code is released on GitHub, making it open-source and free.",
+          "value": "Open-source / free",
+          "evidence": "released code (github)"
+        },
+        "RQd": {
+          "note": "The programs can only run within the Core War sandbox and cannot execute outside, which limits applicability to real-world systems.",
+          "value": "Technical limitations",
+          "evidence": "nothing generated can execute outside the sandbox"
+        },
+        "RQe": {
+          "note": "The solution is presented as research work, with a paper and experimental results, indicating an experimental phase.",
+          "value": "Experimental or beta phase",
+          "evidence": "In this work, we explore... We find... For further details, please read our technical report... released code."
+        },
+        "RQf": {
+          "note": "Only a GitHub repository is provided, which typically includes an issue tracker for feedback.",
+          "value": [
+            "GitHub issue trackers"
+          ],
+          "evidence": "released code (github)"
+        },
+        "RQg": {
+          "note": "The target users are developers, as they are the ones who typically write Core War warriors.",
+          "value": "Developers",
+          "evidence": "To compete, developers write their code in Redcode"
+        },
+        "RQh": {
+          "note": "The collaboration with MIT is academic; no industrial case studies or large-scale user studies are mentioned.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution operates in the Core War programming game, which involves writing and evolving assembly-language programs, a clear software construction context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution uses LLMs to evolve warriors (assembly code) via an adversarial evolutionary process, directly applying Generative AI to code generation.",
+            "type": "technique/solution",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The blog announces a published research paper with experimental results and released code, describing a practical implementation.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Code is released on GitHub and the system provides a sandboxed environment for simulating evolved warriors, making it a usable prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The associated arxiv paper ID 2601.03335 indicates a 2026 publication, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is written entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a blog post describing original research, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO79",
+      "status": "screened",
+      "data": {
+        "title": "ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
+        "link": "https://www.youtube.com/watch?v=dAOIer_1INo"
+      },
+      "answers": {
+        "solution_name": "ShinkaEvolve",
+        "RQa": {
+          "note": "The source is a YouTube video from the AutoML Seminars channel, which is a virtual reading group, not a formal academic paper or product page.",
+          "value": "Other",
+          "evidence": "AutoML Seminars"
+        },
+        "RQb": {
+          "note": "Based solely on the title mentioning program evolution, it likely automates program improvement; exact usage context is unspecified.",
+          "value": "Automation (AU)",
+          "evidence": ""
+        },
+        "RQc": {
+          "note": "No information about access, usage model, or cost is provided in the available text.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "No limitations are discussed in the given text.",
+          "value": "Technical limitations",
+          "evidence": ""
+        },
+        "RQe": {
+          "note": "The title suggests a research prototype; no maturity details are given.",
+          "value": "Experimental or beta phase",
+          "evidence": ""
+        },
+        "RQf": {
+          "note": "There is no mention of documentation, support, or community channels in the available text.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The intended audience is not specified, but as a program evolution tool it is likely aimed at developers.",
+          "value": "Developers",
+          "evidence": ""
+        },
+        "RQh": {
+          "note": "No case studies or user studies are mentioned in the provided text.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4, IC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The title mentions 'program evolution', which is a software engineering context"
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "No evidence of Generative AI methods is provided in the available text",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "A YouTube video and an error page do not constitute a practical implementation description",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No usable solution is presented in the provided text beyond a title"
+          },
+          "IC5": {
+            "verdict": "not_met",
+            "note": "No publication date is available in the provided text"
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is entirely in English"
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a virtual seminar, not a secondary or tertiary study"
+          }
+        }
+      }
+    },
+    {
+      "id": "GO86",
+      "status": "screened",
+      "data": {
+        "title": "ICLR Poster ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution",
+        "link": "https://iclr.cc/virtual/2026/poster/10007692"
+      },
+      "answers": {
+        "solution_name": "ShinkaEvolve",
+        "RQa": {
+          "note": "The source is a poster presented at the ICLR conference, with an abstract and a link to OpenReview, making it an academic paper.",
+          "value": "Academic Paper",
+          "evidence": "Poster Fri, Apr 24, 2026 • 6:30 AM – 9:00 AM PDT Pavilion 4 P4-#5007 [...] [OpenReview](https://openreview.net/forum?id=lKEdGCoDNC \"OpenReview\")"
+        },
+        "RQb": {
+          "note": "The framework is designed for advancing scientific discovery and can be applied to various computational problems, indicating a general-purpose or domain-specific scientific discovery category. The text mentions diverse tasks like circle packing, mathematical reasoning, and competitive programming, which suggests it is not limited to a single domain, but the primary described purpose is scientific discovery. Given the allowed values, 'General-purpose (GP)' or 'Domain or language-specific' could fit, but the broad application across different engineering problems makes 'General-purpose (GP)' the closest match.",
+          "value": "General-purpose (GP)",
+          "evidence": "We introduce ShinkaEvolve: a new framework leveraging large language models (LLMs) to advance scientific discovery"
+        },
+        "RQc": {
+          "note": "The solution's full code is provided and will be open-sourced, indicating it is open-source and free.",
+          "value": "Open-source / free",
+          "evidence": "We provide ShinkaEvolve's full code together with this submission, which will be open-sourced to accelerate open advancements"
+        },
+        "RQd": {
+          "note": "The text discusses prior work's limitation of sample inefficiency and introduces ShinkaEvolve's innovations to address it. This highlights a technical limitation in adoption context (sample efficiency), though ShinkaEvolve itself aims to overcome it. The question asks for limitations of adopting this solution, but the text only mentions limitations of prior frameworks and how ShinkaEvolve improves upon them; it does not explicitly state limitations of ShinkaEvolve. Thus, the closest classification is unspecific technical limitations.",
+          "value": "Technical limitations",
+          "evidence": "sample inefficiency, requiring thousands of samples to identify effective solutions. ShinkaEvolve takes a concrete step towards addressing this critical limitation"
+        },
+        "RQe": {
+          "note": "The solution demonstrates state-of-the-art results on multiple tasks and is being released as open-source code with a conference poster, suggesting it is production-ready or at least a mature prototype. However, the academic poster format and 'Towards' in the title suggest experimental orientation. The text does not explicitly state it is production-ready, but its successful application to several problems indicates it is beyond experimental. Given allowed values, 'Experimental or beta phase' is the best fit as it is presented as a research framework.",
+          "value": "Experimental or beta phase",
+          "evidence": "ShinkaEvolve discovers a new state-of-the-art circle packing solution using only 150 samples, orders of magnitude fewer than prior frameworks. Furthermore, applied to a broader set of engineering problems, ShinkaEvolve designs robust agentic harnesses [...] We provide ShinkaEvolve's full code together with this submission, which will be open-sourced"
+        },
+        "RQf": {
+          "note": "The text mentions providing full code and open-sourcing, which implies code repository and likely release notes, but does not mention other community or documentation channels explicitly. The link to OpenReview might serve as a forum for discussion. Based on the evidence, only code is explicitly mentioned.",
+          "value": [
+            "Release notes"
+          ],
+          "evidence": "We provide ShinkaEvolve's full code together with this submission, which will be open-sourced"
+        },
+        "RQg": {
+          "note": "The solution is used by those solving engineering problems, mathematical reasoning, competitive programming, and LLM training, which are tasks typically performed by developers and researchers, so 'Developers' is the best fit.",
+          "value": "Developers",
+          "evidence": "applied to a broader set of engineering problems, ShinkaEvolve designs robust agentic harnesses for AIME mathematical reasoning tasks, identifies improvements to ALE-Bench competitive programming solutions, and discovers novel mixture-of-expert load balancing loss functions to stabilize LLM training itself."
+        },
+        "RQh": {
+          "note": "The solution is applied to various tasks, but these are presented as experimental results within the research paper, not as collaborations with industry or large-scale user studies. The term 'industrial case studies' is not mentioned; the tasks are canonical or benchmark problems.",
+          "value": "Unspecified",
+          "evidence": "When applied to the canonical circle-packing optimization task, ShinkaEvolve discovers a new state-of-the-art circle packing solution [...] Furthermore, applied to a broader set of engineering problems, ShinkaEvolve designs robust agentic harnesses for AIME mathematical reasoning tasks, identifies improvements to ALE-Bench competitive programming solutions, and discovers novel mixture-of-expert load balancing loss functions to stabilize LLM training itself."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The framework is applied to competitive programming solutions and mathematical reasoning agentic harnesses, which are software engineering coding contexts."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses LLMs to evolve programs for coding tasks like ALE-Bench competitive programming, fitting the tool type and coding activity.",
+            "type": "tool",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It presents a practical implementation with full code provided and empirical results on multiple tasks.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The full code is provided and it demonstrates state-of-the-art results on actual tasks, indicating a usable prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The poster is from April 2026, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study presenting a new framework, not a secondary/tertiary review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO88",
+      "status": "screened",
+      "data": {
+        "title": "CoCoEvo: Co-Evolution of Programs and Test Cases to Enhance Code Generation",
+        "link": "https://ieeexplore.ieee.org/document/11098743/"
+      },
+      "answers": {
+        "solution_name": "CoCoEvo",
+        "RQa": {
+          "note": "The solution is described in a peer-reviewed academic journal article.",
+          "value": "Academic Paper",
+          "evidence": "Published in: IEEE Transactions on Evolutionary Computation"
+        },
+        "RQb": {
+          "note": "The framework is designed for general automated code generation, without domain restrictions.",
+          "value": "General-purpose (GP)",
+          "evidence": "Large Language Models (LLMs) have shown remarkable performance in automated code generation."
+        },
+        "RQc": {
+          "note": "The text does not specify the access model or cost for the solution itself; only the publication page is shown.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "The text does not explicitly mention any limitations of the proposed CoCoEvo framework.",
+          "value": "Technical limitations",
+          "evidence": ""
+        },
+        "RQe": {
+          "note": "The paper is an early access publication, indicating the solution is still in the research and evaluation stage.",
+          "value": "Experimental or beta phase",
+          "evidence": "Date of Publication: 28 July 2025 ( Early Access )"
+        },
+        "RQf": {
+          "note": "No evidence of technical documentation, support channels, or community resources is provided in the given text.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The solution targets code generation, which primarily serves software developers.",
+          "value": "Developers",
+          "evidence": "CoCoEvo, a novel LLM-based co-evolution framework that simultaneously evolves programs and test cases."
+        },
+        "RQh": {
+          "note": "The abstract mentions experiments on multiple LLMs but does not indicate any collaboration with industry.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper focuses on automated code generation, a core software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "CoCoEvo applies LLMs (Generative AI) to evolve programs and test cases for coding.",
+            "type": "technique/solution",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper presents experimental results, making it a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The framework is implemented and evaluated, indicating a working prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in July 2025, within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is an original primary study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO92",
+      "status": "screened",
+      "data": {
+        "title": "Automated Generation of Code Contracts",
+        "link": "https://dl.acm.org/doi/10.1145/3689484.3690738"
+      },
+      "answers": {
+        "solution_name": "Fine-tuned CodeT5/CodeT5+ (for automated code contract generation)",
+        "RQa": {
+          "note": "The solution is described in an academic paper published in the proceedings of the GPCE '24 conference.",
+          "value": "Academic Paper",
+          "evidence": "GPCE '24: Proceedings of the 23rd ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences"
+        },
+        "RQb": {
+          "note": "The solution is tailored for Java projects, specifically to generate code contracts (pre- and postconditions in JML), making it domain/language-specific.",
+          "value": "Domain or language-specific",
+          "evidence": "This paper examines the potential of Generative AI to automatically generate code contracts in terms of pre- and postconditions for any Java project without requiring any additional auxiliary artifact."
+        },
+        "RQc": {
+          "note": "The approach is based on fine-tuning open-source LLMs (CodeT5 and CodeT5+) and a publicly shared dataset/replication package, indicating an open-source and free usage model.",
+          "value": "Open-source / free",
+          "evidence": "we derive a dataset of more than 14k Java methods... and train the models... Replication Package: Automated Generation of Code Contracts - Generative AI to the Rescue? https://zenodo.org/doi/10.5281/zenodo.13351003"
+        },
+        "RQd": {
+          "note": "The text only discusses technical challenges (e.g., syntactic validity, semantic correctness of generated contracts), thus the main limitation is technical.",
+          "value": "Technical limitations",
+          "evidence": "We examine the syntactic and semantic validity of the contracts generated for software projects not used in the fine-tuning and find that more than 95% of the generated contracts are syntactically correct and exhibit remarkably high completeness and semantic correctness."
+        },
+        "RQe": {
+          "note": "The solution is presented as foundational research that 'sets the stage for future research,' suggesting it is in an experimental phase, not yet production-ready.",
+          "value": "Experimental or beta phase",
+          "evidence": "To this end, our fully automated method sets the stage for future research and eventual broader adoption of Design by Contract in software development practice."
+        },
+        "RQf": {
+          "note": "The paper mentions a replication package (which includes a data set), but no explicit reference to a user manual, forum, issue trackers, release notes, or chat community is made.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "Replication Package: Automated Generation of Code Contracts - Generative AI to the Rescue? https://zenodo.org/doi/10.5281/zenodo.13351003"
+        },
+        "RQg": {
+          "note": "The solution targets developers, as Design by Contract adoption and the generation of code contracts are concerns of software developers.",
+          "value": "Developers",
+          "evidence": "developers hardly adopt Design by Contract in practice"
+        },
+        "RQh": {
+          "note": "The text does not specify any industrial case studies or large-scale user studies; it mentions only the evaluation on software projects not used in fine-tuning.",
+          "value": "Unspecified",
+          "evidence": "We examine the syntactic and semantic validity of the contracts generated for software projects not used in the fine-tuning"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper focuses on generating code contracts (pre- and postconditions) for Java methods, which is a software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It fine-tunes large language models (CodeT5, CodeT5+) to generate code contracts, applying GenAI to a coding-phase activity.",
+            "type": "language model",
+            "software_engineering_activity": "code contract generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper presents a primary study that implements and evaluates the fine-tuned models on a dataset.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "A replication package with dataset and scripts is provided, making the solution a usable prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper was published in October 2024, which falls within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is an original research article, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO96",
+      "status": "screened",
+      "data": {
+        "title": "Tutorials Overview",
+        "link": "https://gepa-ai.github.io/gepa/tutorials/"
+      },
+      "answers": {
+        "solution_name": "GEPA",
+        "RQa": {
+          "note": "The source is a tutorials page within the GEPA documentation site, likely hosted alongside the code repository.",
+          "value": "Product / vendor website",
+          "evidence": "Welcome to the GEPA tutorials!"
+        },
+        "RQb": {
+          "note": "Examples include optimizing DSPy programs for math benchmarks, evolving code for 3D modeling, and optimizing agents, indicating a general-purpose usage.",
+          "value": "General-purpose (GP)",
+          "evidence": "Use GEPA's seed_candidate=None mode to evolve a complete Python program... that generates a 3D unicorn — starting from no code at all."
+        },
+        "RQc": {
+          "note": "GEPA can be installed via pip, but the text does not explicitly confirm if it is open-source/free or commercial; however, the GitHub edit link and open installation instructions strongly suggest open-source.",
+          "value": "Open-source / free",
+          "evidence": "# Install GEPA with full dependencies pip install gepa[full]"
+        },
+        "RQd": {
+          "note": "The primary limitation mentioned is the requirement for external LLM API keys, which constitutes an operational constraint.",
+          "value": "Operational constraints",
+          "evidence": "Most tutorials require an OpenAI API key (or other LLM provider)"
+        },
+        "RQe": {
+          "note": "The presence of multiple community and official tutorials describing production deployment and enterprise use indicates this solution is production-ready.",
+          "value": "Production-ready",
+          "evidence": "Enterprise Agents with DSPy and GEPA - Production deployment patterns"
+        },
+        "RQf": {
+          "note": "The page is a rich collection of tutorials, user guides, and community blogs, serving as comprehensive documentation. No explicit forum, issue tracker, release notes, or chat community links are provided in this page.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "Welcome to the GEPA tutorials! These hands-on notebooks will help you learn GEPA... Official DSPy Tutorials... Community Tutorials & Blogs... International Tutorials... Quick Start Tools... Video Tutorials..."
+        },
+        "RQg": {
+          "note": "The tutorials involve writing and executing code, evolving programs, and integrating with frameworks like DSPy and LangChain, which are typical activities for developers.",
+          "value": "Developers",
+          "evidence": "# Install GEPA with full dependencies pip install gepa[full] # Install Jupyter pip install jupyter"
+        },
+        "RQh": {
+          "note": "While some community blog titles mention enterprise or production usage, the page itself does not describe formal case studies or large-scale user studies validating the proposal.",
+          "value": "Unspecified",
+          "evidence": "Enterprise Agents with DSPy and GEPA - Production deployment patterns by @slavozard"
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC2, IC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "GEPA is a general-purpose prompt optimization framework, not specifically designed for software engineering context."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "GEPA is a prompt optimization technique, not directly performing a software-construction activity; its primary activity is prompt optimization.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The page is a tutorial index, not a description of a practical implementation or empirical case.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The page provides installation instructions and tutorials, indicating GEPA is a usable tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The page references events from 2025, indicating it was published after 2020 and within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The page is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The page is a tutorial index, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO98",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - SakanaAI/drq: Digital Red Queen: Adversarial Program Evolution in Core War with LLMs",
+        "link": "https://github.com/SakanaAI/drq"
+      },
+      "answers": {
+        "solution_name": "DRQ",
+        "RQa": {
+          "note": "The source is a GitHub code repository that hosts the implementation, documentation, and resources for the DRQ algorithm.",
+          "value": "Code repository",
+          "evidence": "https://github.com/SakanaAI/drq"
+        },
+        "RQb": {
+          "note": "The solution acts on a domain-specific task (Core War) and language (Redcode), evolving warriors for a particular adversarial environment.",
+          "value": "Domain or language-specific",
+          "evidence": "DRQ uses an LLM to evolve assembly-like programs, called warriors, which compete against each other for control of a virtual machine in the game of Core War"
+        },
+        "RQc": {
+          "note": "The repository is public on GitHub and licensed under Apache-2.0, making it open-source and free to use.",
+          "value": "Open-source / free",
+          "evidence": "Apache-2.0 license"
+        },
+        "RQd": {
+          "note": "The solution requires LLM access and is bounded by the Turing-complete virtual machine's constraints, representing technical limitations for its adoption.",
+          "value": "Technical limitations",
+          "evidence": "DRQ uses an LLM to evolve assembly-like programs, called warriors, which compete against each other for control of a virtual machine in the game of Core War"
+        },
+        "RQe": {
+          "note": "The implementation is described as minimalistic and the paper itself is a preprint, indicating an experimental or research-stage artifact.",
+          "value": "Experimental or beta phase",
+          "evidence": "This repo contains a minimalistic implementation of DRQ to get you started ASAP."
+        },
+        "RQf": {
+          "note": "The repository provides a README with setup instructions, starting code examples, and explanations of key source files; no evidence of forums, issue trackers, or other community channels.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "Everything is implemented in pure Python, with multiprocessing, making it decently fast. ... Here is some minimal code to load five different human-made warriors and run a battle between them: ... Code to use LLM to generate warriors ... To run this project locally, you can start by cloning this repo."
+        },
+        "RQg": {
+          "note": "The README is written for developers who want to run, use, or extend the DRQ algorithm, providing code snippets and local execution instructions.",
+          "value": "Developers",
+          "evidence": "Code to use LLM to generate warriors ... Code to run battle between warriors ... Running Locally ... Installation ... This repo contains a minimalistic implementation of DRQ to get you started ASAP."
+        },
+        "RQh": {
+          "note": "The README refers to its associated preprint paper and 'experimentation that led to the creation of DRQ' but does not describe any industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "no quantitative results of user studies or industrial case studies presented; the README notes a paper and 'Our Dataset of Discovered Warriors' coming soon but mentions no industry validation."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering as it deals with evolving assembly-like programs that compete for control of a virtual machine."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "DRQ uses an LLM to evolve programs (warriors) for the Core War game, which is a programming activity.",
+            "type": "technique/solution",
+            "software_engineering_activity": "program evolution"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository contains a practical implementation with code and instructions to run the algorithm.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The source provides a usable, minimalistic implementation of the DRQ algorithm that can be run locally."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The solution is cited as published in 2026, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It describes a concrete solution/implementation (DRQ algorithm), not a secondary/tertiary study."
+          }
+        }
+      }
+    }
+  ]
+}

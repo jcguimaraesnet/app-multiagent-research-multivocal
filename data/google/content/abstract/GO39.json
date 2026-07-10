@@ -1,0 +1,14 @@
+{
+  "title": "Code refactoring principles, techniques, and automation with generative AI - Tabnine",
+  "link": "https://www.tabnine.com/blog/code-refactoring-with-generative-ai/",
+  "summary": "This blog post provides an overview of code refactoring principles, techniques, and benefits, and explores how generative AI can automate and assist the refactoring process. It presents practical refactoring examples in Java, Python, C, and C#, and discusses common challenges and best practices. The article highlights Tabnine, an AI coding assistant that offers real-time code completions and context-aware refactoring suggestions within IDEs. By leveraging Tabnine's large language model trained on permissively licensed open-source code, development teams can improve code quality and reduce technical debt while maintaining privacy and control over their codebase.",
+  "author": "Tabnine Team",
+  "publication_date": "2024-02-28",
+  "keywords": [
+    "code refactoring",
+    "generative AI",
+    "Tabnine",
+    "AI coding assistant",
+    "software development"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - SakanaAI/ShinkaEvolve: ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution 🧬",
+  "link": "https://github.com/SakanaAI/shinkaevolve",
+  "summary": "ShinkaEvolve is an open-source framework that combines Large Language Models (LLMs) with evolutionary algorithms to drive program evolution and code optimization. It maintains a population of programs that evolve over generations, using LLMs as mutation operators to suggest code improvements. The system supports parallel evaluation on local machines or Slurm clusters and maintains an archive of successful solutions to enable knowledge transfer across evolutionary islands. It is designed for tasks with verifiable performance metrics and a goal of preserving code correctness. The framework provides Python and Hydra-based launchers, a WebUI for live monitoring, and can be extended with local models or agent skills.",
+  "author": "SakanaAI",
+  "publication_date": "",
+  "keywords": [
+    "ShinkaEvolve",
+    "program evolution",
+    "code optimization",
+    "LLM",
+    "evolutionary algorithms"
+  ]
+}

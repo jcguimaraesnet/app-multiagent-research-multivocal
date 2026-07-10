@@ -1,0 +1,14 @@
+{
+  "title": "Three decades of the OO-Method: fostering conceptual-model software engineering",
+  "link": "https://doi.org/10.1007/s10270-025-01299-w",
+  "abstract": "The consolidation of the object-oriented (OO) programming paradigm in the early 1990s sparked a growing need for methodological support, leading to significant advancements in software engineering. Conceptual modeling took advantage of this OO-based wave to provide modeling techniques that were designed to incorporate that expressiveness. This period emphasized the precise conceptualization of complex problem domains as a foundational step toward developing robust technological solutions and formalizing practices that had been evolving since the 1980s. The OO-Method marked a significant milestone by introducing a model-driven approach to generate functional software directly from models defining the system’s structure, behavior, logic, and presentation. This innovation led to the development of a supporting tool capable of automating software generation, which has been continuously updated since the 2000s to align with evolving technologies. Additionally, the integration of requirements engineering approaches expanded the method’s scope, enhancing its ability to capture and formalize system needs with semantic consistency. This work reviews the evolution of the OO-Method, its derived and integrated initiatives, and the scientific studies that have historically validated its contributions. Adopting a historical perspective, the review explores the present and future of model-driven software engineering, from code generation based on software models to the strategic alignment of agile and current challenges for leveraging generative artificial intelligence techniques. © The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2025.",
+  "keywords": [
+    "Conceptual modeling",
+    "Model compiler",
+    "Model-driven development",
+    "Strategy modeling"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Springer Science and Business Media Deutschland GmbH"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Bibliometric and Content Analysis of Large Language Models Research in Software Engineering: The Potential and Limitation in Software Engineering",
+  "link": "https://doi.org/10.14569/IJACSA.2025.0160436",
+  "abstract": "Large Language Models (LLM) is a type of artificial neural network that excels at language-related tasks. The advantages and disadvantages of using LLM in software engineering are still being debated, but it is a tool that can be utilized in software engineering. This study aimed to analyze LLM studies in software engineering using bibliometric and content analysis. The study data were retrieved from Web of Science and Scopus. The data were analyzed using two popular bibliometric approaches: bibliometric and content analysis. VOS Viewer and Bibliometrix software were used to conduct the bibliometric analysis. The bibliometric analysis was performed using science mapping and performance analysis approaches. Various bibliometric data, including the most frequently referenced publications, journals, and nations, were evaluated and presented. Then, the synthetic knowledge method was utilized for content analysis. This study examined 235 papers, with 836 authors contributing. The publications were published in 123 different journals. The average number of citations per publication is 1.44. Most publications were published in Proceedings International Conference on Software Engineering and ACM International Conference Proceeding Series, with China and the United States emerging as the leading countries. It was discovered that international collaboration on the issue was inadequate. The most often used keywords in the publications were \"software design,\" \"code (symbols),\" and \"code generation.\" Following the content analysis, three themes emerged: 1) Integration of LLM into software engineering education, 2) application of LLM in software engineering, and 3) potential and limitation of LLM in software engineering. The results of this study are expected to provide researchers and academics with insights into the current state of LLM in software engineering research, allowing them to develop future conclusions. © (2025), (Science and Information Organization). All Rights Reserved.",
+  "keywords": [
+    "bibliometric",
+    "content analysis",
+    "Large Language Models",
+    "LLM",
+    "software engineering"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Science and Information Organization"
+}

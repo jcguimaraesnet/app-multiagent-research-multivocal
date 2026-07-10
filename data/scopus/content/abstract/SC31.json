@@ -1,0 +1,15 @@
+{
+  "title": "An extensible framework for energy community embedding business models and AI-generated code snippets",
+  "link": "https://doi.org/10.1016/j.asoc.2025.114455",
+  "abstract": "This paper presents a modular and extensible framework for simulating the operation of Energy Communities (ECs) and their participation in Local Energy Markets (LEMs). The framework integrates agent-based modelling, weather-driven asset simulation and flexible market-clearing mechanisms to support high-resolution techno-economic analysis. It introduces three main contributions: (i) a heuristic, data-driven algorithm for estimating household consumption under partial observability, (ii) the Dynamically Adjusted Uniform Price (DAUP), a new pricing mechanism that increases traded volumes through iterative bid adjustment and (iii) GenECodes, a generative module powered by Large Language Models that automatically produces simulation-ready asset and market models using a three-layer architecture. Simulations based on a Romanian EC show high accuracy of the asset models, significant improvements in traded energy and self-consumption using DAUP, and seamless integration of new assets such as heat pumps and electric vehicles via GenECodes. The framework enables rapid prototyping of emerging business models and supports the digital transition of decentralized energy systems. © 2026 The Authors",
+  "keywords": [
+    "Business models framework",
+    "Energy communities",
+    "Large language models",
+    "Local energy markets",
+    "Template-driven code generation"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Elsevier Ltd"
+}

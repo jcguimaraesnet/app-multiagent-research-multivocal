@@ -1,0 +1,16 @@
+{
+  "title": "Evaluating the quality of GenAI applications in software engineering: a multi-case study",
+  "link": "https://doi.org/10.1007/s10664-025-10759-2",
+  "abstract": "Context: Generative AI (GenAI) is increasingly adopted in software development for tasks such as document generation, data analysis, and code generation. However, evaluating the quality of GenAI applications becomes challenging, as traditional quality measurements may not be fully applicable. Objective: In this study, we explore how practitioners evaluate the quality of GenAI applications and investigate quality evaluation techniques. Method: We conducted a multi-case study in three industrial projects from software development companies. We examined four GenAI application domains: document generation, data analysis and insight generation, customer service, and code generation. Data were collected through three workshops and 23 semi-structured interviews with industrial practitioners. Results: We identified fourteen GenAI use cases and 28 metrics currently used to evaluate the quality of GenAI applications’ outputs. We synthesized the identified metrics’ usage patterns and challenges based on the collected data. Conclusions: This study presents practical insights into using metrics to measure GenAI-based system qualities in real industrial settings. Our findings indicate that practitioners use custom-built and context-specific metrics; combining these with academic metrics can strengthen GenAI system quality evaluation. © The Author(s) 2025.",
+  "keywords": [
+    "GenAI",
+    "Generative artificial intelligence",
+    "Large language model",
+    "LLM",
+    "Metric",
+    "Quality evaluation"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Springer"
+}

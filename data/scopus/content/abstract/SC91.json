@@ -1,0 +1,13 @@
+{
+  "title": "Preconditions and Postconditions as Design Constraints for LLM Code Generation",
+  "link": "https://doi.org/10.1109/ACCESS.2025.3625819",
+  "abstract": "Large Language Models (LLMs) have significantly advanced automated code generation, but current methods predominantly rely on natural language descriptions during prompting. This approach encounters challenges when handling complex, class-level software generation tasks due to inherent ambiguity and under-specification. On the other hand, few studies have investigated how formal software engineering constraints, such as explicit preconditions and postconditions as part of the Design-by-Contract paradigm, influence class-level generation tasks. This work addresses this gap through a structured evaluation of six state-of-the-art LLMs generating complete software implementations of a medium complexity system from systematically designed class-level specifications. Results demonstrate that incorporating explicit design constraints during prompting significantly boosts initial generation accuracy (measured via the pass@k metric), particularly in Python but also in C++. Models with fewer parameters saw especially pronounced benefits. These findings suggest integrating structured software engineering constraints and design principles into LLM-based code generation workflows to enhance accuracy and maintainability in automated software projects. © 2013 IEEE.",
+  "keywords": [
+    "Automated code generation",
+    "large language models",
+    "software design"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Institute of Electrical and Electronics Engineers Inc."
+}

@@ -1,0 +1,13 @@
+{
+  "title": "langtech-bsc/alia",
+  "link": "https://github.com/langtech-bsc/alia",
+  "summary": "This GitHub repository provides scripts and configuration files for pre-training the ALIA language model, developed by the Barcelona Supercomputing Center's Language Technologies Unit. It includes tools for model conversion, data processing, and launching training jobs, but does not describe any specific solution for software construction or coding tasks. The repository is licensed under Apache-2.0 and primarily uses Python and shell scripts.",
+  "author": "langtech-bsc",
+  "publication_date": "2025-03-31",
+  "keywords": [
+    "ALIA",
+    "language model",
+    "pre-training",
+    "BSC"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Piloting Copilot, Codex, and StarCoder2: Hot temperature, cold prompts, or black magic?",
+  "link": "https://doi.org/10.1016/j.jss.2025.112562",
+  "abstract": "Language models are promising solutions for tackling increasing complex problems. In software engineering, they recently gained attention in code assistants, which generate programs from a natural language task description (prompt). They have the potential to save time and effort but remain poorly understood, limiting their optimal use. In this article, we investigate the impact of input variations on two configurations of a language model, focusing on parameters such as task description, surrounding context, model creativity, and the number of generated solutions. We design specific operators to modify these inputs and apply them to three LLM-based code assistants (Copilot, Codex, StarCoder2) and two benchmarks representing algorithmic problems (HumanEval, LeetCode). Our study examines whether these variations significantly affect program quality and how these effects generalize across models. Our results show that varying input parameters can greatly improve performance, achieving up to 79.27% success in one-shot generation compared to 22.44% for Codex and 31.1% for Copilot in default settings. Actioning this potential in practice is challenging due to the complex interplay in our study—the optimal settings for temperature, prompt, and number of generated solutions vary by problem. Reproducing our study with StarCoder2 confirms these findings, indicating they are not model-specific. We also uncover surprising behaviors (e.g., fully removing the prompt can be effective), revealing model brittleness and areas for improvement. Overall, this work opens opportunities to envision (automated) strategies for enhancing performance of language model-based code assistants, but also questions their reliability and robustness. Editor's note: Open Science material was validated by the Journal of Systems and Software Open Science Board. © 2025",
+  "keywords": [
+    "Code generation",
+    "Language models",
+    "Programming tasks"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Elsevier Inc."
+}

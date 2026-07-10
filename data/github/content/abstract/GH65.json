@@ -1,0 +1,14 @@
+{
+  "title": "Stable Lab @ UCSD",
+  "link": "https://github.com/stable-lab",
+  "summary": "This GitHub page describes the 'stable-lab' organization which hosts several repositories. The most relevant for software construction is the MAGE project, presented as a multi-agent engine for automated RTL (Register Transfer Level) code generation. Another significant project is Pro-V, an efficient multi-agent system for automatic RTL verification. No specific publication details, papers, or dates beyond repository updates are provided.",
+  "author": "stable-lab",
+  "publication_date": "",
+  "keywords": [
+    "MAGE",
+    "Pro-V",
+    "RTL code generation",
+    "multi-agent system",
+    "RTL verification"
+  ]
+}

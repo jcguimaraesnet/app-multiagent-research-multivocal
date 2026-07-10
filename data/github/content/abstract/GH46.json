@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - nibzard/llm-loop: Autonomous task execution plugin for LLM CLI - refactored modular architecture",
+  "link": "https://github.com/nibzard/llm-loop",
+  "summary": "LLM Loop is an autonomous task execution plugin for the LLM CLI that enables persistent, multi-turn code generation and software development tasks. It allows an AI model to iteratively call tools (file manipulation, code analysis, git commands) to achieve a user-defined goal, such as building web applications, generating documentation, or setting up repositories. Features include tool integration, conversation management, safety approvals, and configurable turn limits.",
+  "author": "nibzard",
+  "publication_date": "2026-01-13",
+  "keywords": [
+    "llm-loop",
+    "autonomous coding agent",
+    "LLM CLI plugin",
+    "code generation",
+    "tool use"
+  ]
+}

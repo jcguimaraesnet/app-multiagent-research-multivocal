@@ -1,0 +1,14 @@
+{
+  "title": "NLP, Language Models, & Production API Specialization",
+  "link": "https://www.coursera.org/specializations/tokens-to-deployment-nlp-language-models-production-apis",
+  "summary": "This source is a Coursera specialization page for 'Tokens to Deployment: NLP, Language Models, & Production API Specialization', a 9-course online program focused on building and deploying natural language processing (NLP) and multimodal AI systems. The curriculum covers the complete lifecycle from tokenization, fine-tuning transformer models like BERT with Hugging Face, and building automated ETL pipelines, to designing, securing, and deploying production-ready APIs with OAuth2 and OpenAPI documentation. While not a specific coding solution itself, the program teaches software construction skills for ML engineering, including test-driven development, CI/CD, inference optimization, and model evaluation. The specialization emphasizes hands-on projects that involve building transformer-based NLP pipelines for tasks such as sentiment analysis and content categorization.",
+  "author": "Hurix Digital",
+  "publication_date": "2026-03-01",
+  "keywords": [
+    "Coursera specialization",
+    "NLP",
+    "language models",
+    "production API deployment",
+    "multimodal AI"
+  ]
+}

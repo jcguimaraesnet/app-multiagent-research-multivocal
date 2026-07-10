@@ -1,0 +1,14 @@
+{
+  "title": "RAG for Code Generation, an AI Hacker Cup example",
+  "link": "https://www.youtube.com/watch?v=cObBj2UpWK8",
+  "summary": "This video presents an approach to build a code generation agent for competitive programming using Retrieval-Augmented Generation (RAG) and large language models. The agent first retrieves structurally similar code solutions from a large dataset via abstract syntax tree (AST) parsing and BM25 search, then semantically reranks the candidates with embeddings. Enriched few-shot examples guide an LLM to generate initial solutions, and a self-reflection loop iteratively refines the code based on test outcomes. Experiments on HackerCup practice problems show that combining RAG with self-reflection outperforms zero-shot and plain RAG agents.",
+  "author": "Weights & Biases",
+  "publication_date": "2024-08-28",
+  "keywords": [
+    "RAG",
+    "code generation",
+    "competitive programming",
+    "AST similarity",
+    "self-reflection"
+  ]
+}

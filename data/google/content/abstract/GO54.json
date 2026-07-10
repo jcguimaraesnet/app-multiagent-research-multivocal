@@ -1,0 +1,14 @@
+{
+  "title": "Evaluating and Improving Large Language Models for Competitive Program Generation",
+  "link": "https://arxiv.org/abs/2506.22954",
+  "summary": "This study evaluates and improves the ability of Large Language Models to generate code for competitive programming problems. A benchmark of 80 problems was curated from 2024 regional ICPC/CCPC contests, and DeepSeek-R1 achieved fully correct solutions on only 5 out of 80 problems using basic prompts. The authors developed a fine-grained error taxonomy covering both general coding errors and specialized algorithmic errors for the failed cases. An improvement framework was proposed that combines multi-turn dialogue-based repair with information-augmented regeneration, successfully increasing the number of accepted solutions from 5 to 46.",
+  "author": "Minnan Wei, Ziming Li, Xiang Chen, Menglin Zheng, Ziyan Qu, Cheng Yu, Siyu Chen, Xiaolin Ju",
+  "publication_date": "2025-06-28",
+  "keywords": [
+    "competitive programming",
+    "code generation",
+    "large language models",
+    "error taxonomy",
+    "DeepSeek-R1"
+  ]
+}

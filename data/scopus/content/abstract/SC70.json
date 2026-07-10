@@ -1,0 +1,17 @@
+{
+  "title": "SCEditor-Web: Bridging Model-Driven Engineering and Generative AI for Smart Contract Development",
+  "link": "https://doi.org/10.3390/info16100870",
+  "abstract": "Smart contracts are central to blockchain ecosystems, yet their development remains technically demanding, error-prone, and tied to platform-specific programming languages. This paper introduces SCEditor-Web, a web-based modeling environment that combines model-driven engineering (MDE) with generative artificial intelligence (Gen-AI) to simplify contract design and code generation. Developers specify the structural and behavioral aspects of smart contracts through a domain-specific visual language grounded in a formal metamodel. The resulting contract model is exported as structured JSON and transformed into executable, platform-specific code using large language models (LLMs) guided by a tailored prompt engineering process. A prototype implementation was evaluated on Solidity contracts as a proof of concept, using representative use cases. Experiments with state-of-the-art LLMs assessed the generated contracts for compilability, semantic alignment with the contract model, and overall code quality. Results indicate that the visual-to-code workflow reduces manual effort, mitigates common programming errors, and supports developers with varying levels of expertise. The contributions include an abstract smart contract metamodel, a structured prompt generation pipeline, and a web-based platform that bridges high-level modeling with practical multi-language code synthesis. Together, these elements advance the integration of MDE and LLMs, demonstrating a step toward more accessible and reliable smart contract engineering. © 2025 by the authors.",
+  "keywords": [
+    "blockchain",
+    "code generation",
+    "generative artificial intelligence (Gen-AI)",
+    "large language models (LLMs)",
+    "model-driven engineering (MDE)",
+    "smart contracts",
+    "software engineering"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)"
+}

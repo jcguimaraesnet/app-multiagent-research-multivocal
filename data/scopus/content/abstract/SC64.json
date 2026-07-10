@@ -1,0 +1,17 @@
+{
+  "title": "Leveraging Large Language Models in the Software Development Lifecycle: Opportunities and Challenges",
+  "link": "https://doi.org/10.14569/IJACSA.2025.0161105",
+  "abstract": "Large Language Models (LLMs) are increasingly integrated into software engineering workflows, yet existing studies provide fragmented or domain-specific examinations of their impact. This survey aims to systematically analyze how LLMs influence the Software Development Lifecycle (SDLC) end-to-end, identifying capabilities, limitations, risks, and emerging opportunities. We review 147 publications from 2017–2025 across ACM Digital Library, IEEE Xplore, ACL Anthology, and arXiv using predefined inclusion and exclusion criteria. Unlike prior surveys that focus narrowly on code generation or testing, this work provides an SDLC-wide synthesis supported by empirical benchmarks, industrial evidence, and a unified taxonomy mapping LLM capabilities to each phase of development. We further examine technical risks including hallucinations, dataset governance, robustness, security vulnerabilities, and auditability. The goal of this survey is to consolidate fragmented knowledge, highlight practical adoption challenges, and outline future research directions essential for building trustworthy, scalable, and effective LLM-enabled software engineering systems. © (2025), (Science and Information Organization). All rights reserved.",
+  "keywords": [
+    "AI-assisted software engineering",
+    "automated code generation",
+    "DevOps automation",
+    "Large Language Models (LLMs)",
+    "software architecture",
+    "Software Development Lifecycle (SDLC)",
+    "software testing"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Science and Information Organization"
+}

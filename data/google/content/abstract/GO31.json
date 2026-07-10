@@ -1,0 +1,14 @@
+{
+  "title": "AI Code Refactoring: Tools, Tactics & Best Practices",
+  "link": "https://www.augmentcode.com/tools/ai-code-refactoring-tools-tactics-and-best-practices",
+  "summary": "This guide presents a systematic approach to AI-assisted code refactoring, leveraging semantic dependency analysis, atomic transformations, and automated quality gates. It describes how modern AI tools can perform variable renaming, function extraction, dead-code elimination, and documentation updates while preserving behavior. The post outlines a multi-phase refactoring workflow, compares leading AI refactoring platforms (Augment Code, Refraction, CodeScene, Windsurf), and provides best practices for enterprise adoption, including hallucination monitoring and CI/CD integration. The guidance emphasizes incremental changes, human oversight, and measurable improvements in code review speed and regression reduction.",
+  "author": "Molisha Shah",
+  "publication_date": "",
+  "keywords": [
+    "AI code refactoring",
+    "Augment Code",
+    "context engine",
+    "best practices",
+    "enterprise refactoring"
+  ]
+}

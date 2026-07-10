@@ -1,0 +1,14 @@
+{
+  "title": "FudanDISC/SocialAgent",
+  "link": "https://github.com/FudanDISC/SocialAgent",
+  "summary": "This source is the GitHub repository 'SocialAgent' by FudanDISC, providing a collection of resources for investigating social agents driven by large language models (LLMs). The repository includes a tutorial with slides and a comprehensive, categorized paper list covering individual simulation, scenario simulation (including dialog-driven, task-driven, and software development sub-categories), and society simulation. The overall work is summarized in a connecting survey paper, 'From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents'.",
+  "author": "FudanDISC",
+  "publication_date": "2024-12-02",
+  "keywords": [
+    "SocialAgent",
+    "survey",
+    "social simulation",
+    "LLM-based agents",
+    "resources"
+  ]
+}

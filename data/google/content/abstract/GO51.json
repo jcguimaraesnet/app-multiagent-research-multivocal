@@ -1,0 +1,14 @@
+{
+  "title": "Evaluating and improving LLM-based competitive program generation",
+  "link": "https://www.sciencedirect.com/science/article/abs/pii/S0950584925003167",
+  "summary": "This study evaluates and improves the generation of competitive programming solutions by large language models (LLMs). The authors construct a benchmark of 80 problems from 2024 ICPC and CCPC regional contests to mitigate data leakage and ensure diverse difficulty levels. Using DeepSeek-R1 with a basic prompt, only 5 out of 80 problems are fully accepted. A fine-grained error taxonomy is built to categorize failures, revealing common design and boundary errors. A targeted improvement framework combining multi-turn dialog repair and information-augmented regeneration raises the number of correct solutions to 46 out of 80, demonstrating significant gains.",
+  "author": "Minnan Wei, Ziming Li, Xiang Chen, Menglin Zheng, Ziyan Qu, Cheng Yu, Siyu Chen, Xiaolin Ju",
+  "publication_date": "",
+  "keywords": [
+    "competitive program generation",
+    "LLM evaluation",
+    "error taxonomy",
+    "DeepSeek-R1",
+    "benchmark"
+  ]
+}

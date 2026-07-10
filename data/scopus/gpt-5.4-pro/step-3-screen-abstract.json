@@ -1,0 +1,5609 @@
+{
+  "origin": "scopus",
+  "step": 3,
+  "model": "",
+  "updated_at": "2026-07-10T01:22:49.192828+00:00",
+  "count": 119,
+  "by_status": {
+    "pending": 0,
+    "scraped": 0,
+    "screened": 119
+  },
+  "included": 62,
+  "excluded": 57,
+  "records": [
+    {
+      "id": "SC1",
+      "status": "screened",
+      "data": {
+        "title": "Helping LLMs improve code generation using feedback from testing and static analysis",
+        "link": "https://doi.org/10.1007/s44163-026-01009-5"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly addresses software engineering and code generation in the software development life-cycle."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The abstract focuses on Large Language Models (LLMs) for code generation and repair."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract describes experiments with generating, testing, and fixing C code, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2026, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The abstract presents original research with experiments, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC2",
+      "status": "screened",
+      "data": {
+        "title": "An empirical study of LLM-based refactoring consistency",
+        "link": "https://doi.org/10.1007/s10664-026-10911-6"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software refactoring using code segments in Java and Python, which belongs to software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies large language models such as ChatGPT-3.5/4.0, CodeLlama, and CodeGeeX."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes an empirical study with actual dataset construction, experimentation, and a mitigation strategy, not merely theoretical."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It proposes and validates a mitigation strategy using retrieval-augmented generation and few-shot prompting, which constitutes a prototype solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication year is 2026, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and keywords are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is an original empirical study, not a secondary or tertiary study like a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC3",
+      "status": "screened",
+      "data": {
+        "title": "Effective Fine-tuning for Low-resource Languages: A Case Study of Cangjie",
+        "link": "https://doi.org/10.1007/s10664-026-10878-4"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Focuses on code completion, a software construction task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses LLMs for code completion."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Presents an implemented approach with experiments and open-source pipeline."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Provides a framework and open-source pipeline, indicating a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright 2026, within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study presenting a new approach."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC4",
+      "status": "screened",
+      "data": {
+        "title": "Data augmentation of Python code refactoring datasets based on LLMs",
+        "link": "https://doi.org/10.1016/j.jss.2026.113009"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on refactoring detection, a software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Utilizes large language models (e.g., GPT-4o, Gemini) for data augmentation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Conducted experiments generating augmented refactoring instances using LLMs."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Implements a data augmentation method using LLMs, producing a validated augmented dataset."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright indicates 2026, which is within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and keywords are in English; no indication of non-English version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary experimental study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC5",
+      "status": "screened",
+      "data": {
+        "title": "DecIR: Enhancing LLM-based LLVM IR decompilation through program analysis",
+        "link": "https://doi.org/10.1016/j.scico.2026.103512"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software construction/coding, specifically decompilation to reconstruct source code."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Generative AI methods, specifically large language models."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical implementation evaluated experimentally."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents a usable solution, a novel decompilation framework called DecIR."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2026, which is between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and keywords are in English, with no indication of another language version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It describes a primary research study presenting a new framework, not a secondary/tertiary review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC6",
+      "status": "screened",
+      "data": {
+        "title": "iCoder: A multi agent software development platform",
+        "link": "https://doi.org/10.1016/j.infsof.2026.108224"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Abstract explicitly mentions automated code generation and software development."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses GPT-3.5 Turbo and GPT-4o, LLM-driven multi-agent platform."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Proposes iCoder platform with evaluation on SRDD dataset."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "iCoder is described as a platform with integrated agents and evaluation."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright 2026 indicates publication in 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary study proposing a new multi-agent platform."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC7",
+      "status": "screened",
+      "data": {
+        "title": "VC-AWG: A Vibe Coding–based method for Automated Website Generation from heterogeneous artifacts",
+        "link": "https://doi.org/10.1016/j.cola.2026.101403"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Abstract describes software engineering and code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses LLMs for generating code."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Includes experiments and practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Proposes a method and evaluates it experimentally."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication year is 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study proposing a new method."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC8",
+      "status": "screened",
+      "data": {
+        "title": "AST-guided transformers for sustainable and reliable UML modeling",
+        "link": "https://doi.org/10.1016/j.mlwa.2026.100940"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The study generates UML class diagrams, which is a design-phase activity, not software construction (coding)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses transformer-based models (Seq2Seq, Seq2AST), which are generative AI techniques."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract describes a neural-based framework with experimental results and publicly available artifacts."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents a framework with implementation and evaluation, indicating a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2026, which falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is provided in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study proposing a new framework, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC9",
+      "status": "screened",
+      "data": {
+        "title": "Exploring full and parameter-efficient fine-tuning techniques for transformer-based design pattern detection",
+        "link": "https://doi.org/10.1016/j.infsof.2026.108176"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study deals with design pattern detection in source code, which is part of software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It leverages a transformer-based Seq2Seq model (CodeT5+) which is a generative AI technique."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract describes training and evaluating a framework on a curated dataset, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The DPDAtt+ framework is presented as a robust solution with experimental validation, suggesting a usable prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2026, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study proposing a novel detection approach, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC10",
+      "status": "screened",
+      "data": {
+        "title": "Empirical insights into Chat Generative Pre-trained Transformer-assisted code refactoring and developer dynamics",
+        "link": "https://doi.org/10.1016/j.engappai.2026.114865"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on using ChatGPT for code refactoring, a software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The study applies ChatGPT, a generative AI large language model."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The study is an empirical analysis of existing interactions, not a practical implementation of a new solution."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No prototype or deployed tool is described; the study only analyzes interactions."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright year is 2026, which falls within the required range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The study is an empirical analysis of interaction data, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC11",
+      "status": "screened",
+      "data": {
+        "title": "Can we trust the source? A systematic review of watermarking and attribution for AI-generated code",
+        "link": "https://doi.org/10.1016/j.infsof.2026.108157"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering with code generation tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies LLMs for AI-generated code."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The study is a literature review, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is a review, not a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The study is a Systematic Literature Review (secondary study)."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC12",
+      "status": "screened",
+      "data": {
+        "title": "AI-assisted code refactoring: Where can it be helpful and where do humans outperform it?",
+        "link": "https://doi.org/10.1016/j.jss.2026.112862"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly discusses software development and refactoring, which are coding activities."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Mentions the use of Generative AI and LLMs for assisting in refactoring."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The study involves a controlled experiment where developers use an LLM to perform tasks, demonstrating practical application."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright year 2026 indicates publication within the 2021–2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a controlled experiment, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC13",
+      "status": "screened",
+      "data": {
+        "title": "Quality assurance of LLM-generated code: Addressing non-functional quality characteristics",
+        "link": "https://doi.org/10.1016/j.jss.2026.112885"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "the study focuses on software engineering, specifically code generation with LLMs."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "it explicitly applies large language models (LLMs) for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "it describes an empirical study involving real-world software issue patching."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "the study is an empirical evaluation across multiple methods, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "the publication year is 2026, which falls within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "the abstract and keywords are in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "it includes a literature review of 109 papers, making it a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC14",
+      "status": "screened",
+      "data": {
+        "title": "HAFix: history-augmented large language models for bug fixing",
+        "link": "https://doi.org/10.1007/s10664-026-10833-3"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study applies to software engineering tasks, specifically bug fixing in Python and Java code."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The approach employs Code LLMs like Code Llama and DeepSeek-Coder to enhance bug-fixing capabilities."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract describes an empirical evaluation on real bugs from BugsInPy and Defects4J, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The text describes HAFix as an approach with variants, evaluated for practical deployment, which constitutes a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2026, which falls within the 2021--2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC15",
+      "status": "screened",
+      "data": {
+        "title": "Assessing small language models for code generation: An empirical study with benchmarks",
+        "link": "https://doi.org/10.1016/j.jss.2026.112815"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "context is software construction (code generation)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "studies generative AI small language models for code generation."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "presents an empirical evaluation, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "copyright 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC16",
+      "status": "screened",
+      "data": {
+        "title": "RAGdeterm: Deterministic retrieval-augmented generation for code generation",
+        "link": "https://doi.org/10.1016/j.softx.2026.102636"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly targets software development and code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The approach enhances prompts for large language models (LLMs)."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2026, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC17",
+      "status": "screened",
+      "data": {
+        "title": "Less is more: Towards green code large language models via unified structural pruning",
+        "link": "https://doi.org/10.1016/j.ipm.2025.104580"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Focuses on generative coding tasks using Code LLMs."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Applies LLMs and proposes a pruning method for generative coding."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Presents a method with experimental evaluation on real models and tasks."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Proposes a pruning method with empirical validation, implying a usable prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright year 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Primary study proposing a new pruning method."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC18",
+      "status": "screened",
+      "data": {
+        "title": "A Preference-Driven Methodology for Efficient Code Generation",
+        "link": "https://doi.org/10.1109/TAI.2025.3639527"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It addresses code generation, a core software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly mentions large language models and improving their code output."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes experiments on a 1.5B-parameter code model, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC19",
+      "status": "screened",
+      "data": {
+        "title": "Code Reasoning for Software Engineering Tasks: A Survey and A Call to Action",
+        "link": ""
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically code generation, test generation, and issue resolution."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies large language models and inference-time reasoning."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It is a survey, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is a survey, not a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright year 2026 is within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The source is a survey of code reasoning techniques."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC21",
+      "status": "screened",
+      "data": {
+        "title": "Agentic Large Language Models for Conceptual Systems Engineering and Design",
+        "link": "https://doi.org/10.1115/1.4070328"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "low",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC22",
+      "status": "screened",
+      "data": {
+        "title": "AI-Driven Approaches to System Requirements and Test Case Generation: A New Paradigm in Software Engineering",
+        "link": "https://doi.org/10.3390/technologies14050260"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "it focuses on software engineering, specifically requirements and test case generation, not the construction (coding) phase"
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "it explicitly mentions leveraging large language models (LLMs) such as ChatGPT-5, Claude Sonnet 4.5, and DeepSeek V3.2"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "it assesses an implemented framework using five system models and comparison analysis"
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "the copyright year is 2026, which falls within the 2021-2026 range"
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC23",
+      "status": "screened",
+      "data": {
+        "title": "Can generative AI bridge the gap? A quasi-experimental study of non-programmers with AI vs. programmers without AI",
+        "link": "https://doi.org/10.1007/s10664-026-10813-7"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering focusing on coding tasks (software construction)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Generative AI (ChatGPT, GPT-4o) for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes an exploratory empirical study with a quasi-experimental design, which is a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It studies the use of an existing tool (ChatGPT) as a usable solution for solving coding tasks, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is clearly stated as 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The text is in English and no contrary indication suggests an unavailable English version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary empirical study, not a survey, review, or systematic mapping."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC24",
+      "status": "screened",
+      "data": {
+        "title": "Beyond Coverage: Automatic Test Suite Augmentation for Enhanced Effectiveness using Large Language Models",
+        "link": "https://doi.org/10.1145/3798251"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract focuses on software engineering, specifically unit test generation and code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly applies Large Language Models."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The approach is evaluated on 1,035 methods, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The evaluation results suggest a prototype, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study proposing a novel approach, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC25",
+      "status": "screened",
+      "data": {
+        "title": "Code generation with large language models: a survey from neural program synthesis to autonomous software development",
+        "link": "https://doi.org/10.1007/s10489-026-07230-0"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Abstract discusses code generation, program synthesis, and software engineering tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Mentions large language models, transformer architectures, and specific models like GPT-4."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The source is a survey, not a description of its own practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is a survey, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright year indicates 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "Explicitly identified as a survey."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC27",
+      "status": "screened",
+      "data": {
+        "title": "Evaluating the quality of GenAI applications in software engineering: a multi-case study",
+        "link": "https://doi.org/10.1007/s10664-025-10759-2"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, including code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Applies LLMs and GenAI."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The paper is an empirical study of evaluation practices, not a description of a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "Presents a study of metrics, not a usable tool or prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary case study, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC28",
+      "status": "screened",
+      "data": {
+        "title": "Can large language models identify and refactor code clones? An empirical study",
+        "link": "https://doi.org/10.1016/j.jss.2025.112717"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "the study involves code clone detection, classification, and refactoring, which are software construction activities."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "it evaluates LLMs such as GPT-4o and Gemini for code-related tasks."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "it reports on experiments applying LLMs to actual code from JHotDraw."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "the paper evaluates existing LLMs/tools; it does not describe a new prototype or deployed tool solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "the abstract includes '© 2025 Elsevier Inc.' indicating a publication year in the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "the abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "it appears to be an empirical evaluation study, not a secondary/tertiary study like a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC29",
+      "status": "screened",
+      "data": {
+        "title": "Applying generative artificial intelligence for vulnerability fixing in a proprietary software ecosystem",
+        "link": "https://doi.org/10.1016/j.jss.2025.112723"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Context is software engineering, specifically vulnerability remediation in software ecosystems."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Applies GenAI, particularly LLMs, for code generation and automated repair."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Presents PSECO-SafePatch, a web-based tool integrating Fortify with GenAI-based patch generation, evaluated in a case study."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC30",
+      "status": "screened",
+      "data": {
+        "title": "CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences",
+        "link": "https://doi.org/10.1145/3736407"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software construction (coding) as it addresses code generation and alignment with coding preferences."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Generative AI methods (LLMs like GPT-3.5, GPT-4, CodeLlama), and fine-tuning with SFT and RLAIF."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical implementation: they fine-tune a model and evaluate it on benchmarks."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The aligned model CodeLlama-7B-Instruct after fine-tuning is a usable prototype solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright 2026, which is within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, no other language indicated."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is not a survey or review; it presents a new dataset and model fine-tuning."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC31",
+      "status": "screened",
+      "data": {
+        "title": "An extensible framework for energy community embedding business models and AI-generated code snippets",
+        "link": "https://doi.org/10.1016/j.asoc.2025.114455"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC32",
+      "status": "screened",
+      "data": {
+        "title": "Pitfalls in Language Models for Code Intelligence: A Taxonomy and Survey",
+        "link": "https://doi.org/10.1145/3748647"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract mentions source code generation, automated bug repair, test case generation, which are software construction tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The abstract discusses Language Models and learning-based code intelligence, indicating Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The paper is a literature review, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The source is a review paper, not a usable tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2026, which is within the range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The paper is explicitly a literature review, a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC33",
+      "status": "screened",
+      "data": {
+        "title": "POS Tagging on Code Identifiers: How Far Are We?",
+        "link": "https://doi.org/10.1145/3744919"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically POS tagging of source code identifiers."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The study uses NLP taggers, but does not mention Generative AI or LLMs."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The abstract is dated 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The study is an evaluation and comparison of existing taggers, including training improvements, making it a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC34",
+      "status": "screened",
+      "data": {
+        "title": "Large Language Model Selection for Test-Driven Prompt Android iOS Development",
+        "link": "https://doi.org/10.3991/ijim.v20i03.59861"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Study focuses on code generation for mobile development, a software construction context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses several LLMs for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Presents an empirical evaluation and a decision tree framework, not purely theoretical."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication year 2026, within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "English abstract provided."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Primary empirical study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC35",
+      "status": "screened",
+      "data": {
+        "title": "Less Is More: DocString Compression in Code Generation",
+        "link": "https://doi.org/10.1145/3735636"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract deals with software engineering and code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Large Language Models for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It presents experiments on six datasets and multiple LLMs."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The proposed ShortenDoc method is evaluated, indicating a usable implementation."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright year is 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper proposes a novel compression method and is a primary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC36",
+      "status": "screened",
+      "data": {
+        "title": "Evaluating LLMs for Source Code Generation and Summarization Using Machine Learning Classification and Ranking",
+        "link": "https://doi.org/10.3390/computers15020119"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on code generation and code summarization tasks, which are software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies large language models (Mistral, CodeLlama, Gemma, Phi-3) for generative tasks."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It conducts a practical comparison experiment using datasets and quantitative metrics."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The abstract describes a comparative analysis and methodology, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2026, which falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is provided in English, indicating an English version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The study is a primary research experiment, not a survey, review, or mapping."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC37",
+      "status": "screened",
+      "data": {
+        "title": "Evaluating Retrieval-Augmented Generation for LLM-Based Vulnerability Detection: An Empirical Study on Real-World Java Vulnerabilities",
+        "link": "https://doi.org/10.1109/ACCESS.2026.3676577"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software construction, specifically source code vulnerability detection in Java."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies LLMs (GPT-5, GPT-4o, etc.) and retrieval-augmented generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes empirical experiments with practical implementation of LLM evaluation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is explicitly an empirical evaluation, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The summary is marked © 2026, which is within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The summary explicitly states it is an empirical benchmark/comparison of existing LLMs rather than proposing a new method, but it does not describe itself as a secondary or tertiary study (survey, review, systematic mapping)."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC38",
+      "status": "screened",
+      "data": {
+        "title": "Interactive LLM Agent Review for Software Engineering Artifacts",
+        "link": "https://doi.org/10.1080/08874417.2026.2650523"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly discusses software engineering and code generation/testing."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The approach is based on large language model (LLM)-based agents."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The approach is evaluated through case studies with validity metrics, indicating practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Three case studies validate the approach, demonstrating a usable prototype or tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The abstract includes a copyright year of 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and keywords are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is an original research paper proposing a new method, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC39",
+      "status": "screened",
+      "data": {
+        "title": "Intent-LLM: A Framework for Automated Network Configuration Through Code Generation",
+        "link": "https://doi.org/10.1109/TCCN.2026.3683230"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "the context is network configuration and management, not software construction (coding)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "it applies Large Language Models as the core approach."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "it describes a designed, implemented, and validated framework."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "not_met",
+            "note": "the copyright is 2015, which is before 2021."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "the abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "it is a primary study proposing a novel framework."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC40",
+      "status": "screened",
+      "data": {
+        "title": "EVALUATING THE CODE GENERATION CAPABILITIES OF CHATGPT THROUGH C++ DATABASE MANAGEMENT TASKS",
+        "link": "https://doi.org/10.5281/zenodo.18260582"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract focuses on code generation in software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses ChatGPT GPT-4, a generative AI large language model."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Empirical evaluation of code generation on C++ tasks with static analysis."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The study evaluates an existing LLM, not presenting a new prototype or tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary empirical study, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC41",
+      "status": "screened",
+      "data": {
+        "title": "Identifying and Mitigating API Misuse in Large Language Models",
+        "link": "https://doi.org/10.1109/TSE.2026.3651566"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on API misuse in LLM-generated code, directly related to software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The paper uses LLMs and proposes an LLM-based repair approach."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Dr.Fix is presented as an automatic repair approach with evaluation results, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Dr.Fix is an implemented repair tool with demonstrated improvements."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2026, within the range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper is a primary study, proposing a taxonomy and repair approach, not a survey."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC42",
+      "status": "screened",
+      "data": {
+        "title": "Model-Agnostic Empirical Evaluation of Test-Driven Prompt Engineering on Improving Accuracy and Efficiency in Large Language Models Python Code Generation",
+        "link": "https://doi.org/10.1109/ACCESS.2026.3662817"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC43",
+      "status": "screened",
+      "data": {
+        "title": "LLM-Driven Feature Inference for Analyzing Student Git Collaboration",
+        "link": "https://doi.org/10.1109/ACCESS.2026.3685720"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering education projects with version control and feature development, clearly software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly uses large language models (LLMs) in a pipeline."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes an applied four-phase LLM pipeline with empirical evaluation, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The pipeline generates summaries and labels, providing actionable analytics, implying a usable solution beyond a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright date is 2026, which falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, so the exclusion does not apply."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study describing an application, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC44",
+      "status": "screened",
+      "data": {
+        "title": "No Resource, No Benchmarks, No Problem? Evaluating and Improving LLMs for Code Generation in No-Resource Languages",
+        "link": "https://doi.org/10.1109/TSE.2026.3703553"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is code generation within software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Large Language Models for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It builds benchmarks and conducts experiments, constituting a practical implementation."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is an original empirical study, not a secondary review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC45",
+      "status": "screened",
+      "data": {
+        "title": "AI-Driven Refactoring: Semantic Reconstruction of Domain Models Using LLM Reasoning",
+        "link": "https://doi.org/10.14569/issn.2156-5570"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on automating domain layer reconstruction in legacy systems, which is a software construction (coding) activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly applies a large language model (GPT-5.2), which is a generative AI method."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The methodology involves a concrete LLM-based diagnosis and reconstruction pipeline applied to a case study."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2026, which falls within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English, so the source has an English version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It describes an original case study, not a secondary or tertiary study such as a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC46",
+      "status": "screened",
+      "data": {
+        "title": "Beyond Functional Correctness: Exploring Hallucinations in LLM-Generated Code",
+        "link": "https://doi.org/10.1109/TSE.2026.3657432"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "low",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC47",
+      "status": "screened",
+      "data": {
+        "title": "VeriGen: An LLM-Augmented Framework for End-to-End Automation of Software Development Lifecycle-From Requirements Specifications to Code Generation",
+        "link": "https://doi.org/10.1109/ACCESS.2026.3686308"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It mentions software development, code generation, and Java code synthesis, clearly fitting software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly mentions Large Language Models (LLMs) and Generative AI (GenAI) methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a framework (VeriGen) with a Verifier-Optimizer loop validated against case studies, implying a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It states it proposes a tool (\"VeriGen tool\" in keywords and framework in abstract) and validates it against benchmark case studies."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "It is marked '© 2026 The Authors', which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC48",
+      "status": "screened",
+      "data": {
+        "title": "Secure Code Generation with Open Source Generative AI models",
+        "link": "https://doi.org/10.1109/MS.2026.3672189"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It explicitly targets AI-generated code in software engineering workflows."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It evaluates large language models, a generative AI method."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes evaluating LLMs on generating secure Python code, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is an empirical evaluation, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC49",
+      "status": "screened",
+      "data": {
+        "title": "Code Comprehension Gaps in AI-Assisted Development: A Conceptual Framework for Knowledge Erosion Patterns",
+        "link": "https://doi.org/10.1109/ACCESS.2026.3689574"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering (software maintenance, code comprehension, development practices)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies LLMs (large language models) as the AI-powered code generation tools discussed."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The paper presents a conceptual framework and theoretical models, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It proposes theoretical models and hypotheses, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC50",
+      "status": "screened",
+      "data": {
+        "title": "Survey on Application of Retrieval-augmented Generation in Software Engineering",
+        "link": "https://doi.org/10.13328/j.cnki.jos.007567"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically tasks like code generation, code completion, and program repair."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Generative AI methods like large language models (LLMs) as part of retrieval-augmented generation."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication year 2026 is clearly stated and falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The study explicitly states it is a systematic review of RAG in software engineering."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC51",
+      "status": "screened",
+      "data": {
+        "title": "Refactoring Object-Oriented Software With ChatGPT: An Empirical Study",
+        "link": "https://doi.org/10.1049/sfw2/3348017"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Code refactoring is a software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses ChatGPT, a generative AI large language model."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Empirical study with test cases applied to real code."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The paper only evaluates existing tools, not presenting a new usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright year 2026 indicates publication in 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract and keywords are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is an empirical study, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC52",
+      "status": "screened",
+      "data": {
+        "title": "Enhanced Architecture of Structure Semantics for Syntax-Aware Code Generation",
+        "link": "https://doi.org/10.1002/spe.70025"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper focuses on code generation from natural language, a software construction task."
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Experimental results on datasets indicate a practical implementation."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in 2025, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary study proposing a method, not a review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC53",
+      "status": "screened",
+      "data": {
+        "title": "Natural Language to Code for Automated Annotation in Autonomous Driving",
+        "link": "https://doi.org/10.1109/TSMC.2025.3648552"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper presents a code generation pipeline for software tools, which falls under software construction."
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract mentions evaluations on datasets and plans to release open-source code, indicating an implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The described pipeline is evaluated and code will be open-sourced, suggesting a working prototype."
+          },
+          "IC5": {
+            "verdict": "not_met",
+            "note": "The abstract includes a copyright notice '© 2013 IEEE', indicating publication in 2013, well before 2021."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is provided in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It describes a novel code generation pipeline, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC54",
+      "status": "screened",
+      "data": {
+        "title": "AI-Powered Architecture Refactoring: From Legacy Systems to Modern Patterns An Initial Case Study with LLM and CQRS",
+        "link": "https://doi.org/10.14569/IJACSA.2025.0161251"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering and focuses on coding-level refactoring and classification."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses CodeLlama, a large language model."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Presents a working tool (Airchitect) with empirical evaluation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Airchitect is a modular tool that was tested on legacy classes."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication year 2025, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study presenting a new tool, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC55",
+      "status": "screened",
+      "data": {
+        "title": "SE Perspective on LLMs: Biases in Code Generation, Code Interpretability, and Code Security Risks",
+        "link": "https://doi.org/10.1145/3774324"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract discusses code generation and software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It focuses on Large Language Models for code generation."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It is a perspective piece, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No prototype or tool is presented."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright year is 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a perspective piece, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC56",
+      "status": "screened",
+      "data": {
+        "title": "Comparative analysis of design pattern implementation validity in LLM-based code refactoring",
+        "link": "https://doi.org/10.1016/j.jss.2025.112519"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It explicitly addresses design pattern implementation and code refactoring in software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The study evaluates multiple LLMs (e.g., Claude, ChatGPT, Copilot) for pattern implementation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The framework is applied to two case studies with quantitative metrics."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright 2025 indicates publication in 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study presenting a novel assessment framework and case studies."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC57",
+      "status": "screened",
+      "data": {
+        "title": "Insights into resource utilization of code small language models serving with runtime engines and execution providers",
+        "link": "https://doi.org/10.1016/j.jss.2025.112574"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It specifically investigates code generation SLMs from the perspective of software engineers."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly uses and analyzes Small Language Models (SLMs) for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a technology-oriented, multi-stage experimental pipeline."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It recommends configurations for enhancing efficiency but does not describe a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, so this exclusion does not apply."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The summary describes an experimental study analyzing the impact of configurations, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC58",
+      "status": "screened",
+      "data": {
+        "title": "Mokav: Execution-driven differential testing with LLMs",
+        "link": "https://doi.org/10.1016/j.jss.2025.112571"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Focuses on detecting functional differences between programs in software engineering tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses LLMs to generate test inputs."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Presents MOKAV, a tool implemented and evaluated."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Describes a prototype tool that can generate difference-exposing tests."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright 2025, within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It presents a novel tool, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC59",
+      "status": "screened",
+      "data": {
+        "title": "Performance and interpretability analysis of code generation large language models",
+        "link": "https://doi.org/10.1016/j.neucom.2025.131461"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study evaluates LLMs on code translation and generation from requirements, which are software construction tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The abstract explicitly mentions evaluating 'Large Language Models (LLMs)' including code-specific models."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes an evaluation study with metrics (CodeBLEU, chrF, METEOR) on real LLM outputs, indicating practical experimentation rather than purely theoretical work."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is an evaluation study of existing models on a dataset, not a new prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2025, falling within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The language is English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a study evaluating and interpreting existing models, not a secondary/tertiary study like a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC60",
+      "status": "screened",
+      "data": {
+        "title": "State of the Art of the Security of Code Generated by LLMs: A Multivocal Literature Review",
+        "link": "https://doi.org/10.1134/S0361768825700446"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Context is software engineering, specifically examining LLM-generated code from a software engineering perspective."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Applies Generative AI methods, specifically large language model (LLM) technologies for code generation."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is a literature review, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright is 2025, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is explicitly a multivocal literature review (MLR), a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC61",
+      "status": "screened",
+      "data": {
+        "title": "Analyzing the dependability of Large Language Models for code clone generation",
+        "link": "https://doi.org/10.1016/j.jss.2025.112548"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on generating code clones in multiple programming languages, which is part of software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The study uses LLMs (GPT-3.5, GPT-4, CodeLlama) for code clone generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The authors conducted an empirical study involving actual LLM queries to generate code clones from LeetCode solutions."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The paper reports an empirical study evaluating LLMs for code clone generation, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2025, indicating publication within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, so no language exclusion applies."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is an original empirical study, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC62",
+      "status": "screened",
+      "data": {
+        "title": "Piloting Copilot, Codex, and StarCoder2: Hot temperature, cold prompts, or black magic?",
+        "link": "https://doi.org/10.1016/j.jss.2025.112562"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Investigates code assistants generating programs from natural language prompts."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Focuses on LLM-based code assistants (Copilot, Codex, StarCoder2)."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Describes an empirical study manipulating model parameters and observing outputs."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "Studies existing deployed tools (Copilot, Codex) and a model (StarCoder2), not proposing a new tool itself."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The abstract includes © 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The study is a primary empirical study, not a secondary/tertiary review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC63",
+      "status": "screened",
+      "data": {
+        "title": "Transforming natural language into code: advancing automated code synthesis for software development",
+        "link": "https://doi.org/10.1007/s10586-025-05688-0"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly mentions automated code generation from natural language, which is a software construction (coding) activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The abstract describes fine-tuning a transformer-based T5 model, which is a Generative AI method."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract describes evaluating the model with a framework and reporting BLEU scores, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2025, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The abstract describes a primary study presenting a new model and evaluation, not a secondary review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC64",
+      "status": "screened",
+      "data": {
+        "title": "Leveraging Large Language Models in the Software Development Lifecycle: Opportunities and Challenges",
+        "link": "https://doi.org/10.14569/IJACSA.2025.0161105"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The source focuses on the entire SDLC, not specifically software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly applies LLMs."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It is a survey, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It presents a survey, not a usable tool or prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication year is 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is a secondary study (survey)."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC65",
+      "status": "screened",
+      "data": {
+        "title": "A Language-based Approach to Macroprogramming for IoT Systems through Large Language Models",
+        "link": "https://doi.org/10.1145/3758326"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is code generation within software engineering, specifically for IoT systems."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Large Language Models (LLMs) for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes an approach that translates natural language into executable code, implying a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It proposes a language-based approach leveraging LLMs, which implies at least a prototype solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication year 2025 is evident in the copyright notice."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper proposes a new approach using LLMs, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC66",
+      "status": "screened",
+      "data": {
+        "title": "An Empirical Study of Exploring the Capabilities of Large Language Models in Code Learning",
+        "link": "https://doi.org/10.1109/TSE.2025.3609876"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on software engineering tasks such as code syntax understanding, code semantic reasoning, and code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It studies large language models (LLMs) like CodeGen, LLaMA, and StarCoder."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The abstract describes a comparative analysis study, not the presentation of a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written in English."
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC67",
+      "status": "screened",
+      "data": {
+        "title": "Toward efficient vibe coding: An LLM-based agent for low-code software development",
+        "link": "https://doi.org/10.1016/j.cola.2025.101367"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically low-code development and DSL-based application development."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies LLMs and related techniques like prompt engineering."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical implementation embedded in a low-code platform and evaluated with users."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents a usable prototype (DSL Agent) embedded in the Locsys platform."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2025, which falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source presents a new tool, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC68",
+      "status": "screened",
+      "data": {
+        "title": "AutoVerus: Automated Proof Generation for Rust Code",
+        "link": "https://doi.org/10.1145/3763174"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper targets proof generation for Rust code, which is a software construction task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The abstract explicitly states using LLMs for proof generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "AutoVerus is implemented and evaluated on a benchmark, indicating a practical system."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "AutoVerus is presented as a functioning prototype with evaluation results."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2025, which falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, and there is no indication of a non-English version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is an original tool paper, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC69",
+      "status": "screened",
+      "data": {
+        "title": "Integrating Large Language Models into Automated Software Testing",
+        "link": "https://doi.org/10.3390/fi17100476"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It focuses on generating test scripts, which is a coding task in software testing."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses LLMs and fine-tunes the Codestral Mamba model for test case generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It involves fine-tuning, training on datasets, and experimental evaluation, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It describes a working system that automatically generates code-based test cases, as demonstrated by experimental results."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright notice indicates 2025, which falls within 2021–2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, and there is no indication of a non-English version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It presents original research with an implementation and evaluation, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC70",
+      "status": "screened",
+      "data": {
+        "title": "SCEditor-Web: Bridging Model-Driven Engineering and Generative AI for Smart Contract Development",
+        "link": "https://doi.org/10.3390/info16100870"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Smart contract development and code generation are central to software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses large language models (LLMs) with prompt engineering to generate platform-specific code."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "A prototype implementation was evaluated on Solidity contracts as a proof of concept."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Describes a web-based modeling environment with a prototype, a usable tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright date is 2025, falling within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English; there is no indication of a non-English version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper introduces a new tool, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC71",
+      "status": "screened",
+      "data": {
+        "title": "Translating code with Large Language Models and human-in-the-loop feedback",
+        "link": "https://doi.org/10.1016/j.infsof.2025.107785"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper deals with code translation tasks in software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses ChatGPT, Google Bard, and GitHub Copilot, all Generative AI tools."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The study involves practical evaluation with human participants and real query translations."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The paper evaluates existing tools, not presenting a new usable solution or prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication year is 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, no indication of a non-English version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary empirical study, not a secondary/tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC72",
+      "status": "screened",
+      "data": {
+        "title": "CodeDiffuSe: A masked diffusion framework for structure-aware code completion and repair",
+        "link": "https://doi.org/10.1007/s44443-025-00237-6"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It addresses code completion and repair, which are core software construction tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The framework extends large language models with a novel diffusion-based approach."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It reports extensive experiments on standard benchmarks, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The paper proposes a framework with specific mechanisms and evaluates it, suggesting a prototype was built."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper is dated 2025, which falls within the 2021–2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The abstract describes a novel method and experimental results, not a secondary or tertiary study such as a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC73",
+      "status": "screened",
+      "data": {
+        "title": "Trust, transparency, and adoption in generative AI for software engineering: Insights from Twitter discourse",
+        "link": "https://doi.org/10.1016/j.infsof.2025.107804"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on code generation tools in software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The study analyzes generative AI code generation tools."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The study empirically analyzes real tweets about code generation tools."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The study is an analysis of user opinions, not a tool or prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper is from 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The study is primary research analyzing tweets, not a review or survey."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC74",
+      "status": "screened",
+      "data": {
+        "title": "An empirical study on capability of Large Language Models in understanding code semantics",
+        "link": "https://doi.org/10.1016/j.infsof.2025.107780"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly states it involves code LLMs applied to various software engineering tasks, including code generation and understanding."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It evaluates Large Language Models for Code, with 'code LLMs' being a focal point."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It introduces a framework (EMPICA) and describes an empirical evaluation with systematic transformations and experimental results."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "EMPICA is presented as a comprehensive framework designed to systematically evaluate model capabilities, which constitutes a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2025, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and keywords are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It describes an empirical evaluation framework and experiment, not a secondary/tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC75",
+      "status": "screened",
+      "data": {
+        "title": "Generating vulnerability security fixes with Code Language Models",
+        "link": "https://doi.org/10.1016/j.infsof.2025.107786"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly mentions software engineering, automated code generation, automated program repair, and fixing vulnerabilities in source code."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It mentions Code Language Models (CLM), CodeT5, CodeLlama, and fine-tuning a novel CLM, which are generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes experimental evaluation with performance metrics (CodeBLEU, ROUGE), indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It proposes a model (PatchLM) that generates security patches, constituting a usable prototype tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2025, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and title are in English, satisfying the language requirement."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It presents a novel model and experimental results, not a secondary study or survey."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC76",
+      "status": "screened",
+      "data": {
+        "title": "Refactoring Loops in the Era of LLMs: A Comprehensive Study",
+        "link": "https://doi.org/10.3390/fi17090418"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study explicitly addresses software construction through code refactoring in Java."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It evaluates ChatGPT, a generative AI model, for automating refactoring."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper involves an experimental evaluation using real-world code repositories."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The source evaluates ChatGPT's capability rather than presenting a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year 2025 falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC77",
+      "status": "screened",
+      "data": {
+        "title": "Exploring Parameter-Efficient Fine-Tuning Techniques for Code Generation with Large Language Models",
+        "link": "https://doi.org/10.1145/3714461"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on automated code generation in software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses large language models for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It presents an empirical investigation with experimental evaluation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is an empirical study, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright year is 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It presents original empirical results, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC78",
+      "status": "screened",
+      "data": {
+        "title": "Symmetry-Aware Code Generation: Distilling Pseudocode Reasoning for Lightweight Deployment of Large Language Models",
+        "link": "https://doi.org/10.3390/sym17081325"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is explicitly software engineering, focusing on code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies large language models (LLMs) and proposes a distillation framework."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes comprehensive experiments with multiple models and a dataset, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The abstract describes a 'distillation framework' implemented and evaluated, constituting a usable solution or prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is explicitly stated as 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source describes a novel distillation framework and experiments, indicating primary research, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC79",
+      "status": "screened",
+      "data": {
+        "title": "Top Pass: improve code generation by pass@k-maximized code ranking",
+        "link": "https://doi.org/10.1007/s11704-024-40415-9"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Abstract discusses code generation in software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Applies LLMs for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Proposes implementation with experimental evaluation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Presents a ranking approach with results, indicating a usable solution prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Primary study proposing a new method."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC80",
+      "status": "screened",
+      "data": {
+        "title": "Bugs in large language models generated code: an empirical study",
+        "link": "https://doi.org/10.1007/s10664-025-10614-4"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically examining code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It examines bugs in code generated by three LLMs (CodeGen, PanGu-Coder, Codex)."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The abstract describes an empirical study of LLM bugs, not a practical GenAI implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It presents a taxonomy of bug patterns, not a usable prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date 2025 is present in the copyright notice."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is provided in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is an empirical study identifying bug patterns, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC81",
+      "status": "screened",
+      "data": {
+        "title": "The Current Challenges of Software Engineering in the Era of Large Language Models",
+        "link": "https://doi.org/10.1145/3712005"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The article discusses software engineering and includes coding assistance."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The article explicitly focuses on large language models in software engineering."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The article is a discussion of challenges and does not describe a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The article presents challenges and does not describe a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright year is 2025, which falls within the range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, indicating the article is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The article is a review/discussion of challenges, which is a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC82",
+      "status": "screened",
+      "data": {
+        "title": "Open Source AI-based SE Tools: Opportunities and Challenges of Collaborative Software Learning",
+        "link": "https://doi.org/10.1145/3708529"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The summary explicitly mentions software engineering tasks and AI code models for code understanding and generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It discusses large language models (LLMs) and AI code models, which are Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes experimental findings with different data scenarios, code models, and FL algorithms, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It introduces a governance framework and guidelines, and conducts experiments, suggesting a usable solution beyond a mere concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright is dated 2025, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The text is in English, so the exclusion does not apply."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a position article with experiments, not a secondary study like a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC83",
+      "status": "screened",
+      "data": {
+        "title": "Rich Data Versus Quantity of Data in Code Generation AI: A Paradigm Shift for Healthcare",
+        "link": "https://doi.org/10.30953/bhty.v8.396"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It discusses AI-generated code for software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly mentions large language models and code generation AI."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It includes a case study with practical outcomes, not just theory."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It evaluates a system called Self-Evolving Software, indicating a prototype or implemented tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2025, which falls within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and keywords are in English, so it is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC84",
+      "status": "screened",
+      "data": {
+        "title": "Towards an understanding of large language models in software engineering tasks",
+        "link": "https://doi.org/10.1007/s10664-024-10602-0"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The review covers software engineering tasks, including code generation, so the context is software construction."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The paper is a literature review and does not itself apply Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It is a secondary study with no practical implementation described."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No usable solution (prototype or tool) is presented; it is a review."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper's copyright date 2024 indicates publication within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The source is a literature review (secondary study)."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC85",
+      "status": "screened",
+      "data": {
+        "title": "CodeScore: Evaluating Code Generation by Learning Code Execution",
+        "link": "https://doi.org/10.1145/3695991"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "low",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC86",
+      "status": "screened",
+      "data": {
+        "title": "Using AI-based coding assistants in practice: State of affairs, perceptions, and ways forward",
+        "link": "https://doi.org/10.1016/j.infsof.2024.107610"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering with focus on coding activities like implementing features, writing tests, bug triaging, and refactoring."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Keywords include LLMs and AI assistants, which are generative AI techniques."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The study is a survey, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It presents survey results, not a usable prototype or tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2024, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The source describes a large-scale survey, which is a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC87",
+      "status": "screened",
+      "data": {
+        "title": "An Empirical Study of the Non-Determinism of ChatGPT in Code Generation",
+        "link": "https://doi.org/10.1145/3697010"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It studies code generation, a core software construction (coding) task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly studies ChatGPT, a large language model (LLM)."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It describes an empirical study conducted on existing LLM outputs, not a practical implementation of a solution."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It presents an analysis of LLM behavior, not a usable prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication year is 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is an empirical study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC89",
+      "status": "screened",
+      "data": {
+        "title": "Quantitative Assessment of Generative Large Language Models on Design Pattern Application",
+        "link": "https://doi.org/10.32604/cmc.2025.062552"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically applying design patterns to software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly applies Generative AI methods (large language models like ChatGPT 4)."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical implementation involving inputting applications into an LLM for pattern application and quantitative assessment."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents a usable solution, a method utilizing ChatGPT 4 for design pattern application."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2025, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The study introduces and evaluates a new method, and is not described as a survey, review, or mapping study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC90",
+      "status": "screened",
+      "data": {
+        "title": "Bibliometric and Content Analysis of Large Language Models Research in Software Engineering: The Potential and Limitation in Software Engineering",
+        "link": "https://doi.org/10.14569/IJACSA.2025.0160436"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is explicitly software engineering, and keywords like 'code generation' and 'software design' point to software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Large Language Models (LLMs) as the central topic of the analyzed studies."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The study is a bibliometric analysis, not a practical implementation that itself applies generative AI for coding."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It presents analytical results, not a usable prototype or tool for software construction."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication year is clearly indicated as 2025, which is within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The abstract explicitly describes a bibliometric and content analysis of 235 papers, making it a secondary study (review)."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC91",
+      "status": "screened",
+      "data": {
+        "title": "Preconditions and Postconditions as Design Constraints for LLM Code Generation",
+        "link": "https://doi.org/10.1109/ACCESS.2025.3625819"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on automated code generation of complete software implementations using LLMs."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The study evaluates six state-of-the-art LLMs for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The study conducts a practical evaluation by generating actual code implementations using LLMs."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "not_met",
+            "note": "The copyright notice indicates 2013, which is before 2021."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The study is a primary evaluation of LLMs, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC92",
+      "status": "screened",
+      "data": {
+        "title": "Optimizing Large Language Models’ Performance in Software Development Tasks through Structured Prompts",
+        "link": "https://doi.org/10.37394/232018.2025.13.42"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly mentions software development, code generation, and software engineering workflows."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It mentions Large Language Models (LLMs) and their use in code generation, which are Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It is an empirical investigation with evaluation of 400 programming challenges, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2025, which is between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is an empirical study, not a secondary or tertiary study like a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC93",
+      "status": "screened",
+      "data": {
+        "title": "Code Clone Detection Techniques Based on Large Language Models",
+        "link": "https://doi.org/10.1109/ACCESS.2025.3549780"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "the context is code cloning and detection within software engineering"
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "it applies few-shot instruction-tuned GPT-3.5 Turbo and GPT-4"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "it describes integration into an IDE for real-time detection and automated refactoring"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "the solution was integrated into an IDE, indicating a prototype or tool"
+          },
+          "IC5": {
+            "verdict": "not_met",
+            "note": "the copyright is 2013, and the context is GPT-based LLMs which suggest a later date, but the given date is clearly outside the range"
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC94",
+      "status": "screened",
+      "data": {
+        "title": "Analysis of ChatGPT-Generated Codes Across Multiple Programming Languages",
+        "link": "https://doi.org/10.1109/ACCESS.2025.3538050"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4, IC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract focuses on AI-generated code and software development, which is software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The study uses ChatGPT-4o, a large language model, which is a Generative AI method."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The study involves empirical evaluation of generated code on practical programming problems."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The study evaluates AI-generated code but does not propose a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "not_met",
+            "note": "The copyright year is 2013, which is before 2021."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English, so the exclusion does not apply."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The study is primary research, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC95",
+      "status": "screened",
+      "data": {
+        "title": "LLMs for science: Usage for code generation and data analysis",
+        "link": "https://doi.org/10.1002/smr.2723"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly mentions software engineering and generating application code."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The abstract clearly states the use of Large Language Models (LLMs)."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract states they 'investigated a set of use cases' and 'conducted a first study to assess' tools."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2024."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source reports on an investigation of multiple tools and compares them, which is primary research, not a secondary survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC96",
+      "status": "screened",
+      "data": {
+        "title": "The Impact of Prompt Programming on Function-Level Code Generation",
+        "link": "https://doi.org/10.1109/TSE.2025.3587794"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on LLMs for code generation in software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It evaluates prompt techniques for LLMs, which are Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The study provides a dataset and evaluates techniques on LLMs, which is a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Provides CodePromptEval dataset and replication package as a usable resource."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract and keywords are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary study presenting a dataset and empirical evaluation."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC97",
+      "status": "screened",
+      "data": {
+        "title": "Enhancing Project-Specific Code Completion by Inferring Internal API Information",
+        "link": "https://doi.org/10.1109/TSE.2025.3592823"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper is about code completion in software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses LLMs and RAG for code completion."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Evaluated on benchmarks with real-world projects, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Presents a method with evaluation; likely a prototype exists."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Primary study proposing a new code completion method."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC98",
+      "status": "screened",
+      "data": {
+        "title": "Cross-lingual Transfer in Programming Languages: An Extensive Empirical Study",
+        "link": ""
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study covers software engineering tasks like code generation, clone detection, and code repair."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It investigates transfer learning for large language models (LLMs), a generative AI technique."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract describes an extensive empirical study with experiments, not just a theoretical proposal."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year 2025 is explicitly given."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is clearly written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is an original empirical study, not a secondary study or survey."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC100",
+      "status": "screened",
+      "data": {
+        "title": "MINDS: An NLP-Driven Process Mining Framework for Superior Microservices Decomposition",
+        "link": "https://doi.org/10.1109/ACCESS.2025.3639460"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper addresses microservice decomposition, a software engineering task."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The approach uses NLP and process mining, not generative AI or LLMs."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The framework was evaluated on four applications, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "MINDS is presented as a framework with evaluation, suggesting a prototype."
+          },
+          "IC5": {
+            "verdict": "not_met",
+            "note": "Copyright year is 2013, outside the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It presents a novel framework, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC101",
+      "status": "screened",
+      "data": {
+        "title": "Three decades of the OO-Method: fostering conceptual-model software engineering",
+        "link": "https://doi.org/10.1007/s10270-025-01299-w"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The summary explicitly covers software engineering and model-driven software generation, which are aspects of software construction."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The text mentions generative AI techniques only as a future challenge, not as a method applied in this work."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The text indicates a 2025 copyright/publication date."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary and keywords are in English, and no indication of a non-English version is present."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The text explicitly states it is a review exploring the evolution and historical perspective of the OO-Method, making it a secondary/tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC102",
+      "status": "screened",
+      "data": {
+        "title": "Analysis of existing approaches to automated refactoring of object-oriented software systems",
+        "link": "https://doi.org/10.15276/hait.08.2025.11"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract discusses automated refactoring in object-oriented software systems, clearly within software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The abstract explicitly mentions LLMs as a machine learning technique applied to refactoring."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The paper is an extended review of existing approaches, not describing a practical implementation of its own."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "As a review, it does not present a usable prototype or deployed tool, only surveys existing solutions."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year 2025 is explicitly stated, falling within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and keywords are in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The paper is described as an extended review, making it a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC103",
+      "status": "screened",
+      "data": {
+        "title": "Condor: A Code Discriminator Integrating General Semantics With Code Details",
+        "link": "https://doi.org/10.1109/TSE.2025.3620145"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper explicitly addresses code generation and repair, which are software construction tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It proposes Condor, a discriminator to improve LLM-based code generation, which applies generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract describes experimental results on multiple datasets, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Condor is described with specific models and evaluated, suggesting a usable prototype or tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The IEEE copyright notice (1976-2012) is likely for formatting; the use of DeepSeek-Coder and Llama-3.1-Instruct strongly suggests a post-2020 publication date."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC106",
+      "status": "screened",
+      "data": {
+        "title": "No Need to Lift a Finger Anymore? Assessing the Quality of Code Generation by ChatGPT",
+        "link": "https://doi.org/10.1109/TSE.2024.3392499"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on software engineering and code generation using algorithm problems."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The study applies ChatGPT, a large language model, for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The study is a systematic empirical assessment with experimental results, not purely theoretical."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The study evaluates an existing LLM (ChatGPT) rather than presenting a new prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English, meeting the language requirement."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The study is a systematic empirical assessment, which functions as a review/evaluation of an existing tool."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC107",
+      "status": "screened",
+      "data": {
+        "title": "Few-shot code translation via task-adapted prompt learning",
+        "link": "https://doi.org/10.1016/j.jss.2024.112002"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper focuses on automated code translation, a coding task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It employs pre-trained language models and prompt tuning, which are generative AI techniques."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The method is evaluated on datasets, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The paper presents an implemented approach with experimental results, not merely a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright year is 2024, which falls within the range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, indicating an English version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper proposes a novel method, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC108",
+      "status": "screened",
+      "data": {
+        "title": "“It would work for me too”: How online communities shape software developers’ trust in AI-powered code generation tools",
+        "link": "https://doi.org/10.1145/3651990"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on software developers and AI code generation tools, clearly in the software construction domain."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Keywords and abstract explicitly mention Generative AI and AI-powered code generation."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The abstract describes empirical studies and design considerations, not a practical implementation of a tool."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No prototype or deployed tool is presented; the work offers design considerations based on formative studies."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright is 2024, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The provided summary is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary study involving interviews and design probes, not a review or survey."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC109",
+      "status": "screened",
+      "data": {
+        "title": "INSPECT: Intrinsic and Systematic Probing Evaluation for Code Transformers",
+        "link": "https://doi.org/10.1109/TSE.2023.3341624"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on pre-trained models for source code applied to software engineering tasks like code completion."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The study probes pre-trained models but does not apply generative AI to implement a solution for software construction."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The study is a diagnostic probing of models, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No usable tool or prototype is described; it is a probing analysis."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary research study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC110",
+      "status": "screened",
+      "data": {
+        "title": "Enhancing source code retrieval with joint Bi-LSTM-GNN architecture: A comparative study with ChatGPT-LLM",
+        "link": "https://doi.org/10.1016/j.jksuci.2023.101865"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC2",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on source code retrieval, a software construction task."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The proposed model uses Bi-LSTM and GNN, not generative AI or LLMs."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract reports extensive experiments on datasets, indicating practical implementation."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The copyright year is 2023, which falls within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper proposes a new model, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC111",
+      "status": "screened",
+      "data": {
+        "title": "StructCoder: Structure-Aware Transformer for Code Generation",
+        "link": "https://doi.org/10.1145/3636430"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Abstract addresses code generation and translation tasks, which are part of software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses a Transformer-based model, which is a Generative AI technique."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The model is implemented and evaluated on benchmarks with publicly available code."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The paper presents a trained model and releases code, indicating a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright year is 2024, which is within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, and the article appears to be in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary research article proposing a new model, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC112",
+      "status": "screened",
+      "data": {
+        "title": "Chain-of-Thought in Neural Code Generation: From and for Lightweight Language Models",
+        "link": "https://doi.org/10.1109/TSE.2024.3440503"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is code generation, a core activity of software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Large Language Models and Chain of Thought reasoning, which are Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes the design of an approach, dataset synthesis, and extensive experiments, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It presents original research, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC113",
+      "status": "screened",
+      "data": {
+        "title": "Methodology for Code Synthesis Evaluation of LLMs Presented by a Case Study of ChatGPT and Copilot",
+        "link": "https://doi.org/10.1109/ACCESS.2024.3403858"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4, IC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "context is software engineering and source code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "evaluates LLMs (ChatGPT, Copilot) which are generative AI."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "describes an actual comparison experiment with benchmark tasks."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "evaluates existing tools (ChatGPT, Copilot) rather than implementing a new one."
+          },
+          "IC5": {
+            "verdict": "not_met",
+            "note": "© 2013 IEEE indicates publication before 2021."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC114",
+      "status": "screened",
+      "data": {
+        "title": "A survey on the application of large language models in software engineering",
+        "link": "https://doi.org/10.20537/2076-7633-2024-16-7-1715-1726"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "survey covers coding in software engineering"
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "explicitly mentions LLMs"
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "it is a survey, not a practical implementation"
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "no prototype or tool is described"
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "copyright 2024"
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "abstract is in English"
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "abstract states it is a survey"
+          }
+        }
+      }
+    },
+    {
+      "id": "SC115",
+      "status": "screened",
+      "data": {
+        "title": "Evaluating Diverse Large Language Models for Automatic and General Bug Reproduction",
+        "link": "https://doi.org/10.1109/TSE.2024.3450837"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Bug reproduction and test generation in software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses large language models (LLMs) for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Proposes and evaluates Libro, a pipeline that generates bug-reproducing tests on the Defects4J benchmark."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Libro is a post-processing pipeline and technique for automated bug reproduction."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC116",
+      "status": "screened",
+      "data": {
+        "title": "Gotcha! This Model Uses My Code! Evaluating Membership Leakage Risks in Code Models",
+        "link": "https://doi.org/10.1109/TSE.2024.3482719"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Focuses on software engineering tasks like program repair and code completion."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Explicitly mentions large language models and their advances."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Proposes and evaluates Gotcha, an implemented membership inference attack on code models."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Presents a concrete attack tool (Gotcha) with evaluation, not just a concept."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is original research, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC117",
+      "status": "screened",
+      "data": {
+        "title": "Practical Application of AI and Large Language Models in Software Engineering Education",
+        "link": "https://doi.org/10.14569/IJACSA.2024.0150168"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Context is software engineering education, with workshops using code generation tools like ChatGPT."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Mentions LLMs, Stable Diffusion, and ChatGPT, which are Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Describes deployed workshops with student feedback, indicating practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Presents a deployed workshop methodology as a usable solution for integrating AI in education."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright year is 2024, which is within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English, so no indication of non-English language."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Describes primary study of workshops, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC118",
+      "status": "screened",
+      "data": {
+        "title": "A novel hybrid CNN-GRU model for website-based user interface code generator",
+        "link": "https://doi.org/10.1080/1206212X.2024.2416955"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, EC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on automated generation of website code from UI designs within software engineering."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The method uses a CNN-GRU model, which is not a Generative AI (LLM) technique."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "An empirical study was conducted to evaluate the proposed model."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication year 2024 is within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "SC119",
+      "status": "screened",
+      "data": {
+        "title": "Integrating Generative AI for Advancing Agile Software Development and Mitigating Project Management Challenges",
+        "link": "https://doi.org/10.14569/IJACSA.2024.0150306"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is explicitly Agile software development and software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The abstract specifically mentions leveraging Generative AI for tasks like code generation."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The abstract does not describe a usable solution, prototype, or tool; it analyzes potential benefits and integration."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The year 2024 is present in the abstract."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and keywords are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper is described as an 'in-depth analysis' exploring potential benefits, not as a survey, review, or mapping study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC120",
+      "status": "screened",
+      "data": {
+        "title": "GitHub Copilot AI pair programmer: Asset or Liability?",
+        "link": "https://doi.org/10.1016/j.jss.2023.111734"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically evaluating program synthesis for algorithmic problems and programming tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Generative AI via a Deep Learning-based Language Model (Copilot)."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The study evaluates the practical performance of Copilot on real programming tasks."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The paper evaluates the Copilot tool, which is an industrial product, but does not describe a prototype or deployed tool created by the authors."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2023, as stated in the copyright notice."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary and keywords are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is an empirical evaluation of an existing tool (Copilot), not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC122",
+      "status": "screened",
+      "data": {
+        "title": "Improving Code Completion by Solving Data Inconsistencies in the Source Code with a Hierarchical Language Model",
+        "link": "https://doi.org/10.3390/electronics12071576"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract addresses code completion and recommendation, fitting software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Proposes a language model for code generation, which is a generative AI technique."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Includes experiments on datasets, demonstrating practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Proposes a model with experimental validation, indicating at least a prototype solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright 2023 indicates publication year 2023, within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is an original research paper proposing a new model, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC124",
+      "status": "screened",
+      "data": {
+        "title": "Recent advances in intelligent source code generation: A survey on natural language based studies",
+        "link": "https://doi.org/10.3390/e23091174"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly addresses source code generation, which is software construction."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The source is a systematic literature survey, not applying generative AI methods itself."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The source is a survey, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The source is a survey, not a usable solution or tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The abstract includes a copyright year 2021."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The source is a systematic literature survey."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC125",
+      "status": "screened",
+      "data": {
+        "title": "A Survey of Automatic Code Generation from Natural Language",
+        "link": "https://doi.org/10.3745/JIPS.04.0216"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically software construction (coding), as it addresses source code generation."
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The abstract mentions © 2021, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is provided in English; there is no indication it is in another language."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The paper is described as a survey of existing approaches, making it a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC126",
+      "status": "screened",
+      "data": {
+        "title": "Deep Learning for Source Code Modeling and Generation: Models, Applications, and Challenges",
+        "link": "https://doi.org/10.1145/3383458"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4, IC5, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically source code modeling and generation."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The paper itself is a review and does not apply Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It is a survey, not a description of a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It does not present a usable solution, only a literature review."
+          },
+          "IC5": {
+            "verdict": "not_met",
+            "note": "The copyright is 2020, which is before the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is explicitly a comprehensive review, a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC127",
+      "status": "screened",
+      "data": {
+        "title": "Automated Source Code Generation and Auto-Completion Using Deep Learning: Comparing and Discussing Current Language Model-Related Approaches",
+        "link": "https://doi.org/10.3390/ai2010001"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on code generation and mask tasks using a Python dataset, which is coding."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies deep learning language models (including Transformers) for code generation, which is a Generative AI method."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It compares architectures via experiments on a Python dataset, indicating practical implementation."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Copyright year indicates 2021, which is within the range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, indicating an English version exists."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary empirical comparison, not a survey or review."
+          }
+        }
+      }
+    }
+  ]
+}

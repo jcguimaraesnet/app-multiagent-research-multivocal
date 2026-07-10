@@ -1,0 +1,14 @@
+{
+  "title": "A Collective Evaluation Platform for LLM Code Generation",
+  "link": "https://aclanthology.org/2025.acl-demo.48/",
+  "summary": "This paper presents CodeArena, an online evaluation framework for LLM code generation. It introduces a collective evaluation mechanism that dynamically recalibrates individual model scores based on overall participant performance to reduce bias from benchmark leakage. The platform also provides a public repository of solutions and test cases, along with automation-friendly APIs for seamless integration into code evaluation workflows.",
+  "author": "Mingzhe Du et al.",
+  "publication_date": "2025-07",
+  "keywords": [
+    "CodeArena",
+    "LLM code generation",
+    "collective evaluation",
+    "benchmark leakage",
+    "evaluation platform"
+  ]
+}

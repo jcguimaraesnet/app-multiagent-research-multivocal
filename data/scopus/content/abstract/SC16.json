@@ -1,0 +1,14 @@
+{
+  "title": "RAGdeterm: Deterministic retrieval-augmented generation for code generation",
+  "link": "https://doi.org/10.1016/j.softx.2026.102636",
+  "abstract": "Large language models (LLMs) are increasingly used in software development, yet effective code generation requires reliable access to up-to-date project-specific source code. This paper introduces RAGdeterm, a deterministic Retrieval-Augmented Generation approach proposed as an alternative to embedding-based RAG architectures. RAGdeterm enriches prompts using a relational database that explicitly represents object-oriented code structures and dependencies, rather than vector embeddings and similarity search. This design enables deterministic and repeatable retrieval of contextual information and avoids probabilistic retrieval mechanisms. RAGdeterm is positioned as an alternative to traditional, enhanced, and agentic RAG approaches in software engineering where predictability and reproducibility are important. © 2026 The Authors.",
+  "keywords": [
+    "Code generation",
+    "Information retrieval",
+    "Large language models",
+    "Retrieval-augmented generation"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Elsevier B.V."
+}

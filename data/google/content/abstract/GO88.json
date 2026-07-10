@@ -1,0 +1,14 @@
+{
+  "title": "CoCoEvo: Co-Evolution of Programs and Test Cases to Enhance Code Generation",
+  "link": "https://ieeexplore.ieee.org/document/11098743/",
+  "summary": "This paper presents CoCoEvo, an LLM-based co-evolution framework for automated code generation that does not depend on pre-defined test cases. It simultaneously evolves programs and test cases from natural language problem descriptions and function headers using specialized evolutionary operators, including LLM-based crossover, mutation, and test case generation operators. The framework also introduces optimization strategies such as a crossover rate scheduler and a multi-objective test case selection method. CoCoEvo achieves state-of-the-art performance on multiple LLMs for automated code generation and testing.",
+  "author": "Kefan Li, Yuan Yuan, Hongyue Yu, Tingyu Guo, Shijie Cao",
+  "publication_date": "2025-07-28",
+  "keywords": [
+    "CoCoEvo",
+    "code generation",
+    "test case generation",
+    "co-evolution",
+    "large language models"
+  ]
+}

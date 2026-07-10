@@ -1,0 +1,14 @@
+{
+  "title": "What Is AI Code Refactoring? Agentic AI & Safe Code Changes",
+  "link": "https://www.youtube.com/watch?v=f84XbvASkk4",
+  "summary": "This IBM Technology video explains AI code refactoring, distinguishing between inline edits within an IDE and autonomous agentic refactoring that works across entire codebases. Agentic refactoring follows a goal-driven loop: the AI plans, reads code, searches for dependencies, reports ranked findings for human approval, patches with deterministic or probabilistic methods, and verifies changes through tests and builds. Guardrails such as human oversight, snapshot rollbacks, and CI/CD integration mitigate the risk of erroneous changes. The approach helps reduce technical debt by improving readability, removing duplication, and lowering complexity, while reinforcement learning refines future suggestions.",
+  "author": "IBM Technology",
+  "publication_date": "2026-07-06",
+  "keywords": [
+    "AI code refactoring",
+    "agentic AI",
+    "technical debt",
+    "software maintenance",
+    "guardrails"
+  ]
+}

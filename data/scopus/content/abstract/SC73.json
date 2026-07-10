@@ -1,0 +1,14 @@
+{
+  "title": "Trust, transparency, and adoption in generative AI for software engineering: Insights from Twitter discourse",
+  "link": "https://doi.org/10.1016/j.infsof.2025.107804",
+  "abstract": "Context: The rise of AI-driven coding assistants, such as GitHub Copilot and ChatGPT, are transforming software development practices. Despite their growing impact, informal user feedback on these tools is often neglected. Objective: This study aims to analyze Twitter/X conversations to understand user opinions on the benefits, challenges, and barriers associated with Code Generation Tools (CGTs) in software engineering. By incorporating diverse perspectives from developers, hobbyists, students, and critics, this research provides a comprehensive view of public sentiment. Methods: We employed a hybrid approach using BERTopic and open coding to collect and analyze data from approximately 90,000 tweets. The focus was on identifying themes and sentiments related to various CGTs. The study sought to determine the most frequently discussed topics and their related sentiment, followed by highlighting the reoccurring feedback or criticisms that could influence generative AI (GenAI) adoption in software engineering. Results: Our analysis identified several significant themes, including productivity enhancements, shifts in developer practices, regulatory uncertainty, and a demand for neutral GenAI content. While some users praised the efficiency benefits of CGTs, others raised concerns regarding intellectual property, transparency, and potential biases. Conclusion: The findings highlight that addressing issues of trust, accountability, and legal clarity is essential for the successful integration of CGTs in software development. These insights underscore the need for ongoing dialogue and refinement of CGTs to better align with user expectations and mitigate concerns. © 2025 The Authors",
+  "keywords": [
+    "AI adoption",
+    "Code generation tools",
+    "Generative AI",
+    "Human-AI interaction"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Elsevier B.V."
+}

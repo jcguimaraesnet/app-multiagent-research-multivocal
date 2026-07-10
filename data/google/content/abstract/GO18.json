@@ -1,0 +1,14 @@
+{
+  "title": "LLM-based and Retrieval-Augmented Control Code Generation | Proceedings of the 1st International Workshop on Large Language Models for Code",
+  "link": "https://dl.acm.org/doi/10.1145/3643795.3648384",
+  "summary": "This paper proposes a retrieval-augmented generation method that enables large language models to synthesize industrial control code (IEC 61131-3 Structured Text) while integrating proprietary function block libraries. The approach addresses the limitation of LLMs being unaware of such libraries, allowing reuse of well-tested blocks and speeding up engineering tasks. A prototypical implementation uses GPT-4, LangChain, OpenPLC, and the OSCAT library. In spot tests, the method successfully generated compilable and simulation-validated ST code.",
+  "author": "Heiko Koziolek",
+  "publication_date": "2024-09-10",
+  "keywords": [
+    "retrieval-augmented generation",
+    "control code generation",
+    "IEC 61131-3",
+    "GPT-4",
+    "industrial automation"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - zed-industries/zed: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+  "link": "https://github.com/zed-industries/zed",
+  "summary": "This source is the GitHub repository for Zed, a high-performance, multiplayer code editor developed by Zed Industries. Zed provides a robust environment for writing, editing, and formatting code, with built-in language server support and collaborative features. The repository's recent commit history shows active work on an AI 'agent' for file editing and sandboxing, indicating ongoing integration of AI-assisted coding capabilities. However, the content does not describe a standalone generative AI solution; rather, it presents the codebase of the editor itself as a platform for software construction.",
+  "author": "Zed Industries",
+  "publication_date": "2026-07-09",
+  "keywords": [
+    "zed",
+    "code editor",
+    "rust",
+    "collaborative editing",
+    "open source"
+  ]
+}

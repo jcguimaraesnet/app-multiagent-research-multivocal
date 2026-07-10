@@ -1,0 +1,514 @@
+{
+  "origin": "google",
+  "step": 1,
+  "retrieved_at": "2026-07-09T19:51:22.101573+00:00",
+  "queries": [
+    "(\"Code Generation\" OR \"Code Writer\" OR \"Code Completion\") AND (\"Generative AI\" OR \"Generative Artificial Intelligence\" OR \"Generative Model*\" OR \"Large Language Model*\" OR \"Language Model*\" OR \"Small Language Model*\" OR \"LLM*\" OR \"RAG\" OR \"Retrieval Augmented Generation\" OR \"Natural Language Processing\" OR \"NLP\" OR \"AI Agent\" OR \"AI Multi-Agent\") AND (\"Application\" OR \"Technolog*\" OR \"Approach*\" OR \"Method*\" OR \"Tool*\" OR \"Framework*\" OR \"Solution*\" OR \"Strateg*\" OR \"Model*\" OR \"System*\" OR \"Platform*\" OR \"Technique*\") AND (\"Software Engineering\")",
+    "(\"Code Evolution\" OR \"Refactoring\" OR \"Code Restructuring\") AND (\"Generative AI\" OR \"Generative Artificial Intelligence\" OR \"Generative Model*\" OR \"Large Language Model*\" OR \"Language Model*\" OR \"Small Language Model*\" OR \"LLM*\" OR \"RAG\" OR \"Retrieval Augmented Generation\" OR \"Natural Language Processing\" OR \"NLP\" OR \"AI Agent\" OR \"AI Multi-Agent\") AND (\"Application\" OR \"Technolog*\" OR \"Approach*\" OR \"Method*\" OR \"Tool*\" OR \"Framework*\" OR \"Solution*\" OR \"Strateg*\" OR \"Model*\" OR \"System*\" OR \"Platform*\" OR \"Technique*\") AND (\"Software Engineering\")",
+    "(\"Code Reorganization\" OR \"Program Generation\" OR \"Program Writer\") AND (\"Generative AI\" OR \"Generative Artificial Intelligence\" OR \"Generative Model*\" OR \"Large Language Model*\" OR \"Language Model*\" OR \"Small Language Model*\" OR \"LLM*\" OR \"RAG\" OR \"Retrieval Augmented Generation\" OR \"Natural Language Processing\" OR \"NLP\" OR \"AI Agent\" OR \"AI Multi-Agent\") AND (\"Application\" OR \"Technolog*\" OR \"Approach*\" OR \"Method*\" OR \"Tool*\" OR \"Framework*\" OR \"Solution*\" OR \"Strateg*\" OR \"Model*\" OR \"System*\" OR \"Platform*\" OR \"Technique*\") AND (\"Software Engineering\")",
+    "(\"Program Completion\" OR \"Program Evolution\") AND (\"Generative AI\" OR \"Generative Artificial Intelligence\" OR \"Generative Model*\" OR \"Large Language Model*\" OR \"Language Model*\" OR \"Small Language Model*\" OR \"LLM*\" OR \"RAG\" OR \"Retrieval Augmented Generation\" OR \"Natural Language Processing\" OR \"NLP\" OR \"AI Agent\" OR \"AI Multi-Agent\") AND (\"Application\" OR \"Technolog*\" OR \"Approach*\" OR \"Method*\" OR \"Tool*\" OR \"Framework*\" OR \"Solution*\" OR \"Strateg*\" OR \"Model*\" OR \"System*\" OR \"Platform*\" OR \"Technique*\") AND (\"Software Engineering\")"
+  ],
+  "count": 100,
+  "records": [
+    {
+      "id": "GO1",
+      "title": "Code Generation using Retrieval Augmented Generation + LangChain",
+      "link": "https://medium.com/@rubenszimbres/code-generation-using-retrieval-augmented-generation-langchain-861e3c1a1a53"
+    },
+    {
+      "id": "GO2",
+      "title": "RAG for Code Generation, an AI Hacker Cup example",
+      "link": "https://www.youtube.com/watch?v=cObBj2UpWK8"
+    },
+    {
+      "id": "GO3",
+      "title": "Context-aware code generation: RAG and Vertex AI Codey APIs | Google Cloud Blog",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/context-aware-code-generation-rag-and-vertex-ai-codey-apis"
+    },
+    {
+      "id": "GO4",
+      "title": "Retrieval-Augmented Code Generation: A Survey with Focus on Repository-Level Approaches",
+      "link": "https://arxiv.org/html/2510.04905v1"
+    },
+    {
+      "id": "GO5",
+      "title": "L2MAC: Large Language Model Automatic Computer for Extensive Code Generation // van der Schaar Lab",
+      "link": "https://www.vanderschaar-lab.com/l2mac/"
+    },
+    {
+      "id": "GO6",
+      "title": "RAGdeterm: Deterministic retrieval-augmented generation for code generation",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2352711026001299"
+    },
+    {
+      "id": "GO7",
+      "title": "Lessons learned from implementing RAG for code generation",
+      "link": "https://www.reddit.com/r/LLMDevs/comments/1hw1n5o/lessons_learned_from_implementing_rag_for_code/"
+    },
+    {
+      "id": "GO8",
+      "title": "LangGraph: Building self-correcting RAG agent",
+      "link": "https://learnopencv.com/langgraph-self-correcting-agent-code-generation/"
+    },
+    {
+      "id": "GO9",
+      "title": "Retrieval-Augmented Generation (RAG) and LLMs for smart code generation: Advancing Plant Simulation SimTalk and beyond - Tecnomatix",
+      "link": "https://blogs.sw.siemens.com/tecnomatix/retrieval-augmented-generation-rag-and-llms-for-smart-code-generation-advancing-plant-simulation-simtalk-and-beyond/"
+    },
+    {
+      "id": "GO10",
+      "title": "OWASP LLM Top 10: How it Applies to Code Generation",
+      "link": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation/"
+    },
+    {
+      "id": "GO11",
+      "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems | Research",
+      "link": "https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using"
+    },
+    {
+      "id": "GO12",
+      "title": "Understanding LLMs for Code Generation",
+      "link": "https://www.youtube.com/watch?v=eaTIrJnkuNI"
+    },
+    {
+      "id": "GO13",
+      "title": "CWM: An Open-Weights LLM for Research on Code ...",
+      "link": "https://ai.meta.com/research/publications/cwm-an-open-weights-llm-for-research-on-code-generation-with-world-models/"
+    },
+    {
+      "id": "GO14",
+      "title": "CodeRAG-Bench: Can Retrieval Augment Code Generation?",
+      "link": "https://code-rag-bench.github.io/"
+    },
+    {
+      "id": "GO15",
+      "title": "A Collective Evaluation Platform for LLM Code Generation",
+      "link": "https://aclanthology.org/2025.acl-demo.48/"
+    },
+    {
+      "id": "GO16",
+      "title": "Enhancing LLM Code Generation with RAG and AST-Based Chunking",
+      "link": "https://vxrl.medium.com/enhancing-llm-code-generation-with-rag-and-ast-based-chunking-5b81902ae9fc"
+    },
+    {
+      "id": "GO17",
+      "title": "How AI code generation works",
+      "link": "https://github.blog/ai-and-ml/generative-ai/how-ai-code-generation-works/"
+    },
+    {
+      "id": "GO18",
+      "title": "LLM-based and Retrieval-Augmented Control Code Generation | Proceedings of the 1st International Workshop on Large Language Models for Code",
+      "link": "https://dl.acm.org/doi/10.1145/3643795.3648384"
+    },
+    {
+      "id": "GO19",
+      "title": "Self-Spec: Model-Authored Specifications for Reliable LLM ...",
+      "link": "https://openreview.net/forum?id=6pr7BUGkLp"
+    },
+    {
+      "id": "GO20",
+      "title": "How far can we push AI autonomy in code generation?",
+      "link": "https://martinfowler.com/articles/pushing-ai-autonomy.html"
+    },
+    {
+      "id": "GO21",
+      "title": "Generative AI for Code Completion",
+      "link": "https://www.coursera.org/learn/generative-ai-for-code-completion"
+    },
+    {
+      "id": "GO22",
+      "title": "Enhancing repository-level code completion with selective retrieval",
+      "link": "https://www.amazon.science/blog/enhancing-repository-level-code-completion-with-selective-retrieval"
+    },
+    {
+      "id": "GO23",
+      "title": "RAGdeterm: Deterministic retrieval-augmented generation for code generation",
+      "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5986423"
+    },
+    {
+      "id": "GO24",
+      "title": "Code generation using Code Llama 70B and Mixtral 8x7B on Amazon SageMaker | Amazon Web Services",
+      "link": "https://aws.amazon.com/blogs/machine-learning/code-generation-using-code-llama-70b-and-mixtral-8x7b-on-amazon-sagemaker/"
+    },
+    {
+      "id": "GO25",
+      "title": "CodeRAG: Supportive Code Retrieval on Bigraph for Real-World Code Generation",
+      "link": "https://arxiv.org/html/2504.10046v1"
+    },
+    {
+      "id": "GO26",
+      "title": "AI-Driven Code Refactoring: Improving Legacy Codebases Automatically - Jorrik Klijnsma",
+      "link": "https://www.youtube.com/watch?v=u8tvVxUOwvY"
+    },
+    {
+      "id": "GO27",
+      "title": "What Is AI Code Refactoring?",
+      "link": "https://www.ibm.com/think/topics/ai-code-refactoring"
+    },
+    {
+      "id": "GO28",
+      "title": "Some Observations on AI/Agentic Refactoring - Artineering",
+      "link": "https://amanagrawal.blog/2025/05/06/some-observations-on-ai-agentic-refactoring/"
+    },
+    {
+      "id": "GO29",
+      "title": "AI code refactoring: Strategic approaches to enterprise software modernization in 2025",
+      "link": "https://getdx.com/blog/enterprise-ai-refactoring-best-practices/"
+    },
+    {
+      "id": "GO30",
+      "title": "Agentic Refactoring: An Empirical Study of AI Coding Agents",
+      "link": "https://arxiv.org/abs/2511.04824"
+    },
+    {
+      "id": "GO31",
+      "title": "AI Code Refactoring: Tools, Tactics & Best Practices",
+      "link": "https://www.augmentcode.com/tools/ai-code-refactoring-tools-tactics-and-best-practices"
+    },
+    {
+      "id": "GO32",
+      "title": "Introducing AI Generated Code Refactoring",
+      "link": "https://codescene.com/blog/ai-coding-assistant-introducing-ai-generated-code-refactoring"
+    },
+    {
+      "id": "GO33",
+      "title": "Large scale refactoring with LLM, any experience?",
+      "link": "https://www.reddit.com/r/ExperiencedDevs/comments/1o4zi8g/large_scale_refactoring_with_llm_any_experience/"
+    },
+    {
+      "id": "GO34",
+      "title": "Refactoring With AI — Thoughtworks Technology Podcast",
+      "link": "https://www.youtube.com/watch?v=Kx7eIYxKARk"
+    },
+    {
+      "id": "GO35",
+      "title": "Refactoring AI code: The good, the bad, and the weird",
+      "link": "https://www.infoworld.com/article/3610521/refactoring-ai-code-the-good-the-bad-and-the-weird.html"
+    },
+    {
+      "id": "GO36",
+      "title": "Announcing AI-assisted refactoring in the Moderne Platform",
+      "link": "https://www.moderne.ai/blog/ai-assisted-refactoring-in-the-moderne-platform"
+    },
+    {
+      "id": "GO37",
+      "title": "Automatic Code Refactoring with AI - Federico Tomassetti",
+      "link": "https://tomassetti.me/automatic-code-refactoring-with-ai/"
+    },
+    {
+      "id": "GO38",
+      "title": "An Empirical Study on the Code Refactoring Capability of Large Language Models | ACM Transactions on Software Engineering and Methodology",
+      "link": "https://dl.acm.org/doi/10.1145/3801158"
+    },
+    {
+      "id": "GO39",
+      "title": "Code refactoring principles, techniques, and automation with generative AI - Tabnine",
+      "link": "https://www.tabnine.com/blog/code-refactoring-with-generative-ai/"
+    },
+    {
+      "id": "GO40",
+      "title": "Can AI help me refactor legacy code?",
+      "link": "https://understandlegacycode.com/blog/can-ai-refactor-legacy-code/"
+    },
+    {
+      "id": "GO41",
+      "title": "The 40% Problem. AI & Code Refactoring",
+      "link": "https://www.janeasystems.com/blog/ai-and-refactoring-part-1"
+    },
+    {
+      "id": "GO42",
+      "title": "LLM-Driven Code Refactoring: Opportunities and Limitations",
+      "link": "https://seal-queensu.github.io/publications/pdf/IDE-Jonathan-2025.pdf"
+    },
+    {
+      "id": "GO43",
+      "title": "What is AI code refactoring?",
+      "link": "https://graphite.com/guides/what-is-ai-code-refactoring"
+    },
+    {
+      "id": "GO44",
+      "title": "Code Refactoring with Agentic AI and Reinforcement Learning",
+      "link": "https://medium.com/@azirotechnologies/code-refactoring-with-agentic-ai-and-reinforcement-learning-e7f30a59397c"
+    },
+    {
+      "id": "GO45",
+      "title": "What Is AI Code Refactoring? Agentic AI & Safe Code Changes",
+      "link": "https://www.youtube.com/watch?v=f84XbvASkk4"
+    },
+    {
+      "id": "GO46",
+      "title": "Automating .NET 9 Code Refactoring with AI-driven Codemods",
+      "link": "https://www.linkedin.com/pulse/automating-net-9-code-refactoring-ai-driven-codemods-shergilashvili-regtf"
+    },
+    {
+      "id": "GO47",
+      "title": "An empirical comparison of AI assisted software refactoring tools - Scientific Reports",
+      "link": "https://www.nature.com/articles/s41598-026-49590-0"
+    },
+    {
+      "id": "GO48",
+      "title": "How to effectively utilise AI to enhance large-scale refactoring",
+      "link": "https://www.atlassian.com/blog/development/how-to-effectively-utilise-ai-to-enhance-large-scale-refactoring"
+    },
+    {
+      "id": "GO49",
+      "title": "Automated Code Refactoring: AI-Powered Transformation at Scale | Morph",
+      "link": "https://www.morphllm.com/automated-code-refactoring"
+    },
+    {
+      "id": "GO50",
+      "title": "Any AI Tools for Software Project Refactoring exist?",
+      "link": "https://community.openai.com/t/any-ai-tools-for-software-project-refactoring-exist/736992"
+    },
+    {
+      "id": "GO51",
+      "title": "Evaluating and improving LLM-based competitive program generation",
+      "link": "https://www.sciencedirect.com/science/article/abs/pii/S0950584925003167"
+    },
+    {
+      "id": "GO52",
+      "title": "fine-tuned llm as program writers",
+      "link": "https://evanthebouncy.github.io/program-synthesis-minimal/generation-with-llm/"
+    },
+    {
+      "id": "GO53",
+      "title": "GenAssist: Interactive Prompt-Driven XR Program Generation",
+      "link": "https://www.youtube.com/watch?v=48YDX3rMR6U"
+    },
+    {
+      "id": "GO54",
+      "title": "Evaluating and Improving Large Language Models for Competitive Program Generation",
+      "link": "https://arxiv.org/abs/2506.22954"
+    },
+    {
+      "id": "GO55",
+      "title": "ICML Poster Towards High-Fidelity CAD Generation via LLM-Driven Program Generation and Text-Based B-Rep Primitive Grounding",
+      "link": "https://icml.cc/virtual/2026/poster/62121"
+    },
+    {
+      "id": "GO56",
+      "title": "On the Reliability and Explainability of Language Models for Program Generation | ACM Transactions on Software Engineering and Methodology",
+      "link": "https://dl.acm.org/doi/10.1145/3641540"
+    },
+    {
+      "id": "GO57",
+      "title": "Best Practices for High-Quality, High-Accuracy Program Generation Using Generative AI",
+      "link": "https://www.linkedin.com/pulse/best-practices-high-quality-high-accuracy-program-generation-toda-rnlqe"
+    },
+    {
+      "id": "GO58",
+      "title": "Enabling Tensor Language Model to Assist in Generating High-Performance Tensor Programs for Deep Learning | USENIX",
+      "link": "https://www.usenix.org/conference/osdi24/presentation/zhai"
+    },
+    {
+      "id": "GO59",
+      "title": "ASPERA: A Simulated Environment to Evaluate Planning for Complex Action Execution",
+      "link": "https://machinelearning.apple.com/research/aspera"
+    },
+    {
+      "id": "GO60",
+      "title": "Training Large Language Models for System-Level Test Program Generation Targeting Non-functional Properties",
+      "link": "https://ieeexplore.ieee.org/document/10567741/"
+    },
+    {
+      "id": "GO61",
+      "title": "ARUM tackles skilled labor shortages by adding LLM to machining centers with Azure AI | Microsoft Customer Stories",
+      "link": "https://www.microsoft.com/en/customers/story/26357-arum-azure-ai-search"
+    },
+    {
+      "id": "GO62",
+      "title": "Generating Safety-Critical Automotive C-programs using ...",
+      "link": "https://openreview.net/forum?id=xcLrUIeGo3"
+    },
+    {
+      "id": "GO63",
+      "title": "SymKGQA: Few-Shot Knowledge Graph Question Answering via Symbolic Program Generation and Execution",
+      "link": "https://aclanthology.org/2024.acl-long.545/"
+    },
+    {
+      "id": "GO64",
+      "title": "Convo: a conversational programming language",
+      "link": "https://community.openai.com/t/convo-a-conversational-programming-language/969667"
+    },
+    {
+      "id": "GO65",
+      "title": "Visual Programming for Compositional Visual Reasoning",
+      "link": "https://prior.allenai.org/projects/visprog"
+    },
+    {
+      "id": "GO66",
+      "title": "Transform Test and Measurement Workflows by Leveraging Generative AI | Soliton Technologies",
+      "link": "https://www.solitontech.com/generative-ai/"
+    },
+    {
+      "id": "GO67",
+      "title": "State of Deep Learning for Code Generation (DL4Code)",
+      "link": "https://victordibia.com/blog/deep-learning-code-generation/"
+    },
+    {
+      "id": "GO68",
+      "title": "codefuse-ai/Awesome-Code-LLM",
+      "link": "https://github.com/codefuse-ai/awesome-code-llm"
+    },
+    {
+      "id": "GO69",
+      "title": "Sepp Hochreiter - LSTM: The Comeback Story?",
+      "link": "https://open.spotify.com/episode/2uv9WzmpOfSjsr1PxIUsHl"
+    },
+    {
+      "id": "GO70",
+      "title": "Research - Natural Language Processing Group",
+      "link": "https://nlp.asu.edu/research/"
+    },
+    {
+      "id": "GO71",
+      "title": "AUTOPRESENT: LLM model for slide generation with results comparable to GPT-4o",
+      "link": "https://medium.com/@techsachin/autopresent-llm-model-for-slide-generation-with-results-comparable-to-gpt-4o-3350f19a2d9d"
+    },
+    {
+      "id": "GO72",
+      "title": "U2 UniData with Low-code AI: UOFast + VectorShift RAG Integration",
+      "link": "https://dev.to/kurtmultivaluedev/u2-unidata-with-low-code-ai-uofast-vectorshift-rag-integration-mh8"
+    },
+    {
+      "id": "GO73",
+      "title": "LLM-Generated Numerical Representations",
+      "link": "https://www.emergentmind.com/topics/llm-generated-numerical-representations"
+    },
+    {
+      "id": "GO74",
+      "title": "Research",
+      "link": "https://joezhouai.com/research/"
+    },
+    {
+      "id": "GO75",
+      "title": "A data-augmented model routing framework for efficient LLM deployment in edge–cloud environments - The Journal of Supercomputing",
+      "link": "https://link.springer.com/article/10.1007/s11227-025-08034-8"
+    },
+    {
+      "id": "GO76",
+      "title": "Introducing ShinkaEvolve, an open-source approach to sample-efficient LLM-driven program evolution 🧬 Paper: https://lnkd.in/ehFd684A Blog: https://lnkd.in/e6Zkk9E6 Code: https://lnkd.in/esiG8DHW… | Robert Tjarko Lange",
+      "link": "https://www.linkedin.com/posts/robert-tjarko-lange-19539a12a_introducing-shinkaevolve-an-open-source-activity-7377023062929588224-2Gil"
+    },
+    {
+      "id": "GO77",
+      "title": "Adversarial Program Evolution in Core War with LLMs",
+      "link": "https://sakana.ai/drq/"
+    },
+    {
+      "id": "GO78",
+      "title": "Convergence Dynamics in LLM-Driven Program Evolution",
+      "link": "https://arxiv.org/abs/2606.05408"
+    },
+    {
+      "id": "GO79",
+      "title": "ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
+      "link": "https://www.youtube.com/watch?v=dAOIer_1INo"
+    },
+    {
+      "id": "GO80",
+      "title": "ShinkaEvolve: Towards Open-Ended and Sample-Efficient ...",
+      "link": "https://openreview.net/forum?id=lKEdGCoDNC"
+    },
+    {
+      "id": "GO81",
+      "title": "Applied Generative AI Specialization | Microsoft Gen AI Course",
+      "link": "https://microsoft.simplilearn.com/applied-gen-ai-course"
+    },
+    {
+      "id": "GO82",
+      "title": "Applied Generative AI Specialization - Coding Bootcamp",
+      "link": "https://bootcamp.engin.umich.edu/certifications/applied-gen-ai-course"
+    },
+    {
+      "id": "GO83",
+      "title": "Generative AI Full Course 2026 [FREE] | Gen AI Tutorial for Beginners | Gen AI Course | Simplilearn",
+      "link": "https://www.youtube.com/watch?v=IyYr2kUG0iI"
+    },
+    {
+      "id": "GO84",
+      "title": "My 5 key takeaways from IBM&#39;s RAG and Agentic AI Specialization | Sameer Dev posted on the topic | LinkedIn",
+      "link": "https://www.linkedin.com/posts/sameer-dev-67b85725_coursera-online-courses-credentials-from-activity-7390862787050266624-HBxX"
+    },
+    {
+      "id": "GO85",
+      "title": "Robert Lange (@RobertTLange) on X",
+      "link": "https://x.com/RobertTLange/status/1971189343235592219"
+    },
+    {
+      "id": "GO86",
+      "title": "ICLR Poster ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution",
+      "link": "https://iclr.cc/virtual/2026/poster/10007692"
+    },
+    {
+      "id": "GO87",
+      "title": "PG Data Science Certificate Course with Generative AI Online",
+      "link": "https://onlineexeced.mccombs.utexas.edu/online-data-science-business-analytics-course"
+    },
+    {
+      "id": "GO88",
+      "title": "CoCoEvo: Co-Evolution of Programs and Test Cases to Enhance Code Generation",
+      "link": "https://ieeexplore.ieee.org/document/11098743/"
+    },
+    {
+      "id": "GO89",
+      "title": "What Are Gen AI Agents? | Generative AI Agents Tutorial | OpenAI Gen AI Agents | SImplilearn",
+      "link": "https://www.youtube.com/watch?v=fwxfkPHqblg&vl=en"
+    },
+    {
+      "id": "GO90",
+      "title": "learning #ai #rag #achievement #genai #ml #ibm",
+      "link": "https://www.linkedin.com/posts/sumit-maloo-75876038_learning-ai-rag-activity-7266100821661020160-5hLW"
+    },
+    {
+      "id": "GO91",
+      "title": "Reddit - Please wait for verification",
+      "link": "https://www.reddit.com/r/barexam/comments/16nlc2a/i_would_like_to_know_for_the_new_york_state_bar/"
+    },
+    {
+      "id": "GO92",
+      "title": "Automated Generation of Code Contracts",
+      "link": "https://dl.acm.org/doi/10.1145/3689484.3690738"
+    },
+    {
+      "id": "GO93",
+      "title": "Artificial Intelligence (MS) - UNL Graduate Studies",
+      "link": "https://graduate.unl.edu/academics/programs/ARIN-MS-O/"
+    },
+    {
+      "id": "GO94",
+      "title": "Core War: Adversarial Program Evolution",
+      "link": "https://www.emergentmind.com/topics/core-war"
+    },
+    {
+      "id": "GO95",
+      "title": "Top 5 New AI Models You Must Know | Top 5 Next-Generation AI Models Explained | #Shorts #Simplilearn",
+      "link": "https://www.youtube.com/shorts/bqKZRpE6wos"
+    },
+    {
+      "id": "GO96",
+      "title": "Tutorials Overview",
+      "link": "https://gepa-ai.github.io/gepa/tutorials/"
+    },
+    {
+      "id": "GO97",
+      "title": "NLP, Language Models, & Production API Specialization",
+      "link": "https://www.coursera.org/specializations/tokens-to-deployment-nlp-language-models-production-apis"
+    },
+    {
+      "id": "GO98",
+      "title": "GitHub - SakanaAI/drq: Digital Red Queen: Adversarial Program Evolution in Core War with LLMs",
+      "link": "https://github.com/SakanaAI/drq"
+    },
+    {
+      "id": "GO99",
+      "title": "A Comprehensive Study of LLM and Evolution, Varieties, and Their Role in Software Engineering and Cybersecurity",
+      "link": "https://www.preprints.org/manuscript/202507.1600"
+    },
+    {
+      "id": "GO100",
+      "title": "Gen AI Skillup | Kick-off Session",
+      "link": "https://cloudonair.withgoogle.com/events/gen-ai-skills-accelerator"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "How far can we push AI autonomy in code generation?",
+  "link": "https://martinfowler.com/articles/pushing-ai-autonomy.html",
+  "summary": "This article presents experiments exploring the limits of Generative AI autonomy in software construction, specifically generating a Spring Boot CRUD application. The authors built an agentic workflow using multiple agents, stack-specific prompts, code examples, and generate-review loops. Results show that while the workflow can generate working applications for simple cases, it consistently exhibits critical issues such as generating unrequested features, making unchecked assumptions, applying brute-force fixes, and incorrectly declaring success despite failing tests. The authors conclude that current AI is not ready for autonomous development of maintainable business software, and human supervision remains essential.",
+  "author": "Birgitta Böckeler",
+  "publication_date": "2025-08-05",
+  "keywords": [
+    "AI code generation",
+    "agentic workflow",
+    "Spring Boot",
+    "software construction",
+    "human-in-the-loop"
+  ]
+}

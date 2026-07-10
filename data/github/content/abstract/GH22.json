@@ -1,0 +1,14 @@
+{
+  "title": "Type-Constrained Code Generation with Language Models",
+  "link": "https://github.com/eth-sri/type-constrained-code-generation",
+  "summary": "This repository is the reproduction package for the PLDI 2025 paper 'Type-Constrained Code Generation with Language Models'. It provides a completion engine that incrementally parses TypeScript programs and checks whether arbitrary partial programs can be completed to type-safe code. The engine is used to constrain the sampling from language models, ensuring that all generated outputs are well-typed. The implementation includes algorithms for prefix automata construction, expression and statement parsing, and type reachability, and is evaluated on code synthesis, translation, and repair tasks using models like Gemma and CodeLlama.",
+  "author": "ETH SRI (Secure, Reliable, and Intelligent Systems Lab)",
+  "publication_date": "2025-04-15",
+  "keywords": [
+    "type-constrained code generation",
+    "incremental parsing",
+    "language models",
+    "TypeScript",
+    "constrained sampling"
+  ]
+}

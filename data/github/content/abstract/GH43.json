@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - philschmid/ai-agent-benchmark-compendium: Compendium of over 50 benchmarks for evaluating AI agents, categorized into Function Calling & Tool Use, General Assistant & Reasoning, Coding & Software Engineering, and Computer Interaction.",
+  "link": "https://github.com/philschmid/ai-agent-benchmark-compendium",
+  "summary": "This GitHub repository offers a curated compendium of over 50 benchmarks for evaluating AI agents, organized into four categories: Function Calling & Tool Use, General Assistant & Reasoning, Coding & Software Engineering, and Computer Interaction. The coding section features benchmarks such as SWE-bench, LiveCodeBench, SWE-PolyBench, and Aider's benchmarks, which assess AI models' ability to resolve real-world software issues, edit code, and perform multi-language programming tasks. The repository serves as a reference guide for comparing LLM and agent performance on software engineering and related tasks, without presenting a novel solution itself.",
+  "author": "philschmid",
+  "publication_date": "2025-10-15",
+  "keywords": [
+    "AI agent benchmarks",
+    "software engineering",
+    "coding",
+    "function calling",
+    "tool use"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data",
+  "link": "https://huggingface.co/papers/2604.24479",
+  "abstract": "Computer-Aided Design (CAD) models are defined by their construction history: a parametric recipe that encodes design intent. However, existing large-scale 3D datasets predominantly consist of boundary representations (B-Reps) or meshes, stripping away this critical procedural information. To address this scarcity, we introduce Zero-to-CAD, a scalable framework for synthesizing executable CAD construction sequences. We frame synthesis as an agentic search problem: by embedding a large language model (LLM) within a feedback-driven CAD environment, our system iteratively generates, executes, and validates code using tools and documentation lookup to promote geometric validity and operation diversity. This agentic approach enables the synthesis of approximately one million executable, readable, editable CAD sequences, covering a rich vocabulary of operations beyond sketch-and-extrude workflows. We also release a curated subset of 100,000 high-quality models selected for geometric diversity. To demonstrate the dataset's utility, we fine-tune a vision-language model on our synthetic data to reconstruct editable CAD programs from multi-view images, outperforming strong baselines, including GPT-5.2, and effectively bootstrapping sequence generation capabilities without real construction-history training data. Zero-to-CAD bridges the gap between geometric scale and parametric interpretability, offering a vital resource for the next generation of CAD AI.",
+  "authors": [
+    "Mohammadmehdi Ataei",
+    "Farzaneh Askari",
+    "Kamal Rahimi Malekshan",
+    "Pradeep Kumar Jayaraman"
+  ],
+  "publication_date": "2026-04-27T13:46:41Z",
+  "pdf_link": "https://arxiv.org/pdf/2604.24479v1",
+  "keywords": [
+    "CAD construction sequences",
+    "LLM agentic search",
+    "program synthesis",
+    "vision-language model",
+    "parametric CAD dataset"
+  ]
+}

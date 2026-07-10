@@ -1,0 +1,15 @@
+{
+  "title": "Large Language Model Selection for Test-Driven Prompt Android iOS Development",
+  "link": "https://doi.org/10.3991/ijim.v20i03.59861",
+  "abstract": "Large language model (LLM) code generation research predominantly focuses on Python, with test-driven prompt engineering exclusively targeting this language. This study presents a comprehensive LLM selection framework for mobile development through rigorous empirical analysis. We conducted 8,704 evaluations across 544 programming tasks (HumanEval and MBPP datasets) on Android (Java) and iOS (Swift) platforms using four state-of-the-art LLMs (GPT-4o, GPT-4o-mini, Qwen 14B, and Qwen 32B), two prompting strategies (base and test-driven), and two metrics (accuracy and remediation accuracy). Systematic analysis of platform-specific patterns yielded a decision tree incorporating first-attempt correctness, budget constraints, and self-hosting requirements, validated through three industry-relevant use cases. Results show test-driven prompting (TDP) achieves a +2.22 pp average accuracy improvement over baseline (95% CI [1.22–3.23 pp], p < 0.001, d = 0.3974). However, LLMs consistently underperform in mobile development (66.85%–88.87%) compared to Pythonbased code generation (86.90%–91.30%) regardless of model size or type. This framework establishes groundwork for platform-specific optimizations while providing practitioners with actionable guidance for model selection in mobile development contexts. © 2026 by the authors of this article.",
+  "keywords": [
+    "artificial intelligence (AI)",
+    "empirical software engineering",
+    "explainable AI",
+    "mobile development",
+    "software engineering"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "International Federation of Engineering Education Societies (IFEES)"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - stable-lab/Pro-V: PRO-V: An Efficient Program Generation Multi-Agent System for Automatic RTL Verification",
+  "link": "https://github.com/stable-lab/Pro-V",
+  "summary": "PRO-V is an open-source framework for automated Register Transfer Level (RTL) code generation, specifically targeting Verilog code. It employs a multi-agent system combined with reinforcement learning, where coordinated agents handle code generation, testbench creation, simulation, and debugging. The system iteratively refines generated code using verification outcomes as rewards. Experimental results on the VerilogEval-v2 benchmark show that PRO-V significantly improves the performance of base models like Qwen3-8B, with the PRO-V-R1-8B model achieving state-of-the-art results.",
+  "author": "stable-lab",
+  "publication_date": "2025-06-30",
+  "keywords": [
+    "PRO-V",
+    "Verilog",
+    "RTL Verification",
+    "Multi-Agent System",
+    "Reinforcement Learning"
+  ]
+}

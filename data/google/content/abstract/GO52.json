@@ -1,0 +1,14 @@
+{
+  "title": "fine-tuned llm as program writers",
+  "link": "https://evanthebouncy.github.io/program-synthesis-minimal/generation-with-llm/",
+  "summary": "This blog post explores the use of fine-tuned large language models (LLMs) as universal 'program-writers' for program synthesis. It argues that LLMs can overcome the need for domain-specific synthesizers by learning programmatic patterns, understanding human language conventions, and reliably generating syntactically complex programs from textual specifications. The post details a practical experiment using the byT5-base model, which is fine-tuned on in-domain (specification, program) pairs for a rectangle description problem. The experiments demonstrate that a lightweight, fine-tuned LLM can achieve high performance in generating correct programs, outperforming previous baselines, by simply manipulating strings and integrating the model into a synthesis loop.",
+  "author": "evan (evanthebouncy)",
+  "publication_date": "2022-08-31",
+  "keywords": [
+    "program synthesis",
+    "large language models",
+    "fine-tuning",
+    "byT5",
+    "program-writer"
+  ]
+}

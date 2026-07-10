@@ -1,0 +1,14 @@
+{
+  "title": "Enhancing repository-level code completion with selective retrieval",
+  "link": "https://www.amazon.science/blog/enhancing-repository-level-code-completion-with-selective-retrieval",
+  "summary": "This blog post presents Repoformer, a method for repository-level code completion that uses a self-supervised, selective retrieval strategy. The approach fine-tunes a large language model to decide whether retrieving cross-file context from the code repository will improve the generated code. The authors found that retrieval is unnecessary 80% of the time, so their selective method significantly speeds up inference by 70% while maintaining higher accuracy than a model that always performs retrieval. The technique uses a dataset automatically constructed by masking and reconstructing code to teach the model when retrieval is beneficial. Repoformer is designed as a plug-and-play policy model to improve the latency and robustness of other code generation models.",
+  "author": "Di Wu",
+  "publication_date": "2024-10-17",
+  "keywords": [
+    "code completion",
+    "selective retrieval",
+    "RAG",
+    "large language model",
+    "Repoformer"
+  ]
+}

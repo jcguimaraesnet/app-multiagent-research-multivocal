@@ -1,0 +1,14 @@
+{
+  "title": "Understanding LLMs for Code Generation",
+  "link": "https://www.youtube.com/watch?v=eaTIrJnkuNI",
+  "summary": "This DataCamp webinar examines how Large Language Models (LLMs) can be harnessed for code generation, covering transformer architecture, instruction tuning, and challenges like tokenizer design, context window limitations, and hallucination. It presents seven practical prompt engineering strategies to improve generated code: using code comments as structural guides, auxiliary tasks, perplexity scoring, chain-of-thought with code structures, self-consistency, and iterative refinement. Hands-on examples demonstrate applying these techniques to control code output, enhance reliability, and mitigate common LLM pitfalls. The session aims to equip developers with the knowledge to effectively leverage LLMs for coding tasks.",
+  "author": "Andrea Valenzuela, Josep Farah",
+  "publication_date": "2024-10-01",
+  "keywords": [
+    "LLMs",
+    "code generation",
+    "prompt engineering",
+    "tokenization",
+    "self-consistency"
+  ]
+}

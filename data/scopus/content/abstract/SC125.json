@@ -1,0 +1,14 @@
+{
+  "title": "A Survey of Automatic Code Generation from Natural Language",
+  "link": "https://doi.org/10.3745/JIPS.04.0216",
+  "abstract": "Many researchers have carried out studies related to programming languages since the beginning of computer science. Besides programming with traditional programming languages (i.e., procedural, object-oriented, functional programming language, etc.), a new paradigm of programming is being carried out. It is programming with natural language. By programming with natural language, we expect that it will free our expressiveness in contrast to programming languages which have strong constraints in syntax. This paper surveys the approaches that generate source code automatically from a natural language description. We also categorize the approaches by their forms of input and output. Finally, we analyze the current trend of approaches and suggest the future direction of this research domain to improve automatic code generation with natural language. From the analysis, we state that researchers should work on customizing language models in the domain of source code and explore better representations of source code such as embedding techniques and pre-trained models which have been proved to work well on natural language processing tasks. © 2021 KIPS",
+  "keywords": [
+    "Naturalistic Programming",
+    "Software Engineering",
+    "Source Code Generation",
+    "Survey"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Korea Information Processing Society"
+}

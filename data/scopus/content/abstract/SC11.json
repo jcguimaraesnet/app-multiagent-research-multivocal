@@ -1,0 +1,16 @@
+{
+  "title": "Can we trust the source? A systematic review of watermarking and attribution for AI-generated code",
+  "link": "https://doi.org/10.1016/j.infsof.2026.108157",
+  "abstract": "Context: Large Language Models (LLMs) are now widely used in software engineering, especially for code generation tasks. While this has improved developer productivity, it has also raised several concerns. Issues related to intellectual property (IP), academic integrity, and software supply chain security are becoming more common. At the same time, AI-generated code is increasingly hard to distinguish from human-written code. Because of this, identifying the origin of source code has become an important and challenging problem. Objectives: This study aims to systematically analyze and compare existing techniques for tracing the provenance of AI-generated source code, with a focus on two dominant paradigms: active provenance mechanisms (code watermarking) and passive provenance mechanisms (authorship attribution). The goal is to assess their effectiveness, robustness, and practical suitability within real-world software engineering workflows. Method: We performed a Systematic Literature Review following the PRISMA guidelines. The review covers studies published from 2020 to 2025. A quality assessment rubric was designed with a focus on code executability and security relevance. Studies that did not validate functional correctness or lacked sufficient experimental detail were excluded. After filtering, 31 primary studies were selected for detailed analysis. Results: The review reveals a clear trade-off between deployability and reliability. Passive attribution techniques are non-intrusive and easy to deploy, but degrade significantly under common code transformations such as refactoring or variable renaming. Active watermarking methods provide stronger verifiability and ownership guarantees while generally preserving functionality and readability. However, many token-level schemes remain fragile under semantic-preserving transformations. Syntax-aware and semantic-level approaches demonstrate improved robustness but incur higher computational costs. Conclusion: Overall, existing provenance techniques are largely non-intrusive and suitable for clean environments. Current research tends to favor accuracy and invisibility over long-term robustness. Future work should focus more on semantic-level resilience and adopt shared adversarial benchmarks to better reflect real-world threats. © 2026 Published by Elsevier B.V.",
+  "keywords": [
+    "AI-generated code",
+    "Authorship attribution",
+    "Code watermarking",
+    "Large language models",
+    "Software provenance",
+    "Systematic literature review"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Elsevier B.V."
+}

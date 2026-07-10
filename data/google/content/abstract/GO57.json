@@ -1,0 +1,14 @@
+{
+  "title": "Best Practices for High-Quality, High-Accuracy Program Generation Using Generative AI",
+  "link": "https://www.linkedin.com/pulse/best-practices-high-quality-high-accuracy-program-generation-toda-rnlqe",
+  "summary": "This source is a LinkedIn article that proposes a best practices framework for achieving high-quality and high-accuracy program generation using Large Language Models (LLMs). The framework uses a multi-stage approach with two phases: rigorous planning and the separation of execution and verification. It emphasizes structured inputs like UML diagrams in JSON format, uses Chain of Thought (CoT) for logical consistency, and incorporates human design auditing. The solution also includes AI-on-AI independent verification for quality assurance and automated documentation generation. The goal is to minimize AI hallucinations and ensure the generated code's reliability.",
+  "author": "Koichiro Toda",
+  "publication_date": "",
+  "keywords": [
+    "Program Generation",
+    "Large Language Models",
+    "Best Practices",
+    "Chain of Thought",
+    "AI Verification"
+  ]
+}

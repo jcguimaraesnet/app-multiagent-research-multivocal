@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - sapritanand/Code-Generation-using-LLM: This project extracts Python code from the OpenAI Gym GitHub repository, creates a dataset of functions, and fine-tunes a code generation model (codegen-350M-mono) using Hugging Face Transformers to generate new code snippets.",
+  "link": "https://github.com/sapritanand/Code-Generation-using-LLM",
+  "summary": "This GitHub repository by Saprit Anand presents a project that fine-tunes the CodeGen-350M-mono large language model for code generation. It extracts Python functions from the OpenAI Gym repository via the GitHub API, preprocesses them, and uses Hugging Face Transformers for supervised fine-tuning. The goal is to specialize the LLM to generate high-quality code snippets tailored to specific use cases. The project provides a Jupyter notebook, data collection scripts, and instructions for replication.",
+  "author": "Saprit Anand",
+  "publication_date": "2024-12-22",
+  "keywords": [
+    "code generation",
+    "fine-tuning",
+    "CodeGen",
+    "Hugging Face Transformers",
+    "LLM"
+  ]
+}

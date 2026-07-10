@@ -1,0 +1,14 @@
+{
+  "title": "Official code for VisProg (CVPR 2023 Best Paper!)",
+  "link": "https://github.com/allenai/visprog",
+  "summary": "The repository provides the official implementation of VisProg, a neuro-symbolic system that leverages GPT-3's in-context learning to automatically generate Python programs for solving complex, compositional visual tasks from natural language instructions. Each generated program invokes off-the-shelf computer vision models, image processing routines, or Python functions, producing both the answer and an interpretable step-by-step rationale without any task-specific training. The system is demonstrated on tasks such as outside-knowledge object tagging, natural language image editing, NLVR, and GQA, and is designed to be easily extended with new modules and in-context examples. The source includes notebooks for each task, a modular engine, and a set of pre-defined visual reasoning primitives.",
+  "author": "Tanmay Gupta, Aniruddha Kembhavi",
+  "publication_date": "2022-11-15",
+  "keywords": [
+    "VisProg",
+    "neuro-symbolic",
+    "visual reasoning",
+    "program generation",
+    "GPT-3"
+  ]
+}

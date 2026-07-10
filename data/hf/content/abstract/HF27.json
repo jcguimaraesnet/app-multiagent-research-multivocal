@@ -1,0 +1,25 @@
+{
+  "title": "ReLook: Vision-Grounded RL with a Multimodal LLM Critic for Agentic Web Coding",
+  "link": "https://huggingface.co/papers/2510.11498",
+  "abstract": "While Large Language Models (LLMs) excel at algorithmic code generation, they struggle with front-end development, where correctness is judged on rendered pixels and interaction. We present ReLook, an agentic, vision-grounded reinforcement learning framework that empowers an agent to close a robust generate--diagnose--refine loop by invoking a multimodal LLM (MLLM) as a tool. During training, the agent uses the MLLM-in-the-loop both as a visual critic--scoring code with screenshots--and as a source of actionable, vision-grounded feedback; a strict zero-reward rule for invalid renders anchors renderability and prevents reward hacking. To prevent behavioral collapse, we introduce Forced Optimization, a strict acceptance rule that admits only improving revisions, yielding monotonically better trajectories. At inference, we decouple the critic and run a lightweight, critic-free self-edit cycle, keeping latency comparable to base decoding while retaining most of the gains. Across three widely used benchmarks, ReLook consistently outperforms strong baselines in vision-grounded front-end code generation, highlighting the benefits of agentic perception, visual rewards, and training-inference decoupling.",
+  "authors": [
+    "Yuhang Li",
+    "Chenchen Zhang",
+    "Ruilin Lv",
+    "Ao Liu",
+    "Ken Deng",
+    "Yuanxing Zhang",
+    "Jiaheng Liu",
+    "Wiggin Zhou",
+    "Bo Zhou"
+  ],
+  "publication_date": "2025-10-13T15:05:50Z",
+  "pdf_link": "https://arxiv.org/pdf/2510.11498v1",
+  "keywords": [
+    "ReLook",
+    "front-end code generation",
+    "reinforcement learning",
+    "multimodal LLM",
+    "visual grounding"
+  ]
+}

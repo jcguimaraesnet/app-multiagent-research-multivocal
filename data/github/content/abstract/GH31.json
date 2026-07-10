@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - algorithmicsuperintelligence/openevolve: Open-source implementation of AlphaEvolve",
+  "link": "https://github.com/algorithmicsuperintelligence/openevolve",
+  "summary": "OpenEvolve is an open-source evolutionary coding agent that leverages large language models (LLMs) to autonomously discover and optimize algorithms. It integrates MAP-Elites quality-diversity evolution with LLM ensembles, supporting multiple programming languages and tasks such as performance optimization, algorithm design, and prompt engineering. The framework provides reproducibility through seeding, island-based parallel evolution, and artifact feedback loops. Demonstrated achievements include 2-3x GPU kernel speedups and state-of-the-art circle packing solutions.",
+  "author": "Asankhaya Sharma",
+  "publication_date": "2025-05-15",
+  "keywords": [
+    "openevolve",
+    "evolutionary coding agent",
+    "LLM-based code optimization",
+    "MAP-Elites",
+    "genetic algorithm"
+  ]
+}

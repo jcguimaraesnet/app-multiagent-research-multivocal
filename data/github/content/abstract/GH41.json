@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - sammcj/llm-templates: My LLM Templates (Ollama Modelfiles & Tabby Templates + Presets)",
+  "link": "https://github.com/sammcj/llm-templates",
+  "summary": "This GitHub repository by sammcj provides a collection of Modelfiles for the Ollama local LLM runner and templates/presets for TabbyAPI (an Exllamav2 server). The templates cover a wide range of large language models, including code-focused variants such as Codestral, DeepSeek-Coder, Qwen2.5-Coder, and Qwen3-Coder. These configuration files help users set up LLM-powered coding assistants or other generative AI tasks by providing proper system prompts, parameters, and chat formats. The repository does not introduce new software construction techniques but offers infrastructure for developers to easily integrate code generation models into their workflows.",
+  "author": "sammcj",
+  "publication_date": "",
+  "keywords": [
+    "llm-templates",
+    "ollama",
+    "tabbyapi",
+    "code-generation",
+    "genai"
+  ]
+}

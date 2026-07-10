@@ -1,0 +1,14 @@
+{
+  "title": "Enabling Tensor Language Model to Assist in Generating High-Performance Tensor Programs for Deep Learning | USENIX",
+  "link": "https://www.usenix.org/conference/osdi24/presentation/zhai",
+  "summary": "This paper presents a framework that uses a tensor language model (TLM) to generate high-performance tensor programs for deep learning. It transforms tensor program generation into a language model task by designing a tensor language that records decision information. TLM combines offline learning with online decisions to probabilistically sample the best choice in the exploration space, achieving more informed exploration than random sampling. Experiments show TLM matches the performance of fully tuned Ansor/MetaSchedule with a 61× compilation speedup, and outperforms Roller by 2.25× under the same compilation time.",
+  "author": "Yi Zhai, Sijia Yang, Keyu Pan, Renwei Zhang, Shuo Liu, Chao Liu, Zichun Ye, Jianmin Ji, Jie Zhao, Yu Zhang, Yanyong Zhang",
+  "publication_date": "2024-07",
+  "keywords": [
+    "tensor programs",
+    "language model",
+    "deep learning",
+    "compilation",
+    "code generation"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "A Language-based Approach to Macroprogramming for IoT Systems through Large Language Models",
+  "link": "https://doi.org/10.1145/3758326",
+  "abstract": "Large language models (LLMs) have transformed software engineering, particularly in code generation, where they assist developers in writing functions or entire programs. However, code generation remains challenging when the target domain is complex, as is the case with Internet of Things (IoT) systems. The challenge lies in capturing the entire system behavior within a single specification. developers often model only a subset of the system’s functionality, focusing primarily on individual device behavior or data processing aspects, which may not address the core challenges of IoT, such as large-scale distributed coordination and emergent behavior. To address this, macroprogramming paradigms have been proposed as a means to specify the collective behavior of IoT systems more holistically. Among these approaches, aggregate computing stands out for its ability to express system-wide properties through a top-down, global-to-local perspective. Despite its potential, the adoption of aggregate computing remains limited due to the complexity of writing and maintaining such programs. To overcome these barriers, we propose a language-based approach based on macroprogramming that leverages LLMs for IoT code generation. Specifically, we employ the in-context learning capabilities of LLMs, guiding them to generate code based on an aggregate computing abstraction. This creates code that reflects system-wide properties and frees programmers from writing low-level code by letting them specify desired global properties in natural language. The LLM then translates these specifications into executable code, thus facilitating the development of collective intelligence applications in IoT systems. © 2025 Copyright held by the owner/author(s).",
+  "keywords": [
+    "aggregate computing",
+    "code generation",
+    "internet of things",
+    "Large language models",
+    "macroprogramming"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Association for Computing Machinery"
+}

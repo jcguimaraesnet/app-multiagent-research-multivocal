@@ -1,0 +1,14 @@
+{
+  "title": "Translating code with Large Language Models and human-in-the-loop feedback",
+  "link": "https://doi.org/10.1016/j.infsof.2025.107785",
+  "abstract": "Context: In recent years, the code translation task has arisen as one of the major software issues in maintaining software quality during migration over complex infrastructure. This task involves human subjects with different background knowledge and could introduce errors due to the semantic gap between the programming languages and the complexity of the task. Generative Artificial Intelligence (AI) showed good capabilities in code generation, albeit this is highly dependent on the human factor. Objective: This paper investigates, from the human perspective, the use of three Generative AI tools (ChatGPT, Google Bard, and GitHub Copilot) in the context of translation tasks from code written in query languages to code written in framework-specific code languages, specifically focused on SQL dialects and PySpark. This translation is especially crucial during the migration from centralized architectures to cloud-based architectures. Methods: We evaluate the usefulness of these tools, the quality of the generated code, and their impact on performance. The models are tested with queries of various type in three different SQL dialects considering three usage scenarios of increasing complexity. It involves 15 participants with diverse programming backgrounds, who aim to solve tasks by interacting multiple times with the tools and manually changing the code. Results: The findings show a positive performance, demonstrating their reliability in generating coherent translations, achieving 100% precision in most tasks with a slight decrease in more complex scenarios, and producing well-documented code, with a response time of under 2 min, with Google Bard responding 50% faster than the others. Conclusion: In conclusion, this paper establishes a methodology and both quantitative and qualitative metrics for evaluating how generative AI tools streamline code translation, shifting the emphasis from production to refinement. It underscores the importance of continuously improving these tools to integrate them into developers’ workflows and to provide guidelines for intelligent use. © 2025 The Author(s)",
+  "keywords": [
+    "Code translation",
+    "Human-centered AI",
+    "Large Language Model",
+    "Software engineering"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Elsevier B.V."
+}

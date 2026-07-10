@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - microsoft/vscode-copilot-release: Feedback on GitHub Copilot Chat UX in Visual Studio Code.",
+  "link": "https://github.com/microsoft/vscode-copilot-release",
+  "summary": "This is the archived GitHub repository for providing feedback on the user experience of GitHub Copilot and GitHub Copilot Chat within Visual Studio Code. The repository is now deprecated and directs users to the primary VS Code repository for issues. It covers feedback for both the inline code completion features of Copilot and the experimental chat features of Copilot Chat. The page does not present a new technical solution but rather serves as a historical feedback channel for the extension's interface and functionality.",
+  "author": "Microsoft",
+  "publication_date": "2025-12-11",
+  "keywords": [
+    "GitHub Copilot",
+    "GitHub Copilot Chat",
+    "Visual Studio Code",
+    "code completion",
+    "feedback repository"
+  ]
+}

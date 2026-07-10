@@ -1,0 +1,14 @@
+{
+  "title": "Tutorials Overview",
+  "link": "https://gepa-ai.github.io/gepa/tutorials/",
+  "summary": "The page is a collection of tutorials for GEPA, a framework that automatically refines prompts and programs using iterative self-reflection and evaluation. It covers use cases such as evolving entire DSPy programs (improving accuracy from 67% to 93% on a math benchmark), seedless code generation (e.g., a 3D unicorn from no starting code), classification with confidence-aware adapters, and LangChain integration. The tutorials illustrate how GEPA can optimize complex coding tasks, multi-agent systems, and creative outputs, and the page also links to community contributions, video guides, and language-specific implementations.",
+  "author": "GEPA AI",
+  "publication_date": "",
+  "keywords": [
+    "GEPA",
+    "prompt optimization",
+    "program evolution",
+    "automatic code improvement",
+    "DSPy"
+  ]
+}

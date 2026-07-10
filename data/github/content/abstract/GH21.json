@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - LIANGQINGYUAN/awesome_codegeneration: A list of papers and resources dedicated to code generation",
+  "link": "https://github.com/LIANGQINGYUAN/awesome_codegeneration",
+  "summary": "This GitHub repository is a curated list of papers and resources dedicated to code generation and code understanding. It organizes datasets, techniques, pretrained models, and tools relevant to automated software construction. The catalogue includes benchmarks like HumanEval, CoNaLa, and Spider, as well as transformer-based models such as CodeBERT, CodeT5, and CoditT5. The repository serves as a reference for researchers and practitioners in code intelligence.",
+  "author": "LIANGQINGYUAN",
+  "publication_date": "2022-11-02",
+  "keywords": [
+    "code generation",
+    "awesome list",
+    "pretrained models",
+    "code understanding",
+    "datasets"
+  ]
+}

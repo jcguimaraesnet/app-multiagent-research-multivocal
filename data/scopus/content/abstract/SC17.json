@@ -1,0 +1,15 @@
+{
+  "title": "Less is more: Towards green code large language models via unified structural pruning",
+  "link": "https://doi.org/10.1016/j.ipm.2025.104580",
+  "abstract": "The extensive application of Large Language Models (LLMs) in generative coding tasks has raised concerns due to their high computational demands and energy consumption. Unlike previous structural pruning methods designed for classification models that deal with low-dimensional classification logits, generative Code LLMs produce high-dimensional token logit sequences, making traditional pruning objectives inherently limited. Moreover, existing single-component pruning approaches further constrain the effectiveness when applied to generative Code LLMs. In response, we propose Flab-Pruner, an innovative unified structural pruning method that combines vocabulary, layer, and Feed-Forward Network (FFN) pruning. This approach effectively reduces model parameters while maintaining performance. Additionally, we introduce a customized code instruction data strategy for coding tasks to enhance the performance recovery efficiency of the pruned model. Through extensive evaluations on three state-of-the-art Code LLMs across multiple generative coding tasks, the results demonstrate that Flab-Pruner retains 97% of the original code generation performance on average after pruning 22% of the parameters, and achieves the same or even better performance after post-training. The pruned models exhibit significant improvements in storage, GPU usage, computational efficiency, and environmental impact, while maintaining well robustness. Our research provides a sustainable solution for green software engineering and promotes the efficient deployment of LLMs in real-world generative coding intelligence applications. © 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+  "keywords": [
+    "Code instruction tuning",
+    "Code intelligence",
+    "Large language models",
+    "Post-training",
+    "Structural pruning"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Elsevier Ltd"
+}

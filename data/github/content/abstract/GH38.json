@@ -1,0 +1,14 @@
+{
+  "title": "gsantopaolo/reforge-ai: Agentic-AI app modernization tool",
+  "link": "https://github.com/gsantopaolo/reforge-ai",
+  "summary": "ReforgeAI is an agentic AI tool designed for modernizing legacy Java codebases. It uses automated analysis to generate documentation and a YAML transformation plan before executing modernization tasks. The system performs automated refactoring, such as updating dependencies, replacing deprecated APIs, and migrating from Java EE to Spring Boot, while incorporating security best practices. It features a human-in-the-loop feedback mechanism for reviewing and approving plans and code changes. The tool integrates with Maven for builds and tests, and requires an OpenAI API key for its LLM-driven agents.",
+  "author": "gsantopaolo",
+  "publication_date": "2025-05-28",
+  "keywords": [
+    "ReforgeAI",
+    "Agentic AI",
+    "Legacy Modernization",
+    "Java Code Refactoring",
+    "Framework Migration"
+  ]
+}

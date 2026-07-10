@@ -1,0 +1,14 @@
+{
+  "title": "An Empirical Study on the Code Refactoring Capability of Large Language Models | ACM Transactions on Software Engineering and Methodology",
+  "link": "https://dl.acm.org/doi/10.1145/3801158",
+  "summary": "This paper presents an empirical study evaluating the code refactoring capabilities of five Large Language Models (StarCoder2, GPT-4o-mini, GPT-4o, LLaMA 3, and DeepSeek-v3) on 30 open-source Java projects. It assesses the LLMs based on their ability to improve static code quality metrics, pass unit tests, and reduce code smells. The study finds that production-grade models like GPT-4o and DeepSeek-v3 achieve high unit test success rates, while LLaMA 3 excels at code smell reduction. The authors also compare LLM performance against human developers and investigate the impact of one-shot and chain-of-thought prompting. The work provides insights into the effectiveness and best practices for integrating LLMs into software refactoring tasks.",
+  "author": "Jonathan Cordeiro, Shayan Noei, Ying Zou",
+  "publication_date": "2026-03-10",
+  "keywords": [
+    "code refactoring",
+    "large language models",
+    "empirical study",
+    "code quality",
+    "prompt engineering"
+  ]
+}

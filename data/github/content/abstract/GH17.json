@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - microsoft/copilot-intellij-feedback: Feedback on GitHub Copilot for JetBrains IDEs.",
+  "link": "https://github.com/microsoft/copilot-intellij-feedback",
+  "summary": "This repository hosts the feedback channel for the GitHub Copilot Plugin for JetBrains IDEs, an AI-powered coding assistant that provides intelligent code completions and chat-based assistance within JetBrains development environments. The plugin leverages advanced language models to enhance the developer experience. This specific repository does not describe a new solution but serves as a public interface for users to report issues, request features, and submit feedback on the existing plugin's user experience and interface. It provides guidance on collecting logs for troubleshooting purposes.",
+  "author": "Microsoft",
+  "publication_date": "2025-03-07",
+  "keywords": [
+    "GitHub Copilot",
+    "JetBrains",
+    "plugin",
+    "code completion",
+    "AI coding assistant"
+  ]
+}

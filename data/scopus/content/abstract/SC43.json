@@ -1,0 +1,17 @@
+{
+  "title": "LLM-Driven Feature Inference for Analyzing Student Git Collaboration",
+  "link": "https://doi.org/10.1109/ACCESS.2026.3685720",
+  "abstract": "Project-based courses increasingly rely on Git version control systems such as GitHub, yet raw commit histories are difficult for instructors to interpret in terms of collaboration and feature development. This paper investigates how large language models (LLMs) can support this analysis by generating natural-language summaries of student commits and assigning feature-level labels. Using data from a software engineering project course, we apply a four-phase LLM pipeline that (i) extracts and normalizes commit data, (ii) infers high-level feature and non-feature categories from commit messages, (iii) consolidates synonymous labels into a unified vocabulary, and (iv) classifies each commit to a specific label. We then group the resulting labels into Compulsory Features, Optional Features, and Non-Features (maintenance tasks such as testing, refactoring, and configuration) to distinguish teams that implemented only minimum requirements from those that pursued additional functionality. We derive analytics on feature coverage, collaboration patterns, commit-size distributions across teams, and workload balance using per-student commit shares and the Gini coefficient. Our results show that many teams collaboratively implemented core features, while optional requirements revealed substantial variation in ambition. Teams that worked on optional features tended to receive higher grades, providing initial evidence that the LLM-derived analytics align with instructor judgements. In addition, the LLM-generated summaries and labels help instructors locate where features are implemented, exercise them during grading, and provide targeted feedback. We argue that LLMs can act as practical co-analysts for educational GitHub repositories, transforming low-level version-control data into actionable insights for teaching and assessment.  © 2026 The Authors.",
+  "keywords": [
+    "Collaboration",
+    "educational data mining",
+    "feature extraction",
+    "Git",
+    "large language models",
+    "software engineering education",
+    "version control mining"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Institute of Electrical and Electronics Engineers Inc."
+}

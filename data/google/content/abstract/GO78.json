@@ -1,0 +1,14 @@
+{
+  "title": "Convergence Dynamics in LLM-Driven Program Evolution",
+  "link": "https://arxiv.org/abs/2606.05408",
+  "summary": "This paper examines LLM-driven program mutation chains without selection pressure, analyzing how programs evolve in a domain-specific language. It finds that LLM-based mutation consistently converges toward restricted attractor regions, with 87% of chains revisiting previously seen structural forms. The convergence is robust across prompt designs, model families, and stochastic replication, but a classical genetic programming subtree mutation operator does not exhibit this effect. The study reveals a tension between semantics-aware transformation and systematic bias toward structural homogeneity, highlighting the need to account for this bias in open-ended exploration.",
+  "author": "Can Gurkan, Forrest Stonedahl, Uri Wilensky",
+  "publication_date": "2026-06-03",
+  "keywords": [
+    "LLM-driven mutation",
+    "program evolution",
+    "convergence",
+    "structural homogeneity",
+    "genetic programming"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Evaluating Retrieval-Augmented Generation for LLM-Based Vulnerability Detection: An Empirical Study on Real-World Java Vulnerabilities",
+  "link": "https://doi.org/10.1109/ACCESS.2026.3676577",
+  "abstract": "Software vulnerabilities are growing as fast as the digital platforms and applications that contain them. Thus, the timely and effective detection of software vulnerabilities is becoming increasingly important. Another emerging trend is the widespread use of large language models (LLMs) for software engineering tasks such as source and test code generation, refactoring, and debugging. Finding security-related issues is crucial, but it is a very resource-intensive task. This work offers an empirical benchmark of the impact of retrieval-augmented prompts on LLM-based vulnerability detection, rather than proposing a new detection method. In this work, we explore the source code vulnerability detection capabilities of large language models (LLMs) in a realistic, language-specific setting. We investigate to what extent retrieval-augmented generation (RAG) improves their performance when applied to real-world Java vulnerabilities. We evaluated seven widely used LLMs (GPT-5, GPT-4o, Claude Sonnet 4, Gemini 2.5, LLaMa 4, DeepSeek 3.1, and Grok Code Fast) on Java source code. We used the Vul4J dataset, a manually curated benchmark of real-world vulnerabilities, comparing a basic zero-shot approach against a RAG-enhanced approach that provides up to three vulnerable and three secure code examples based on their semantic similarity to the code under analysis. To mitigate the non-deterministic nature of LLMs, each experiment was repeated three times and the results were averaged. We empirically found that RAG helps LLMs reduce false positives without significantly affecting recall, leading to improved MCC scores under specific conditions. However, retrieval was often sparse, and false positives remained common, limiting practical impact. Our study serves as an empirical evaluation rather than a deployment-ready methodology.  © 2026 The Authors.",
+  "keywords": [
+    "large language models",
+    "LLM comparison",
+    "retrieval-augmented generation",
+    "Vulnerability detection"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Institute of Electrical and Electronics Engineers Inc."
+}

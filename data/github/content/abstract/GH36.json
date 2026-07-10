@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal",
+  "link": "https://github.com/openai/codex",
+  "summary": "This source is the GitHub repository for Codex CLI, an open-source coding agent developed by OpenAI that runs locally in the terminal. It allows developers to perform software construction tasks such as writing, editing, and understanding code through natural language interaction with large language models. The tool is built primarily in Rust, supports installation via shell scripts, npm, or Homebrew, and integrates with IDEs and a desktop app. The repository includes the full source code, build configuration, and documentation for contributors. It is licensed under Apache 2.0 and provides a lightweight, local alternative to cloud-based coding agents.",
+  "author": "OpenAI",
+  "publication_date": "2025-04-16",
+  "keywords": [
+    "Codex CLI",
+    "coding agent",
+    "terminal",
+    "software construction",
+    "AI coding assistant"
+  ]
+}

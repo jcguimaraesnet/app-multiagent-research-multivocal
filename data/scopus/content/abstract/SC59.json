@@ -1,0 +1,13 @@
+{
+  "title": "Performance and interpretability analysis of code generation large language models",
+  "link": "https://doi.org/10.1016/j.neucom.2025.131461",
+  "abstract": "As Large Language Models (LLMs) are increasingly getting integrated into software development workflows, understanding their reliability, error patterns and interpretability in real-world development scenarios is crucial for establishing their practical utility. This study evaluates and interprets the performance of 15 open-source LLM models, including Code LLaMa, Granite Code, DeepSeek-Coder-V2, and Yi-Coder on code translation and generation from requirements using the Rosetta Code dataset across diverse programming languages and tasks. Syntactic correctness and code quality are quantified using metrics such as CodeBLEU, chrF, and METEOR. Interpretability is explored through Feature Ablation and Shapley Value Sampling to elucidate prompt processing mechanisms. Results indicate high syntactic correctness and quality scores for models such as DeepSeek-Coder-V2 and Yi-Coder, alongside observed sensitivities to specific prompt components. This research provides quantitative and qualitative insights into the capabilities and limitations of open-source code-generating LLMs, informing model selection and the understanding of LLM-generated code. © 2025 The Author(s)",
+  "keywords": [
+    "Code conversion",
+    "Model explainability",
+    "Transcoding"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Elsevier B.V."
+}

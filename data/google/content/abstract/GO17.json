@@ -1,0 +1,14 @@
+{
+  "title": "How AI code generation works",
+  "link": "https://github.blog/ai-and-ml/generative-ai/how-ai-code-generation-works/",
+  "summary": "This GitHub blog post explains how AI code generation works, focusing on large language models trained on natural language and source code. It details three interaction methods with GitHub Copilot: autocompletion of code, using natural language comments to guide suggestions, and interactive chat via GitHub Copilot Chat. The post highlights benefits such as faster development, reduced mental load, and less context switching. It also discusses enterprise considerations for AI coding tools, including security, privacy, compliance, permissions, and the importance of human code review, ultimately advocating for AI adoption to empower developers and drive business value.",
+  "author": "Jeimy Ruiz",
+  "publication_date": "2024-02-22",
+  "keywords": [
+    "AI code generation",
+    "GitHub Copilot",
+    "large language models",
+    "code completion",
+    "developer productivity"
+  ]
+}

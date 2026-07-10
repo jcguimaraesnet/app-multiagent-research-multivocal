@@ -1,0 +1,22 @@
+{
+  "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
+  "link": "https://huggingface.co/papers/2604.01193",
+  "abstract": "Can a large language model (LLM) improve at code generation using only its own raw outputs, without a verifier, a teacher model, or reinforcement learning? We answer in the affirmative with simple self-distillation (SSD): sample solutions from the model with certain temperature and truncation configurations, then fine-tune on those samples with standard supervised fine-tuning. SSD improves Qwen3-30B-Instruct from 42.4% to 55.3% pass@1 on LiveCodeBench v6, with gains concentrating on harder problems, and it generalizes across Qwen and Llama models at 4B, 8B, and 30B scale, including both instruct and thinking variants. To understand why such a simple method can work, we trace these gains to a precision-exploration conflict in LLM decoding and show that SSD reshapes token distributions in a context-dependent way, suppressing distractor tails where precision matters while preserving useful diversity where exploration matters. Taken together, SSD offers a complementary post-training direction for improving LLM code generation. Our code is available at https://github.com/apple/ml-ssd",
+  "authors": [
+    "Ruixiang Zhang",
+    "Richard He Bai",
+    "Huangjie Zheng",
+    "Navdeep Jaitly",
+    "Ronan Collobert",
+    "Yizhe Zhang"
+  ],
+  "publication_date": "2026-04-01T17:39:50Z",
+  "pdf_link": "https://arxiv.org/pdf/2604.01193v2",
+  "keywords": [
+    "simple self-distillation",
+    "code generation",
+    "large language model",
+    "supervised fine-tuning",
+    "token distribution reshaping"
+  ]
+}

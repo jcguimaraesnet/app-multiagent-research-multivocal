@@ -1,0 +1,13 @@
+{
+  "title": "Analyzing the dependability of Large Language Models for code clone generation",
+  "link": "https://doi.org/10.1016/j.jss.2025.112548",
+  "abstract": "The ability to generate multiple equivalent versions of the same code segment across different programming languages and within the same language is valuable for code translation, language migration, and code comprehension in education. However, current avenues for generating code clones – through manual creation or specialized software tools – often fail to consistently generate a variety of behaviorally equivalent code clones. Large Language Models (LLMs) offer a promising solution by leveraging their extensive training on diverse codebases to automatically generate code. Unlike traditional methods, LLMs can produce code across a wide variety of programming languages with minimal user effort. Using LLMs for code clone generation could significantly reduce the time and resources needed to create code clones while enhancing their syntactic diversity. In this quantitative empirical study, we investigate the dependability of LLMs as potential generators of code clones. We gathered equivalent code solutions (i.e., behavioral clones) in C++, Java, and Python from thirty-six programming problems from the well-known technical interview practice platform, LeetCode. We query OpenAI's GPT-3.5, GPT-4, and CodeLlama to generate code clones of the LeetCode solutions. We measure the behavioral equivalence of the LLM-generated clones using a behavioral similarity clustering technique inspired by the code clone detection tool, Simion-based Language Agnostic Code Clones (SLACC). This study reveals that, despite LLMs demonstrating the potential for code generation, their capacity to consistently generate syntactically diverse but behaviorally equivalent code clones is limited. At lower temperature settings, LLMs are more successful in producing behaviorally consistent, syntactically similar code clones within the same language. However, for cross-language cloning tasks and at higher temperature settings and programming difficulties, LLMs introduce greater syntactic diversity and lead to higher rates of compilation and runtime errors, resulting in a decline in behavioral consistency. These findings indicate a need for further quality assurance measures for the use of LLMs for code clone generation. All the data and scripts associated with this paper can be found https://zenodo.org/records/14968618. © 2025 The Authors",
+  "keywords": [
+    "Machine learning for software engineering",
+    "Software measurement and analytics",
+    "Software quality assurance"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Elsevier Inc."
+}

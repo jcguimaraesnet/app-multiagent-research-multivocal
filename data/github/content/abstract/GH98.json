@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - daminals/JP-Morgan-Virtual-Experience: Forage's JP Morgan Chase Software Engineering Virtual Experience",
+  "link": "https://github.com/daminals/JP-Morgan-Virtual-Experience",
+  "summary": "This source is a public GitHub repository documenting an individual's completion of the Forage JP Morgan Chase Software Engineering Virtual Experience. The virtual program consisted of three hands-on coding tasks: interfacing with a stock price data feed, using JPMorgan Chase frameworks and tools, and displaying data visually for traders. The projects were implemented using Python, JavaScript, TypeScript, React, HTML, Node.js, and Perspective (JP Morgan's open-source data visualization tool). The repository itself does not present a novel GenAI solution for software construction but rather showcases applied coding skills in a financial technology context.",
+  "author": "daminals (Daniel Kogan)",
+  "publication_date": "2021-11-23",
+  "keywords": [
+    "Forage",
+    "JP Morgan",
+    "virtual experience",
+    "data visualization",
+    "Perspective"
+  ]
+}

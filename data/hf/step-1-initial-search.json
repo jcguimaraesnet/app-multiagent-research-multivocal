@@ -1,0 +1,419 @@
+{
+  "origin": "hf",
+  "step": 1,
+  "retrieved_at": "2026-07-09T19:52:34.186847+00:00",
+  "queries": [
+    "site:huggingface.co/papers (\"Code Generation\" OR \"Code Writer\" OR \"Code Completion\") AND (\"Generative AI\" OR \"Generative Artificial Intelligence\" OR \"Generative Model*\" OR \"Large Language Model*\" OR \"Language Model*\" OR \"Small Language Model*\" OR \"LLM*\" OR \"RAG\" OR \"Retrieval Augmented Generation\" OR \"Natural Language Processing\" OR \"NLP\" OR \"AI Agent\" OR \"AI Multi-Agent\") AND (\"Application\" OR \"Technolog*\" OR \"Approach*\" OR \"Method*\" OR \"Tool*\" OR \"Framework*\" OR \"Solution*\" OR \"Strateg*\" OR \"Model*\" OR \"System*\" OR \"Platform*\" OR \"Technique*\") AND (\"Software Engineering\")",
+    "site:huggingface.co/papers (\"Code Evolution\" OR \"Refactoring\" OR \"Code Restructuring\") AND (\"Generative AI\" OR \"Generative Artificial Intelligence\" OR \"Generative Model*\" OR \"Large Language Model*\" OR \"Language Model*\" OR \"Small Language Model*\" OR \"LLM*\" OR \"RAG\" OR \"Retrieval Augmented Generation\" OR \"Natural Language Processing\" OR \"NLP\" OR \"AI Agent\" OR \"AI Multi-Agent\") AND (\"Application\" OR \"Technolog*\" OR \"Approach*\" OR \"Method*\" OR \"Tool*\" OR \"Framework*\" OR \"Solution*\" OR \"Strateg*\" OR \"Model*\" OR \"System*\" OR \"Platform*\" OR \"Technique*\") AND (\"Software Engineering\")",
+    "site:huggingface.co/papers (\"Code Reorganization\" OR \"Program Generation\" OR \"Program Writer\") AND (\"Generative AI\" OR \"Generative Artificial Intelligence\" OR \"Generative Model*\" OR \"Large Language Model*\" OR \"Language Model*\" OR \"Small Language Model*\" OR \"LLM*\" OR \"RAG\" OR \"Retrieval Augmented Generation\" OR \"Natural Language Processing\" OR \"NLP\" OR \"AI Agent\" OR \"AI Multi-Agent\") AND (\"Application\" OR \"Technolog*\" OR \"Approach*\" OR \"Method*\" OR \"Tool*\" OR \"Framework*\" OR \"Solution*\" OR \"Strateg*\" OR \"Model*\" OR \"System*\" OR \"Platform*\" OR \"Technique*\") AND (\"Software Engineering\")",
+    "site:huggingface.co/papers (\"Program Completion\" OR \"Program Evolution\") AND (\"Generative AI\" OR \"Generative Artificial Intelligence\" OR \"Generative Model*\" OR \"Large Language Model*\" OR \"Language Model*\" OR \"Small Language Model*\" OR \"LLM*\" OR \"RAG\" OR \"Retrieval Augmented Generation\" OR \"Natural Language Processing\" OR \"NLP\" OR \"AI Agent\" OR \"AI Multi-Agent\") AND (\"Application\" OR \"Technolog*\" OR \"Approach*\" OR \"Method*\" OR \"Tool*\" OR \"Framework*\" OR \"Solution*\" OR \"Strateg*\" OR \"Model*\" OR \"System*\" OR \"Platform*\" OR \"Technique*\") AND (\"Software Engineering\")"
+  ],
+  "count": 81,
+  "records": [
+    {
+      "id": "HF1",
+      "title": "CodeArena: A Collective Evaluation Platform for LLM Code Generation",
+      "link": "https://huggingface.co/papers/2503.01295"
+    },
+    {
+      "id": "HF2",
+      "title": "QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation",
+      "link": "https://huggingface.co/papers/2604.08570"
+    },
+    {
+      "id": "HF3",
+      "title": "Enhancing LLM Code Generation: A Systematic Evaluation of Multi-Agent Collaboration and Runtime Debugging for Improved Accuracy, Reliability, and Latency",
+      "link": "https://huggingface.co/papers/2505.02133"
+    },
+    {
+      "id": "HF4",
+      "title": "PlayCoder: Making LLM-Generated GUI Code Playable",
+      "link": "https://huggingface.co/papers/2604.19742"
+    },
+    {
+      "id": "HF5",
+      "title": "Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning",
+      "link": "https://huggingface.co/papers/2504.17192"
+    },
+    {
+      "id": "HF6",
+      "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
+      "link": "https://huggingface.co/papers/2604.01193"
+    },
+    {
+      "id": "HF7",
+      "title": "StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Feedback",
+      "link": "https://huggingface.co/papers/2402.01391"
+    },
+    {
+      "id": "HF8",
+      "title": "Assessing the Impact of Requirement Ambiguity on LLM-based Function-Level Code Generation",
+      "link": "https://huggingface.co/papers/2604.21505"
+    },
+    {
+      "id": "HF9",
+      "title": "Think Anywhere in Code Generation",
+      "link": "https://huggingface.co/papers/2603.29957"
+    },
+    {
+      "id": "HF10",
+      "title": "MeshCoder: LLM-Powered Structured Mesh Code Generation from Point Clouds",
+      "link": "https://huggingface.co/papers/2508.14879"
+    },
+    {
+      "id": "HF11",
+      "title": "A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code",
+      "link": "https://huggingface.co/papers/2508.18106"
+    },
+    {
+      "id": "HF12",
+      "title": "GLLM: Self-Corrective G-Code Generation using Large Language Models with User Feedback",
+      "link": "https://huggingface.co/papers/2501.17584"
+    },
+    {
+      "id": "HF13",
+      "title": "OpenClassGen: A Large-Scale Corpus of Real-World Python Classes for LLM Research",
+      "link": "https://huggingface.co/papers/2504.15564"
+    },
+    {
+      "id": "HF14",
+      "title": "WebVIA: A Web-based Vision-Language Agentic Framework for Interactive and Verifiable UI-to-Code Generation",
+      "link": "https://huggingface.co/papers/2511.06251"
+    },
+    {
+      "id": "HF15",
+      "title": "CodeV: Empowering LLMs with HDL Generation through Multi-Level Summarization",
+      "link": "https://huggingface.co/papers/2407.10424"
+    },
+    {
+      "id": "HF16",
+      "title": "TeXpert: A Multi-Level Benchmark for Evaluating LaTeX Code Generation by LLMs",
+      "link": "https://huggingface.co/papers/2506.16990"
+    },
+    {
+      "id": "HF17",
+      "title": "Teaching LLMs a Low-Resource Language: Enhancing Code Completion in Pharo",
+      "link": "https://huggingface.co/papers/2607.04939"
+    },
+    {
+      "id": "HF18",
+      "title": "CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis",
+      "link": "https://huggingface.co/papers/2203.13474"
+    },
+    {
+      "id": "HF19",
+      "title": "CodeElo: Benchmarking Competition-level Code Generation of LLMs with Human-comparable Elo Ratings",
+      "link": "https://huggingface.co/papers/2501.01257"
+    },
+    {
+      "id": "HF20",
+      "title": "PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback",
+      "link": "https://huggingface.co/papers/2307.14936"
+    },
+    {
+      "id": "HF21",
+      "title": "ScreenCoder: Advancing Visual-to-Code Generation for Front-End Automation via Modular Multimodal Agents",
+      "link": "https://huggingface.co/papers/2507.22827"
+    },
+    {
+      "id": "HF22",
+      "title": "Efficient Code Embeddings from Code Generation Models",
+      "link": "https://huggingface.co/papers/2508.21290"
+    },
+    {
+      "id": "HF23",
+      "title": "cAST: Enhancing Code Retrieval-Augmented Generation with Structural Chunking via Abstract Syntax Tree",
+      "link": "https://huggingface.co/papers/2506.15655"
+    },
+    {
+      "id": "HF24",
+      "title": "CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning",
+      "link": "https://huggingface.co/papers/2207.01780"
+    },
+    {
+      "id": "HF25",
+      "title": "ArtifactsBench: Bridging the Visual-Interactive Gap in LLM Code Generation Evaluation",
+      "link": "https://huggingface.co/papers/2507.04952"
+    },
+    {
+      "id": "HF26",
+      "title": "LeetCodeDataset: A Temporal Dataset for Robust Evaluation and Efficient Training of Code LLMs",
+      "link": "https://huggingface.co/papers/2504.14655"
+    },
+    {
+      "id": "HF27",
+      "title": "ReLook: Vision-Grounded RL with a Multimodal LLM Critic for Agentic Web Coding",
+      "link": "https://huggingface.co/papers/2510.11498"
+    },
+    {
+      "id": "HF28",
+      "title": "Verus-SpecGym: An Agentic Environment for Evaluating Specification Autoformalization",
+      "link": "https://huggingface.co/papers/2605.26457"
+    },
+    {
+      "id": "HF29",
+      "title": "mHumanEval -- A Multilingual Benchmark to Evaluate Large Language Models for Code Generation",
+      "link": "https://huggingface.co/papers/2410.15037"
+    },
+    {
+      "id": "HF30",
+      "title": "BigCodeArena: Unveiling More Reliable Human Preferences in Code Generation via Execution",
+      "link": "https://huggingface.co/papers/2510.08697"
+    },
+    {
+      "id": "HF31",
+      "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
+      "link": "https://huggingface.co/papers/2410.14209"
+    },
+    {
+      "id": "HF32",
+      "title": "LongCodeZip: Compress Long Context for Code Language Models",
+      "link": "https://huggingface.co/papers/2510.00446"
+    },
+    {
+      "id": "HF33",
+      "title": "GPIoT: Tailoring Small Language Models for IoT Program Synthesis and Development",
+      "link": "https://huggingface.co/papers/2503.00686"
+    },
+    {
+      "id": "HF34",
+      "title": "SuperCoder: Assembly Program Superoptimization with Large Language Models",
+      "link": "https://huggingface.co/papers/2505.11480"
+    },
+    {
+      "id": "HF35",
+      "title": "A Survey of Vibe Coding with Large Language Models",
+      "link": "https://huggingface.co/papers/2510.12399"
+    },
+    {
+      "id": "HF36",
+      "title": "BEAVER: An Efficient Deterministic LLM Verifier",
+      "link": "https://huggingface.co/papers/2512.05439"
+    },
+    {
+      "id": "HF37",
+      "title": "SwiftEval: Developing a Language-Specific Benchmark for LLM-generated Code Evaluation",
+      "link": "https://huggingface.co/papers/2505.24324"
+    },
+    {
+      "id": "HF38",
+      "title": "AI Agentic Programming: A Survey of Techniques, Challenges, and Opportunities",
+      "link": "https://huggingface.co/papers/2508.11126"
+    },
+    {
+      "id": "HF39",
+      "title": "The First Prompt Counts the Most! An Evaluation of Large Language Models on Iterative Example-Based Code Generation",
+      "link": "https://huggingface.co/papers/2411.06774"
+    },
+    {
+      "id": "HF40",
+      "title": "CodeFusion: A Pre-trained Diffusion Model for Code Generation",
+      "link": "https://huggingface.co/papers/2310.17680"
+    },
+    {
+      "id": "HF41",
+      "title": "Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts",
+      "link": "https://huggingface.co/papers/2602.13367"
+    },
+    {
+      "id": "HF42",
+      "title": "AST-T5: Structure-Aware Pretraining for Code Generation and Understanding",
+      "link": "https://huggingface.co/papers/2401.03003"
+    },
+    {
+      "id": "HF43",
+      "title": "Rewriting Pre-Training Data Boosts LLM Performance in Math and Code",
+      "link": "https://huggingface.co/papers/2505.02881"
+    },
+    {
+      "id": "HF44",
+      "title": "CCTU: A Benchmark for Tool Use under Complex Constraints",
+      "link": "https://huggingface.co/papers/2603.15309"
+    },
+    {
+      "id": "HF45",
+      "title": "Long Code Arena: a Set of Benchmarks for Long-Context Code Models",
+      "link": "https://huggingface.co/papers/2406.11612"
+    },
+    {
+      "id": "HF46",
+      "title": "Krikri: Advancing Open Large Language Models for Greek",
+      "link": "https://huggingface.co/papers/2505.13772"
+    },
+    {
+      "id": "HF47",
+      "title": "SALLM: Security Assessment of Generated Code",
+      "link": "https://huggingface.co/papers/2311.00889"
+    },
+    {
+      "id": "HF48",
+      "title": "Agentic Refactoring: An Empirical Study of AI Coding Agents",
+      "link": "https://huggingface.co/papers/2511.04824"
+    },
+    {
+      "id": "HF49",
+      "title": "Lean Refactor: Multi-Objective Controllable Proof Optimization via Agentic Strategy Search",
+      "link": "https://huggingface.co/papers/2605.20244"
+    },
+    {
+      "id": "HF50",
+      "title": "Self-EvolveRec: Self-Evolving Recommender Systems with LLM-based Directional Feedback",
+      "link": "https://huggingface.co/papers/2602.12612"
+    },
+    {
+      "id": "HF51",
+      "title": "GigaEvo: An Open Source Optimization Framework Powered By LLMs And Evolution Algorithms",
+      "link": "https://huggingface.co/papers/2511.17592"
+    },
+    {
+      "id": "HF52",
+      "title": "On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub",
+      "link": "https://huggingface.co/papers/2509.14745"
+    },
+    {
+      "id": "HF53",
+      "title": "K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model",
+      "link": "https://huggingface.co/papers/2602.19128"
+    },
+    {
+      "id": "HF54",
+      "title": "Evolving Programmatic Skill Networks",
+      "link": "https://huggingface.co/papers/2601.03509"
+    },
+    {
+      "id": "HF55",
+      "title": "Vibe Coding vs. Agentic Coding: Fundamentals and Practical Implications of Agentic AI",
+      "link": "https://huggingface.co/papers/2505.19443"
+    },
+    {
+      "id": "HF56",
+      "title": "NES: An Instruction-Free, Low-Latency Next Edit Suggestion Framework Powered by Learned Historical Editing Trajectories",
+      "link": "https://huggingface.co/papers/2508.02473"
+    },
+    {
+      "id": "HF57",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=coding-agent%20benchmarks"
+    },
+    {
+      "id": "HF58",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=skill%20marketplace"
+    },
+    {
+      "id": "HF59",
+      "title": "ResearchStudio-Reel: Automate the Last Mile of Research from Paper to Poster, Video, and Blog",
+      "link": "https://huggingface.co/papers/2607.04438"
+    },
+    {
+      "id": "HF60",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=GPU%20provisioning"
+    },
+    {
+      "id": "HF61",
+      "title": "LK Losses: Direct Acceptance Rate Optimization for Speculative Decoding",
+      "link": "https://huggingface.co/papers/2602.23881"
+    },
+    {
+      "id": "HF62",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=prompt%2Fworkflow%20engineering"
+    },
+    {
+      "id": "HF63",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=multi-model%20execution%20traces"
+    },
+    {
+      "id": "HF64",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=agentic%20patch%20verifier"
+    },
+    {
+      "id": "HF65",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=cross-file%20coordination"
+    },
+    {
+      "id": "HF66",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=migration-aware%20placement"
+    },
+    {
+      "id": "HF67",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=cryptographic%20proof%20generators"
+    },
+    {
+      "id": "HF68",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=decentralized%20adaptation"
+    },
+    {
+      "id": "HF69",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=modular%20research%20scenarios"
+    },
+    {
+      "id": "HF70",
+      "title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+      "link": "https://huggingface.co/papers/2606.06473"
+    },
+    {
+      "id": "HF71",
+      "title": "Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data",
+      "link": "https://huggingface.co/papers/2604.24479"
+    },
+    {
+      "id": "HF72",
+      "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems",
+      "link": "https://huggingface.co/papers/2506.13905"
+    },
+    {
+      "id": "HF73",
+      "title": "VietMEAgent: Culturally-Aware Few-Shot Multimodal Explanation for Vietnamese Visual Question Answering",
+      "link": "https://huggingface.co/papers/2511.09058"
+    },
+    {
+      "id": "HF74",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=large%20language%20models"
+    },
+    {
+      "id": "HF75",
+      "title": "The Surprising Effectiveness of Test-Time Training for Few-Shot Learning",
+      "link": "https://huggingface.co/papers/2411.07279"
+    },
+    {
+      "id": "HF76",
+      "title": "TikZilla: Scaling Text-to-TikZ with High-Quality Data and Reinforcement Learning",
+      "link": "https://huggingface.co/papers/2603.03072"
+    },
+    {
+      "id": "HF77",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=hardcoding"
+    },
+    {
+      "id": "HF78",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=boundary%20modeling"
+    },
+    {
+      "id": "HF79",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=GPU-friendly%20batched%20decode"
+    },
+    {
+      "id": "HF80",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=few-shot%20object%20detection"
+    },
+    {
+      "id": "HF81",
+      "title": "CADEvolve: Creating Realistic CAD via Program Evolution",
+      "link": "https://huggingface.co/papers/2602.16317"
+    }
+  ]
+}

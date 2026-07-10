@@ -1,0 +1,14 @@
+{
+  "title": "ise-uiuc/TitanFuzz",
+  "link": "https://github.com/ise-uiuc/TitanFuzz",
+  "summary": "TitanFuzz is an approach that leverages large language models (LLMs) to generate input programs for fuzzing deep learning libraries such as TensorFlow and PyTorch. It uses generative and infilling LLMs like Codex and InCoder to produce and mutate valid, diverse DL programs. The method achieves up to 50.84% higher code coverage than prior fuzzers and detected 65 bugs, with 44 confirmed as previously unknown. The repository provides the implementation for reproducibility and can be extended to other models and libraries.",
+  "author": "Yinlin Deng, Chunqiu Steven Xia, Haoran Peng, Chenyuan Yang, Lingming Zhang",
+  "publication_date": "2023-09-10",
+  "keywords": [
+    "TitanFuzz",
+    "fuzzing",
+    "deep learning libraries",
+    "large language models",
+    "code generation"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Secure Code Generation with Open Source Generative AI models",
+  "link": "https://doi.org/10.1109/MS.2026.3672189",
+  "abstract": "Large Language Models are increasingly being integrated into software engineering workflows, where they automate programming tasks and boost developer productivity. At the same time, their widespread use raises important concerns about the security of AI-generated code. In this study, we evaluate several open-source LLMs on their ability to generate secure Python code across multiple software engineering domains. Using three prompts with different levels of security awareness, we examine how prompt design influences the presence of vulnerabilities in the generated code. Next, static analysis is performed on the code to identify vulnerabilities and quantify the impact of prompt design and model selection on the security of the generated code. The presence of recurring vulnerabilities in the generated code shows the limitations in the Large Language Models’ security understanding. The study emphasizes the importance of combining prompt engineering with post-generation security validation. © 1984-2012 IEEE.",
+  "keywords": [],
+  "open_access": false,
+  "language": "English",
+  "publisher": "IEEE Computer Society"
+}

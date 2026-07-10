@@ -2,9 +2,14 @@
 .env
 .env.*
 !.env.example
+.scopus_cookie.txt
 
-# Pipeline outputs (each step writes data/<origin>/step-<n>.json)
-data/
+# Full-text PDFs: heavy (~630 MB) and the Scopus ones are paywalled/copyrighted. The screened
+# text lives in data/<origin>/content/full/<id>.md, which IS versioned.
+data/*/content/pdf/
+
+# WSL/Windows download metadata (alternate data streams), not a pipeline result.
+*Zone.Identifier
 
 # Python
 __pycache__/

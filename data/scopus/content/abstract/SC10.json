@@ -1,0 +1,15 @@
+{
+  "title": "Empirical insights into Chat Generative Pre-trained Transformer-assisted code refactoring and developer dynamics",
+  "link": "https://doi.org/10.1016/j.engappai.2026.114865",
+  "abstract": "Large Language Models (LLMs) have become an increasingly popular tool in all aspects of code development. By now, the capabilities of LLMs in code production have been substantially researched. Despite recent studies investigating the capabilities of LLMs in code production, little is known about the practical use of LLMs by developers in a refactoring context. In an effort to close this gap, we conducted an empirical study based on interactions between developers and Chat Generative Pre-trained Transformer (ChatGPT). Using Developer-Generative Pre-trained Transformer (DevGPT) dataset, our study aimed to further preliminary research on how developers can use ChatGPT to refactor code effectively. To do so, we focus on the extent to which ChatGPT was helpful, the prompt that gives a successful answer in the fewest interactions, and the programming languages in which ChatGPT is most effective. We found that, overall, ChatGPT provided developers with code that they could directly utilize in their projects more often than code that needed modifications. Our prompt taxonomy suggested that developers can often avoid lengthier conversations by using more direct prompts that define ChatGPT’s role or providing code snippets, rather than the approach of requesting code diagnosis, explanations, or code generation. Finally, ChatGPT demonstrates varying proficiency levels in different programming languages, with Cascading Style Sheets (CSS) receiving the most effective support. These insights provide valuable guidance for developers looking to optimize their use of ChatGPT for code refactoring. © 2026 Elsevier Ltd.",
+  "keywords": [
+    "Artificial intelligence",
+    "Large language models",
+    "Refactoring",
+    "Software engineering",
+    "Software quality"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Elsevier Ltd"
+}

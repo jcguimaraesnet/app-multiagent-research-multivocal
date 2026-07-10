@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - sourcegraph/awesome-code-ai: A list of AI coding tools (assistants, completions, refactoring, etc.)",
+  "link": "https://github.com/sourcegraph/awesome-code-ai",
+  "summary": "The Awesome-Code-AI repository is a curated list of AI-powered tools for software construction, including code completion assistants, large language models, refactoring tools, code review bots, and agentic coding assistants. It covers a wide range of solutions such as GitHub Copilot, Codeium, Tabnine, Cursor, and Sourcegraph Cody, as well as open-source LLMs like CodeGen and Codex. The list also references Model Context Protocol servers and natural language compilers. The repository has been archived and is now read-only, serving as a historical snapshot of the AI coding tools landscape.",
+  "author": "Sourcegraph",
+  "publication_date": "2023-03-09",
+  "keywords": [
+    "awesome-list",
+    "AI coding tools",
+    "code generation",
+    "LLMs",
+    "software construction"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Agentic Large Language Models for Conceptual Systems Engineering and Design",
+  "link": "https://doi.org/10.1115/1.4070328",
+  "abstract": "Early-stage engineering design involves complex, iterative reasoning, yet existing large language model (LLM) workflows struggle to maintain task continuity and generate executable models. We evaluate whether a structured multi-agent system (MAS) can more effectively manage requirements extraction, functional decomposition, and simulator code generation than a simpler two-agent system (2AS). The target application is a solar-powered water filtration system as described in a cahier des charges. We introduce the design-state graph (DSG), a JSON-serializable representation that bundles requirements, physical embodiments, and python-based physics models into graph nodes. A nine-role MAS iteratively builds and refines the DSG, while the 2AS collapses the process to a generator–reflector loop. Both systems run a total of 60 experiments (2 LLMs—Llama 3.3 70B versus reasoning-distilled deepseek R1 70B × 2 agent configurations × 3 temperatures × 5 seeds). We report a JSON validity, requirement coverage, embodiment presence, code compatibility, workflow completion, runtime, and graph size. Across all runs, both MAS and 2AS maintained perfect JSON integrity and embodiment tagging. Requirement coverage remained minimal (less than 20%). Code compatibility peaked at 100% under specific 2AS settings but averaged below 50% for MAS. Only the reasoning-distilled model reliably flagged workflow completion. Powered by deepseek R1 70B, the MAS generated more granular DSGs (average 5–6 nodes) whereas 2AS mode collapsed. Structured multi-agent orchestration enhanced design detail. Reasoning-distilled LLM improved completion rates, yet low requirements and fidelity gaps in coding persisted. Copyright © 2026 by ASME.",
+  "keywords": [
+    "agent-based design",
+    "artificial intelligence",
+    "autonomous agents",
+    "conceptual design",
+    "context management",
+    "design automation",
+    "engineering design",
+    "human–AI collaboration",
+    "large language models",
+    "multi-agent systems",
+    "systems design",
+    "systems engineering"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "American Society of Mechanical Engineers (ASME)"
+}

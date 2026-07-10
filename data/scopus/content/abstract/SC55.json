@@ -1,0 +1,15 @@
+{
+  "title": "SE Perspective on LLMs: Biases in Code Generation, Code Interpretability, and Code Security Risks",
+  "link": "https://doi.org/10.1145/3774324",
+  "abstract": "Large Language Models (LLMs) are transforming the world with their ability to generate diverse content, including code, but embedded biases raise significant concerns. In this perspective piece, we critique the wide-spreading view of LLMs as infallible tools by examining how biases in training data can lead to discriminatory code generation, opaque code interpretation, and heightened security risks, ultimately impacting the trustworthiness of LLM-generated software. Through a reflective analysis grounded in existing literature, including case studies and theoretical frameworks from software engineering and AI ethics, we examine the specific manifestations of bias in code generation, focusing on how training data contribute to these issues. We investigate the challenges associated with interpreting LLM-generated code, highlighting the lack of transparency and the potential for hidden biases, and explore the security risks introduced by biased LLMs, namely vulnerabilities that may be exploited by malicious actors. We provide several recommendations for mitigating these challenges, emphasizing the need to refine training data and involve humans-in-the-loop. © 2025 Copyright held by the owner/author(s).",
+  "keywords": [
+    "code bias",
+    "interpretability bias",
+    "Large language models",
+    "security implications",
+    "software engineering"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Association for Computing Machinery"
+}

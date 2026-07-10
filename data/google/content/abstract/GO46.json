@@ -1,0 +1,14 @@
+{
+  "title": "Automating .NET 9 Code Refactoring with AI-driven Codemods",
+  "link": "https://www.linkedin.com/pulse/automating-net-9-code-refactoring-ai-driven-codemods-shergilashvili-regtf",
+  "summary": "This LinkedIn article presents an approach for automating large-scale code refactoring in .NET 9 using AI-driven codemods. The solution leverages AI-augmented Roslyn analyzers, static analysis, and AST manipulation to detect inefficiencies, improve thread safety, optimize LINQ queries, and migrate legacy APIs (e.g., WebClient to HttpClient). It outlines a pipeline from training AI models on code repositories to deploying automated migration pipelines. The future vision includes integrating large language models for complex refactoring patterns and real-time IDE suggestions, aiming to reduce technical debt and enhance maintainability.",
+  "author": "David Shergilashvili",
+  "publication_date": "",
+  "keywords": [
+    "AI-driven refactoring",
+    "Roslyn analyzers",
+    ".NET 9",
+    "code mods",
+    "automated migration"
+  ]
+}

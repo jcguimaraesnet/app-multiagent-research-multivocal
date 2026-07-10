@@ -1,0 +1,22 @@
+{
+  "title": "LK Losses: Direct Acceptance Rate Optimization for Speculative Decoding",
+  "link": "https://huggingface.co/papers/2602.23881",
+  "abstract": "Speculative decoding accelerates autoregressive large language model (LLM) inference by using a lightweight draft model to propose candidate tokens that are then verified in parallel by the target model. The speedup is significantly determined by the acceptance rate, yet standard training minimizes Kullback-Leibler (KL) divergence as a proxy objective. While KL divergence and acceptance rate share the same global optimum, small draft models, having limited capacity, typically converge to suboptimal solutions where minimizing KL does not guarantee maximizing acceptance rate. To address this issue, we propose LK losses, special training objectives that directly target acceptance rate. Comprehensive experiments across four draft architectures and six target models, ranging from 8B to 685B parameters, demonstrate consistent improvements in acceptance metrics across all configurations compared to the standard KL-based training. We evaluate our approach on general, coding and math domains and report gains of up to 8-10% in average acceptance length. LK losses are easy to implement, introduce no computational overhead and can be directly integrated into any existing speculator training framework, making them a compelling alternative to the existing draft training objectives.",
+  "authors": [
+    "Alexander Samarin",
+    "Sergei Krutikov",
+    "Anton Shevtsov",
+    "Sergei Skvortsov",
+    "Filipp Fisin",
+    "Alexander Golubev"
+  ],
+  "publication_date": "2026-02-27T10:20:11Z",
+  "pdf_link": "https://arxiv.org/pdf/2602.23881v2",
+  "keywords": [
+    "speculative decoding",
+    "draft model training",
+    "acceptance rate",
+    "LK losses",
+    "large language model inference"
+  ]
+}

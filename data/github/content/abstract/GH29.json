@@ -1,0 +1,14 @@
+{
+  "title": "Large Language Models for Software Engineering",
+  "link": "https://github.com/iSEngLab/AwesomeLLM4SE",
+  "summary": "This source is the GitHub repository 'AwesomeLLM4SE', which serves as a curated list and survey of academic works on applying Large Language Models (LLMs) to Software Engineering. It lists numerous papers categorized by software engineering activities such as requirements, development, testing, and maintenance, as well as by LLM architectures like decoder-only models. The repository appears to be based on the survey paper 'A Survey on Large Language Models for Software Engineering' by Quanjun Zhang et al. It includes references to many specific tools and solutions for coding tasks, including code generation, program repair, vulnerability detection, and test generation, but does not present a single novel solution itself.",
+  "author": "iSEngLab",
+  "publication_date": "",
+  "keywords": [
+    "Large Language Models",
+    "Software Engineering",
+    "Code LLMs",
+    "Survey",
+    "LLM4SE"
+  ]
+}

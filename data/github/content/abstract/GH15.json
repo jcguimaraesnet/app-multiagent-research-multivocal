@@ -1,0 +1,14 @@
+{
+  "title": "Vue",
+  "link": "https://github.com/orgs/vuejs",
+  "summary": "The content is the GitHub organization page for Vue.js, listing its open-source repositories. It includes the core Vue.js framework for building web user interfaces, along with official companion libraries and tools such as Vue Router, Pinia state management, VitePress static site generator, create-vue scaffolding tool, language tools for IDE support, test utilities, and ESLint configurations. This ecosystem provides a comprehensive solution for modern frontend software construction, from project creation and development to testing, debugging, and documentation.",
+  "author": "Vue.js",
+  "publication_date": "",
+  "keywords": [
+    "Vue.js",
+    "JavaScript framework",
+    "web UI",
+    "frontend tooling",
+    "open-source ecosystem"
+  ]
+}

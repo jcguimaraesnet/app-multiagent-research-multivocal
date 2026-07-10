@@ -1,0 +1,14 @@
+{
+  "title": "OWASP LLM Top 10: How it Applies to Code Generation",
+  "link": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation/",
+  "summary": "This article from SonarSource discusses how the OWASP Top 10 for Large Language Model Applications applies to AI code generation. It identifies five risks—prompt injection, insecure output handling, training data poisoning, sensitive information disclosure, and insecure plugin design—that intersect with code quality. The piece provides examples of exploits where AI-generated code introduces vulnerabilities and recommends mitigations including input validation, output sanitization, automated code reviews, and static analysis. The article also promotes SonarQube and SonarCloud as tools to detect insecure patterns in AI-generated code before production.",
+  "author": "SonarSource",
+  "publication_date": "",
+  "keywords": [
+    "OWASP LLM Top 10",
+    "code generation",
+    "prompt injection",
+    "static code analysis",
+    "AI security"
+  ]
+}

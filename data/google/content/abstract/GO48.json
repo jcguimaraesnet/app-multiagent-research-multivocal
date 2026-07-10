@@ -1,0 +1,14 @@
+{
+  "title": "How to effectively utilise AI to enhance large-scale refactoring",
+  "link": "https://www.atlassian.com/blog/development/how-to-effectively-utilise-ai-to-enhance-large-scale-refactoring",
+  "summary": "This blog post from Atlassian details a practical approach for using AI, specifically the Rovo Dev agent, to perform large-scale, automated refactoring of a frontend monorepo. The project focused on removing all Navigation (Nav4) feature flags and mocks across over 1,400 files, a task described as impossible for two developers to do manually. The presented solution outlines a repeatable workflow involving persistent AI context, discovery prompts to catalogue targets, package-level cleanup methods, and parallel execution in multiple environments. Key findings emphasized that AI can apply code patterns and analyze failures when given a thinking process, outperforming simple script generation, and that codified context and tight feedback loops are critical for safe, quality results. The outlined approach culminated in a robust automation pipeline that achieved a twofold increase in productivity.",
+  "author": "Yuchen Qiao",
+  "publication_date": "2025-12-04",
+  "keywords": [
+    "AI-assisted refactoring",
+    "Rovo Dev",
+    "feature flag cleanup",
+    "large-scale codebase",
+    "code transformation"
+  ]
+}

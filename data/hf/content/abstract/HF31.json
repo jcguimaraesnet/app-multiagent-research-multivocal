@@ -1,0 +1,24 @@
+{
+  "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
+  "link": "https://huggingface.co/papers/2410.14209",
+  "abstract": "In industrial control systems, the generation and verification of Programmable Logic Controller (PLC) code are critical for ensuring operational efficiency and safety. While Large Language Models (LLMs) have made strides in automated code generation, they often fall short in providing correctness guarantees and specialized support for PLC programming. To address these challenges, this paper introduces Agents4PLC, a novel framework that not only automates PLC code generation but also includes code-level verification through an LLM-based multi-agent system. We first establish a comprehensive benchmark for verifiable PLC code generation area, transitioning from natural language requirements to human-written-verified formal specifications and reference PLC code. We further enhance our `agents' specifically for industrial control systems by incorporating Retrieval-Augmented Generation (RAG), advanced prompt engineering techniques, and Chain-of-Thought strategies. Evaluation against the benchmark demonstrates that Agents4PLC significantly outperforms previous methods, achieving superior results across a series of increasingly rigorous metrics. This research not only addresses the critical challenges in PLC programming but also highlights the potential of our framework to generate verifiable code applicable to real-world industrial applications.",
+  "authors": [
+    "Zihan Liu",
+    "Ruinan Zeng",
+    "Dongxia Wang",
+    "Gengyun Peng",
+    "Jingyi Wang",
+    "Qiang Liu",
+    "Peiyu Liu",
+    "Wenhai Wang"
+  ],
+  "publication_date": "2024-10-18T06:51:13Z",
+  "pdf_link": "https://arxiv.org/pdf/2410.14209v2",
+  "keywords": [
+    "Agents4PLC",
+    "PLC code generation",
+    "code verification",
+    "multi-agent system",
+    "RAG"
+  ]
+}

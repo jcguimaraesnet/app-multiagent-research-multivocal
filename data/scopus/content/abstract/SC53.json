@@ -1,0 +1,14 @@
+{
+  "title": "Natural Language to Code for Automated Annotation in Autonomous Driving",
+  "link": "https://doi.org/10.1109/TSMC.2025.3648552",
+  "abstract": "The fast expansion of deep learning models has led to an increasing need for well-annotated datasets, while traditional manual annotation cannot meet this requirement. Current research on annotation mainly focuses on automating the annotation process. These studies typically rely on a set of predefined functionalities. However, in complex scenarios, for example, autonomous driving, annotation workflow, and postprocessing functions must be tailored to specific tasks. The challenge here lies in ensuring that newly generated functions integrate with the existing function set of the system, which requires the pipeline to understand the user requirement and real-time system context to generate appropriate input-output data structures. Previous annotation methods relied on human programming to meet this requirement. This dependency on professional assistance restricts the generalizability of annotation methods. Drawing on modern software engineering principles, we introduce an interactive code generation pipeline based on natural language input to address this challenge. Our approach supports real-time code generation by natural language input. To the best of our knowledge, this is one of the latest applications that apply customizable functional extensions in the annotation pipeline. Our evaluations on public datasets and a self-built real-world dataset demonstrate that our method significantly enhances the range of application scenarios for annotation tools while reducing manual intervention. Upon acceptance, the code will be open source. © 2013 IEEE.",
+  "keywords": [
+    "Automatic annotating",
+    "autonomous driving",
+    "multimodal data annotation",
+    "natural language to code generation"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Institute of Electrical and Electronics Engineers Inc."
+}

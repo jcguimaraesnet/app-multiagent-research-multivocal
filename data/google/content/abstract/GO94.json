@@ -1,0 +1,14 @@
+{
+  "title": "Core War: Adversarial Program Evolution",
+  "link": "https://www.emergentmind.com/topics/core-war",
+  "summary": "This source describes the 'Digital Red Queen' (DRQ) algorithm, a method for evolving adversarial programs within the Core War game. The framework utilizes a multi-round self-play loop where new champions are evolved using large language models (LLMs) for mutation and MAP-Elites for quality-diversity search to defeat a history of prior opponents. The empirical results show that this process leads to convergent evolution towards robust generalist strategies, moving beyond brittle specialization. The approach demonstrates an integration of LLMs and evolutionary algorithms for program synthesis in a Turing-complete adversarial environment.",
+  "author": "Kumar et al.",
+  "publication_date": "2026-01-06",
+  "keywords": [
+    "Core War",
+    "Digital Red Queen",
+    "MAP-Elites",
+    "adversarial program evolution",
+    "LLM mutation"
+  ]
+}

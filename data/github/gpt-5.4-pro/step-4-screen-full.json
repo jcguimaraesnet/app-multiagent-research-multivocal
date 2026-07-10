@@ -1,0 +1,3758 @@
+{
+  "origin": "github",
+  "step": 4,
+  "model": "",
+  "updated_at": "2026-07-10T04:54:14.644618+00:00",
+  "count": 39,
+  "by_status": {
+    "pending": 0,
+    "answered": 0,
+    "screened": 39
+  },
+  "included": 31,
+  "excluded": 8,
+  "records": [
+    {
+      "id": "GH6",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - sapritanand/Code-Generation-using-LLM: This project extracts Python code from the OpenAI Gym GitHub repository, creates a dataset of functions, and fine-tunes a code generation model (codegen-350M-mono) using Hugging Face Transformers to generate new code snippets.",
+        "link": "https://github.com/sapritanand/Code-Generation-using-LLM"
+      },
+      "answers": {
+        "solution_name": "Code-Generation-using-LLM",
+        "RQa": {
+          "note": "The source is a GitHub repository containing a project for code generation using large language models.",
+          "value": "Code repository",
+          "evidence": "github.com/sapritanand/Code-Generation-using-LLM"
+        },
+        "RQb": {
+          "note": "The project focuses on training an LLM for code generation, a specific domain.",
+          "value": "Domain or language-specific",
+          "evidence": "This project showcases the development of a code generation model using pre-trained Large Language Models (LLMs)."
+        },
+        "RQc": {
+          "note": "The repository is publicly available on GitHub, and no costs are mentioned.",
+          "value": "Open-source / free",
+          "evidence": "[Code-Generation-using-LLM](https://github.com/sapritanand/Code-Generation-using-LLM) Public"
+        },
+        "RQd": {
+          "note": "The solution requires fine-tuning a pre-trained model, which demands computational resources and a curated dataset, indicating technical limitations.",
+          "value": "Technical limitations",
+          "evidence": "Fine-tuning adapts a general-purpose LLM (e.g., GPT) to understand and generate high-quality code snippets for specific programming tasks."
+        },
+        "RQe": {
+          "note": "The project is described as a showcase for learning about fine-tuning, with no releases published, indicating an experimental phase.",
+          "value": "Experimental or beta phase",
+          "evidence": "This project showcases the development... The objective... is to leverage the existing capabilities of LLMs and fine-tune them..."
+        },
+        "RQf": {
+          "note": "The repository includes a README with installation and usage instructions.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "README.md"
+        },
+        "RQg": {
+          "note": "The solution is designed for building a code generation model, targeting developers who create such tools.",
+          "value": "Developers",
+          "evidence": "This project extracts Python code... fine-tunes a code generation model... to generate new code snippets."
+        },
+        "RQh": {
+          "note": "No case studies, user studies, or industrial collaboration are mentioned in the provided text.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The project focuses on fine-tuning LLMs for code generation, a software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution uses Generative AI (LLM fine-tuning) to perform code generation, a coding-phase activity.",
+            "type": "technique/solution",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository provides a practical implementation with a Jupyter notebook and instructions.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The code is runnable as a prototype, demonstrated through the provided notebook."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository commits are from 2025, falling within the 2021-2026 timeframe."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "All content is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The work is a primary implementation, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH7",
+      "status": "screened",
+      "data": {
+        "title": "Spec-driven development with AI: Get started with a new open source toolkit",
+        "link": "https://resources.github.com/increasing-collaborative-development-with-ai/"
+      },
+      "answers": {
+        "solution_name": "Spec Kit",
+        "RQa": {
+          "note": "The solution is described in a blog post on the GitHub blog.",
+          "value": "Blog / article",
+          "evidence": "https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/"
+        },
+        "RQb": {
+          "note": "The solution provides a general-purpose structured process for using coding agents to build software from specifications.",
+          "value": "General-purpose (GP)",
+          "evidence": "Spec Kit, our new open sourced toolkit for spec-driven development, provides a structured process to bring spec-driven development to your coding agent workflows with tools including GitHub Copilot, Claude Code, and Gemini CLI."
+        },
+        "RQc": {
+          "note": "The toolkit is described as open source, suggesting it is free to use.",
+          "value": "Open-source / free",
+          "evidence": "We open sourced it because this approach is bigger than any one tool or company."
+        },
+        "RQd": {
+          "note": "A key limitation is that coding agents, while powerful, require unambiguous instructions and are not good at inferring unstated requirements.",
+          "value": "Technical limitations",
+          "evidence": "We treat coding agents like search engines when we should be treating them more like literal-minded pair programmers. They excel at pattern recognition but still need unambiguous instructions."
+        },
+        "RQe": {
+          "note": "The creator describes Spec Kit as an experiment, indicating it is not yet a finalized, stable product.",
+          "value": "Experimental or beta phase",
+          "evidence": "Spec Kit is our experiment in making that transition real."
+        },
+        "RQf": {
+          "note": "The solution has a public GitHub repository which typically contains documentation, and the blog post encourages sharing experiences via GitHub issues, hinting at an issue tracker.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "Get started with Spec Kit > (https://github.com/github/spec-kit)"
+        },
+        "RQg": {
+          "note": "The solution is designed for developers who steer the coding agent and review its output.",
+          "value": "Developers",
+          "evidence": "you, the developer, review focused changes that solve specific problems"
+        },
+        "RQh": {
+          "note": "The source does not describe any formal collaboration with industry via case studies or large-scale user studies to validate the proposal.",
+          "value": "Unspecified",
+          "evidence": "And we’d love to hear how it works for you and what we can improve! If you’re building with spec-driven patterns, share your experience with us."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution, Spec Kit, is specifically designed for software engineering tasks like coding, feature work, and legacy modernization."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Spec Kit applies generative AI through coding agents to the software construction activity of coding based on specifications.",
+            "type": "tool",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The blog post is an empirical case describing the practical application and release of the Spec Kit toolkit with a link to the open-source repository.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The blog post announces the open-source release of the Spec Kit CLI, a usable prototype tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The blog post is dated September 2, 2025, which is within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a blog post announcing a toolkit, not a secondary or tertiary study like a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH8",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - zed-industries/zed: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+        "link": "https://github.com/zed-industries/zed"
+      },
+      "answers": {
+        "solution_name": "Zed",
+        "RQa": {
+          "note": "The solution is presented on a GitHub public repository page.",
+          "value": "Code repository",
+          "evidence": "zed-industries / zed Public"
+        },
+        "RQb": {
+          "note": "Zed is described as a high-performance, multiplayer code editor, making it a general-purpose tool for code editing.",
+          "value": "General-purpose (GP)",
+          "evidence": "Welcome to Zed, a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter."
+        },
+        "RQc": {
+          "note": "The repository's license is GPL-3.0, and it is publicly available, indicating an open-source / free access and usage model.",
+          "value": "Open-source / free",
+          "evidence": "Unknown, GPL-3.0 licenses found"
+        },
+        "RQd": {
+          "note": "The text indicates that support for other platforms like the web is not yet available, which is a technical limitation.",
+          "value": "Technical limitations",
+          "evidence": "Web (tracking discussion)"
+        },
+        "RQe": {
+          "note": "The solution has released version 1.10.1, indicating it is beyond an experimental phase and is production-ready.",
+          "value": "Production-ready",
+          "evidence": "v1.10.1 Latest 5 hours ago Jul 9, 2026"
+        },
+        "RQf": {
+          "note": "The GitHub page provides a README, links to documentation for building and contributing, and release tags; no dedicated forum or Discord/Slack communities are explicitly mentioned in the text.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers",
+            "Release notes"
+          ],
+          "evidence": "Readme; Docs/Tutorial/User Manual: See CONTRIBUTING.md for ways you can contribute to Zed. Forum: GitHub issue trackers: Release notes: "
+        },
+        "RQg": {
+          "note": "Zed is a code editor, so its target users are developers.",
+          "value": "Developers",
+          "evidence": "Welcome to Zed, a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter."
+        },
+        "RQh": {
+          "note": "The text does not mention any industrial case studies or user studies to validate the proposal.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source describes Zed, a high-performance, multiplayer code editor, which operates in the software engineering (coding) context."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The source describes a code editor but does not apply Generative AI to a software-construction activity; no GenAI features are mentioned.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The source is an open-source GitHub repository, which is a practical implementation, but it is not an empirical case of a specific GenAI solution applied in the field; it's a general code editor without GenAI description.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The source describes a usable code editor with released versions, but no GenAI solution is presented."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository shows active development in July 2026, which is within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a GitHub repository for a code editor, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH9",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - zai-org/CodeGeeX: CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)",
+        "link": "https://github.com/zai-org/CodeGeeX"
+      },
+      "answers": {
+        "solution_name": "CodeGeeX",
+        "RQa": {
+          "note": "The solution is hosted as a public GitHub repository containing model code, weights, and extensions.",
+          "value": "Code repository",
+          "evidence": "https://github.com/zai-org/CodeGeeX"
+        },
+        "RQb": {
+          "note": "CodeGeeX is a multilingual code generation model that can be used for general programming tasks like code completion, translation, and explanation across many languages.",
+          "value": "General-purpose (GP)",
+          "evidence": "CodeGeeX: A Multilingual Code Generation Model ... supports code completion, explanation, summarization and more"
+        },
+        "RQc": {
+          "note": "The code is open-source under Apache-2.0; model weights are publicly available for research; the VS Code and JetBrains extensions are free.",
+          "value": "Open-source / free",
+          "evidence": "All codes and model weights are publicly available for research purposes. ... CodeGeeX is available in the VS Code extension marketplace for free."
+        },
+        "RQd": {
+          "note": "The model weights are provided for research purposes only, which may impose legal restrictions on commercial use, and the separate MODEL_LICENSE applies.",
+          "value": "Legal and ethical concerns",
+          "evidence": "All codes and model weights are publicly available for research purposes. Our model is licensed under the license."
+        },
+        "RQe": {
+          "note": "CodeGeeX is a research model from an academic paper, and its primary outputs are for research; the extensions are experimental rather than enterprise-grade products.",
+          "value": "Experimental or beta phase",
+          "evidence": "CodeGeeX paper has been accepted by KDD 2023 ... We introduce CodeGeeX, a large-scale multilingual code generation model..."
+        },
+        "RQf": {
+          "note": "The repository includes a README with guidance and a VS Code extension manual; community channels include Discord, Slack, Telegram, and WeChat.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "Slack/Discord Community"
+          ],
+          "evidence": "Detailed instructions can be found in VS Code Extension Guidance. ... Join our Discord, Slack, Telegram, WeChat"
+        },
+        "RQg": {
+          "note": "The tool is aimed at programmers seeking code generation, completion, and translation assistance.",
+          "value": "Developers",
+          "evidence": "CodeGeeX ... supports code completion, explanation, summarization and more, which empower users with a better coding experience."
+        },
+        "RQh": {
+          "note": "The text describes benchmark comparisons with other models but does not mention industry collaborations or case studies.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution is a coding-assistance tool using generative AI for code generation, completion, and translation, clearly in the software engineering context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "CodeGeeX is a transformer-based language model that performs code generation, a core coding activity.",
+            "type": "language model",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository provides a working implementation of the model and extensions, rooted in a primary research study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "CodeGeeX is available as a downloadable model with inference scripts and free IDE extensions, making it a usable prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The solution was released in 2022 and the paper published in 2023, falling within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a primary research model and implementation, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH10",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - MiniMax-AI/MiniMax-M2.7",
+        "link": "https://github.com/MiniMax-AI/MiniMax-M2.7"
+      },
+      "answers": {
+        "solution_name": "MiniMax-M2.7",
+        "RQa": {
+          "note": "The text is a GitHub repository README that describes the MiniMax-M2.7 model, linking to external blog posts and documentation.",
+          "value": "Code repository",
+          "evidence": "This is the README file of a public GitHub repository (github.com/MiniMax-AI/MiniMax-M2.7) that provides an overview, links to docs, and deployment guides."
+        },
+        "RQb": {
+          "note": "M2.7 is a general-purpose large language model capable of professional software engineering, autonomous task completion, and multi-agent collaboration.",
+          "value": "General-purpose (GP)",
+          "evidence": "M2.7 delivers outstanding real-world programming capabilities... M2.7 is capable of building complex agent harnesses and completing highly elaborate productivity tasks."
+        },
+        "RQc": {
+          "note": "The model weights are publicly available under a license that includes permitted free uses; it can be deployed locally using open-source frameworks. The text mentions an API and token plan but does not detail pricing.",
+          "value": "Open-source / free",
+          "evidence": "Download the model from HuggingFace repository... We recommend using the following inference frameworks (listed alphabetically) to serve the model... LICENSE... Update LICENSE to include permitted free uses."
+        },
+        "RQd": {
+          "note": "The text does not explicitly discuss adoption limitations; it focuses on capabilities and deployment instructions.",
+          "value": "Technical limitations",
+          "evidence": ""
+        },
+        "RQe": {
+          "note": "The model is described as achieving strong results on multiple benchmarks and being used for tasks like reducing production incident recovery time, but the README does not explicitly label it production-ready or experimental.",
+          "value": "Production-ready",
+          "evidence": "Using M2.7, we have reduced live production incident recovery time to under three minutes on multiple occasions."
+        },
+        "RQf": {
+          "note": "The repository provides deployment and tool-calling guides (docs), links to Discord and WeChat communities, and is hosted on GitHub.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "Forum",
+            "Slack/Discord Community"
+          ],
+          "evidence": "Docs/Tutorial/User Manual: Guides like 'SGLang Deployment Guide', 'vLLM Deployment Guide', etc. 'Join Our 💬 WeChat | 🧩 Discord community.' GitHub repository but no explicit issue trackers mentioned."
+        },
+        "RQg": {
+          "note": "The solution is a model intended to assist with software engineering, productivity, and agent-based tasks, primarily targeting developers.",
+          "value": "Developers",
+          "evidence": "M2.7 delivers outstanding real-world programming capabilities spanning log analysis, bug troubleshooting, refactoring... Local Deployment Guide... Tool Calling Guide."
+        },
+        "RQh": {
+          "note": "The text reports benchmark results and claims of internal performance improvements but does not mention formal industry collaboration, case studies, or user studies for validation.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The model supports software engineering activities like coding, debugging, and refactoring."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies a large language model to coding and related software construction tasks.",
+            "type": "language model",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The source is a GitHub repository for a released model, representing an empirical case in gray literature.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The model is available for local deployment and API access, making it a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository was last updated in April 2026, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a model repository README, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH12",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - jupyterlab/jupyter-ai: An open source extension that connects AI agents to computational notebooks in JupyterLab.",
+        "link": "https://github.com/jupyterlab/jupyter-ai"
+      },
+      "answers": {
+        "solution_name": "Jupyter AI",
+        "RQa": {
+          "note": "The source is a GitHub repository containing code and documentation.",
+          "value": "Code repository",
+          "evidence": "Repository files navigation"
+        },
+        "RQb": {
+          "note": "Jupyter AI is a general-purpose AI agent extension for computational notebooks.",
+          "value": "General-purpose (GP)",
+          "evidence": "Jupyter AI brings agentic AI to JupyterLab."
+        },
+        "RQc": {
+          "note": "Jupyter AI is explicitly described as an open-source extension.",
+          "value": "Open-source / free",
+          "evidence": "An open source extension..."
+        },
+        "RQd": {
+          "note": "The solution addresses operational constraints like access control, but no specific technical limitations or legal concerns are detailed in the provided text.",
+          "value": "Operational constraints",
+          "evidence": "A permission system gives you guardrails over agent actions — agents request approval before writing files or executing commands."
+        },
+        "RQe": {
+          "note": "The project is under incubation, with stable releases like v3.0.1 but also beta releases like 3.1.0b0, indicating it is still evolving.",
+          "value": "Experimental or beta phase",
+          "evidence": "Jupyter AI is currently under incubation as part of the JupyterLab organization."
+        },
+        "RQf": {
+          "note": "The repository provides multiple user and developer guides, GitHub issue tracking, release notes, and other community resources.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers",
+            "Release notes"
+          ],
+          "evidence": "Quick Links - Getting Started — installation, agent setup, and first chat - User Guide — chat features, notebook tools, and custom MCP servers - Contributor Guide — how to contribute to Jupyter AI - Developer Guide — building custom agents and MCP servers - Troubleshooting — common issues and solutions"
+        },
+        "RQg": {
+          "note": "The target users are developers and data scientists who work with JupyterLab.",
+          "value": "Developers",
+          "evidence": "Developers can build and register their own AI personas using the entry points API."
+        },
+        "RQh": {
+          "note": "The text does not mention any collaboration with industry through case studies or user studies.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically an extension for JupyterLab computational notebooks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Generative AI agents to coding activities within Jupyter notebooks.",
+            "type": "extension",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository is for a specific software implementation with versioned releases.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents a deployed and installable extension (Jupyter AI) with stable releases."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The last commit and releases are from 2026, which is within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a GitHub repository for a software tool, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH14",
+      "status": "screened",
+      "data": {
+        "title": "DmitryNekrasov/ai-code-completion-idea-plugin",
+        "link": "https://github.com/DmitryNekrasov/ai-code-completion-idea-plugin"
+      },
+      "answers": {
+        "solution_name": "IntelliJ IDEA AI Code Completion Plugin",
+        "RQa": {
+          "note": "The solution is a code repository on GitHub, as indicated by the GitHub URL and repository structure.",
+          "value": "Code repository",
+          "evidence": "https://github.com/DmitryNekrasov/ai-code-completion-idea-plugin"
+        },
+        "RQb": {
+          "note": "The plugin enhances coding within an IDE by providing inline code completion suggestions, making it a general-purpose tool for developers.",
+          "value": "General-purpose (GP)",
+          "evidence": "The plugin is designed to enhance the coding experience within an IDE by providing inline code completion suggestions."
+        },
+        "RQc": {
+          "note": "The plugin is open-source under the MIT license and requires a local Ollama server, making it free to use.",
+          "value": "Open-source / free",
+          "evidence": "MIT license"
+        },
+        "RQd": {
+          "note": "The solution has technical limitations such as requiring a local Ollama server and a specific model (codellama:7b-code).",
+          "value": "Technical limitations",
+          "evidence": "Install local Ollama server. You need to go to the Ollama website, download and install Ollama for your operating system."
+        },
+        "RQe": {
+          "note": "The plugin has releases (v1.2.0) and is downloadable, suggesting it is production-ready.",
+          "value": "Production-ready",
+          "evidence": "[v1.2.0 Latest on Feb 9Feb 9, 2026]"
+        },
+        "RQf": {
+          "note": "The repository includes a README with documentation, and there are release notes and GitHub issue trackers available.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers",
+            "Release notes"
+          ],
+          "evidence": "For more information, you can review the documentation provided in the source code... [Releases 2] [v1.2.0 Latest on Feb 9Feb 9, 2026]"
+        },
+        "RQg": {
+          "note": "The plugin is targeted at developers using IntelliJ IDEA to improve coding efficiency.",
+          "value": "Developers",
+          "evidence": "The plugin is designed to enhance the coding experience within an IDE... thereby increasing developer productivity"
+        },
+        "RQh": {
+          "note": "The text does not mention any industrial case studies or large-scale user studies to validate the proposal.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The plugin operates inside IntelliJ IDEA to provide code completion for software developers."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies an LLM (CodeLlama) to generate inline code completions during coding.",
+            "type": "extension",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It is a publicly available open-source repository with downloadable releases.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It is a working plugin with versioned releases and a demo video."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The latest commit is from February 2026, and releases span 2024-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The repository README and documentation are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary software project, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH22",
+      "status": "screened",
+      "data": {
+        "title": "Type-Constrained Code Generation with Language Models",
+        "link": "https://github.com/eth-sri/type-constrained-code-generation"
+      },
+      "answers": {
+        "solution_name": "type-constrained-code-generation",
+        "RQa": {
+          "note": "The text is a GitHub repository page for the project.",
+          "value": "Code repository",
+          "evidence": "Code repository"
+        },
+        "RQb": {
+          "note": "The solution is specifically for constraining generation to type-safe TypeScript programs.",
+          "value": "Domain or language-specific",
+          "evidence": "This is an implementation of a completion engine that parses type safe programs incrementally... The completion enginge can be used to constrain the sampling from an LLM model to only type-safe programs. The implementation currently only handles TypeScript."
+        },
+        "RQc": {
+          "note": "The repository is publicly available under an MIT license, and there is no mention of fees.",
+          "value": "Open-source / free",
+          "evidence": "MIT license"
+        },
+        "RQd": {
+          "note": "The solution relies on a custom-built incremental parser rather than standard compilers or LSPs, which constitutes a technical requirement and limitation.",
+          "value": "Technical limitations",
+          "evidence": "These systems are designed to aid humans during development and not for reliable incremental parsing. As such, while LSPs and other systems are helpful and may be able to handle some partial programs, they usually do not guarantee being able to handle arbitrary partial programs... To reliably provide steering and constraints for all partial programs, we had to build our custom incremental parser."
+        },
+        "RQe": {
+          "note": "The tool is a reproduction package associated with a PLDI 2025 paper, indicating it is a research prototype rather than a commercial product.",
+          "value": "Experimental or beta phase",
+          "evidence": "[pldi25.sigplan.org/details/pldi-2025-papers/25/Type-Constrained-Code-Generation-with-Language-Models](https://pldi25.sigplan.org/details/pldi-2025-papers/25/Type-Constrained-Code-Generation-with-Language-Models)"
+        },
+        "RQf": {
+          "note": "The repository includes a README with detailed setup and usage instructions, and contains tests and code. No other community support channels are mentioned in the given text.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "README.md, tests, experiments, typesafe_llm, ts_parser, LICENSE, Tags"
+        },
+        "RQg": {
+          "note": "The intended user interacts with the tool via Python code examples for generation and parsing tasks.",
+          "value": "Developers",
+          "evidence": "from typesafe_llm.sampling import sample_constrained"
+        },
+        "RQh": {
+          "note": "The experiments are described for the purpose of reproducing results from the paper, with no mention of industry collaboration.",
+          "value": "Unspecified",
+          "evidence": "Experiments cover several models and benchmarks, but the text does not specify collaboration with an industry partner."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The tool focuses on type-constrained code generation for TypeScript, clearly operating in the software engineering context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution applies LLM sampling with a custom parser to constrain generation, supporting coding-phase activities like code synthesis, translation, and repair.",
+            "type": "technique/solution",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository provides a complete implementation with experiments from a primary research paper, qualifying as a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The package is installable and usable via Python, as shown in the programmatic usage examples."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository contains commits from 2025-2026 and the associated paper is from PLDI 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The entire text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a primary study and implementation, not a review or survey."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH24",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - VichyTong/CodeJudge: [EMNLP 2024] CodeJudge: Evaluating Code Generation with Large Language Models",
+        "link": "https://github.com/VichyTong/CodeJudge"
+      },
+      "answers": {
+        "solution_name": "CodeJudge",
+        "RQa": {
+          "note": "The source is a GitHub repository.",
+          "value": "Code repository",
+          "evidence": "Repository files navigation"
+        },
+        "RQb": {
+          "note": "CodeJudge is a framework for evaluating the semantic correctness of generated code using LLMs, making it domain-specific to code evaluation.",
+          "value": "Domain or language-specific",
+          "evidence": "CodeJudge is a code evaluation framework that leverages LLMs to evaluate the semantic correctness of generated code without the need of test cases."
+        },
+        "RQc": {
+          "note": "The repository is open-source under the Apache-2.0 license and is freely available.",
+          "value": "Open-source / free",
+          "evidence": "Apache-2.0 license"
+        },
+        "RQd": {
+          "note": "No explicit limitations are discussed, but the solution likely has inherent technical limitations as a research prototype using LLMs.",
+          "value": "Technical limitations",
+          "evidence": ""
+        },
+        "RQe": {
+          "note": "The solution is from a research paper (EMNLP 2024) and has no published releases, indicating experimental phase.",
+          "value": "Experimental or beta phase",
+          "evidence": "No releases published"
+        },
+        "RQf": {
+          "note": "The repository includes a comprehensive README with setup and usage instructions, serving as documentation. No other support channels are explicitly mentioned.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "## 🛠️ Requirements and Installation"
+        },
+        "RQg": {
+          "note": "The framework is intended for integration into LLM-based code generation systems, targeting developers building such systems.",
+          "value": "Developers",
+          "evidence": "CodeJudge is an off-the-shelf evaluation framework that can be easily integrated into new LLM-based code generation systems."
+        },
+        "RQh": {
+          "note": "There is no mention of industrial case studies or large-scale user studies; only acknowledgment of data sharing from JetBrains Research.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "CodeJudge is a framework for evaluating generated code, which operates in the software engineering context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies LLMs to evaluate semantic correctness of generated code without test cases.",
+            "type": "tool",
+            "software_engineering_activity": "code evaluation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The source is a GitHub repository with source code and a published EMNLP paper, representing a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The repository provides a usable framework with installation and run scripts."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper was published in EMNLP 2024, which is between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The entire content is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study proposing a framework, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH25",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - FlightVin/automated-refactoring: LLM based workflow that opens pull requests based on detected design smells",
+        "link": "https://github.com/FlightVin/automated-refactoring"
+      },
+      "answers": {
+        "solution_name": "Automated Refactoring Pipeline",
+        "RQa": {
+          "note": "The solution is hosted as a public repository on GitHub.",
+          "value": "Code repository",
+          "evidence": "[FlightVin](https://github.com/FlightVin)/ **[automated-refactoring](https://github.com/FlightVin/automated-refactoring)** Public"
+        },
+        "RQb": {
+          "note": "The pipeline automates code refactoring and pull request generation based on design smell detection, which is task automation.",
+          "value": "Automation (AU)",
+          "evidence": "LLM based workflow that opens pull requests based on detected design smells"
+        },
+        "RQc": {
+          "note": "The repository is public and open-source; no pricing is mentioned.",
+          "value": "Open-source / free",
+          "evidence": "Public repository on GitHub"
+        },
+        "RQd": {
+          "note": "The text mentions ensuring refactoring preserves functionality, a technical robustness requirement. No operational or legal constraints are highlighted.",
+          "value": "Technical limitations",
+          "evidence": "Ensure that the refactoring process is robust, preserving the functionality of the code while enhancing its design."
+        },
+        "RQe": {
+          "note": "A TODO list with completed items suggests the solution is still in development, not production-ready.",
+          "value": "Experimental or beta phase",
+          "evidence": "TODO list with items marked done such as 'Get basic GitHub stuff like pull requests working' and 'Write code for actually refactoring the code based on the smells suggested.'"
+        },
+        "RQf": {
+          "note": "The repository includes a README with documentation and GitHub commits serve as release/change notes. No forum, issue tracker, or chat community is mentioned.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "Release notes"
+          ],
+          "evidence": "README.md exists; commit history shows changes (release notes)."
+        },
+        "RQg": {
+          "note": "The pipeline is a tool for code refactoring and pull request generation, targeting software developers.",
+          "value": "Developers",
+          "evidence": "Automated Refactoring Pipeline... opens pull requests based on detected design smells, and uses LLMs to refactor code."
+        },
+        "RQh": {
+          "note": "The text does not describe any industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution is an automated refactoring pipeline that operates in the software engineering context of code improvement."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The pipeline uses LLMs to detect design smells and generate refactored code, fitting a coding-phase activity.",
+            "type": "tool",
+            "software_engineering_activity": "refactoring"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The source is a public GitHub repository with implemented code, representing an empirical case of the solution.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The repository provides a usable prototype with scripts and a pipeline that can be run."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The last commit was in February 2024, within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The repository and its documentation are written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is not a secondary or tertiary study; it is a primary tool implementation."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH26",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - camilochs/pydaybcn2025-workshop-code-evolution: Code Evolution: Self-Improving Software with LLMs and Python.",
+        "link": "https://github.com/camilochs/pydaybcn2025-workshop-code-evolution"
+      },
+      "answers": {
+        "solution_name": "Code Evolution Workshop",
+        "RQa": {
+          "note": "The solution is presented as a GitHub repository containing workshop materials.",
+          "value": "Code repository",
+          "evidence": "camilochs / pydaybcn2025-workshop-code-evolution Public"
+        },
+        "RQb": {
+          "note": "The workshop explores self-improving software that fixes bugs, evolves solutions, and creates new capabilities, indicating a general-purpose approach.",
+          "value": "General-purpose (GP)",
+          "evidence": "What if your code could fix its own bugs, evolve better solutions, and create new capabilities on demand?"
+        },
+        "RQc": {
+          "note": "The repository is openly available under the MIT license, allowing free use and adaptation.",
+          "value": "Open-source / free",
+          "evidence": "MIT License - Feel free to use and adapt for your own workshops."
+        },
+        "RQd": {
+          "note": "The demos rely on exec() and dynamic code generation, requiring sandboxing and validation, which are technical limitations.",
+          "value": "Technical limitations",
+          "evidence": "These demos use exec() and dynamic code generation. In production: - Sandbox all LLM-generated code (containers, VMs)"
+        },
+        "RQe": {
+          "note": "The solution is a workshop for a conference, consisting of educational demos, not a production-ready product.",
+          "value": "Experimental or beta phase",
+          "evidence": "Workshop for PyDay Barcelona 2025"
+        },
+        "RQf": {
+          "note": "The repository provides a README with setup instructions and Jupyter notebooks that serve as documentation and tutorials.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "README.md                    # This file\n    demo_01_self_reparation.ipynb    # Bug fixing feedback loop"
+        },
+        "RQg": {
+          "note": "The workshop requires basic Python knowledge and API familiarity, targeting developers.",
+          "value": "Developers",
+          "evidence": "Requirements: Basic Python knowledge, familiarity with APIs"
+        },
+        "RQh": {
+          "note": "The text does not mention any industrial case studies or large-scale user studies to validate the proposal.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The workshop focuses on software that writes, fixes, and improves code, clearly in software engineering context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses LLMs for code self-reparation, evolution, and tool creation, which are coding activities.",
+            "type": "technique/solution",
+            "software_engineering_activity": "code generation and self-improvement"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository provides Jupyter notebooks with runnable code, making it a practical implementation.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The notebooks are functional and can be used in Google Colab, constituting a usable prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in 2025 for PyDay Barcelona 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The README and notebooks are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a workshop repository, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH27",
+      "status": "screened",
+      "data": {
+        "title": "Genentech/opentreesearch: LLM-Guided Code Evolution",
+        "link": "https://github.com/Genentech/opentreesearch"
+      },
+      "answers": {
+        "solution_name": "Open Tree Search",
+        "RQa": {
+          "note": "The solution is presented as a public GitHub code repository.",
+          "value": "Code repository",
+          "evidence": "https://github.com/Genentech/opentreesearch"
+        },
+        "RQb": {
+          "note": "Open Tree Search is a PUCT-based tree search algorithm for LLM-guided code evolution, applicable to general programming tasks like function optimization and algorithm discovery.",
+          "value": "General-purpose (GP)",
+          "evidence": "Open Tree Search is a PUCT-based tree search algorithm for LLM-guided code evolution"
+        },
+        "RQc": {
+          "note": "The repository is public on GitHub, licensed under Apache-2.0, and can be run with a free Gemini API tier. There are no mentions of paid components.",
+          "value": "Open-source / free",
+          "evidence": "Apache-2.0 license... The free Gemini tier works for the examples"
+        },
+        "RQd": {
+          "note": "The code is released as-is for research purposes without guarantees of maintenance or updates, which indicates operational constraints.",
+          "value": "Operational constraints",
+          "evidence": "This code is released as-is for research purposes, and should not be considered as a Genentech product. We do not guarantee that this code will be maintained or updated in the future."
+        },
+        "RQe": {
+          "note": "It is an initial public release (v0.1.0) intended for research, not described as production-ready.",
+          "value": "Experimental or beta phase",
+          "evidence": "Release v0.1.0 ... This code is released as-is for research purposes"
+        },
+        "RQf": {
+          "note": "The README includes installation, configuration, and usage examples. Issues and PRs are typical GitHub features. No forum, Slack/Discord, or dedicated release notes (beyond git history) are mentioned.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "README provides installation, configuration, examples; GitHub repository has Issues and Pull Requests tabs."
+        },
+        "RQg": {
+          "note": "The target users are developers who write and evolve code using LLMs.",
+          "value": "Developers",
+          "evidence": "LLM-Guided Code Evolution"
+        },
+        "RQh": {
+          "note": "The text compares results to AlphaEvolve and OpenEvolve on toy and benchmark examples, but does not mention industrial case studies or user studies.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution operates in software engineering, specifically evolving code."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies LLMs to code evolution, a software-construction activity, and is a tool.",
+            "type": "tool",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical tool with released code, making it an empirical case.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents a usable tool released as Python code."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The commit dates show publication in 2025 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The content is entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It describes a tool implementation, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH30",
+      "status": "screened",
+      "data": {
+        "title": "Refact.ai",
+        "link": "https://github.com/smallcloudai"
+      },
+      "answers": {
+        "solution_name": "Refact.ai",
+        "RQa": {
+          "note": "The solution is hosted on GitHub as an open-source repository.",
+          "value": "Code repository",
+          "evidence": "Refact.ai - #1 open-source AI Agent in SWE-bench Verified"
+        },
+        "RQb": {
+          "note": "It is a general-purpose coding assistant that supports multiple programming languages and engineering tasks.",
+          "value": "General-purpose (GP)",
+          "evidence": "Refact - Open-Source AI Agent, Code Generator & Chat for JavaScript, Python, TypeScript, Java, PHP, Go, and more."
+        },
+        "RQc": {
+          "note": "The solution is explicitly described as open-source and free.",
+          "value": "Open-source / free",
+          "evidence": "Refact.ai - #1 open-source AI Agent"
+        },
+        "RQd": {
+          "note": "The text does not mention any specific limitations.",
+          "value": "Technical limitations",
+          "evidence": ""
+        },
+        "RQe": {
+          "note": "The solution is described as handling engineering tasks end-to-end and is verified on SWE-bench, suggesting production readiness.",
+          "value": "Production-ready",
+          "evidence": "handles engineering tasks end to end: integrates with developers’ tools, plans, executes, and iterates until it achieves a successful result."
+        },
+        "RQf": {
+          "note": "Documentation, a Discord community, and GitHub issue trackers are available.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "Slack/Discord Community",
+            "GitHub issue trackers"
+          ],
+          "evidence": "Refact.ai Docs 📚: Access comprehensive guidance on features and functionalities. Join Our Community 🤝: Connect with fellow developers. 1 issue"
+        },
+        "RQg": {
+          "note": "The solution is aimed at developers, with integrations into developer tools like VS Code and JetBrains.",
+          "value": "Developers",
+          "evidence": "integrates with developers’ tools"
+        },
+        "RQh": {
+          "note": "No industrial case studies or large-scale user studies are mentioned; it only references the SWE-bench benchmark.",
+          "value": "Unspecified",
+          "evidence": "SWE-bench Verified"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Refact.ai is an AI coding assistant that operates in software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Generative AI to coding tasks such as code generation, refactoring, and autocompletion.",
+            "type": "agent",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It presents a practical implementation with open-source repositories and IDE plugins.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The solution is a deployed tool with VS Code and JetBrains plugins and an open-source repository."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository shows activity in 2025 and 2026, placing it within 2021–2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It describes a primary tool (Refact.ai) and provides repositories, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH31",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - algorithmicsuperintelligence/openevolve: Open-source implementation of AlphaEvolve",
+        "link": "https://github.com/algorithmicsuperintelligence/openevolve"
+      },
+      "answers": {
+        "solution_name": "OpenEvolve",
+        "RQa": {
+          "note": "The source is a GitHub repository page for the OpenEvolve project.",
+          "value": "Code repository",
+          "evidence": "https://github.com/algorithmicsuperintelligence/openevolve"
+        },
+        "RQb": {
+          "note": "The tool is described as a general-purpose code optimization and algorithm discovery agent, applicable to many domains.",
+          "value": "General-purpose (GP)",
+          "evidence": "The most advanced open-source evolutionary coding agent"
+        },
+        "RQc": {
+          "note": "The tool is open-source (Apache-2.0 license) and freely available to install and use, though LLM API costs may apply.",
+          "value": "Open-source / free",
+          "evidence": "pip install openevolve"
+        },
+        "RQd": {
+          "note": "The README discusses technical limitations such as the risk of evolution stagnation and provides mitigation strategies; operational constraints like LLM costs are also mentioned but the primary limitation focus is technical.",
+          "value": "Technical limitations",
+          "evidence": "What if evolution gets stuck?"
+        },
+        "RQe": {
+          "note": "The version is 0.3.0 with a roadmap of upcoming features and research directions, indicating it is still in development and not yet production-ready.",
+          "value": "Experimental or beta phase",
+          "evidence": "v0.3.0 Latest"
+        },
+        "RQf": {
+          "note": "The repository provides a README with tutorials, examples, and configuration guides; GitHub Discussions for community; issues for bug tracking; and a releases page for version history.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "Forum",
+            "GitHub issue trackers",
+            "Release notes"
+          ],
+          "evidence": "Discussions, issues, releases, README documentation"
+        },
+        "RQg": {
+          "note": "The tool is aimed at developers and researchers who need to optimize or discover algorithms, not specifically DevOps, QA, or testers.",
+          "value": "Developers",
+          "evidence": "Perfect For: Performance Optimization, Algorithm Discovery, Scientific Computing, Competitive Programming"
+        },
+        "RQh": {
+          "note": "The text does not mention any industrial case studies or large-scale user studies; the examples are provided by the project itself.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source describes OpenEvolve as an evolutionary coding agent for software construction tasks like code optimization and algorithm discovery."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "OpenEvolve uses LLMs to evolve and improve code, applying generative AI to the software construction activity of coding.",
+            "type": "agent",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The source is a GitHub repository providing practical code, configuration, and examples, representing a gray literature empirical case.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The repository contains a usable tool installable via pip with version 0.3.0 and runnable examples."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository was created and active between 2025 and 2026, within the required 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The entire text is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a primary tool implementation, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH33",
+      "status": "screened",
+      "data": {
+        "title": "ahyatt/llm: A package abstracting llm capabilities for emacs.",
+        "link": "https://github.com/ahyatt/llm"
+      },
+      "answers": {
+        "solution_name": "llm",
+        "RQa": {
+          "note": "The solution is hosted on GitHub as a public code repository.",
+          "value": "Code repository",
+          "evidence": "https://github.com/ahyatt/llm"
+        },
+        "RQb": {
+          "note": "The solution is a library providing a generic interface to multiple LLM providers, not specific to a single domain or language.",
+          "value": "General-purpose (GP)",
+          "evidence": "This library provides an interface for interacting with Large Language Models (LLMs). It allows elisp code to use LLMs while also giving end-users the choice to select their preferred LLM."
+        },
+        "RQc": {
+          "note": "The repository is publicly available under the GPL-3.0 license, indicating it is open source and free.",
+          "value": "Open-source / free",
+          "evidence": "[GPL-3.0 license](https://github.com/ahyatt/llm#GPL-3.0-1-ov-file)"
+        },
+        "RQd": {
+          "note": "The solution's functionality is limited by the capabilities of the underlying LLM providers, and not all features are universally supported.",
+          "value": "Technical limitations",
+          "evidence": "Certain functionalities might not be available in some LLMs. Any such unsupported functionality will raise a 'not-implemented signal, or it may fail in some other way."
+        },
+        "RQe": {
+          "note": "The project has a well-established release history with 52 releases and version 0.31.1, indicating it is in active use but pre-1.0, thus considered beta.",
+          "value": "Experimental or beta phase",
+          "evidence": "[Releases   52](https://github.com/ahyatt/llm/releases) ... [Fix audio support, Open AI compat names, JSON responses for unsupported models Latest 2 weeks agoJun 24, 2026](https://github.com/ahyatt/llm/releases/tag/0.31.1)"
+        },
+        "RQf": {
+          "note": "The repository has a comprehensive README file serving as documentation and shows active commit history.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "README.org ... 480 Commits"
+        },
+        "RQg": {
+          "note": "The solution is a library for use by other client application developers to integrate LLM capabilities into their Emacs packages.",
+          "value": "Developers",
+          "evidence": "Client applications should require the llm package, and code against it. ... end-users the choice to select their preferred LLM."
+        },
+        "RQh": {
+          "note": "The text lists packages that use the library as examples but does not describe any formal industrial case studies or large-scale user studies to validate the proposal.",
+          "value": "Unspecified",
+          "evidence": "There a few packages using LLM (please inform us or open a PR to add anything here) ..."
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC2",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The solution is a generic interface library for interacting with large language models, not specifically a tool for software construction (coding) activities."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The library provides generic LLM capabilities (chat, embeddings) and does not target a specific software construction activity like coding, testing, or debugging.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It is a practical implementation of an LLM interface library used by other packages, with a public repository and active development.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The solution is a usable library deployed as an Emacs package with multiple releases."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The last commit date is July 9, 2026, and the initial commit was in 2023, both within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The text is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a primary project repository, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH35",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - darrenhinde/OpenAgentsControl: AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
+        "link": "https://github.com/darrenhinde/OpenAgentsControl"
+      },
+      "answers": {
+        "solution_name": "OpenAgentsControl",
+        "RQa": {
+          "note": "The source text is a GitHub repository page for OpenAgentsControl.",
+          "value": "Code repository",
+          "evidence": "[darrenhinde](/darrenhinde)/ **[OpenAgentsControl](https://github.com/darrenhinde/OpenAgentsControl)** Public"
+        },
+        "RQb": {
+          "note": "OpenAgentsControl is a workflow scaffold for AI-powered coding agents, so it is a general-purpose solution for adding context and automation to coding workflows.",
+          "value": "General-purpose (GP)",
+          "evidence": "Give your AI agent system superpowers. A complete dev workflow scaffold for AI-powered coding agents — adds intelligent context, structured subagents, and automated workflows to OpenCode."
+        },
+        "RQc": {
+          "note": "The repository is public on GitHub, which typically indicates open-source, free access.",
+          "value": "Open-source / free",
+          "evidence": "Open-source / free"
+        },
+        "RQd": {
+          "note": "The Claude Code plugin is described as 'Production ready', suggesting technical maturity.",
+          "value": "Technical limitations",
+          "evidence": "Status: Production ready (Grade: A-)"
+        },
+        "RQe": {
+          "note": "The solution is described as 'BETA' and ready for testing.",
+          "value": "Experimental or beta phase",
+          "evidence": "Status: Experimental or beta phase"
+        },
+        "RQf": {
+          "note": "The repository includes a CHANGELOG.md and pull request references, indicating release notes and issue tracking are present.",
+          "value": [
+            "Release notes",
+            "GitHub issue trackers"
+          ],
+          "evidence": "Release notes, GitHub issue trackers"
+        },
+        "RQg": {
+          "note": "The solution aims to help developers by providing context and automation for AI coding agents.",
+          "value": "Developers",
+          "evidence": "Developers"
+        },
+        "RQh": {
+          "note": "The text describes a plugin and discusses 'market opportunity' and 'user personas' but does not mention formal industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "Unspecified"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution provides AI-powered coding agents, context, and automation for software development."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Applies Generative AI via LLM-powered coding agents for coding, testing, and code review.",
+            "type": "tool",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It is a implemented prototype with a public repository, CI/CD, and a published plugin.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It is a functional tool with a CLI, install script, and a Claude Code plugin."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Commits and releases are dated between January and March 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The page and README are entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It describes a tool and plugin implementation, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH36",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal",
+        "link": "https://github.com/openai/codex"
+      },
+      "answers": {
+        "solution_name": "Codex CLI",
+        "RQa": {
+          "note": "The solution is hosted as a public repository on GitHub, along with documentation and contribution guidelines.",
+          "value": "Code repository",
+          "evidence": "This repository is licensed under the Apache-2.0 License."
+        },
+        "RQb": {
+          "note": "The solution is a general-purpose coding agent that runs locally in the terminal, assisting with various coding tasks.",
+          "value": "General-purpose (GP)",
+          "evidence": "Codex CLI is a coding agent from OpenAI that runs locally on your computer."
+        },
+        "RQc": {
+          "note": "The tool is open-source under the Apache-2.0 License, making it free to use, though it offers integration with paid ChatGPT plans for additional features.",
+          "value": "Open-source / free",
+          "evidence": "This repository is licensed under the Apache-2.0 License."
+        },
+        "RQd": {
+          "note": "The text does not explicitly state any limitations for adopting this solution.",
+          "value": "Technical limitations",
+          "evidence": ""
+        },
+        "RQe": {
+          "note": "The solution has a high volume of releases and active development activity, indicating it is production-ready.",
+          "value": "Production-ready",
+          "evidence": "Releases 903"
+        },
+        "RQf": {
+          "note": "The repository includes a Docs section with links to documentation, contributing, and install/build guides. GitHub issue trackers are inherent to the platform but not explicitly mentioned in this text.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "- Codex Documentation\n- Contributing\n- Installing & building"
+        },
+        "RQg": {
+          "note": "The tool is designed as a coding agent for general use, targeting developers who write code.",
+          "value": "Developers",
+          "evidence": "Codex CLI is a coding agent from OpenAI that runs locally on your computer."
+        },
+        "RQh": {
+          "note": "The provided text does not mention any industrial or large-scale user studies to validate the proposal.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source describes Codex CLI, a coding agent for software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies generative AI methods as an agent for coding tasks.",
+            "type": "agent",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It is a primary study with an implemented repository and releases.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The solution is a usable CLI tool with installation instructions and binary releases."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The initial commit and ongoing development are between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH38",
+      "status": "screened",
+      "data": {
+        "title": "gsantopaolo/reforge-ai: Agentic-AI app modernization tool",
+        "link": "https://github.com/gsantopaolo/reforge-ai"
+      },
+      "answers": {
+        "solution_name": "ReforgeAI",
+        "RQa": {
+          "note": "The solution is hosted on GitHub as a public repository.",
+          "value": "Code repository",
+          "evidence": "gsantopaolo / reforge-ai Public"
+        },
+        "RQb": {
+          "note": "The solution is specifically designed for modernizing legacy Java codebases, making it domain or language-specific.",
+          "value": "Domain or language-specific",
+          "evidence": "ReforgeAI is an agentic AI system designed to modernize legacy Java codebases."
+        },
+        "RQc": {
+          "note": "The repository includes a license file and is publicly accessible, suggesting an open-source model. No pricing information is mentioned.",
+          "value": "Open-source / free",
+          "evidence": "license.txt"
+        },
+        "RQd": {
+          "note": "The README lists several technical challenges, including inconsistent model outputs, hallucinations, and tool errors.",
+          "value": "Technical limitations",
+          "evidence": "Inconsistent Model Outputs: Running gen_docs.py multiple times may yield different results... Build Agent Hallucinations: Simulated build logs can be inaccurate... Agent Tools Errors: Sometimes the LLm refuses to read docs..."
+        },
+        "RQe": {
+          "note": "The 'Next Steps' section lists planned improvements and known issues, indicating the solution is still under development and not yet production-ready.",
+          "value": "Experimental or beta phase",
+          "evidence": "Next Steps: Implement better path guardrails... Explore upgrading to Gemini 2.5 Pro & Claude 3.7... Enhance agent monitoring..."
+        },
+        "RQf": {
+          "note": "The repository includes a 'docs' folder and a detailed readme. GitHub's built-in issue tracker is available, though not explicitly mentioned as actively used in the text.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "Repository files navigation (docs, readme.md); Known Issues & Troubleshooting; GitHub issues tab available"
+        },
+        "RQg": {
+          "note": "The system is designed for use by human reviewers and developers involved in the code modernization process.",
+          "value": "Developers",
+          "evidence": "Human Feedback Integration: Allows reviewers to approve plans and transformations... Human reviewers validate or adjust the plan."
+        },
+        "RQh": {
+          "note": "The text contains no mention of industrial case studies or large-scale user studies to validate the proposal.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The tool modernizes legacy Java codebases, operating clearly in the software construction domain."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses LLMs ('openai' library) for automated code refactoring and migration tasks.",
+            "type": "agent",
+            "software_engineering_activity": "code modernization"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository provides a practical implementation as a GitHub repository with source code, fitting the 'empirical case' type for gray literature.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents a usable, runnable agentic AI system with installation and usage instructions."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The latest commit is from May 28, 2025, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The text is entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a GitHub repository for a tool, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH39",
+      "status": "screened",
+      "data": {
+        "title": "codescene-oss/pr-refactoring-agent",
+        "link": "https://github.com/codescene-oss/pr-refactoring-agent"
+      },
+      "answers": {
+        "solution_name": "CodeScene PR Refactoring Agent",
+        "RQa": {
+          "note": "The solution is distributed as a GitHub Action available in the GitHub Marketplace and a public GitHub repository.",
+          "value": "Code repository",
+          "evidence": "Use this GitHub action with your project"
+        },
+        "RQb": {
+          "note": "The solution is a specialized automation tool that refactors code based on CodeScene's Code Health metrics, triggered via pull request comments.",
+          "value": "Automation (AU)",
+          "evidence": "A GitHub Action that enables CodeScene's PR Refactoring Agent so reviewers can trigger Code Health-guided refactoring directly from pull requests."
+        },
+        "RQc": {
+          "note": "The repository is public and contains a LICENSE file, but the access and cost model beyond the source code being viewable is not explicitly stated in the provided text.",
+          "value": "Unspecified",
+          "evidence": "View license"
+        },
+        "RQd": {
+          "note": "Adoption is limited by operational constraints such as token expiration and the lack of official headless CI support for GitHub Copilot models.",
+          "value": "Operational constraints",
+          "evidence": "Tokens can expire. OAuth access tokens are short-lived; the refresh token is used to obtain new ones. If the agent stops authenticating, re-run opencode auth login locally and update the OPENCODE_AUTH_JSON secret."
+        },
+        "RQe": {
+          "note": "The solution has multiple versioned releases (latest v1.0.8) and is available in the GitHub Marketplace, indicating production readiness.",
+          "value": "Production-ready",
+          "evidence": "Releases 6. v1.0.8 Latest 2 days ago"
+        },
+        "RQf": {
+          "note": "The repository includes a README with documentation and examples, links to external documentation, a GitHub Issues tracker, and a releases page.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers",
+            "Release notes"
+          ],
+          "evidence": "GitHub Issues; Documentation; Releases 6; README.md; Available Skills; Inputs; Example Workflows; Platform Support; How It Works"
+        },
+        "RQg": {
+          "note": "The primary target users are developers and reviewers who interact with pull requests and are concerned with code health.",
+          "value": "Developers",
+          "evidence": "This agent lets reviewers trigger guided refactoring and code-health workflows from a pull request comment."
+        },
+        "RQh": {
+          "note": "The provided text does not mention any industrial case studies or large-scale user studies performed to validate the solution.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution operates in software engineering, specifically software construction (coding), analyzing code health and applying refactoring."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Generative AI (LLMs like Claude Sonnet) for the code refactoring activity.",
+            "type": "agent",
+            "software_engineering_activity": "refactoring"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The source is a GitHub repository describing a deployed GitHub Action, representing a practical implementation.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It is a usable, released GitHub Action (v1.0.8) that automatically refactors code."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository shows commits and releases in 2026, which is within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is written entirely in English, so the exclusion does not apply."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a GitHub Action tool, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH41",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - sammcj/llm-templates: My LLM Templates (Ollama Modelfiles & Tabby Templates + Presets)",
+        "link": "https://github.com/sammcj/llm-templates"
+      },
+      "answers": {
+        "solution_name": "llm-templates",
+        "RQa": {
+          "note": "The solution is hosted as a public GitHub repository.",
+          "value": "Code repository",
+          "evidence": "sammcj / llm-templates Public"
+        },
+        "RQb": {
+          "note": "The repository provides templates for configuring LLMs across various models, making it general-purpose.",
+          "value": "General-purpose (GP)",
+          "evidence": "My LLM Templates (Ollama Modelfiles & Tabby Templates + Presets)"
+        },
+        "RQc": {
+          "note": "The repository is publicly accessible on GitHub with no indication of cost, implying it is free and open-source.",
+          "value": "Open-source / free",
+          "evidence": "sammcj / llm-templates Public"
+        },
+        "RQd": {
+          "note": "The templates are not automatically updated and the author provides no support, posing operational constraints.",
+          "value": "Operational constraints",
+          "evidence": "Note: These aren't automatically updated when I make changes locally, so may become out of date from time to time. I don't provide support for these modelfiles/templates"
+        },
+        "RQe": {
+          "note": "The project is a personal collection with limited maintenance and no support, indicating experimental maturity.",
+          "value": "Experimental or beta phase",
+          "evidence": "I don't provide support for these modelfiles/templates"
+        },
+        "RQf": {
+          "note": "The repository includes a README file with basic documentation; no forums, issue trackers, or communities are mentioned.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "README.md - My LLM Templates (Ollama Modelfiles & Tabby Templates + Presets)"
+        },
+        "RQg": {
+          "note": "The templates are intended for users of Ollama and TabbyAPI, which are tools for developers working with LLMs.",
+          "value": "Developers",
+          "evidence": "Modelfiles for Ollama and Templates and Presets for TabbyAPI"
+        },
+        "RQh": {
+          "note": "No case studies, user studies, or industry validation are described in the repository.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC2, IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The context is general-purpose LLM configuration, not specifically software engineering or software construction."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "It does not describe a GenAI solution for a software-construction activity.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It is a configuration template collection, not a primary study or empirical case.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It only provides configuration templates, not a usable prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The last commit was in late 2025, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a personal collection of configuration templates, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH42",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - cline/cline: Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+        "link": "https://github.com/cline/cline"
+      },
+      "answers": {
+        "solution_name": "Cline",
+        "RQa": {
+          "note": "The source is the public GitHub repository of the Cline project.",
+          "value": "Code repository",
+          "evidence": "github.com/cline/cline"
+        },
+        "RQb": {
+          "note": "Cline is a versatile AI coding assistant that works in VS Code and as a CLI, serving a wide range of coding tasks.",
+          "value": "General-purpose (GP)",
+          "evidence": "fix(vscode): prevent infinite loading when initializing task with an image"
+        },
+        "RQc": {
+          "note": "The repository is public and open-source, indicating free access.",
+          "value": "Open-source / free",
+          "evidence": "cline / cline Public"
+        },
+        "RQd": {
+          "note": "The source does not explicitly discuss any limitations of the solution.",
+          "value": "Technical limitations",
+          "evidence": ""
+        },
+        "RQe": {
+          "note": "With 64.5k stars, 6,489 commits, and active daily development, the project is stable and widely adopted.",
+          "value": "Production-ready",
+          "evidence": "Star 64.5k"
+        },
+        "RQf": {
+          "note": "Documentation and release notes are present, and GitHub issues are actively tracked (see commit reference).",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "Release notes",
+            "GitHub issue trackers"
+          ],
+          "evidence": "docs, CHANGELOG.md, Fixes #10287"
+        },
+        "RQg": {
+          "note": "The solution primarily targets developers, as evidenced by the VS Code extension and CLI tools.",
+          "value": "Developers",
+          "evidence": "apps/vscode"
+        },
+        "RQh": {
+          "note": "No industrial case studies or large-scale user studies are mentioned in the provided text.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Cline is an AI coding assistant operating in the software engineering context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies generative AI (LLMs) to assist coding activities as a VS Code extension.",
+            "type": "extension",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The GitHub repository provides a practical implementation with active development and releases.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The tool is a deployed VS Code extension and CLI, available for use."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository shows activity in 2026, well within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is entirely in English, so this exclusion does not apply."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is not a secondary or tertiary study; it is a primary tool implementation."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH45",
+      "status": "screened",
+      "data": {
+        "title": "Rutex: The Autonomous AI Agent for Acode",
+        "link": "https://github.com/hallofcodes/acode-ai-agent-plugin"
+      },
+      "answers": {
+        "solution_name": "Rutex",
+        "RQa": {
+          "note": "The solution is hosted on GitHub, which is a code repository.",
+          "value": "Code repository",
+          "evidence": "https://github.com/hallofcodes/acode-ai-agent-plugin"
+        },
+        "RQb": {
+          "note": "The tool provides general-purpose coding assistance as a plugin for the Acode editor.",
+          "value": "General-purpose (GP)",
+          "evidence": "Rutex is a high-performance, autonomous AI agent plugin built specifically for the Acode mobile editor. It transforms Acode from a simple text editor into a fully agentic IDE"
+        },
+        "RQc": {
+          "note": "The solution is open-source, licensed under the MIT license.",
+          "value": "Open-source / free",
+          "evidence": "MIT license"
+        },
+        "RQd": {
+          "note": "Using the Ollama provider may cause CORS issues requiring a workaround, which is a technical limitation.",
+          "value": "Technical limitations",
+          "evidence": "Connecting directly to ollama.com may cause CORS issues; please use a CORS-proxy URL that redirects to your Ollama instance"
+        },
+        "RQe": {
+          "note": "The project seeks user feedback and contributions but lacks explicit mention of production-readiness, suggesting an experimental or beta phase.",
+          "value": "Experimental or beta phase",
+          "evidence": "Rutex is an open-source project. If you find this tool useful and want to support my work"
+        },
+        "RQf": {
+          "note": "The repository includes a README document and invites contributions through issues and pull requests.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "Readme; Feel free to open an issue or submit a pull request to help us improve Rutex."
+        },
+        "RQg": {
+          "note": "The solution is targeted at developers, specifically those working in mobile coding environments.",
+          "value": "Developers",
+          "evidence": "Want to help build the future of mobile coding? We welcome contributors!"
+        },
+        "RQh": {
+          "note": "The text does not mention any industrial case studies or large-scale user studies to validate the proposal.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The tool is an AI agent plugin for the Acode mobile editor, clearly operating in the software construction context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses LLMs to autonomously read, create, and refactor code files, fitting the agent type and coding activity.",
+            "type": "agent",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The GitHub repository provides a practical implementation (plugin) with source code, screenshots, and installation link.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The plugin is a deployable prototype distributed via the Acode plugin store, satisfying the usable solution requirement."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The initial commit was in April 2026, and the latest commit in June 2026, both within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written in English, so the exclusion does not apply."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a plugin repository, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH47",
+      "status": "screened",
+      "data": {
+        "title": "SMELLCC: LLM-based Code Smell Refactoring",
+        "link": "https://github.com/Tdcq14/vscode-smellcc"
+      },
+      "answers": {
+        "solution_name": "SMELLCC",
+        "RQa": {
+          "note": "The solution is provided as a public code repository on GitHub.",
+          "value": "Code repository",
+          "evidence": "https://github.com/Tdcq14/vscode-smellcc"
+        },
+        "RQb": {
+          "note": "The solution is specific to refactoring Python code smells, hence domain or language-specific.",
+          "value": "Domain or language-specific",
+          "evidence": "It leverages Large Language Models (LLM) to automatically refactor the Top-10 most frequent code smells in Python codebases detected by SonarLint."
+        },
+        "RQc": {
+          "note": "The source code and VSIX extension are freely available on GitHub, but an LLM API key is required, and no cost is specified, so it is open-source/free.",
+          "value": "Open-source / free",
+          "evidence": "Download the latest vscode-smellcc-0.0.3.vsix file from our GitHub Releases"
+        },
+        "RQd": {
+          "note": "The solution requires specific runtime dependencies (JRE, SonarLint, internet) and relies on external LLM APIs.",
+          "value": "Technical limitations",
+          "evidence": "SonarLint requires a Java Runtime Environment (JRE 17+) to run. ... Internet Connection: To access the LLM API."
+        },
+        "RQe": {
+          "note": "The tool is released with version tags and available for download, suggesting it is intended for use and is production-ready.",
+          "value": "Production-ready",
+          "evidence": "Releases 3 ... SMELLCC v0.0.3: Lightweight SonarLint Integration & AI Refactoring Latest on Dec 4, 2025"
+        },
+        "RQf": {
+          "note": "The repository includes a README with installation/usage guides and a changelog, which serve as documentation and release notes.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "Release notes"
+          ],
+          "evidence": "CHANGELOG.md ... README.md ... vsc-extension-quickstart.md"
+        },
+        "RQg": {
+          "note": "The tool is a VS Code extension aimed at developers working with Python code.",
+          "value": "Developers",
+          "evidence": "Open any Python (.py) file."
+        },
+        "RQh": {
+          "note": "The tool is based on an academic paper, but no specific industry case studies or large-scale user studies are mentioned in this text.",
+          "value": "Unspecified",
+          "evidence": "This VS Code extension is an implementation of the prototype system described in the TOSEM paper: 'Clean Code, Better Models: Enhancing LLM Performance with Smell-Cleaned Dataset'."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The tool refactors Python code smells, fitting a software construction (coding) context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The tool uses an LLM as a core refactoring technique, fitting a defined type and activity.",
+            "type": "tool",
+            "software_engineering_activity": "refactoring"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical implementation with a downloadable VSIX file, constituting a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "A functional prototype is available for download and use as a VS Code extension."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository shows releases and commits from November/December 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The text is entirely written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source describes a specific tool (SMELLCC) and its repository, not a survey, review, or systematic mapping."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH48",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - raine/consult-llm: Get a second opinion from another AI model",
+        "link": "https://github.com/raine/consult-llm"
+      },
+      "answers": {
+        "solution_name": "consult-llm",
+        "RQa": {
+          "note": "The solution is hosted as a public GitHub repository.",
+          "value": "Code repository",
+          "evidence": "raine/consult-llm Public"
+        },
+        "RQb": {
+          "note": "The tool is a general-purpose assistant for developers to get second opinions on architecture, reviews, debates, and debugging.",
+          "value": "General-purpose (GP)",
+          "evidence": "consult-llm is a tool for getting a second opinion from another AI model, right inside your existing agent workflow. Use it to plan architecture, review changes, debate approaches, or get unstuck on tricky bugs."
+        },
+        "RQc": {
+          "note": "The tool is open-source under the MIT license and free to use; costs depend on external AI APIs.",
+          "value": "Open-source / free",
+          "evidence": "MIT license"
+        },
+        "RQd": {
+          "note": "Responses may be truncated if they exceed the shell tool's output limit (30k characters by default), requiring file retrieval.",
+          "value": "Technical limitations",
+          "evidence": "If the response exceeds the shell tool's output limit (30k chars in Claude Code by default), the full output is saved to a file and the agent is notified where to find it; it can use Read to retrieve the rest."
+        },
+        "RQe": {
+          "note": "The solution has many releases (42) and is actively maintained, indicating production readiness.",
+          "value": "Production-ready",
+          "evidence": "v3.0.22 Latest 2 weeks ago · 42 releases"
+        },
+        "RQf": {
+          "note": "The repository provides a README (user manual) and a CHANGELOG (release notes); no community forum or issue tracker is explicitly mentioned.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "Release notes"
+          ],
+          "evidence": "Resources [Readme] and CHANGELOG.md"
+        },
+        "RQg": {
+          "note": "The tool is designed for developers using AI coding agents like Claude Code, Codex, and OpenCode.",
+          "value": "Developers",
+          "evidence": "Get a second opinion from another AI model, right inside your existing agent workflow."
+        },
+        "RQh": {
+          "note": "There is no mention of industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The tool is designed for developers to get AI-powered second opinions during software construction activities such as architecture planning, code review, and debugging."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The tool integrates with LLMs (GPT, Gemini, Claude, etc.) to support coding-phase activities like code review and debugging.",
+            "type": "tool",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The source is a practical implementation with source code, releases, and clear usage examples, not a purely theoretical proposal.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The tool is a deployed, usable CLI application with installable binaries, configuration, and documentation."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The latest commits and releases fall in 2026, which is within the 2021-2026 timeframe."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The entire content is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a tool's README and repository, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH50",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - stable-lab/Pro-V: PRO-V: An Efficient Program Generation Multi-Agent System for Automatic RTL Verification",
+        "link": "https://github.com/stable-lab/Pro-V"
+      },
+      "answers": {
+        "solution_name": "PRO-V",
+        "RQa": {
+          "note": "The solution is available as a public repository on GitHub.",
+          "value": "Code repository",
+          "evidence": "You signed in with another tab or window. Reload to refresh your session.You signed out in another tab or window."
+        },
+        "RQb": {
+          "note": "The solution is specifically tailored for automated RTL code generation and verification, making it domain-specific to hardware description languages.",
+          "value": "Domain or language-specific",
+          "evidence": "PRO-V is a comprehensive framework for automated Register Transfer Level (RTL) code generation using reinforcement learning and multi-agent systems."
+        },
+        "RQc": {
+          "note": "The repository includes an MIT license badge, indicating it is open-source and free to use under that license.",
+          "value": "Open-source / free",
+          "evidence": "![License](https://camo.githubusercontent.com/784362b26e4b3546254f1893e778ba64616e362bd6ac791991d2c9e880a3a64e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d677265656e2e737667)"
+        },
+        "RQd": {
+          "note": "The text mentions the challenge of generating functional RTL code but does not explicitly list technical, operational, or legal constraints. The challenge itself implies a technical limitation in achieving correctness.",
+          "value": "Technical limitations",
+          "evidence": "The framework addresses the challenge of generating high-quality, functionally correct Verilog code through an iterative verification and refinement process."
+        },
+        "RQe": {
+          "note": "The repository has no official releases, and the latest commit was a 'release PRO-V-R1' 7 months ago, suggesting it is in an experimental or beta phase rather than a polished production release.",
+          "value": "Experimental or beta phase",
+          "evidence": "No releases published"
+        },
+        "RQf": {
+          "note": "The README file provides setup and usage documentation. No additional community channels like forums or Discord are mentioned.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "## 📋 Table of Contents\\n - [Background]... - [Quick Start]... - [Environment Setup]... - [Usage]"
+        },
+        "RQg": {
+          "note": "The solution is a framework for automated code generation, which is a task primarily performed by developers.",
+          "value": "Developers",
+          "evidence": "PRO-V is a comprehensive framework for automated Register Transfer Level (RTL) code generation"
+        },
+        "RQh": {
+          "note": "The evaluation is performed on the VerilogEval-v2 benchmark; no industrial case studies or large-scale user studies are mentioned.",
+          "value": "Unspecified",
+          "evidence": "Experimental Results\\n\\nMain Results on VerilogEval-v2"
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC2",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The solution targets hardware description language (Verilog) for RTL design, not software engineering."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "It applies generative AI to RTL code generation, which is a hardware design activity, not a software-construction activity.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository provides an implemented system with code, setup instructions, and evaluation scripts, representing a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The repository provides a usable prototype with installation and evaluation instructions."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The latest commit is Dec 2025, within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The repository documentation is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a primary solution, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH56",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++",
+        "link": "https://github.com/ggml-org/llama.cpp"
+      },
+      "answers": {
+        "solution_name": "llama.cpp",
+        "RQa": {
+          "note": "The source is a GitHub repository for the llama.cpp project.",
+          "value": "Code repository",
+          "evidence": "github.com/ggml-org/llama.cpp"
+        },
+        "RQb": {
+          "note": "llama.cpp is a general-purpose inference engine for large language models, not specialized for a single domain.",
+          "value": "General-purpose (GP)",
+          "evidence": "LLM inference in C/C++"
+        },
+        "RQc": {
+          "note": "The project is under the MIT license and is freely available on GitHub, indicating an open-source model.",
+          "value": "Open-source / free",
+          "evidence": "## License\nMIT license"
+        },
+        "RQd": {
+          "note": "The documentation focuses on hardware optimization and model quantization, which are technical limitations related to performance and resource usage.",
+          "value": "Technical limitations",
+          "evidence": "The main goal of llama.cpp is to enable LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware - locally and in the cloud. … 1.5-bit, 2-bit, 3-bit, 4-bit, 5-bit, 6-bit, and 8-bit integer quantization for faster inference and reduced memory use"
+        },
+        "RQe": {
+          "note": "The solution has multiple installation methods, pre-built binaries, and a public release history, indicating it is production-ready.",
+          "value": "Production-ready",
+          "evidence": "Install llama.cpp using brew, nix, winget, or conda-forge … Download pre-built binaries from the releases page"
+        },
+        "RQf": {
+          "note": "The repository contains documentation, guides, issue trackers, release notes, and discussion forums.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "Forum",
+            "GitHub issue trackers",
+            "Release notes"
+          ],
+          "evidence": "docs … [guide : using the new WebUI of llama.cpp] … [HOWTO-add-model.md] … Contributing … See good first issues … https://github.com/ggml-org/llama.cpp/discussions"
+        },
+        "RQg": {
+          "note": "The tools and examples are specifically described as being useful for developers.",
+          "value": "Developers",
+          "evidence": "A minimal example for implementing apps with llama.cpp. Useful for developers."
+        },
+        "RQh": {
+          "note": "A collaboration with NVIDIA is mentioned, which is an industrial partnership, but no formal case study or user study is described in the main README text.",
+          "value": "Unspecified",
+          "evidence": "Support for the gpt-oss model with native MXFP4 format has been added | PR | Collaboration with NVIDIA"
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source describes a framework for LLM inference which can be applied to code generation and completion tasks."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The source applies generative AI (LLMs) but is an inference engine/framework itself, not a solution for a specific software-construction activity beyond being a platform to run models.",
+            "type": "tool",
+            "software_engineering_activity": "inference"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The source is a GitHub repository for a widely used software project, which is a practical implementation.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The source is a deployed and functional inference engine with CLI tools and a server, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The last commit date is July 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a primary code repository and project description, not a secondary or tertiary study like a survey."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH60",
+      "status": "screened",
+      "data": {
+        "title": "dafny-annotator: AI-assisted verification of Dafny Programs",
+        "link": "https://github.com/metareflection/dafny-annotator"
+      },
+      "answers": {
+        "solution_name": "dafny-annotator",
+        "RQa": {
+          "note": "The solution is hosted in a public GitHub repository.",
+          "value": "Code repository",
+          "evidence": "https://github.com/metareflection/dafny-annotator"
+        },
+        "RQb": {
+          "note": "The tool is specifically designed for the Dafny verification language.",
+          "value": "Domain or language-specific",
+          "evidence": "dafny-annotator is a tool that uses Large Language Models (LLMs) to automatically add logical annotations to Dafny programs until they verify."
+        },
+        "RQc": {
+          "note": "The repository is licensed under the MIT license, indicating it is open-source and free to use.",
+          "value": "Open-source / free",
+          "evidence": "MIT license"
+        },
+        "RQd": {
+          "note": "Using certain models requires external access requests; there are technical dependencies like installing specific packages and model access. There are no mentions of other operational or legal constraints.",
+          "value": "Technical limitations",
+          "evidence": "If you want to use the Llama models, you'll need to request access on Huggingface."
+        },
+        "RQe": {
+          "note": "The text describes experimental findings and on-going improvements, suggesting an active research project rather than a fully productized tool.",
+          "value": "Experimental or beta phase",
+          "evidence": "Our current findings indicate that the best results are achieved by combining DafnyBench and DafnySynth for training Llama-3 8B, suggesting that our synthetically generated programs can serve to significantly improve our annotator."
+        },
+        "RQf": {
+          "note": "The repository includes a detailed README and links to a published paper (arXiv). There are no mentions of forums, issue trackers, or other community channels in the text.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "Readme"
+        },
+        "RQg": {
+          "note": "The tool is designed for use by people writing and verifying Dafny code, which is a developer activity.",
+          "value": "Developers",
+          "evidence": "Search continues until the program verifies... Running this script will evaluate an LLM on this annotation task."
+        },
+        "RQh": {
+          "note": "The text discusses experimental results using specific benchmarks but does not mention any industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "Our current findings indicate that the best results are achieved by combining DafnyBench and DafnySynth for training Llama-3 8B..."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The tool explicitly operates in software engineering, assisting with Dafny code verification."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses Large Language Models (LLMs) to automatically add logical annotations to Dafny programs.",
+            "type": "tool",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The source is a practical implementation contained in a code repository.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The repository provides a functional prototype tool with an installable Python codebase and a server."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The last commit is from October 2025, and the initial commit is from February 2024."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary tool and repository, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH62",
+      "status": "screened",
+      "data": {
+        "title": "Official code for VisProg (CVPR 2023 Best Paper!)",
+        "link": "https://github.com/allenai/visprog"
+      },
+      "answers": {
+        "solution_name": "VisProg",
+        "RQa": {
+          "note": "The solution is provided as a public GitHub repository containing official code for the VisProg system.",
+          "value": "Code repository",
+          "evidence": "allenai / visprog Public"
+        },
+        "RQb": {
+          "note": "VisProg is a neuro-symbolic system that solves complex and compositional visual tasks, making it specific to the visual domain.",
+          "value": "Domain or language-specific",
+          "evidence": "VisProg - a neuro-symbolic system that solves complex and compositional visual tasks given natural language instructions."
+        },
+        "RQc": {
+          "note": "The code is open-source under the Apache-2.0 license, and users need their own OpenAI API key for GPT-3 access; no cost is imposed by VisProg itself.",
+          "value": "Open-source / free",
+          "evidence": "LICENSE (Apache-2.0 license)"
+        },
+        "RQd": {
+          "note": "Limitations include incorrect program generation when instructions differ from in-context examples, and tasks unsolvable with current modules require extending the system with new modules.",
+          "value": "Technical limitations",
+          "evidence": "It is possible that the instruction you provide is not solved correctly by VisProg. This can happen for a few reasons: 1. The instruction is very different from in-context examples... 2. The problem is not solvable with the current set of modules..."
+        },
+        "RQe": {
+          "note": "The repository is a research code release associated with a CVPR 2023 best paper, with no formal releases or production deployment indicated.",
+          "value": "Experimental or beta phase",
+          "evidence": "No releases published"
+        },
+        "RQf": {
+          "note": "The README provides extensive documentation, installation instructions, and usage examples, serving as a user manual.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "easy to use (a simple ipynb per task) ... easy to extend with new functionality ... easy to extend to new tasks ... minimal and modular to make it easy to dig into and build upon"
+        },
+        "RQg": {
+          "note": "The system is designed for users who can interact with notebooks, write code, and extend modules, which aligns with developers or researchers.",
+          "value": "Developers",
+          "evidence": "You can add new modules to VisProg to solve this task. See the next section for details."
+        },
+        "RQh": {
+          "note": "The text does not mention any industrial case studies or large-scale user studies to validate the proposal.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC2",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "VisProg operates in the visual reasoning/compositional visual tasks domain, not in software engineering/software construction (coding) context."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The solution applies generative AI to visual tasks (e.g., answering visual questions, image editing), not to any software-construction activity.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical implementation with official code release and published research paper.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "A working prototype is provided as a runnable codebase with notebooks, ready for use."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in 2023 (CVPR 2023) which falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH64",
+      "status": "screened",
+      "data": {
+        "title": "Stevenic/convo - a conversational programming language",
+        "link": "https://github.com/Stevenic/convo"
+      },
+      "answers": {
+        "solution_name": "Convo",
+        "RQa": {
+          "note": "The text is the README and file listing of a GitHub repository.",
+          "value": "Code repository",
+          "evidence": "Repository files navigation"
+        },
+        "RQb": {
+          "note": "Convo is a prompting technique and intermediate language for generating programs in any target language, making it general-purpose by design.",
+          "value": "General-purpose (GP)",
+          "evidence": "Convo is a high-level, conversational programming language designed to be generated and interpreted by Large Language Models (LLMs). It allows developers to write code in plain, natural language..."
+        },
+        "RQc": {
+          "note": "The repository is public and uses a Creative Commons license, indicating open-source/free availability.",
+          "value": "Open-source / free",
+          "evidence": "License: CC0-1.0 license"
+        },
+        "RQd": {
+          "note": "The solution relies entirely on LLM interpretation which can cause errors in advanced ported programs requiring debugging, which is a technical limitation.",
+          "value": "Technical limitations",
+          "evidence": "Convo is a conversational programming language that's designed to be generated and interpreted by a Large Language Model (LLM). ... More advanced programs will likely require some debugging and you can use generative AI tools like Canvas to help with this debugging."
+        },
+        "RQe": {
+          "note": "The repository has no releases and presents Convo as an experimental prompting technique, not a production-ready tool.",
+          "value": "Experimental or beta phase",
+          "evidence": "No releases published. ... It's important to note that there is no special program or application needed to use Convo. It's just a prompting technique."
+        },
+        "RQf": {
+          "note": "The repository provides a specification and instruction documents; no forums, issue trackers, release notes, or chat communities are mentioned.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "For a complete overview of Convo's syntax and features, refer to the full Convo specification. If you'd like to create your own custom GPT you can view the source for the default Convo GPT Instructions."
+        },
+        "RQg": {
+          "note": "The solution targets developers as the primary users, aiming to make programming more accessible to them.",
+          "value": "Developers",
+          "evidence": "It allows developers to write code in plain, natural language, making programming more accessible and intuitive."
+        },
+        "RQh": {
+          "note": "No industrial case studies or large-scale user studies are mentioned in the provided text.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Convo is explicitly designed for programming, generating code in languages like Python and JavaScript, which falls within software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Convo uses LLMs (Generative AI) to translate natural language/pseudocode into executable code, supporting coding activities.",
+            "type": "technique/solution",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The repository describes a prompting technique and a conceptual language, not a study implementing or empirically evaluating a tool/agent in a practical setting.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "Convo is a prompting convention and intermediate language format, not a usable prototype or deployed tool; the README explicitly states no special program is needed."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The last commit was in October 2024, placing the publication date between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is written entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a GitHub repository presenting an original specification and technique, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH65",
+      "status": "screened",
+      "data": {
+        "title": "Stable Lab @ UCSD",
+        "link": "https://github.com/stable-lab"
+      },
+      "answers": {
+        "solution_name": "MAGE",
+        "RQa": {
+          "note": "The page is a GitHub repository for the MAGE project.",
+          "value": "Code repository",
+          "evidence": "https://github.com/stable-lab/MAGE"
+        },
+        "RQb": {
+          "note": "MAGE is designed for automated generation of RTL code, which is domain-specific to hardware design.",
+          "value": "Domain or language-specific",
+          "evidence": "MAGE: A Multi-Agent Engine for Automated RTL Code Generation"
+        },
+        "RQc": {
+          "note": "The repository shows an MIT license, indicating it is open-source and free to use.",
+          "value": "Open-source / free",
+          "evidence": "MIT"
+        },
+        "RQd": {
+          "note": "The provided text does not mention any specific limitations for adopting this solution.",
+          "value": "Technical limitations",
+          "evidence": ""
+        },
+        "RQe": {
+          "note": "The text does not explicitly state the maturity level of the solution.",
+          "value": "Experimental or beta phase",
+          "evidence": ""
+        },
+        "RQf": {
+          "note": "The repository has GitHub issue and pull request trackers, but there is no mention of documentation, forums, releases, or chat communities.",
+          "value": [
+            "GitHub issue trackers"
+          ],
+          "evidence": "1 issue, 1 pull request"
+        },
+        "RQg": {
+          "note": "The tool generates RTL code, which is primarily written and used by hardware developers.",
+          "value": "Developers",
+          "evidence": "MAGE: A Multi-Agent Engine for Automated RTL Code Generation"
+        },
+        "RQh": {
+          "note": "The text does not describe any industrial case studies or user studies.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "MAGE generates RTL (Register-Transfer Level) code, a hardware description language, which is a software construction activity in hardware engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "MAGE is a multi-agent engine that uses LLMs for automated RTL code generation, fitting the 'agent' type and 'coding' activity.",
+            "type": "agent",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository presents a practical implementation with source code and version history, making it a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The provided GitHub repository contains a usable prototype or deployed tool, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository was last updated in 2025, which is within the 2021-2026 timeframe."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The page content is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a GitHub repository for a specific tool (MAGE), not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH68",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - Minw913/AlphaOPT: Formulating Optimization Programs with Self-Improving LLM Experience Library",
+        "link": "https://github.com/Minw913/AlphaOPT"
+      },
+      "answers": {
+        "solution_name": "AlphaOPT",
+        "RQa": {
+          "note": "The source is the GitHub repository for the code associated with an academic paper.",
+          "value": "Code repository",
+          "evidence": "AlphaOPT: Formulating Optimization Programs with Self-Improving LLM Experience Library ... arXiv:2510.18428"
+        },
+        "RQb": {
+          "note": "The solution is a system for generating optimization programs using LLMs, which is domain-specific.",
+          "value": "Domain or language-specific",
+          "evidence": "AlphaOPT, a self-improving experience library that enables an LLM to learn from limited demonstrations ... and solver feedback"
+        },
+        "RQc": {
+          "note": "The code is available on GitHub under an open-source MIT license.",
+          "value": "Open-source / free",
+          "evidence": "License: MIT"
+        },
+        "RQd": {
+          "note": "The solution depends on external commercial LLM APIs (OpenAI, Google, OpenRouter), incurring costs and operational constraints.",
+          "value": "Operational constraints",
+          "evidence": "configure LLM API keys ... OPEN_ROUTER_KEY ... GEMINI_API_KEY ... OPENAI_API_KEY"
+        },
+        "RQe": {
+          "note": "The repository has a v1.0 release, suggesting it is more than experimental, and the associated paper indicates its feasibility.",
+          "value": "Production-ready",
+          "evidence": "AlphaOPT: Formulating Optimization Programs with a Self-Improving LLM Experience Library Latest on Jun 2, 2026"
+        },
+        "RQf": {
+          "note": "The repository includes a README with setup instructions, a CHANGELOG, has releases, and likely supports GitHub Issues.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "Release notes",
+            "GitHub issue trackers"
+          ],
+          "evidence": "CHANGELOG.md ... README.md ... AlphaOPT: Formulating Optimization Programs with a Self-Improving LLM Experience Library Latest on Jun 2Jun 2, 2026"
+        },
+        "RQg": {
+          "note": "The solution involves LLM programming and solver integration, targeting developers who work with optimization tasks.",
+          "value": "Developers",
+          "evidence": "AlphaOPT, a self-improving experience library that enables an LLM to learn from limited demonstrations ... and solver feedback"
+        },
+        "RQh": {
+          "note": "The solution is validated on several benchmark datasets used in academic research, with no explicit mention of industrial case studies.",
+          "value": "Unspecified",
+          "evidence": "Using cleaned versions provided by Yang et al. (2025) ... Using cleaned releases from Astorga et al. (2025)"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution operates in software engineering, focusing on software construction by generating code for optimization programs."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The tool applies LLMs (Generative AI) to automatically formulate optimization programs, a coding activity.",
+            "type": "tool",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The GitHub repository provides source code with a v1.0 release, implementing the AlphaOPT tool described in a paper.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The repository delivers a usable tool with source code, setup instructions, and a v1.0 release, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository was published/comitted in October 2025, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text (repository README) is written entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a primary tool/code repository (AlphaOPT), not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH72",
+      "status": "screened",
+      "data": {
+        "title": "OpenAPI to MCP Server Code Generator · GitHub",
+        "link": "https://github.com/cnoe-io/openapi-mcp-codegen"
+      },
+      "answers": {
+        "solution_name": "openapi-mcp-codegen",
+        "RQa": {
+          "note": "The solution is a public GitHub repository.",
+          "value": "Code repository",
+          "evidence": "cnoe-io/openapi-mcp-codegen"
+        },
+        "RQb": {
+          "note": "The tool generates complete applications (MCP servers and agents) from API specifications.",
+          "value": "Application generation (AG)",
+          "evidence": "This tool generates **Model Context Protocol (MCP) servers** from OpenAPI specifications, creating Python packages"
+        },
+        "RQc": {
+          "note": "The repository is public with an Apache 2.0 license and no paid requirements.",
+          "value": "Open-source / free",
+          "evidence": "License: Apache-2.0 license"
+        },
+        "RQd": {
+          "note": "Experimental features like SLIM and A2A proxy are noted as subject to change, indicating technical instability.",
+          "value": "Technical limitations",
+          "evidence": "This pathway is experimental and subject to change. Use for evaluation and prototyping only."
+        },
+        "RQe": {
+          "note": "The version number (0.2.4) and the presence of experimental features indicate the solution is still in early development.",
+          "value": "Experimental or beta phase",
+          "evidence": "0.2.4 - SLIM support"
+        },
+        "RQf": {
+          "note": "The repository includes an architecture guide, a changelog with release notes, and a docs folder; no forum or chat community is mentioned.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "Release notes"
+          ],
+          "evidence": "Architecture.md, CHANGELOG.md, docs/"
+        },
+        "RQg": {
+          "note": "The tool is used by developers to generate code from API specifications.",
+          "value": "Developers",
+          "evidence": "You provide an OpenAPI spec (JSON or YAML). The generator parses paths, operations, and schemas, then renders Jinja2 templates into a structured Python MCP server."
+        },
+        "RQh": {
+          "note": "The text does not mention any industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The tool generates MCP servers and agents for API interaction, operating in a software engineering context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses LLMs to enhance docstrings and generate system prompts, applying Generative AI to coding-phase code generation.",
+            "type": "tool",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The GitHub repository provides a complete, working CLI tool with releases and examples, a practical implementation.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The tool is a functional prototype with versioned releases and usage instructions."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Releases from September 2025 fall within the 2021–2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The repository content is entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a tool implementation, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH73",
+      "status": "screened",
+      "data": {
+        "title": "CursorCore: Assist Programming through Aligning Anything",
+        "link": "https://github.com/TechxGenus/CursorCore"
+      },
+      "answers": {
+        "solution_name": "CursorCore",
+        "RQa": {
+          "note": "The solution is primarily described in an academic paper (arXiv preprint) and accompanied by a code repository on GitHub.",
+          "value": "Academic Paper",
+          "evidence": "CursorCore is a series of open-source models designed for AI-assisted programming... Please read our paper to learn more."
+        },
+        "RQb": {
+          "note": "The solution is designed for general AI-assisted programming, including code generation, editing, and repair.",
+          "value": "General-purpose (GP)",
+          "evidence": "CursorCore is a series of open-source models designed for AI-assisted programming. It aims to support features such as automated editing and inline chat..."
+        },
+        "RQc": {
+          "note": "The models and code are open-sourced and freely available.",
+          "value": "Open-source / free",
+          "evidence": "Our models have been open-sourced on Hugging Face. You can access our models here..."
+        },
+        "RQd": {
+          "note": "The solution is in early development with missing features such as repository-level editing, indicating technical limitations.",
+          "value": "Technical limitations",
+          "evidence": "CursorCore is still in a very early stage, and lots of work is needed to achieve a better user experience. For example:\n- Repository-level editing support\n- Better and faster editing formats\n- Better user interface and presentation..."
+        },
+        "RQe": {
+          "note": "The solution is still in early development, lacking features for production use, thus experimental.",
+          "value": "Experimental or beta phase",
+          "evidence": "CursorCore is still in a very early stage, and lots of work is needed to achieve a better user experience."
+        },
+        "RQf": {
+          "note": "The repository provides documentation (README, arXiv paper), a Discord community, and GitHub issue tracking.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers",
+            "Slack/Discord Community"
+          ],
+          "evidence": "[📄arXiv] [🤗HF Paper] [🤖Models] [🛠️Code] [Web] [Discord]... If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request."
+        },
+        "RQg": {
+          "note": "The target users are developers seeking programming assistance.",
+          "value": "Developers",
+          "evidence": "You are a helpful programming assistant... specific problem or task are you trying to solve?"
+        },
+        "RQh": {
+          "note": "The text describes evaluation using benchmarks, not specific industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "We use the manually written benchmark APEval to assess the model's ability to assist programming. We also utilize EvalPlus, CanItEdit and OctoPack to evaluate the model's performance..."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution is an AI-assisted programming tool for coding tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies large language models to code generation and editing.",
+            "type": "language model",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The source includes a code repository and a paper describing a practical implementation.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Open-source models and a web demo are provided as a usable prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The arXiv preprint and GitHub repository are from 2024."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The content is entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is not a secondary or tertiary study but a primary solution description."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH77",
+      "status": "screened",
+      "data": {
+        "title": "ise-uiuc/TitanFuzz",
+        "link": "https://github.com/ise-uiuc/TitanFuzz"
+      },
+      "answers": {
+        "solution_name": "TitanFuzz",
+        "RQa": {
+          "note": "The solution is provided as a public GitHub repository.",
+          "value": "Code repository",
+          "evidence": "This is the implementation repository of our research paper"
+        },
+        "RQb": {
+          "note": "TitanFuzz is specifically designed for fuzzing deep-learning libraries (PyTorch and TensorFlow).",
+          "value": "Domain or language-specific",
+          "evidence": "TitanFuzz is the first approach to directly leveraging Large Language Models (LLMs) to generate input programs for fuzzing Deep Learning (DL) libraries."
+        },
+        "RQc": {
+          "note": "The repository is publicly accessible on GitHub with no mention of payment, implying open-source/free usage.",
+          "value": "Open-source / free",
+          "evidence": "ise-uiuc / TitanFuzz Public"
+        },
+        "RQd": {
+          "note": "Running TitanFuzz requires a sandboxed environment like Docker to prevent potential filesystem damage from generated test programs.",
+          "value": "Operational constraints",
+          "evidence": "LLMs can generate arbitrary test programs, some of them that may attempt to change the source code and even cause damage to the file system. Therefore, we provide a docker environment for running TitanFuzz."
+        },
+        "RQe": {
+          "note": "TitanFuzz is a research tool associated with an ISSTA 2023 paper, indicating experimental maturity.",
+          "value": "Experimental or beta phase",
+          "evidence": "accepted at ISSTA 2023"
+        },
+        "RQf": {
+          "note": "The README provides thorough documentation including setup and usage steps; the GitHub repository includes issue tracking capabilities.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "## Reproducibility"
+        },
+        "RQg": {
+          "note": "The intended users are developers and researchers performing fuzzing on deep-learning libraries.",
+          "value": "Developers",
+          "evidence": "Fuzzing Deep-Learning Libraries via Large Language Models"
+        },
+        "RQh": {
+          "note": "The solution was validated by finding bugs in real-world industrial DL libraries (PyTorch and TensorFlow), with many bugs confirmed and fixed by developers.",
+          "value": "Industrial case studies",
+          "evidence": "TitanFuzz has detected 65 bugs in total for PyTorch and TensorFlow, with 55 already confirmed by developers."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "TitanFuzz operates in the software engineering context, specifically for fuzzing deep-learning libraries."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "TitanFuzz uses large language models (a Generative AI method) for the software construction activity of testing via fuzzing.",
+            "type": "tool",
+            "software_engineering_activity": "testing"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The source describes a practical implementation and evaluation of the TitanFuzz tool.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The repository provides a runnable prototype with setup instructions and executable scripts."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository's first commit is dated 2023, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text of the repository is in English, so exclusion does not apply."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary implementation repository for a research tool, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH78",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - SakanaAI/ShinkaEvolve: ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution 🧬",
+        "link": "https://github.com/SakanaAI/shinkaevolve"
+      },
+      "answers": {
+        "solution_name": "ShinkaEvolve",
+        "RQa": {
+          "note": "The source is a public GitHub repository containing the code, documentation, and release artifacts for ShinkaEvolve.",
+          "value": "Code repository",
+          "evidence": "SakanaAI/ShinkaEvolve | GitHub"
+        },
+        "RQb": {
+          "note": "ShinkaEvolve is a framework that uses LLMs and evolutionary algorithms to automatically explore and improve scientific code, making it general-purpose for program optimization.",
+          "value": "General-purpose (GP)",
+          "evidence": "The system is inspired by the AI Scientist, AlphaEvolve and the Darwin Goedel Machine: It maintains a population of programs that evolve over generations, with an ensemble of LLMs acting as intelligent mutation operators that suggest code improvements."
+        },
+        "RQc": {
+          "note": "The solution is openly available on GitHub under an Apache 2.0 license and can be freely installed via PyPI.",
+          "value": "Open-source / free",
+          "evidence": "MIT License | Apache-2.0 license | pip install shinka-evolve"
+        },
+        "RQd": {
+          "note": "The solution has technical limitations as it focuses on tasks with verifiable metrics and relies on LLM capabilities for code mutations.",
+          "value": "Technical limitations",
+          "evidence": "the goal is to optimize performance metrics while maintaining code correctness and readability."
+        },
+        "RQe": {
+          "note": "The framework is presented with an academic publication, versioned releases, and has been used to win a programming contest, indicating a production-ready state.",
+          "value": "Production-ready",
+          "evidence": "Accepted at ICLR 2026 | v0.0.7 | Used in ICFP 2025 Programming Contest winning entry"
+        },
+        "RQf": {
+          "note": "The repository includes a dedicated documentation website, guides, a changelog, contribution guidelines, and likely uses GitHub's issue tracker.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers",
+            "Release notes"
+          ],
+          "evidence": "Documentation: https://sakanaai.github.io/ShinkaEvolve/ | GitHub Issues: https://github.com/SakanaAI/ShinkaEvolve/issues | CHANGELOG.md | CONTRIBUTING.md"
+        },
+        "RQg": {
+          "note": "The framework is designed for scientific exploration and program optimization, targeting developers and researchers.",
+          "value": "Developers",
+          "evidence": "agentic usage for coding agents ... scientific tasks ... developers"
+        },
+        "RQh": {
+          "note": "The text mentions a successful application in an industrial-like programming contest but no formal large-scale case studies or experiments are specified.",
+          "value": "Industrial case studies",
+          "evidence": "ShinkaEvolve supported Team Unagi in winning the ICFP 2025 Programming Contest"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution directly operates on software programs (optimizing code)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The framework applies LLMs to mutate and evolve programs for activities like coding.",
+            "type": "tool",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The source is the implementation and its documentation, constituting a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The framework is a released, installable tool with a rich API, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The last commit is from July 2026, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source describes a tool and its code repository, not a secondary/tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH79",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - SakanaAI/drq: Digital Red Queen: Adversarial Program Evolution in Core War with LLMs",
+        "link": "https://github.com/SakanaAI/drq"
+      },
+      "answers": {
+        "solution_name": "Digital Red Queen",
+        "RQa": {
+          "note": "The solution is provided as a public repository on GitHub.",
+          "value": "Code repository",
+          "evidence": "SakanaAI / drq · GitHub"
+        },
+        "RQb": {
+          "note": "The solution is specifically designed for evolving assembly-like programs (Redcode) within the Core War game, making it domain or language-specific.",
+          "value": "Domain or language-specific",
+          "evidence": "DRQ uses an LLM to evolve assembly-like programs, called warriors, which compete against each other for control of a virtual machine in the game of Core War"
+        },
+        "RQc": {
+          "note": "The repository is publicly accessible, includes all source code, and is distributed under the Apache 2.0 open-source license.",
+          "value": "Open-source / free",
+          "evidence": "License: Apache-2.0 license"
+        },
+        "RQd": {
+          "note": "The paper notes that many LLM-evolution frameworks, which its approach contrasts, overlook dynamic adversarial aspects, pointing to technical limitations of alternative static methods. The repo notes no specific usage limitations.",
+          "value": "Technical limitations",
+          "evidence": "LLM-evolution frameworks are formulated as static optimization problems, overlooking the open-ended adversarial dynamics that characterize real-world evolutionary processes."
+        },
+        "RQe": {
+          "note": "The solution is positioned as a research sandbox for studying adaptation rather than a production-ready tool.",
+          "value": "Experimental or beta phase",
+          "evidence": "Our work positions Core War as a rich, controllable sandbox for studying adversarial adaptation in artificial systems"
+        },
+        "RQf": {
+          "note": "The GitHub repository includes detailed README documentation on installation, running battles, using the LLM, running the full DRQ algorithm, and reproducing paper results.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "Repo contains a minimalistic implementation...; Running Locally: Installation: ...; setup with conda: ...; Bibtex Citation: To cite our work, you can use the following:"
+        },
+        "RQg": {
+          "note": "The repository's code and documentation are targeted at users who write code and run experiments involving LLM-generated programs, which is typical for developers and researchers.",
+          "value": "Developers",
+          "evidence": "Here is some code to generate a new warrior and mutate an existing warrior using an LLM..."
+        },
+        "RQh": {
+          "note": "The text describes an academic study with experiments comparing warriors' generality and behavioral diversity, without specifying collaboration with an industrial partner or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "This result highlights a potential value of shifting from static objectives to dynamic Red Queen objectives."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution operates in software engineering by evolving assembly-like programs."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies LLMs to generate and evolve code for the Core War game.",
+            "type": "technique/solution",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The source describes the implementation of the DRQ algorithm with provided code.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "A public GitHub repository with runnable Python code is provided."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2026, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source describes a new algorithm and its implementation, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH80",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - yash-srivastava19/cadence: Using LLMs(not RL) to find new solutions for problems that are hard. Batteries included.",
+        "link": "https://github.com/yash-srivastava19/cadence"
+      },
+      "answers": {
+        "solution_name": "Cadence",
+        "RQa": {
+          "note": "The source is a GitHub repository page for the Cadence project, which hosts the code and documentation.",
+          "value": "Code repository",
+          "evidence": ""
+        },
+        "RQb": {
+          "note": "Cadence is specifically designed to evolve programs for computational problems like TSP, making it domain-specific rather than general-purpose.",
+          "value": "Domain or language-specific",
+          "evidence": "Cadence is an evolutionary system that uses large language models to iteratively generate, mutate, and improve programs for hard computational problems. The current implementation focuses on the Traveling Salesman Problem."
+        },
+        "RQc": {
+          "note": "The repository is public on GitHub, and there is no mention of any commercial licensing or costs, so it is open-source and free.",
+          "value": "Open-source / free",
+          "evidence": "cadence Public"
+        },
+        "RQd": {
+          "note": "The solution has constraints on how code must be structured (marked blocks, standard libraries only) and is currently limited to TSP problems, indicating technical limitations.",
+          "value": "Technical limitations",
+          "evidence": "All code blocks must be marked with ### START_BLOCK and ### END_BLOCK. ... Use only standard Python libraries (math, itertools, re, etc.). Keep test inputs deterministic via seeds. Try to avoid relying on random inside the generated programs themselves."
+        },
+        "RQe": {
+          "note": "The project is described as an active research project with working experiments, indicating it is in an experimental phase.",
+          "value": "Experimental or beta phase",
+          "evidence": "Active research project with working experiments, documentation, and a modular foundation for extending beyond TSP."
+        },
+        "RQf": {
+          "note": "The repository includes documentation setup (ReadTheDocs, docs folder) and GitHub's standard issue tracker and CI features.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "The repo contains a docs/ folder and .readthedocs.yaml, indicating documentation. It uses GitHub Actions for CI and has GitHub issue trackers enabled."
+        },
+        "RQg": {
+          "note": "The tool is designed for program generation and evolution, targeting developers and researchers working on code generation.",
+          "value": "Developers",
+          "evidence": "Cadence treats code generation as an evolutionary loop. It samples parent programs, proposes child variants with an LLM... The system evolves programs over generations..."
+        },
+        "RQh": {
+          "note": "The source mentions running experiments for specific hypotheses but does not mention collaboration with industry for validation.",
+          "value": "Unspecified",
+          "evidence": "Hypothesis 1: Cost evolution / Hypothesis 2: Scaling analysis"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Cadence operates in the software engineering context by generating, mutating, and improving code."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Cadence is a tool that uses Large Language Models to iteratively generate and improve code, a core software construction activity.",
+            "type": "tool",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The source describes a practical implementation with working experiments, documentation, and a modular foundation.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents a usable prototype with a codebase, experiments, and a web interface."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The last commit is from April 2026, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary software project repository and not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH91",
+      "status": "screened",
+      "data": {
+        "title": "danielgross/localpilot",
+        "link": "https://github.com/danielgross/localpilot"
+      },
+      "answers": {
+        "solution_name": "localpilot",
+        "RQa": {
+          "note": "The solution is hosted as a public repository on GitHub.",
+          "value": "Code repository",
+          "evidence": "danielgross / localpilot Public"
+        },
+        "RQb": {
+          "note": "It provides general-purpose code completions similar to GitHub Copilot.",
+          "value": "General-purpose (GP)",
+          "evidence": "Use GitHub Copilot locally on your Macbook with one-click!"
+        },
+        "RQc": {
+          "note": "The solution is open-source and free under the MIT license.",
+          "value": "Open-source / free",
+          "evidence": "MIT license"
+        },
+        "RQd": {
+          "note": "The tool has limitations in code quality for complex functions and speed with larger models, and is an inefficient demonstration.",
+          "value": "Technical limitations",
+          "evidence": "For complex functions... maybe. ... Please consider this repo a demonstration of a very inefficient implementation."
+        },
+        "RQe": {
+          "note": "The project is an experimental demonstration without stable releases.",
+          "value": "Experimental or beta phase",
+          "evidence": "Please consider this repo a demonstration of a very inefficient implementation."
+        },
+        "RQf": {
+          "note": "The repository includes a README with installation instructions and a FAQ.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "README.md"
+        },
+        "RQg": {
+          "note": "The target users are developers using VS Code for code completion.",
+          "value": "Developers",
+          "evidence": "open VS Code Settings"
+        },
+        "RQh": {
+          "note": "No industrial case studies, user studies, or experiments are mentioned.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution is a code completion tool for software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses local LLMs to provide code completions.",
+            "type": "tool",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The source is a practical GitHub repository with runnable code.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It provides a working prototype that can be used locally."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository was created in 2023, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary implementation, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH93",
+      "status": "screened",
+      "data": {
+        "title": "ShahandFahad/IBM-full-stack-software-developer",
+        "link": "https://github.com/ShahandFahad/IBM-full-stack-software-developer"
+      },
+      "answers": {
+        "solution_name": "IBM Full Stack Software Developer",
+        "RQa": {
+          "note": "This source describes an online educational program.",
+          "value": "Course / educational",
+          "evidence": "Prepare for a rewarding career in software development with the IBM Full Stack Software Developer program."
+        },
+        "RQb": {
+          "note": "The program teaches full-stack development, which is general-purpose across many domains.",
+          "value": "General-purpose (GP)",
+          "evidence": "cover front-end, back-end, and cloud-native application development"
+        },
+        "RQc": {
+          "note": "The text does not mention any pricing or access model.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "No limitations are explicitly mentioned in the text.",
+          "value": "Technical limitations",
+          "evidence": ""
+        },
+        "RQe": {
+          "note": "The program is available and has been completed by the author, indicating it is operational.",
+          "value": "Production-ready",
+          "evidence": "the IBM Full Stack Software Developer program"
+        },
+        "RQf": {
+          "note": "No technical documentation, support channels, or community forums are described.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The program targets aspiring software developers.",
+          "value": "Developers",
+          "evidence": "Prepare for a rewarding career in software development"
+        },
+        "RQh": {
+          "note": "No mention of industry case studies or validation experiments.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The repository describes a full-stack software development program, which is clearly in the software engineering context."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The source does not describe any Generative AI method or application; it is a course curriculum.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The source is a personal overview of a completed online course, not a practical implementation of a Generative AI solution.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No usable software solution is presented; only a curriculum outline."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository was created and last updated in 2023, within the required timeframe."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The text is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a personal course portfolio, not a secondary or tertiary study."
+          }
+        }
+      }
+    }
+  ]
+}

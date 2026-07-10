@@ -1,0 +1,14 @@
+{
+  "title": "LangGraph: Building self-correcting RAG agent",
+  "link": "https://learnopencv.com/langgraph-self-correcting-agent-code-generation/",
+  "summary": "This blog post presents a self-correcting code generation agent built with LangGraph. The agent generates Python scripts for the Hugging Face diffusers library, executes the generated code, and if execution fails, reflects on the error and regenerates an improved version, looping until success or a limit is reached. It incorporates Retrieval Augmented Generation (RAG) by loading diffusers documentation into the system prompt to ground the LLM’s knowledge. The agent leverages LangGraph’s state management, conditional routing, and iterative cycles to demonstrate reliable code creation through feedback-driven self-correction.",
+  "author": "Bhomik Sharma",
+  "publication_date": "2025-07-29",
+  "keywords": [
+    "LangGraph",
+    "code generation",
+    "RAG",
+    "self-correcting agent",
+    "diffusers"
+  ]
+}

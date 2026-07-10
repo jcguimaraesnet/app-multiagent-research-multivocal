@@ -1,0 +1,16 @@
+{
+  "title": "Transforming natural language into code: advancing automated code synthesis for software development",
+  "link": "https://doi.org/10.1007/s10586-025-05688-0",
+  "abstract": "Automated code generation from natural language is a growing challenge in software engineering, enabling the direct translation of requirements into executable code. Machine learning-based automatic code synthesis emerged as a key solution, with transformer-based models playing a pivotal role in enhancing this process. This paper addresses the challenges of generating accurate, functional code efficiently. This paper presents a transformer-based T5 model fine-tuned on the multilingual XLCoST dataset for code generation. The model is evaluated using a novel systematic multi-level evaluation framework. The framework evaluates the model’s across three distinct task complexity levels ranging from beginner to advanced. The evaluation results highlight the model’s versatility and robustness. Furthermore, the model achieves a BLEU score of 30.093, demonstrating competitive performance compared to open-source baselines. The model’s code generation abilities accelerates software development by reducing manual coding efforts, thereby improving workflow efficiency and software quality. These results confirm that transformer-based models are effective tools for automating software development, with promising implications for the future. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2025.",
+  "keywords": [
+    "Automated code synthesis",
+    "Machine learning in software development",
+    "Natural language programming",
+    "Program synthesis",
+    "Software engineering automation",
+    "Transformer-based models"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Springer"
+}

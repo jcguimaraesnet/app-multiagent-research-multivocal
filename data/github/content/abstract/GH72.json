@@ -1,0 +1,14 @@
+{
+  "title": "OpenAPI to MCP Server Code Generator · GitHub",
+  "link": "https://github.com/cnoe-io/openapi-mcp-codegen",
+  "summary": "This GitHub repository hosts 'openapi-mcp-codegen', a tool from the cnoe-io organization that generates Model Context Protocol (MCP) servers from OpenAPI specifications. The tool automates the creation of Python packages containing tools, models, and client code, enabling AI assistants to interact with APIs. It optionally generates accompanying LangGraph ReAct agents with A2A server wrappers and supports evaluation features like interactive dataset building and automated evaluation suites. The solution also includes LLM-enhanced documentation generation using the OpenAPI Overlay Specification to optimize docstrings for AI comprehension.",
+  "author": "cnoe-io",
+  "publication_date": "",
+  "keywords": [
+    "OpenAPI",
+    "MCP server",
+    "code generation",
+    "LangGraph agent",
+    "A2A protocol"
+  ]
+}

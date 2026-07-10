@@ -1,0 +1,14 @@
+{
+  "title": "An empirical comparison of AI assisted software refactoring tools - Scientific Reports",
+  "link": "https://www.nature.com/articles/s41598-026-49590-0",
+  "summary": "This study presents an empirical comparison of three AI-assisted software refactoring tools—ChatGPT, Gemini, and Codeium—for Python code. A unified evaluation framework was built, integrating these tools’ APIs with the SonarQube static analysis tool to assess code quality across eight attributes, including reusability, maintainability, and performance. The research evaluated the tools on two datasets: one containing smaller code snippets and another with larger codebases. The findings showed distinct performance trends, with Gemini and Codeium performing better on smaller code while ChatGPT improved significantly with larger codebases, though Gemini demonstrated the most consistent overall performance. The authors concluded that while these AI tools show promise for code refactoring, they are currently more suitable for small to medium-sized codebases and have limitations that require further development.",
+  "author": "Gul Saba, Sohaib Ahmed, Hiba Sania, Talha Ahmed Khan, Hidawati Bte Mohamad Nasir",
+  "publication_date": "2026-04-24",
+  "keywords": [
+    "code refactoring",
+    "ChatGPT",
+    "Gemini",
+    "Codeium",
+    "SonarQube"
+  ]
+}

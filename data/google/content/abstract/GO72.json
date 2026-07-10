@@ -1,0 +1,14 @@
+{
+  "title": "U2 UniData with Low-code AI: UOFast + VectorShift RAG Integration",
+  "link": "https://dev.to/kurtmultivaluedev/u2-unidata-with-low-code-ai-uofast-vectorshift-rag-integration-mh8",
+  "summary": "This Dev.to article presents a project that integrates legacy UniData (U2) systems with modern AI using the UOFast Python library and the VectorShift low-code Retrieval-Augmented Generation (RAG) platform. UOFast extracts and flattens MultiValue data from UniData, which is then indexed in VectorShift to power a GPT-based chatbot capable of natural language queries over the legacy data. The solution demonstrates how to modernize MultiValue databases without disruption, enabling tasks such as record search, Q&A on business data, and report summarization. Future enhancements include real-time sync, program generation, and auto-API conversion. The work targets enterprise developers looking to bring legacy systems into AI-driven workflows.",
+  "author": "",
+  "publication_date": "",
+  "keywords": [
+    "UOFast",
+    "VectorShift",
+    "UniData",
+    "Retrieval-Augmented Generation",
+    "legacy system integration"
+  ]
+}

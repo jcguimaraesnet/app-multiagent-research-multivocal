@@ -1,0 +1,16 @@
+{
+  "title": "Optimizing Large Language Models’ Performance in Software Development Tasks through Structured Prompts",
+  "link": "https://doi.org/10.37394/232018.2025.13.42",
+  "abstract": "-Recent advancements in Large Language Models (LLMs) have demonstrated significant potential in code generation and various software development tasks. However, achieving optimal outputs from these models remains challenging, particularly when relying on unstructured prompts. Our empirical investigation examines the efficacy of systematically organized prompting frameworks within computational problem-solving contexts. Through methodical evaluation of 400 distinct programming challenges (300 curated from LeetCode and 100 practical implementation scenarios), we demonstrate measurable improvements in machine-generated solutions when employing structured prompting architectures. Quantitative analysis reveals substantial performance enhancements, with structured approaches yielding 27.1% greater solution accuracy and 21.0% higher code quality metrics compared to conventional direct prompting. Notably, our tripartite methodology integrating sequential task decomposition, contextual enrichment, and iterative refinement mechanisms achieved peak performance levels (92.4% accuracy, 93.1% code quality score). These findings inform practical guidelines for optimizing language model interactions in software engineering workflows. © 2025, World Scientific and Engineering Academy and Society. All rights reserved.",
+  "keywords": [
+    "AI-Assisted Programming",
+    "Large Language Models",
+    "Performance Optimization",
+    "Prompt Engineering",
+    "Software Development",
+    "Structured Prompts"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "World Scientific and Engineering Academy and Society"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - cline/cline: Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+  "link": "https://github.com/cline/cline",
+  "summary": "Cline is an open-source autonomous coding agent available as an SDK, IDE extension (VS Code, JetBrains), CLI, and multi-agent Kanban board. It edits code across entire projects, monitors linter/compiler errors, runs bash commands, and supports Plan/Act modes with human-in-the-loop approval. The agent works with various large language model providers (Anthropic, OpenAI, Gemini, local models) and can be extended through plugins and MCP servers. Cline also supports headless operation for CI/CD pipelines, scheduled agents, and multi-agent team coordination, making it a comprehensive tool for AI-assisted software construction.",
+  "author": "Cline Bot Inc.",
+  "publication_date": "",
+  "keywords": [
+    "Cline",
+    "coding agent",
+    "IDE extension",
+    "autonomous coding",
+    "LLM"
+  ]
+}

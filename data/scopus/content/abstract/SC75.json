@@ -1,0 +1,16 @@
+{
+  "title": "Generating vulnerability security fixes with Code Language Models",
+  "link": "https://doi.org/10.1016/j.infsof.2025.107786",
+  "abstract": "Existing Code Language Models (CLM) have demonstrated significant potential in several coding tasks, including automated code generation in software engineering. Similarly, Automated Program Repair (APR) has shown considerable progress in addressing general software vulnerabilities, yet its application utilizing the recently developed CLM remains unexplored. In this paper, we introduce Patch Language Model (PatchLM), a novel CLM fine-tuned to fix security vulnerabilities in code blocks retrieved from commit hunks associated with Common Vulnerabilities and Exposures (CVE) records. Our proposed model leverages CLM to understand secure coding practices and generate accurate patches. The study aims to address the diverse nature of security flaws across multiple programming languages. Our experimental evaluation demonstrated that PatchLM significantly outperforms the baseline CodeT5 and CodeLlama models in generating effective security patches, as reflected in the performance metrics. Specifically, PatchLM achieves improvements of up to 48.35% in CodeBLEU and 28.9% in ROUGE scores compared to the baseline models. Our study demonstrates the practicality and significance of PatchLM in generating vulnerability repairs, providing valuable support for under-resourced security analysts, and paving the way for future research in automated vulnerability fixing with CLM. © 2025 The Authors",
+  "keywords": [
+    "Automated program repair",
+    "Code Language Models",
+    "Large language models",
+    "Patch generation",
+    "Security vulnerability",
+    "Source code"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Elsevier B.V."
+}

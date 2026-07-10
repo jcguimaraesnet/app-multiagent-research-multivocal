@@ -1,0 +1,14 @@
+{
+  "title": "What is AI code refactoring?",
+  "link": "https://graphite.com/guides/what-is-ai-code-refactoring",
+  "summary": "This guide from Graphite provides an overview of AI code refactoring, defining it as the use of artificial intelligence to improve code structure without altering external behavior. It explains the benefits, such as time savings, consistency, and reduced technical debt, and describes how AI tools typically parse code into an abstract syntax tree to apply improvements. The article surveys several AI tools for refactoring, including Graphite (for PR management), CodiumAI, Sourcegraph Cody, and Refact.ai, comparing their key strengths and ideal use cases. It also offers guidance on when AI refactoring is most effective, such as cleaning legacy code or maintaining consistency across teams.",
+  "author": "Greg Foster",
+  "publication_date": "",
+  "keywords": [
+    "AI code refactoring",
+    "automated refactoring",
+    "code quality",
+    "developer tools",
+    "Graphite"
+  ]
+}

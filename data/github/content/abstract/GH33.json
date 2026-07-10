@@ -1,0 +1,14 @@
+{
+  "title": "ahyatt/llm: A package abstracting llm capabilities for emacs.",
+  "link": "https://github.com/ahyatt/llm",
+  "summary": "The 'llm' package for Emacs provides a unified interface for interacting with Large Language Models (LLMs). It supports chat, embeddings, tool use, and streaming across multiple providers such as OpenAI, Claude, Ollama, and others. The library integrates into Emacs applications, enabling AI-powered coding assistance, commit message generation, and text transformation. It abstracts provider-specific details, allowing developers to write provider-agnostic LLM integrations. The package is actively maintained and distributed via GNU ELPA.",
+  "author": "Andrew Hyatt",
+  "publication_date": "2026-06-24",
+  "keywords": [
+    "Emacs",
+    "LLM",
+    "library",
+    "tool use",
+    "coding assistance"
+  ]
+}

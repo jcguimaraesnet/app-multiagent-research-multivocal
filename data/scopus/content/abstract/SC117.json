@@ -1,0 +1,15 @@
+{
+  "title": "Practical Application of AI and Large Language Models in Software Engineering Education",
+  "link": "https://doi.org/10.14569/IJACSA.2024.0150168",
+  "abstract": "Subjects with limited application in the software industry like AI have recently received tremendous boon due to the development and raise of publicity of LLMs. LLM-powered software has a wide array of practical applications that must be taught to Software Engineering students, so that they can be relevant in the field. The speed of technological change is extremely fast, and university curriculums must include those changes. Renewing and creating new methodologies and workshops is a difficult task to complete successfully in such a dynamic environment full of cutting-edge technologies. This paper aims to showcase our approach to using LLM-powered software for AI generated images, like Stable diffusion and code generation tools like ChatGPT in workshops for two relevant subjects - Analysis of Software Requirements and Specifications, as well as Artificial Intelligence. A comparison between the different available LLMs that generate images is made, and the choice between them is explained. Student feedback is shown and a general positive and motivational impact is noted during and after the workshop. A brief introduction that covers the subjects where AI is applied is made. The proposed solutions for several uses of AI in the field of higher education, more specifically software engineering, are presented. Several workshops have been made and included in the curriculum. The results of their application have been noted and an analysis is made. More propositions on further development based on the gained experience, feedback and retrieved data are made. Conclusions are made on the application of AI in higher education and different ways to utilize such tools are presented. © (2024), (Science and Information Organization). All Rights Reserved.",
+  "keywords": [
+    "AI generated images",
+    "Application of AI-powered software",
+    "higher education",
+    "software engineering",
+    "stable diffusion"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Science and Information Organization"
+}

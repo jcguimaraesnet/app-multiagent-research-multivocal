@@ -1,0 +1,19 @@
+{
+  "title": "AI-Driven Refactoring: Semantic Reconstruction of Domain Models Using LLM Reasoning",
+  "link": "https://doi.org/10.14569/issn.2156-5570",
+  "abstract": "—This study examines the application of large language models (LLMs) for automating domain layer reconstruction in legacy systems, with a specific focus on a case study involving water consumption management. The process begins with a deliberately disordered JSON representation that conflates domain, application, and infrastructure issues. An LLM, specifically GPT-5.2, was employed to identify misplaced methods, inconsistent naming, DTO misuse, incoherent aggregates, and unrelated modules, and subsequently reorganize the model into a structure aligned with Domain-Driven Design (DDD). The structure includes entities, value objects, aggregates, domain services, domain events, and repositories. The methodology involves encoding the legacy model as JSON, applying an LLM-based diagnosis and reconstruction pipeline, and producing both a refined domain model and a categorized catalogue of corrections. A comparative analysis of candidate LLMs, informed by recent code-centric benchmarks, such as SWE-bench and LiveCodeBench, supports the selection of GPT-5.2 as the primary model for this study. The findings indicate that the LLM can swiftly recover key domain concepts and achieve semantically consistent refactoring, a task that typically requires extensive manual effort. This suggests that LLM-assisted domain reconstruction is a promising adjunct to traditional refactoring practices and can facilitate continuous architectural improvements in organizations. © (2026), (Science and Information Organization). All rights reserved.",
+  "keywords": [
+    "AI-assisted software engineering",
+    "AI-driven software refactoring legacy systems modernization",
+    "architecture reconstruction",
+    "domain layer reconstruction",
+    "GPT",
+    "Keywords—Domain-Driven Design",
+    "large language models",
+    "LLM",
+    "semantic code analysis"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Science and Information Organization"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "MINDS: An NLP-Driven Process Mining Framework for Superior Microservices Decomposition",
+  "link": "https://doi.org/10.1109/ACCESS.2025.3639460",
+  "abstract": "The decomposition of monolithic applications into microservice architectures is one of the most challenging tasks in modern software engineering, requiring architects to balance functional cohesion, minimize coupling, and preserve business logic integrity. Existing approaches rely on static analysis or single-dimensional criteria, failing to leverage business domain semantics and behavioral insights from system execution. This paper introduces the Microservices Identification through Natural language and Dynamic Sequence analysis (MINDS) framework, a novel approach that integrates inductive mining with natural language processing to achieve superior automated microservice decomposition. MINDS functions via a five-phase pipeline: input data are loaded by extracting user traces using our algorithm to build an event log. Natural Language Processing (NLP) preprocessing employs semantic classification to discern business domain concepts and categorize activities based on functional relationships; inductive mining derives behavioral models from event logs within each domain cluster; post-processing examines process trees to pinpoint optimal decomposition points according to structural complexity and quality metrics; and documentation generation creates detailed microservice specifications encompassing Business Process Model and Notation (BPMN) models and Application Programming Interface (API) definitions. We evaluated MINDS for four applications using event logs with 6,000 activities each. MINDS effectively outperformed the prominent approaches for all the quality parameters. The cohesion scores, coupling metrics, and process mining quality metrics exceeded the thresholds for fitness and precision scores. MINDS enhances automated microservices decomposition through methodological innovation and superior empirical performance. The combination of process mining and natural language processing facilitates the discovery of service boundaries that align with the execution patterns and business domain concepts. © 2013 IEEE.",
+  "keywords": [
+    "automated refactoring",
+    "business processes",
+    "Microservices extraction",
+    "monolith decomposition",
+    "natural language processing",
+    "performance evaluation",
+    "process mining"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Institute of Electrical and Electronics Engineers Inc."
+}

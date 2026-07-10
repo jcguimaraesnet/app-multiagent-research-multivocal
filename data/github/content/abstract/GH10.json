@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - MiniMax-AI/MiniMax-M2.7",
+  "link": "https://github.com/MiniMax-AI/MiniMax-M2.7",
+  "summary": "The GitHub repository introduces MiniMax-M2.7, a large language model developed by MiniMax-AI that participates in its own evolution by autonomously optimizing programming scaffolds, achieving a 30% performance improvement. It excels in professional software engineering tasks such as log analysis, bug fixing, refactoring, and multi-agent collaboration through native Agent Teams. The model achieves strong results on coding benchmarks including SWE-Pro (56.22%), SWE Multilingual (76.5), and Multi SWE Bench (52.7), and supports local deployment via SGLang, vLLM, and Transformers.",
+  "author": "MiniMax-AI",
+  "publication_date": "2026-04-14",
+  "keywords": [
+    "MiniMax-M2.7",
+    "code generation",
+    "self-evolution",
+    "agent teams",
+    "software engineering"
+  ]
+}

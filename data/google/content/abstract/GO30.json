@@ -1,0 +1,14 @@
+{
+  "title": "Agentic Refactoring: An Empirical Study of AI Coding Agents",
+  "link": "https://arxiv.org/abs/2511.04824",
+  "summary": "This paper presents a large-scale empirical study on the use of AI coding agents (like OpenAI Codex, Claude Code, and Cursor) for automated code refactoring in real-world open-source Java projects. The analysis covers 15,451 refactoring instances and reveals that refactoring is a common and intentional activity for these agents, appearing in 26.1% of commits. The study finds that agentic refactoring focuses predominantly on localized, consistency-oriented edits such as renaming variables and parameters, differing from the high-level design changes typical of human refactoring, with motivations centered on maintainability and readability. Quantitative evaluation shows that these agentic refactorings yield small but statistically significant improvements in structural code quality metrics, particularly reducing class size and complexity for medium-level changes.",
+  "author": "Kosei Horikawa, Hao Li, Yutaro Kashiwa, Bram Adams, Hajimu Iida, Ahmed E. Hassan",
+  "publication_date": "2025-11-06",
+  "keywords": [
+    "AI coding agents",
+    "agentic refactoring",
+    "code quality",
+    "software engineering",
+    "empirical study"
+  ]
+}

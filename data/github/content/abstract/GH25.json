@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - FlightVin/automated-refactoring: LLM based workflow that opens pull requests based on detected design smells",
+  "link": "https://github.com/FlightVin/automated-refactoring",
+  "summary": "This GitHub repository presents an LLM-based automated refactoring pipeline that periodically scans a codebase for design smells using tools like Checkstyle and then uses large language models to generate refactored code. The system automatically creates pull requests with the refactored changes, including details on detected smells and applied techniques. The workflow is triggered by a cron job running a Python script.",
+  "author": "FlightVin (Vineeth Bhat)",
+  "publication_date": "2024-02-23",
+  "keywords": [
+    "automated refactoring",
+    "design smell detection",
+    "LLM",
+    "pull request generation",
+    "Checkstyle"
+  ]
+}

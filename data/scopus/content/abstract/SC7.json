@@ -1,0 +1,18 @@
+{
+  "title": "VC-AWG: A Vibe Coding–based method for Automated Website Generation from heterogeneous artifacts",
+  "link": "https://doi.org/10.1016/j.cola.2026.101403",
+  "abstract": "Vibe coding is an emerging software engineering paradigm in which developers express high-level intent while large language models (LLMs) generate code. This paper proposes VC-AWG (Vibe Coding-based Automated Website Generation), a method for systematically generating complete website functionalities from heterogeneous artifacts, including use case specifications, Figma-based user interface (UI) designs, API contracts, a predefined codebase, and coding rules. VC-AWG leverages LLMs’ ability to interpret structured specifications and design-related inputs — such as layout, color, style, and links — and to produce code in a controlled format. The method adopts a two-phase workflow: first, constructing structured coding prompts from use cases, UI designs, and API contracts; second, synthesizing source code based on these prompts, the existing codebase, and coding rules. Experiments on a Personal Financial Management website show that VC-AWG reduces development time to an average of 21.1 min per use case, achieving a 97.3% reduction compared to manual programming, demonstrating its effectiveness and scalability. © 2026 Elsevier Ltd",
+  "keywords": [
+    "API contract",
+    "Codebase",
+    "Coding rules",
+    "Source code generation",
+    "UI design",
+    "Use case specification",
+    "Vibe coding",
+    "Website generation"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Elsevier Ltd"
+}

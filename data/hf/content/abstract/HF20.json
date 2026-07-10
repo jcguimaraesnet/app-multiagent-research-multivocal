@@ -1,0 +1,27 @@
+{
+  "title": "PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback",
+  "link": "https://huggingface.co/papers/2307.14936",
+  "abstract": "Large Language Models for Code (Code LLM) are flourishing. New and powerful models are released on a weekly basis, demonstrating remarkable performance on the code generation task. Various approaches have been proposed to boost the code generation performance of pre-trained Code LLMs, such as supervised fine-tuning, instruction tuning, reinforcement learning, etc. In this paper, we propose a novel RRTF (Rank Responses to align Test&Teacher Feedback) framework, which can effectively and efficiently boost pre-trained large language models for code generation. Under this framework, we present PanGu-Coder2, which achieves 62.20% pass@1 on the OpenAI HumanEval benchmark. Furthermore, through an extensive evaluation on CoderEval and LeetCode benchmarks, we show that PanGu-Coder2 consistently outperforms all previous Code LLMs.",
+  "authors": [
+    "Bo Shen",
+    "Jiaxin Zhang",
+    "Taihong Chen",
+    "Daoguang Zan",
+    "Bing Geng",
+    "An Fu",
+    "Muhan Zeng",
+    "Ailun Yu",
+    "Jichuan Ji",
+    "Jingyang Zhao",
+    "Yuenan Guo",
+    "Qianxiang Wang"
+  ],
+  "publication_date": "2023-07-27T15:28:29Z",
+  "pdf_link": "https://arxiv.org/pdf/2307.14936v1",
+  "keywords": [
+    "RRTF",
+    "PanGu-Coder2",
+    "code generation",
+    "large language models"
+  ]
+}

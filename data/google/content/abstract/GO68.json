@@ -1,0 +1,14 @@
+{
+  "title": "codefuse-ai/Awesome-Code-LLM",
+  "link": "https://github.com/codefuse-ai/awesome-code-llm",
+  "summary": "This repository is a curated list of research papers, models, datasets, and benchmarks on language models for code, accompanying the TMLR survey 'Unifying the Perspectives of NLP and Software Engineering: A Survey on Language Models for Code'. It organizes resources across topics such as base models, pretraining strategies, instruction tuning, reinforcement learning, downstream tasks (code generation, program repair, test generation, etc.), and analysis of AI-generated code. The repository does not present a standalone solution but serves as a comprehensive reference for researchers and practitioners in the field of code intelligence and software engineering.",
+  "author": "codefuse-ai",
+  "publication_date": "2026-05-20",
+  "keywords": [
+    "Code LLMs",
+    "Survey",
+    "Software Engineering",
+    "Code Generation",
+    "NLP"
+  ]
+}

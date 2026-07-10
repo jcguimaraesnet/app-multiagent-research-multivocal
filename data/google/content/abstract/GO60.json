@@ -1,0 +1,14 @@
+{
+  "title": "Training Large Language Models for System-Level Test Program Generation Targeting Non-functional Properties",
+  "link": "https://ieeexplore.ieee.org/document/10567741/",
+  "summary": "This paper proposes using Large Language Models (LLMs) for System-Level Test (SLT) program generation targeting non-functional properties of integrated circuits. The authors fine-tune a pre-trained LLM using Reinforcement Learning in conjunction with the Gem5 microarchitectural simulator to generate C code snippets. The goal is to automate the creation of test programs that optimize non-functional aspects like instructions per cycle, thereby addressing the manual and laborious nature of current SLT practices.",
+  "author": "Denis Schwachhofer; Peter Domanski; Steffen Becker; Stefan Wagner; Matthias Sauer; Dirk Pflüger",
+  "publication_date": "2024-06-26",
+  "keywords": [
+    "Large Language Models",
+    "System-Level Test",
+    "program generation",
+    "non-functional properties",
+    "Reinforcement Learning"
+  ]
+}

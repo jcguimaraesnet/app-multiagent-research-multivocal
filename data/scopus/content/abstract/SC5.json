@@ -1,0 +1,14 @@
+{
+  "title": "DecIR: Enhancing LLM-based LLVM IR decompilation through program analysis",
+  "link": "https://doi.org/10.1016/j.scico.2026.103512",
+  "abstract": "Decompilation serves as a fundamental technique in software reverse engineering by reconstructing source code from compiled binaries. Although extensively studied, traditional rule-based decompilers often produce outputs with limited readability due to inherent algorithmic constraints. Recent advances in large language models (LLMs) have demonstrated promising potential for code generation tasks, leading to their adoption in decompilation. However, while LLM-based decompilation shows notable effectiveness, it introduces new reliability challenges concerning compilation feasibility and semantic consistency with the original program behavior. This study investigates how to enhance the reliability of LLM-based decompilation through systematic integration with program analysis techniques. We present DecIR, a novel decompilation framework that targets LLVM IR (Low-Level Virtual Machine Intermediate Representation). Our methodology follows a three-phase approach: (1) initial decompilation using LLMs, (2) automated compilation error correction through iterative repair mechanisms, and (3) semantic consistency verification via symbolic execution. Experimental results demonstrate that DecIR significantly improves both compilation success rates and semantic preservation compared to baseline decompilation approaches. The findings confirm that combining LLMs with formal program analysis techniques effectively mitigates reliability issues in neural decompilation. This hybrid paradigm not only enhances the practical viability of LLM-based decompilation but also suggests broader applicability for software engineering tasks that require reliable code transformation. © 2026 Elsevier B.V.",
+  "keywords": [
+    "Large language models",
+    "LLVM IR",
+    "Neural decompilation",
+    "Symbolic execution"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Elsevier B.V."
+}

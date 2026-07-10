@@ -1,0 +1,14 @@
+{
+  "title": "State of Deep Learning for Code Generation (DL4Code)",
+  "link": "https://victordibia.com/blog/deep-learning-code-generation/",
+  "summary": "This blog post provides a curated, state-of-the-art overview of deep learning models for code generation, also referred to as program synthesis. It highlights the integration of large language models, such as those powering GitHub Copilot, into developer productivity tools. The post lists key papers and associated model architectures published up to April 2022, including InCoder, PaLM, CodeGen, PolyCoder, AlphaCode, and Codex. It serves as a running catalogue of significant recent results and datasets in the deep learning for code generation domain.",
+  "author": "Victor Dibia",
+  "publication_date": "2022-04-23",
+  "keywords": [
+    "code generation",
+    "deep learning",
+    "large language models",
+    "program synthesis",
+    "survey"
+  ]
+}

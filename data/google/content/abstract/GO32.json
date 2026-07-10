@@ -1,0 +1,14 @@
+{
+  "title": "Introducing AI Generated Code Refactoring",
+  "link": "https://codescene.com/blog/ai-coding-assistant-introducing-ai-generated-code-refactoring",
+  "summary": "This blog post by CodeScene introduces their AI Generated Code Refactoring tool and a Beta testing program. It highlights a proprietary generative AI coding assistant that is designed to automate refactoring tasks for existing code, an area the authors state is underserved by current AI tools that focus on writing new code. The solution claims up to 97% accuracy by using a secondary AI to fact-check and reject incorrect code generations. This is based on a benchmark study which found that current LLMs achieve a 37% success rate on such tasks, while their augmented method achieves 98% functionally correct refactorings. The tool is integrated with CodeScene's Code Health Analysis to identify and prioritize refactoring targets, with the goal of mitigating technical business-impacting debt and improving overall code quality and maintainability.",
+  "author": "CodeScene Team",
+  "publication_date": "2025-09-22",
+  "keywords": [
+    "AI Coding Assistant",
+    "automated refactoring",
+    "technical debt",
+    "code quality",
+    "CodeScene"
+  ]
+}

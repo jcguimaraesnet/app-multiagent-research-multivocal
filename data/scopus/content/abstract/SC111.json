@@ -1,0 +1,14 @@
+{
+  "title": "StructCoder: Structure-Aware Transformer for Code Generation",
+  "link": "https://doi.org/10.1145/3636430",
+  "abstract": "There has been a recent surge of interest in automating software engineering tasks using deep learning. This article addresses the problem of code generation, in which the goal is to generate target code given source code in a different language or a natural language description. Most state-of-the-art deep learning models for code generation use training strategies primarily designed for natural language. However, understanding and generating code requires a more rigorous comprehension of the code syntax and semantics. With this motivation, we develop an encoder-decoder Transformer model in which both the encoder and decoder are explicitly trained to recognize the syntax and dataflow in the source and target codes, respectively. We not only make the encoder structure aware by leveraging the source code's syntax tree and dataflow graph, but we also support the decoder in preserving the syntax and dataflow of the target code by introducing two novel auxiliary tasks: Abstract Syntax Tree (AST) path prediction and dataflow prediction. To the best of our knowledge, this is the first work to introduce a structure-aware Transformer decoder that models both syntax and dataflow to enhance the quality of generated code. The proposed StructCoder model achieves state-of-the-art performance on code translation and text-to-code generation tasks in the CodeXGLUE benchmark and improves over baselines of similar size on the APPS code generation benchmark. Our code is publicly available at https://github.com/reddy-lab-code-research/StructCoder/.  © 2024 Copyright held by the owner/author(s).",
+  "keywords": [
+    "Additional Key Words and PhrasesDeep learning",
+    "code generation",
+    "language models",
+    "Transformer"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Association for Computing Machinery"
+}

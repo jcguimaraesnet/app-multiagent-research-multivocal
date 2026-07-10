@@ -1,0 +1,14 @@
+{
+  "title": "Applied Generative AI Specialization | Microsoft Gen AI Course",
+  "link": "https://microsoft.simplilearn.com/applied-gen-ai-course",
+  "summary": "This source describes the 'Applied Generative AI Specialization,' a 16-week online training program jointly offered by Microsoft and Simplilearn. The program covers foundational to advanced generative AI topics, including large language models, prompt engineering, LangChain, retrieval-augmented generation (RAG), agentic AI frameworks, Model Context Protocol (MCP), and image generation with Stable Diffusion. It emphasizes hands-on learning through over seven real-world projects and a capstone, aiming to equip learners with skills to build generative AI applications using tools like Microsoft Copilot, Azure AI Studio, and Claude Code. While not a specific software construction tool, the program teaches coding and AI application development techniques.",
+  "author": "Microsoft and Simplilearn",
+  "publication_date": "",
+  "keywords": [
+    "Applied Generative AI",
+    "Agentic AI",
+    "Claude Code",
+    "Microsoft Copilot",
+    "LangChain"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "AST-guided transformers for sustainable and reliable UML modeling",
+  "link": "https://doi.org/10.1016/j.mlwa.2026.100940",
+  "abstract": "The manual conversion of natural language software requirements into Unified Modeling Language (UML) class diagrams is often labor-intensive, dependent on expert knowledge, and susceptible to human error within the requirements engineering process. Inefficiencies and inconsistencies introduced during this early design phase can lead to expensive revisions later in development, ultimately affecting the sustainability and long-term maintainability of software systems. To address this challenge, this study presents a neural-based framework that formulates UML diagram generation as a structured machine translation task, aiming to support more reliable and sustainable model-driven engineering practices. In this work, two transformer-based approaches are proposed: a Sequence-to-Sequence (Seq2Seq) model designed for direct diagram code generation, and a Sequence-to- Abstract-Syntax-Tree (Seq2AST) model that incorporates syntactic constraints to ensure structural correctness while maintaining the intended semantics. To mitigate the limited availability of annotated training data, a multi-task learning strategy is introduced, which simultaneously performs UML element extraction and context-aware recommendation of reusable design patterns derived from a large repository of existing diagrams. Integrating structural constraints with reusable design knowledge enhances modeling consistency, promotes reusability, and supports improved long-term design quality. Experimental results indicate that the proposed framework achieves accuracy comparable to general-purpose large language models while offering greater determinism and stronger domain alignment. Furthermore, it operates with significantly lower computational requirements, contributing to a more energy-efficient and sustainable integration of artificial intelligence within software engineering workflows. To support transparency, reproducibility, and continued research in AI-driven systems engineering, all datasets and experimental artifacts used in this study have been made publicly available. © 2026 The Authors.",
+  "keywords": [
+    "Class diagrams generation",
+    "Model-driven development",
+    "NLP transformer",
+    "Requirement analysis"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Elsevier Ltd"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "SMELLCC: LLM-based Code Smell Refactoring",
+  "link": "https://github.com/Tdcq14/vscode-smellcc",
+  "summary": "This GitHub repository presents SMELLCC, a VS Code extension that leverages Large Language Models (LLMs) to automatically refactor the top 10 most frequent Python code smells detected by SonarLint. It integrates Chain-of-Thought (CoT) prompting with models such as DeepSeek and OpenAI to generate context-aware fixes. The tool is the prototype system for the paper 'Clean Code, Better Models: Enhancing LLM Performance with Smell-Cleaned Dataset' and provides native Quick Fix integration via VS Code's lightbulb interface. Supported smells include long parameter lists, dead code, collapsible if statements, high cognitive complexity, and others.",
+  "author": "Tdcq14",
+  "publication_date": "2025-12-04",
+  "keywords": [
+    "SMELLCC",
+    "code smell refactoring",
+    "Large Language Model",
+    "VS Code extension",
+    "SonarLint"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Genentech/opentreesearch: LLM-Guided Code Evolution",
+  "link": "https://github.com/Genentech/opentreesearch",
+  "summary": "Open Tree Search is a PUCT-based tree search algorithm for LLM-guided code evolution, built on top of OpenEvolve. It replaces the many hyperparameters of island evolution with a single exploration constant that performs well out of the box. The implementation follows the appendix of a Google Research paper on AI for empirical software. The repository provides examples of function minimization and circle packing, and tools for visualizing the search tree. It is released as open source under Apache 2.0 by Genentech.",
+  "author": "Genentech",
+  "publication_date": "2025-12-10",
+  "keywords": [
+    "tree search",
+    "PUCT",
+    "LLM-guided code evolution",
+    "OpenEvolve",
+    "code optimization"
+  ]
+}

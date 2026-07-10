@@ -1,0 +1,14 @@
+{
+  "title": "HAFix: history-augmented large language models for bug fixing",
+  "link": "https://doi.org/10.1007/s10664-026-10833-3",
+  "abstract": "Recent studies have explored the performance of Large Language Models (LLMs) on various Software Engineering (SE) tasks, such as code generation and bug fixing. However, these approaches typically rely on the context data from the current snapshot of the project, overlooking the potential of rich historical data residing in real-world software repositories. Additionally, the impact of prompt styles on LLM performance for SE tasks within a historical context remains underexplored. To address these gaps, we propose HAFix, which stands for History-Augmented LLMs on Bug Fixing, a novel approach that leverages seven individual historical heuristics associated with bugs and aggregates the results of these heuristics (HAFix-Agg) to enhance LLMs’ bug-fixing capabilities. To empirically evaluate HAFix, we employ three Code LLMs (i.e., Code Llama, DeepSeek-Coder and DeepSeek-Coder-V2-Lite models) on 51 single-line Python bugs from BugsInPy and 116 single-line Java bugs from Defects4J. Our evaluation demonstrates that multiple HAFix heuristics (e.g., FN-modified and FN-all on Defects4J) achieve statistically significant improvements with large effect sizes compared to a non-historical baseline inspired by GitHub Copilot. Furthermore, the aggregated HAFix variant HAFix-Agg achieves substantial improvements with large effect sizes by combining the complementary strengths of individual heuristics, increasing bug-fixing rates relatively by an average of 45.05% on BugsInPy and 49.92% on Defects4J relative to the corresponding baseline. Moreover, within the context of historical heuristics, we identify the Instruction prompt style as the most effective template compared to the InstructionLabel and InstructionMask for LLMs in bug fixing. Finally, we evaluate the cost of HAFix in terms of inference time and token usage, and provide a pragmatic trade-off analysis of the cost and bug-fixing performance, offering valuable insights for the practical deployment of our approach in real-world scenarios. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2026.",
+  "keywords": [
+    "Bug fixing",
+    "Large Language Model",
+    "LLM cost analysis",
+    "Software development history"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Springer"
+}

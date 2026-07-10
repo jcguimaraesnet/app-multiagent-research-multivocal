@@ -1,0 +1,14 @@
+{
+  "title": "A Comprehensive Study of LLM and Evolution, Varieties, and Their Role in Software Engineering and Cybersecurity",
+  "link": "https://www.preprints.org/manuscript/202507.1600",
+  "summary": "This preprint presents a comprehensive survey of Large Language Models (LLMs), tracing their evolution from early statistical models to modern transformer-based systems. It examines their architectures, training methods, and applications in software engineering, where LLMs assist in code generation, refactoring, debugging, requirement gathering, and documentation. The study also reviews their role in cybersecurity for threat detection and automated response. The paper discusses challenges such as hallucination, data privacy, and adversarial attacks, and outlines future research directions for reliable and ethical LLM deployment in software construction and security domains.",
+  "author": "Hossain Rasel, Abu Bakar Siddik Didar, Abdullah Al Mamun Dinar, Foisal Islam Fahad, Mohammed Al Junied Khan, Badiuzzaman Biplob",
+  "publication_date": "2025-07-18",
+  "keywords": [
+    "large language models",
+    "software engineering",
+    "code generation",
+    "transformer",
+    "cybersecurity"
+  ]
+}

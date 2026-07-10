@@ -1,0 +1,14 @@
+{
+  "title": "Symmetry-Aware Code Generation: Distilling Pseudocode Reasoning for Lightweight Deployment of Large Language Models",
+  "link": "https://doi.org/10.3390/sym17081325",
+  "abstract": "Code generation is a critical task in software engineering, enabling the automation of transforming natural language descriptions into executable code. Recent advancements in large language models (LLMs) have demonstrated their potential to significantly enhance code generation capabilities by leveraging complex reasoning processes. However, the large size of these models poses challenges for deployment in resource-constrained environments, as they require substantial computational resources and memory. The challenge lies in transferring the sophisticated problem-solving strategies of LLMs to smaller, more efficient models without sacrificing performance, while maintaining symmetry between the reasoning steps and final code generation. This task is further complicated by the need to preserve high code generation accuracy while reducing the resource demands of deployment. Although distillation methods have been proposed, efficiently transferring both the reasoning process and final code generation remains an underexplored area. In this work, we propose a novel distillation framework that extracts intermediate reasoning steps, such as pseudocode, from LLMs and transfers them to smaller models. Our approach enables smaller models to replicate the problem-solving strategies of larger models through a multi-task learning framework, which includes both pseudocode and code generation tasks, thus maintaining the symmetry between reasoning and output. We conducted comprehensive experiments on the CodeSearchNet dataset, comparing our distillation framework across four student models (Tranx, CodeT5, NatGen, and SPT-Code) distilled from four large language models (CodeLlama-7B, CodeQwen-7B, DeepSeek, and GPT-4). Results show that our approach consistently improves code generation performance, with the best case (CodeT5 distilled from GPT-4) achieving up to 74% improvement in Top-1 accuracy over the baseline. © 2025 by the authors.",
+  "keywords": [
+    "chain of thought",
+    "code generation",
+    "knowledge distill",
+    "large language models"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)"
+}

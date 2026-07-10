@@ -1,0 +1,19 @@
+{
+  "title": "AI-Powered Architecture Refactoring: From Legacy Systems to Modern Patterns An Initial Case Study with LLM and CQRS",
+  "link": "https://doi.org/10.14569/IJACSA.2025.0161251",
+  "abstract": "This study explores the integration of artificial intelligence (AI), especially large language models (LLMs), into software engineering, particularly the architecture refactoring process, focusing on automated command-query classification for legacy systems transitioning to the Command Query Responsibility Segregation (CQRS) pattern. We present Airchitect, a modular system. NET-based tools that orchestrate legacy code analysis, LLM-driven classification, CQRS artifact generation, and automated test creation are also available. Based on the CodeLlama model, Airchitect achieveda 16x–40x reduction in classification time compared to expert manual methods while maintaining over 85% classification accuracy. A test case involving N-tier legacy classes demonstrated the model’s ability to decompose and modularize the methods into CQRS-aligned components. Despite these gains, the study highlights key limitations: the need for human validation in complex or ambiguous cases, dependence on high-quality labeled datasets, and variability of legacy patterns that challenge rule-based automation. The results suggest that LLMs, when embedded in structured tools like Airchitect, can significantly accelerate modernizationworkflows—providedthey are used in tandem with expert oversight. © (2025), (Science and Information Organization). All rights reserved.",
+  "keywords": [
+    "AI-drivenrefactoring",
+    "Artificial intelligence",
+    "code-level refactoring",
+    "CodeSearchNet",
+    "CQRS",
+    "legacy systems, command and query responsibility segregation",
+    "LLM",
+    "software architecture refactoring",
+    "software engineering"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Science and Information Organization"
+}

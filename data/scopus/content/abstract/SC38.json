@@ -1,0 +1,15 @@
+{
+  "title": "Interactive LLM Agent Review for Software Engineering Artifacts",
+  "link": "https://doi.org/10.1080/08874417.2026.2650523",
+  "abstract": "Large language model (LLM)-based agents are increasingly used in software engineering, yet the quality of generated artifacts, particularly complex graphical models, remains inconsistent and often below professional standards. Most existing approaches are limited to code generation and testing, providing little support for broader engineering tasks. This paper proposes an interactive review collaboration approach in which task-specialized LLM agents iteratively exchange feedback to refine artifacts across the development lifecycle. We evaluate this approach against non-interactive pipelines using a validity metric across three case studies: Tour Online Reservation System, Smart Wallet System, and Food Order and Delivery System. Results show that interactive collaboration improves artifact validity by an average of 41.26%, with gains in domain modeling (31.03%), sequence diagrams (72.73%), class diagrams (65.63%), implementation (462.5%), and testing (76.67%). The results demonstrate robust, cross-domain benefits, highlighting interactive collaboration as an effective way to mitigate LLM limitations, though performance varies by task and domain. © 2026 International Association for Computer Information Systems.",
+  "keywords": [
+    "interactive agents",
+    "Large language models",
+    "multi-agent systems",
+    "software artifact quality",
+    "software engineering automation"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Taylor and Francis Ltd."
+}

@@ -1,0 +1,13 @@
+{
+  "title": "A survey on the application of large language models in software engineering",
+  "link": "https://doi.org/10.20537/2076-7633-2024-16-7-1715-1726",
+  "abstract": "Large Language Models (LLMs) are transforming software engineering by bridging the gap between natural language and programming languages. These models have revolutionized communication within development teams and the Software Development Life Cycle (SDLC) by enabling developers to interact with code using natural language, thereby improving workflow efficiency. This survey examines the impact of LLMs across various stages of the SDLC, including requirement gathering, system design, coding, debugging, testing, and documentation. LLMs have proven to be particularly useful in automating repetitive tasks such as code generation, refactoring, and bug detection, thus reducing manual effort and accelerating the development process. The integration of LLMs into the development process offers several advantages, including the automation of error correction, enhanced collaboration, and the ability to generate high-quality, functional code based on natural language input. Additionally, LLMs assist developers in understanding and implementing complex software requirements and design patterns. This paper also discusses the evolution of LLMs from simple code completion tools to sophisticated models capable of performing high-level software engineering tasks. However, despite their benefits, there are challenges associated with LLM adoption, such as issues related to model accuracy, interpretability, and potential biases. These limitations must be addressed to ensure the reliable deployment of LLMs in production environments. The paper concludes by identifying key areas for future research, including improving the adaptability of LLMs to specific software domains, enhancing their contextual understanding, and refining their capabilities to generate semantically accurate and efficient code. This survey provides valuable insights into the evolving role of LLMs in software engineering, offering a foundation for further exploration and practical implementation. © 2024 Institute of Computer Science Izhevsk. All rights reserved.",
+  "keywords": [
+    "large language model",
+    "natural language processing",
+    "software development life cycle"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Institute of Computer Science Izhevsk"
+}

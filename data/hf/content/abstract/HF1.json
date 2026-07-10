@@ -1,0 +1,24 @@
+{
+  "title": "CodeArena: A Collective Evaluation Platform for LLM Code Generation",
+  "link": "https://huggingface.co/papers/2503.01295",
+  "abstract": "Large Language Models (LLMs) have reshaped code generation by synergizing their exceptional comprehension of natural language and programming syntax, thereby substantially boosting developer productivity. These advancements have prompted numerous efforts to quantitatively evaluate their coding capabilities. However, persistent challenges, such as benchmark leakage, data dissipation, and limited system accessibility, continue to impede a timely and accurate assessment. To address these limitations, we introduce CodeArena, an online evaluation framework tailored for LLM code generation. The key innovation is a collective evaluation mechanism, which dynamically recalibrates individual model scores based on the holistic performance of all participating models, mitigating score biases caused by widespread benchmark leakage. In addition, CodeArena ensures open access to all submitted solutions and test cases and provides automation-friendly APIs to streamline the code evaluation workflow. Our main contributions are: (1) a collective evaluation system for unbiased assessment, (2) a public repository of solutions and test cases, and (3) automation-ready APIs for seamless integration.",
+  "authors": [
+    "Mingzhe Du",
+    "Anh Tuan Luu",
+    "Bin Ji",
+    "Xiaobao Wu",
+    "Dong Huang",
+    "Terry Yue Zhuo",
+    "Qian Liu",
+    "See-Kiong Ng"
+  ],
+  "publication_date": "2025-03-03T08:31:16Z",
+  "pdf_link": "https://arxiv.org/pdf/2503.01295v1",
+  "keywords": [
+    "CodeArena",
+    "code generation",
+    "collective evaluation",
+    "benchmark leakage",
+    "LLMs"
+  ]
+}

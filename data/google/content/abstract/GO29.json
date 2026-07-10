@@ -1,0 +1,14 @@
+{
+  "title": "AI code refactoring: Strategic approaches to enterprise software modernization in 2025",
+  "link": "https://getdx.com/blog/enterprise-ai-refactoring-best-practices/",
+  "summary": "This blog post examines enterprise AI code refactoring, which uses machine learning to automatically restructure and optimize existing code while preserving functionality. It outlines strategic implementation practices, including prioritizing high-impact components, establishing quality gates, training teams, and systematically measuring technical debt reduction. Real-world applications from financial services, healthcare, and e-commerce illustrate how phased, risk-managed approaches yield better outcomes. The post emphasizes that treating AI refactoring as an engineering discipline rather than a simple tool deployment leads to significant improvements in development velocity, code quality, and maintenance costs.",
+  "author": "GetDX",
+  "publication_date": "2025-06-24",
+  "keywords": [
+    "AI code refactoring",
+    "enterprise software modernization",
+    "technical debt",
+    "best practices",
+    "legacy systems"
+  ]
+}

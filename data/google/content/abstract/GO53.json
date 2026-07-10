@@ -1,0 +1,14 @@
+{
+  "title": "GenAssist: Interactive Prompt-Driven XR Program Generation",
+  "link": "https://www.youtube.com/watch?v=48YDX3rMR6U",
+  "summary": "GenAssist is a system that generates interactive Extended Reality (XR) programs from natural language prompts. It employs a closed-loop feedback mechanism using virtual cameras to iteratively evaluate and refine generated code, similar to human debugging. The system integrates Retrieval-Augmented Generation (RAG) to ground a large language model in platform-specific API documentation and example code, enabling real-time, hot-pluggable XR program creation. GenAssist supports object placement, animations, and user interactions. A correction LLM uses scene renderings, 3D coordinates, and code to fix errors. Evaluated on a diverse benchmark, it achieves higher accuracy and lower latency (24 seconds) than baselines, making XR development more accessible.",
+  "author": "Sruti S Srinidhi, Akul Singh, Edward Lu, Anthony Rowe",
+  "publication_date": "2026-03-16",
+  "keywords": [
+    "GenAssist",
+    "XR program generation",
+    "retrieval-augmented generation",
+    "closed-loop feedback",
+    "natural language programming"
+  ]
+}

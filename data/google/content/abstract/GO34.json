@@ -1,0 +1,14 @@
+{
+  "title": "Refactoring With AI — Thoughtworks Technology Podcast",
+  "link": "https://www.youtube.com/watch?v=Kx7eIYxKARk",
+  "summary": "This podcast episode discusses the challenges and opportunities of using AI for code refactoring. It highlights a white paper by CodeScene that found AI refactoring tools achieve only 37% functional correctness, but improvements with model selection and automated fact-checking can boost this to 90%. The participants, including CodeScene CTO Adam Tornhill and ThoughtWorks experts, explore code quality metrics, the business value of healthy code, and the importance of readability. They also address how AI coding assistants might change developer practices, emphasizing the need for robust testing and code reviews. The discussion includes CodeScene's beta automated refactoring tool that leverages these techniques.",
+  "author": "ThoughtWorks",
+  "publication_date": "2024-04-18",
+  "keywords": [
+    "AI refactoring",
+    "code quality",
+    "CodeScene",
+    "automated refactoring",
+    "ThoughtWorks podcast"
+  ]
+}

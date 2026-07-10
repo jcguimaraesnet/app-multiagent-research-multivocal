@@ -1,0 +1,14 @@
+{
+  "title": "codefuse-ai/Awesome-Code-LLM",
+  "link": "https://github.com/codefuse-ai/awesome-code-llm",
+  "summary": "Awesome-Code-LLM is a curated open-source repository that accompanies a TMLR survey paper on language models for code. It catalogs a comprehensive collection of research works covering pre-trained code models, downstream tasks (e.g., code generation, program repair, code translation, testing), datasets, and analysis studies. The repository serves as a reference guide for the research community and practitioners working on AI-driven software construction, but does not itself propose a new technical solution.",
+  "author": "codefuse-ai (Ant Group)",
+  "publication_date": "2024",
+  "keywords": [
+    "code-llm",
+    "survey",
+    "code-generation",
+    "software-engineering",
+    "datasets"
+  ]
+}

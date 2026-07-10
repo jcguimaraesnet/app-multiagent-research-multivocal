@@ -1,0 +1,514 @@
+{
+  "origin": "github",
+  "step": 1,
+  "retrieved_at": "2026-07-09T19:46:36.550206+00:00",
+  "queries": [
+    "site:github.com (\"Code Generation\" OR \"Code Writer\" OR \"Code Completion\") AND (\"Generative AI\" OR \"Generative Artificial Intelligence\" OR \"Generative Model*\" OR \"Large Language Model*\" OR \"Language Model*\" OR \"Small Language Model*\" OR \"LLM*\" OR \"RAG\" OR \"Retrieval Augmented Generation\" OR \"Natural Language Processing\" OR \"NLP\" OR \"AI Agent\" OR \"AI Multi-Agent\") AND (\"Application\" OR \"Technolog*\" OR \"Approach*\" OR \"Method*\" OR \"Tool*\" OR \"Framework*\" OR \"Solution*\" OR \"Strateg*\" OR \"Model*\" OR \"System*\" OR \"Platform*\" OR \"Technique*\") AND (\"Software Engineering\")",
+    "site:github.com (\"Code Evolution\" OR \"Refactoring\" OR \"Code Restructuring\") AND (\"Generative AI\" OR \"Generative Artificial Intelligence\" OR \"Generative Model*\" OR \"Large Language Model*\" OR \"Language Model*\" OR \"Small Language Model*\" OR \"LLM*\" OR \"RAG\" OR \"Retrieval Augmented Generation\" OR \"Natural Language Processing\" OR \"NLP\" OR \"AI Agent\" OR \"AI Multi-Agent\") AND (\"Application\" OR \"Technolog*\" OR \"Approach*\" OR \"Method*\" OR \"Tool*\" OR \"Framework*\" OR \"Solution*\" OR \"Strateg*\" OR \"Model*\" OR \"System*\" OR \"Platform*\" OR \"Technique*\") AND (\"Software Engineering\")",
+    "site:github.com (\"Code Reorganization\" OR \"Program Generation\" OR \"Program Writer\") AND (\"Generative AI\" OR \"Generative Artificial Intelligence\" OR \"Generative Model*\" OR \"Large Language Model*\" OR \"Language Model*\" OR \"Small Language Model*\" OR \"LLM*\" OR \"RAG\" OR \"Retrieval Augmented Generation\" OR \"Natural Language Processing\" OR \"NLP\" OR \"AI Agent\" OR \"AI Multi-Agent\") AND (\"Application\" OR \"Technolog*\" OR \"Approach*\" OR \"Method*\" OR \"Tool*\" OR \"Framework*\" OR \"Solution*\" OR \"Strateg*\" OR \"Model*\" OR \"System*\" OR \"Platform*\" OR \"Technique*\") AND (\"Software Engineering\")",
+    "site:github.com (\"Program Completion\" OR \"Program Evolution\") AND (\"Generative AI\" OR \"Generative Artificial Intelligence\" OR \"Generative Model*\" OR \"Large Language Model*\" OR \"Language Model*\" OR \"Small Language Model*\" OR \"LLM*\" OR \"RAG\" OR \"Retrieval Augmented Generation\" OR \"Natural Language Processing\" OR \"NLP\" OR \"AI Agent\" OR \"AI Multi-Agent\") AND (\"Application\" OR \"Technolog*\" OR \"Approach*\" OR \"Method*\" OR \"Tool*\" OR \"Framework*\" OR \"Solution*\" OR \"Strateg*\" OR \"Model*\" OR \"System*\" OR \"Platform*\" OR \"Technique*\") AND (\"Software Engineering\")"
+  ],
+  "count": 100,
+  "records": [
+    {
+      "id": "GH1",
+      "title": "GitHub Articles • Technical Guides, Developer Insights & Best Practices",
+      "link": "https://github.com/resources/articles"
+    },
+    {
+      "id": "GH2",
+      "title": "codefuse-ai/Awesome-Code-LLM",
+      "link": "https://github.com/codefuse-ai/awesome-code-llm"
+    },
+    {
+      "id": "GH3",
+      "title": "GitHub - sourcegraph/awesome-code-ai: A list of AI coding tools (assistants, completions, refactoring, etc.)",
+      "link": "https://github.com/sourcegraph/awesome-code-ai"
+    },
+    {
+      "id": "GH4",
+      "title": "A Survey on LLMs for Code Generation",
+      "link": "https://github.com/juyongjiang/CodeLLMSurvey"
+    },
+    {
+      "id": "GH5",
+      "title": "GitHub - InnerSourceCommons/InnerSourcePatterns: These patterns document how to apply open source principles and practices for software development within the confines of an organization - aka InnerSource.",
+      "link": "https://github.com/InnerSourceCommons/InnerSourcePatterns"
+    },
+    {
+      "id": "GH6",
+      "title": "GitHub - sapritanand/Code-Generation-using-LLM: This project extracts Python code from the OpenAI Gym GitHub repository, creates a dataset of functions, and fine-tunes a code generation model (codegen-350M-mono) using Hugging Face Transformers to generate new code snippets.",
+      "link": "https://github.com/sapritanand/Code-Generation-using-LLM"
+    },
+    {
+      "id": "GH7",
+      "title": "Spec-driven development with AI: Get started with a new open source toolkit",
+      "link": "https://resources.github.com/increasing-collaborative-development-with-ai/"
+    },
+    {
+      "id": "GH8",
+      "title": "GitHub - zed-industries/zed: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "link": "https://github.com/zed-industries/zed"
+    },
+    {
+      "id": "GH9",
+      "title": "GitHub - zai-org/CodeGeeX: CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)",
+      "link": "https://github.com/zai-org/CodeGeeX"
+    },
+    {
+      "id": "GH10",
+      "title": "GitHub - MiniMax-AI/MiniMax-M2.7",
+      "link": "https://github.com/MiniMax-AI/MiniMax-M2.7"
+    },
+    {
+      "id": "GH11",
+      "title": "Build software better, together",
+      "link": "https://github.com/marketplace/models"
+    },
+    {
+      "id": "GH12",
+      "title": "GitHub - jupyterlab/jupyter-ai: An open source extension that connects AI agents to computational notebooks in JupyterLab.",
+      "link": "https://github.com/jupyterlab/jupyter-ai"
+    },
+    {
+      "id": "GH13",
+      "title": "GitHub - microsoft/vscode-copilot-release: Feedback on GitHub Copilot Chat UX in Visual Studio Code.",
+      "link": "https://github.com/microsoft/vscode-copilot-release"
+    },
+    {
+      "id": "GH14",
+      "title": "DmitryNekrasov/ai-code-completion-idea-plugin",
+      "link": "https://github.com/DmitryNekrasov/ai-code-completion-idea-plugin"
+    },
+    {
+      "id": "GH15",
+      "title": "Vue",
+      "link": "https://github.com/orgs/vuejs"
+    },
+    {
+      "id": "GH16",
+      "title": "GitHub Community",
+      "link": "https://github.com/orgs/community"
+    },
+    {
+      "id": "GH17",
+      "title": "GitHub - microsoft/copilot-intellij-feedback: Feedback on GitHub Copilot for JetBrains IDEs.",
+      "link": "https://github.com/microsoft/copilot-intellij-feedback"
+    },
+    {
+      "id": "GH18",
+      "title": "GitHub - casadi/casadi: CasADi is a symbolic framework for numeric optimization implementing automatic differentiation in forward and reverse modes on sparse matrix-valued computational graphs. It supports self-contained C-code generation and interfaces state-of-the-art codes such as SUNDIALS, IPOPT etc. It can be used from C++, Python or Matlab/Octave.",
+      "link": "https://github.com/casadi/casadi"
+    },
+    {
+      "id": "GH19",
+      "title": "GitHub Copilot Certification",
+      "link": "https://learn.github.com/certification/COPILOT"
+    },
+    {
+      "id": "GH20",
+      "title": "Survey reveals AI's impact on the developer experience",
+      "link": "https://resources.github.com/webcasts/ai-developer-experience-research/"
+    },
+    {
+      "id": "GH21",
+      "title": "GitHub - LIANGQINGYUAN/awesome_codegeneration: A list of papers and resources dedicated to code generation",
+      "link": "https://github.com/LIANGQINGYUAN/awesome_codegeneration"
+    },
+    {
+      "id": "GH22",
+      "title": "Type-Constrained Code Generation with Language Models",
+      "link": "https://github.com/eth-sri/type-constrained-code-generation"
+    },
+    {
+      "id": "GH23",
+      "title": "GitHub - Genuitec/Copilot4Eclipse-community: The place for Copilot4Eclipse discussions",
+      "link": "https://github.com/Genuitec/Copilot4Eclipse-community"
+    },
+    {
+      "id": "GH24",
+      "title": "GitHub - VichyTong/CodeJudge: [EMNLP 2024] CodeJudge: Evaluating Code Generation with Large Language Models",
+      "link": "https://github.com/VichyTong/CodeJudge"
+    },
+    {
+      "id": "GH25",
+      "title": "GitHub - FlightVin/automated-refactoring: LLM based workflow that opens pull requests based on detected design smells",
+      "link": "https://github.com/FlightVin/automated-refactoring"
+    },
+    {
+      "id": "GH26",
+      "title": "GitHub - camilochs/pydaybcn2025-workshop-code-evolution: Code Evolution: Self-Improving Software with LLMs and Python.",
+      "link": "https://github.com/camilochs/pydaybcn2025-workshop-code-evolution"
+    },
+    {
+      "id": "GH27",
+      "title": "Genentech/opentreesearch: LLM-Guided Code Evolution",
+      "link": "https://github.com/Genentech/opentreesearch"
+    },
+    {
+      "id": "GH28",
+      "title": "DavidZWZ/Awesome-RAG-Reasoning",
+      "link": "https://github.com/DavidZWZ/Awesome-RAG-Reasoning"
+    },
+    {
+      "id": "GH29",
+      "title": "Large Language Models for Software Engineering",
+      "link": "https://github.com/iSEngLab/AwesomeLLM4SE"
+    },
+    {
+      "id": "GH30",
+      "title": "Refact.ai",
+      "link": "https://github.com/smallcloudai"
+    },
+    {
+      "id": "GH31",
+      "title": "GitHub - algorithmicsuperintelligence/openevolve: Open-source implementation of AlphaEvolve",
+      "link": "https://github.com/algorithmicsuperintelligence/openevolve"
+    },
+    {
+      "id": "GH32",
+      "title": "Foundation Models for Combinatorial Optimization",
+      "link": "https://github.com/ai4co/awesome-fm4co"
+    },
+    {
+      "id": "GH33",
+      "title": "ahyatt/llm: A package abstracting llm capabilities for emacs.",
+      "link": "https://github.com/ahyatt/llm"
+    },
+    {
+      "id": "GH34",
+      "title": "GitHub - DAMO-NLP-SG/CLEX: [ICLR 2024] CLEX: Continuous Length Extrapolation for Large Language Models",
+      "link": "https://github.com/DAMO-NLP-SG/CLEX"
+    },
+    {
+      "id": "GH35",
+      "title": "GitHub - darrenhinde/OpenAgentsControl: AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
+      "link": "https://github.com/darrenhinde/OpenAgentsControl"
+    },
+    {
+      "id": "GH36",
+      "title": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal",
+      "link": "https://github.com/openai/codex"
+    },
+    {
+      "id": "GH37",
+      "title": "GitHub - aimclub/FEDOT.LLM: LLM-based prototype for nexgen AutoML",
+      "link": "https://github.com/aimclub/FEDOT.LLM"
+    },
+    {
+      "id": "GH38",
+      "title": "gsantopaolo/reforge-ai: Agentic-AI app modernization tool",
+      "link": "https://github.com/gsantopaolo/reforge-ai"
+    },
+    {
+      "id": "GH39",
+      "title": "codescene-oss/pr-refactoring-agent",
+      "link": "https://github.com/codescene-oss/pr-refactoring-agent"
+    },
+    {
+      "id": "GH40",
+      "title": "GitHub - EvoMap/awesome-agent-evolution: A curated list of AI Agent evolution, memory systems, multi-agent architectures, and self-improvement projects. | evomap.ai",
+      "link": "https://github.com/EvoMap/awesome-agent-evolution"
+    },
+    {
+      "id": "GH41",
+      "title": "GitHub - sammcj/llm-templates: My LLM Templates (Ollama Modelfiles & Tabby Templates + Presets)",
+      "link": "https://github.com/sammcj/llm-templates"
+    },
+    {
+      "id": "GH42",
+      "title": "GitHub - cline/cline: Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+      "link": "https://github.com/cline/cline"
+    },
+    {
+      "id": "GH43",
+      "title": "GitHub - philschmid/ai-agent-benchmark-compendium: Compendium of over 50 benchmarks for evaluating AI agents, categorized into Function Calling & Tool Use, General Assistant & Reasoning, Coding & Software Engineering, and Computer Interaction.",
+      "link": "https://github.com/philschmid/ai-agent-benchmark-compendium"
+    },
+    {
+      "id": "GH44",
+      "title": "GitHub - git-disl/awesome-LLM-game-agent-papers: A Survey on Large Language Model-Based Game Agents (ACM CSUR)",
+      "link": "https://github.com/git-disl/awesome-LLM-game-agent-papers"
+    },
+    {
+      "id": "GH45",
+      "title": "Rutex: The Autonomous AI Agent for Acode",
+      "link": "https://github.com/hallofcodes/acode-ai-agent-plugin"
+    },
+    {
+      "id": "GH46",
+      "title": "GitHub - nibzard/llm-loop: Autonomous task execution plugin for LLM CLI - refactored modular architecture",
+      "link": "https://github.com/nibzard/llm-loop"
+    },
+    {
+      "id": "GH47",
+      "title": "SMELLCC: LLM-based Code Smell Refactoring",
+      "link": "https://github.com/Tdcq14/vscode-smellcc"
+    },
+    {
+      "id": "GH48",
+      "title": "GitHub - raine/consult-llm: Get a second opinion from another AI model",
+      "link": "https://github.com/raine/consult-llm"
+    },
+    {
+      "id": "GH49",
+      "title": "FudanDISC/SocialAgent",
+      "link": "https://github.com/FudanDISC/SocialAgent"
+    },
+    {
+      "id": "GH50",
+      "title": "GitHub - stable-lab/Pro-V: PRO-V: An Efficient Program Generation Multi-Agent System for Automatic RTL Verification",
+      "link": "https://github.com/stable-lab/Pro-V"
+    },
+    {
+      "id": "GH51",
+      "title": "langtech-bsc/alia",
+      "link": "https://github.com/langtech-bsc/alia"
+    },
+    {
+      "id": "GH52",
+      "title": "GitHub - ghadinehme/CADFit: Official code repository of \"CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization\" @ ICML 2026",
+      "link": "https://github.com/ghadinehme/CADFit"
+    },
+    {
+      "id": "GH53",
+      "title": "GitHub - comsec-group/cascade-artifacts: Artifacts for Cascade: CPU Fuzzing via Intricate Program Generation (USENIX Security 2024)",
+      "link": "https://github.com/comsec-group/cascade-artifacts"
+    },
+    {
+      "id": "GH54",
+      "title": "GitHub - Xilinx/mlir-aie: An MLIR-based toolchain for AMD AI Engine-enabled devices.",
+      "link": "https://github.com/Xilinx/mlir-aie"
+    },
+    {
+      "id": "GH55",
+      "title": "GitHub - teacherpeterpan/Logic-LLM: The project page for \"LOGIC-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning\"",
+      "link": "https://github.com/teacherpeterpan/logic-llm"
+    },
+    {
+      "id": "GH56",
+      "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++",
+      "link": "https://github.com/ggml-org/llama.cpp"
+    },
+    {
+      "id": "GH57",
+      "title": "GitHub - inclusionAI/AEnvironment: Standardized environment infrastructure for Agentic AI development.",
+      "link": "https://github.com/inclusionAI/AEnvironment"
+    },
+    {
+      "id": "GH58",
+      "title": "GitHub - isaziconsulting/AlphaEvolveLite: An open source simplified implementation of the AlphaEvolve paper.",
+      "link": "https://github.com/isaziconsulting/AlphaEvolveLite"
+    },
+    {
+      "id": "GH59",
+      "title": "InfiMM/Awesome-Multimodal-LLM-for-Math-STEM",
+      "link": "https://github.com/InfiMM/Awesome-Multimodal-LLM-for-Math-STEM"
+    },
+    {
+      "id": "GH60",
+      "title": "dafny-annotator: AI-assisted verification of Dafny Programs",
+      "link": "https://github.com/metareflection/dafny-annotator"
+    },
+    {
+      "id": "GH61",
+      "title": "GitHub - LAMDA-NeSy/Awesome-LLM-Reasoning-with-NeSy: ✨✨Latest Advances on Neuro-Symbolic Learning in the era of Large Language Models",
+      "link": "https://github.com/LAMDASZ-ML/Awesome-LLM-Reasoning-with-NeSy"
+    },
+    {
+      "id": "GH62",
+      "title": "Official code for VisProg (CVPR 2023 Best Paper!)",
+      "link": "https://github.com/allenai/visprog"
+    },
+    {
+      "id": "GH63",
+      "title": "GitHub - Julien-Au/gymcoach: Self-hosted AI workout tracker. Bring your own LLM (Anthropic or OpenRouter): weekly debriefs, a chat coach, and AI-generated programs.",
+      "link": "https://github.com/Julien-Au/gymcoach"
+    },
+    {
+      "id": "GH64",
+      "title": "Stevenic/convo - a conversational programming language",
+      "link": "https://github.com/Stevenic/convo"
+    },
+    {
+      "id": "GH65",
+      "title": "Stable Lab @ UCSD",
+      "link": "https://github.com/stable-lab"
+    },
+    {
+      "id": "GH66",
+      "title": "GitHub - MOSSLab-MIT/FSNet: FSNet: Feasibility-Seeking Neural Network for Constrained Optimization with Guarantees",
+      "link": "https://github.com/MOSSLab-MIT/FSNet"
+    },
+    {
+      "id": "GH67",
+      "title": "GitHub - hephaestus-compiler-project/hephaestus: A framework for testing compilers' type checkers",
+      "link": "https://github.com/hephaestus-compiler-project/hephaestus"
+    },
+    {
+      "id": "GH68",
+      "title": "GitHub - Minw913/AlphaOPT: Formulating Optimization Programs with Self-Improving LLM Experience Library",
+      "link": "https://github.com/Minw913/AlphaOPT"
+    },
+    {
+      "id": "GH69",
+      "title": "Simple Socket Protocol for Embedded Systems",
+      "link": "https://github.com/endurodave/SimpleSocketProtocol"
+    },
+    {
+      "id": "GH70",
+      "title": "Ghadi Nehme ghadinehme",
+      "link": "https://github.com/ghadinehme"
+    },
+    {
+      "id": "GH71",
+      "title": "GitHub - cferdinandi/kelp: A UI library for people who love HTML, powered by modern CSS and Web Components.",
+      "link": "https://github.com/cferdinandi/kelp"
+    },
+    {
+      "id": "GH72",
+      "title": "OpenAPI to MCP Server Code Generator · GitHub",
+      "link": "https://github.com/cnoe-io/openapi-mcp-codegen"
+    },
+    {
+      "id": "GH73",
+      "title": "CursorCore: Assist Programming through Aligning Anything",
+      "link": "https://github.com/TechxGenus/CursorCore"
+    },
+    {
+      "id": "GH74",
+      "title": "GitHub - cjpopova/sized-generator",
+      "link": "https://github.com/cjpopova/sized-generator"
+    },
+    {
+      "id": "GH75",
+      "title": "GitHub - m3g/CellListMap.jl: Flexible implementation of cell lists to map the calculations of particle-pair dependent functions, such as forces, energies, neighbor lists, etc.",
+      "link": "https://github.com/m3g/celllistmap.jl"
+    },
+    {
+      "id": "GH76",
+      "title": "GitHub - sanzol-tech/ai-trader: Trading signals and cryptocurrency trading tool for Binance Futures",
+      "link": "https://github.com/sanzol-tech/ai-trader"
+    },
+    {
+      "id": "GH77",
+      "title": "ise-uiuc/TitanFuzz",
+      "link": "https://github.com/ise-uiuc/TitanFuzz"
+    },
+    {
+      "id": "GH78",
+      "title": "GitHub - SakanaAI/ShinkaEvolve: ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution 🧬",
+      "link": "https://github.com/SakanaAI/shinkaevolve"
+    },
+    {
+      "id": "GH79",
+      "title": "GitHub - SakanaAI/drq: Digital Red Queen: Adversarial Program Evolution in Core War with LLMs",
+      "link": "https://github.com/SakanaAI/drq"
+    },
+    {
+      "id": "GH80",
+      "title": "GitHub - yash-srivastava19/cadence: Using LLMs(not RL) to find new solutions for problems that are hard. Batteries included.",
+      "link": "https://github.com/yash-srivastava19/cadence"
+    },
+    {
+      "id": "GH81",
+      "title": "GitHub - worldbench/awesome-ai-auto-research: 🔥 A Survey on AI Auto-Research",
+      "link": "https://github.com/worldbench/awesome-ai-auto-research"
+    },
+    {
+      "id": "GH82",
+      "title": "The AI agents class (CS 839) at UW-Madison",
+      "link": "https://github.com/barghouthi/ai-agents"
+    },
+    {
+      "id": "GH83",
+      "title": "Nebius-Academy/ai-in-math-course",
+      "link": "https://github.com/Nebius-Academy/ai-in-math-course"
+    },
+    {
+      "id": "GH84",
+      "title": "tsinghua-fib-lab/Awesome-AI-Scientists",
+      "link": "https://github.com/tsinghua-fib-lab/Awesome-AI-Scientists"
+    },
+    {
+      "id": "GH85",
+      "title": "kyegomez/awesome-multi-agent-papers",
+      "link": "https://github.com/kyegomez/awesome-multi-agent-papers"
+    },
+    {
+      "id": "GH86",
+      "title": "GitHub - spf13/cobra: A Commander for modern Go CLI interactions",
+      "link": "https://github.com/spf13/cobra"
+    },
+    {
+      "id": "GH87",
+      "title": "MIRA Lab",
+      "link": "https://github.com/MIRALab-USTC"
+    },
+    {
+      "id": "GH88",
+      "title": "open-lms-open-source/moodle-customfield_training",
+      "link": "https://github.com/open-lms-open-source/moodle-customfield_training"
+    },
+    {
+      "id": "GH89",
+      "title": "Source code for the Container-lang programming language",
+      "link": "https://github.com/odddollar/Container-lang"
+    },
+    {
+      "id": "GH90",
+      "title": "Bosch Home Connect – Domoticz Plugin",
+      "link": "https://github.com/domoticz/home-connect"
+    },
+    {
+      "id": "GH91",
+      "title": "danielgross/localpilot",
+      "link": "https://github.com/danielgross/localpilot"
+    },
+    {
+      "id": "GH92",
+      "title": "GitHub - faskowit/multiAtlasTT: multi atlas transfer tools for neuroimaging (maTT)",
+      "link": "https://github.com/faskowit/multiAtlasTT"
+    },
+    {
+      "id": "GH93",
+      "title": "ShahandFahad/IBM-full-stack-software-developer",
+      "link": "https://github.com/ShahandFahad/IBM-full-stack-software-developer"
+    },
+    {
+      "id": "GH94",
+      "title": "GitHub - libsdl-org/SDL: Simple DirectMedia Layer",
+      "link": "https://github.com/libsdl-org/SDL"
+    },
+    {
+      "id": "GH95",
+      "title": "jxskiss/mcli: A minimal but powerful cli library for Go",
+      "link": "https://github.com/jxskiss/mcli"
+    },
+    {
+      "id": "GH96",
+      "title": "nwiizo/cargo.nvim",
+      "link": "https://github.com/nwiizo/cargo.nvim"
+    },
+    {
+      "id": "GH97",
+      "title": "GitHub - TigerVNC/tigervnc: High performance, multi-platform VNC client and server",
+      "link": "https://github.com/TigerVNC/tigervnc"
+    },
+    {
+      "id": "GH98",
+      "title": "GitHub - daminals/JP-Morgan-Virtual-Experience: Forage's JP Morgan Chase Software Engineering Virtual Experience",
+      "link": "https://github.com/daminals/JP-Morgan-Virtual-Experience"
+    },
+    {
+      "id": "GH99",
+      "title": "GitHub - kriptosamu/Windows-Cleaner: This batch script is designed to provide a convenient way to perform various system maintenance tasks on a Windows.",
+      "link": "https://github.com/kriptosamu/Windows-Cleaner"
+    },
+    {
+      "id": "GH100",
+      "title": "ARRETdaniel/Google-Data-Analytics-Professional-Certificate",
+      "link": "https://github.com/ARRETdaniel/Google-Data-Analytics-Professional-Certificate"
+    }
+  ]
+}

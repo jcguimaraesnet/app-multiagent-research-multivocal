@@ -1,0 +1,16 @@
+{
+  "title": "Toward efficient vibe coding: An LLM-based agent for low-code software development",
+  "link": "https://doi.org/10.1016/j.cola.2025.101367",
+  "abstract": "The Software Engineering (SE) domain increasingly adopts low-code and no-code approaches to simplify application development and deployment. Two dominant paradigms have emerged in this space: Model-driven Engineering (MDE), leveraging Domain-specific Languages (DSLs) to abstract implementation and reduce the knowledge and expertise required, and LLM-based vibe coding, where developers interact with Large Language Models (LLMs) using natural language, allowing for rapid prototyping and code generation through conversations. Although DSLs provide precise abstractions and formal correctness, they often require specialized knowledge and have a steep learning curve. Conversely, vibe coding enables fluid and natural interactions, but struggles with domain specificity and frequently produces erroneous or unstructured code, which is difficult to integrate into formal development workflows. To harness the strengths of both paradigms, we present DSL Agent, an LLM-powered conversational interface for DSL-based application development. The DSL Agent is embedded within Locsys, a modern low-code development platform. It combines the flexibility and intuitiveness of LLM-based vibe coding with the rigor of DSLs by dynamically generating accurate and valid DSL models based on user descriptions, embedded into a unified conversational interface that leverages prompt engineering and in-context learning techniques. This offers a simpler and more intuitive interface, accelerates the development process, and reduces the expertise barrier. The agent is evaluated by more than 130 workshop participants of varying expertise levels, on two DSLs of different complexity. Evaluation metrics, including valid model rate, user satisfaction, and development time, indicate a significant improvement in valid model generation, productivity, and ease of use compared to traditional DSL-based SE workflows. These results highlight the potential of the DSL Agent to improve the entire DSL-based development life cycle by offering an efficient, intuitive, and user-friendly interface. © 2025 The Authors",
+  "keywords": [
+    "Conversational interfaces",
+    "Conversational low-code development",
+    "DSL agent",
+    "DSLs",
+    "Large Language Models",
+    "Vibe coding"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Elsevier Ltd"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Intent-LLM: A Framework for Automated Network Configuration Through Code Generation",
+  "link": "https://doi.org/10.1109/TCCN.2026.3683230",
+  "abstract": "Intent-based Networking (IBN) is designed to streamline the complexities of network configuration and management. Instead of focusing on the granular implementation details, IBN defines high-level objectives that describe the target state and behavior of the network. This paper proposes a Large Language Model-based approach to translate the declarative intent of users into Python code. The approach designed and implemented is a novel framework with the objective of optimizing the network performance, producing operational Python code for solving instances of routing and resource allocation problems, and it is able to modify network topology, also considering energy efficiency. The framework developed is inspired by ViperGPT, a software tool where vision-and-language models are split into subroutines to produce results for computer vision queries. More specifically, ViperGPT demonstrates how an LLM can generate and orchestrate Python code to call a predefined set of domain modules through an API, dynamically composing them into executable programs, a paradigm that we adapt to networking by defining an analogous API for intent translation. Validation of the proposed approach is provided, considering both the syntactical correctness and network effectiveness of the code produced. Finally, the human feedback is provided to test the strategies generated. © 2015 IEEE.",
+  "keywords": [
+    "generative artificial intelligence",
+    "Intent-based-networks",
+    "large language models"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Institute of Electrical and Electronics Engineers Inc."
+}

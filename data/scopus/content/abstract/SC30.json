@@ -1,0 +1,16 @@
+{
+  "title": "CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences",
+  "link": "https://doi.org/10.1145/3736407",
+  "abstract": "Evaluating the alignment of large language models (LLMs) with user-defined coding preferences is a challenging endeavor that requires a deep assessment of LLMs’ outputs. Existing methods and benchmarks rely primarily on automated metrics and static analysis tools, which often fail to capture the nuances of user instructions and LLM outputs. To address this gap, we introduce the LLM-as-a-Judge evaluation framework and present CodeUltraFeedback, a comprehensive dataset for assessing and improving LLM alignment with coding preferences. CodeUltraFeedback consists of 10,000 coding instructions, each annotated with four responses generated from a diverse pool of 14 LLMs. These responses are annotated using GPT-3.5 as a judge, with both ranking-based scores and detailed textual feedback across five distinct coding preferences. Our analysis reveals that responses from GPT-3.5 and GPT-4 are consistently rated higher than those from open-weight models, underscoring substantial alignment gaps between closed- and open-weight LLMs. In turn, we explore the usage of CodeUltraFeedback as feedback data to fine-tune and align CodeLlama-7B-Instruct using supervised fine-tuning (SFT) and reinforcement learning from AI feedback (RLAIF) with direct preference optimization (DPO). The resulting aligned model achieves an average alignment improvement of 22.7% and 29.7% when evaluated with GPT-3.5 and GPT-4 judges, respectively. Notably, our aligned CodeLlama-7B-Instruct surpasses much larger models, such as CodeLlama-13B and 34B, in alignment with coding preferences. Despite not being explicitly trained for functional correctness, it also achieves a 10.5% and 26.6% relative improvement in Pass@1 and Pass@10 on the HumanEval+ benchmark. Our contributions demonstrate the practical value of preference tuning in code generation and set the stage for further progress in model alignment and RLAIF for automated software engineering. © 2026 Copyright held by the owner/author(s).",
+  "keywords": [
+    "automated software engineering",
+    "code generation",
+    "direct preference optimization",
+    "Large language models",
+    "LLM-as-a-Judge",
+    "reinforcement learning from AI feedback"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Association for Computing Machinery"
+}

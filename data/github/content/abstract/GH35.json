@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - darrenhinde/OpenAgentsControl: AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
+  "link": "https://github.com/darrenhinde/OpenAgentsControl",
+  "summary": "OpenAgents Control (OAC) is an open-source AI agent framework built on OpenCode that provides plan-first, approval-gated workflows for software construction. It includes main agents like OpenAgent and OpenCoder, and specialized subagents for context discovery, task breakdown, code generation, testing, and code review. The context system allows teams to encode their coding patterns and standards, so that agents produce code that matches project conventions. Key features include approval gates for human review, an MVI (Minimal Viable Information) principle for token efficiency, multi-language and multi-model support, and a Claude Code plugin.",
+  "author": "darrenhinde",
+  "publication_date": "2026-03-24",
+  "keywords": [
+    "OpenAgents Control",
+    "AI agents",
+    "code generation",
+    "context-aware coding",
+    "approval gates"
+  ]
+}

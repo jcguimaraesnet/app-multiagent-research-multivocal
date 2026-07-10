@@ -1,0 +1,16 @@
+{
+  "title": "Quality assurance of LLM-generated code: Addressing non-functional quality characteristics",
+  "link": "https://doi.org/10.1016/j.jss.2026.112885",
+  "abstract": "In recent years, large language models have been widely integrated into software engineering workflows, supporting tasks like code generation. While prior evaluations focus on functional correctness, there is still a limited understanding of the non-functional quality characteristics of generated code. Guided by the ISO/IEC 25010 quality model, this study adopts a multi-methods approach comprising three complementary elements: a literature review of 109 papers, two industry workshops with practitioners from multiple organizations, and an empirical analysis of patching real-world software issues using three LLMs. Motivated by insights from both the literature and practitioners, the empirical study examined the quality of generated patches regarding security, maintainability, and performance efficiency, which were identified as critical code-level quality attributes. Our results indicate that existing research primarily emphasizes security, performance efficiency, and maintainability, while other quality attributes are understudied. In contrast, practitioners prioritize maintainability and readability, warning that generated code may accelerate the accumulation of technical debt. The empirical evaluation demonstrates the instability of optimizing NFQCs through prompts in practical software engineering settings. Overall, our findings expose a misalignment between academic focus, industry priorities, and observed model behavior, highlighting the need to integrate quality assurance mechanisms into LLM code generation pipelines to ensure that future generated code not only passes tests but truly passes with quality. © 2026 The Authors",
+  "keywords": [
+    "Code generation",
+    "LLM-generated code",
+    "Maintainability",
+    "Non-functional quality characteristics",
+    "Performance efficiency",
+    "Security"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Elsevier Inc."
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Refactoring Object-Oriented Software With ChatGPT: An Empirical Study",
+  "link": "https://doi.org/10.1049/sfw2/3348017",
+  "abstract": "Generative AI (GenAI) is currently being utilized in many tasks to improve their quality. Because GenAI tools are highly qualified in text-based applications, they have the potential to automate tasks across the software engineering lifecycle. In this study, we empirically investigate ChatGPT’s ability to perform code refactoring tasks. Considering five widely employed refactoring scenarios, we propose testing scenarios upon which we derive 200 test cases for five Java open-source applications. These test cases are applied using ChatGPT and NetBeans, and the results are compared and evaluated. To enable ChatGPT to perform refactoring, we follow prompt engineering approaches to design effective prompts. The results show that ChatGPT has generated refactored pieces of code, which have been successfully compiled for 88% of the test cases. However, it has correctly performed the intended refactoring for only 29% of the cases, compared to NetBeans, which has achieved a 67% correctness rate. These findings indicate that although ChatGPT has some potential to contribute to code refactoring tasks, it is not yet ready to be used as a fully automated refactoring tool for large-scale real-world applications. Its outputs still require human oversight to improve the refactored code’s correctness. Copyright © 2026 Hanady M. Abdulsalam et al. IET Software published by John Wiley & Sons Ltd.",
+  "keywords": [
+    "ChatGPT",
+    "generative AI",
+    "object oriented",
+    "prompt engineering",
+    "refactoring"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "John Wiley and Sons Ltd"
+}

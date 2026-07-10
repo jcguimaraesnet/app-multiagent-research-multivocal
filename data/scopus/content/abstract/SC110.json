@@ -1,0 +1,19 @@
+{
+  "title": "Enhancing source code retrieval with joint Bi-LSTM-GNN architecture: A comparative study with ChatGPT-LLM",
+  "link": "https://doi.org/10.1016/j.jksuci.2023.101865",
+  "abstract": "Retrieving relevant source code from large repositories is a significant and ongoing challenge in the field of software engineering, primarily due to the vast and ever-expanding amount of available code. Existing deep learning methods, although effective to some extent, exhibit limitations in capturing the intricate and complex structural information embedded within source code, which hinders their ability to provide highly accurate retrieval results. This study endeavors to tackle this prominent issue by introducing a novel and innovative approach known as the Joint Bi-directional LSTM and Graph Neural Networks (JBLG) model for source code retrieval. The central aim is to harness the combined strengths and capabilities of Bi-directional Long Short-Term Memory (LSTM) networks and Graph Neural Networks (GNNs) to significantly enhance the model's capacity to capture and interpret the complex structural characteristics intrinsic to source code. The proposed JBLG model employs a unique fusion of Bi-directional LSTM, which excels in capturing sequential and temporal dependencies within code, and GNN, which is adept at modeling the intricate graph structure of the code. By leveraging this hybrid architecture, the model aims to provide a comprehensive and highly effective solution for source code retrieval tasks. To assess the efficacy of the JBLG model, extensive experiments are conducted, and the model's performance is evaluated against well-established benchmarks, including LSTM, GNN, and ChatGPT, using two diverse datasets: CodeSearchNet and CosBench datasets. These evaluations span multiple programming languages, ensuring a comprehensive and robust assessment of the model's capabilities. The experimental results indicate that the JBLG model consistently outperforms its counterparts, including Bi-LSTM, GNN, ChatGPT, and DGMS, across various evaluation metrics. the JBLG model showcases an exceptional ability to handle and extract the intricate structural information inherent in source code, resulting in significantly enhanced retrieval accuracy. The JBLG model emerges as a highly promising solution for real-world source code retrieval applications, with the potential to revolutionize the field. The success of this model underscores the importance of combining deep learning techniques like Bi-directional LSTM and GNNs for tackling complex software engineering challenges. Furthermore, future research directions could involve exploring advanced techniques such as attention mechanisms and extending the model's applicability to other software engineering tasks like code summarization and code completion. The findings of this study are expected to have a lasting impact on the advancement of source code retrieval methodologies. © 2023 The Authors",
+  "keywords": [
+    "Bi-directional LSTM",
+    "Code recommendation",
+    "Code reuse",
+    "Deep learning",
+    "GNN",
+    "Joint model",
+    "LSTM",
+    "Recommendation systems",
+    "Source code retrieval"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "King Saud bin Abdulaziz University"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Insights into resource utilization of code small language models serving with runtime engines and execution providers",
+  "link": "https://doi.org/10.1016/j.jss.2025.112574",
+  "abstract": "The rapid growth of language models, particularly in code generation, requires substantial computational resources, raising concerns about energy consumption and environmental impact. Optimizing language models inference resource utilization is crucial, and Small Language Models (SLMs) offer a promising solution to reduce resource demands. Our goal is to analyze the impact of deep learning serving configurations, defined as combinations of runtime engines and execution providers, on resource utilization, in terms of energy consumption, execution time, and computing-resource utilization from the point of view of software engineers conducting inference in the context of code generation SLMs. We conducted a technology-oriented, multi-stage experimental pipeline using twelve code generation SLMs to investigate energy consumption, execution time, and computing-resource utilization across the configurations. Significant differences emerged across configurations. CUDA execution provider configurations outperformed CPU execution provider configurations in both energy consumption and execution time. Among the configurations, TORCH paired with CUDA demonstrated the greatest energy efficiency, achieving energy savings from 37.99% up to 89.16% compared to other serving configurations. Similarly, optimized runtime engines like ONNX with the CPU execution provider achieved from 8.98% up to 72.04% energy savings within CPU-based configurations. Also, TORCH paired with CUDA exhibited efficient computing-resource utilization. Serving configuration choice significantly impacts resource utilization. While further research is needed, we recommend the above configurations best suited to software engineers’ requirements for enhancing serving resource utilization efficiency. Editor's note: Open Science material was validated by the Journal of Systems and Software Open Science Board. © 2025 The Authors",
+  "keywords": [
+    "Deep learning",
+    "Green AI",
+    "Inference",
+    "Language models",
+    "Model serving"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Elsevier Inc."
+}

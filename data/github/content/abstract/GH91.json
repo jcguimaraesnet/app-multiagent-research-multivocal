@@ -1,0 +1,14 @@
+{
+  "title": "danielgross/localpilot",
+  "link": "https://github.com/danielgross/localpilot",
+  "summary": "The localpilot repository by Daniel Gross offers a tool to run GitHub Copilot code completions locally on a Macbook, bypassing the need for an internet connection. It includes a Python application that sets up a local proxy, intercepting Copilot requests and serving responses from locally downloaded language models (7b and 34b) via llama.cpp. The solution is designed for offline use, such as on airplanes, and provides roughly comparable speed for simple line completions on Apple Silicon. The implementation is presented as a proof of concept, acknowledging inefficiencies and inviting community contributions for improvements.",
+  "author": "Daniel Gross",
+  "publication_date": "2023-10-03",
+  "keywords": [
+    "localpilot",
+    "GitHub Copilot",
+    "local",
+    "code completion",
+    "on-device"
+  ]
+}

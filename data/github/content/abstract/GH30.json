@@ -1,0 +1,14 @@
+{
+  "title": "Refact.ai",
+  "link": "https://github.com/smallcloudai",
+  "summary": "Refact.ai is an open-source AI agent designed for software construction that handles engineering tasks end-to-end. It integrates with developers' tools to plan, execute, and iterate until a successful result is achieved, and deeply understands codebases to automate complex, multi-step tasks. The tool provides IDE plugins for VS Code and JetBrains with features like autocompletion, chat, and refactoring. It includes a benchmarking tool to evaluate AI coding assistants on SWE-bench tasks.",
+  "author": "Refact.ai",
+  "publication_date": "",
+  "keywords": [
+    "Refact.ai",
+    "AI Agent",
+    "software construction",
+    "SWE-bench",
+    "open-source"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "An empirical study of LLM-based refactoring consistency",
+  "link": "https://doi.org/10.1007/s10664-026-10911-6",
+  "abstract": "Behavioral consistency plays an important role in improving software evolution efficiency and guaranteeing software reliability in modern software refactoring. Although large language models (LLMs) demonstrate great potential in multiple software engineering tasks, including code generation, code completion, and code repair, few works have been conducted on LLM-based code refactoring. Furthermore, existing works are confused about how LLMs impact refactoring consistency. Therefore, there is an urgent need to conduct a systematic evaluation of behavioral consistency before and after refactoring. To this end, this paper conducts the first empirical study on LLM-based refactoring consistency. Firstly, we construct a high-quality dataset DataRef with 468 Java and 544 Python code segments, and refactor them using existing LLMs (e.g., ChatGPT-3.5/4.0, CodeLlama, CodeGeeX), generating 8,096 refactored code segments. Results demonstrate that a total of 928 refactored code segments exhibit behavioral inconsistencies, while 180 cases result in refactoring failures. We then establish a taxonomy to classify these inconsistency patterns. Thirdly, to evaluate the refactoring ability of representative state-of-the-art LLMs released in 2025, we construct a new dataset DataRef+ from inconsistent code segments, including 272 Java and 297 Python code segments. Experimental results show that 6.06% of code segments still suffer from inconsistencies. Finally, we propose a mitigation strategy combining retrieval-augmented generation and structured few-shot prompting. As an initial validation evaluated on ChatGPT-3.5 with Python code and single-round generation, this strategy reduces the inconsistency rate by 12.46 percentage points, from 17.17% to 4.71%. Our work provides empirical evidence for enhancing consistency in LLM-based refactoring and paves the way for future research. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2026.",
+  "keywords": [
+    "Code refactoring",
+    "Consistency",
+    "Empirical study",
+    "large language models",
+    "Prompt"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Springer"
+}

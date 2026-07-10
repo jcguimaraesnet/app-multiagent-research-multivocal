@@ -1,0 +1,3025 @@
+{
+  "origin": "github",
+  "step": 3,
+  "model": "",
+  "updated_at": "2026-07-10T02:42:04.163818+00:00",
+  "count": 64,
+  "by_status": {
+    "pending": 0,
+    "scraped": 0,
+    "summarized": 0,
+    "screened": 64
+  },
+  "included": 39,
+  "excluded": 25,
+  "records": [
+    {
+      "id": "GH1",
+      "status": "screened",
+      "data": {
+        "title": "GitHub Articles • Technical Guides, Developer Insights & Best Practices",
+        "link": "https://github.com/resources/articles"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The page covers software development topics including coding-related concepts."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The source itself does not apply generative AI; it only references AI coding tools as a topic."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The page is a resource index, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No usable solution, prototype, or deployed tool is presented."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The page is an educational resource index, which is a list of tools/resources."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH2",
+      "status": "screened",
+      "data": {
+        "title": "codefuse-ai/Awesome-Code-LLM",
+        "link": "https://github.com/codefuse-ai/awesome-code-llm"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It covers code generation and software engineering tasks."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The repository itself does not apply generative AI; it is a catalog."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It does not describe a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is a reference guide, not a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2024."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English, no indication of non-English content."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is a curated repository accompanying a survey paper, thus a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH3",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - sourcegraph/awesome-code-ai: A list of AI coding tools (assistants, completions, refactoring, etc.)",
+        "link": "https://github.com/sourcegraph/awesome-code-ai"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The list focuses on AI-powered tools for software construction."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The source is a curated list, not applying Generative AI methods itself."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It does not describe a practical implementation; it's a list."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is a list of tools, not a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in 2023."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is a curated list of tools, which is a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH4",
+      "status": "screened",
+      "data": {
+        "title": "A Survey on LLMs for Code Generation",
+        "link": "https://github.com/juyongjiang/CodeLLMSurvey"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context involves software construction (code generation) within software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Generative AI methods (LLMs) for code generation."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It is a curated collection and survey repository, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It presents a reference list, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The repository and linked content are in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is explicitly a survey repository accompanying a survey paper."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH6",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - sapritanand/Code-Generation-using-LLM: This project extracts Python code from the OpenAI Gym GitHub repository, creates a dataset of functions, and fine-tunes a code generation model (codegen-350M-mono) using Hugging Face Transformers to generate new code snippets.",
+        "link": "https://github.com/sapritanand/Code-Generation-using-LLM"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The project focuses on generating code snippets, which is part of software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It fine-tunes a large language model for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository provides executable scripts and notebooks, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The repository contains a functional prototype for fine-tuning and code generation."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2024, within the allowed range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English, and the repository is likely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary project implementation, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH7",
+      "status": "screened",
+      "data": {
+        "title": "Spec-driven development with AI: Get started with a new open source toolkit",
+        "link": "https://resources.github.com/increasing-collaborative-development-with-ai/"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is explicitly AI-assisted software construction (coding)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies AI coding agents such as GitHub Copilot and Claude Code."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The post describes a practical, implemented toolkit with a four-phase process."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents an open-source toolkit (Spec Kit) that is a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2025-09-02, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The text is entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a blog post introducing a toolkit, not a secondary/tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH8",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - zed-industries/zed: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+        "link": "https://github.com/zed-industries/zed"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source is a code editor, which directly supports software construction/coding."
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2026-07-09 falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The English text of the summary indicates the source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a product's codebase repository, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH9",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - zai-org/CodeGeeX: CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)",
+        "link": "https://github.com/zai-org/CodeGeeX"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The model generates code, directly supporting software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It is a large language model for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository includes extensions for IDEs and the model is open-source."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It offers IDE extensions as a usable tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2023."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study presenting a model and extensions."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH10",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - MiniMax-AI/MiniMax-M2.7",
+        "link": "https://github.com/MiniMax-AI/MiniMax-M2.7"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The model is applied to coding tasks like bug fixing and refactoring."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It is a large language model (LLM)."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The model is deployed and evaluated on benchmarks, indicating practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The model is available as a usable tool for local deployment."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2026, within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary source introducing a model, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH11",
+      "status": "screened",
+      "data": {
+        "title": "Build software better, together",
+        "link": "https://github.com/marketplace/models"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC2",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "This is a GitHub sign-in page with no information about software construction."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "No generative AI methods are discussed or mentioned."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The content is a GitHub sign-in page, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH12",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - jupyterlab/jupyter-ai: An open source extension that connects AI agents to computational notebooks in JupyterLab.",
+        "link": "https://github.com/jupyterlab/jupyter-ai"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The extension is a notebook coding assistant, directly supporting coding activities."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It integrates with LLM-based agents like Claude, Codex, and Copilot."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The text describes a concrete open-source extension with implemented features."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It is an open-source extension with a GitHub repository, indicating a usable solution."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a description of a tool, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH13",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - microsoft/vscode-copilot-release: Feedback on GitHub Copilot Chat UX in Visual Studio Code.",
+        "link": "https://github.com/microsoft/vscode-copilot-release"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source involves code completion features in VS Code, a software construction context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "GitHub Copilot is an LLM-based code generation tool."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The source is a feedback repository, not a practical implementation of a solution."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The source is a feedback repository, not a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2025-12-11 falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH14",
+      "status": "screened",
+      "data": {
+        "title": "DmitryNekrasov/ai-code-completion-idea-plugin",
+        "link": "https://github.com/DmitryNekrasov/ai-code-completion-idea-plugin"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It is an IntelliJ IDEA plugin for code completion, directly targeting software construction/coding."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies a large language model (LLM) via Ollama server running a CodeLlama model."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Describes a practical implementation of a plugin with features like cache management and statistical analysis."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It is a GitHub repository for a usable IDE plugin prototype, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2024-07-01, which falls within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and link indicate English language usage."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a software implementation (primary source), not a secondary/tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH15",
+      "status": "screened",
+      "data": {
+        "title": "Vue",
+        "link": "https://github.com/orgs/vuejs"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source covers frontend software construction tools."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "No Generative AI methods are mentioned in the summary."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The source is an organization page listing repositories, not a description of a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The page does not present a specific usable solution or tool demonstration."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The page is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH16",
+      "status": "screened",
+      "data": {
+        "title": "GitHub Community",
+        "link": "https://github.com/orgs/community"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC2, IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The source is a community organization page, not about software construction."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The source explicitly states it does not present any generative AI solution."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "No generative AI solution described."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The page is a community forum, not a usable generative AI tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a community organization page, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH17",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - microsoft/copilot-intellij-feedback: Feedback on GitHub Copilot for JetBrains IDEs.",
+        "link": "https://github.com/microsoft/copilot-intellij-feedback"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The GitHub Copilot plugin is an AI-powered coding assistant for JetBrains IDEs, directly related to software construction (coding)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The plugin leverages advanced language models for code completions and chat, indicating use of Generative AI."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The repository itself is a feedback channel, not describing a practical implementation of a solution."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It does not present a usable solution; it is only an interface for users to report issues and request features for an existing plugin."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2025-03-07, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English, so the exclusion does not apply."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a feedback repository, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH19",
+      "status": "screened",
+      "data": {
+        "title": "GitHub Copilot Certification",
+        "link": "https://learn.github.com/certification/COPILOT"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is explicitly software construction tasks like code generation and refactoring."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Generative AI methods through the use of GitHub Copilot, an AI-assisted coding tool."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English, no indication the source itself is in another language."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "This is an exam outline/certification description, which is a list of topics and skills, not a primary study or tool."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH20",
+      "status": "screened",
+      "data": {
+        "title": "Survey reveals AI's impact on the developer experience",
+        "link": "https://resources.github.com/webcasts/ai-developer-experience-research/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GH21",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - LIANGQINGYUAN/awesome_codegeneration: A list of papers and resources dedicated to code generation",
+        "link": "https://github.com/LIANGQINGYUAN/awesome_codegeneration"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The repository is dedicated to code generation and code understanding, which are core aspects of software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It lists transformer-based models like CodeBERT and CodeT5, which are closely related to Generative AI and LLMs."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It is a curated list of resources, not a practical implementation itself."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is a reference list, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2022-11-02 falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English, and no indication suggests a non-English version."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is a curated list or survey of resources, fitting the definition of a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH22",
+      "status": "screened",
+      "data": {
+        "title": "Type-Constrained Code Generation with Language Models",
+        "link": "https://github.com/eth-sri/type-constrained-code-generation"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Focuses on code generation, completion, synthesis, translation, and repair for TypeScript programs."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses language models (Gemma, CodeLlama) and constrains their sampling."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Implements a completion engine with algorithms for incremental parsing and prefix automata."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Provides a reproduction package with a usable implementation, not merely a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2025-04-15, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Written in English, as evidenced by the summary."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Primary study describing an original tool, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH23",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - Genuitec/Copilot4Eclipse-community: The place for Copilot4Eclipse discussions",
+        "link": "https://github.com/Genuitec/Copilot4Eclipse-community"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is an AI-powered code completion plugin for the Eclipse IDE, which is a software construction (coding) tool."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Applies GitHub Copilot, which uses generative AI and LLMs for code completion."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2024, which is within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English, implying an English version exists."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The summary states the repository is a community discussion space and does not present a specific solution."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH24",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - VichyTong/CodeJudge: [EMNLP 2024] CodeJudge: Evaluating Code Generation with Large Language Models",
+        "link": "https://github.com/VichyTong/CodeJudge"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The framework evaluates code correctness in coding tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses LLMs to judge generated code."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Open-source framework with experimental evaluation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Available open-source tool that can be integrated."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Presented at EMNLP 2024, which is between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Content is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study presenting a new tool."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH25",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - FlightVin/automated-refactoring: LLM based workflow that opens pull requests based on detected design smells",
+        "link": "https://github.com/FlightVin/automated-refactoring"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source is about automated refactoring of codebases, which is software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly uses large language models (LLMs)."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a working pipeline triggered by a cron job, a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The GitHub repository presents a complete pipeline that generates pull requests, a usable tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2024-02-23 falls within 2021–2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English, so the language is English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source describes a specific automated refactoring tool, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH26",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - camilochs/pydaybcn2025-workshop-code-evolution: Code Evolution: Self-Improving Software with LLMs and Python.",
+        "link": "https://github.com/camilochs/pydaybcn2025-workshop-code-evolution"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The demos focus on software construction tasks like bug fixing, code optimization, and tool creation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The work applies Large Language Models (LLMs) for code evolution and self-improving software."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository provides interactive Jupyter notebooks as practical demonstrations."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The provided Jupyter notebooks constitute a usable prototype for demonstrating the techniques."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2025-11-27, within the range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a workshop with demonstrations, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH27",
+      "status": "screened",
+      "data": {
+        "title": "Genentech/opentreesearch: LLM-Guided Code Evolution",
+        "link": "https://github.com/Genentech/opentreesearch"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "low",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GH28",
+      "status": "screened",
+      "data": {
+        "title": "DavidZWZ/Awesome-RAG-Reasoning",
+        "link": "https://github.com/DavidZWZ/Awesome-RAG-Reasoning"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The repository does not focus on software construction; it is a general resource on RAG and reasoning."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It clearly involves LLMs and retrieval-augmented generation, which are Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It is a curated list, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It presents a collection of references, not a usable tool or prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2026-01-25, which falls within the 2021–2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English, and the repository appears to be in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The repository is a curated collection of resources and accompanies a survey paper, making it a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH29",
+      "status": "screened",
+      "data": {
+        "title": "Large Language Models for Software Engineering",
+        "link": "https://github.com/iSEngLab/AwesomeLLM4SE"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The repository lists papers on software engineering activities including coding tasks like code generation and repair."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The entire repository is about applying Large Language Models to software engineering."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The source is a survey and list, not a practical implementation of a solution."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It does not present a usable solution but rather a collection of references to other works."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English and the repository is an English-language resource."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The source is explicitly described as a curated list and survey of academic works."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH30",
+      "status": "screened",
+      "data": {
+        "title": "Refact.ai",
+        "link": "https://github.com/smallcloudai"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Explicitly mentions software construction and coding tasks."
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Describes a tool with IDE plugins and features."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Provides IDE plugins and is open-source on GitHub."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Summary is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a tool, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH31",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - algorithmicsuperintelligence/openevolve: Open-source implementation of AlphaEvolve",
+        "link": "https://github.com/algorithmicsuperintelligence/openevolve"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It describes a coding agent and code optimization tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly leverages large language models (LLMs)."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It provides a GitHub link and demonstrated results like GPU kernel speedups."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It is an open-source agent with a GitHub repository."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2025-05-15, within the range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It describes a primary tool, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH33",
+      "status": "screened",
+      "data": {
+        "title": "ahyatt/llm: A package abstracting llm capabilities for emacs.",
+        "link": "https://github.com/ahyatt/llm"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It supports AI-powered coding assistance and commit message generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It provides a unified interface for interacting with Large Language Models (LLMs)."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It is an actively maintained package distributed via GNU ELPA, implying a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It is a distributed software package providing a usable solution, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date 2026-06-24 falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GH35",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - darrenhinde/OpenAgentsControl: AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
+        "link": "https://github.com/darrenhinde/OpenAgentsControl"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The summary states it is for software construction and includes agents for coding."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It is an AI agent framework that includes AI agents for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes an open-source framework with implemented agents and features."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It is an open-source framework providing a usable tool, not a conceptual post."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2026-03-24."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GH36",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal",
+        "link": "https://github.com/openai/codex"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It explicitly performs software construction tasks such as writing and editing code."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses large language models for natural language interaction."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository provides a runnable tool with source code and build instructions."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It is a downloadable and usable coding agent tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2025-04-16, within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a tool repository, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH38",
+      "status": "screened",
+      "data": {
+        "title": "gsantopaolo/reforge-ai: Agentic-AI app modernization tool",
+        "link": "https://github.com/gsantopaolo/reforge-ai"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "the tool modernizes legacy Java code, a software construction activity"
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "uses OpenAI API for LLM-driven agents"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "describes a working tool with automated refactoring and integration"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "linked GitHub repository indicates a prototype or deployed tool"
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "publication date 2025-05-28 falls within 2021-2026"
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "abstract is in English, no indication of non-English version"
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "it is a primary tool description, not a secondary study"
+          }
+        }
+      }
+    },
+    {
+      "id": "GH39",
+      "status": "screened",
+      "data": {
+        "title": "codescene-oss/pr-refactoring-agent",
+        "link": "https://github.com/codescene-oss/pr-refactoring-agent"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GH40",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - EvoMap/awesome-agent-evolution: A curated list of AI Agent evolution, memory systems, multi-agent architectures, and self-improvement projects. | evomap.ai",
+        "link": "https://github.com/EvoMap/awesome-agent-evolution"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The repository has a dedicated section for coding agents and software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It catalogues AI agent projects and research papers focused on self-evolution and memory systems, which are based on generative AI techniques."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The source is a curated list, not a description of a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It presents a reference index of existing tools and papers, not a usable solution itself."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "English text is present."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is an 'awesome list', which is a secondary study / reference index."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH41",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - sammcj/llm-templates: My LLM Templates (Ollama Modelfiles & Tabby Templates + Presets)",
+        "link": "https://github.com/sammcj/llm-templates"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "context is software construction via coding assistants"
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "deals with LLMs for code generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "provides practical configuration files for LLM runners"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "presents usable templates for setting up coding assistants"
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "abstract is in English"
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "it is a code repository, not a secondary or tertiary study"
+          }
+        }
+      }
+    },
+    {
+      "id": "GH42",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - cline/cline: Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+        "link": "https://github.com/cline/cline"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Cline is explicitly described as an autonomous coding agent for software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It works with various large language model providers (Anthropic, OpenAI, Gemini, local models)."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The tool is a practical implementation with IDE extensions, CLI, and headless operation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It is an open-source, deployed tool available as SDK and extensions, not just a concept."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source describes a primary tool, not a secondary study or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH43",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - philschmid/ai-agent-benchmark-compendium: Compendium of over 50 benchmarks for evaluating AI agents, categorized into Function Calling & Tool Use, General Assistant & Reasoning, Coding & Software Engineering, and Computer Interaction.",
+        "link": "https://github.com/philschmid/ai-agent-benchmark-compendium"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source focuses on benchmarks for coding and software engineering, which is directly within software construction context."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The source is a compendium of benchmarks and does not itself apply Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It does not describe a practical implementation; it is a reference guide."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It provides no usable solution, only a list of benchmarks."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2025-10-15 falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is a list of benchmarks (secondary study type), which meets the exclusion criterion."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH45",
+      "status": "screened",
+      "data": {
+        "title": "Rutex: The Autonomous AI Agent for Acode",
+        "link": "https://github.com/hallofcodes/acode-ai-agent-plugin"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The plugin enables LLMs to read, create, edit files, and execute terminal commands within a code editor, directly relating to software construction (coding)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly applies LLMs (via Gemini, OpenRouter, Ollama, OpenAI) as the core AI method."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The description implies a practical implementation, as it is a built plugin for a real editor using TypeScript and Webpack."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The source is a concrete plugin (Rutex) described as transforming Acode into an agentic IDE, not just a concept or social media post."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The provided publication date is 2026-06-28, which falls within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and title are clearly in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is described as a specific plugin implementation, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH46",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - nibzard/llm-loop: Autonomous task execution plugin for LLM CLI - refactored modular architecture",
+        "link": "https://github.com/nibzard/llm-loop"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It focuses on software construction tasks including code generation and building web applications."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly applies LLMs for autonomous task execution."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It is a practical plugin for the LLM CLI that performs concrete actions."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It describes a concrete plugin implementation available on GitHub."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2026-01-13, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English and no other language is indicated."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is a tool plugin, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH47",
+      "status": "screened",
+      "data": {
+        "title": "SMELLCC: LLM-based Code Smell Refactoring",
+        "link": "https://github.com/Tdcq14/vscode-smellcc"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The tool addresses Python code refactoring in a software development context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses Large Language Models (DeepSeek, OpenAI) with Chain-of-Thought prompting."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It is a practical VS Code extension available on GitHub."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The tool is a functioning VS Code extension providing refactoring fixes."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in 2025, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary and likely the repository are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a tool prototype, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH48",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - raine/consult-llm: Get a second opinion from another AI model",
+        "link": "https://github.com/raine/consult-llm"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The tool is explicitly designed for software developers within coding agent workflows for tasks like code review and architecture planning."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It obtains opinions from external large language models (LLMs) including GPT, Gemini, and Claude."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The text describes a distributed command-line tool with specific features like slash commands and a monitor TUI."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The tool is a prototype or deployed solution distributed as a single binary on GitHub."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2026-06-27, which falls within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The project is written in Rust and the summary is in English, with no indication of a non-English language barrier."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a command-line tool, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH49",
+      "status": "screened",
+      "data": {
+        "title": "FudanDISC/SocialAgent",
+        "link": "https://github.com/FudanDISC/SocialAgent"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "While a sub-category mentions software development, the primary context is social simulation using agents."
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date 2024-12-02 falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The content is provided in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The source is explicitly a survey and a collection of resources/papers."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH50",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - stable-lab/Pro-V: PRO-V: An Efficient Program Generation Multi-Agent System for Automatic RTL Verification",
+        "link": "https://github.com/stable-lab/Pro-V"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "low",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GH51",
+      "status": "screened",
+      "data": {
+        "title": "langtech-bsc/alia",
+        "link": "https://github.com/langtech-bsc/alia"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The repository does not describe any specific solution for software construction or coding tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It provides scripts for pre-training a language model, which is a Generative AI method."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date 2025-03-31 is between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GH55",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - teacherpeterpan/Logic-LLM: The project page for \"LOGIC-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning\"",
+        "link": "https://github.com/teacherpeterpan/logic-llm"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The context is logical reasoning over natural language problems, not software construction (coding)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies large language models as the core of the stated framework."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2023-12, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GH56",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++",
+        "link": "https://github.com/ggml-org/llama.cpp"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It mentions 'FIM completions for coding' and plugins for IDEs, which is a software construction context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It is an LLM inference engine for generative AI models."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It is a deployed open-source project with CLI tools, server deployment, and IDE plugins."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It provides usable tools such as CLI, server, and VS Code/Vim plugins; it is a practical implementation, not just a concept."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is written in English, and the GitHub repository (by its nature) is in English."
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GH57",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - inclusionAI/AEnvironment: Standardized environment infrastructure for Agentic AI development.",
+        "link": "https://github.com/inclusionAI/AEnvironment"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC2",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It mentions rapid coding tasks, code execution, and software benchmarks like SWE-Bench, indicating a software engineering focus."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "It focuses on RL training frameworks (AReaL) and an environment for AI agents, but does not mention generative AI or large language models (LLMs)."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It is described as a platform with an SDK and CLI, suggesting a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It states it is an open-source platform providing a SDK, CLI, and deployment, indicating a usable tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It describes a platform and tool, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH60",
+      "status": "screened",
+      "data": {
+        "title": "dafny-annotator: AI-assisted verification of Dafny Programs",
+        "link": "https://github.com/metareflection/dafny-annotator"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The tool aids in annotating Dafny programs, a coding activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses LLMs to generate program annotations."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Presents a tool with implemented annotator and server."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Tool available as a server and scripts."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2025-10-31 is within range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract in English; no indication of non-English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary tool paper, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH62",
+      "status": "screened",
+      "data": {
+        "title": "Official code for VisProg (CVPR 2023 Best Paper!)",
+        "link": "https://github.com/allenai/visprog"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Generates Python programs, which is a software construction task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses GPT-3, a large language model."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Provides an implementation with notebooks and modular engine."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The repository is a usable prototype for generating visual reasoning programs."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2022 within the required range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary and likely the repository are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is an implementation, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH64",
+      "status": "screened",
+      "data": {
+        "title": "Stevenic/convo - a conversational programming language",
+        "link": "https://github.com/Stevenic/convo"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "low",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GH65",
+      "status": "screened",
+      "data": {
+        "title": "Stable Lab @ UCSD",
+        "link": "https://github.com/stable-lab"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The MAGE and Pro-V projects are for automated RTL code generation and verification, which is a specialized form of software construction."
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is not a secondary or tertiary study; it is a GitHub organization page hosting primary projects."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH68",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - Minw913/AlphaOPT: Formulating Optimization Programs with Self-Improving LLM Experience Library",
+        "link": "https://github.com/Minw913/AlphaOPT"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It specifically applies to formulating optimization programs, a general programming/software task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses large language models (LLMs) for learning to formulate programs."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract states it provides code, datasets, and configuration for training and evaluation, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The title 'AlphaOPT' and provided code repository indicate a usable prototype tool, not a mere concept."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It describes a tool implementation, not a secondary/tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH72",
+      "status": "screened",
+      "data": {
+        "title": "OpenAPI to MCP Server Code Generator · GitHub",
+        "link": "https://github.com/cnoe-io/openapi-mcp-codegen"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The tool automates code generation for API interaction, directly relevant to software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses LLMs for documentation generation, which is a generative AI technique."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository contains a concrete implementation of a code generation tool."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The tool is available as a usable prototype on GitHub."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English and the repository is likely in English, so no non-English version issue."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary tool, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH73",
+      "status": "screened",
+      "data": {
+        "title": "CursorCore: Assist Programming through Aligning Anything",
+        "link": "https://github.com/TechxGenus/CursorCore"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Focuses on AI-assisted programming and code editing tasks."
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Summary is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Describes a specific model and framework, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH74",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - cjpopova/sized-generator",
+        "link": "https://github.com/cjpopova/sized-generator"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The tool generates programs for Racket and SML, which constitutes a software construction (coding) context."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "No mention of Generative AI, LLMs, or similar; uses sized types, a formal type-system technique."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical framework implemented as a tool with a shrinker, available on GitHub."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The repository provides a usable prototype program generator, not merely a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2026-06-11, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English, indicating an English version exists."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a tool repository, not a survey, review, or mapping study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH77",
+      "status": "screened",
+      "data": {
+        "title": "ise-uiuc/TitanFuzz",
+        "link": "https://github.com/ise-uiuc/TitanFuzz"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It generates input programs (code) for fuzzing libraries, which is a software engineering coding task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Leverages large language models (Codex, InCoder) for program generation and mutation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Reports empirical results with bug detection and code coverage, and provides a repository for reproducibility."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Has a usable implementation available on GitHub."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2023-09-10 falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It presents a novel fuzzing approach, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH78",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - SakanaAI/ShinkaEvolve: ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution 🧬",
+        "link": "https://github.com/SakanaAI/shinkaevolve"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "focuses on program evolution and code optimization, which are software construction tasks"
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "uses LLMs as mutation operators"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "provides an open-source framework with practical features like launchers and WebUI"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "it is an open-source framework with deployment features"
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "the abstract is in English"
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "it is a framework, not a secondary study"
+          }
+        }
+      }
+    },
+    {
+      "id": "GH79",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - SakanaAI/drq: Digital Red Queen: Adversarial Program Evolution in Core War with LLMs",
+        "link": "https://github.com/SakanaAI/drq"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The framework is described as a sandbox for software construction and evolves assembly-like programs."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses large language models to generate and evolve programs."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository provides an implementation, not just a theoretical proposal."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It is a concrete GitHub repository with a usable framework."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2026-01-13 is within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The provided summary is in English, no indication of non-English content."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is an implementation, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH80",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - yash-srivastava19/cadence: Using LLMs(not RL) to find new solutions for problems that are hard. Batteries included.",
+        "link": "https://github.com/yash-srivastava19/cadence"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The system generates and improves program code for computational problems, which is software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly employs large language models to propose code variants."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The description includes concrete implementation details like SQLite storage, parallel evaluation, and a Flask UI."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It is an open-source system with a linked GitHub repository and a functional prototype for TSP."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English, so the exclusion for non-English language does not apply."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary system description, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH85",
+      "status": "screened",
+      "data": {
+        "title": "kyegomez/awesome-multi-agent-papers",
+        "link": "https://github.com/kyegomez/awesome-multi-agent-papers"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract mentions a dedicated section on Software Engineering compiling papers on code generation, debugging, and unit test improvement, indicating the context is software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The repository explicitly focuses on LLM-based multi-agent systems, which are Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The text specifies it is a curated reference list, not a research paper presenting a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is described as a curated list of papers, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The listed publication date is 2026-07-04, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The text states it is a curated list and literature survey, making it a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH91",
+      "status": "screened",
+      "data": {
+        "title": "danielgross/localpilot",
+        "link": "https://github.com/danielgross/localpilot"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The tool provides code completions, directly supporting software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses locally downloaded language models via llama.cpp, which are generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The description details a practical Python application proxy, not a theoretical proposal."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It offers a proof-of-concept tool that can be run locally, a usable prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2023-10-03, which falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English, as indicated by the English summary and the GitHub repository typically being in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a tool repository, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH93",
+      "status": "screened",
+      "data": {
+        "title": "ShahandFahad/IBM-full-stack-software-developer",
+        "link": "https://github.com/ShahandFahad/IBM-full-stack-software-developer"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "low",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GH98",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - daminals/JP-Morgan-Virtual-Experience: Forage's JP Morgan Chase Software Engineering Virtual Experience",
+        "link": "https://github.com/daminals/JP-Morgan-Virtual-Experience"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The abstract states the repository does not present a GenAI solution."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is a personal repository of completed tasks, not a proposed GenAI tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date 2021-11-23 falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": ""
+          }
+        }
+      }
+    }
+  ]
+}

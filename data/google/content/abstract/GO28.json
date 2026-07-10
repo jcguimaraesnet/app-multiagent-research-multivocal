@@ -1,0 +1,14 @@
+{
+  "title": "Some Observations on AI/Agentic Refactoring - Artineering",
+  "link": "https://amanagrawal.blog/2025/05/06/some-observations-on-ai-agentic-refactoring/",
+  "summary": "This blog post by Aman Agrawal presents a practitioner's experiment and critical observations on using AI agents, specifically GitHub Copilot with GPT-4o and Claude 3.5 Sonnet, for refactoring production C# code. The author details four real-world refactoring scenarios (from method extraction to modular restructuring) and finds that agentic tools often introduce errors, misunderstand context, break builds, and create 'instant legacy code' with no deliberate design, leading to a net productivity loss compared to manual refactoring. The post concludes that while AI may provide short-term speed, it risks long-term system stability and advocates for a 'human-in-the-loop' approach with very small, focused tasks. A heuristic for 'Agentic TDD' is proposed as a potential workflow, but the overall assessment is that the hype of 10x productivity is unfounded.",
+  "author": "Aman Agrawal",
+  "publication_date": "2025-05-06",
+  "keywords": [
+    "agentic refactoring",
+    "AI-assisted coding",
+    "GitHub Copilot",
+    "software engineering productivity",
+    "code quality"
+  ]
+}

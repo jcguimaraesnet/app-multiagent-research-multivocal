@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - EvoMap/awesome-agent-evolution: A curated list of AI Agent evolution, memory systems, multi-agent architectures, and self-improvement projects. | evomap.ai",
+  "link": "https://github.com/EvoMap/awesome-agent-evolution",
+  "summary": "This source is a curated GitHub repository, 'Awesome Agent Evolution', maintained by EvoMap. It is a comprehensive list of AI agent projects focused on self-evolution, memory systems, autonomous self-improvement, and related infrastructure. The catalogue includes a dedicated 'Agent Coding and Software Engineering' section featuring tools like Claude Code, Codex, Aider, SWE-Agent, and others that autonomously write, debug, and maintain code. The repository also summarizes key research papers on agent self-evolution, memory, prompt optimization, tool use, and safety. It serves as a reference index rather than presenting a new solution itself.",
+  "author": "EvoMap",
+  "publication_date": "",
+  "keywords": [
+    "awesome list",
+    "AI agents",
+    "self-evolution",
+    "coding agents",
+    "memory systems"
+  ]
+}

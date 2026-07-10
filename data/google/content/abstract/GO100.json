@@ -1,0 +1,14 @@
+{
+  "title": "Gen AI Skillup | Kick-off Session",
+  "link": "https://cloudonair.withgoogle.com/events/gen-ai-skills-accelerator",
+  "summary": "The source describes a Google Cloud learning program called 'Gen AI Skillup', designed to boost participants' generative AI skills through expert-led sessions, guided learning paths, and hands-on labs. It provides learning paths for all levels, including an 'Introduction to Generative AI' path for beginners and a 'Generative AI for Developers Learning Path' designed for technical roles such as app developers, machine learning engineers, and data scientists. While it offers training on how Gemini can assist developers and covers deploying generative AI models, it does not present a specific novel tool or technique for software construction/coding, but rather a set of educational resources for building AI expertise.",
+  "author": "Google Cloud",
+  "publication_date": "2025-04-20",
+  "keywords": [
+    "Gen AI Skillup",
+    "Google Cloud",
+    "generative AI",
+    "developer learning path",
+    "Gemini"
+  ]
+}

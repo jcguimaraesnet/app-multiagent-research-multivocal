@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - inclusionAI/AEnvironment: Standardized environment infrastructure for Agentic AI development.",
+  "link": "https://github.com/inclusionAI/AEnvironment",
+  "summary": "AEnvironment is an open-source platform by inclusionAI (Ant Group) that provides a unified environment infrastructure for Agentic Reinforcement Learning and AI agent development, following an 'Everything as Environment' philosophy. It abstracts tools, benchmarks, and even other agents as standardized environments accessible via the MCP protocol, with built-in support for TAU2-Bench, SWE-Bench, and Terminal-Bench. The platform facilitates rapid coding tasks through tool registration, code execution, and file operations within sandboxed environments, and integrates directly with RL training frameworks like AReaL. AEnvironment also introduces the concept of 'Agent as Environment' for multi-agent orchestration and provides a Python SDK, CLI, and deployment skills for Claude Code.",
+  "author": "inclusionAI",
+  "publication_date": "",
+  "keywords": [
+    "AEnvironment",
+    "Agentic RL",
+    "environment infrastructure",
+    "MCP",
+    "coding sandbox"
+  ]
+}

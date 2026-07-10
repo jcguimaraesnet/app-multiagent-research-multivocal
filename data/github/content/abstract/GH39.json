@@ -1,0 +1,14 @@
+{
+  "title": "codescene-oss/pr-refactoring-agent",
+  "link": "https://github.com/codescene-oss/pr-refactoring-agent",
+  "summary": "The CodeScene PR Refactoring Agent is a GitHub Action that allows reviewers to trigger guided, AI-assisted code refactoring directly from pull request comments. It integrates with CodeScene's code health analysis to identify technical debt and code smells, and then leverages large language models (from Anthropic, OpenAI, Google, or GitHub Copilot) to suggest and apply improvements. The agent provides two built-in skills: fixing only the code health regressions introduced in a PR, and uplifting overall code health toward a target score in incremental steps. It operates within CI by checking out the PR branch, running the refactoring, and pushing the changes back, keeping refactoring inside the normal review flow while aiming to improve maintainability consistently.",
+  "author": "CodeScene AB",
+  "publication_date": "2026-07-07",
+  "keywords": [
+    "CodeScene",
+    "pr-refactoring-agent",
+    "code health",
+    "refactoring",
+    "GitHub Action"
+  ]
+}

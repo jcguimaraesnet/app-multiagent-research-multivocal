@@ -1,0 +1,17 @@
+{
+  "title": "Code generation with large language models: a survey from neural program synthesis to autonomous software development",
+  "link": "https://doi.org/10.1007/s10489-026-07230-0",
+  "abstract": "Large language models have reshaped code generation, driving a transition from rule-based and statistical methods to transformer-based architectures pretrained on vast code corpora. This survey traces the intellectual lineage from classical program synthesis through pre-transformer neural approaches to contemporary large-scale models, examining code generation capabilities across model architectures, training strategies, task taxonomies, evaluation methodologies, security implications, and ethical considerations. Contemporary models show proficiency in function-level synthesis, program repair, and documentation generation, though performance varies across programming languages and task complexities. Models ranging from 125 M to hundreds of billions of parameters are analyzed (including CodeBERT, GraphCodeBERT, Codex, AlphaCode, CodeGen, StarCoder, CodeLlama, WizardCoder, DeepSeek-Coder-V2, Yi-Coder, and GPT-4) with pass@1 accuracies on HumanEval spanning a wide range across model generations; multi-agent approaches show promise on repository-level and complex benchmarks, though all figures require cautious interpretation given data contamination risks and evaluation protocol differences. Security concerns persist, as models consistently generate vulnerable code across a range of configurations, with vulnerability rates varying substantially depending on model generation, task type, and prompt design. The survey provides critical analysis of architectural design choices, scaling law behavior for code versus natural language, training data curation challenges including legal and ethical dimensions, and the gap between benchmark performance and real-world software engineering workflows. Critical gaps are identified in handling repository-level context, maintaining consistency across extended generation sessions, and providing reliability guarantees. Future trajectories point toward autonomous software engineering agents, hybrid neuro-symbolic verification approaches, and multi-faceted evaluation frameworks, though foundational challenges in correctness verification, security assurance, and trustworthy generation remain unresolved. © The Author(s) 2026.",
+  "keywords": [
+    "code generation",
+    "code security",
+    "evaluation methodology",
+    "large language models",
+    "neural code intelligence",
+    "program synthesis",
+    "software engineering"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Springer"
+}

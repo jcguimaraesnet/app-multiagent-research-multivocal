@@ -1,0 +1,14 @@
+{
+  "title": "Retrieval-Augmented Generation (RAG) and LLMs for smart code generation: Advancing Plant Simulation SimTalk and beyond - Tecnomatix",
+  "link": "https://blogs.sw.siemens.com/tecnomatix/retrieval-augmented-generation-rag-and-llms-for-smart-code-generation-advancing-plant-simulation-simtalk-and-beyond/",
+  "summary": "This source is a Siemens blog post detailing the application of Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs) to build a smart code generation assistant for SimTalk, the scripting language of Siemens Plant Simulation software. The solution addresses the challenge of limited publicly available training data by augmenting prompts with relevant code examples and function details from internal documentation. Key technical strategies discussed include selecting optimal embedding models for domain-specific semantic retrieval, fine-tuning those models (e.g., using Matryoshka Representation Learning) to capture domain nuances, and rigorously evaluating the retrieval and generation pipelines using a golden dataset. The goal of this AI assistant is to significantly boost user productivity in customizing manufacturing simulations.",
+  "author": "Nilesh Raghuvanshi",
+  "publication_date": "2025-04-25",
+  "keywords": [
+    "Retrieval-Augmented Generation",
+    "Large Language Models",
+    "code generation",
+    "SimTalk",
+    "embedding models"
+  ]
+}

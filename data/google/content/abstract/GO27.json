@@ -1,0 +1,14 @@
+{
+  "title": "What Is AI Code Refactoring?",
+  "link": "https://www.ibm.com/think/topics/ai-code-refactoring",
+  "summary": "This IBM article defines AI code refactoring as the use of artificial intelligence, machine learning, and NLP to automate improvements to code structure without altering external behavior. It explains how large language models, abstract syntax trees, lossless semantic trees, and reinforcement learning drive refactoring tools. The article outlines benefits such as better code quality, developer productivity, scalability, and speed, and it discusses practical considerations like starting small, thorough testing, and retaining human oversight. It surveys AI code refactoring tools, including general-purpose LLMs, AI coding assistants, and agentic coding agents such as IBM Bob. No novel solution is proposed; the article serves as an educational overview of the topic.",
+  "author": "IBM",
+  "publication_date": "2025-12-23",
+  "keywords": [
+    "AI code refactoring",
+    "software development",
+    "large language models",
+    "automated refactoring",
+    "IBM Bob"
+  ]
+}

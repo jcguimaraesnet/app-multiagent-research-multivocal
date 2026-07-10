@@ -1,0 +1,17 @@
+{
+  "title": "Methodology for Code Synthesis Evaluation of LLMs Presented by a Case Study of ChatGPT and Copilot",
+  "link": "https://doi.org/10.1109/ACCESS.2024.3403858",
+  "abstract": "Large Language Models (LLMs) have grown in popularity in recent years and are now employed in a variety of software engineering domains thanks to their Natural Language Processing (NLP) capabilities, which include source code generation, understanding, and documentation. Selecting the appropriate model for source code generation presents a problem to developers as more and more powerful LLMs become available. While some studies have evaluated Copilot or ChatGPT, there is a lack of research on how developers can choose from available LLMs, which is a key factor in the growing set of available models and services. It is crucial to know if a model is capable of generating useful source code that meets the quality requirements and if the developers will be able to use the generated code. Regarding these factors, one has to decide which model to utilize during everyday tasks. This paper shows a methodology to compare such models by demonstrating an actual comparison of two models. Subsequently, we investigated the functional and non-functional qualities of the code synthesized by the models on a program synthesis benchmark containing 25 tasks. On average, the functional testing shows that ChatGPT generated 17 perfect solutions, while Copilot could only solve 13. The non-functional analysis reflected that both models generated good quality code, however, both have characteristic code smells. Our evaluation shows that ChatGPT performs better using this methodology, which is supported by human reviewers who evaluated the generated code by hand.  © 2013 IEEE.",
+  "keywords": [
+    "Artificial intelligence",
+    "ChatGPT",
+    "code quality",
+    "code-synthesis",
+    "copilot",
+    "large language models",
+    "model selection"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Institute of Electrical and Electronics Engineers Inc."
+}

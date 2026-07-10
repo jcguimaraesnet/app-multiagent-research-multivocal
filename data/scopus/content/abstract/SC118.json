@@ -1,0 +1,14 @@
+{
+  "title": "A novel hybrid CNN-GRU model for website-based user interface code generator",
+  "link": "https://doi.org/10.1080/1206212X.2024.2416955",
+  "abstract": "As software engineering techniques evolve, conventional methods become less efficient due to prolonged development cycles and repetitive tasks. There is a growing need for automated systems that can incorporate User Interface (UI) designs into code. This study proposes a novel Hybrid CNN-GRU model for automatically generate website-based UI codes from UI design images. The proposed method consists of a visual model and a language-decoder part. The visual model employs pretrained CNN models, including EfficientNetV2B0, Xception, and EfficientNetV2M, to extract features from images, whereas a GRU serves as the language model and decoder. An empirical study was conducted to evaluate the effectiveness of various hybrid CNN-GRU approaches for generating UI codes. The EfficientNetV2B0 GRU model demonstrated the fastest training time, whereas the Xception GRU model was the most robust for various data complexities. The results of this study will advance the field of automated code generation, simplify the front-end development process, and shorten the time and effort necessitated for UI code implementations. © 2024 Informa UK Limited, trading as Taylor & Francis Group.",
+  "keywords": [
+    "Code generator",
+    "convolutional neural networks",
+    "gated recurrent unit",
+    "user interface automation"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Taylor and Francis Ltd."
+}

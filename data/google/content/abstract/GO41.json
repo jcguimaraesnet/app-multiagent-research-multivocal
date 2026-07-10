@@ -1,0 +1,14 @@
+{
+  "title": "The 40% Problem. AI & Code Refactoring",
+  "link": "https://www.janeasystems.com/blog/ai-and-refactoring-part-1",
+  "summary": "This blog post examines the effectiveness of AI in code refactoring, citing two independent studies that show large language models (LLMs) achieve only about 40% accuracy on complex refactoring tasks. The failures often involve dropped branches, inverted logic, or binding errors that are not immediately obvious during code review. The post also discusses how AI shifts developer work from writing code to managing technical debt and correcting AI-generated errors, keeping overall toil constant. It sets the stage for a follow-up on approaches to overcome this limitation.",
+  "author": "Hubert Brychczynski",
+  "publication_date": "2026-04-27",
+  "keywords": [
+    "AI code refactoring",
+    "LLM limitations",
+    "software maintenance",
+    "technical debt",
+    "developer productivity"
+  ]
+}

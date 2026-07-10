@@ -1,0 +1,15 @@
+{
+  "title": "CodeDiffuSe: A masked diffusion framework for structure-aware code completion and repair",
+  "link": "https://doi.org/10.1007/s44443-025-00237-6",
+  "abstract": "Code completion and code repair have become fundamental tasks in software engineering and machine learning research. However, existing large language models (LLMs) for code generation, predominantly based on autoregressive modeling (ARM), exhibit limitations when dealing with incomplete or buggy code snippets, especially when the missing or erroneous spans are located arbitrarily within the sequence. In this paper, we propose CodeDiffuSe, a novel masked diffusion framework specifically designed for structure-aware code completion and repair. Unlike traditional ARM approaches, CodeDiffuSe learns to recover missing code spans by leveraging both left and right context, enabling bidirectional reasoning and flexible infilling. We introduce a syntax-aware masking strategy that randomly masks entire Abstract Syntax Tree (AST) subtrees during training, and a semantic consistency regularization that encourages type-correct and syntactically valid predictions. During inference, we propose an error-aware remasking mechanism that dynamically identifies uncertain or invalid tokens and selectively refines them across adaptive reverse diffusion steps. Extensive experiments on standard code completion and bug repair benchmarks, including CodeXGLUE, Defects4J, and QuixBugs, demonstrate that CodeDiffuSe consistently outperforms strong autoregressive baselines such as CodeGen, CodeEditorBench, and InCoder across multiple programming languages. Our work introduces a structure- and semantics-aware diffusion-based alternative for code completion and repair, offering consistent gains in both syntactic validity and functional correctness across diverse benchmarks. Rather than claiming to replace existing paradigms, we demonstrate how diffusion models can complement and improve upon autoregressive and retrieval-based approaches in structure-sensitive settings. © The Author(s) 2025.",
+  "keywords": [
+    "Code completion",
+    "Code repair",
+    "Masked diffusion models",
+    "Structured code generation",
+    "Syntax-aware masking"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Springer International Publishing"
+}

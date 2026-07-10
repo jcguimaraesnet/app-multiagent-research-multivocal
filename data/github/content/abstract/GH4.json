@@ -1,0 +1,14 @@
+{
+  "title": "A Survey on LLMs for Code Generation",
+  "link": "https://github.com/juyongjiang/CodeLLMSurvey",
+  "summary": "This source is a GitHub repository accompanying the TOSEM-accepted survey paper 'A Survey on Large Language Models for Code Generation'. It provides a curated collection of papers and resources covering pre-training, instruction tuning, reinforcement learning, prompting, repository-level code generation, retrieval-augmented approaches, autonomous coding agents, alignment, and evaluation. The repository serves as a comprehensive reference for the landscape of code LLMs, but does not introduce a new coding solution.",
+  "author": "Juyong Jiang, Fan Wang, Jiasi Shen, Sungju Kim, Sunghun Kim",
+  "publication_date": "",
+  "keywords": [
+    "survey",
+    "code generation",
+    "large language models",
+    "LLMs",
+    "software engineering"
+  ]
+}

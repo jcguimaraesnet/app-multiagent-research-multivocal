@@ -1,0 +1,14 @@
+{
+  "title": "Convo: a conversational programming language",
+  "link": "https://community.openai.com/t/convo-a-conversational-programming-language/969667",
+  "summary": "This source introduces Convo, a high-level conversational programming language designed to be interpreted by Generative AI models. Developers write programs in plain natural language as pseudocode, which a Large Language Model then translates into target languages like Python or JavaScript. The approach aims to make programming more accessible and allows programs to be re-ported to newer language versions as models improve. The content includes an example specification and a snake game implemented in Convo.",
+  "author": "stevenic",
+  "publication_date": "2024-10-06",
+  "keywords": [
+    "Convo",
+    "conversational programming language",
+    "Generative AI",
+    "LLM-based code generation",
+    "natural language programming"
+  ]
+}

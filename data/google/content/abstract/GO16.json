@@ -1,0 +1,14 @@
+{
+  "title": "Enhancing LLM Code Generation with RAG and AST-Based Chunking",
+  "link": "https://vxrl.medium.com/enhancing-llm-code-generation-with-rag-and-ast-based-chunking-5b81902ae9fc",
+  "summary": "This article presents a method to enhance large language model (LLM) code generation using Retrieval-Augmented Generation (RAG) combined with Abstract Syntax Tree (AST)-based chunking. It addresses issues like hallucination, knowledge cutoffs, and context length limits by chunking source code at structural boundaries (e.g., function definitions) using Tree-sitter. The chunks are embedded with CodeT5 and indexed with hnswlib for efficient semantic retrieval, and Amazon Bedrock Knowledge Base is suggested for scalable storage. The approach preserves syntactic validity of code fragments, improving the quality and relevance of generated code.",
+  "author": "VXRL",
+  "publication_date": "2025-03-06",
+  "keywords": [
+    "RAG",
+    "AST-based chunking",
+    "code generation",
+    "Tree-sitter",
+    "LLM"
+  ]
+}

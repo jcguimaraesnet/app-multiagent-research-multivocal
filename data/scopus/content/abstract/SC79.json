@@ -1,0 +1,13 @@
+{
+  "title": "Top Pass: improve code generation by pass@k-maximized code ranking",
+  "link": "https://doi.org/10.1007/s11704-024-40415-9",
+  "abstract": "Code generation has been greatly enhanced by the profound advancements in Large Language Models (LLMs) recently. Nevertheless, such LLM-based code generation approaches still struggle to generate error-free code in a few tries when faced with complex problems. To address this, the prevailing strategy is to sample a huge number of candidate programs, with the hope of any one in them could work. However, users of code generation systems usually expect to find a correct program by reviewing or testing only a small number of code candidates. Otherwise, the system would be unhelpful. In this paper, we propose Top Pass, a code ranking approach that identifies potential correct solutions from a large number of candidates. Top Pass directly optimizes the pass@k loss function, enhancing the quality at the top of the candidate list. This enables the user to find the correct solution within as few tries as possible. Experimental results on four benchmarks indicate that our Top Pass method enhances the usability of code generation models by producing better ranking results, particularly achieving a 32.9% relative improvement in pass@1 on CodeContests when compared to the state-of-the-art ranking method. © Higher Education Press 2025.",
+  "keywords": [
+    "data mining",
+    "machine learning",
+    "software engineering"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Higher Education Press Limited Company"
+}

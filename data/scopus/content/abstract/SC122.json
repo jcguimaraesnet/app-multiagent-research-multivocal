@@ -1,0 +1,14 @@
+{
+  "title": "Improving Code Completion by Solving Data Inconsistencies in the Source Code with a Hierarchical Language Model",
+  "link": "https://doi.org/10.3390/electronics12071576",
+  "abstract": "In the field of software engineering, applying language models to the token sequence of source code is the state-of-the-art approach to building a code recommendation system. When applying language models to source code, it is difficult for state-of-the-art language models to deal with the data inconsistency problem, which is caused by the free naming conventions of source code. It is common for user-defined variables or methods with similar semantics in source code, to have different names in different projects. This means that a model trained on one project may encounter many words the model has never seen before during another project. Those freely named variables or functions in the code will bring difficulties to the processes of training and prediction and cause a data inconsistency problem between projects. However, we discover that the syntax tree of source code has hierarchical structures. This code structure has strong regularity in different projects and can be used to combat data inconsistency. In this paper, we propose a novel Hierarchical Language Model (HLM) to improve the robustness of the state-of-the-art recurrent language model, in order to be able to deal with data inconsistency between training and testing. The newly proposed HLM takes the hierarchical structure of the code tree into consideration to predict code. The proposed HLM method generates the embedding for each sub-tree according to hierarchies and collects the embedding of each sub-tree in context, to predict the next piece of code. The experiments on inner-project and cross-project datasets indicate that the newly proposed HLM method performs better than the state-of-the-art recurrent language model in dealing with the data inconsistency between training and testing, and achieves an average improvement in prediction accuracy of 11.2%. © 2023 by the author.",
+  "keywords": [
+    "code completion",
+    "code recommendation",
+    "Hierarchical Language Model",
+    "language model"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "MDPI"
+}

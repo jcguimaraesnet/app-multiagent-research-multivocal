@@ -1,0 +1,14 @@
+{
+  "title": "dafny-annotator: AI-assisted verification of Dafny Programs",
+  "link": "https://github.com/metareflection/dafny-annotator",
+  "summary": "This repository, dafny-annotator, presents a tool that uses Large Language Models (LLMs) to automatically add logical annotations (assertions, invariants, decreases clauses) to Dafny programs to help them pass formal verification. The system includes an annotator with an LLM-guided greedy search algorithm and a synthetic training data generation method called DafnySynth, which uses an editor-based architecture to incrementally create new Dafny programs. Experiments fine-tune models like Llama 3.1 8B on combined datasets from DafnyBench and DafnySynth to improve annotation success. The repository also provides an annotator server and scripts for running comparative experiments.",
+  "author": "metareflection",
+  "publication_date": "2025-10-31",
+  "keywords": [
+    "Dafny",
+    "LLM",
+    "program verification",
+    "annotation",
+    "DafnySynth"
+  ]
+}

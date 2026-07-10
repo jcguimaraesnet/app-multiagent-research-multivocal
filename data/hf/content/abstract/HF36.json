@@ -1,0 +1,20 @@
+{
+  "title": "BEAVER: An Efficient Deterministic LLM Verifier",
+  "link": "https://huggingface.co/papers/2512.05439",
+  "abstract": "As large language models (LLMs) transition from research prototypes to production systems, practitioners often need reliable methods to verify model outputs and characterize tail risk for safe deployment. While sampling-based estimates provide an ad-hoc intuition of model behavior, they offer no sound guarantees. We present BEAVER, the first practical framework for computing deterministic, sound probability bounds on LLM satisfaction of safety properties. Given a prompt & any safety property, BEAVER systematically explores the model output space using novel Token trie and Frontier data structures, maintaining provably sound bounds at every iteration. We formalize the verification problem, prove soundness of our approach, and evaluate BEAVER on 4 safety properties across 12 open-weight LLMs. BEAVER identifies 2-3x more risky instances compared to baselines while taking 1/10 of the compute budget, surfacing tail risks that loose bounds and ad-hoc evaluation misses.",
+  "authors": [
+    "Tarun Suresh",
+    "Nalin Wadhwa",
+    "Debangshu Banerjee",
+    "Gagandeep Singh"
+  ],
+  "publication_date": "2025-12-05T05:34:06Z",
+  "pdf_link": "https://arxiv.org/pdf/2512.05439v2",
+  "keywords": [
+    "BEAVER",
+    "safety properties",
+    "verification",
+    "sound bounds",
+    "LLM"
+  ]
+}

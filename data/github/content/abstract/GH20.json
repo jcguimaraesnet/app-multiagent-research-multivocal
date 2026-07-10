@@ -1,0 +1,14 @@
+{
+  "title": "Survey reveals AI's impact on the developer experience",
+  "link": "https://resources.github.com/webcasts/ai-developer-experience-research/",
+  "summary": "This GitHub blog post reports on a survey of 500 U.S.-based enterprise developers exploring the impact of generative AI on the developer experience (DevEx). It finds that 92% of developers are already using AI coding tools at work, and 70% see significant benefits, particularly for improving code language skills and productivity. Developers believe AI tools will enhance code quality, reduce incidents, and free up time for higher-value tasks like solution design, collaboration, and security reviews. The report emphasizes that collaboration and code quality should be key performance metrics, arguing that AI tools boost both individual performance and team collaboration within existing workflows.",
+  "author": "Inbal Shani & GitHub Staff",
+  "publication_date": "2023-06-13",
+  "keywords": [
+    "Developer Experience",
+    "AI Coding Tools",
+    "Productivity",
+    "Collaboration",
+    "Survey"
+  ]
+}

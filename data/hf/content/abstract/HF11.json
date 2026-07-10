@@ -1,0 +1,38 @@
+{
+  "title": "A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code",
+  "link": "https://huggingface.co/papers/2508.18106",
+  "abstract": "The increasing adoption of large language models (LLMs) in software engineering necessitates rigorous security evaluation of their generated code. However, existing benchmarks often lack relevance to real-world AI-assisted programming scenarios, making them inadequate for assessing the practical security risks associated with AI-generated code in production environments. To address this gap, we introduce A.S.E (AI Code Generation Security Evaluation), a repository-level evaluation benchmark designed to closely mirror real-world AI programming tasks, offering a comprehensive and reliable framework for assessing the security of AI-generated code. Our evaluation of leading LLMs on A.S.E reveals several key findings. In particular, current LLMs still struggle with secure coding. The complexity in repository-level scenarios presents challenges for LLMs that typically perform well on snippet-level tasks. Moreover, a larger reasoning budget does not necessarily lead to better code generation. These observations offer valuable insights into the current state of AI code generation and help developers identify the most suitable models for practical tasks. They also lay the groundwork for refining LLMs to generate secure and efficient code in real-world applications.",
+  "authors": [
+    "Keke Lian",
+    "Bin Wang",
+    "Lei Zhang",
+    "Libo Chen",
+    "Junjie Wang",
+    "Ziming Zhao",
+    "Yujiu Yang",
+    "Miaoqian Lin",
+    "Haotong Duan",
+    "Haoran Zhao",
+    "Shuang Liao",
+    "Mingda Guo",
+    "Jiazheng Quan",
+    "Yilu Zhong",
+    "Chenhao He",
+    "Zichuan Chen",
+    "Jie Wu",
+    "Haoling Li",
+    "Zhaoxuan Li",
+    "Jiongchi Yu",
+    "Hui Li",
+    "Dong Zhang"
+  ],
+  "publication_date": "2025-08-25T15:11:11Z",
+  "pdf_link": "https://arxiv.org/pdf/2508.18106v3",
+  "keywords": [
+    "A.S.E",
+    "AI code generation",
+    "security evaluation",
+    "repository-level",
+    "LLMs"
+  ]
+}

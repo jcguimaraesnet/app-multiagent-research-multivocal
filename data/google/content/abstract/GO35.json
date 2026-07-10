@@ -1,0 +1,14 @@
+{
+  "title": "Refactoring AI code: The good, the bad, and the weird",
+  "link": "https://www.infoworld.com/article/3610521/refactoring-ai-code-the-good-the-bad-and-the-weird.html",
+  "summary": "This InfoWorld feature article explores the challenges and practices of refactoring and maintaining AI-generated code. It gathers insights from real-world developers who note that AI-written code often lacks consistency, readability, and can be overengineered, making maintenance difficult. The article discusses how AI tools themselves (e.g., GitHub Copilot, Cursor) can assist in refactoring tasks like code analysis, automated changes, and suggesting improvements based on learned patterns, but emphasizes that human oversight remains essential. No specific new tool or software solution is presented; instead, the piece surveys current experiences and practices around using generative AI for software construction and subsequent code maintenance.",
+  "author": "Josh Fruhlinger",
+  "publication_date": "2024-12-02",
+  "keywords": [
+    "AI-assisted refactoring",
+    "generative AI",
+    "code maintenance",
+    "AI code generation",
+    "software development"
+  ]
+}

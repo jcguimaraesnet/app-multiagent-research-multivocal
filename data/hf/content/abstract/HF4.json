@@ -1,0 +1,22 @@
+{
+  "title": "PlayCoder: Making LLM-Generated GUI Code Playable",
+  "link": "https://huggingface.co/papers/2604.19742",
+  "abstract": "Large language models (LLMs) have achieved strong results in code generation, but their ability to generate GUI applications, especially games, remains insufficiently studied. Existing benchmarks mainly evaluate correctness through test cases, which are inadequate for GUI applications because these systems are interactive, event-driven, and require correct state transitions across sequences of user actions. Their evaluation therefore should consider interaction flows and UI logic rather than only pass/fail outcomes. To study this problem, we introduce PlayEval, a repository-aware benchmark built from 43 multilingual GUI applications in Python, TypeScript, and JavaScript. Unlike prior GUI benchmarks that are difficult to adapt to desktop environments, PlayEval covers six major GUI application categories and directly supports code-generation evaluation. We further propose Play@k, a metric that measures whether at least one of *k* generated candidates can be played end-to-end without logical errors. To support reliable evaluation, we develop PlayTester, an LLM-based agent that performs task-oriented GUI playthroughs and detects logic violations automatically. Experiments on 10 state-of-the-art code LLMs show that, despite high compilation rates, they achieve near-zero Play@3, revealing major weaknesses in generating logically correct GUI applications. To address this limitation, we present PlayCoder, a multi-agent, repository-aware framework that generates, evaluates, and iteratively repairs GUI application code in a closed loop. PlayCoder substantially improves both functional correctness and semantic alignment for open-source and closed-source models, reaching up to 38.1% Exec@3 and 20.3% Play@3. Case studies further show that it can uncover silent logic bugs missed by traditional metrics and fix them through targeted edits.",
+  "authors": [
+    "Zhiyuan Peng",
+    "Wei Tao",
+    "Xin Yin",
+    "Chenhao Ying",
+    "Yuan Luo",
+    "Yiwen Guo"
+  ],
+  "publication_date": "2026-04-21T17:59:16Z",
+  "pdf_link": "https://arxiv.org/pdf/2604.19742v1",
+  "keywords": [
+    "PlayEval",
+    "PlayCoder",
+    "GUI code generation",
+    "multi-agent framework",
+    "benchmark"
+  ]
+}

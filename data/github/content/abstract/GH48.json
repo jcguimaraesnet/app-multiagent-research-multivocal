@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - raine/consult-llm: Get a second opinion from another AI model",
+  "link": "https://github.com/raine/consult-llm",
+  "summary": "consult-llm is a command-line tool that enables software developers to obtain a second opinion from an external large language model (LLM) directly within their existing agent workflow. It integrates with coding agents such as Claude Code, OpenCode, and Codex through slash commands (e.g., /consult, /debate, /collab) to perform tasks like code review, bug analysis, architecture planning, and debate synthesis. The tool supports multiple model families (including GPT, Gemini, Claude, DeepSeek) via both API and local CLI backends, and offers skills for multi-model code review, autonomous implementation, and phased development. It also provides a monitor TUI for tracking runs, multi-turn conversations, and configurable system prompts. The project is written in Rust and is distributed as a single binary.",
+  "author": "Raine Virta",
+  "publication_date": "2026-06-27",
+  "keywords": [
+    "consult-llm",
+    "AI second opinion",
+    "agent workflow",
+    "code review",
+    "multi-model debate"
+  ]
+}

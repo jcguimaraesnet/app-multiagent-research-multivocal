@@ -1,0 +1,15 @@
+{
+  "title": "Quantitative Assessment of Generative Large Language Models on Design Pattern Application",
+  "link": "https://doi.org/10.32604/cmc.2025.062552",
+  "abstract": "Design patterns offer reusable solutions for common software issues, enhancing quality. The advent of generative large language models (LLMs) marks progress in software development, but their efficacy in applying design patterns is not fully assessed. The recent introduction of generative large language models (LLMs) like ChatGPT and CoPilot has demonstrated significant promise in software development. They assist with a variety of tasks including code generation, modeling, bug fixing, and testing, leading to enhanced efficiency and productivity. Although initial uses of these LLMs have had a positive effect on software development, their potential influence on the application of design patterns remains unexplored. This study introduces a method to quantify LLMs’ ability to implement design patterns, using Role-Based Metamodeling Language (RBML) for a rigorous specification of the pattern’s problem, solution, and transformation rules. The method evaluates the pattern applicability of a software application using the pattern’s problem specification. If deemed applicable, the application is input to the LLM for pattern application. The resulting application is assessed for conformance to the pattern’s solution specification and for completeness against the pattern’s transformation rules. Evaluating the method with ChatGPT 4 across three applications reveals ChatGPT’s high proficiency, achieving averages of 98% in conformance and 87% in completeness, thereby demonstrating the effectiveness of the method. Using RBML, this study confirms that LLMs, specifically ChatGPT 4, have great potential in effective and efficient application of design patterns with high conformance and completeness. This opens avenues for further integrating LLMs into complex software engineering processes. Copyright © 2025 The Author. Published by Tech Science Press.",
+  "keywords": [
+    "Design patterns",
+    "large language models",
+    "pattern application",
+    "pattern-based refactoring",
+    "quantitative assessment"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Tech Science Press"
+}

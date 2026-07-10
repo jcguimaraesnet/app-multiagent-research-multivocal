@@ -1,0 +1,14 @@
+{
+  "title": "DmitryNekrasov/ai-code-completion-idea-plugin",
+  "link": "https://github.com/DmitryNekrasov/ai-code-completion-idea-plugin",
+  "summary": "This GitHub repository contains an IntelliJ IDEA plugin that provides inline AI code completion using a local Large Language Model (LLM). The plugin operates by analyzing the code context around the caret to generate suggestions, first checking a local cache before querying the external AI model. It integrates with an Ollama server running a CodeLlama model to provide the completions. The project includes features for cache management, statistical analysis of usage, and a non-intrusive UI presenting suggestions as gray text in the editor.",
+  "author": "Dmitry Nekrasov",
+  "publication_date": "2024-07-01",
+  "keywords": [
+    "code completion",
+    "IDE plugin",
+    "local LLM",
+    "IntelliJ IDEA",
+    "codellama"
+  ]
+}

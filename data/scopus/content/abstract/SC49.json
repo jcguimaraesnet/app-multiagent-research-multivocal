@@ -1,0 +1,16 @@
+{
+  "title": "Code Comprehension Gaps in AI-Assisted Development: A Conceptual Framework for Knowledge Erosion Patterns",
+  "link": "https://doi.org/10.1109/ACCESS.2026.3689574",
+  "abstract": "The increasing adoption of AI-powered code generation tools has introduced a critical challenge in software engineering, the potential erosion of developer comprehension of codebases increasingly composed of AI-generated artifacts. Before examining this erosion, we establish that human code comprehension remains a functional requirement in AI-augmented development on four independent grounds: regulatory accountability obligations, the need for human oversight of AI failures, organizational resilience against tool unavailability, and the causal reasoning demands of incident response. This paper examines how AI-assisted development may create knowledge gaps within engineering teams by presenting a conceptual framework for understanding code ownership levels and proposing a taxonomy of knowledge voids that may emerge in AI-augmented development. We propose theoretical models for understanding how AI-generated code may differ from human-written code in ways that affect long-term comprehension and maintenance. Our analysis leads us to hypothesize that AI-generated code may exhibit patterns including lower explanatory documentation, different structural complexity characteristics, and greater implementation diversity, factors that could increase comprehension challenges during maintenance. We conclude with hypothesis-driven implications for development practices and identify critical needs for longitudinal research to validate these theoretical concerns in real-world development contexts.  © 2013 IEEE.",
+  "keywords": [
+    "AI-generated code",
+    "code comprehension",
+    "institutional knowledge",
+    "large language models",
+    "software maintenance",
+    "technical debt"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Institute of Electrical and Electronics Engineers Inc."
+}

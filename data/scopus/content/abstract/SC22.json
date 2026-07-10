@@ -1,0 +1,17 @@
+{
+  "title": "AI-Driven Approaches to System Requirements and Test Case Generation: A New Paradigm in Software Engineering",
+  "link": "https://doi.org/10.3390/technologies14050260",
+  "abstract": "Artificial intelligence (AI) is a new paradigm in software engineering that automates key phases of the development cycle. The methods of creating test cases and designing requirements are still mostly manual and prone to error. Unclear requirements can result in expensive rework and undiscovered defects in the development process. Scalability and dependability are crucial concerns in complex systems. These shortcomings highlight the need for improved methods to enhance accuracy and consistency throughout these critical phases. To generate well-organized system requirements, this article outlines a clear strategy that leverages Extended Finite State Machine models as formal inputs for large language models (LLMs). Five system models are used to assess the suggested framework. The comparison analysis evaluates the accuracy, completeness, test coverage, and runtime efficiency of the artifacts. Along with a comparison with a human-made reference standard, the study evaluates the performance of LLMs such as ChatGPT-5, Claude Sonnet 4.5, and DeepSeek V3.2. The findings demonstrate that AI models can achieve human-comparable accuracy by exceeding 90% with EFSM-based prompting. Claude Sonnet generated the most reliable findings, ChatGPT demonstrated exceptional flexibility, and DeepSeek demonstrated exceptional runtime economy. These findings show that human–AI workflows provide a new paradigm in scalable, traceable, and reproducible system engineering. © 2026 by the authors.",
+  "keywords": [
+    "artificial intelligence",
+    "code generation",
+    "extended finite state machine",
+    "large language models",
+    "requirements engineering",
+    "software engineering",
+    "test automation"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "VeriGen: An LLM-Augmented Framework for End-to-End Automation of Software Development Lifecycle-From Requirements Specifications to Code Generation",
+  "link": "https://doi.org/10.1109/ACCESS.2026.3686308",
+  "abstract": "In recent years, Large Language Models (LLMs) and Generative Artificial Intelligence (GenAI) have gained significant momentum in the automation of software development. Although, previous research studies have also explored specific sub tasks like requirements formalization, UML class diagram generation, UML sequence diagram generation, and skeletal code generation, these efforts are still fragmented and do not provide an integrated, end-to-end software solution. Furthermore, unreliable outputs are frequently caused by instability, omissions, and hallucinations in LLM-generated artifacts. We propose VeriGen, a novel end-to-end generative AI framework for automated software development, to overcome these limitations. VeriGen begins with requirements written in plain natural language, which are structured using RUPPs templates into Structured Natural Language (SNL). LLM outputs are systematically processed through a unique Verifier-Optimizer loop at each subsequent stage, such as class diagram generation, sequence diagram generation, and skeletal Java code synthesis. The Verifier-Optimizer loop identifies correct, incorrect, missing, and extra instances while refining outputs for stability and correctness. This ensures the accuracy and completeness of generated artifacts in addition to the automation. By reliably generating verified and optimized outputs throughout the software development pipeline, VeriGen has been validated against four benchmark case studies, proving its superiority over baseline LLM generated outputs. The results confirm VeriGen as a significant and major step toward achieving a reliable, generative, end-to-end software engineering automation.  © 2026 The Authors.",
+  "keywords": [
+    "code generation",
+    "end-to-end software development",
+    "Generative artificial intelligence (GenAI)",
+    "large language models (LLMs)",
+    "RUPPs templates",
+    "sequence diagram generation",
+    "structured natural language (SNL)",
+    "UML class diagram generation",
+    "verification and optimization",
+    "VeriGen tool"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Institute of Electrical and Electronics Engineers Inc."
+}

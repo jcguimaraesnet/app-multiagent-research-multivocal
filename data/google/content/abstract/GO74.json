@@ -1,0 +1,14 @@
+{
+  "title": "Research",
+  "link": "https://joezhouai.com/research/",
+  "summary": "This is a personal research page describing the author's research interests in natural language processing and machine learning, with a focus on large language models (LLMs). Topics include retrieval augmentation, code and structured generation, neuro-symbolic AI, complex reasoning, and reinforcement learning for LLMs. No specific tool or solution for software construction is presented, but the page highlights research directions relevant to code generation and LLM-based programming support.",
+  "author": "J. Zhou",
+  "publication_date": "",
+  "keywords": [
+    "LLM",
+    "code generation",
+    "structured generation",
+    "neuro-symbolic AI",
+    "reinforcement learning"
+  ]
+}

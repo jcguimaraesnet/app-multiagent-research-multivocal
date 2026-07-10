@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - teacherpeterpan/Logic-LLM: The project page for \"LOGIC-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning\"",
+  "link": "https://github.com/teacherpeterpan/logic-llm",
+  "summary": "This repository provides the code and data for Logic-LM, a framework that combines large language models with symbolic solvers to perform faithful logical reasoning. The method first uses an LLM to translate a natural language problem into a symbolic formulation, then a deterministic symbolic solver performs inference, with an optional self-refinement module that leverages solver error messages to revise incorrect formalizations. The approach is evaluated on five logical reasoning datasets—ProofWriter, PrOntoQA, FOLIO, LogicalDeduction, and AR-LSAT—and demonstrates substantial improvements over standard prompting and chain-of-thought baselines. The work was published in Findings of EMNLP 2023.",
+  "author": "Liangming Pan, Alon Albalak, Xinyi Wang, William Yang Wang",
+  "publication_date": "2023-12",
+  "keywords": [
+    "Logic-LM",
+    "symbolic solver",
+    "logical reasoning",
+    "large language models",
+    "self-refinement"
+  ]
+}

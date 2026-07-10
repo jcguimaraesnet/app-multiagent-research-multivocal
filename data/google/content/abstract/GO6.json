@@ -1,0 +1,14 @@
+{
+  "title": "RAGdeterm: Deterministic retrieval-augmented generation for code generation",
+  "link": "https://www.sciencedirect.com/science/article/pii/S2352711026001299",
+  "summary": "This paper introduces RAGdeterm, a deterministic Retrieval-Augmented Generation approach for code generation that serves as an alternative to embedding-based RAG architectures. Unlike traditional vector similarity search, RAGdeterm uses a relational database to explicitly represent object-oriented code structures and dependencies, enabling deterministic and repeatable retrieval of contextual information. The approach enriches prompts for large language models with up-to-date project-specific source code, avoiding probabilistic retrieval mechanisms. RAGdeterm is positioned as an alternative to existing RAG approaches in software engineering contexts where predictability and reproducibility are critical.",
+  "author": "A. Bochenek, J. Protasiewicz, W. Pedrycz",
+  "publication_date": "2026-06-01",
+  "keywords": [
+    "Retrieval-Augmented Generation",
+    "code generation",
+    "Large Language Models",
+    "deterministic retrieval",
+    "RAGdeterm"
+  ]
+}

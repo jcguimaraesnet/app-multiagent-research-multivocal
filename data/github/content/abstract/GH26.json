@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - camilochs/pydaybcn2025-workshop-code-evolution: Code Evolution: Self-Improving Software with LLMs and Python.",
+  "link": "https://github.com/camilochs/pydaybcn2025-workshop-code-evolution",
+  "summary": "This repository contains materials for a workshop at PyDay Barcelona 2025, presenting four interactive Jupyter notebooks that demonstrate self-improving software patterns using Large Language Models (LLMs) and Python. The demos cover automatic bug fixing via an execution-feedback loop, code optimization using genetic algorithms with LLM operators, runtime tool creation by an agent, and multi-agent prompt evolution through competition. The solutions illustrate how LLMs can serve as intelligent mutation operators for code evolution and enable self-correcting and self-extending software systems.",
+  "author": "Camilo Chacón Sartori",
+  "publication_date": "2025-11-27",
+  "keywords": [
+    "LLM",
+    "self-improving software",
+    "code evolution",
+    "genetic algorithm",
+    "multi-agent system"
+  ]
+}

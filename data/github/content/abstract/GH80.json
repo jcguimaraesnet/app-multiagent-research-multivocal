@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - yash-srivastava19/cadence: Using LLMs(not RL) to find new solutions for problems that are hard. Batteries included.",
+  "link": "https://github.com/yash-srivastava19/cadence",
+  "summary": "Cadence is an open-source system that employs large language models within an evolutionary loop to generate, mutate, and improve program code for hard computational problems, currently demonstrated on the Traveling Salesman Problem. It samples parent programs, uses an LLM to propose child variants via code diffs, evaluates them deterministically on a test suite, and feeds performance feedback back into the prompt as lessons. The system stores program generations in SQLite, supports parallel evaluation, and includes meta-prompting that periodically updates instructions to steer LLM behavior. Its modular task abstraction allows extension to other optimization problems, and it provides configuration via Hydra, experiment scripts for cost evolution and scaling analysis, and a Flask-based monitoring UI.",
+  "author": "Yash Srivastava",
+  "publication_date": "",
+  "keywords": [
+    "program evolution",
+    "LLM",
+    "code generation",
+    "TSP",
+    "evolutionary algorithms"
+  ]
+}

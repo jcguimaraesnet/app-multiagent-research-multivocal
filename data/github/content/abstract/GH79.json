@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - SakanaAI/drq: Digital Red Queen: Adversarial Program Evolution in Core War with LLMs",
+  "link": "https://github.com/SakanaAI/drq",
+  "summary": "This repository provides an implementation of Digital Red Queen (DRQ), a self-play algorithm that uses large language models to evolve assembly-like programs (warriors) in the Core War game. DRQ continually generates new warriors to defeat previous ones, producing an adversarial evolutionary process that yields increasingly general and behaviorally convergent strategies. The framework serves as a sandbox for studying adversarial adaptation in software construction and may inform techniques for cybersecurity or code generation.",
+  "author": "Sakana AI",
+  "publication_date": "2026-01-13",
+  "keywords": [
+    "Digital Red Queen",
+    "Core War",
+    "LLM-based program evolution",
+    "adversarial self-play",
+    "code generation"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "AI-Driven Code Refactoring: Improving Legacy Codebases Automatically - Jorrik Klijnsma",
+  "link": "https://www.youtube.com/watch?v=u8tvVxUOwvY",
+  "summary": "This source is a recorded talk from NDC Melbourne 2025 by Jorrik Klijnsma, titled 'AI-Driven Code Refactoring: Improving Legacy Codebases Automatically'. The presentation explores how artificial intelligence algorithms can be used to automatically improve and modernize legacy codebases. It covers how AI interprets code structure, performs automated refactoring across scales from small scripts to large systems, shares real-world success stories, discusses current limitations, and highlights tools that can streamline the development process.",
+  "author": "Jorrik Klijnsma",
+  "publication_date": "2025-07-02",
+  "keywords": [
+    "AI-driven code refactoring",
+    "legacy code",
+    "automatic refactoring",
+    "NDC Melbourne",
+    "software development"
+  ]
+}

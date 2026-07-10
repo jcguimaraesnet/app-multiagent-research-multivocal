@@ -1,0 +1,14 @@
+{
+  "title": "Spec-driven development with AI: Get started with a new open source toolkit",
+  "link": "https://resources.github.com/increasing-collaborative-development-with-ai/",
+  "summary": "This blog post introduces Spec Kit, an open-source toolkit from GitHub for spec-driven development with AI coding agents. It addresses the unreliability of vague prompts by making specifications living, executable artifacts that drive implementation through four phases: Specify (user journeys), Plan (technical architecture), Tasks (breakdown into small reviewable chunks), and Implement (agent-driven coding with human verification). The toolkit works with agents like GitHub Copilot, Claude Code, and Gemini CLI, and is especially suited for greenfield projects, feature additions, and legacy modernization. The approach shifts the source of truth from code to intent, enabling more reliable and transparent AI-assisted software construction.",
+  "author": "Den Delimarsky",
+  "publication_date": "2025-09-02",
+  "keywords": [
+    "spec-driven development",
+    "Spec Kit",
+    "coding agents",
+    "AI-assisted coding",
+    "software construction"
+  ]
+}

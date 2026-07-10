@@ -1,0 +1,15 @@
+{
+  "title": "Few-shot code translation via task-adapted prompt learning",
+  "link": "https://doi.org/10.1016/j.jss.2024.112002",
+  "abstract": "Pre-trained models such as CodeT5 and TransCoder have achieved impressive progress in software engineering. However, fine-tuning PLMs for code translation is confronted with significant challenges owing to the scarce availability of parallel code. Large language models such as ChatGPT have exhibited considerable promise in few-shot learning where only a small number of demonstration examples are given to the LLM. Yet they have not been specifically optimized for domain-specific tasks, and their use often entails significant manual effort in manually curating prompts. In this paper, we propose FSCTrans, a novel parameter-efficient tuning approach for code translation when furnished with only a few demonstration examples. (1) to efficiently reuse prior knowledge during pre-training, FSCTrans employs task-adapted prompt tuning, which freezes the pre-trained CodeT5 while merely updating parameters in a small prompt module; (2) to enable parameter efficient tuning on only a small number of examples, FSCTrans bridges pre-training to the translation task through a new pre-training objective of code-to-code generation. We evaluate FSCTrans on Java↔Python and Java↔C# datasets from both real-world projects and online judge problems. The evaluation results show that FSCTrans is remarkably effective in few-shot code translation: on average, it improves CodeT5 by 54.61% and 31.59% in terms of BLEU-4 and CodeBLEU; notably, FSCTrans demonstrates 14.42% and 18.36% superior performance in Java → C# translations in terms of BLEU-4 and CodeBLEU compared to ChatGPT. © 2024 Elsevier Inc.",
+  "keywords": [
+    "Code translation",
+    "Few-shot learning",
+    "Parameter-efficient fine-tuning",
+    "Pre-trained language model",
+    "Task-adapted prompt tuning"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Elsevier Inc."
+}

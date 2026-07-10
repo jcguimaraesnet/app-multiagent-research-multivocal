@@ -1,0 +1,14 @@
+{
+  "title": "Rutex: The Autonomous AI Agent for Acode",
+  "link": "https://github.com/hallofcodes/acode-ai-agent-plugin",
+  "summary": "Rutex is an autonomous AI agent plugin for the Acode mobile editor that enables LLMs to directly read, create, edit, and delete files and directories, and execute terminal commands through an agentic loop. It transforms Acode into a fully agentic IDE, supporting AI providers such as Gemini, OpenRouter, Ollama, and OpenAI. The plugin uses a line-based diff engine for precise file edits, maintains deep project context, and is built with TypeScript and Webpack. It brings desktop-class AI automation to Android mobile coding.",
+  "author": "Dave Conco (dconco) & Hall Of Codes Team",
+  "publication_date": "2026-06-28",
+  "keywords": [
+    "Rutex",
+    "AI coding agent",
+    "Acode plugin",
+    "autonomous",
+    "mobile development"
+  ]
+}

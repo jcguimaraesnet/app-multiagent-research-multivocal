@@ -1,0 +1,15 @@
+{
+  "title": "Analysis of ChatGPT-Generated Codes Across Multiple Programming Languages",
+  "link": "https://doi.org/10.1109/ACCESS.2025.3538050",
+  "abstract": "Our research focuses on the intersection of artificial intelligence (AI) and software development, particularly the role of AI models in automating code generation. With advancements in large language models like ChatGPT, developers can now generate code from natural language prompts, a task that traditionally required significant manual input and expertise. AI-generated code promises to boost productivity by enabling faster prototyping and automating repetitive coding tasks. However, as these models are increasingly adopted in real-world applications, questions surrounding their efficiency and code quality become critical. This research investigates ChatGPT-4o, a state-of-the-art language model, and its ability to generate functional, high-quality code in different programming languages. By comparing performance between Python and Java, the study seeks to shed light on AI's capabilities and limitations in code generation, addressing not only functional correctness but also broader software engineering concerns such as memory usage, runtime efficiency, and maintainability. The study addresses key questions related to the performance, code quality, and error management of AI-generated code by analyzing solutions for 300 data structure problems and 300 problems from the LeetCode platform. The findings reveal notable performance differences between the two languages: Java demonstrated superior runtime performance, particularly for medium and hard problems, while Python exhibited better memory efficiency across all complexity levels. The research also highlighted significant gaps in code quality, with both languages showing deficiencies in documentation and exception management. This study contributes to the literature by offering a comprehensive cross-language analysis of ChatGPT-4o's programming capabilities, addressing a gap in the evaluation of AI-generated code performance. © 2013 IEEE.",
+  "keywords": [
+    "Artificial intelligence",
+    "ChatGPT",
+    "large language model",
+    "programming",
+    "software development"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Institute of Electrical and Electronics Engineers Inc."
+}

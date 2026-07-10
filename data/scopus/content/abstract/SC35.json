@@ -1,0 +1,13 @@
+{
+  "title": "Less Is More: DocString Compression in Code Generation",
+  "link": "https://doi.org/10.1145/3735636",
+  "abstract": "The widespread use of Large Language Models (LLMs) in software engineering has intensified the need for improved model and resource efficiency. In particular, for neural code generation, LLMs are used to translate function/method signature and DocString to executable code. DocStrings, which capture user requirements for the code and are typically used as the prompt for LLMs, often contain redundant information. Recent advancements in prompt compression have shown promising results in Natural Language Processing (NLP), but their applicability to code generation remains uncertain. Our empirical study shows that the state-ofthe-art prompt compression methods achieve only about 10% reduction, as further reductions would cause significant performance degradation. In our study, we propose a novel compression method, ShortenDoc, dedicated to DocString compression for code generation. Our experiments on six code generation datasets, five open source LLMs (1B to 10B parameters), and one closed-source LLM GPT-4o confirm that ShortenDoc achieves 25–40% compression while preserving the quality of generated code, outperforming other baseline methods at similar compression levels. The benefit of this method is to improve efficiency and reduce the token processing cost while maintaining the quality of the generated code, especially when calling third-party APIs. © 2026 Copyright held by the owner/author(s). Publication rights licensed to ACM.",
+  "keywords": [
+    "Code Generation",
+    "DocString Compression",
+    "Large Language Model"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Association for Computing Machinery"
+}

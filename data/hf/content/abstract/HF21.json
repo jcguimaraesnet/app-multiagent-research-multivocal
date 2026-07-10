@@ -1,0 +1,23 @@
+{
+  "title": "ScreenCoder: Advancing Visual-to-Code Generation for Front-End Automation via Modular Multimodal Agents",
+  "link": "https://huggingface.co/papers/2507.22827",
+  "abstract": "Automating the transformation of user interface (UI) designs into front-end code holds significant promise for accelerating software development and democratizing design workflows. While multimodal large language models (MLLMs) can translate images to code, they often fail on complex UIs, struggling to unify visual perception, layout planning, and code synthesis within a single monolithic model, which leads to frequent perception and planning errors. To address this, we propose ScreenCoder, a modular multi-agent framework that decomposes the task into three interpretable stages: grounding, planning, and generation. By assigning these distinct responsibilities to specialized agents, our framework achieves significantly higher robustness and fidelity than end-to-end approaches. Furthermore, ScreenCoder serves as a scalable data engine, enabling us to generate high-quality image-code pairs. We use this data to fine-tune open-source MLLM via a dual-stage pipeline of supervised fine-tuning and reinforcement learning, demonstrating substantial gains in its UI generation capabilities. Extensive experiments demonstrate that our approach achieves state-of-the-art performance in layout accuracy, structural coherence, and code correctness. Our code is made publicly available at https://github.com/leigest519/ScreenCoder.",
+  "authors": [
+    "Yilei Jiang",
+    "Yaozhi Zheng",
+    "Yuxuan Wan",
+    "Jiaming Han",
+    "Qunzhong Wang",
+    "Michael R. Lyu",
+    "Xiangyu Yue"
+  ],
+  "publication_date": "2025-07-30T16:41:21Z",
+  "pdf_link": "https://arxiv.org/pdf/2507.22827v2",
+  "keywords": [
+    "ScreenCoder",
+    "multi-agent framework",
+    "UI-to-code generation",
+    "UI grounding",
+    "reinforcement learning"
+  ]
+}

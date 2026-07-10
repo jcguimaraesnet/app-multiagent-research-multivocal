@@ -1,0 +1,21 @@
+{
+  "title": "Efficient Code Embeddings from Code Generation Models",
+  "link": "https://huggingface.co/papers/2508.21290",
+  "abstract": "jina-code-embeddings is a novel code embedding model suite designed to retrieve code from natural language queries, perform technical question-answering, and identify semantically similar code snippets across programming languages. It makes innovative use of an autoregressive backbone pre-trained on both text and code, generating embeddings via last-token pooling. We outline the training recipe and demonstrate state-of-the-art performance despite the relatively small size of the models, validating this approach to code embedding model construction.",
+  "authors": [
+    "Daria Kryvosheieva",
+    "Saba Sturua",
+    "Michael Günther",
+    "Scott Martens",
+    "Han Xiao"
+  ],
+  "publication_date": "2025-08-29T01:18:15Z",
+  "pdf_link": "https://arxiv.org/pdf/2508.21290v1",
+  "keywords": [
+    "jina-code-embeddings",
+    "code retrieval",
+    "autoregressive backbone",
+    "last-token pooling",
+    "cross-lingual code similarity"
+  ]
+}

@@ -1,0 +1,3918 @@
+{
+  "origin": "google",
+  "step": 3,
+  "model": "",
+  "updated_at": "2026-07-10T03:25:13.232136+00:00",
+  "count": 83,
+  "by_status": {
+    "pending": 0,
+    "scraped": 0,
+    "summarized": 0,
+    "screened": 83
+  },
+  "included": 37,
+  "excluded": 46,
+  "records": [
+    {
+      "id": "GO1",
+      "status": "screened",
+      "data": {
+        "title": "Code Generation using Retrieval Augmented Generation + LangChain",
+        "link": "https://medium.com/@rubenszimbres/code-generation-using-retrieval-augmented-generation-langchain-861e3c1a1a53"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The article focuses on code generation, a core software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses a code-bison LLM and LangChain, both generative AI technologies."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The article describes an implemented pipeline using specific tools and datasets."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It describes a functional prototype using LangChain, Vertex AI, and FAISS for code generation."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in 2023, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The article is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary description of a specific solution, not a review or survey."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO2",
+      "status": "screened",
+      "data": {
+        "title": "RAG for Code Generation, an AI Hacker Cup example",
+        "link": "https://www.youtube.com/watch?v=cObBj2UpWK8"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is coding (competitive programming), which is software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses large language models (LLMs) and Retrieval-Augmented Generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Describes practical implementation with experiments on HackerCup problems."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Presents a code generation agent prototype with RAG and self-reflection."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2024-08-28 falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English, indicating the source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study presenting a novel approach, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO3",
+      "status": "screened",
+      "data": {
+        "title": "Context-aware code generation: RAG and Vertex AI Codey APIs | Google Cloud Blog",
+        "link": "https://cloud.google.com/blog/products/ai-machine-learning/context-aware-code-generation-rag-and-vertex-ai-codey-apis"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The blog post focuses on code generation accuracy, a core software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses RAG with Codey APIs, which are generative AI models for code."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Describes a method with an example and integration steps, not just theory."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in 2024, which falls within the range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a blog post presenting a method, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO4",
+      "status": "screened",
+      "data": {
+        "title": "Retrieval-Augmented Code Generation: A Survey with Focus on Repository-Level Approaches",
+        "link": "https://arxiv.org/html/2510.04905v1"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering with a focus on code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies large language models as the core technique."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It is a survey, not describing a practical implementation itself."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is a survey, not a usable solution or tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2025-10-06 falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is a comprehensive review survey, a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO5",
+      "status": "screened",
+      "data": {
+        "title": "L2MAC: Large Language Model Automatic Computer for Extensive Code Generation // van der Schaar Lab",
+        "link": "https://www.vanderschaar-lab.com/l2mac/"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source focuses on generating large codebases, a core software construction task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses Large Language Models (LLMs) for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It includes a concrete instantiation (Code-L2MAC) with publicly available code."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The framework is implemented and its code is publicly available, indicating a usable tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date (2024) falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English and the source is likely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It presents a novel framework, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO6",
+      "status": "screened",
+      "data": {
+        "title": "RAGdeterm: Deterministic retrieval-augmented generation for code generation",
+        "link": "https://www.sciencedirect.com/science/article/pii/S2352711026001299"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "focuses on code generation for software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "uses large language models for retrieval-augmented generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "describes implementation of deterministic retrieval for code generation."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "publication date 2026-06-01 is within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "presents original approach, not a secondary/tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO7",
+      "status": "screened",
+      "data": {
+        "title": "Lessons learned from implementing RAG for code generation",
+        "link": "https://www.reddit.com/r/LLMDevs/comments/1hw1n5o/lessons_learned_from_implementing_rag_for_code/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO8",
+      "status": "screened",
+      "data": {
+        "title": "LangGraph: Building self-correcting RAG agent",
+        "link": "https://learnopencv.com/langgraph-self-correcting-agent-code-generation/"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It describes generating Python scripts, which is software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses an LLM and RAG, which are Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The agent executes generated code and applies error feedback in a loop."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents a built agent with state management and routing, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2025-07-29, which is between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO9",
+      "status": "screened",
+      "data": {
+        "title": "Retrieval-Augmented Generation (RAG) and LLMs for smart code generation: Advancing Plant Simulation SimTalk and beyond - Tecnomatix",
+        "link": "https://blogs.sw.siemens.com/tecnomatix/retrieval-augmented-generation-rag-and-llms-for-smart-code-generation-advancing-plant-simulation-simtalk-and-beyond/"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Addresses code generation for SimTalk scripting language, which is software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses Retrieval-Augmented Generation and Large Language Models."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Describes building and evaluating a practical AI assistant."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Presents a working AI assistant, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2025-04-25 falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a blog post about a specific solution, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO10",
+      "status": "screened",
+      "data": {
+        "title": "OWASP LLM Top 10: How it Applies to Code Generation",
+        "link": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The article discusses AI code generation and code quality risks, clearly within the software construction context."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The source does not itself apply generative AI methods; it only discusses risks related to LLM-based code generation."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The article provides guidance and recommends existing tools, not a new practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It does not present a usable prototype or tool; it is a descriptive article."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is not a secondary or tertiary study; it is a discussion piece."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO12",
+      "status": "screened",
+      "data": {
+        "title": "Understanding LLMs for Code Generation",
+        "link": "https://www.youtube.com/watch?v=eaTIrJnkuNI"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The summary explicitly addresses code generation and coding tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It focuses on Large Language Models (LLMs) for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Hands-on examples demonstrate practical application of prompt engineering strategies."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2024-10-01, which falls within 2021–2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a webinar, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO13",
+      "status": "screened",
+      "data": {
+        "title": "CWM: An Open-Weights LLM for Research on Code ...",
+        "link": "https://ai.meta.com/research/publications/cwm-an-open-weights-llm-for-research-on-code-generation-with-world-models/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO14",
+      "status": "screened",
+      "data": {
+        "title": "CodeRAG-Bench: Can Retrieval Augment Code Generation?",
+        "link": "https://code-rag-bench.github.io/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is code generation, which falls under software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It involves code generation models like GPT-4 in a retrieval-augmented setup."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2024, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is described as a benchmark, which is a tertiary artefact aggregating multiple contexts for evaluation."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO15",
+      "status": "screened",
+      "data": {
+        "title": "A Collective Evaluation Platform for LLM Code Generation",
+        "link": "https://aclanthology.org/2025.acl-demo.48/"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering for coding as it focuses on LLM code generation evaluation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies LLMs for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical online evaluation framework with public repositories and APIs."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents an online platform (prototype) for evaluation, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2025-07 is between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It presents an original evaluation framework, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO16",
+      "status": "screened",
+      "data": {
+        "title": "Enhancing LLM Code Generation with RAG and AST-Based Chunking",
+        "link": "https://vxrl.medium.com/enhancing-llm-code-generation-with-rag-and-ast-based-chunking-5b81902ae9fc"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly discusses software construction through code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The method enhances large language model (LLM) code generation using Retrieval-Augmented Generation (RAG)."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a specific implementation involving Tree-sitter chunking, CodeT5 embeddings, and hnswlib indexing."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2025-03-06, which falls within the required range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It presents a novel method, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO17",
+      "status": "screened",
+      "data": {
+        "title": "How AI code generation works",
+        "link": "https://github.blog/ai-and-ml/generative-ai/how-ai-code-generation-works/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is explicitly software engineering and coding, focusing on AI code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It specifically discusses large language models, a core Generative AI method."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The text is a descriptive blog post, it does not describe a practical implementation or new solution by the authors."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is an explanatory blog post, not a prototype or deployed tool presented as a usable solution in itself."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2024-02-22, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The text is a blog post explaining how a technology works, which constitutes a secondary description or overview, not a primary study presenting a novel solution."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO18",
+      "status": "screened",
+      "data": {
+        "title": "LLM-based and Retrieval-Augmented Control Code Generation | Proceedings of the 1st International Workshop on Large Language Models for Code",
+        "link": "https://dl.acm.org/doi/10.1145/3643795.3648384"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Generates IEC 61131-3 Structured Text code, which is a software construction task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses retrieval-augmented generation with GPT-4, an LLM."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Describes a prototype implementation and spot tests with compilable code."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Presents a prototypical tool that generated simulation-validated code."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2024-09-10 falls within 2021–2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English, paper appears to be in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Proposes a novel method, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO19",
+      "status": "screened",
+      "data": {
+        "title": "Self-Spec: Model-Authored Specifications for Reliable LLM ...",
+        "link": "https://openreview.net/forum?id=6pr7BUGkLp"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC2, IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The content is a browser verification page, not a research source about software engineering."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "No generative AI methods are discussed."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "No practical implementation is described."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No usable solution is presented."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is not a secondary study; it is a browser verification page."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO20",
+      "status": "screened",
+      "data": {
+        "title": "How far can we push AI autonomy in code generation?",
+        "link": "https://martinfowler.com/articles/pushing-ai-autonomy.html"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source explicitly focuses on software construction by generating a Spring Boot application."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It employs Generative AI (LLMs) in an agentic workflow for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The authors built and experimented with an agentic workflow, demonstrating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The article reports experimental findings, not a usable solution for developers."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date August 5, 2025 falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is an original experimental study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO21",
+      "status": "screened",
+      "data": {
+        "title": "Generative AI for Code Completion",
+        "link": "https://www.coursera.org/learn/generative-ai-for-code-completion"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The course explicitly targets software engineers and developers for code completion, which falls under software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It covers generative AI tools like ChatGPT and GitHub Copilot, which are LLMs or closely related."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is an online course, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, and there is no indication it is in another language."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is an educational course, not a survey, review, or mapping study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO22",
+      "status": "screened",
+      "data": {
+        "title": "Enhancing repository-level code completion with selective retrieval",
+        "link": "https://www.amazon.science/blog/enhancing-repository-level-code-completion-with-selective-retrieval"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source discusses repository-level code completion, a software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It fine-tunes a large language model and uses retrieval-augmented generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The method is evaluated with speedup and accuracy improvements, indicating practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Repoformer is a plug-and-play policy model, a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2024, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a blog post presenting a new method, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO23",
+      "status": "screened",
+      "data": {
+        "title": "RAGdeterm: Deterministic retrieval-augmented generation for code generation",
+        "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5986423"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering with a focus on code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies retrieval-augmented generation, a technique closely related to LLMs, and keywords include large language models."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2026-06, which falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English and no indication of a non-English version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It introduces a new approach, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO24",
+      "status": "screened",
+      "data": {
+        "title": "Code generation using Code Llama 70B and Mixtral 8x7B on Amazon SageMaker | Amazon Web Services",
+        "link": "https://aws.amazon.com/blogs/machine-learning/code-generation-using-code-llama-70b-and-mixtral-8x7b-on-amazon-sagemaker/"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The blog demonstrates code generation and conversion tasks in a software construction context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses large language models Code Llama 70B and Mixtral 8x7B for generative AI."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The post includes practical Python examples and deployment steps on SageMaker."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It provides a usable solution via SageMaker JumpStart deployment and code examples."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2024-05-30 falls within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a practical guide, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO25",
+      "status": "screened",
+      "data": {
+        "title": "CodeRAG: Supportive Code Retrieval on Bigraph for Real-World Code Generation",
+        "link": "https://arxiv.org/html/2504.10046v1"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly mentions code generation and software engineering tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The framework uses large language models (LLMs) for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Experiments on a dataset and comparisons with commercial tools are described."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The framework is implemented and evaluated, indicating a usable prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2025-04-14, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is provided in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper presents a novel framework with experiments, not a survey, review, or mapping."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO26",
+      "status": "screened",
+      "data": {
+        "title": "AI-Driven Code Refactoring: Improving Legacy Codebases Automatically - Jorrik Klijnsma",
+        "link": "https://www.youtube.com/watch?v=u8tvVxUOwvY"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Focuses on legacy codebases and code refactoring within software development."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Mentions AI algorithms for automatic refactoring, fitting Generative AI/LLM context."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2025-07-02, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Presentation is in English based on title and abstract."
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO27",
+      "status": "screened",
+      "data": {
+        "title": "What Is AI Code Refactoring?",
+        "link": "https://www.ibm.com/think/topics/ai-code-refactoring"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract states the context is AI code refactoring, which is part of software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explains the use of large language models for refactoring."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It discusses practical considerations but is an educational overview, not describing a new practical implementation."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The article serves as an educational overview and surveys tools, making it a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO28",
+      "status": "screened",
+      "data": {
+        "title": "Some Observations on AI/Agentic Refactoring - Artineering",
+        "link": "https://amanagrawal.blog/2025/05/06/some-observations-on-ai-agentic-refactoring/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It discusses refactoring production C# code, directly relevant to software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses GitHub Copilot with GPT-4o and Claude 3.5 Sonnet, which are LLM-based generative AI tools."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practitioner's experiment with four real-world refactoring scenarios."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is an evaluation and critique, not a presentation of a new usable solution or prototype; it only proposes a heuristic workflow."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2025-05-06, which falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The blog post is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is an original experiment and observation, not a survey or literature review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO29",
+      "status": "screened",
+      "data": {
+        "title": "AI code refactoring: Strategic approaches to enterprise software modernization in 2025",
+        "link": "https://getdx.com/blog/enterprise-ai-refactoring-best-practices/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source discusses code refactoring and software modernization, which are software construction activities."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly focuses on using machine learning/AI for code refactoring."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The abstract describes best practices and strategic implementation but does not present a concrete prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO30",
+      "status": "screened",
+      "data": {
+        "title": "Agentic Refactoring: An Empirical Study of AI Coding Agents",
+        "link": "https://arxiv.org/abs/2511.04824"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study is in software engineering, specifically on automated code refactoring in Java projects."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses AI coding agents like OpenAI Codex, Claude Code, and Cursor, which are GenAI/LLM-based tools."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The abstract describes an empirical study analyzing existing agents' behavior, not a newly implemented prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2025-11-06, which is between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The abstract explicitly states it is a 'large-scale empirical study'."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO31",
+      "status": "screened",
+      "data": {
+        "title": "AI Code Refactoring: Tools, Tactics & Best Practices",
+        "link": "https://www.augmentcode.com/tools/ai-code-refactoring-tools-tactics-and-best-practices"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract discusses AI-assisted code refactoring, which falls within software construction."
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The source is a guide and does not describe a specific practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The source is a guide, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The article compares multiple AI refactoring platforms, functioning as a tool list or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO32",
+      "status": "screened",
+      "data": {
+        "title": "Introducing AI Generated Code Refactoring",
+        "link": "https://codescene.com/blog/ai-coding-assistant-introducing-ai-generated-code-refactoring"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies a proprietary generative AI and uses secondary AI for fact-checking, which falls under GenAI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a tool integrated with CodeScene that performs automated refactoring, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents an AI Generated Code Refactoring tool that is integrated with existing analysis, indicating a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is explicitly stated as 2025-09-22, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO33",
+      "status": "screened",
+      "data": {
+        "title": "Large scale refactoring with LLM, any experience?",
+        "link": "https://www.reddit.com/r/ExperiencedDevs/comments/1o4zi8g/large_scale_refactoring_with_llm_any_experience/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO34",
+      "status": "screened",
+      "data": {
+        "title": "Refactoring With AI — Thoughtworks Technology Podcast",
+        "link": "https://www.youtube.com/watch?v=Kx7eIYxKARk"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source discusses AI for code refactoring, which falls under software construction (coding)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly mentions AI refactoring tools and AI coding assistants, implying the use of Generative AI or related techniques."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The summary mentions a beta automated refactoring tool, indicating a prototype or deployed tool exists."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date of 2024-04-18 is within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It describes a podcast discussing a specific tool and white paper, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO35",
+      "status": "screened",
+      "data": {
+        "title": "Refactoring AI code: The good, the bad, and the weird",
+        "link": "https://www.infoworld.com/article/3610521/refactoring-ai-code-the-good-the-bad-and-the-weird.html"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically software construction and code maintenance."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It discusses applying generative AI methods, including AI-generated code and tools like GitHub Copilot and Cursor."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It surveys current experiences and practices without describing a new practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The article does not present a new prototype, deployed tool, or solution; it reports on existing practices."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published on 2024-12-02, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is a feature article surveying experiences and practices, acting as a secondary source (not primary research)."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO36",
+      "status": "screened",
+      "data": {
+        "title": "Announcing AI-assisted refactoring in the Moderne Platform",
+        "link": "https://www.moderne.ai/blog/ai-assisted-refactoring-in-the-moderne-platform"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO37",
+      "status": "screened",
+      "data": {
+        "title": "Automatic Code Refactoring with AI - Federico Tomassetti",
+        "link": "https://tomassetti.me/automatic-code-refactoring-with-ai/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software construction (code refactoring)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies LLMs like Codestral and Claude-sonnet."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It evaluates practical implementations comparing AI and deterministic tools."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is an evaluation blog post, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2025-03-28, which is within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO38",
+      "status": "screened",
+      "data": {
+        "title": "An Empirical Study on the Code Refactoring Capability of Large Language Models | ACM Transactions on Software Engineering and Methodology",
+        "link": "https://dl.acm.org/doi/10.1145/3801158"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Code refactoring is a core software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The study evaluates five Large Language Models."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It is an empirical evaluation on open-source projects with practical metrics."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is an empirical study evaluating LLMs, not a presented tool or prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2026, within range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary empirical study, not a review or survey."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO39",
+      "status": "screened",
+      "data": {
+        "title": "Code refactoring principles, techniques, and automation with generative AI - Tabnine",
+        "link": "https://www.tabnine.com/blog/code-refactoring-with-generative-ai/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically the coding activity of code refactoring."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It discusses applying generative AI, specifically mentioning Tabnine's large language model for code refactoring."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It provides practical refactoring examples and discusses best practices, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents Tabnine, a deployed AI coding assistant with specific refactoring capabilities."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date 2024-02-28 is within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English, which suggests the source is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The text describes an overview of principles, techniques, and tools, which constitutes a secondary or tertiary source."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO40",
+      "status": "screened",
+      "data": {
+        "title": "Can AI help me refactor legacy code?",
+        "link": "https://understandlegacycode.com/blog/can-ai-refactor-legacy-code/"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The summary explicitly discusses refactoring legacy code, a core software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It mentions an AI-powered assistant (Rubberduck) and ChatGPT, indicating generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "A practical refactoring exercise is performed on a TypeScript kata, not a theoretical proposal."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The post describes using an existing tool (Rubberduck) which is a usable solution."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English and the source appears to be in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a blog post reporting a practical experiment, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO41",
+      "status": "screened",
+      "data": {
+        "title": "The 40% Problem. AI & Code Refactoring",
+        "link": "https://www.janeasystems.com/blog/ai-and-refactoring-part-1"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source focuses on code refactoring, a core software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly discusses large language models (LLMs)."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The source does not describe a practical implementation; it reports on studies and discusses implications."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It does not present a usable solution or prototype, only an analysis."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2026-04-27, within 2021–2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The content is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a blog post discussing studies, not a secondary or tertiary study itself."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO42",
+      "status": "screened",
+      "data": {
+        "title": "LLM-Driven Code Refactoring: Opportunities and Limitations",
+        "link": "https://seal-queensu.github.io/publications/pdf/IDE-Jonathan-2025.pdf"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "low",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO43",
+      "status": "screened",
+      "data": {
+        "title": "What is AI code refactoring?",
+        "link": "https://graphite.com/guides/what-is-ai-code-refactoring"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly discusses software construction in the context of code refactoring."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The abstract mentions AI being used to improve code structure."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The source is a guide surveying existing tools rather than presenting a new prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "This is a secondary source that surveys and lists various AI refactoring tools."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO44",
+      "status": "screened",
+      "data": {
+        "title": "Code Refactoring with Agentic AI and Reinforcement Learning",
+        "link": "https://medium.com/@azirotechnologies/code-refactoring-with-agentic-ai-and-reinforcement-learning-e7f30a59397c"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "low",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO45",
+      "status": "screened",
+      "data": {
+        "title": "What Is AI Code Refactoring? Agentic AI & Safe Code Changes",
+        "link": "https://www.youtube.com/watch?v=f84XbvASkk4"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source discusses AI code refactoring, a software construction activity."
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a working agentic refactoring approach with guardrails and CI/CD integration."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The source is a YouTube video, which is a social media platform; the summary describes a concept rather than a specific usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2026-07-06 falls within the range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO46",
+      "status": "screened",
+      "data": {
+        "title": "Automating .NET 9 Code Refactoring with AI-driven Codemods",
+        "link": "https://www.linkedin.com/pulse/automating-net-9-code-refactoring-ai-driven-codemods-shergilashvili-regtf"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is code refactoring for .NET, a software construction task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The approach includes using large language models for complex refactoring patterns."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The article is a LinkedIn post with no mention of a prototype or tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The article discusses .NET 9, released in 2024, so it is within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO47",
+      "status": "screened",
+      "data": {
+        "title": "An empirical comparison of AI assisted software refactoring tools - Scientific Reports",
+        "link": "https://www.nature.com/articles/s41598-026-49590-0"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "it empirically compares AI-assisted software refactoring tools for Python code, directly relating to software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "it evaluates tools (ChatGPT, Gemini, Codeium) that use LLMs or generative AI-based code assistance."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "it describes implementation of an evaluation framework integrating APIs and static analysis."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "it presents a unified evaluation framework built using APIs, constituting a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "publication date 2026-04-24 falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "the abstract and text are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "the study is an empirical comparison, not a secondary or tertiary review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO48",
+      "status": "screened",
+      "data": {
+        "title": "How to effectively utilise AI to enhance large-scale refactoring",
+        "link": "https://www.atlassian.com/blog/development/how-to-effectively-utilise-ai-to-enhance-large-scale-refactoring"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract describes large-scale automated refactoring of a frontend monorepo, a software construction task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly uses AI (the Rovo Dev agent) which is a generative AI approach."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The text details a practical project with a repeatable workflow and real productivity gains, not a theoretical proposal."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents a robust automation pipeline used internally at Atlassian, constituting a deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2025-12-04, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a practical blog post about a specific project, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO49",
+      "status": "screened",
+      "data": {
+        "title": "Automated Code Refactoring: AI-Powered Transformation at Scale | Morph",
+        "link": "https://www.morphllm.com/automated-code-refactoring"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source focuses on automated code refactoring, which is a software construction (coding) activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It is described as an 'AI-powered' platform that uses 'semantic code understanding', a technique closely related to Generative AI/LLMs."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It details processes of code analysis, transformation planning, and safe execution, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It is a presented as a 'platform' with described capabilities and case studies, indicating a usable solution beyond a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2024-12-18, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The provided summary is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source describes a specific tool/platform (Morph), not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO50",
+      "status": "screened",
+      "data": {
+        "title": "Any AI Tools for Software Project Refactoring exist?",
+        "link": "https://community.openai.com/t/any-ai-tools-for-software-project-refactoring-exist/736992"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The source is a forum question asking about tools, not presenting a prototype or deployed solution itself."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date 2024-05-05 falls within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO51",
+      "status": "screened",
+      "data": {
+        "title": "Evaluating and improving LLM-based competitive program generation",
+        "link": "https://www.sciencedirect.com/science/article/abs/pii/S0950584925003167"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Focus is on generating code solutions for programming problems."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses large language models (LLMs) like DeepSeek-R1."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Describes framework implementation yielding measurable improvements."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Presents a framework combining dialog repair and regeneration, not just a concept."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO52",
+      "status": "screened",
+      "data": {
+        "title": "fine-tuned llm as program writers",
+        "link": "https://evanthebouncy.github.io/program-synthesis-minimal/generation-with-llm/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is program synthesis from textual specifications, which relates to software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies a fine-tuned LLM (byT5) for program generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical experiment with an implemented model and synthesis loop."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is only a blog post exploring a concept, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2022, within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO53",
+      "status": "screened",
+      "data": {
+        "title": "GenAssist: Interactive Prompt-Driven XR Program Generation",
+        "link": "https://www.youtube.com/watch?v=48YDX3rMR6U"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The system generates interactive XR programs, which is a software construction (coding) task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It employs a large language model and retrieval-augmented generation, both Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The system is implemented and evaluated on a diverse benchmark with measured accuracy and latency."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "GenAssist is a system evaluated on a benchmark, indicating a working prototype tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2026-03-16, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a system description, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO54",
+      "status": "screened",
+      "data": {
+        "title": "Evaluating and Improving Large Language Models for Competitive Program Generation",
+        "link": "https://arxiv.org/abs/2506.22954"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study involves code generation for competitive programming."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It evaluates and improves Large Language Models for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "An improvement framework with multi-turn dialogue and information-augmented regeneration was developed and tested."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The described framework constitutes a practical method that was successfully evaluated, moving beyond a mere concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The given publication date is 2025-06-28."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary and keywords are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO56",
+      "status": "screened",
+      "data": {
+        "title": "On the Reliability and Explainability of Language Models for Program Generation | ACM Transactions on Software Engineering and Methodology",
+        "link": "https://dl.acm.org/doi/10.1145/3641540"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "the source studies automated program generation including code repair, code translation, and code generation, all of which belong to software construction/coding."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "it evaluates pre-trained language models (CodeT5, CodeBERT, CodeT5+) which are generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "it describes an empirical evaluation using benchmark datasets, which is a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "the source is an empirical study evaluating existing models, not a new prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "the publication date is 2024-06-03, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "the language is English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "it is an empirical study, not a secondary or tertiary study like a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO57",
+      "status": "screened",
+      "data": {
+        "title": "Best Practices for High-Quality, High-Accuracy Program Generation Using Generative AI",
+        "link": "https://www.linkedin.com/pulse/best-practices-high-quality-high-accuracy-program-generation-toda-rnlqe"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "LinkedIn article about program generation (coding) using LLMs."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Explicitly uses Large Language Models for code generation."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "Abstract proposes a conceptual framework without indication of a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "LinkedIn article is a social media post, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The article proposes a framework, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO58",
+      "status": "screened",
+      "data": {
+        "title": "Enabling Tensor Language Model to Assist in Generating High-Performance Tensor Programs for Deep Learning | USENIX",
+        "link": "https://www.usenix.org/conference/osdi24/presentation/zhai"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper addresses software construction (coding) for tensor programs in deep learning."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses a tensor language model (TLM), which is a generative AI technique closely related to LLMs."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical implementation that generates high-performance code and provides experimental speedup results."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents a framework (prototype) that generates usable tensor programs, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2024-07, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English with no indication of a non-English version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study on a framework, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO60",
+      "status": "screened",
+      "data": {
+        "title": "Training Large Language Models for System-Level Test Program Generation Targeting Non-functional Properties",
+        "link": "https://ieeexplore.ieee.org/document/10567741/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "Context is hardware test program generation, not software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses LLMs via fine-tuning with reinforcement learning."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Describes fine-tuning an LLM with a simulator to generate code, indicating practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Generates C code snippets using a fine-tuned LLM, implying a usable prototype solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date 2024-06-26 falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract and likely paper are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Primary research paper, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO62",
+      "status": "screened",
+      "data": {
+        "title": "Generating Safety-Critical Automotive C-programs using ...",
+        "link": "https://openreview.net/forum?id=xcLrUIeGo3"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "low",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO64",
+      "status": "screened",
+      "data": {
+        "title": "Convo: a conversational programming language",
+        "link": "https://community.openai.com/t/convo-a-conversational-programming-language/969667"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "low",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO66",
+      "status": "screened",
+      "data": {
+        "title": "Transform Test and Measurement Workflows by Leveraging Generative AI | Soliton Technologies",
+        "link": "https://www.solitontech.com/generative-ai/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "the context is test and measurement workflows for semiconductor validation, not software construction (coding)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "it applies generative AI methods (foundation models) for generating test programs and data analysis."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "it is a corporate webpage showcasing capabilities and vision, not describing a concrete prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "the text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "it is a corporate webpage, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO67",
+      "status": "screened",
+      "data": {
+        "title": "State of Deep Learning for Code Generation (DL4Code)",
+        "link": "https://victordibia.com/blog/deep-learning-code-generation/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is April 23, 2022, which falls within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The abstract explicitly states the blog post serves as a curated overview and a running catalogue of papers, making it a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO68",
+      "status": "screened",
+      "data": {
+        "title": "codefuse-ai/Awesome-Code-LLM",
+        "link": "https://github.com/codefuse-ai/awesome-code-llm"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, focusing on code intelligence and downstream tasks like code generation, program repair, and test generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The repository explicitly focuses on language models for code, which are Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The abstract describes a curated list of resources accompanying a survey, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The repository is a reference list, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2026-05-20, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is a survey/accompanying resource list, i.e., a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO72",
+      "status": "screened",
+      "data": {
+        "title": "U2 UniData with Low-code AI: UOFast + VectorShift RAG Integration",
+        "link": "https://dev.to/kurtmultivaluedev/u2-unidata-with-low-code-ai-uofast-vectorshift-rag-integration-mh8"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC1",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The article focuses on integrating legacy database systems with AI for data querying and summarization, not on software construction or coding activities."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses a GPT-based chatbot and Retrieval-Augmented Generation, which are Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The article describes a practical project integrating UOFast and VectorShift, not a purely theoretical proposal."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The solution is presented as a concrete integration project, implying a usable prototype or tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English as indicated by the summary and dev.to link."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a project description article, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO73",
+      "status": "screened",
+      "data": {
+        "title": "LLM-Generated Numerical Representations",
+        "link": "https://www.emergentmind.com/topics/llm-generated-numerical-representations"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source covers code synthesis, program generation, and software testing."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The article discusses LLMs and an LLM-guided program generation framework."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The article includes a practical testing tool, LLM4FP, which indicates implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "LLM4FP is described as a framework for program generation, suggesting a tool was developed."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2025-09-28, which is within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The summary states the source is a review article."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO74",
+      "status": "screened",
+      "data": {
+        "title": "Research",
+        "link": "https://joezhouai.com/research/"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The page focuses on large language models (LLMs) and code generation."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The abstract explicitly states no specific tool or solution is presented."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The abstract confirms no specific tool or solution is presented."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English, indicating English version exists."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a personal research page, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO76",
+      "status": "screened",
+      "data": {
+        "title": "Introducing ShinkaEvolve, an open-source approach to sample-efficient LLM-driven program evolution 🧬 Paper: https://lnkd.in/ehFd684A Blog: https://lnkd.in/e6Zkk9E6 Code: https://lnkd.in/esiG8DHW… | Robert Tjarko Lange",
+        "link": "https://www.linkedin.com/posts/robert-tjarko-lange-19539a12a_introducing-shinkaevolve-an-open-source-activity-7377023062929588224-2Gil"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO77",
+      "status": "screened",
+      "data": {
+        "title": "Adversarial Program Evolution in Core War with LLMs",
+        "link": "https://sakana.ai/drq/"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The work generates assembly-like code (warriors), which is a form of software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The algorithm explicitly uses large language models."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Experiments demonstrate a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The paper presents a working algorithm with experimental results, indicating a prototype."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, suggesting the source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It introduces a novel algorithm, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO78",
+      "status": "screened",
+      "data": {
+        "title": "Convergence Dynamics in LLM-Driven Program Evolution",
+        "link": "https://arxiv.org/abs/2606.05408"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study analyzes program evolution in a domain-specific language, which is software construction (coding)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The abstract explicitly mentions LLM-driven and LLM-based mutation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper describes an empirical investigation with concrete results from an implemented mutation system."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The paper presents an analytical study of mutation behavior, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2026-06-03, falling within 2021–2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and presumably the full text are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary research study, not a review or survey."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO79",
+      "status": "screened",
+      "data": {
+        "title": "ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
+        "link": "https://www.youtube.com/watch?v=dAOIer_1INo"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The summary explicitly mentions program evolution and software construction tasks like automated algorithm design or code generation."
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source appears to be in English, as indicated by the summary and the context of AutoML Seminars."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source presents a specific method (ShinkaEvolve), not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO80",
+      "status": "screened",
+      "data": {
+        "title": "ShinkaEvolve: Towards Open-Ended and Sample-Efficient ...",
+        "link": "https://openreview.net/forum?id=lKEdGCoDNC"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC2, IC3, IC4, IC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "It is a browser verification page, not a software engineering context."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "No generative AI methods are mentioned or applied."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "No practical implementation is described."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is not a solution; it is a verification page."
+          },
+          "IC5": {
+            "verdict": "not_met",
+            "note": "Not a publication; it is a browser verification page with no date."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The page is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Not a secondary study; it is not a study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO81",
+      "status": "screened",
+      "data": {
+        "title": "Applied Generative AI Specialization | Microsoft Gen AI Course",
+        "link": "https://microsoft.simplilearn.com/applied-gen-ai-course"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "the program teaches coding and AI application development techniques."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "it covers generative AI topics such as large language models, LangChain, RAG, and Stable Diffusion."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "the source describes a training program rather than a practical implementation of a solution."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "it is an educational course, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "the summary implies it is in English, and no indication of a non-English version is given."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "it is a specialization program, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO82",
+      "status": "screened",
+      "data": {
+        "title": "Applied Generative AI Specialization - Coding Bootcamp",
+        "link": "https://bootcamp.engin.umich.edu/certifications/applied-gen-ai-course"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The program explicitly covers software construction tasks like building AI-powered apps and automating workflows."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Generative AI methods including LLMs, OpenAI, and Claude Code."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It provides hands-on training for building real-world applications, not just theory."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The source describes a training program, not a usable prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a course description, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO86",
+      "status": "screened",
+      "data": {
+        "title": "ICLR Poster ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution",
+        "link": "https://iclr.cc/virtual/2026/poster/10007692"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "it focuses on evolving programs and improving competitive programming solutions."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "it leverages large language models for program evolution."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "it presents a framework with practical experiments and open-sourced code."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "it is a framework with experimental results and open-source release."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "published in 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "the source is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "it is a primary research paper proposing a new framework."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO88",
+      "status": "screened",
+      "data": {
+        "title": "CoCoEvo: Co-Evolution of Programs and Test Cases to Enhance Code Generation",
+        "link": "https://ieeexplore.ieee.org/document/11098743/"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly mentions automated code generation in a software engineering context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The abstract states the framework is LLM-based and uses LLM-based operators."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract discusses achieving state-of-the-art performance, implying practical implementation and evaluation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The abstract describes a framework (CoCoEvo) with specific operators and strategies, which is a solution beyond a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The provided publication date is 2025-07-28."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is provided in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The abstract describes CoCoEvo as a framework for automated code generation, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO89",
+      "status": "screened",
+      "data": {
+        "title": "What Are Gen AI Agents? | Generative AI Agents Tutorial | OpenAI Gen AI Agents | SImplilearn",
+        "link": "https://www.youtube.com/watch?v=fwxfkPHqblg&vl=en"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "it applies Generative AI methods (generative AI, AI agents)."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "it is a tutorial video, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "it is a secondary educational resource (tutorial), not a primary research study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO90",
+      "status": "screened",
+      "data": {
+        "title": "learning #ai #rag #achievement #genai #ml #ibm",
+        "link": "https://www.linkedin.com/posts/sumit-maloo-75876038_learning-ai-rag-activity-7266100821661020160-5hLW"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "GO92",
+      "status": "screened",
+      "data": {
+        "title": "Automated Generation of Code Contracts",
+        "link": "https://dl.acm.org/doi/10.1145/3689484.3690738"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Focuses on code generation for Java methods, a core software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Fine-tunes large language models CodeT5 and CodeT5+, which are LLMs."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Reports experimental implementation and evaluation on real projects."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Describes a fully automated solution to generate code contracts, implying a prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in October 2024, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, indicating an English publication."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper presents original experimental research, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO94",
+      "status": "screened",
+      "data": {
+        "title": "Core War: Adversarial Program Evolution",
+        "link": "https://www.emergentmind.com/topics/core-war"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC1",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The context is a game (Core War) and adversarial program evolution, not software engineering for construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The method explicitly uses large language models (LLMs) for mutation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract mentions empirical results and a framework, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It describes a framework with empirical results, implying a prototype implementation."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2026-01-06, within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is provided in English, indicating the source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It describes a new algorithm and experimental results, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO96",
+      "status": "screened",
+      "data": {
+        "title": "Tutorials Overview",
+        "link": "https://gepa-ai.github.io/gepa/tutorials/"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The summary describes automatic code improvement and code generation for software construction tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The framework uses iterative self-reflection and evaluation, typical of LLM-based prompt optimization, and integrates with DSPy, a framework for LLM programming."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The page provides tutorials with use cases and implementation guides, indicating practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The page presents tutorials for the GEPA framework, which is a usable tool with language-specific implementations."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English, indicating the source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The page is a collection of tutorials, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO97",
+      "status": "screened",
+      "data": {
+        "title": "NLP, Language Models, & Production API Specialization",
+        "link": "https://www.coursera.org/specializations/tokens-to-deployment-nlp-language-models-production-apis"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The specialization teaches software construction skills for ML engineering, involving coding practices."
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The curriculum includes hands-on projects and practical deployment skills."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is a course page, not a usable software solution or prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2026-03-01, which is within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a course description, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO98",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - SakanaAI/drq: Digital Red Queen: Adversarial Program Evolution in Core War with LLMs",
+        "link": "https://github.com/SakanaAI/drq"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "context involves generating assembly-like programs, fitting software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "uses LLMs for warrior generation and mutation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "code implementation is provided in the repository."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "the repository constitutes a usable prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "publication date 2026-01-13 falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "source is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "it is a software repository, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO99",
+      "status": "screened",
+      "data": {
+        "title": "A Comprehensive Study of LLM and Evolution, Varieties, and Their Role in Software Engineering and Cybersecurity",
+        "link": "https://www.preprints.org/manuscript/202507.1600"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract mentions applications in software engineering including code generation, refactoring, and debugging."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The source is a survey of LLMs, not an application of generative AI methods."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It is a survey paper, not a description of a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It does not present a prototype or deployed solution; it is a review."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2025-07-18, which is within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The paper is explicitly described as a comprehensive survey, thus a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "GO100",
+      "status": "screened",
+      "data": {
+        "title": "Gen AI Skillup | Kick-off Session",
+        "link": "https://cloudonair.withgoogle.com/events/gen-ai-skills-accelerator"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The context primarily describes a general AI training program, not a specific solution for software construction/coding processes."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It involves applied Generative AI methods (LLMs, Gemini, model deployment) as training topics."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes hands-on labs and practical skill-building, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It presents an educational program with labs, not a prototype or deployed tool for software construction."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is clearly stated as 2025, which falls within the 2021-2026 period."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The text is entirely in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is an educational program/workshop, not a secondary or tertiary study."
+          }
+        }
+      }
+    }
+  ]
+}

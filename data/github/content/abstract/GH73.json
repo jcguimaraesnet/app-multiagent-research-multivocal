@@ -1,0 +1,14 @@
+{
+  "title": "CursorCore: Assist Programming through Aligning Anything",
+  "link": "https://github.com/TechxGenus/CursorCore",
+  "summary": "CursorCore is a series of open-source models for AI-assisted programming that aims to replicate core features of closed-source assistants like Cursor, such as automated editing and inline chat. It introduces an Assistant-Conversation framework and aligns data generated through Programming-Instruct. The models are evaluated on the APEval benchmark and on code editing tasks using EvalPlus, CanItEdit, and OctoPack. The repository provides model weights, training scripts, and a web demo.",
+  "author": "TechxGenus",
+  "publication_date": "",
+  "keywords": [
+    "CursorCore",
+    "AI-assisted programming",
+    "code generation",
+    "Assistant-Conversation",
+    "Programming-Instruct"
+  ]
+}

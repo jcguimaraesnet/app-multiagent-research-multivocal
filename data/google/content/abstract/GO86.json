@@ -1,0 +1,14 @@
+{
+  "title": "ICLR Poster ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution",
+  "link": "https://iclr.cc/virtual/2026/poster/10007692",
+  "summary": "We introduce ShinkaEvolve, a framework that leverages large language models (LLMs) for open-ended and sample-efficient program evolution. It tackles sample inefficiency through three innovations: a parent sampling technique balancing exploration and exploitation, code novelty rejection-sampling for efficient search, and a bandit-based LLM ensemble selection. ShinkaEvolve discovers a new state-of-the-art solution for circle packing using only 150 samples, orders of magnitude fewer than prior methods. The framework is also applied to improve competitive programming solutions on ALE-Bench, design robust agentic harnesses for mathematical reasoning, and discover novel mixture-of-expert load balancing loss functions. The code will be open-sourced to accelerate open-ended automated discovery across computational problems.",
+  "author": "Robert Lange, Yuki Imajuku, Edoardo Cetin",
+  "publication_date": "2026-04-24",
+  "keywords": [
+    "ShinkaEvolve",
+    "program evolution",
+    "sample efficiency",
+    "large language models",
+    "competitive programming"
+  ]
+}

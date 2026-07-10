@@ -1,0 +1,14 @@
+{
+  "title": "Automated Generation of Code Contracts",
+  "link": "https://dl.acm.org/doi/10.1145/3689484.3690738",
+  "summary": "This academic paper explores the use of generative AI to automatically generate Design by Contract code contracts for Java methods, aiming to reduce manual effort and improve adoption. The authors fine-tune two large language models, CodeT5 and CodeT5+, on a dataset of over 14,000 Java methods with JML annotations to generate pre- and postconditions. Evaluation on unseen software projects shows that over 95% of generated contracts are syntactically correct and exhibit high completeness and semantic correctness. The method is fully automated and requires no auxiliary artifacts. The work sets the stage for broader adoption of Design by Contract in practice.",
+  "author": "Sandra Greiner, Noah Bühlmann, Manuel Ohrndorf, Christos Tsigkanos, Oscar Nierstrasz, Timo Kehrer",
+  "publication_date": "2024-10-21",
+  "keywords": [
+    "code contracts",
+    "Design by Contract",
+    "generative AI",
+    "large language models",
+    "JML"
+  ]
+}

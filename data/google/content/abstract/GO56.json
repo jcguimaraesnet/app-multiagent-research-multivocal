@@ -1,0 +1,14 @@
+{
+  "title": "On the Reliability and Explainability of Language Models for Program Generation | ACM Transactions on Software Engineering and Methodology",
+  "link": "https://dl.acm.org/doi/10.1145/3641540",
+  "summary": "This source is an academic article that conducts an empirical study on the reliability and explainability of pre-trained language models for automated program generation tasks such as code repair, code translation, and code generation. The authors evaluate eight popular models including CodeT5, CodeBERT, and CodeT5+ on five benchmark datasets. The study reveals that performance evaluations are often inflated due to severe data duplication between training and testing sets and duplication within testing sets, leading to overoptimistic results. Additionally, explainable AI analysis using SHAP indicates that models prioritize identifiers and keywords but exhibit poor robustness to input changes. The research concludes that more rigorous evaluation approaches are critical for reliable automated program generation.",
+  "author": "Yue Liu, Chakkrit Tantithamthavorn, Yonghui Liu, Li Li",
+  "publication_date": "2024-06-03",
+  "keywords": [
+    "Language Models",
+    "Program Generation",
+    "Reliability",
+    "Explainability",
+    "CodeT5"
+  ]
+}

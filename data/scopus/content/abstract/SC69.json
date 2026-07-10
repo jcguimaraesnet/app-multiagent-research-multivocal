@@ -1,0 +1,14 @@
+{
+  "title": "Integrating Large Language Models into Automated Software Testing",
+  "link": "https://doi.org/10.3390/fi17100476",
+  "abstract": "This work investigates the use of LLMs to enhance automation in software testing, with a particular focus on generating high-quality, context-aware test scripts from natural language descriptions, while addressing both text-to-code and text+code-to-code generation tasks. The Codestral Mamba model was fine-tuned by proposing a way to integrate LoRA matrices into its architecture, enabling efficient domain-specific adaptation and positioning Mamba as a viable alternative to Transformer-based models. The model was trained and evaluated on two benchmark datasets: CONCODE/CodeXGLUE and the proprietary TestCase2Code dataset. Through structured prompt engineering, the system was optimized to generate syntactically valid and semantically meaningful code for test cases. Experimental results demonstrate that the proposed methodology successfully enables the automatic generation of code-based test cases using large language models. In addition, this work reports secondary benefits, including improvements in test coverage, automation efficiency, and defect detection when compared to traditional manual approaches. The integration of LLMs into the software testing pipeline also showed potential for reducing time and cost while enhancing developer productivity and software quality. The findings suggest that LLM-driven approaches can be effectively aligned with continuous integration and deployment workflows. This work contributes to the growing body of research on AI-assisted software engineering and offers practical insights into the capabilities and limitations of current LLM technologies for testing automation. © 2025 by the authors.",
+  "keywords": [
+    "automated software testing",
+    "large language models",
+    "low-rank adaptation codestral mamba model",
+    "test case generation"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)"
+}

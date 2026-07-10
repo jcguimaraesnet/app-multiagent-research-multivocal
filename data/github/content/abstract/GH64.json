@@ -1,0 +1,14 @@
+{
+  "title": "Stevenic/convo - a conversational programming language",
+  "link": "https://github.com/Stevenic/convo",
+  "summary": "Convo is a conversational programming language designed as high-level pseudocode to be generated and interpreted by Large Language Models (LLMs). It allows developers to describe software in natural language, which an LLM then translates into executable languages like Python or JavaScript. By separating high-level program design from low-level implementation details, Convo aims to reduce errors and enable future-proof code. The approach is a prompting technique, not a standalone compiler, and is demonstrated with examples such as a snake game and porting to other languages. The repository provides the language specification and sample ports.",
+  "author": "Steven Ickman",
+  "publication_date": "2024-10-24",
+  "keywords": [
+    "Convo",
+    "conversational programming",
+    "LLM",
+    "pseudocode",
+    "code generation"
+  ]
+}

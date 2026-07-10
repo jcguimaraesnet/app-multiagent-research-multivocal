@@ -1,0 +1,14 @@
+{
+  "title": "GitHub Copilot Certification",
+  "link": "https://learn.github.com/certification/COPILOT",
+  "summary": "This source is the overview page for the GitHub Copilot Certification exam, outlining the knowledge domains and skills assessed for intermediate-level candidates. The certification validates proficiency in using GitHub Copilot for software construction tasks including responsible AI use, IDE features, CLI usage, data architecture, prompt engineering, developer productivity, and privacy configurations. The exam covers code generation, refactoring, documentation, testing, security improvements, and managing organization-wide Copilot settings. It is intended for App Makers, Developers, DevOps Engineers, and Technology Managers seeking to demonstrate their ability to leverage Copilot for enhanced development workflows.",
+  "author": "GitHub Learn",
+  "publication_date": "",
+  "keywords": [
+    "GitHub Copilot",
+    "certification",
+    "exam outline",
+    "AI-assisted coding",
+    "prompt engineering"
+  ]
+}

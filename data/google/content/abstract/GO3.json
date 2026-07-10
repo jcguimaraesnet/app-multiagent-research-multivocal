@@ -1,0 +1,14 @@
+{
+  "title": "Context-aware code generation: RAG and Vertex AI Codey APIs | Google Cloud Blog",
+  "link": "https://cloud.google.com/blog/products/ai-machine-learning/context-aware-code-generation-rag-and-vertex-ai-codey-apis",
+  "summary": "This blog post presents a method for improving code generation accuracy using retrieval augmented generation (RAG) with Google Cloud's Vertex AI Codey APIs. It describes how to integrate external knowledge sources, such as private code repositories, by chunking code, generating embeddings, and retrieving relevant context at inference time. An example demonstrates that without RAG, the model hallucinates incorrect code for using LangChain, but with RAG it produces correct syntax. The post also discusses RAG use cases, limitations, and its complementary role alongside supervised fine-tuning.",
+  "author": "Parashar Shah, Harkanwal Bedi",
+  "publication_date": "2024-02-13",
+  "keywords": [
+    "Retrieval Augmented Generation",
+    "Codey APIs",
+    "code generation",
+    "Vertex AI",
+    "RAG"
+  ]
+}

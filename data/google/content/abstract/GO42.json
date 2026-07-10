@@ -1,0 +1,14 @@
+{
+  "title": "LLM-Driven Code Refactoring: Opportunities and Limitations",
+  "link": "https://seal-queensu.github.io/publications/pdf/IDE-Jonathan-2025.pdf",
+  "summary": "This position paper examines the limitations of large language models (LLMs) in automated code refactoring, including difficulty integrating into IDEs, hallucinations, lack of refactoring purpose understanding, and insufficient test cases. It proposes research directions to overcome these limitations, such as real-time feedback mechanisms, tighter integration of automated test generation, curating high-quality refactoring datasets, enriched prompts for context-aware refactoring, and techniques to mitigate hallucinations. The goal is to enable fully automated, reliable LLM-based refactoring integrated into real-world development workflows.",
+  "author": "Jonathan Cordeiro, Shayan Noei, Ying Zou",
+  "publication_date": "",
+  "keywords": [
+    "code refactoring",
+    "large language models",
+    "automated software maintenance",
+    "hallucination",
+    "IDE integration"
+  ]
+}

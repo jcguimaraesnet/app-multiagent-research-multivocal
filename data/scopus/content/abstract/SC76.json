@@ -1,0 +1,13 @@
+{
+  "title": "Refactoring Loops in the Era of LLMs: A Comprehensive Study",
+  "link": "https://doi.org/10.3390/fi17090418",
+  "abstract": "Java 8 brought functional programming to the Java language and library, enabling more expressive and concise code to replace loops by using streams. Despite such advantages, for-loops remain prevalent in current codebases as the transition to the functional paradigm requires a significant shift in the developer mindset. Traditional approaches for assisting refactoring loops into streams check a set of strict preconditions to ensure correct transformation, hence limiting their applicability. Conversely, generative artificial intelligence (AI), particularly ChatGPT, is a promising tool for automating software engineering tasks, including refactoring. While prior studies examined ChatGPT’s assistance in various development contexts, none have specifically investigated its ability to refactor for-loops into streams. This paper addresses such a gap by evaluating ChatGPT’s effectiveness in transforming loops into streams. We analyzed 2132 loops extracted from four open-source GitHub repositories and classified them according to traditional refactoring templates and preconditions. We then tasked ChatGPT with the refactoring of such loops and evaluated the correctness and quality of the generated code. Our findings revealed that ChatGPT could successfully refactor many more loops than traditional approaches, although it struggled with complex control flows and implicit dependencies. This study provides new insights into the strengths and limitations of ChatGPT in loop-to-stream refactoring and outlines potential improvements for future AI-driven refactoring tools. © 2025 by the authors.",
+  "keywords": [
+    "AI-based code",
+    "code generation",
+    "software engineering"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)"
+}

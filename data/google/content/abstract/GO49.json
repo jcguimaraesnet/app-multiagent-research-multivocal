@@ -1,0 +1,14 @@
+{
+  "title": "Automated Code Refactoring: AI-Powered Transformation at Scale | Morph",
+  "link": "https://www.morphllm.com/automated-code-refactoring",
+  "summary": "This source presents Morph, an AI-powered automated code refactoring platform that can transform legacy codebases at scale. It uses semantic code understanding to perform operations ranging from simple renames to complex architectural migrations such as converting monoliths to microservices. The platform claims high accuracy and throughput of over 1 million lines per hour, with built-in safety checks including automated testing and atomic rollback capabilities. The content details its processes of code analysis, transformation planning, and safe execution, supported by enterprise case studies showing reduced technical debt and significant operational savings.",
+  "author": "Morphllm.com",
+  "publication_date": "2024-12-18",
+  "keywords": [
+    "Automated code refactoring",
+    "AI-powered code transformation",
+    "Code modernization",
+    "Technical debt reduction",
+    "Legacy code migration"
+  ]
+}

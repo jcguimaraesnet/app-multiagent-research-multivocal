@@ -1,0 +1,14 @@
+{
+  "title": "Code Generation using Retrieval Augmented Generation + LangChain",
+  "link": "https://medium.com/@rubenszimbres/code-generation-using-retrieval-augmented-generation-langchain-861e3c1a1a53",
+  "summary": "This Medium article by Rubens Zimbres presents a method for code generation using Retrieval Augmented Generation (RAG) with LangChain and Google Cloud's Vertex AI. The solution ingests Python files from a GitHub repository, splits the code into chunks, generates embeddings with the textembedding-gecko model, and stores them in a FAISS vector index. At inference, relevant code snippets are retrieved as context for a code-bison large language model, leading to more accurate and context-aware code completions. The approach is compared against zero-shot prompting, demonstrating improved results for domain-specific API usage. The article also touches on hyperparameter tuning and the use of LangChain memory for conversational code generation.",
+  "author": "Rubens Zimbres",
+  "publication_date": "2023-11-15",
+  "keywords": [
+    "Retrieval Augmented Generation",
+    "LangChain",
+    "code generation",
+    "Vertex AI",
+    "FAISS"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Can AI help me refactor legacy code?",
+  "link": "https://understandlegacycode.com/blog/can-ai-refactor-legacy-code/",
+  "summary": "This blog post explores the use of an AI-powered coding assistant called Rubberduck for refactoring legacy code. The author performs a practical refactoring exercise on a TypeScript kata, using Rubberduck's 'Edit Code' feature to simplify code, destructure variables, and introduce an interface, then evaluates the resulting diffs. The experiment shows that AI can successfully suggest and apply complex, multi-step refactorings, although sometimes it needs manual correction or is outshone by automated IDE refactorings. The main takeaway is that when preceded by writing tests, AI-assisted refactoring can significantly speed up the development process and lower the barrier for developers.",
+  "author": "Nicolas Carlo",
+  "publication_date": "",
+  "keywords": [
+    "AI-assisted refactoring",
+    "legacy code",
+    "Rubberduck",
+    "ChatGPT",
+    "code transformation"
+  ]
+}

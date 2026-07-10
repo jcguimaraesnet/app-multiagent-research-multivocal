@@ -1,0 +1,15 @@
+{
+  "title": "“It would work for me too”: How online communities shape software developers’ trust in AI-powered code generation tools",
+  "link": "https://doi.org/10.1145/3651990",
+  "abstract": "While revolutionary AI-powered code generation tools have been rising rapidly, we know little about how and how to help software developers form appropriate trust in those AI tools. Through a two-phase formative study, we investigate how online communities shape developers’ trust in AI tools and how we can leverage community features to facilitate appropriate user trust. Through interviewing 17 developers, we find that developers collectively make sense of AI tools using the experiences shared by community members and leverage community signals to evaluate AI suggestions. We then surface design opportunities and conduct 11 design probe sessions to explore the design space of using community features to support user trust in AI code generation systems. We synthesize our findings and extend an existing model of user trust in AI technologies with sociotechnical factors. We map out the design considerations for integrating user community into the AI code generation experience. © 2024 Copyright held by the owner/author(s).",
+  "keywords": [
+    "Generative AI",
+    "Human-AI interaction",
+    "Online communities",
+    "Software engineering",
+    "Trust"
+  ],
+  "open_access": true,
+  "language": "English",
+  "publisher": "Association for Computing Machinery"
+}

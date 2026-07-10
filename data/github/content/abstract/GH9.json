@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - zai-org/CodeGeeX: CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)",
+  "link": "https://github.com/zai-org/CodeGeeX",
+  "summary": "The repository introduces CodeGeeX, a 13-billion-parameter multilingual code generation model pre-trained on over 20 programming languages. It supports code generation, crosslingual code translation, and provides free extensions for VS Code and JetBrains IDEs. The model is open-source and was trained on 850 billion tokens using Ascend 910 processors. It also presents HumanEval-X, a multilingual benchmark of 820 human-crafted problems in five languages for evaluating functional correctness of code generation. CodeGeeX achieves top average performance on HumanEval-X compared to other open-source models, and the accompanying paper was accepted at KDD 2023.",
+  "author": "Zhipu.AI and Tsinghua University",
+  "publication_date": "2023",
+  "keywords": [
+    "CodeGeeX",
+    "multilingual code generation",
+    "code translation",
+    "HumanEval-X",
+    "large language model"
+  ]
+}

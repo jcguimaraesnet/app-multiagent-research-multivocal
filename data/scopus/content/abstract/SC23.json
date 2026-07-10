@@ -1,0 +1,15 @@
+{
+  "title": "Can generative AI bridge the gap? A quasi-experimental study of non-programmers with AI vs. programmers without AI",
+  "link": "https://doi.org/10.1007/s10664-026-10813-7",
+  "abstract": "In a context where it is debated whether learning to program will remain necessary or whether artificial intelligence (AI) can perform programming on behalf of users, this article reports an exploratory empirical study asking whether individuals without prior programming experience can effectively solve simple coding tasks using a generative tool with a natural-language interface. We used ChatGPT (GPT-4o) because its conversational interface is accessible to non-programmers, unlike tools such as Copilot or Codex that require IDE integration and greater technical setup. We implemented a quasi-experimental design comparing two plausible strategies for solving the same tasks, and analyzed task success using a test of independence with effect sizes, and resolution time using Welch’s -tests complemented by non-parametric Mann–Whitney tests as robustness checks. The findings suggest that, in this controlled setting, a conversational code-generation tool can enable some non-programmers to solve small, well-specified programming challenges with effectiveness comparable to programmers without AI, and with substantially shorter completion times, especially for the high-complexity task. However, we do not claim that AI fully bridges the gap between experts and non-experts: our design does not include a programmers-with-AI condition nor a non-programmers-without-AI baseline, and focuses on short, individual tasks rather than sustained software development. We therefore interpret our results as exploratory evidence of AI as an enabler for non-programmers under constrained conditions, which complements existing work on AI-assisted programming and informs ongoing debates on how AI may reshape roles in software engineering. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2026.",
+  "keywords": [
+    "AI-assisted programming",
+    "Empirical study",
+    "Generative AI",
+    "Non-programmers",
+    "Software engineering"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Springer"
+}

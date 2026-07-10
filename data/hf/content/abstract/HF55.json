@@ -1,0 +1,19 @@
+{
+  "title": "Vibe Coding vs. Agentic Coding: Fundamentals and Practical Implications of Agentic AI",
+  "link": "https://huggingface.co/papers/2505.19443",
+  "abstract": "This review presents a comprehensive analysis of two emerging paradigms in AI-assisted software development: vibe coding and agentic coding. While both leverage large language models (LLMs), they differ fundamentally in autonomy, architectural design, and the role of the developer. Vibe coding emphasizes intuitive, human-in-the-loop interaction through prompt-based, conversational workflows that support ideation, experimentation, and creative exploration. In contrast, agentic coding enables autonomous software development through goal-driven agents capable of planning, executing, testing, and iterating tasks with minimal human intervention. We propose a detailed taxonomy spanning conceptual foundations, execution models, feedback loops, safety mechanisms, debugging strategies, and real-world tool ecosystems. Through comparative workflow analysis and 20 detailed use cases, we illustrate how vibe systems thrive in early-stage prototyping and education, while agentic systems excel in enterprise-grade automation, codebase refactoring, and CI/CD integration. We further examine emerging trends in hybrid architectures, where natural language interfaces are coupled with autonomous execution pipelines. Finally, we articulate a future roadmap for agentic AI, outlining the infrastructure needed for trustworthy, explainable, and collaborative systems. Our findings suggest that successful AI software engineering will rely not on choosing one paradigm, but on harmonizing their strengths within a unified, human-centered development lifecycle.",
+  "authors": [
+    "Ranjan Sapkota",
+    "Konstantinos I. Roumeliotis",
+    "Manoj Karkee"
+  ],
+  "publication_date": "2025-05-26T03:00:21Z",
+  "pdf_link": "https://arxiv.org/pdf/2505.19443v1",
+  "keywords": [
+    "vibe coding",
+    "agentic coding",
+    "human-in-the-loop",
+    "autonomous software development",
+    "hybrid architectures"
+  ]
+}

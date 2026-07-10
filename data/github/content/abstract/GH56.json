@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++",
+  "link": "https://github.com/ggml-org/llama.cpp",
+  "summary": "The repository page for llama.cpp, an open-source project providing high-performance large language model (LLM) inference in plain C/C++ with minimal dependencies. It supports a wide variety of hardware backends including Apple Silicon, CUDA, Vulkan, and SYCL, and features integer quantization from 1.5-bit to 8-bit for reduced memory usage and faster inference. The project includes CLI tools for chat, server deployment, model benchmarking, and perplexity measurement, along with FIM completions for coding via VS Code and Vim plugins. It serves as the main development playground for the GGML machine learning tensor library and supports numerous model architectures for both text-only and multimodal tasks.",
+  "author": "ggml-org",
+  "publication_date": "",
+  "keywords": [
+    "llama.cpp",
+    "LLM inference",
+    "C++",
+    "GGML",
+    "quantization"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "EVALUATING THE CODE GENERATION CAPABILITIES OF CHATGPT THROUGH C++ DATABASE MANAGEMENT TASKS",
+  "link": "https://doi.org/10.5281/zenodo.18260582",
+  "abstract": "Large language models (LLMs) are becoming important tools in software engineering. These models, trained on large amounts of text, can understand and generate natural language with high accuracy. Today, they are being used across many stages of software development, from improving code quality and generating documentation to supporting natural language interaction with development tools. Among their many applications, code generation is one of the areas where these models have shown the greatest impact. This study explores the coding capabilities of ChatGPT GPT 4, a large language model introduced by OpenAI in May 2024. The model was evaluated on twenty C++ database management tasks, and the quality of its outputs was assessed using Cppcheck, a static code analysis tool. The results show that ChatGPT consistently produces executable C++ programs, though differences in code length and structure highlight its inherent nondeterministic nature. Most of the issues detected by static analysis were stylistic rather than functional or logical. Overall, this work provides empirical evidence on both the reliability and the current limitations of LLM based code generation, offering directions for future research. © Little Lion Scientific",
+  "keywords": [
+    "ChatGPT",
+    "Coding",
+    "Large Language Models",
+    "Programming Languages",
+    "Software Engineering"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Little Lion Scientific"
+}

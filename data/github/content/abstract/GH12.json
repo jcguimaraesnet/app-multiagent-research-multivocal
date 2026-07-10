@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - jupyterlab/jupyter-ai: An open source extension that connects AI agents to computational notebooks in JupyterLab.",
+  "link": "https://github.com/jupyterlab/jupyter-ai",
+  "summary": "Jupyter AI is an open-source JupyterLab extension that integrates agentic AI into computational notebooks. It provides a native chat UI for collaborating with frontier AI agents, including Claude, Codex, and GitHub Copilot, through the Agent Client Protocol (ACP). Agents can read/write files, execute terminal commands, and interact with notebooks via a built-in Jupyter MCP server, with a permission system requiring user approval for certain actions. The extension supports multiple concurrent chats, drag-and-drop context, and real-time collaboration, and is extensible with custom MCP servers and AI personas using open standards to avoid vendor lock-in.",
+  "author": "Project Jupyter / jupyterlab",
+  "publication_date": "",
+  "keywords": [
+    "Jupyter AI",
+    "JupyterLab extension",
+    "AI agents",
+    "ACP",
+    "notebook coding assistant"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Applied Generative AI Specialization - Coding Bootcamp",
+  "link": "https://bootcamp.engin.umich.edu/certifications/applied-gen-ai-course",
+  "summary": "This is a 16-week online applied generative AI specialization program offered by Michigan Engineering Professional Education and Simplilearn. It teaches learners to build real-world GenAI applications, AI agents, and copilots using tools like Claude Code, LangChain, and OpenAI. The curriculum covers topics from Python and AI literacy to advanced LLM application development, agentic AI frameworks, and image generation, culminating in a capstone project. It provides hands-on training for software construction tasks such as building AI-powered apps, automating workflows, and integrating AI models into production systems.",
+  "author": "Michigan Engineering Professional Education and Simplilearn",
+  "publication_date": "",
+  "keywords": [
+    "Generative AI",
+    "Agentic AI",
+    "Claude Code",
+    "LLM Application Development",
+    "AI Coding"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "GLLM: Self-Corrective G-Code Generation using Large Language Models with User Feedback",
+  "link": "https://huggingface.co/papers/2501.17584",
+  "abstract": "This paper introduces GLLM, an innovative tool that leverages Large Language Models (LLMs) to automatically generate G-code from natural language instructions for Computer Numerical Control (CNC) machining. GLLM addresses the challenges of manual G-code writing by bridging the gap between human-readable task descriptions and machine-executable code. The system incorporates a fine-tuned StarCoder-3B model, enhanced with domain-specific training data and a Retrieval-Augmented Generation (RAG) mechanism. GLLM employs advanced prompting strategies and a novel self-corrective code generation approach to ensure both syntactic and semantic correctness of the generated G-code. The architecture includes robust validation mechanisms, including syntax checks, G-code-specific verifications, and functional correctness evaluations using Hausdorff distance. By combining these techniques, GLLM aims to democratize CNC programming, making it more accessible to users without extensive programming experience while maintaining high accuracy and reliability in G-code generation.",
+  "authors": [
+    "Mohamed Abdelaal",
+    "Samuel Lokadjaja",
+    "Gilbert Engert"
+  ],
+  "publication_date": "2025-01-29T11:40:46Z",
+  "pdf_link": "https://arxiv.org/pdf/2501.17584v1",
+  "keywords": [
+    "GLLM",
+    "G-code generation",
+    "CNC machining",
+    "Large Language Models",
+    "Retrieval-Augmented Generation"
+  ]
+}

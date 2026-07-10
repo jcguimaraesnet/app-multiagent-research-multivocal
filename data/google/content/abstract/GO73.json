@@ -1,0 +1,14 @@
+{
+  "title": "LLM-Generated Numerical Representations",
+  "link": "https://www.emergentmind.com/topics/llm-generated-numerical-representations",
+  "summary": "This source is a review article synthesizing research on how large language models (LLMs) internally represent, encode, and manipulate numbers. It covers structural and geometric properties of numerical embeddings, behavioral parallels with human cognition, and failure modes in abstraction and generalization. The article discusses practical engineering strategies such as prompt design, domain tuning, and code synthesis. Notably, it describes LLM4FP, an LLM-guided program generation framework that creates floating-point programs to systematically expose numerical inconsistencies across compilers, serving as a software testing tool.",
+  "author": "Emergent Mind",
+  "publication_date": "2025-09-28",
+  "keywords": [
+    "LLM numerical representations",
+    "numerical reasoning",
+    "code synthesis",
+    "differential testing",
+    "LLM4FP"
+  ]
+}

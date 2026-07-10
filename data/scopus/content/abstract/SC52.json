@@ -1,0 +1,14 @@
+{
+  "title": "Enhanced Architecture of Structure Semantics for Syntax-Aware Code Generation",
+  "link": "https://doi.org/10.1002/spe.70025",
+  "abstract": "Objective: The task of code generation aims to transform natural language descriptions into corresponding target code. Among the various approaches, syntax-aware code generation has emerged as a significant approach that strives to generate code by directly modeling the underlying syntactic rules. However, existing works typically adopt an autoregressive approach to sequentially generate each abstract syntax rule, which inevitably neglects the rich structural semantic information inherent within the syntax rules. To address this issue, we propose an enhanced architecture of structure semantics based on Graph Neural Network for code generation. Methods: Our approach explicitly models the internal structure of syntactic rules by treating them as graph data, thereby enabling the extraction of deeper structural semantics. Furthermore, we jointly model both the sequential semantics and structural semantics of syntactic rules, effectively addressing the limitations of solely sequence-based approaches in capturing the inherent structural semantics of code. Results: Experimental results on two widely used code generation datasets demonstrate that the proposed model consistently outperforms strong baselines, with gains of up to 2.14 BLEU points and 2.02 CodeBLEU points, highlighting the effectiveness of our structural-semantic modeling approach for code generation. © 2025 John Wiley & Sons Ltd.",
+  "keywords": [
+    "abstract syntax tree",
+    "automated software engineering",
+    "code generation",
+    "neural networks"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "John Wiley and Sons Ltd"
+}

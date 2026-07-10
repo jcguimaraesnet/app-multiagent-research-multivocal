@@ -1,0 +1,811 @@
+{
+  "origin": "github",
+  "step": 2,
+  "model": "",
+  "screened_at": "2026-07-10T01:34:58.197302+00:00",
+  "count": 100,
+  "included": 64,
+  "excluded": 36,
+  "records": [
+    {
+      "id": "GH1",
+      "title": "GitHub Articles • Technical Guides, Developer Insights & Best Practices",
+      "link": "https://github.com/resources/articles",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is broadly about developer technical guides and best practices, so it may relate to coding, and irrelevance to generative AI cannot be determined from the title alone."
+    },
+    {
+      "id": "GH2",
+      "title": "codefuse-ai/Awesome-Code-LLM",
+      "link": "https://github.com/codefuse-ai/awesome-code-llm",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly points to code-focused LLMs, making it plausibly relevant to generative AI for software coding."
+    },
+    {
+      "id": "GH3",
+      "title": "GitHub - sourcegraph/awesome-code-ai: A list of AI coding tools (assistants, completions, refactoring, etc.)",
+      "link": "https://github.com/sourcegraph/awesome-code-ai",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly describes a list of AI coding tools for software construction tasks such as code assistants, completions, and refactoring."
+    },
+    {
+      "id": "GH4",
+      "title": "A Survey on LLMs for Code Generation",
+      "link": "https://github.com/juyongjiang/CodeLLMSurvey",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns LLMs applied to code generation, which is directly relevant to generative AI for software construction."
+    },
+    {
+      "id": "GH5",
+      "title": "GitHub - InnerSourceCommons/InnerSourcePatterns: These patterns document how to apply open source principles and practices for software development within the confines of an organization - aka InnerSource.",
+      "link": "https://github.com/InnerSourceCommons/InnerSourcePatterns",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title is about InnerSource software development practices and patterns, not a generative AI or LLM-based coding solution."
+    },
+    {
+      "id": "GH6",
+      "title": "GitHub - sapritanand/Code-Generation-using-LLM: This project extracts Python code from the OpenAI Gym GitHub repository, creates a dataset of functions, and fine-tunes a code generation model (codegen-350M-mono) using Hugging Face Transformers to generate new code snippets.",
+      "link": "https://github.com/sapritanand/Code-Generation-using-LLM",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly describes LLM-based code generation and fine-tuning a code generation model to produce Python code snippets."
+    },
+    {
+      "id": "GH7",
+      "title": "Spec-driven development with AI: Get started with a new open source toolkit",
+      "link": "https://resources.github.com/increasing-collaborative-development-with-ai/",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly mentions AI applied to spec-driven development and an open source toolkit, which plausibly concerns software construction/coding."
+    },
+    {
+      "id": "GH8",
+      "title": "GitHub - zed-industries/zed: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "link": "https://github.com/zed-industries/zed",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is clearly about a coding tool, but it does not reveal whether it includes generative AI, so it should be retained at this high-recall stage."
+    },
+    {
+      "id": "GH9",
+      "title": "GitHub - zai-org/CodeGeeX: CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)",
+      "link": "https://github.com/zai-org/CodeGeeX",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title clearly indicates a multilingual code generation model, which is directly relevant to generative AI for software coding."
+    },
+    {
+      "id": "GH10",
+      "title": "GitHub - MiniMax-AI/MiniMax-M2.7",
+      "link": "https://github.com/MiniMax-AI/MiniMax-M2.7",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title names an AI-related GitHub repository, and while coding use is not explicit, it is not clearly irrelevant from the title alone."
+    },
+    {
+      "id": "GH11",
+      "title": "Build software better, together",
+      "link": "https://github.com/marketplace/models",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title clearly concerns software building, but it does not reveal whether the solution involves generative AI, so it should be kept for later screening."
+    },
+    {
+      "id": "GH12",
+      "title": "GitHub - jupyterlab/jupyter-ai: An open source extension that connects AI agents to computational notebooks in JupyterLab.",
+      "link": "https://github.com/jupyterlab/jupyter-ai",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title indicates an AI-based JupyterLab extension for computational notebooks, which plausibly supports coding or software construction activities."
+    },
+    {
+      "id": "GH13",
+      "title": "GitHub - microsoft/vscode-copilot-release: Feedback on GitHub Copilot Chat UX in Visual Studio Code.",
+      "link": "https://github.com/microsoft/vscode-copilot-release",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly refers to GitHub Copilot Chat in Visual Studio Code, which plausibly concerns a generative AI coding assistant used in software development."
+    },
+    {
+      "id": "GH14",
+      "title": "DmitryNekrasov/ai-code-completion-idea-plugin",
+      "link": "https://github.com/DmitryNekrasov/ai-code-completion-idea-plugin",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly indicates an AI-based code completion plugin for IDEA, which is directly relevant to generative AI for coding."
+    },
+    {
+      "id": "GH15",
+      "title": "Vue",
+      "link": "https://github.com/orgs/vuejs",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too ambiguous to rule out relevance and may refer to a software development context."
+    },
+    {
+      "id": "GH16",
+      "title": "GitHub Community",
+      "link": "https://github.com/orgs/community",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too generic to judge, but GitHub plausibly relates to software development and should be retained at title screening."
+    },
+    {
+      "id": "GH17",
+      "title": "GitHub - microsoft/copilot-intellij-feedback: Feedback on GitHub Copilot for JetBrains IDEs.",
+      "link": "https://github.com/microsoft/copilot-intellij-feedback",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly refers to GitHub Copilot, a generative AI coding assistant, in the context of JetBrains IDEs."
+    },
+    {
+      "id": "GH18",
+      "title": "GitHub - casadi/casadi: CasADi is a symbolic framework for numeric optimization implementing automatic differentiation in forward and reverse modes on sparse matrix-valued computational graphs. It supports self-contained C-code generation and interfaces state-of-the-art codes such as SUNDIALS, IPOPT etc. It can be used from C++, Python or Matlab/Octave.",
+      "link": "https://github.com/casadi/casadi",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title describes a numeric optimization and automatic differentiation framework with C-code generation, not a Generative AI/LLM solution for software coding activities."
+    },
+    {
+      "id": "GH19",
+      "title": "GitHub Copilot Certification",
+      "link": "https://learn.github.com/certification/COPILOT",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly names GitHub Copilot, a generative AI coding assistant, making it plausibly relevant to AI-supported software construction."
+    },
+    {
+      "id": "GH20",
+      "title": "Survey reveals AI's impact on the developer experience",
+      "link": "https://resources.github.com/webcasts/ai-developer-experience-research/",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title mentions AI and the developer experience, which plausibly relates to AI-assisted software development, but it does not clearly specify coding or generative AI."
+    },
+    {
+      "id": "GH21",
+      "title": "GitHub - LIANGQINGYUAN/awesome_codegeneration: A list of papers and resources dedicated to code generation",
+      "link": "https://github.com/LIANGQINGYUAN/awesome_codegeneration",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is about code generation resources, which is plausibly relevant to software construction and may involve generative AI-related coding approaches."
+    },
+    {
+      "id": "GH22",
+      "title": "Type-Constrained Code Generation with Language Models",
+      "link": "https://github.com/eth-sri/type-constrained-code-generation",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title clearly concerns code generation for software using language models, which is directly relevant to generative AI for coding."
+    },
+    {
+      "id": "GH23",
+      "title": "GitHub - Genuitec/Copilot4Eclipse-community: The place for Copilot4Eclipse discussions",
+      "link": "https://github.com/Genuitec/Copilot4Eclipse-community",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title refers to Copilot4Eclipse, which plausibly concerns a generative AI coding assistant in the Eclipse software development context."
+    },
+    {
+      "id": "GH24",
+      "title": "GitHub - VichyTong/CodeJudge: [EMNLP 2024] CodeJudge: Evaluating Code Generation with Large Language Models",
+      "link": "https://github.com/VichyTong/CodeJudge",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns evaluating code generation with large language models, which is directly relevant to generative AI for software coding."
+    },
+    {
+      "id": "GH25",
+      "title": "GitHub - FlightVin/automated-refactoring: LLM based workflow that opens pull requests based on detected design smells",
+      "link": "https://github.com/FlightVin/automated-refactoring",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly describes an LLM-based workflow for automated refactoring that opens pull requests based on detected design smells."
+    },
+    {
+      "id": "GH26",
+      "title": "GitHub - camilochs/pydaybcn2025-workshop-code-evolution: Code Evolution: Self-Improving Software with LLMs and Python.",
+      "link": "https://github.com/camilochs/pydaybcn2025-workshop-code-evolution",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns code evolution and self-improving software using LLMs and Python, which is directly relevant to generative AI for coding."
+    },
+    {
+      "id": "GH27",
+      "title": "Genentech/opentreesearch: LLM-Guided Code Evolution",
+      "link": "https://github.com/Genentech/opentreesearch",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly indicates an LLM-guided approach for code evolution, which is directly relevant to generative AI in software construction."
+    },
+    {
+      "id": "GH28",
+      "title": "DavidZWZ/Awesome-RAG-Reasoning",
+      "link": "https://github.com/DavidZWZ/Awesome-RAG-Reasoning",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title suggests a generative AI/RAG-related resource, but its relevance to software construction is unclear from the title alone."
+    },
+    {
+      "id": "GH29",
+      "title": "Large Language Models for Software Engineering",
+      "link": "https://github.com/iSEngLab/AwesomeLLM4SE",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly indicates large language models applied to software engineering, which plausibly includes coding-related software construction activities."
+    },
+    {
+      "id": "GH30",
+      "title": "Refact.ai",
+      "link": "https://github.com/smallcloudai",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is only a tool name, but 'Refact.ai' plausibly refers to an AI-based coding or refactoring solution, so it should be retained at title screening."
+    },
+    {
+      "id": "GH31",
+      "title": "GitHub - algorithmicsuperintelligence/openevolve: Open-source implementation of AlphaEvolve",
+      "link": "https://github.com/algorithmicsuperintelligence/openevolve",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title suggests an open-source implementation of an AI-related system ('AlphaEvolve'), but it does not clearly show whether it targets software construction, so it should be retained for later screening."
+    },
+    {
+      "id": "GH32",
+      "title": "Foundation Models for Combinatorial Optimization",
+      "link": "https://github.com/ai4co/awesome-fm4co",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title suggests foundation models applied to combinatorial optimization, not to software construction or coding activities."
+    },
+    {
+      "id": "GH33",
+      "title": "ahyatt/llm: A package abstracting llm capabilities for emacs.",
+      "link": "https://github.com/ahyatt/llm",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title explicitly mentions LLM capabilities in an Emacs package, which plausibly relates to generative AI support in a coding environment."
+    },
+    {
+      "id": "GH34",
+      "title": "GitHub - DAMO-NLP-SG/CLEX: [ICLR 2024] CLEX: Continuous Length Extrapolation for Large Language Models",
+      "link": "https://github.com/DAMO-NLP-SG/CLEX",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title describes a general large language model technique for length extrapolation and does not indicate any software construction or coding context."
+    },
+    {
+      "id": "GH35",
+      "title": "GitHub - darrenhinde/OpenAgentsControl: AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
+      "link": "https://github.com/darrenhinde/OpenAgentsControl",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title clearly describes an AI agent framework supporting software development workflows across programming languages with testing, code review, and validation."
+    },
+    {
+      "id": "GH36",
+      "title": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal",
+      "link": "https://github.com/openai/codex",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly describes a coding agent and references OpenAI Codex, indicating a generative AI solution for software construction."
+    },
+    {
+      "id": "GH37",
+      "title": "GitHub - aimclub/FEDOT.LLM: LLM-based prototype for nexgen AutoML",
+      "link": "https://github.com/aimclub/FEDOT.LLM",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title indicates an LLM-based AutoML prototype, which is about machine learning automation rather than software construction or coding activities."
+    },
+    {
+      "id": "GH38",
+      "title": "gsantopaolo/reforge-ai: Agentic-AI app modernization tool",
+      "link": "https://github.com/gsantopaolo/reforge-ai",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly indicates an AI-based tool for application modernization, which plausibly involves software code evolution or restructuring."
+    },
+    {
+      "id": "GH39",
+      "title": "codescene-oss/pr-refactoring-agent",
+      "link": "https://github.com/codescene-oss/pr-refactoring-agent",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title suggests a pull-request refactoring agent for code, which plausibly relates to AI-assisted software construction, though generative AI is not explicit."
+    },
+    {
+      "id": "GH40",
+      "title": "GitHub - EvoMap/awesome-agent-evolution: A curated list of AI Agent evolution, memory systems, multi-agent architectures, and self-improvement projects. | evomap.ai",
+      "link": "https://github.com/EvoMap/awesome-agent-evolution",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is about AI-agent projects on GitHub and could include generative AI solutions relevant to coding, but software-construction use is not explicit."
+    },
+    {
+      "id": "GH41",
+      "title": "GitHub - sammcj/llm-templates: My LLM Templates (Ollama Modelfiles & Tabby Templates + Presets)",
+      "link": "https://github.com/sammcj/llm-templates",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title clearly concerns LLM-related templates and presets, and references Tabby/Ollama, which could plausibly support coding workflows even though software construction is not explicit."
+    },
+    {
+      "id": "GH42",
+      "title": "GitHub - cline/cline: Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+      "link": "https://github.com/cline/cline",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title clearly concerns an autonomous coding agent for software development, which plausibly fits generative AI support for coding."
+    },
+    {
+      "id": "GH43",
+      "title": "GitHub - philschmid/ai-agent-benchmark-compendium: Compendium of over 50 benchmarks for evaluating AI agents, categorized into Function Calling & Tool Use, General Assistant & Reasoning, Coding & Software Engineering, and Computer Interaction.",
+      "link": "https://github.com/philschmid/ai-agent-benchmark-compendium",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title explicitly concerns AI agents and includes a Coding & Software Engineering category, making it plausibly relevant to generative AI for coding."
+    },
+    {
+      "id": "GH44",
+      "title": "GitHub - git-disl/awesome-LLM-game-agent-papers: A Survey on Large Language Model-Based Game Agents (ACM CSUR)",
+      "link": "https://github.com/git-disl/awesome-LLM-game-agent-papers",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title is about a survey of LLM-based game agents, not about software construction or coding activities."
+    },
+    {
+      "id": "GH45",
+      "title": "Rutex: The Autonomous AI Agent for Acode",
+      "link": "https://github.com/hallofcodes/acode-ai-agent-plugin",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title mentions an autonomous AI agent and 'Acode,' which plausibly suggests a coding-related tool, so it should be retained at title screening."
+    },
+    {
+      "id": "GH46",
+      "title": "GitHub - nibzard/llm-loop: Autonomous task execution plugin for LLM CLI - refactored modular architecture",
+      "link": "https://github.com/nibzard/llm-loop",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title clearly involves an LLM-based software plugin, and although its coding focus is not explicit, it could relate to software construction or code-related task automation."
+    },
+    {
+      "id": "GH47",
+      "title": "SMELLCC: LLM-based Code Smell Refactoring",
+      "link": "https://github.com/Tdcq14/vscode-smellcc",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title clearly indicates an LLM-based approach for code smell refactoring, which is directly relevant to generative AI for software construction."
+    },
+    {
+      "id": "GH48",
+      "title": "GitHub - raine/consult-llm: Get a second opinion from another AI model",
+      "link": "https://github.com/raine/consult-llm",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title explicitly mentions an LLM/AI tool, but the software construction or coding context is unclear from the title alone."
+    },
+    {
+      "id": "GH49",
+      "title": "FudanDISC/SocialAgent",
+      "link": "https://github.com/FudanDISC/SocialAgent",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title only names an agent-like project and does not clearly reveal its domain, so it should be kept at this high-recall title-screening stage."
+    },
+    {
+      "id": "GH50",
+      "title": "GitHub - stable-lab/Pro-V: PRO-V: An Efficient Program Generation Multi-Agent System for Automatic RTL Verification",
+      "link": "https://github.com/stable-lab/Pro-V",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title explicitly mentions an efficient program generation multi-agent system, which plausibly indicates a generative AI coding approach, although the application is RTL verification."
+    },
+    {
+      "id": "GH51",
+      "title": "langtech-bsc/alia",
+      "link": "https://github.com/langtech-bsc/alia",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too ambiguous to determine whether it concerns generative AI for software coding, so it should be kept for later screening."
+    },
+    {
+      "id": "GH52",
+      "title": "GitHub - ghadinehme/CADFit: Official code repository of \"CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization\" @ ICML 2026",
+      "link": "https://github.com/ghadinehme/CADFit",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title is about mesh-to-CAD program generation in computer-aided design, not software construction or coding tasks."
+    },
+    {
+      "id": "GH53",
+      "title": "GitHub - comsec-group/cascade-artifacts: Artifacts for Cascade: CPU Fuzzing via Intricate Program Generation (USENIX Security 2024)",
+      "link": "https://github.com/comsec-group/cascade-artifacts",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title is about CPU fuzzing via intricate program generation, a security testing technique, not about Generative AI for software construction."
+    },
+    {
+      "id": "GH54",
+      "title": "GitHub - Xilinx/mlir-aie: An MLIR-based toolchain for AMD AI Engine-enabled devices.",
+      "link": "https://github.com/Xilinx/mlir-aie",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "Title describes a hardware toolchain for AMD AI Engine devices, unrelated to software construction/coding activities."
+    },
+    {
+      "id": "GH55",
+      "title": "GitHub - teacherpeterpan/Logic-LLM: The project page for \"LOGIC-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning\"",
+      "link": "https://github.com/teacherpeterpan/logic-llm",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "Title involves LLMs (Large Language Models) and reasoning, which plausibly relates to software construction or code generation activities; relevance cannot be ruled out at this stage."
+    },
+    {
+      "id": "GH56",
+      "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++",
+      "link": "https://github.com/ggml-org/llama.cpp",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "\"LLM inference in C/C++\" plausibly relates to using large language models for coding activities, such as code generation or code completion in C/C++."
+    },
+    {
+      "id": "GH57",
+      "title": "GitHub - inclusionAI/AEnvironment: Standardized environment infrastructure for Agentic AI development.",
+      "link": "https://github.com/inclusionAI/AEnvironment",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "Title mentions 'Agentic AI development' implying generative AI software, and 'standardized environment infrastructure' could plausibly relate to coding/software construction tooling."
+    },
+    {
+      "id": "GH58",
+      "title": "GitHub - isaziconsulting/AlphaEvolveLite: An open source simplified implementation of the AlphaEvolve paper.",
+      "link": "https://github.com/isaziconsulting/AlphaEvolveLite",
+      "decision": "exclude",
+      "confidence": "medium",
+      "reason": "The title describes a simplified implementation of a specific paper (AlphaEvolve), but provides no indication that the paper or tool is related to software construction or generative AI; it could be about any evolutionary algorithm domain."
+    },
+    {
+      "id": "GH59",
+      "title": "InfiMM/Awesome-Multimodal-LLM-for-Math-STEM",
+      "link": "https://github.com/InfiMM/Awesome-Multimodal-LLM-for-Math-STEM",
+      "decision": "exclude",
+      "confidence": "low",
+      "reason": "The title indicates a focus on mathematics and STEM education, not software construction or coding."
+    },
+    {
+      "id": "GH60",
+      "title": "dafny-annotator: AI-assisted verification of Dafny Programs",
+      "link": "https://github.com/metareflection/dafny-annotator",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title describes an AI-assisted tool for verifying Dafny programs, which is directly related to software construction and AI-based coding support."
+    },
+    {
+      "id": "GH61",
+      "title": "GitHub - LAMDA-NeSy/Awesome-LLM-Reasoning-with-NeSy: ✨✨Latest Advances on Neuro-Symbolic Learning in the era of Large Language Models",
+      "link": "https://github.com/LAMDASZ-ML/Awesome-LLM-Reasoning-with-NeSy",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title is about LLM reasoning with neuro-symbolic methods, not about software construction or coding activities."
+    },
+    {
+      "id": "GH62",
+      "title": "Official code for VisProg (CVPR 2023 Best Paper!)",
+      "link": "https://github.com/allenai/visprog",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "Title refers to code for a CVPR best paper, but neither generative AI/LLM nor software construction is explicit; insufficient to clearly exclude."
+    },
+    {
+      "id": "GH63",
+      "title": "GitHub - Julien-Au/gymcoach: Self-hosted AI workout tracker. Bring your own LLM (Anthropic or OpenRouter): weekly debriefs, a chat coach, and AI-generated programs.",
+      "link": "https://github.com/Julien-Au/gymcoach",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title describes an AI workout tracker, which is clearly not related to software construction or coding."
+    },
+    {
+      "id": "GH64",
+      "title": "Stevenic/convo - a conversational programming language",
+      "link": "https://github.com/Stevenic/convo",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "Title suggests a conversational programming language, which may involve generative AI for coding; not clearly irrelevant."
+    },
+    {
+      "id": "GH65",
+      "title": "Stable Lab @ UCSD",
+      "link": "https://github.com/stable-lab",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title 'Stable Lab @ UCSD' could be about a lab working on stable diffusion or AI, but it's not clear if it relates to software construction or coding."
+    },
+    {
+      "id": "GH66",
+      "title": "GitHub - MOSSLab-MIT/FSNet: FSNet: Feasibility-Seeking Neural Network for Constrained Optimization with Guarantees",
+      "link": "https://github.com/MOSSLab-MIT/FSNet",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "Title describes a neural network for constrained optimization with guarantees, not software construction or coding activities."
+    },
+    {
+      "id": "GH67",
+      "title": "GitHub - hephaestus-compiler-project/hephaestus: A framework for testing compilers' type checkers",
+      "link": "https://github.com/hephaestus-compiler-project/hephaestus",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title clearly describes a compiler testing framework and does not mention software construction, coding activities, or Generative AI."
+    },
+    {
+      "id": "GH68",
+      "title": "GitHub - Minw913/AlphaOPT: Formulating Optimization Programs with Self-Improving LLM Experience Library",
+      "link": "https://github.com/Minw913/AlphaOPT",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "Title mentions LLM and optimization program formulation, which may involve code generation but is not clearly about software construction."
+    },
+    {
+      "id": "GH69",
+      "title": "Simple Socket Protocol for Embedded Systems",
+      "link": "https://github.com/endurodave/SimpleSocketProtocol",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title clearly concerns a networking protocol for embedded systems, with no indication of software construction, coding activities, or Generative AI/LLMs."
+    },
+    {
+      "id": "GH70",
+      "title": "Ghadi Nehme ghadinehme",
+      "link": "https://github.com/ghadinehme",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title appears to be a personal name or username with no indication of software construction or Generative AI."
+    },
+    {
+      "id": "GH71",
+      "title": "GitHub - cferdinandi/kelp: A UI library for people who love HTML, powered by modern CSS and Web Components.",
+      "link": "https://github.com/cferdinandi/kelp",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title describes a UI library focused on HTML, CSS, and Web Components, with no mention of software construction, code generation, or Generative AI/LLMs."
+    },
+    {
+      "id": "GH72",
+      "title": "OpenAPI to MCP Server Code Generator · GitHub",
+      "link": "https://github.com/cnoe-io/openapi-mcp-codegen",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "Title indicates a code generator for server code, relevant to software construction; generative AI involvement is unclear but possible."
+    },
+    {
+      "id": "GH73",
+      "title": "CursorCore: Assist Programming through Aligning Anything",
+      "link": "https://github.com/TechxGenus/CursorCore",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title suggests a programming assistance tool named CursorCore, which plausibly involves aligning AI models for coding tasks, though AI is not explicit."
+    },
+    {
+      "id": "GH74",
+      "title": "GitHub - cjpopova/sized-generator",
+      "link": "https://github.com/cjpopova/sized-generator",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "Title mentions generator without clarifying domain; cannot rule out that it relates to code generation or AI."
+    },
+    {
+      "id": "GH75",
+      "title": "GitHub - m3g/CellListMap.jl: Flexible implementation of cell lists to map the calculations of particle-pair dependent functions, such as forces, energies, neighbor lists, etc.",
+      "link": "https://github.com/m3g/celllistmap.jl",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "Title describes a scientific computing library for particle-pair calculations, not software construction or Generative AI."
+    },
+    {
+      "id": "GH76",
+      "title": "GitHub - sanzol-tech/ai-trader: Trading signals and cryptocurrency trading tool for Binance Futures",
+      "link": "https://github.com/sanzol-tech/ai-trader",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title describes a cryptocurrency trading tool for Binance Futures, not software construction or coding activities."
+    },
+    {
+      "id": "GH77",
+      "title": "ise-uiuc/TitanFuzz",
+      "link": "https://github.com/ise-uiuc/TitanFuzz",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "Title is ambiguous; 'TitanFuzz' could relate to software construction but lacks explicit mention of Generative AI, so include for further review."
+    },
+    {
+      "id": "GH78",
+      "title": "GitHub - SakanaAI/ShinkaEvolve: ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution 🧬",
+      "link": "https://github.com/SakanaAI/shinkaevolve",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "Title mentions program evolution, a software construction activity; plausible use of AI/evolutionary techniques, so not clearly irrelevant."
+    },
+    {
+      "id": "GH79",
+      "title": "GitHub - SakanaAI/drq: Digital Red Queen: Adversarial Program Evolution in Core War with LLMs",
+      "link": "https://github.com/SakanaAI/drq",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title suggests program evolution in a software context (Core War) involving LLMs, which plausibly relates to code generation or evolution with generative AI."
+    },
+    {
+      "id": "GH80",
+      "title": "GitHub - yash-srivastava19/cadence: Using LLMs(not RL) to find new solutions for problems that are hard. Batteries included.",
+      "link": "https://github.com/yash-srivastava19/cadence",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly mentions using LLMs to find solutions for problems, and the GitHub context suggests a software tool or codebase, which is plausibly related to software construction."
+    },
+    {
+      "id": "GH81",
+      "title": "GitHub - worldbench/awesome-ai-auto-research: 🔥 A Survey on AI Auto-Research",
+      "link": "https://github.com/worldbench/awesome-ai-auto-research",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "Title indicates a survey on AI auto-research, not software construction or coding activities."
+    },
+    {
+      "id": "GH82",
+      "title": "The AI agents class (CS 839) at UW-Madison",
+      "link": "https://github.com/barghouthi/ai-agents",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title describes a university course, not a generative AI solution for software construction."
+    },
+    {
+      "id": "GH83",
+      "title": "Nebius-Academy/ai-in-math-course",
+      "link": "https://github.com/Nebius-Academy/ai-in-math-course",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title indicates an AI in mathematics course, not related to software construction or coding."
+    },
+    {
+      "id": "GH84",
+      "title": "tsinghua-fib-lab/Awesome-AI-Scientists",
+      "link": "https://github.com/tsinghua-fib-lab/Awesome-AI-Scientists",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title indicates a curated list of AI scientists, with no connection to software construction or generative AI for coding."
+    },
+    {
+      "id": "GH85",
+      "title": "kyegomez/awesome-multi-agent-papers",
+      "link": "https://github.com/kyegomez/awesome-multi-agent-papers",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is a repository name for a collection of papers on multi-agent systems; it does not explicitly mention software construction, but multi-agent systems could involve code generation, so relevance is uncertain."
+    },
+    {
+      "id": "GH86",
+      "title": "GitHub - spf13/cobra: A Commander for modern Go CLI interactions",
+      "link": "https://github.com/spf13/cobra",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "Title describes a Go library for building CLI applications, with no mention of Generative AI or software construction activities like code generation or completion."
+    },
+    {
+      "id": "GH87",
+      "title": "MIRA Lab",
+      "link": "https://github.com/MIRALab-USTC",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title is only a laboratory name, with no mention of software construction, coding, or generative AI; it is clearly off-topic."
+    },
+    {
+      "id": "GH88",
+      "title": "open-lms-open-source/moodle-customfield_training",
+      "link": "https://github.com/open-lms-open-source/moodle-customfield_training",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title refers to a Moodle plugin repository, unrelated to Generative AI or software construction activities."
+    },
+    {
+      "id": "GH89",
+      "title": "Source code for the Container-lang programming language",
+      "link": "https://github.com/odddollar/Container-lang",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title indicates only source code of a programming language, with no mention or implication of generative AI or LLM-based coding assistance."
+    },
+    {
+      "id": "GH90",
+      "title": "Bosch Home Connect – Domoticz Plugin",
+      "link": "https://github.com/domoticz/home-connect",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "Title indicates a home automation plugin (Domoticz) for Bosch appliances, unrelated to software construction or Generative AI."
+    },
+    {
+      "id": "GH91",
+      "title": "danielgross/localpilot",
+      "link": "https://github.com/danielgross/localpilot",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title suggests a repository name, possibly a local code generation tool analogous to GitHub Copilot, but without explicit mention of coding or generative AI."
+    },
+    {
+      "id": "GH92",
+      "title": "GitHub - faskowit/multiAtlasTT: multi atlas transfer tools for neuroimaging (maTT)",
+      "link": "https://github.com/faskowit/multiAtlasTT",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "Title clearly concerns neuroimaging, not software construction or coding."
+    },
+    {
+      "id": "GH93",
+      "title": "ShahandFahad/IBM-full-stack-software-developer",
+      "link": "https://github.com/ShahandFahad/IBM-full-stack-software-developer",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "Title suggests a project related to full-stack software development; coding relevance is plausible but role of Generative AI is unclear."
+    },
+    {
+      "id": "GH94",
+      "title": "GitHub - libsdl-org/SDL: Simple DirectMedia Layer",
+      "link": "https://github.com/libsdl-org/SDL",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title refers to a multimedia library (SDL), not a Generative AI solution for software construction or coding."
+    },
+    {
+      "id": "GH95",
+      "title": "jxskiss/mcli: A minimal but powerful cli library for Go",
+      "link": "https://github.com/jxskiss/mcli",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title describes a CLI library for Go, with no indication of Generative AI or LLMs for coding."
+    },
+    {
+      "id": "GH96",
+      "title": "nwiizo/cargo.nvim",
+      "link": "https://github.com/nwiizo/cargo.nvim",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title is a repository name formatted as 'user/project' with a Neovim plugin-like suffix, giving no indication of generative AI or software construction topics."
+    },
+    {
+      "id": "GH97",
+      "title": "GitHub - TigerVNC/tigervnc: High performance, multi-platform VNC client and server",
+      "link": "https://github.com/TigerVNC/tigervnc",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title describes a VNC client/server for remote desktop access, unrelated to software coding or generative AI."
+    },
+    {
+      "id": "GH98",
+      "title": "GitHub - daminals/JP-Morgan-Virtual-Experience: Forage's JP Morgan Chase Software Engineering Virtual Experience",
+      "link": "https://github.com/daminals/JP-Morgan-Virtual-Experience",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title mentions a software engineering virtual experience, which may involve coding activities, but it does not explicitly indicate any Generative AI or LLM component."
+    },
+    {
+      "id": "GH99",
+      "title": "GitHub - kriptosamu/Windows-Cleaner: This batch script is designed to provide a convenient way to perform various system maintenance tasks on a Windows.",
+      "link": "https://github.com/kriptosamu/Windows-Cleaner",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title explicitly describes a Windows system maintenance batch script, unrelated to software construction, coding AI, or generative models."
+    },
+    {
+      "id": "GH100",
+      "title": "ARRETdaniel/Google-Data-Analytics-Professional-Certificate",
+      "link": "https://github.com/ARRETdaniel/Google-Data-Analytics-Professional-Certificate",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title refers to a Google Data Analytics Professional Certificate, which is clearly not about software construction or Generative AI."
+    }
+  ]
+}

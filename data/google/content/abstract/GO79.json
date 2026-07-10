@@ -1,0 +1,14 @@
+{
+  "title": "ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
+  "link": "https://www.youtube.com/watch?v=dAOIer_1INo",
+  "summary": "This source is a video from an AutoML Seminars series presenting 'ShinkaEvolve,' a method for program evolution. It focuses on achieving sample-efficient and open-ended automatic improvement of programs, which is relevant for software construction tasks such as automated algorithm design or code generation. The presentation likely discusses the ShinkaEvolve technique within the context of automated machine learning.",
+  "author": "",
+  "publication_date": "",
+  "keywords": [
+    "program evolution",
+    "ShinkaEvolve",
+    "sample efficiency",
+    "open-ended",
+    "AutoML"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "CodeRAG-Bench: Can Retrieval Augment Code Generation?",
+  "link": "https://code-rag-bench.github.io/",
+  "summary": "This work introduces CodeRAG-Bench, a large-scale benchmark for retrieval-augmented code generation (RACG) spanning diverse tasks: general programming, open-domain, and repository-level problems. It aggregates documents from five sources (competition solutions, online tutorials, library documentation, StackOverflow, GitHub repositories) to serve as retrieval contexts. Experiments reveal that while gold-standard contexts significantly boost code generation models like GPT-4, current retrieval models often fail to fetch helpful contexts, limiting end-to-end RAG performance. The benchmark provides a unified interface for retrieval, generation, and evaluation, and aims to spur advancements in code-oriented RAG systems.",
+  "author": "Zora Zhiruo Wang, Akari Asai, Xinyan Velocity Yu, Frank F. Xu, Yiqing Xie, Graham Neubig, Daniel Fried",
+  "publication_date": "2024",
+  "keywords": [
+    "CodeRAG-Bench",
+    "retrieval-augmented generation",
+    "code generation",
+    "benchmark",
+    "retrieval"
+  ]
+}

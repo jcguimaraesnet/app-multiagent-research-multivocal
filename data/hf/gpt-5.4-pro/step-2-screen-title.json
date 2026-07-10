@@ -1,0 +1,659 @@
+{
+  "origin": "hf",
+  "step": 2,
+  "model": "gpt-5.4-pro",
+  "screened_at": "2026-07-09T22:37:23.824281+00:00",
+  "count": 81,
+  "included": 73,
+  "excluded": 8,
+  "records": [
+    {
+      "id": "HF1",
+      "title": "CodeArena: A Collective Evaluation Platform for LLM Code Generation",
+      "link": "https://huggingface.co/papers/2503.01295",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns LLM-based code generation, which is directly relevant to generative AI for software construction."
+    },
+    {
+      "id": "HF2",
+      "title": "QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation",
+      "link": "https://huggingface.co/papers/2604.08570",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns LLM-based code generation, specifically for quantum programming, which is relevant to generative AI for software construction."
+    },
+    {
+      "id": "HF3",
+      "title": "Enhancing LLM Code Generation: A Systematic Evaluation of Multi-Agent Collaboration and Runtime Debugging for Improved Accuracy, Reliability, and Latency",
+      "link": "https://huggingface.co/papers/2505.02133",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns LLM-based code generation and techniques to improve coding performance through multi-agent collaboration and runtime debugging."
+    },
+    {
+      "id": "HF4",
+      "title": "PlayCoder: Making LLM-Generated GUI Code Playable",
+      "link": "https://huggingface.co/papers/2604.19742",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns LLM-generated GUI code, which is directly relevant to generative AI for software construction."
+    },
+    {
+      "id": "HF5",
+      "title": "Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning",
+      "link": "https://huggingface.co/papers/2504.17192",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title explicitly concerns automated code generation, a software construction activity, and it plausibly involves an AI-based approach even though the specific generative technique is not stated."
+    },
+    {
+      "id": "HF6",
+      "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
+      "link": "https://huggingface.co/papers/2604.01193",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns improving code generation using self-distillation, which is plausibly a generative AI technique for coding."
+    },
+    {
+      "id": "HF7",
+      "title": "StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Feedback",
+      "link": "https://huggingface.co/papers/2402.01391",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns improving code generation using reinforcement learning, which is plausibly a generative AI approach for software construction."
+    },
+    {
+      "id": "HF8",
+      "title": "Assessing the Impact of Requirement Ambiguity on LLM-based Function-Level Code Generation",
+      "link": "https://huggingface.co/papers/2604.21505",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns LLM-based code generation at the function level, which is directly relevant to generative AI for software construction."
+    },
+    {
+      "id": "HF9",
+      "title": "Think Anywhere in Code Generation",
+      "link": "https://huggingface.co/papers/2603.29957",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title explicitly concerns code generation and may refer to a generative AI-based coding approach, but the AI aspect is not explicit."
+    },
+    {
+      "id": "HF10",
+      "title": "MeshCoder: LLM-Powered Structured Mesh Code Generation from Point Clouds",
+      "link": "https://huggingface.co/papers/2508.14879",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title explicitly mentions an LLM-powered code generation approach, which plausibly fits generative AI for coding despite the domain-specific mesh context."
+    },
+    {
+      "id": "HF11",
+      "title": "A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code",
+      "link": "https://huggingface.co/papers/2508.18106",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns AI-generated code and its evaluation in a software repository context, which is directly relevant to generative AI for coding."
+    },
+    {
+      "id": "HF12",
+      "title": "GLLM: Self-Corrective G-Code Generation using Large Language Models with User Feedback",
+      "link": "https://huggingface.co/papers/2501.17584",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title clearly involves LLM-based code generation, and although G-code may be outside mainstream software development, it is not clearly irrelevant from the title alone."
+    },
+    {
+      "id": "HF13",
+      "title": "OpenClassGen: A Large-Scale Corpus of Real-World Python Classes for LLM Research",
+      "link": "https://huggingface.co/papers/2504.15564",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title clearly concerns code artifacts (real-world Python classes) and explicitly targets LLM research, making it plausibly relevant to generative AI for coding."
+    },
+    {
+      "id": "HF14",
+      "title": "WebVIA: A Web-based Vision-Language Agentic Framework for Interactive and Verifiable UI-to-Code Generation",
+      "link": "https://huggingface.co/papers/2511.06251",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly describes a vision-language agentic framework for UI-to-code generation, which is directly about generative AI applied to software coding."
+    },
+    {
+      "id": "HF15",
+      "title": "CodeV: Empowering LLMs with HDL Generation through Multi-Level Summarization",
+      "link": "https://huggingface.co/papers/2407.10424",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title explicitly concerns LLM-enabled HDL code generation, which is plausibly a coding-related generative AI solution and is not clearly irrelevant from the title alone."
+    },
+    {
+      "id": "HF16",
+      "title": "TeXpert: A Multi-Level Benchmark for Evaluating LaTeX Code Generation by LLMs",
+      "link": "https://huggingface.co/papers/2506.16990",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title explicitly concerns LLM-based code generation, and although it focuses on LaTeX rather than software source code, it is not clearly irrelevant at title screening."
+    },
+    {
+      "id": "HF17",
+      "title": "Teaching LLMs a Low-Resource Language: Enhancing Code Completion in Pharo",
+      "link": "https://huggingface.co/papers/2607.04939",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly mentions LLMs and improving code completion in Pharo, which is directly relevant to generative AI for software coding."
+    },
+    {
+      "id": "HF18",
+      "title": "CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis",
+      "link": "https://huggingface.co/papers/2203.13474",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly describes a large language model for code and program synthesis, which is directly relevant to generative AI for software construction."
+    },
+    {
+      "id": "HF19",
+      "title": "CodeElo: Benchmarking Competition-level Code Generation of LLMs with Human-comparable Elo Ratings",
+      "link": "https://huggingface.co/papers/2501.01257",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns LLM-based code generation, which is directly relevant to generative AI for software construction."
+    },
+    {
+      "id": "HF20",
+      "title": "PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback",
+      "link": "https://huggingface.co/papers/2307.14936",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns large language models for code, which is directly relevant to generative AI solutions for software construction."
+    },
+    {
+      "id": "HF21",
+      "title": "ScreenCoder: Advancing Visual-to-Code Generation for Front-End Automation via Modular Multimodal Agents",
+      "link": "https://huggingface.co/papers/2507.22827",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title clearly targets visual-to-code generation for front-end software construction using multimodal agents, which is plausibly a generative AI coding solution."
+    },
+    {
+      "id": "HF22",
+      "title": "Efficient Code Embeddings from Code Generation Models",
+      "link": "https://huggingface.co/papers/2508.21290",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title explicitly concerns code and code generation models, making it plausibly relevant to generative AI for software coding."
+    },
+    {
+      "id": "HF23",
+      "title": "cAST: Enhancing Code Retrieval-Augmented Generation with Structural Chunking via Abstract Syntax Tree",
+      "link": "https://huggingface.co/papers/2506.15655",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title clearly concerns generative AI for coding, specifically improving code retrieval-augmented generation using AST-based structural chunking."
+    },
+    {
+      "id": "HF24",
+      "title": "CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning",
+      "link": "https://huggingface.co/papers/2207.01780",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly targets code generation using pretrained models and deep reinforcement learning, which is plausibly a generative AI approach to software construction."
+    },
+    {
+      "id": "HF25",
+      "title": "ArtifactsBench: Bridging the Visual-Interactive Gap in LLM Code Generation Evaluation",
+      "link": "https://huggingface.co/papers/2507.04952",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns LLM code generation evaluation, which is directly relevant to generative AI for software construction."
+    },
+    {
+      "id": "HF26",
+      "title": "LeetCodeDataset: A Temporal Dataset for Robust Evaluation and Efficient Training of Code LLMs",
+      "link": "https://huggingface.co/papers/2504.14655",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns code LLMs and a dataset for their training and evaluation, which is relevant to generative AI for coding."
+    },
+    {
+      "id": "HF27",
+      "title": "ReLook: Vision-Grounded RL with a Multimodal LLM Critic for Agentic Web Coding",
+      "link": "https://huggingface.co/papers/2510.11498",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly mentions a multimodal LLM and agentic web coding, indicating a generative-AI approach for software construction."
+    },
+    {
+      "id": "HF28",
+      "title": "Verus-SpecGym: An Agentic Environment for Evaluating Specification Autoformalization",
+      "link": "https://huggingface.co/papers/2605.26457",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title suggests an agentic AI environment for automatically formalizing software specifications, which is plausibly relevant to generative AI in software construction."
+    },
+    {
+      "id": "HF29",
+      "title": "mHumanEval -- A Multilingual Benchmark to Evaluate Large Language Models for Code Generation",
+      "link": "https://huggingface.co/papers/2410.15037",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns large language models and code generation in a software-related benchmark context."
+    },
+    {
+      "id": "HF30",
+      "title": "BigCodeArena: Unveiling More Reliable Human Preferences in Code Generation via Execution",
+      "link": "https://huggingface.co/papers/2510.08697",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title clearly concerns code generation and evaluating human preferences via execution, which is plausibly relevant to generative AI solutions for coding."
+    },
+    {
+      "id": "HF31",
+      "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
+      "link": "https://huggingface.co/papers/2410.14209",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns LLM-based agents for PLC code generation and verification, which is directly relevant to generative AI for software construction."
+    },
+    {
+      "id": "HF32",
+      "title": "LongCodeZip: Compress Long Context for Code Language Models",
+      "link": "https://huggingface.co/papers/2510.00446",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns code language models and handling long code context, which plausibly relates to generative AI for coding."
+    },
+    {
+      "id": "HF33",
+      "title": "GPIoT: Tailoring Small Language Models for IoT Program Synthesis and Development",
+      "link": "https://huggingface.co/papers/2503.00686",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly mentions language models for IoT program synthesis and development, which directly fits generative AI for software coding."
+    },
+    {
+      "id": "HF34",
+      "title": "SuperCoder: Assembly Program Superoptimization with Large Language Models",
+      "link": "https://huggingface.co/papers/2505.11480",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title clearly concerns code-level program optimization for assembly programs using large language models."
+    },
+    {
+      "id": "HF35",
+      "title": "A Survey of Vibe Coding with Large Language Models",
+      "link": "https://huggingface.co/papers/2510.12399",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns coding and large language models, which is directly relevant to generative AI for software construction."
+    },
+    {
+      "id": "HF36",
+      "title": "BEAVER: An Efficient Deterministic LLM Verifier",
+      "link": "https://huggingface.co/papers/2512.05439",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title explicitly concerns an LLM-related verifier, and the title alone does not clearly rule out relevance to software construction or coding."
+    },
+    {
+      "id": "HF37",
+      "title": "SwiftEval: Developing a Language-Specific Benchmark for LLM-generated Code Evaluation",
+      "link": "https://huggingface.co/papers/2505.24324",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns evaluating LLM-generated code with a language-specific benchmark, which is directly relevant to generative AI for software coding."
+    },
+    {
+      "id": "HF38",
+      "title": "AI Agentic Programming: A Survey of Techniques, Challenges, and Opportunities",
+      "link": "https://huggingface.co/papers/2508.11126",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title clearly concerns AI and programming, and it plausibly covers generative/agentic techniques relevant to software construction or coding."
+    },
+    {
+      "id": "HF39",
+      "title": "The First Prompt Counts the Most! An Evaluation of Large Language Models on Iterative Example-Based Code Generation",
+      "link": "https://huggingface.co/papers/2411.06774",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly evaluates large language models for iterative example-based code generation, which is directly relevant to generative AI for software coding."
+    },
+    {
+      "id": "HF40",
+      "title": "CodeFusion: A Pre-trained Diffusion Model for Code Generation",
+      "link": "https://huggingface.co/papers/2310.17680",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly describes a pre-trained diffusion model for code generation, which is directly relevant to generative AI for software construction."
+    },
+    {
+      "id": "HF41",
+      "title": "Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts",
+      "link": "https://huggingface.co/papers/2602.13367",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title suggests a generative AI model, but its connection to software construction or coding is unclear from the title alone."
+    },
+    {
+      "id": "HF42",
+      "title": "AST-T5: Structure-Aware Pretraining for Code Generation and Understanding",
+      "link": "https://huggingface.co/papers/2401.03003",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly describes a pretrained model for code generation and code understanding, which is directly relevant to generative AI for software coding."
+    },
+    {
+      "id": "HF43",
+      "title": "Rewriting Pre-Training Data Boosts LLM Performance in Math and Code",
+      "link": "https://huggingface.co/papers/2505.02881",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title explicitly mentions LLMs and code, making it plausibly relevant to generative AI for coding."
+    },
+    {
+      "id": "HF44",
+      "title": "CCTU: A Benchmark for Tool Use under Complex Constraints",
+      "link": "https://huggingface.co/papers/2603.15309",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title suggests a benchmark for complex tool use that may involve generative AI or LLM agents, and the title alone does not clearly rule out a coding context."
+    },
+    {
+      "id": "HF45",
+      "title": "Long Code Arena: a Set of Benchmarks for Long-Context Code Models",
+      "link": "https://huggingface.co/papers/2406.11612",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns benchmarks for long-context code models, which plausibly relates to generative AI for software coding tasks."
+    },
+    {
+      "id": "HF46",
+      "title": "Krikri: Advancing Open Large Language Models for Greek",
+      "link": "https://huggingface.co/papers/2505.13772",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title is about advancing Greek-language large language models and does not indicate any focus on software construction or coding."
+    },
+    {
+      "id": "HF47",
+      "title": "SALLM: Security Assessment of Generated Code",
+      "link": "https://huggingface.co/papers/2311.00889",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title explicitly concerns generated code and plausibly relates to generative AI/LLM-based coding outputs in a software construction context."
+    },
+    {
+      "id": "HF48",
+      "title": "Agentic Refactoring: An Empirical Study of AI Coding Agents",
+      "link": "https://huggingface.co/papers/2511.04824",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title clearly concerns software refactoring and AI coding agents, making it plausibly relevant to generative AI for software construction."
+    },
+    {
+      "id": "HF49",
+      "title": "Lean Refactor: Multi-Objective Controllable Proof Optimization via Agentic Strategy Search",
+      "link": "https://huggingface.co/papers/2605.20244",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title suggests an agentic AI method for refactoring or optimizing Lean proof code, which is plausibly relevant to generative-AI-assisted code restructuring."
+    },
+    {
+      "id": "HF50",
+      "title": "Self-EvolveRec: Self-Evolving Recommender Systems with LLM-based Directional Feedback",
+      "link": "https://huggingface.co/papers/2602.12612",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title is about recommender systems using LLM-based feedback, not about software construction or coding activities."
+    },
+    {
+      "id": "HF51",
+      "title": "GigaEvo: An Open Source Optimization Framework Powered By LLMs And Evolution Algorithms",
+      "link": "https://huggingface.co/papers/2511.17592",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title mentions an LLM-powered open-source framework, but it does not clearly indicate whether the optimization is for software construction or coding."
+    },
+    {
+      "id": "HF52",
+      "title": "On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub",
+      "link": "https://huggingface.co/papers/2509.14745",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title explicitly concerns coding activity on GitHub and 'agentic coding' plausibly refers to AI/LLM-based coding agents."
+    },
+    {
+      "id": "HF53",
+      "title": "K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model",
+      "link": "https://huggingface.co/papers/2602.19128",
+      "decision": "include",
+      "confidence": "medium",
+      "reason": "The title explicitly mentions an LLM and kernel generation, which plausibly concerns generative AI for code generation or software construction."
+    },
+    {
+      "id": "HF54",
+      "title": "Evolving Programmatic Skill Networks",
+      "link": "https://huggingface.co/papers/2601.03509",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title plausibly relates to programmatic/code-related skill development or evolution, but its connection to generative AI for software construction is unclear from the title alone."
+    },
+    {
+      "id": "HF55",
+      "title": "Vibe Coding vs. Agentic Coding: Fundamentals and Practical Implications of Agentic AI",
+      "link": "https://huggingface.co/papers/2505.19443",
+      "decision": "include",
+      "confidence": "high",
+      "reason": "The title explicitly concerns coding practices and agentic AI, which plausibly relates to generative AI for software construction."
+    },
+    {
+      "id": "HF56",
+      "title": "NES: An Instruction-Free, Low-Latency Next Edit Suggestion Framework Powered by Learned Historical Editing Trajectories",
+      "link": "https://huggingface.co/papers/2508.02473",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title suggests an AI-based next-edit suggestion framework learned from editing histories, which could be relevant to software/code editing even though coding is not explicit."
+    },
+    {
+      "id": "HF57",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=coding-agent%20benchmarks",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too vague to determine relevance, so it should be retained at this high-recall title-screening stage."
+    },
+    {
+      "id": "HF58",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=skill%20marketplace",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too generic to determine relevance, so it should be retained for later screening."
+    },
+    {
+      "id": "HF59",
+      "title": "ResearchStudio-Reel: Automate the Last Mile of Research from Paper to Poster, Video, and Blog",
+      "link": "https://huggingface.co/papers/2607.04438",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title is about automating research dissemination outputs (poster, video, blog), not software construction or coding."
+    },
+    {
+      "id": "HF60",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=GPU%20provisioning",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too generic to determine relevance to generative AI for software coding, so it should be retained for later screening."
+    },
+    {
+      "id": "HF61",
+      "title": "LK Losses: Direct Acceptance Rate Optimization for Speculative Decoding",
+      "link": "https://huggingface.co/papers/2602.23881",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title clearly concerns a generative AI/LLM decoding technique, and it does not reveal enough to rule out relevance to code generation or software construction."
+    },
+    {
+      "id": "HF62",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=prompt%2Fworkflow%20engineering",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too vague to determine relevance to generative AI for coding, so it should be retained for later screening."
+    },
+    {
+      "id": "HF63",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=multi-model%20execution%20traces",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too vague to judge relevance, and it does not clearly indicate irrelevance to generative AI for coding."
+    },
+    {
+      "id": "HF64",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=agentic%20patch%20verifier",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too generic to determine relevance, so it should be retained for later screening."
+    },
+    {
+      "id": "HF65",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=cross-file%20coordination",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too generic to determine relevance to generative AI or software coding, so it should be kept for later screening."
+    },
+    {
+      "id": "HF66",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=migration-aware%20placement",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too generic to determine relevance to generative AI for coding, so it should be retained at this high-recall stage."
+    },
+    {
+      "id": "HF67",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=cryptographic%20proof%20generators",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too vague to determine relevance, so it should be retained for later screening."
+    },
+    {
+      "id": "HF68",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=decentralized%20adaptation",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too generic to determine whether it concerns generative AI for software coding, so it should be retained for later screening."
+    },
+    {
+      "id": "HF69",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=modular%20research%20scenarios",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too vague to determine relevance, so it should be retained at title screening."
+    },
+    {
+      "id": "HF70",
+      "title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+      "link": "https://huggingface.co/papers/2606.06473",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title focuses on automated machine learning algorithm discovery rather than software construction or coding activities."
+    },
+    {
+      "id": "HF71",
+      "title": "Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data",
+      "link": "https://huggingface.co/papers/2604.24479",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title suggests an agentic AI approach to synthesizing programs, which is plausibly relevant to generative AI for code generation, though the CAD focus makes relevance uncertain."
+    },
+    {
+      "id": "HF72",
+      "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems",
+      "link": "https://huggingface.co/papers/2506.13905",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title is about LLM-based hardware/RTL code generation, which is clearly in the hardware domain rather than software construction."
+    },
+    {
+      "id": "HF73",
+      "title": "VietMEAgent: Culturally-Aware Few-Shot Multimodal Explanation for Vietnamese Visual Question Answering",
+      "link": "https://huggingface.co/papers/2511.09058",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title is about multimodal visual question answering for Vietnamese, not software construction or coding."
+    },
+    {
+      "id": "HF74",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=large%20language%20models",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too vague and generic to determine irrelevance from the title alone, so it should be retained for later screening."
+    },
+    {
+      "id": "HF75",
+      "title": "The Surprising Effectiveness of Test-Time Training for Few-Shot Learning",
+      "link": "https://huggingface.co/papers/2411.07279",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title indicates a general machine learning method for few-shot learning, not software construction or coding."
+    },
+    {
+      "id": "HF76",
+      "title": "TikZilla: Scaling Text-to-TikZ with High-Quality Data and Reinforcement Learning",
+      "link": "https://huggingface.co/papers/2603.03072",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title suggests a generative text-to-code approach for producing TikZ code, which may be relevant to coding/code generation even though the software-construction context is not fully clear from the title alone."
+    },
+    {
+      "id": "HF77",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=hardcoding",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too vague to determine relevance and does not clearly indicate irrelevance to generative AI for coding."
+    },
+    {
+      "id": "HF78",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=boundary%20modeling",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too vague to determine relevance, so it should be retained for later screening."
+    },
+    {
+      "id": "HF79",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=GPU-friendly%20batched%20decode",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too vague to determine whether it concerns generative AI for software construction, so it should be kept for high-recall screening."
+    },
+    {
+      "id": "HF80",
+      "title": "Daily Papers",
+      "link": "https://huggingface.co/papers?q=few-shot%20object%20detection",
+      "decision": "include",
+      "confidence": "low",
+      "reason": "The title is too vague to determine relevance, so it should be retained at title screening for high recall."
+    },
+    {
+      "id": "HF81",
+      "title": "CADEvolve: Creating Realistic CAD via Program Evolution",
+      "link": "https://huggingface.co/papers/2602.16317",
+      "decision": "exclude",
+      "confidence": "high",
+      "reason": "The title indicates generating CAD designs via program evolution, which is about computer-aided design rather than software coding or construction."
+    }
+  ]
+}

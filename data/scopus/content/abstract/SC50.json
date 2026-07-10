@@ -1,0 +1,16 @@
+{
+  "title": "Survey on Application of Retrieval-augmented Generation in Software Engineering",
+  "link": "https://doi.org/10.13328/j.cnki.jos.007567",
+  "abstract": "Retrieval-augmented generation (RAG) significantly enhances the performance of downstream software engineering tasks such as code generation, code completion, and program repair by combining information retrieval with language generation models. As RAG develops rapidly in software engineering, it is difficult for researchers to comprehensively grasp its current achievements, challenges, and future potential opportunities. This study presents the first systematic review of the application of RAG in software engineering from 2021 to 2024, summarizing and deeply analyzing 108 relevant high-quality studies from the perspectives of RAG’s core architecture and its applications in software engineering. Firstly, the key architectural components of RAG in the field of software engineering are discussed, and a detailed summary of common types of retrievers and generators is provided, with the integration methods of both summarized. Secondly, the application of RAG in various downstream software engineering tasks is mainly analyzed, such as code generation, code completion, and program repair. Additionally, a systematic review is provided for RAG’s practical methods and technical trends under different task scenarios. Finally, the challenges that the current RAG application faces are discussed, covering three stages of knowledge base construction, retrieval, and generation, with the future research directions and potential development paths pointed out. Generally, this study provides a comprehensive review of RAG research for the software engineering community, aiming to help researchers have a systematic understanding of the current achievements and an insight into key problems, and promote the further development of this field. © (2026), (Chinese Academy of Sciences). All rights reserved.",
+  "keywords": [
+    "large language model (LLM)",
+    "retrieval-augmented generation (RAG)",
+    "software engineering",
+    "大语言模型",
+    "检索增强生成",
+    "软件工程"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Chinese Academy of Sciences"
+}

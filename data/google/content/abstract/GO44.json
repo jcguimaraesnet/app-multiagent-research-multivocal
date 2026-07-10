@@ -1,0 +1,14 @@
+{
+  "title": "Code Refactoring with Agentic AI and Reinforcement Learning",
+  "link": "https://medium.com/@azirotechnologies/code-refactoring-with-agentic-ai-and-reinforcement-learning-e7f30a59397c",
+  "summary": "This blog post reviews the integration of agentic AI and reinforcement learning for automating code refactoring. It formalizes refactoring as a Markov Decision Process where code states are transformed by refactoring actions, with rewards based on code quality metrics. The article discusses agentic architectures, including single-agent and multi-agent systems like OpenAI's Codex, which use RL to iteratively improve codebases. It highlights how LLMs can be fine-tuned via policy gradients to generate refactorings that preserve correctness while enhancing maintainability. The post concludes that these techniques enable autonomous, continuous code optimization without manual intervention.",
+  "author": "Aziro",
+  "publication_date": "2025-08-25",
+  "keywords": [
+    "code refactoring",
+    "agentic AI",
+    "reinforcement learning",
+    "large language models",
+    "OpenAI Codex"
+  ]
+}

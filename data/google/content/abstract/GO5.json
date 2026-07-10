@@ -1,0 +1,14 @@
+{
+  "title": "L2MAC: Large Language Model Automatic Computer for Extensive Code Generation // van der Schaar Lab",
+  "link": "https://www.vanderschaar-lab.com/l2mac/",
+  "summary": "This source introduces L2MAC, a framework designed to overcome the context window limitations of Large Language Models (LLMs) for generating extensive and consistent outputs, such as large codebases. It implements a practical stored-program automatic computer (von Neumann architecture) where a Control Unit manages external memory read/write operations, dynamically manages the LLM's context based on sequential instructions, and iteratively corrects errors. The instantiation Code-L2MAC excels at generating functional, error-minimal codebases with user-specified features and achieved a 90.2% Pass@1 score on the HumanEval benchmark. The framework is accepted for presentation at ICLR 2024 and the corresponding code is publicly available.",
+  "author": "Joseph Ginsberg, Sam Holt (van der Schaar Lab)",
+  "publication_date": "2024-04-15",
+  "keywords": [
+    "L2MAC",
+    "large code generation",
+    "large language model",
+    "von Neumann architecture",
+    "external memory"
+  ]
+}

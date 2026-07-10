@@ -1,0 +1,14 @@
+{
+  "title": "Code generation using Code Llama 70B and Mixtral 8x7B on Amazon SageMaker | Amazon Web Services",
+  "link": "https://aws.amazon.com/blogs/machine-learning/code-generation-using-code-llama-70b-and-mixtral-8x7b-on-amazon-sagemaker/",
+  "summary": "This blog post from AWS demonstrates how to use the large language models Code Llama 70B and Mixtral 8x7B for code generation on Amazon SageMaker. It provides an overview of the models' features, including code generation, code infilling, and natural language interaction, and shows how to deploy them via SageMaker JumpStart. The post includes practical Python examples for generating code for tasks like building a Transformer model, creating a DQN reinforcement learning agent, performing hyperparameter tuning for XGBoost, and converting Java code to Python. It highlights the integration of these models into a scalable, managed environment to assist developers in software construction.",
+  "author": "Shikhar Kwatra, Jose Navarro, Farooq Sabir (AWS)",
+  "publication_date": "2024-05-30",
+  "keywords": [
+    "Code Llama 70B",
+    "Mixtral 8x7B",
+    "Amazon SageMaker",
+    "code generation",
+    "large language models"
+  ]
+}

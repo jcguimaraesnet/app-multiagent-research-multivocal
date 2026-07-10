@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - Minw913/AlphaOPT: Formulating Optimization Programs with Self-Improving LLM Experience Library",
+  "link": "https://github.com/Minw913/AlphaOPT",
+  "summary": "AlphaOPT is a self-improving experience library that enables large language models to learn to formulate optimization programs from limited demonstrations and solver feedback, without requiring annotated reasoning traces or parameter updates. It operates a continual two-phase cycle: a Library Learning phase that reflects on failures and extracts solver-verified, structured insights, and a Library Evolution phase that diagnoses retrieval misalignments and refines the applicability conditions of stored insights to improve transfer across tasks. The repository provides code, datasets, and configuration for training and evaluating the system on classic optimization benchmarks.",
+  "author": "Minwei Kong et al.",
+  "publication_date": "",
+  "keywords": [
+    "AlphaOPT",
+    "optimization program formulation",
+    "large language models",
+    "self-improving experience library",
+    "library learning"
+  ]
+}

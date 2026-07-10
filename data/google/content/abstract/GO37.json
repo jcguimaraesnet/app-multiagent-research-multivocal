@@ -1,0 +1,14 @@
+{
+  "title": "Automatic Code Refactoring with AI - Federico Tomassetti",
+  "link": "https://tomassetti.me/automatic-code-refactoring-with-ai/",
+  "summary": "This blog post evaluates the use of AI for code refactoring, comparing local LLMs (Codestral) and cloud LLMs (Claude-sonnet) with traditional deterministic tools across tasks like renaming, small fixes, implementing methods, project-wide changes, and foundational dependency migrations. It finds AI unreliable for large-scale production refactoring but useful for small tasks, generating recipes for tools like OpenRewrite, and assisting with whole-project changes when guided by compiler feedback. The article also highlights challenges for legacy languages due to limited training data and broken feedback cycles. It concludes that while AI can improve productivity in limited contexts, deterministic approaches remain essential for reliable code changes.",
+  "author": "Gabriele Tomassetti",
+  "publication_date": "2025-03-28",
+  "keywords": [
+    "AI code refactoring",
+    "LLMs",
+    "language engineering",
+    "OpenRewrite",
+    "software construction"
+  ]
+}

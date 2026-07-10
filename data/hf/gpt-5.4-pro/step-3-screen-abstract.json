@@ -1,0 +1,3448 @@
+{
+  "origin": "hf",
+  "step": 3,
+  "model": "",
+  "updated_at": "2026-07-10T03:52:34.365165+00:00",
+  "count": 73,
+  "by_status": {
+    "pending": 0,
+    "scraped": 0,
+    "summarized": 0,
+    "screened": 73
+  },
+  "included": 39,
+  "excluded": 34,
+  "records": [
+    {
+      "id": "HF1",
+      "status": "screened",
+      "data": {
+        "title": "CodeArena: A Collective Evaluation Platform for LLM Code Generation",
+        "link": "https://huggingface.co/papers/2503.01295"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "the context is software construction, specifically code generation, and the framework supports coding tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "the abstract explicitly applies LLMs for code generation."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "the abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "the article describes a tool/framework, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF2",
+      "status": "screened",
+      "data": {
+        "title": "QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation",
+        "link": "https://huggingface.co/papers/2604.08570"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract discusses quantum code generation, which is a form of software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies large language models for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It presents an implemented benchmark with executable functional tests and evaluation results."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The source introduces a benchmark, not a generative AI tool or solution for software construction."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is provided in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source describes a new benchmark, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF3",
+      "status": "screened",
+      "data": {
+        "title": "Enhancing LLM Code Generation: A Systematic Evaluation of Multi-Agent Collaboration and Runtime Debugging for Improved Accuracy, Reliability, and Latency",
+        "link": "https://huggingface.co/papers/2505.02133"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It focuses on automated code generation, which is part of software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly uses large language models (LLMs) for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It involves an empirical study with a chained system implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It implements a chained system combining multi-agent collaboration and debugging."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is an empirical study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF4",
+      "status": "screened",
+      "data": {
+        "title": "PlayCoder: Making LLM-Generated GUI Code Playable",
+        "link": "https://huggingface.co/papers/2604.19742"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is generative AI for code generation of GUI applications, which is software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies LLMs for code generation and evaluation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It presents benchmarks, agents, and a framework with experimental results."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "PlayCoder is a multi-agent framework that generates, evaluates, and repairs GUI code, a usable prototype."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study proposing new benchmarks and frameworks."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF5",
+      "status": "screened",
+      "data": {
+        "title": "Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning",
+        "link": "https://huggingface.co/papers/2504.17192"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The work focuses on generating code implementations, which is a software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "PaperCoder is a multi-agent LLM framework leveraging generative AI."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper presents a concrete framework with stages and evaluation, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "A code repository is provided, making it a usable prototype."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, so no non-English version issue."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is an original contribution, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF6",
+      "status": "screened",
+      "data": {
+        "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
+        "link": "https://huggingface.co/papers/2604.01193"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract focuses on code generation, a core software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses large language models and fine-tuning for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It reports empirical results and provides code, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The method is a concrete self-distillation procedure with available code, constituting a usable solution."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study proposing and evaluating a method, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF7",
+      "status": "screened",
+      "data": {
+        "title": "StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Feedback",
+        "link": "https://huggingface.co/papers/2402.01391"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Abstract discusses code generation, which is a core activity in software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The study explicitly uses LLMs for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Presents a framework with experimental results and available dataset, indicating practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The framework and dataset are made available online, indicating a usable prototype."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study proposing a new framework and dataset."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF8",
+      "status": "screened",
+      "data": {
+        "title": "Assessing the Impact of Requirement Ambiguity on LLM-based Function-Level Code Generation",
+        "link": "https://huggingface.co/papers/2604.21505"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically automated code generation from requirements."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies large language models (LLMs) for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It introduces a benchmark dataset and conducts an empirical study, which is a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The Orchid benchmark is publicly available, representing a usable tool/resource."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and keywords are in English, no indication of non-English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study presenting a new benchmark and empirical evaluation, not a secondary review."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF9",
+      "status": "screened",
+      "data": {
+        "title": "Think Anywhere in Code Generation",
+        "link": "https://huggingface.co/papers/2603.29957"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly mentions code generation and relevant benchmarks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The paper focuses on reasoning Large Language Models (LLMs)."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract describes training steps and experiments, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The method is implemented and evaluated, constituting a usable solution beyond a mere concept."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English, so this exclusion does not apply."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper proposes a novel reasoning mechanism, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF10",
+      "status": "screened",
+      "data": {
+        "title": "MeshCoder: LLM-Powered Structured Mesh Code Generation from Point Clouds",
+        "link": "https://huggingface.co/papers/2508.14879"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Reconstructs 3D objects into editable Blender Python scripts, generating code."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses a multimodal large language model."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Presents a trained framework with experimental results."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Offers a framework with a project homepage, indicating a prototype tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary research paper, not a survey."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF11",
+      "status": "screened",
+      "data": {
+        "title": "A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code",
+        "link": "https://huggingface.co/papers/2508.18106"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Abstract discusses software engineering and AI-assisted programming for code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Explicitly mentions large language models (LLMs) and AI code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Introduces A.S.E benchmark as a practical security evaluation framework."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Presents a repository-level benchmark that serves as a usable tool for assessing code security."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English, no indication of non-English content."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a benchmark paper, not a secondary or tertiary study like a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF12",
+      "status": "screened",
+      "data": {
+        "title": "GLLM: Self-Corrective G-Code Generation using Large Language Models with User Feedback",
+        "link": "https://huggingface.co/papers/2501.17584"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "CNC machining and G-code generation are not software construction (coding), lacking a direct connection to software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Leveraging LLMs for G-code generation applies Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The system incorporates a fine-tuned model with a self-corrective approach and validation, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The paper introduces GLLM as a tool with described architecture, thus presenting a usable solution."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source describes a novel tool and its architecture, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF13",
+      "status": "screened",
+      "data": {
+        "title": "OpenClassGen: A Large-Scale Corpus of Real-World Python Classes for LLM Research",
+        "link": "https://huggingface.co/papers/2504.15564"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper focuses on class-level code generation, a software construction (coding) context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It evaluates LLMs (GPT-o4-mini, Claude-4-Sonnet, Qwen-3-Coder), which are Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It presents a practical extraction pipeline and corpus creation from real projects, not pure theory."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, so exclusion for non-English does not apply."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It presents a new dataset and evaluation, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF14",
+      "status": "screened",
+      "data": {
+        "title": "WebVIA: A Web-based Vision-Language Agentic Framework for Interactive and Verifiable UI-to-Code Generation",
+        "link": "https://huggingface.co/papers/2511.06251"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly addresses UI-to-Code generation, a software construction task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses Vision-Language Models (VLMs) for generative code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Experiments and a fine-tuned model indicate a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Code and models are available, indicating a usable solution."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source presents a novel framework, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF15",
+      "status": "screened",
+      "data": {
+        "title": "CodeV: Empowering LLMs with HDL Generation through Multi-Level Summarization",
+        "link": "https://huggingface.co/papers/2407.10424"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is generating hardware description language (HDL) code, a type of software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies large language models (LLMs) for HDL generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical fine-tuning pipeline and introduces an implemented model (CodeV)."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents the CodeV series of LLMs, which are implemented as open-source models."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The abstract describes a primary study that proposes a new method and tool (CodeV), not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF16",
+      "status": "screened",
+      "data": {
+        "title": "TeXpert: A Multi-Level Benchmark for Evaluating LaTeX Code Generation by LLMs",
+        "link": "https://huggingface.co/papers/2506.16990"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC1, IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "Context is LaTeX document preparation, not software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Applies Large Language Models for generating LaTeX code."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "Presents a benchmark and analysis, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No prototype or deployed tool described; only a dataset and evaluation."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The study is a primary benchmark evaluation, not a secondary/tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF17",
+      "status": "screened",
+      "data": {
+        "title": "Teaching LLMs a Low-Resource Language: Enhancing Code Completion in Pharo",
+        "link": "https://huggingface.co/papers/2607.04939"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly focuses on code completion, which is a core software construction (coding) activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The work explicitly mentions Large Language Models (LLMs) and their application."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes an end-to-end pipeline, benchmarks, and empirical evaluation, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The abstract reports a pipeline for LLM-based code completion aiming to provide 'real-time' in-IDE support, indicating a usable solution."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It describes an original case study and implementation, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF18",
+      "status": "screened",
+      "data": {
+        "title": "CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis",
+        "link": "https://huggingface.co/papers/2203.13474"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Focuses on code generation in software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Trains and uses large language models for program synthesis."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Describes training and releasing a family of models."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Releases trained models and a training library as a usable tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Primary study creating and evaluating models."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF19",
+      "status": "screened",
+      "data": {
+        "title": "CodeElo: Benchmarking Competition-level Code Generation of LLMs with Human-comparable Elo Ratings",
+        "link": "https://huggingface.co/papers/2501.01257"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract is about code generation benchmarks, which are part of software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly evaluates large language models and reasoning models."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a concrete benchmark with a judging method and rating system."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The benchmark is a usable tool with actual model testing and results."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, so EC4 does not apply."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary benchmark proposal, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF20",
+      "status": "screened",
+      "data": {
+        "title": "PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback",
+        "link": "https://huggingface.co/papers/2307.14936"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract discusses code generation and large language models for code."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies large language models and fine-tuning techniques for code generation."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes an implemented framework with experimental results on benchmarks."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents PanGu-Coder2, a model that achieves specific benchmark scores, indicating a usable solution."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study presenting a new framework and model, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF21",
+      "status": "screened",
+      "data": {
+        "title": "ScreenCoder: Advancing Visual-to-Code Generation for Front-End Automation via Modular Multimodal Agents",
+        "link": "https://huggingface.co/papers/2507.22827"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Focuses on automating transformation of UI designs into front-end code, a software construction task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses multimodal large language models (MLLMs), a generative AI method."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Proposes ScreenCoder, a modular multi-agent framework with practical implementation and publicly available code."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Code is publicly available at a GitHub repository, indicating a usable prototype."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, no indication of non-English version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study proposing a new framework, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF22",
+      "status": "screened",
+      "data": {
+        "title": "Efficient Code Embeddings from Code Generation Models",
+        "link": "https://huggingface.co/papers/2508.21290"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The model is designed for code retrieval and semantic code similarity, which are tasks in software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses an autoregressive backbone pre-trained on text and code, which is a generative AI method."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper outlines a training recipe and reports state-of-the-art performance, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It presents a new model suite, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF23",
+      "status": "screened",
+      "data": {
+        "title": "cAST: Enhancing Code Retrieval-Augmented Generation with Structural Chunking via Abstract Syntax Tree",
+        "link": "https://huggingface.co/papers/2506.15655"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly discusses large-scale code generation and software engineering tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The abstract discusses Retrieval-Augmented Generation (RAG), which is a technique closely related to Generative AI/LLMs."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract mentions implementation details (recursively breaking AST nodes) and reports performance benchmarks (Recall@5, Pass@1)."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The abstract describes a proposed method (“chunking via Abstract Syntax Trees”) and evaluates it empirically, indicating a usable solution beyond a concept."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The abstract presents an original method and empirical study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF24",
+      "status": "screened",
+      "data": {
+        "title": "CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning",
+        "link": "https://huggingface.co/papers/2207.01780"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF25",
+      "status": "screened",
+      "data": {
+        "title": "ArtifactsBench: Bridging the Visual-Interactive Gap in LLM Code Generation Evaluation",
+        "link": "https://huggingface.co/papers/2507.04952"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "low",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF26",
+      "status": "screened",
+      "data": {
+        "title": "LeetCodeDataset: A Temporal Dataset for Robust Evaluation and Efficient Training of Code LLMs",
+        "link": "https://huggingface.co/papers/2504.14655"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "low",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF27",
+      "status": "screened",
+      "data": {
+        "title": "ReLook: Vision-Grounded RL with a Multimodal LLM Critic for Agentic Web Coding",
+        "link": "https://huggingface.co/papers/2510.11498"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "addresses front-end code generation, a software construction task"
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "uses multimodal LLM as visual critic and feedback source"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "framework includes training with benchmarks and inference procedures, indicating practical implementation"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "describes a complete framework with training-inference decoupling, a prototype-level solution"
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "abstract is in English"
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "presents an original framework, not a secondary study"
+          }
+        }
+      }
+    },
+    {
+      "id": "HF28",
+      "status": "screened",
+      "data": {
+        "title": "Verus-SpecGym: An Agentic Environment for Evaluating Specification Autoformalization",
+        "link": "https://huggingface.co/papers/2605.26457"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It focuses on software construction (coding) by addressing the generation of formal specifications for programming problems."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It studies the use of LLM agents for specification autoformalization."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical implementation including a benchmark (Verus-SpecBench) and an agentic environment (Verus-SpecGym)."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents a usable tool environment (Verus-SpecGym) and a benchmark, not just a concept."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The models mentioned (e.g., Gemini 3.1 Pro) indicate a publication date well within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It introduces a new benchmark and environment for LLM agents, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF29",
+      "status": "screened",
+      "data": {
+        "title": "mHumanEval -- A Multilingual Benchmark to Evaluate Large Language Models for Code Generation",
+        "link": "https://huggingface.co/papers/2410.15037"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract discusses code generation from natural language, a core software construction task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly analyzes code generation capabilities of state-of-the-art Code LLMs."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The abstract describes the introduction of a benchmark and analysis, not a practical implementation of a GenAI solution for coding."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The described work is a benchmark (mHumanEval) and analysis, not a usable software tool or prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The abstract mentions 'recent advancements' and SOTA Code LLMs, implying publication after 2020."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The source introduces a benchmark and analyzes multiple existing models, functioning as a secondary/tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF30",
+      "status": "screened",
+      "data": {
+        "title": "BigCodeArena: Unveiling More Reliable Human Preferences in Code Generation via Execution",
+        "link": "https://huggingface.co/papers/2510.08697"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study explicitly addresses code generation in software engineering contexts."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The research applies LLMs such as GPT-5 and Claude for code generation tasks."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a built execution environment and a data collection process involving practical LLM interactions."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "BigCodeArena is introduced as an operational platform for executing and evaluating code, representing a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The abstract mentions recent model releases (GPT-5, Claude-Sonnet-4, Claude-Opus-4) which align with the timeframe."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF31",
+      "status": "screened",
+      "data": {
+        "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
+        "link": "https://huggingface.co/papers/2410.14209"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software construction, specifically PLC code generation for industrial control systems."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Generative AI via LLM-based multi-agent system."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Presents an implemented framework with benchmark evaluation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Presents the Agents4PLC framework that automates code generation and verification."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study introducing a new framework, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF32",
+      "status": "screened",
+      "data": {
+        "title": "LongCodeZip: Compress Long Context for Code Language Models",
+        "link": "https://huggingface.co/papers/2510.00446"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly mentions code generation, code LLMs, and programming tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Large Language Models and proposes a framework for code LLMs."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Evaluations across multiple tasks indicate practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The framework is presented with evaluations, suggesting a usable prototype."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper proposes a novel framework, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF33",
+      "status": "screened",
+      "data": {
+        "title": "GPIoT: Tailoring Small Language Models for IoT Program Synthesis and Development",
+        "link": "https://huggingface.co/papers/2503.00686"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Abstract explicitly discusses code generation for software development."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Uses fine-tuning of SLMs and mentions LLMs, which are Generative AI."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Proposes a system with experiments and user trials, indicating practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Proposes a deployed system (GPIoT) and evaluates it, indicating a usable prototype."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "Primary research proposing and evaluating a system."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF34",
+      "status": "screened",
+      "data": {
+        "title": "SuperCoder: Assembly Program Superoptimization with Large Language Models",
+        "link": "https://huggingface.co/papers/2505.11480"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering focusing on program performance optimization and code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Applies large language models (LLMs) as superoptimizers."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Describes a practical implementation, including a fine-tuned model (SuperCoder) evaluated on a benchmark."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Presents SuperCoder, a fine-tuned model that acts as a usable solution for generating optimized assembly."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English with no indication of language restriction."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary research study presenting a new tool/method, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF35",
+      "status": "screened",
+      "data": {
+        "title": "A Survey of Vibe Coding with Large Language Models",
+        "link": "https://huggingface.co/papers/2510.12399"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract discusses code generation and autonomous coding agents, which are part of software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It explicitly mentions large language models (LLMs) and LLM-based coding agents."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The source is a survey, not a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "It is a survey, not a usable tool or prototype."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, so the source is not a non-English work without English version."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The abstract states it is a comprehensive and systematic review, i.e., a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF36",
+      "status": "screened",
+      "data": {
+        "title": "BEAVER: An Efficient Deterministic LLM Verifier",
+        "link": "https://huggingface.co/papers/2512.05439"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The abstract focuses on verifying safety properties of LLM outputs, not software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The work involves large language models."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The framework is implemented and evaluated on multiple LLMs."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "BEAVER is described as a practical framework."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper presents a novel framework, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF37",
+      "status": "screened",
+      "data": {
+        "title": "SwiftEval: Developing a Language-Specific Benchmark for LLM-generated Code Evaluation",
+        "link": "https://huggingface.co/papers/2505.24324"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract discusses LLMs for code generation and presents a benchmark for the Swift programming language, aligning with software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The abstract explicitly mentions evaluating large language models (LLMs) for code generation."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The source describes a benchmark (SwiftEval) and evaluation results, not a practical implementation or tool for software construction itself."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The source presents a benchmark dataset, not a prototype or deployed tool for coding assistance."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The abstract references recent advancements in LLMs, which have become prominent after 2020, implying a publication date within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "While it is an evaluation benchmark, it is a primary study presenting a new dataset and results, not a secondary survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF38",
+      "status": "screened",
+      "data": {
+        "title": "AI Agentic Programming: A Survey of Techniques, Challenges, and Opportunities",
+        "link": "https://huggingface.co/papers/2508.11126"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Context explicitly involves software construction with coding agents."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Mentions LLM-based coding agents which are Generative AI."
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It is a survey paper and does not describe a practical implementation."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No prototype or deployed tool is presented, only a review."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and keywords are in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is explicitly a survey, which is a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF39",
+      "status": "screened",
+      "data": {
+        "title": "The First Prompt Counts the Most! An Evaluation of Large Language Models on Iterative Example-Based Code Generation",
+        "link": "https://huggingface.co/papers/2411.06774"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study focuses on generating code from I/O examples, a software construction task."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The study applies LLMs for code generation."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No prototype or deployed tool is described; it is an empirical evaluation."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is an original empirical study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF40",
+      "status": "screened",
+      "data": {
+        "title": "CodeFusion: A Pre-trained Diffusion Model for Code Generation",
+        "link": "https://huggingface.co/papers/2310.17680"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is code generation from natural language, a core software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The model uses diffusion, a generative AI technique."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper presents a pre-trained model and conducts experiments."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It introduces a model that can be used for code generation, implying a prototype."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study presenting a new model."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF41",
+      "status": "screened",
+      "data": {
+        "title": "Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts",
+        "link": "https://huggingface.co/papers/2602.13367"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It explicitly addresses code generation, which falls under software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The model is a language model and uses Reinforcement Learning, which are key Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes training with specific rewards and evaluating the resulting model, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The output is a complete, open-source model—a practical tool, not a concept."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English; no indication of a non-English version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The summary presents a new model and its training/evaluation, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF42",
+      "status": "screened",
+      "data": {
+        "title": "AST-T5: Structure-Aware Pretraining for Code Generation and Understanding",
+        "link": "https://huggingface.co/papers/2401.03003"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly focuses on code-related tasks such as code generation, transpilation, and understanding."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It introduces a novel pretraining paradigm for LLMs to enhance code generation."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It mentions the code and model are publicly available, suggesting a usable solution."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF43",
+      "status": "screened",
+      "data": {
+        "title": "Rewriting Pre-Training Data Boosts LLM Performance in Math and Code",
+        "link": "https://huggingface.co/papers/2505.02881"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software construction, specifically code generation and program synthesis as measured by HumanEval."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The work applies Generative AI by using LLMs to rewrite code data and performing continual pre-training of Llama-3.1-8B."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The study describes a practical implementation involving a four-stage pipeline and continual pre-training with a fixed token budget."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The output is a released dataset and pipeline code, not a prototype or deployed coding tool for end-users."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The abstract references Llama 3.3 Community License and Llama-3.1-8B, indicating a recent publication year clearly after 2020."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The abstract describes the creation of novel datasets and training methodology, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF44",
+      "status": "screened",
+      "data": {
+        "title": "CCTU: A Benchmark for Tool Use under Complex Constraints",
+        "link": "https://huggingface.co/papers/2603.15309"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Explicitly evaluates large language models (LLMs) for tool use."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Presents a benchmark with 200 test cases and an executable validation module, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Releases data and code for CCTU, constituting a usable prototype/tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is an original benchmark study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF45",
+      "status": "screened",
+      "data": {
+        "title": "Long Code Arena: a Set of Benchmarks for Long-Context Code Models",
+        "link": "https://huggingface.co/papers/2406.11612"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "Context is software construction code processing, including code generation and completion."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Baseline solutions are based on popular LLMs."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Provides open-source baseline solutions and an evaluation suite for practical use."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "Describes a benchmark and baseline solutions, but it is not a prototype or deployed tool itself."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and keywords are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It introduces a benchmark, which is a research artifact for evaluation, not a secondary or tertiary study summarizing existing work."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF47",
+      "status": "screened",
+      "data": {
+        "title": "SALLM: Security Assessment of Generated Code",
+        "link": "https://huggingface.co/papers/2311.00889"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It discusses software engineering practices and code generation."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It focuses on Large Language Models (LLMs)."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It describes SALLM, a framework for systematic benchmarking."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF48",
+      "status": "screened",
+      "data": {
+        "title": "Agentic Refactoring: An Empirical Study of AI Coding Agents",
+        "link": "https://huggingface.co/papers/2511.04824"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "study explicitly focuses on software construction (refactoring) in Java projects."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "covers AI agentic coding tools such as OpenAI Codex, Claude Code, and Cursor."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "performs a large-scale empirical analysis of real-world AI-generated refactorings."
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "describes analysis of existing tools, not a new prototype or deployed solution by the authors."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "the AIDev dataset typically covers post-2020 commits, and the abstract does not give a conflicting date."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF49",
+      "status": "screened",
+      "data": {
+        "title": "Lean Refactor: Multi-Objective Controllable Proof Optimization via Agentic Strategy Search",
+        "link": "https://huggingface.co/papers/2605.20244"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract addresses refactoring of Lean proofs, which is a software construction (coding) activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses a frozen agentic LLM with retrieval-augmented framework, applying Generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Experiments show concrete improvements on benchmarks and repositories, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It presents Lean Refactor as a plug-and-play framework with experimental evaluation, not just a concept."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It presents original research with a new framework, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF51",
+      "status": "screened",
+      "data": {
+        "title": "GigaEvo: An Open Source Optimization Framework Powered By LLMs And Evolution Algorithms",
+        "link": "https://huggingface.co/papers/2511.17592"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC1",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The context is mathematical optimization, not software construction (coding)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "Applies LLM-guided evolutionary computation using LLM-driven mutation operators."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Presents an open-source framework with modular implementations and experimental validation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Provides an open-source framework (GigaEvo) that is a usable prototype."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary research report, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF52",
+      "status": "screened",
+      "data": {
+        "title": "On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub",
+        "link": "https://huggingface.co/papers/2509.14745"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The source is an empirical study of pull requests in software development."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The source explicitly examines a generative AI agentic coding tool, Claude Code."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF53",
+      "status": "screened",
+      "data": {
+        "title": "K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model",
+        "link": "https://huggingface.co/papers/2602.19128"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is optimizing GPU kernels through automated code generation, which falls under software construction (coding)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The approach explicitly uses Large Language Models (LLMs) for guided search."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper describes a built system (K-Search) and provides empirical evaluation results."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "K-Search is presented as a concrete tool with experimental validation, not just a concept."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract and keywords are in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study proposing a novel method and reporting experiments."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF54",
+      "status": "screened",
+      "data": {
+        "title": "Evolving Programmatic Skill Networks",
+        "link": "https://huggingface.co/papers/2601.03509"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The study focuses on agents in open-ended embodied environments, not on software construction or coding."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The framework is instantiated using large language models."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The framework is implemented and evaluated through experiments."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The framework is instantiated and tested, indicating a prototype."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary research paper introducing a new framework."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF55",
+      "status": "screened",
+      "data": {
+        "title": "Vibe Coding vs. Agentic Coding: Fundamentals and Practical Implications of Agentic AI",
+        "link": "https://huggingface.co/papers/2505.19443"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software development (vibe coding, agentic coding)."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies large language models (LLMs)."
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The abstract describes a review of existing paradigms and ecosystems, not a single implemented prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The source is explicitly a review presenting a comprehensive analysis and taxonomy."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF56",
+      "status": "screened",
+      "data": {
+        "title": "NES: An Instruction-Free, Low-Latency Next Edit Suggestion Framework Powered by Learned Historical Editing Trajectories",
+        "link": "https://huggingface.co/papers/2508.02473"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is code editing, a core software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The framework generates precise code changes, indicating generative AI methods."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a deployed system at Ant Group serving 20,000 developers."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The system is deployed and offers a seamless Tab-key interaction, a usable solution."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English and there is no indication of a non-English version."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper presents a novel framework and is not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF57",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=coding-agent%20benchmarks"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF58",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=skill%20marketplace"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF60",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=GPU%20provisioning"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF61",
+      "status": "screened",
+      "data": {
+        "title": "LK Losses: Direct Acceptance Rate Optimization for Speculative Decoding",
+        "link": "https://huggingface.co/papers/2602.23881"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC1",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The paper focuses on accelerating LLM inference via speculative decoding, not on software construction or coding tools; although it evaluates on coding domains, the context is general LLM inference optimization."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The method directly involves large language models (LLMs) and training techniques for them."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "Comprehensive experiments across multiple models and domains are reported, demonstrating practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "LK losses are presented as an implementable training objective that can be integrated into existing frameworks, representing a concrete solution."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, indicating an English version exists."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary study proposing a new training objective, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF62",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=prompt%2Fworkflow%20engineering"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF63",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=multi-model%20execution%20traces"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF64",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=agentic%20patch%20verifier"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF65",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=cross-file%20coordination"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF66",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=migration-aware%20placement"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF67",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=cryptographic%20proof%20generators"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF68",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=decentralized%20adaptation"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF69",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=modular%20research%20scenarios"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF71",
+      "status": "screened",
+      "data": {
+        "title": "Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data",
+        "link": "https://huggingface.co/papers/2604.24479"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The abstract explicitly mentions program synthesis, generating executable code, and reconstructing editable CAD programs, which falls under software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The system uses a large language model (LLM) as the core generative component."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The framework is described as a practical implementation that iteratively generates, executes, and validates code."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The abstract presents a usable system (Zero-to-CAD) and releases a dataset, indicating a working prototype."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary study presenting a framework and dataset, not a secondary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF74",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=large%20language%20models"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF76",
+      "status": "screened",
+      "data": {
+        "title": "TikZilla: Scaling Text-to-TikZ with High-Quality Data and Reinforcement Learning",
+        "link": "https://huggingface.co/papers/2603.03072"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "medium",
+        "reason": "failed: IC1",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The study focuses on generating TikZ figures, which is a domain-specific language for graphics, not software construction (coding) in software engineering."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies LLMs (Qwen models) with supervised fine-tuning and reinforcement learning."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The abstract describes training models on a new dataset and evaluating them, indicating a practical implementation."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The abstract mentions trained models and human evaluation, suggesting a usable prototype; code and models will be released."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary study proposing a new model and dataset."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF77",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=hardcoding"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF78",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=boundary%20modeling"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF79",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=GPU-friendly%20batched%20decode"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "HF80",
+      "status": "screened",
+      "data": {
+        "title": "Daily Papers",
+        "link": "https://huggingface.co/papers?q=few-shot%20object%20detection"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC3": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "met",
+            "note": "content unavailable or inaccessible"
+          },
+          "EC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC5": {
+            "verdict": "unclear",
+            "note": ""
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Announcing AI-assisted refactoring in the Moderne Platform",
+  "link": "https://www.moderne.ai/blog/ai-assisted-refactoring-in-the-moderne-platform",
+  "summary": "The blog post presents AI-assisted auto-refactoring in the Moderne Platform, which combines rules-based OpenRewrite recipes with AI large language models (LLMs) to transform code across multiple repositories. It explains how Lossless Semantic Trees (LSTs) provide rich, type-attributed code representations that supply accurate context to LLMs, improving reliability over text-only approaches. The platform integrates open-source LLMs as Python sidecars on CPU-based workers, allowing recipes to call models for specific tasks like language detection and correction of misencoded French comments. A case study describes a recipe that uses an XLM-RoBERTa model for language identification and a frequency dictionary via SymSpell to fix misencoded characters in Javadocs and comments, achieving better accuracy than an LLM alone. The solution demonstrates how deterministic recipe guidance can focus and safeguard AI models, enabling scalable, trustworthy code remediation.",
+  "author": "Moderne",
+  "publication_date": "",
+  "keywords": [
+    "AI-assisted refactoring",
+    "Moderne Platform",
+    "OpenRewrite",
+    "Lossless Semantic Trees",
+    "LLM integration"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "DavidZWZ/Awesome-RAG-Reasoning",
+  "link": "https://github.com/DavidZWZ/Awesome-RAG-Reasoning",
+  "summary": "This GitHub repository is a curated collection of resources, papers, tools, and implementations that integrate Retrieval-Augmented Generation (RAG) and Reasoning in Large Language Models and agents. It provides a taxonomy, research papers, benchmarks, and datasets organized into Reasoning-Enhanced RAG, RAG-Enhanced Reasoning, and Synergized RAG and Reasoning. The repository accompanies a survey paper on agentic RAG with deep reasoning and serves as a comprehensive reference for the field. It does not present a specific software construction solution but includes relevant papers on code generation and tool using.",
+  "author": "DavidZWZ",
+  "publication_date": "2026-01-25",
+  "keywords": [
+    "RAG",
+    "reasoning",
+    "retrieval-augmented generation",
+    "LLM",
+    "survey"
+  ]
+}

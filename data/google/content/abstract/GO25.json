@@ -1,0 +1,14 @@
+{
+  "title": "CodeRAG: Supportive Code Retrieval on Bigraph for Real-World Code Generation",
+  "link": "https://arxiv.org/html/2504.10046v1",
+  "summary": "CodeRAG is a retrieval-augmented code generation framework designed for real-world repo-level code generation. It constructs a requirement graph and a DS-code graph (bigraph) for a code repository, mapping sub-requirements and semantically similar requirements of a target requirement to code nodes. A code-oriented agentic reasoning process then enables large language models (LLMs) to iteratively retrieve supportive codes by reasoning on the graph and using tools like web search and code testing. Experiments on the DevEval dataset show substantial improvements over baselines (e.g., 40.90 Pass@1 increase on GPT-4o) and outperform commercial products such as GitHub Copilot and Cursor. The approach effectively handles cross-file dependencies and integrates domain-specific knowledge, demonstrating its potential for practical software engineering tasks.",
+  "author": "Jia Li, Xianjie Shi, Kechi Zhang, Lei Li, Ge Li, Zhengwei Tao, Fang Liu, Chongyang Tao, Zhi Jin",
+  "publication_date": "2025-04-14",
+  "keywords": [
+    "CodeRAG",
+    "code generation",
+    "code retrieval",
+    "graph",
+    "large language model"
+  ]
+}

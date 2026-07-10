@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - cjpopova/sized-generator",
+  "link": "https://github.com/cjpopova/sized-generator",
+  "summary": "This repository provides a sized-type-based program generator framework written in OCaml. It focuses on generating recursive, terminating programs for Racket and Standard ML (SML). The tool uses sized types to guide the generation of functions that are guaranteed to terminate, and it includes a shrinker for reducing the size of generated programs. The project is publicly available on GitHub.",
+  "author": "Caspar Popova",
+  "publication_date": "2026-06-11",
+  "keywords": [
+    "sized types",
+    "program generation",
+    "termination",
+    "OCaml",
+    "racket"
+  ]
+}

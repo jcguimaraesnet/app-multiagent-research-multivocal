@@ -1,0 +1,15 @@
+{
+  "title": "INSPECT: Intrinsic and Systematic Probing Evaluation for Code Transformers",
+  "link": "https://doi.org/10.1109/TSE.2023.3341624",
+  "abstract": "Pre-trained models of source code have recently been successfully applied to a wide variety of Software Engineering tasks; they have also seen some practical adoption in practice, e.g. for code completion. Yet, we still know very little about what these pre-trained models learn about source code. In this article, we use probing - simple diagnostic tasks that do not further train the models - to discover to what extent pre-trained models learn about specific aspects of source code. We use an extensible framework to define 15 probing tasks that exercise surface, syntactic, structural and semantic characteristics of source code. We probe 8 pre-trained source code models, as well as a natural language model (BERT) as our baseline. We find that models that incorporate some structural information (such as GraphCodeBERT) have a better representation of source code characteristics. Surprisingly, we find that for some probing tasks, BERT is competitive with the source code models, indicating that there are ample opportunities to improve source-code specific pre-training on the respective code characteristics. We encourage other researchers to evaluate their models with our probing task suite, so that they may peer into the hidden layers of the models and identify what intrinsic code characteristics are encoded.  © 1976-2012 IEEE.",
+  "keywords": [
+    "benchmarking",
+    "Machine learning for source code",
+    "pre-trained models",
+    "probing",
+    "transformers"
+  ],
+  "open_access": false,
+  "language": "English",
+  "publisher": "Institute of Electrical and Electronics Engineers Inc."
+}

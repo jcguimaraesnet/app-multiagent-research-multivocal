@@ -1,0 +1,14 @@
+{
+  "title": "kyegomez/awesome-multi-agent-papers",
+  "link": "https://github.com/kyegomez/awesome-multi-agent-papers",
+  "summary": "This content is the README page for the 'awesome-multi-agent-papers' GitHub repository, which is a curated list of research papers on multi-agent systems, with a strong focus on Large Language Model (LLM)-based agents. The repository is maintained by the Swarms Team and organizes papers into categories such as Multi-Agent Collaboration, Frameworks & Benchmarks, and Application-Specific Systems. An entire section is dedicated to Software Engineering, compiling papers on solutions like ChatDev, CodeR, MAGIS, and AutoSafeCoder for tasks including code generation, issue resolution, debugging, and unit test improvement. The list serves as a comprehensive reference for advancements in using collaborative LLM agents for software construction and other domains, but is not a research paper presenting a new solution itself.",
+  "author": "Kye Gomez (Swarms Team)",
+  "publication_date": "2026-07-04",
+  "keywords": [
+    "multi-agent systems",
+    "large language models",
+    "software engineering",
+    "literature survey",
+    "collaboration"
+  ]
+}
