@@ -18,10 +18,10 @@ import json
 from datetime import datetime, timezone
 from typing import Literal
 
-from agents import Agent, Runner, set_tracing_disabled
+from agents import Agent, set_tracing_disabled
 from pydantic import BaseModel
 
-from rmr.llm import chat_model, model_settings
+from rmr.llm import chat_model, model_settings, run_sync_english
 from rmr.paths import PROJECT_ROOT, ensure_parent, step_output_path
 
 # Tracing defaults to OpenAI's backend; we use a custom endpoint, so disable it.
@@ -105,8 +105,10 @@ def step2_title_screening(origin: str) -> dict:
         if record["id"] in existing:
             screened.append(existing[record["id"]])  # keep the prior decision, in order
             continue
-        result = Runner.run_sync(agent, f'Title: "{record.get("title", "")}"')
-        decision: TitleDecision = result.final_output
+        decision: TitleDecision = run_sync_english(
+            agent, f'Title: "{record.get("title", "")}"',
+            label=f"[{origin}] {record.get('id')}",
+        )
         screened.append({
             **record,
             "decision": decision.decision,

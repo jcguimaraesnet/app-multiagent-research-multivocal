@@ -30,11 +30,11 @@ import json
 from datetime import datetime, timezone
 from typing import Literal
 
-from agents import Agent, Runner, set_tracing_disabled
+from agents import Agent, set_tracing_disabled
 from pydantic import BaseModel
 
 from rmr.content import arxiv, scopus_gateway, scrape
-from rmr.llm import chat_model, model_settings
+from rmr.llm import chat_model, model_settings, run_sync_english
 from rmr.paths import (PROJECT_ROOT, abstract_path, ensure_parent, full_path,
                        step_output_path)
 
@@ -327,7 +327,8 @@ def _phase_summary(origin, survivors, by_id, save) -> None:
                 print(f"[{origin}] summary {rid}: reused cached keywords")
                 save()
                 continue
-            result: KeywordsResult = Runner.run_sync(agent, captured.get("abstract", "")).final_output
+            result: KeywordsResult = run_sync_english(
+                agent, captured.get("abstract", ""), label=f"[{origin}] summary {rid}")
             write_abstract(origin, rid, keywords=result.keywords[:MAX_KEYWORDS])
             count = len(result.keywords[:MAX_KEYWORDS])
         else:
@@ -337,7 +338,8 @@ def _phase_summary(origin, survivors, by_id, save) -> None:
                 save()
                 continue
             content = full_path(origin, rid).read_text(encoding="utf-8")
-            summary: SourceSummary = Runner.run_sync(agent, f"CONTENT:\n{content}").final_output
+            summary: SourceSummary = run_sync_english(
+                agent, f"CONTENT:\n{content}", label=f"[{origin}] summary {rid}")
             write_abstract(
                 origin, rid,
                 title=record["data"]["title"], link=record["data"]["link"],
@@ -370,7 +372,8 @@ def _phase_screen(origin, survivors, by_id, state, save) -> None:
         captured = read_abstract(origin, rid)
         text = captured.get("abstract") or captured.get("summary") or ""
         user_msg = f"Summary: {text}\nKeywords: {', '.join(captured.get('keywords', []))}"
-        result: ScreeningResult = Runner.run_sync(agent, user_msg).final_output
+        result: ScreeningResult = run_sync_english(
+            agent, user_msg, label=f"[{origin}] screen {rid}")
         criteria = _criteria_from_result(result)
         decision = _decide(criteria)
         record["status"] = SCREENED

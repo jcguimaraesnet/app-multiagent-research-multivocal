@@ -40,7 +40,7 @@ import requests
 from agents import Agent, Runner, set_tracing_disabled
 from pydantic import BaseModel
 
-from rmr.llm import chat_model, model_settings
+from rmr.llm import chat_model, contains_chinese, model_settings
 from rmr.paths import (PROJECT_ROOT, ensure_parent, full_path, pdf_path,
                        step_output_path)
 from rmr.screening.abstract import read_abstract
@@ -388,17 +388,26 @@ def _grey_fulltext(origin: str, record: dict) -> str:
 
 
 def _run_agent(agent, user_msg: str, origin: str, rid: str, label: str):
-    """Run an agent, retrying a failed/malformed response. Returns the output or None.
+    """Run an agent, retrying a failed/malformed OR Chinese response. Returns the output or None.
 
-    A truncated or invalid JSON from the model raises inside the SDK; catching it here keeps
-    one bad item from aborting the whole batch (the item is left as-is and retried later).
+    Two failure modes are retried within the same loop: (1) a truncated or invalid JSON from
+    the model raises inside the SDK; catching it here keeps one bad item from aborting the
+    whole batch. (2) the prompts require English, but the model occasionally drifts into
+    Chinese; such an output is rejected and the call retried. In both cases an exhausted item
+    is left as-is (returns None) and retried on the next run.
     """
     for attempt in range(1, SCREEN_ATTEMPTS + 1):
         try:
-            return Runner.run_sync(agent, user_msg).final_output
+            output = Runner.run_sync(agent, user_msg).final_output
         except Exception as error:  # noqa: BLE001 - includes ModelBehaviorError (bad JSON)
             print(f"[{origin}] {label} {rid}: attempt {attempt}/{SCREEN_ATTEMPTS} failed "
                   f"({type(error).__name__}); {'retrying' if attempt < SCREEN_ATTEMPTS else 'left for retry'}")
+            continue
+        if contains_chinese(output):
+            print(f"[{origin}] {label} {rid}: attempt {attempt}/{SCREEN_ATTEMPTS} returned Chinese; "
+                  f"{'retrying' if attempt < SCREEN_ATTEMPTS else 'left for retry'}")
+            continue
+        return output
     return None
 
 
