@@ -73,6 +73,11 @@ SCREEN_MAX_TOKENS = 35662
 
 PENDING, SCRAPED, SUMMARIZED, SCREENED = "pending", "scraped", "summarized", "screened"
 
+# Grey origins whose screened content is an LLM summary of a web page (as opposed to hf's real
+# arXiv abstract). For these, the screening prompt also receives the link and publication date,
+# which the summary may omit but which help judge the criteria (e.g. IC5, the year window).
+GREY_SUMMARY_ORIGINS = ("google", "github")
+
 LLM_CRITERIA = ["IC1", "IC2", "IC3", "IC4", "IC5", "EC4", "EC5"]
 CRITERIA_ORDER = ["IC1", "IC2", "IC3", "IC4", "IC5", "EC3", "EC4", "EC5"]
 
@@ -353,6 +358,22 @@ def _phase_summary(origin, survivors, by_id, save) -> None:
         save()
 
 
+def _screen_message(origin: str, captured: dict) -> str:
+    """Build the user message injected into the abstract-screening prompt.
+
+    All origins send the summary/abstract and keywords. For google/github (see
+    GREY_SUMMARY_ORIGINS) the link and publication date are added too, since the LLM summary
+    may drop them yet they inform the criteria (notably IC5's year window).
+    """
+    text = captured.get("abstract") or captured.get("summary") or ""
+    lines = [f"Summary: {text}"]
+    if origin in GREY_SUMMARY_ORIGINS:
+        lines.append(f"Link: {captured.get('link', '')}")
+        lines.append(f"Publication date: {captured.get('publication_date', '')}")
+    lines.append(f"Keywords: {', '.join(captured.get('keywords', []))}")
+    return "\n".join(lines)
+
+
 def _phase_screen(origin, survivors, by_id, state, save) -> None:
     ready = _ready_status(origin)
     model, model_name = chat_model()
@@ -370,8 +391,7 @@ def _phase_screen(origin, survivors, by_id, state, save) -> None:
         if record["status"] != ready:
             continue
         captured = read_abstract(origin, rid)
-        text = captured.get("abstract") or captured.get("summary") or ""
-        user_msg = f"Summary: {text}\nKeywords: {', '.join(captured.get('keywords', []))}"
+        user_msg = _screen_message(origin, captured)
         result: ScreeningResult = run_sync_english(
             agent, user_msg, label=f"[{origin}] screen {rid}")
         criteria = _criteria_from_result(result)
