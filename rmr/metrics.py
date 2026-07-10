@@ -7,11 +7,10 @@ Gold standard (census + adjudication):
   metrics (its count is reported).
 
 The positive class is ``include``. Per origin and pooled, it reports the LLM-vs-gold confusion
-matrix (TP/FP/FN/TN); precision, recall, F1, accuracy, specificity (with 95% Wilson CIs on the
-first three); and the LLM-vs-reviewer-1 agreement (percent, Cohen's kappa, Gwet's AC1) with the
-conflict/adjudication tallies. For ``step-4-answers`` it reports the validation rate (final
-agreement 'yes' after adjudication). Writes metrics.json and prints a summary. Reads files only;
-no LLM calls.
+matrix (TP/FP/FN/TN); precision, recall, F1, accuracy; and the LLM-vs-reviewer-1 percent
+agreement with the conflict/adjudication tallies. For ``step-4-answers`` it reports the
+validation rate (final agreement 'yes' after adjudication). Writes metrics.json and prints a
+summary. Reads files only; no LLM calls.
 """
 
 import json
@@ -19,9 +18,9 @@ from datetime import datetime, timezone
 
 from rmr import config
 from rmr.paths import ensure_parent
-from rmr.review import (INCLUDE_EXCLUDE, ORIGINS, YES_NO, _human_column, _records,
+from rmr.review import (INCLUDE_EXCLUDE, ORIGINS, YES_NO, _records, _sheet_column,
                         review_dir)
-from rmr.validation.stats import cohen_kappa, gwet_ac1, percent_agreement, wilson_ci
+from rmr.validation.stats import percent_agreement
 
 SCREENING_STEPS = [2, 3, 4]
 
@@ -43,23 +42,18 @@ def _llm_by_origin(step: int) -> list[tuple[str, str, str]]:
 
 
 def _metrics_from_counts(tp: int, fp: int, fn: int, tn: int, pairs: list) -> dict:
-    """Precision/recall/F1/accuracy/specificity (positive = include) plus LLM-vs-reviewer-1
-    agreement, from a confusion matrix and the (llm, reviewer1) label pairs."""
+    """Precision/recall/F1/accuracy (positive = include) plus LLM-vs-reviewer-1 agreement,
+    from a confusion matrix and the (llm, reviewer1) label pairs."""
     n = tp + fp + fn + tn
-    precision, p_lo, p_hi = wilson_ci(tp, tp + fp)
-    recall, r_lo, r_hi = wilson_ci(tp, tp + fn)
-    accuracy, a_lo, a_hi = wilson_ci(tp + tn, n)
-    f1, f1_lo, f1_hi = (_f1(precision, recall), _f1(p_lo, r_lo), _f1(p_hi, r_hi))
+    precision = tp / (tp + fp) if (tp + fp) else 0.0
+    recall = tp / (tp + fn) if (tp + fn) else 0.0
     return {
         "n": n, "tp": tp, "fp": fp, "fn": fn, "tn": tn,
-        "precision": precision, "precision_ci": [p_lo, p_hi],
-        "recall": recall, "recall_ci": [r_lo, r_hi],
-        "f1": f1, "f1_ci": [f1_lo, f1_hi],
-        "accuracy": accuracy, "accuracy_ci": [a_lo, a_hi],
-        "specificity": tn / (tn + fp) if (tn + fp) else 0.0,
+        "precision": precision,
+        "recall": recall,
+        "f1": _f1(precision, recall),
+        "accuracy": (tp + tn) / n if n else 0.0,
         "agreement_pct": percent_agreement(pairs),
-        "cohen_kappa": cohen_kappa(pairs),
-        "gwet_ac1": gwet_ac1(pairs),
     }
 
 
@@ -69,8 +63,8 @@ def _f1(precision: float, recall: float) -> float:
 
 def _screening_step(step: int, review) -> dict:
     """Metrics for one screening step, per origin and pooled."""
-    r1 = _human_column(review / f"step-{step}-review.xlsx") or {}
-    r2 = _human_column(review / "tiebreak" / f"step-{step}-tiebreak.xlsx") or {}
+    r1 = _sheet_column(review / f"step-{step}-review.xlsx", "decision") or {}
+    r2 = _sheet_column(review / "tiebreak" / f"step-{step}-tiebreak.xlsx", "decision") or {}
 
     origins: dict[str, dict] = {}
     pending_review = pending_adjudication = 0
@@ -126,10 +120,10 @@ def _screening_step(step: int, review) -> dict:
 def _answers_step(review) -> dict | None:
     """Validation rate of the research-answer extraction: fraction whose final agreement is
     'yes' after adjudication (reviewer 1 'yes', or reviewer 1 'no' overturned by reviewer 2)."""
-    r1 = _human_column(review / "step-4-answers-review.xlsx")
+    r1 = _sheet_column(review / "step-4-answers-review.xlsx", "Agreement")
     if r1 is None:
         return None
-    r2 = _human_column(review / "tiebreak" / "step-4-answers-tiebreak.xlsx") or {}
+    r2 = _sheet_column(review / "tiebreak" / "step-4-answers-tiebreak.xlsx", "Agreement") or {}
     reviewed = final_yes = r1_yes = r1_no = overturned = confirmed = 0
     pending_review = pending_adjudication = 0
     for rid, value in r1.items():
@@ -151,10 +145,9 @@ def _answers_step(review) -> dict | None:
             else:
                 confirmed += 1
     finalized = reviewed - pending_adjudication
-    rate, lo, hi = wilson_ci(final_yes, finalized)
     return {
         "reviewed": reviewed, "finalized": finalized, "validated": final_yes,
-        "validation_rate": rate, "validation_rate_ci": [lo, hi],
+        "validation_rate": final_yes / finalized if finalized else 0.0,
         "reviewer1_yes": r1_yes, "reviewer1_no": r1_no,
         "adjudicated_overturned": overturned, "adjudicated_confirmed": confirmed,
         "pending_review": pending_review, "pending_adjudication": pending_adjudication,
@@ -178,10 +171,9 @@ def _print_summary(result: dict) -> None:
             print("  (no adjudicated items yet)")
             continue
         print(f"  precision={_pct(p['precision'])}  recall={_pct(p['recall'])}  "
-              f"F1={_pct(p['f1'])}  accuracy={_pct(p['accuracy'])}  "
-              f"specificity={_pct(p['specificity'])}")
-        print(f"  agreement={_pct(p['agreement_pct'])}  kappa={p['cohen_kappa']:.3f}  "
-              f"AC1={p['gwet_ac1']:.3f}  (TP={p['tp']} FP={p['fp']} FN={p['fn']} TN={p['tn']})")
+              f"F1={_pct(p['f1'])}  accuracy={_pct(p['accuracy'])}")
+        print(f"  agreement={_pct(p['agreement_pct'])}  "
+              f"(TP={p['tp']} FP={p['fp']} FN={p['fn']} TN={p['tn']})")
 
     ans = result.get("answers")
     print("\n=== Research-answer extraction ===")
@@ -195,22 +187,32 @@ def _print_summary(result: dict) -> None:
               f"pending={ans['pending_review'] + ans['pending_adjudication']}")
 
 
-def _check_review(review, name: str, expected: tuple) -> list[str]:
-    """Issue(s) if a review sheet is missing or has any unfilled decision/agreement cell."""
-    human = _human_column(review / name)
-    if human is None:
+REVIEWER_STAMPS = ("reviewer a", "reviewer b")
+
+
+def _check_review(review, name: str, decision_col: str, expected: tuple) -> list[str]:
+    """Issue(s) if a review sheet is missing, has any unfilled decision cell, or any row
+    without a Reviewer stamp."""
+    decisions = _sheet_column(review / name, decision_col)
+    if decisions is None:
         return [f"{name}: missing"]
-    blanks = [rid for rid, value in human.items() if value not in expected]
+    issues = []
+    blanks = [rid for rid, value in decisions.items() if value not in expected]
     if blanks:
-        return [f"{name}: {len(blanks)} of {len(human)} rows not filled"]
-    return []
+        issues.append(f"{name}: {len(blanks)} of {len(decisions)} decisions not filled")
+    reviewers = _sheet_column(review / name, "Reviewer") or {}
+    unstamped = [rid for rid in decisions if reviewers.get(rid, "") not in REVIEWER_STAMPS]
+    if unstamped:
+        issues.append(f"{name}: {len(unstamped)} of {len(decisions)} rows not stamped (Reviewer)")
+    return issues
 
 
-def _check_tiebreak(review, name: str, conflicts: set, expected: tuple) -> list[str]:
+def _check_tiebreak(review, name: str, decision_col: str, conflicts: set,
+                    expected: tuple) -> list[str]:
     """Issue(s) if any conflict lacks a reviewer-2 (tie-break) decision."""
     if not conflicts:
         return []
-    tb = _human_column(review / "tiebreak" / name) or {}
+    tb = _sheet_column(review / "tiebreak" / name, decision_col) or {}
     missing = [rid for rid in conflicts if tb.get(rid, "") not in expected]
     if missing:
         return [f"tiebreak/{name}: {len(missing)} of {len(conflicts)} conflicts not resolved"]
@@ -218,25 +220,27 @@ def _check_tiebreak(review, name: str, conflicts: set, expected: tuple) -> list[
 
 
 def _incomplete(review) -> list[str]:
-    """Every review AND tie-break sheet must be fully filled before metrics are computed.
-    Returns a list of human-readable issues (empty when everything is complete)."""
+    """Every review AND tie-break sheet must be fully filled (decisions and Reviewer stamps)
+    before metrics are computed. Returns a list of issues (empty when everything is complete)."""
     issues = []
     for step in SCREENING_STEPS:
-        issues += _check_review(review, f"step-{step}-review.xlsx", INCLUDE_EXCLUDE)
-    issues += _check_review(review, "step-4-answers-review.xlsx", YES_NO)
+        issues += _check_review(review, f"step-{step}-review.xlsx", "decision", INCLUDE_EXCLUDE)
+    issues += _check_review(review, "step-4-answers-review.xlsx", "Agreement", YES_NO)
 
     for step in SCREENING_STEPS:
-        r1 = _human_column(review / f"step-{step}-review.xlsx")
+        r1 = _sheet_column(review / f"step-{step}-review.xlsx", "decision")
         if r1 is None:
             continue  # already reported as missing above
         llm = {rid: d for _, rid, d in _llm_by_origin(step)}
         conflicts = {rid for rid, v in r1.items()
                      if v in INCLUDE_EXCLUDE and llm.get(rid) and llm[rid] != v}
-        issues += _check_tiebreak(review, f"step-{step}-tiebreak.xlsx", conflicts, INCLUDE_EXCLUDE)
-    ans = _human_column(review / "step-4-answers-review.xlsx")
+        issues += _check_tiebreak(review, f"step-{step}-tiebreak.xlsx", "decision",
+                                  conflicts, INCLUDE_EXCLUDE)
+    ans = _sheet_column(review / "step-4-answers-review.xlsx", "Agreement")
     if ans is not None:
         conflicts = {rid for rid, v in ans.items() if v == "no"}
-        issues += _check_tiebreak(review, "step-4-answers-tiebreak.xlsx", conflicts, YES_NO)
+        issues += _check_tiebreak(review, "step-4-answers-tiebreak.xlsx", "Agreement",
+                                  conflicts, YES_NO)
     return issues
 
 

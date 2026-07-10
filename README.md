@@ -119,9 +119,10 @@ Computes the LLM screening reliability from the filled sheets (all must be compl
 
 | Metric                            | Description                                          |
 |-----------------------------------|------------------------------------------------------|
-| Precision / Recall / F1           | LLM vs gold, with 95% Wilson CIs.                    |
-| Accuracy / Specificity            | Overall correctness of the LLM decisions.           |
+| Precision / Recall / F1           | LLM vs gold.                                        |
+| Accuracy                          | Overall correctness of the LLM decisions.           |
 | Confusion matrix                  | TP / FP / FN / TN counts.                           |
-| Agreement, Cohen's κ, Gwet's AC1  | LLM vs reviewer 1 agreement.                        |
-| Conflict / adjudication tallies   | Disagreements and how reviewer 2 resolved them.     |
+| Agreement                         | How often the LLM and reviewer 1 decided the same.  |
+| Conflicts                         | Rows where the LLM and reviewer 1 disagree.         |
+| Adjudication                      | How reviewer 2 resolved those conflicts.            |
 | Validation rate                   | `step-4-answers`: share confirmed after adjudication. |

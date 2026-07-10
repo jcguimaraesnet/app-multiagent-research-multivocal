@@ -36,6 +36,7 @@ ORIGINS = ["scopus", "google", "github", "hf"]
 COMPOSE_ORIGINS = {"google", "github"}
 DECISION_VALUES = '"Include,Exclude"'  # Excel list-validation formula for the decision column
 AGREEMENT_VALUES = '"Yes,No"'          # ... for the answers-review agreement column
+REVIEWER_VALUES = '"Reviewer A,Reviewer B"'  # ... for the Reviewer stamp column
 RQ_KEYS = ["RQa", "RQb", "RQc", "RQd", "RQe", "RQf", "RQg", "RQh"]
 
 
@@ -192,7 +193,7 @@ def _step4_answers_rows() -> list[list]:
 _WIDTHS = {
     "id": 10, "ID": 10, "title": 60, "Title": 60, "abstract": 90, "Abstract": 80,
     "keywords": 40, "file": 18, "decision": 14, "llm_decision": 14, "Agreement": 12,
-    "Solution name": 24, "IC2": 40, "IC3": 40,
+    "Reviewer": 16, "Solution name": 24, "IC2": 40, "IC3": 40,
 }
 _WRAP = {"title", "Title", "abstract", "Abstract", "keywords", "IC2", "IC3"}
 
@@ -212,10 +213,10 @@ def _drive_folder_url() -> str:
     return os.environ.get("REVIEW_DRIVE_FOLDER_URL", "").strip()
 
 
-def _write_sheet(path, header: list[str], rows: list[list], dropdown: str,
+def _write_sheet(path, header: list[str], rows: list[list], dropdowns: dict | None = None,
                  link_column: str | None = None, link_url: str = "") -> None:
-    """Write one review workbook: a bold, frozen header, the data rows, and a list dropdown
-    (``dropdown``) down the empty last column (decision / agreement).
+    """Write one review workbook: a bold, frozen header, the data rows, and a list-validation
+    dropdown on each column named in ``dropdowns`` ({header name: Excel list formula}).
 
     When ``link_column`` and ``link_url`` are given, every non-empty cell in that column
     becomes a hyperlink to ``link_url`` (the shared Drive folder), so the reviewer opens the
@@ -245,22 +246,26 @@ def _write_sheet(path, header: list[str], rows: list[list], dropdown: str,
                     cell.hyperlink = link_url
                     cell.style = "Hyperlink"
 
-    last_col = get_column_letter(len(header))  # the empty decision/agreement column
-    validation = DataValidation(type="list", formula1=dropdown, allow_blank=True)
-    ws.add_data_validation(validation)
-    if rows:
-        validation.add(f"{last_col}2:{last_col}{len(rows) + 1}")
+    for name, formula in (dropdowns or {}).items():
+        if name not in header:
+            continue
+        letter = get_column_letter(header.index(name) + 1)
+        validation = DataValidation(type="list", formula1=formula, allow_blank=True)
+        ws.add_data_validation(validation)
+        if rows:
+            validation.add(f"{letter}2:{letter}{len(rows) + 1}")
 
     ensure_parent(path)
     wb.save(path)
 
 
-def _with_llm_column(rows: list[list], step: int) -> list[list]:
-    """Insert the LLM decision (capitalized) just before the trailing empty decision column, so
-    each screening review sheet carries it as a reference the reviewer hides while judging blind.
-    The decision column stays last, so steps 6-7 (which read the last column) are unaffected."""
+def _screening_review_rows(rows: list[list], step: int) -> list[list]:
+    """Build a screening review row: insert the LLM decision (capitalized, a reference the
+    reviewer hides) before the empty decision column, and append an empty Reviewer stamp column.
+    Layout: [id, content..., llm_decision, decision(''), Reviewer('')]. Steps 6-7 read the
+    decision and Reviewer columns by name, not by position."""
     llm = _llm_decisions(step)
-    return [row[:-1] + [llm.get(str(row[0]), "").capitalize(), row[-1]] for row in rows]
+    return [row[:-1] + [llm.get(str(row[0]), "").capitalize(), row[-1], ""] for row in rows]
 
 
 def export_review_sheets() -> dict:
@@ -271,24 +276,27 @@ def export_review_sheets() -> dict:
         print("[review] REVIEW_DRIVE_FOLDER_URL not set: step-4 file names stay plain text "
               "(set it to the shared Drive folder link to make them clickable)")
     answers_header = (["ID", "Title", "Abstract", "Solution name"] + RQ_KEYS
-                      + ["IC2", "IC3", "Agreement"])
-    # The screening sheets carry an `llm_decision` reference column (hidden by the reviewer);
-    # it sits before `decision`, which stays the last column (steps 6-7 read the last column).
-    # (name, header, rows, dropdown, link_column) — link_column is hyperlinked to folder_url.
+                      + ["IC2", "IC3", "Agreement", "Reviewer"])
+    # Every sheet ends with a `Reviewer` stamp column (Reviewer A / B) so the two reviewers who
+    # split the workload record who judged each row. On the screening sheets an `llm_decision`
+    # reference column (hidden by the reviewer) precedes `decision`. Steps 6-7 read `decision` /
+    # `Agreement` and `Reviewer` by name, so column position no longer matters.
+    decision_dd = {"decision": DECISION_VALUES, "Reviewer": REVIEWER_VALUES}
+    # (name, header, rows, dropdowns, link_column) — link_column is hyperlinked to folder_url.
     sheets = [
-        ("step-2-review.xlsx", ["id", "title", "llm_decision", "decision"],
-         _with_llm_column(_step2_rows(), 2), DECISION_VALUES, None),
-        ("step-3-review.xlsx", ["id", "abstract", "keywords", "llm_decision", "decision"],
-         _with_llm_column(_step3_rows(), 3), DECISION_VALUES, None),
-        ("step-4-review.xlsx", ["id", "title", "file", "llm_decision", "decision"],
-         _with_llm_column(_step4_rows(), 4), DECISION_VALUES, "file"),
-        ("step-4-answers-review.xlsx", answers_header, _step4_answers_rows(),
-         AGREEMENT_VALUES, None),
+        ("step-2-review.xlsx", ["id", "title", "llm_decision", "decision", "Reviewer"],
+         _screening_review_rows(_step2_rows(), 2), decision_dd, None),
+        ("step-3-review.xlsx", ["id", "abstract", "keywords", "llm_decision", "decision", "Reviewer"],
+         _screening_review_rows(_step3_rows(), 3), decision_dd, None),
+        ("step-4-review.xlsx", ["id", "title", "file", "llm_decision", "decision", "Reviewer"],
+         _screening_review_rows(_step4_rows(), 4), decision_dd, "file"),
+        ("step-4-answers-review.xlsx", answers_header, [row + [""] for row in _step4_answers_rows()],
+         {"Agreement": AGREEMENT_VALUES, "Reviewer": REVIEWER_VALUES}, None),
     ]
     counts = {}
-    for name, header, rows, dropdown, link_column in sheets:
+    for name, header, rows, dropdowns, link_column in sheets:
         path = out / name
-        _write_sheet(path, header, rows, dropdown, link_column=link_column, link_url=folder_url)
+        _write_sheet(path, header, rows, dropdowns, link_column=link_column, link_url=folder_url)
         counts[name] = len(rows)
         print(f"[review] {name}: {len(rows)} rows -> {path}")
     return counts
@@ -301,6 +309,17 @@ def export_review_sheets() -> dict:
 
 INCLUDE_EXCLUDE = ("include", "exclude")
 YES_NO = ("yes", "no")
+REVIEWER_A, REVIEWER_B = "reviewer a", "reviewer b"
+
+
+def _invert_reviewer(stamp: str) -> str:
+    """The other reviewer, for the inverted tie-break assignment (nobody adjudicates their own
+    review). Unknown/blank stamps yield '' (left blank in the sheet)."""
+    if stamp == REVIEWER_A:
+        return "Reviewer B"
+    if stamp == REVIEWER_B:
+        return "Reviewer A"
+    return ""
 
 
 def _llm_decisions(step: int) -> dict:
@@ -319,20 +338,23 @@ def _llm_decisions(step: int) -> dict:
     return out
 
 
-def _human_column(path) -> dict | None:
-    """{id: value} from the last column of a filled review sheet (the decision / agreement the
-    reviewer entered), lower-cased. None when the sheet does not exist; '' for a blank cell."""
+def _sheet_column(path, header_name: str) -> dict | None:
+    """{id: value} for the column headed ``header_name`` in a filled sheet, lower-cased.
+    None when the sheet does not exist; {} when the column is absent; '' for a blank cell."""
     if not path.exists():
         return None
     wb = load_workbook(path)
     ws = wb.active
-    last = ws.max_column
+    headers = [cell.value for cell in ws[1]]
+    if header_name not in headers:
+        return {}
+    col = headers.index(header_name) + 1
     out = {}
     for row in range(2, ws.max_row + 1):
         rid = ws.cell(row, 1).value
         if rid is None:
             continue
-        value = ws.cell(row, last).value
+        value = ws.cell(row, col).value
         out[str(rid)] = str(value).strip().lower() if value is not None else ""
     return out
 
@@ -360,34 +382,43 @@ def _conflicts(mode: str, step: int, human: dict) -> tuple[set, int]:
 
 
 def export_tiebreak_sheets() -> dict:
-    """Generate the blind tie-break spreadsheets from the filled review sheets (step 6)."""
+    """Generate the blind tie-break spreadsheets from the filled review sheets (step 6).
+
+    Each conflict row is assigned to the INVERTED reviewer (the one who did not do the first
+    review, read from the ``Reviewer`` stamp), pre-filled in the tie-break ``Reviewer`` column,
+    so nobody adjudicates their own review.
+    """
     review = review_dir()
     out = review / "tiebreak"
     folder_url = _drive_folder_url()
     answers_header = (["ID", "Title", "Abstract", "Solution name"] + RQ_KEYS
                       + ["IC2", "IC3", "Agreement"])
-    # (review file, tie-break file, header, rows, dropdown, link_column, mode, step)
+    # (review file, tie-break file, base header, decision column, rows, dropdown, link, mode, step)
     specs = [
-        ("step-2-review.xlsx", "step-2-tiebreak.xlsx", ["id", "title", "decision"],
+        ("step-2-review.xlsx", "step-2-tiebreak.xlsx", ["id", "title", "decision"], "decision",
          _step2_rows(), DECISION_VALUES, None, "screening", 2),
         ("step-3-review.xlsx", "step-3-tiebreak.xlsx", ["id", "abstract", "keywords", "decision"],
-         _step3_rows(), DECISION_VALUES, None, "screening", 3),
+         "decision", _step3_rows(), DECISION_VALUES, None, "screening", 3),
         ("step-4-review.xlsx", "step-4-tiebreak.xlsx", ["id", "title", "file", "decision"],
-         _step4_rows(), DECISION_VALUES, "file", "screening", 4),
-        ("step-4-answers-review.xlsx", "step-4-answers-tiebreak.xlsx", answers_header,
+         "decision", _step4_rows(), DECISION_VALUES, "file", "screening", 4),
+        ("step-4-answers-review.xlsx", "step-4-answers-tiebreak.xlsx", answers_header, "Agreement",
          _step4_answers_rows(), AGREEMENT_VALUES, None, "answers", 4),
     ]
     counts = {}
-    for rname, tname, header, rows, dropdown, link_column, mode, step in specs:
-        human = _human_column(review / rname)
-        if human is None:
+    for rname, tname, base_header, decision_col, rows, dropdown, link_column, mode, step in specs:
+        decisions = _sheet_column(review / rname, decision_col)
+        if decisions is None:
             print(f"[tiebreak] {rname} not found in {review}; skipped")
             continue
-        conflicts, blanks = _conflicts(mode, step, human)
-        selected = [r for r in rows if str(r[0]) in conflicts]
+        reviewers = _sheet_column(review / rname, "Reviewer") or {}
+        conflicts, blanks = _conflicts(mode, step, decisions)
+        header = base_header + ["Reviewer"]
+        selected = [row + [_invert_reviewer(reviewers.get(str(row[0]), ""))]
+                    for row in rows if str(row[0]) in conflicts]
         path = out / tname
-        _write_sheet(path, header, selected, dropdown, link_column=link_column, link_url=folder_url)
+        _write_sheet(path, header, selected, {decision_col: dropdown},
+                     link_column=link_column, link_url=folder_url)
         counts[tname] = len(selected)
-        print(f"[tiebreak] {tname}: {len(selected)} conflicts of {len(human)} rows "
+        print(f"[tiebreak] {tname}: {len(selected)} conflicts of {len(decisions)} rows "
               f"({blanks} not yet reviewed) -> {path}")
     return counts
