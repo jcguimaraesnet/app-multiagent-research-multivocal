@@ -44,7 +44,6 @@ The review protocol lives as JSON under `protocol-settings/`:
 | `2-search-string.json`           | PICOC search terms (population, intervention, outcome, context).  |
 | `3-inclusion-criterias.json`     | Inclusion criteria (IC1–IC5).                                     |
 | `4-exclusion_criterias.json`     | Exclusion criteria (EC1–EC5).                                     |
-| `5-grey-quality-appraisal.json`  | Quality-appraisal dimensions for grey literature.                 |
 
 Invariant execution rules (Scopus field scope, year window, subject area, document type,
 language, query splitting for grey literature) live in the code, not in these files.
