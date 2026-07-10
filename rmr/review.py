@@ -20,7 +20,7 @@ Sheets (``data/review/<MODEL_EXPERIMENT>/``):
 import json
 import os
 
-from openpyxl import Workbook
+from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment, Font
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
@@ -280,4 +280,103 @@ def export_review_sheets() -> dict:
         _write_sheet(path, header, rows, dropdown, link_column=link_column, link_url=folder_url)
         counts[name] = len(rows)
         print(f"[review] {name}: {len(rows)} rows -> {path}")
+    return counts
+
+
+# --- Step 6: tie-break (adjudication) sheets ---------------------------------------------
+# Where the LLM and reviewer 1 disagree, a second human breaks the tie, blind. Each tie-break
+# sheet has the same content columns as its review sheet, only the conflicting rows, and an
+# empty decision/agreement column (no LLM or reviewer-1 verdict shown, so nothing anchors).
+
+INCLUDE_EXCLUDE = ("include", "exclude")
+YES_NO = ("yes", "no")
+
+
+def _llm_decisions(step: int) -> dict:
+    """{id: 'include'|'exclude'} decided by the LLM at ``step`` (2/3/4), across all origins."""
+    out = {}
+    for origin in ORIGINS:
+        records = _records(origin, step)
+        if records is None:
+            continue
+        for record in records:
+            rid = record.get("id")
+            decision = (record.get("decision") if step == 2
+                        else (record.get("screening") or {}).get("decision"))
+            if rid and decision:
+                out[str(rid)] = decision.strip().lower()
+    return out
+
+
+def _human_column(path) -> dict | None:
+    """{id: value} from the last column of a filled review sheet (the decision / agreement the
+    reviewer entered), lower-cased. None when the sheet does not exist; '' for a blank cell."""
+    if not path.exists():
+        return None
+    wb = load_workbook(path)
+    ws = wb.active
+    last = ws.max_column
+    out = {}
+    for row in range(2, ws.max_row + 1):
+        rid = ws.cell(row, 1).value
+        if rid is None:
+            continue
+        value = ws.cell(row, last).value
+        out[str(rid)] = str(value).strip().lower() if value is not None else ""
+    return out
+
+
+def _conflicts(mode: str, step: int, human: dict) -> tuple[set, int]:
+    """Return (conflicting ids, count of not-yet-reviewed rows).
+
+    - screening: a conflict is a reviewed row whose Include/Exclude differs from the LLM's.
+    - answers: a conflict is a row the reviewer marked 'no' (disagrees with the LLM answers).
+    """
+    if mode == "answers":
+        conflicts = {rid for rid, value in human.items() if value == "no"}
+        blanks = sum(1 for value in human.values() if value not in YES_NO)
+        return conflicts, blanks
+    llm = _llm_decisions(step)
+    conflicts, blanks = set(), 0
+    for rid, value in human.items():
+        if value not in INCLUDE_EXCLUDE:
+            blanks += 1
+            continue
+        llm_decision = llm.get(rid)
+        if llm_decision and llm_decision != value:
+            conflicts.add(rid)
+    return conflicts, blanks
+
+
+def export_tiebreak_sheets() -> dict:
+    """Generate the blind tie-break spreadsheets from the filled review sheets (step 6)."""
+    review = review_dir()
+    out = review / "tiebreak"
+    folder_url = _drive_folder_url()
+    answers_header = (["ID", "Title", "Abstract", "Solution name"] + RQ_KEYS
+                      + ["IC2", "IC3", "Agreement"])
+    # (review file, tie-break file, header, rows, dropdown, link_column, mode, step)
+    specs = [
+        ("step-2-review.xlsx", "step-2-tiebreak.xlsx", ["id", "title", "decision"],
+         _step2_rows(), DECISION_VALUES, None, "screening", 2),
+        ("step-3-review.xlsx", "step-3-tiebreak.xlsx", ["id", "abstract", "keywords", "decision"],
+         _step3_rows(), DECISION_VALUES, None, "screening", 3),
+        ("step-4-review.xlsx", "step-4-tiebreak.xlsx", ["id", "title", "file", "decision"],
+         _step4_rows(), DECISION_VALUES, "file", "screening", 4),
+        ("step-4-answers-review.xlsx", "step-4-answers-tiebreak.xlsx", answers_header,
+         _step4_answers_rows(), AGREEMENT_VALUES, None, "answers", 4),
+    ]
+    counts = {}
+    for rname, tname, header, rows, dropdown, link_column, mode, step in specs:
+        human = _human_column(review / rname)
+        if human is None:
+            print(f"[tiebreak] {rname} not found in {review}; skipped")
+            continue
+        conflicts, blanks = _conflicts(mode, step, human)
+        selected = [r for r in rows if str(r[0]) in conflicts]
+        path = out / tname
+        _write_sheet(path, header, selected, dropdown, link_column=link_column, link_url=folder_url)
+        counts[tname] = len(selected)
+        print(f"[tiebreak] {tname}: {len(selected)} conflicts of {len(human)} rows "
+              f"({blanks} not yet reviewed) -> {path}")
     return counts

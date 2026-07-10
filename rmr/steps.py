@@ -22,6 +22,8 @@ STEPS = {
     3: "abstract & keywords screening",
     4: "full-text screening",
     5: "export blind human-review spreadsheets",
+    6: "generate blind tie-break spreadsheets",
+    7: "compute screening metrics from human reviews",
 }
 
 
