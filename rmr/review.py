@@ -191,7 +191,7 @@ def _step4_answers_rows() -> list[list]:
 # Column widths per header name (Excel character units); wrapped columns hold long text.
 _WIDTHS = {
     "id": 10, "ID": 10, "title": 60, "Title": 60, "abstract": 90, "Abstract": 80,
-    "keywords": 40, "file": 18, "decision": 14, "Agreement": 12,
+    "keywords": 40, "file": 18, "decision": 14, "llm_decision": 14, "Agreement": 12,
     "Solution name": 24, "IC2": 40, "IC3": 40,
 }
 _WRAP = {"title", "Title", "abstract", "Abstract", "keywords", "IC2", "IC3"}
@@ -255,6 +255,14 @@ def _write_sheet(path, header: list[str], rows: list[list], dropdown: str,
     wb.save(path)
 
 
+def _with_llm_column(rows: list[list], step: int) -> list[list]:
+    """Insert the LLM decision (capitalized) just before the trailing empty decision column, so
+    each screening review sheet carries it as a reference the reviewer hides while judging blind.
+    The decision column stays last, so steps 6-7 (which read the last column) are unaffected."""
+    llm = _llm_decisions(step)
+    return [row[:-1] + [llm.get(str(row[0]), "").capitalize(), row[-1]] for row in rows]
+
+
 def export_review_sheets() -> dict:
     """Generate the blind human-review spreadsheets for the current experiment."""
     out = review_dir()
@@ -264,13 +272,16 @@ def export_review_sheets() -> dict:
               "(set it to the shared Drive folder link to make them clickable)")
     answers_header = (["ID", "Title", "Abstract", "Solution name"] + RQ_KEYS
                       + ["IC2", "IC3", "Agreement"])
+    # The screening sheets carry an `llm_decision` reference column (hidden by the reviewer);
+    # it sits before `decision`, which stays the last column (steps 6-7 read the last column).
     # (name, header, rows, dropdown, link_column) — link_column is hyperlinked to folder_url.
     sheets = [
-        ("step-2-review.xlsx", ["id", "title", "decision"], _step2_rows(), DECISION_VALUES, None),
-        ("step-3-review.xlsx", ["id", "abstract", "keywords", "decision"], _step3_rows(),
-         DECISION_VALUES, None),
-        ("step-4-review.xlsx", ["id", "title", "file", "decision"], _step4_rows(),
-         DECISION_VALUES, "file"),
+        ("step-2-review.xlsx", ["id", "title", "llm_decision", "decision"],
+         _with_llm_column(_step2_rows(), 2), DECISION_VALUES, None),
+        ("step-3-review.xlsx", ["id", "abstract", "keywords", "llm_decision", "decision"],
+         _with_llm_column(_step3_rows(), 3), DECISION_VALUES, None),
+        ("step-4-review.xlsx", ["id", "title", "file", "llm_decision", "decision"],
+         _with_llm_column(_step4_rows(), 4), DECISION_VALUES, "file"),
         ("step-4-answers-review.xlsx", answers_header, _step4_answers_rows(),
          AGREEMENT_VALUES, None),
     ]
