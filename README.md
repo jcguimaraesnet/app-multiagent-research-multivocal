@@ -94,7 +94,7 @@ Exports blind human-review spreadsheets (`.xlsx`), one per screening step, cover
 |------------------------------|-----------------------------------------------------------------|
 | `step-2-review.xlsx`         | Title screening: id, title.                                     |
 | `step-3-review.xlsx`         | Abstract screening: id, abstract, keywords.                     |
-| `step-4-answers-review.xlsx` | Full-text screening: the research answers (solution name, RQa-RQh, IC2, IC3) as the evidence. |
+| `step-4-review.xlsx` | Full-text screening: the research answers (solution name, RQa-RQh, IC2, IC3) as the evidence. |
 
 Step 4 has a **single** sheet: the extracted research answers carry the evidence the reviewer
 needs, so the verdict is recorded on that same row. It also has an `Agreement` column (Yes/No,
@@ -118,7 +118,7 @@ The `llm_decision` column carries the model's verdict for reference only; both r
 blind by hiding the columns to their left (the adjudicator also hides `Review 1`).
 
 **Reviewers save their filled copy as `step-<n>-review-reviewed.xlsx`** (and
-`step-4-answers-review-reviewed.xlsx`), which steps 6 to 8 read. Re-running step 5 therefore
+`step-4-review-reviewed.xlsx`), which steps 6 to 8 read. Re-running step 5 therefore
 never overwrites their work.
 
 ### Residual sheet
@@ -131,7 +131,7 @@ When the previous step's human verdict admits records the model had excluded (it
 **residuals**, see step 8), the step they move into is usually already under review, so they
 cannot simply be appended. This exports a sheet holding **only** those records, with the same columns, to be reviewed
 alongside the sheet already in progress (`step-3-residuals-review.xlsx`, and
-`step-4-answers-residuals-review.xlsx` for step 4).
+`step-4-residuals-review.xlsx` for step 4).
 
 Save it with the `-reviewed` suffix: steps 6 to 8 read it merged with the main
 sheet, so the rows may stay in the supplementary file or be pasted into the main one, whichever

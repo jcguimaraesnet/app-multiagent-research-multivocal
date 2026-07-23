@@ -16,7 +16,7 @@ Sheets (``data/review/<MODEL_EXPERIMENT>/``), each ending in the three review co
 - ``step-2-review.xlsx``: id, title, llm_decision.
 - ``step-3-review.xlsx``: id, abstract, keywords, llm_decision. For grey literature the
   ``abstract`` cell composes the abstract/summary with its publication date and link.
-- ``step-4-answers-review.xlsx``: the research answers (solution name, RQa-RQh, IC2, IC3) and
+- ``step-4-review.xlsx``: the research answers (solution name, RQa-RQh, IC2, IC3) and
   llm_decision. Step 4 has a SINGLE sheet: the answers carry the evidence the reviewer needs,
   so the verdict is recorded on that same row.
 
@@ -288,7 +288,7 @@ def export_review_sheets() -> dict:
          _screening_review_rows(_step2_rows(), 2), decision_dd, None),
         ("step-3-review.xlsx", ["id", "abstract", "keywords", "llm_decision"] + REVIEW_COLS,
          _screening_review_rows(_step3_rows(), 3), decision_dd, None),
-        ("step-4-answers-review.xlsx", ANSWERS_HEADER, _answers_review_rows(),
+        ("step-4-review.xlsx", ANSWERS_HEADER, _answers_review_rows(),
          ANSWERS_DROPDOWNS, None),
     ]
     counts = {}
@@ -315,14 +315,14 @@ YES_NO = ("yes", "no")
 REVIEWED_SHEETS = {
     2: "step-2-review-reviewed.xlsx",
     3: "step-3-review-reviewed.xlsx",
-    4: "step-4-answers-review-reviewed.xlsx",
+    4: "step-4-review-reviewed.xlsx",
 }
 
 # A step's full sheet is usually already under review by the time the previous step's human
 # verdict admits new records (its residuals), so those cannot simply be appended. They go to a
 # small supplementary sheet instead, read side by side with the main one.
 RESIDUAL_SHEETS = {3: "step-3-residuals-review.xlsx",
-                   4: "step-4-answers-residuals-review.xlsx"}
+                   4: "step-4-residuals-review.xlsx"}
 RESIDUAL_REVIEWED_SHEETS = {step: name.replace(".xlsx", "-reviewed.xlsx")
                             for step, name in RESIDUAL_SHEETS.items()}
 

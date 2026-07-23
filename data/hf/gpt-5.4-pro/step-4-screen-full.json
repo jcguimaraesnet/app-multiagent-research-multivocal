@@ -108,7 +108,8 @@
             "note": "The paper is a primary study proposing a new platform, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF2",
@@ -206,7 +207,8 @@
             "note": "The paper is a primary study proposing a benchmark, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF3",
@@ -303,7 +305,8 @@
             "note": "It is a primary study proposing and evaluating a combined approach, not a secondary/tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF4",
@@ -400,7 +403,8 @@
             "note": "The paper presents a new framework and benchmark with primary empirical evaluation, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF5",
@@ -495,7 +499,8 @@
             "note": "This is a primary study presenting a new framework, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF6",
@@ -592,7 +597,8 @@
             "note": "It is a primary research paper, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF7",
@@ -689,7 +695,8 @@
             "note": "The paper is not a secondary or tertiary study; it proposes a novel framework (StepCoder)."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF8",
@@ -786,7 +793,8 @@
             "note": "The paper is a primary study introducing a new benchmark, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF9",
@@ -884,7 +892,8 @@
             "note": "The paper is a primary study proposing a new technique, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF12",
@@ -979,7 +988,8 @@
             "note": "It is a primary study proposing and evaluating the GLLM tool, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF14",
@@ -1074,7 +1084,8 @@
             "note": "The source is a primary study proposing and implementing a new framework (WebVIA), not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF15",
@@ -1169,7 +1180,8 @@
             "note": "It is a primary study proposing and implementing CodeV, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF17",
@@ -1266,7 +1278,8 @@
             "note": "The paper is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF18",
@@ -1364,7 +1377,8 @@
             "note": "This is a primary study presenting a new model, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF19",
@@ -1461,7 +1475,8 @@
             "note": "The paper is a primary study introducing a new benchmark, not a survey."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF20",
@@ -1556,7 +1571,8 @@
             "note": "The source proposes a new model and framework (primary study), it is not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF21",
@@ -1653,7 +1669,8 @@
             "note": "this is a primary study proposing a new framework, not a secondary or tertiary study"
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF22",
@@ -1748,7 +1765,8 @@
             "note": "The paper is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF23",
@@ -1845,7 +1863,8 @@
             "note": "It is an original research paper, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF25",
@@ -1942,7 +1961,8 @@
             "note": "It is a primary study proposing a novel benchmark, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF26",
@@ -2039,7 +2059,8 @@
             "note": "The paper is a primary study introducing a new dataset and experiments, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF27",
@@ -2134,7 +2155,8 @@
             "note": "The source is a primary study proposing a new framework, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF28",
@@ -2231,7 +2253,8 @@
             "note": "The paper is a primary study introducing a new benchmark and environment, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF30",
@@ -2329,7 +2352,8 @@
             "note": "It is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF31",
@@ -2427,7 +2451,8 @@
             "note": "This paper proposes a new framework and evaluates it; it is not a survey, review, or systematic mapping."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF32",
@@ -2525,7 +2550,8 @@
             "note": "It is a primary study proposing a novel framework, not a survey."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF33",
@@ -2620,7 +2646,8 @@
             "note": "This is a primary study proposing a new system, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF34",
@@ -2717,7 +2744,8 @@
             "note": "This is a primary study proposing and evaluating a novel solution (SuperCoder), not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF40",
@@ -2738,7 +2766,8 @@
             "note": "content unavailable or inaccessible"
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF41",
@@ -2833,7 +2862,8 @@
             "note": "It is a primary study proposing a new language model, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF42",
@@ -2930,7 +2960,8 @@
             "note": "This is an original research paper proposing a new model, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF44",
@@ -3028,7 +3059,8 @@
             "note": "This paper is a primary study introducing a new benchmark and evaluating LLMs, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF47",
@@ -3125,7 +3157,8 @@
             "note": "This paper proposes a novel framework and benchmarks LLMs; it is a primary study, not a secondary or tertiary one."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF49",
@@ -3220,7 +3253,8 @@
             "note": "This is a primary study presenting a new framework and evaluating it, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF52",
@@ -3317,7 +3351,8 @@
             "note": "The paper is an empirical study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF53",
@@ -3416,7 +3451,8 @@
             "note": "The paper is a primary study proposing a new method, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF56",
@@ -3511,7 +3547,8 @@
             "note": "This is a primary study proposing and evaluating a new framework, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF70",
@@ -3609,7 +3646,8 @@
             "note": "The paper proposes a new framework (MLEvolve) and evaluates it empirically; it is not a survey, review, or systematic mapping."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF71",
@@ -3706,7 +3744,8 @@
             "note": "The paper is a primary study presenting a novel synthesis framework, not a survey, review, or systematic mapping."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF72",
@@ -3801,7 +3840,16 @@
             "note": "This is a primary study proposing a new system, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     }
-  ]
+  ],
+  "human_review": {
+    "sheet": "step-4-review-reviewed.xlsx",
+    "applied_at": "2026-07-23T22:32:19.688903+00:00",
+    "reviewed": 40,
+    "human_included": 33,
+    "recovered_from_exclude": 0,
+    "dropped_from_include": 1
+  }
 }

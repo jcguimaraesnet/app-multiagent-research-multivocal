@@ -5,17 +5,21 @@
     "not_reviewed": 0,
     "conflicts": 49,
     "pending": [],
-    "adjudicated_without_conflict": [
-      "GH52",
-      "SC34",
-      "SC41"
-    ]
+    "adjudicated_without_conflict": []
   },
   "step-3": {
     "sheet": "step-3-review-reviewed.xlsx",
     "rows": 318,
     "not_reviewed": 0,
     "conflicts": 65,
+    "pending": [],
+    "adjudicated_without_conflict": []
+  },
+  "step-4": {
+    "sheet": "step-4-review-reviewed.xlsx",
+    "rows": 196,
+    "not_reviewed": 0,
+    "conflicts": 33,
     "pending": [],
     "adjudicated_without_conflict": []
   }

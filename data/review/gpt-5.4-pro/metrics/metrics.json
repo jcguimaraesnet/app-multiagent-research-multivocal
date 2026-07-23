@@ -1,6 +1,6 @@
 {
   "model_experiment": "gpt-5.4-pro",
-  "computed_at": "2026-07-22T03:44:14.986433+00:00",
+  "computed_at": "2026-07-23T22:32:15.001387+00:00",
   "screening": {
     "2": {
       "step": 2,
@@ -151,11 +151,82 @@
         "accuracy": 0.8490566037735849,
         "agreement_pct": 0.7955974842767296
       }
+    },
+    "4": {
+      "step": 4,
+      "reviewed": 196,
+      "pending_review": 0,
+      "pending_adjudication": 0,
+      "conflicts": 33,
+      "conflict_rate": 0.1683673469387755,
+      "adjudication": {
+        "resolved": 33,
+        "sided_with_llm": 16,
+        "sided_with_reviewer1": 17
+      },
+      "by_origin": {
+        "scopus": {
+          "n": 78,
+          "tp": 58,
+          "fp": 2,
+          "fn": 1,
+          "tn": 17,
+          "precision": 0.9666666666666667,
+          "recall": 0.9830508474576272,
+          "f1": 0.9747899159663865,
+          "accuracy": 0.9615384615384616,
+          "agreement_pct": 0.8846153846153846
+        },
+        "google": {
+          "n": 42,
+          "tp": 23,
+          "fp": 4,
+          "fn": 7,
+          "tn": 8,
+          "precision": 0.8518518518518519,
+          "recall": 0.7666666666666667,
+          "f1": 0.8070175438596491,
+          "accuracy": 0.7380952380952381,
+          "agreement_pct": 0.6666666666666666
+        },
+        "github": {
+          "n": 36,
+          "tp": 29,
+          "fp": 1,
+          "fn": 1,
+          "tn": 5,
+          "precision": 0.9666666666666667,
+          "recall": 0.9666666666666667,
+          "f1": 0.9666666666666667,
+          "accuracy": 0.9444444444444444,
+          "agreement_pct": 0.8888888888888888
+        },
+        "hf": {
+          "n": 40,
+          "tp": 33,
+          "fp": 1,
+          "fn": 0,
+          "tn": 6,
+          "precision": 0.9705882352941176,
+          "recall": 1.0,
+          "f1": 0.9850746268656716,
+          "accuracy": 0.975,
+          "agreement_pct": 0.85
+        }
+      },
+      "pooled": {
+        "n": 196,
+        "tp": 143,
+        "fp": 8,
+        "fn": 9,
+        "tn": 36,
+        "precision": 0.9470198675496688,
+        "recall": 0.9407894736842105,
+        "f1": 0.9438943894389439,
+        "accuracy": 0.9132653061224489,
+        "agreement_pct": 0.8316326530612245
+      }
     }
   },
-  "skipped": {
-    "4": [
-      "step-4-answers-review-reviewed.xlsx: missing"
-    ]
-  }
+  "skipped": {}
 }

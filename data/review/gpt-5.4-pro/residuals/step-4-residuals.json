@@ -1,0 +1,104 @@
+{
+  "step": 4,
+  "model_experiment": "gpt-5.4-pro",
+  "sheet": "step-4-review-reviewed.xlsx",
+  "reconciled_at": "2026-07-23T22:32:19.693288+00:00",
+  "by_origin": {
+    "scopus": {
+      "reviewed": 78,
+      "human_included": 59,
+      "recovered_from_exclude": 1,
+      "dropped_from_include": 2
+    },
+    "google": {
+      "reviewed": 42,
+      "human_included": 30,
+      "recovered_from_exclude": 7,
+      "dropped_from_include": 4
+    },
+    "github": {
+      "reviewed": 36,
+      "human_included": 30,
+      "recovered_from_exclude": 1,
+      "dropped_from_include": 1
+    },
+    "hf": {
+      "reviewed": 40,
+      "human_included": 33,
+      "recovered_from_exclude": 0,
+      "dropped_from_include": 1
+    }
+  },
+  "totals": {
+    "reviewed": 196,
+    "human_included": 152,
+    "recovered_from_exclude": 9,
+    "dropped_from_include": 8
+  },
+  "unmatched_sheet_rows": [],
+  "residuals": [
+    {
+      "id": "SC66",
+      "origin": "scopus",
+      "title": "An Empirical Study of Exploring the Capabilities of Large Language Models in Code Learning",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO3",
+      "origin": "google",
+      "title": "Context-aware code generation: RAG and Vertex AI Codey APIs | Google Cloud Blog",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO11",
+      "origin": "google",
+      "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems | Research",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO16",
+      "origin": "google",
+      "title": "Enhancing LLM Code Generation with RAG and AST-Based Chunking",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO19",
+      "origin": "google",
+      "title": "Self-Spec: Model-Authored Specifications for Reliable LLM ...",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO23",
+      "origin": "google",
+      "title": "RAGdeterm: Deterministic retrieval-augmented generation for code generation",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO38",
+      "origin": "google",
+      "title": "An Empirical Study on the Code Refactoring Capability of Large Language Models | ACM Transactions on Software Engineering and Methodology",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO47",
+      "origin": "google",
+      "title": "An empirical comparison of AI assisted software refactoring tools - Scientific Reports",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GH50",
+      "origin": "github",
+      "title": "GitHub - stable-lab/Pro-V: PRO-V: An Efficient Program Generation Multi-Agent System for Automatic RTL Verification",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    }
+  ]
+}

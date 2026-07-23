@@ -105,7 +105,8 @@
             "note": "The work is a primary implementation, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH7",
@@ -201,7 +202,8 @@
             "note": "This is a blog post announcing a toolkit, not a secondary or tertiary study like a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH8",
@@ -298,7 +300,8 @@
             "note": "The source is a GitHub repository for a code editor, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH9",
@@ -394,7 +397,8 @@
             "note": "The source is a primary research model and implementation, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH10",
@@ -491,7 +495,8 @@
             "note": "The source is a model repository README, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH12",
@@ -588,7 +593,8 @@
             "note": "This is a GitHub repository for a software tool, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH14",
@@ -685,7 +691,8 @@
             "note": "It is a primary software project, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH17",
@@ -781,7 +788,8 @@
             "note": "The source is a feedback repository, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH22",
@@ -876,7 +884,8 @@
             "note": "The source is a primary study and implementation, not a review or survey."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH24",
@@ -971,7 +980,8 @@
             "note": "It is a primary study proposing a framework, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH25",
@@ -1067,7 +1077,8 @@
             "note": "This is not a secondary or tertiary study; it is a primary tool implementation."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH26",
@@ -1162,7 +1173,8 @@
             "note": "This is a workshop repository, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH27",
@@ -1258,7 +1270,8 @@
             "note": "It describes a tool implementation, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH30",
@@ -1355,7 +1368,8 @@
             "note": "It describes a primary tool (Refact.ai) and provides repositories, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH31",
@@ -1453,7 +1467,8 @@
             "note": "The source is a primary tool implementation, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH33",
@@ -1548,7 +1563,8 @@
             "note": "The source is a primary project repository, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH35",
@@ -1644,7 +1660,8 @@
             "note": "It describes a tool and plugin implementation, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH36",
@@ -1740,7 +1757,8 @@
             "note": "It is not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH38",
@@ -1836,7 +1854,8 @@
             "note": "It is a GitHub repository for a tool, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH39",
@@ -1933,7 +1952,8 @@
             "note": "The source is a GitHub Action tool, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH41",
@@ -2028,7 +2048,8 @@
             "note": "It is a personal collection of configuration templates, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH42",
@@ -2125,7 +2146,8 @@
             "note": "This is not a secondary or tertiary study; it is a primary tool implementation."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH45",
@@ -2221,7 +2243,8 @@
             "note": "The source is a plugin repository, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH47",
@@ -2317,7 +2340,8 @@
             "note": "The source describes a specific tool (SMELLCC) and its repository, not a survey, review, or systematic mapping."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH48",
@@ -2413,7 +2437,8 @@
             "note": "The source is a tool's README and repository, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH50",
@@ -2508,7 +2533,8 @@
             "note": "The source is a primary solution, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH58",
@@ -2603,7 +2629,8 @@
             "note": "It is a primary description of a tool implementation, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH60",
@@ -2698,7 +2725,8 @@
             "note": "It is a primary tool and repository, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH62",
@@ -2793,7 +2821,8 @@
             "note": "It is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH64",
@@ -2888,7 +2917,8 @@
             "note": "The source is a GitHub repository presenting an original specification and technique, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH72",
@@ -2984,7 +3014,8 @@
             "note": "It is a tool implementation, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH73",
@@ -3081,7 +3112,8 @@
             "note": "It is not a secondary or tertiary study but a primary solution description."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH77",
@@ -3177,7 +3209,8 @@
             "note": "This is a primary implementation repository for a research tool, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH78",
@@ -3274,7 +3307,8 @@
             "note": "The source describes a tool and its code repository, not a secondary/tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH79",
@@ -3369,7 +3403,8 @@
             "note": "The source describes a new algorithm and its implementation, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH80",
@@ -3465,7 +3500,16 @@
             "note": "This is a primary software project repository and not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     }
-  ]
+  ],
+  "human_review": {
+    "sheet": "step-4-review-reviewed.xlsx",
+    "applied_at": "2026-07-23T22:32:19.682007+00:00",
+    "reviewed": 36,
+    "human_included": 30,
+    "recovered_from_exclude": 1,
+    "dropped_from_include": 1
+  }
 }

@@ -107,7 +107,8 @@
             "note": "This is a primary study, not a secondary or tertiary review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC2",
@@ -201,7 +202,8 @@
             "note": "It is an empirical study with a novel technique, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC3",
@@ -297,7 +299,8 @@
             "note": "The paper is a primary study proposing a new approach, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC4",
@@ -393,7 +396,8 @@
             "note": "The paper presents a primary investigation proposing and implementing a data augmentation technique, not a secondary or tertiary study such as a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC5",
@@ -490,7 +494,8 @@
             "note": "The paper presents a novel framework and original experiments, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC6",
@@ -584,7 +589,8 @@
             "note": "The paper is a primary study, not a secondary or tertiary study, so the exclusion does not apply."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC7",
@@ -680,7 +686,8 @@
             "note": "It is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC9",
@@ -774,7 +781,8 @@
             "note": "It is a primary study proposing a new approach, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC10",
@@ -868,7 +876,8 @@
             "note": "The paper is an empirical study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC11",
@@ -964,7 +973,8 @@
             "note": "The paper is a systematic literature review, a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC12",
@@ -1058,7 +1068,8 @@
             "note": "The paper is an original empirical study (controlled experiment), not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC14",
@@ -1154,7 +1165,8 @@
             "note": "The paper is not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC15",
@@ -1251,7 +1263,8 @@
             "note": "The paper is a primary empirical study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC16",
@@ -1348,7 +1361,8 @@
             "note": "This is a primary study presenting a new tool, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC17",
@@ -1442,7 +1456,8 @@
             "note": "It is a primary study proposing a new pruning method, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC18",
@@ -1538,7 +1553,8 @@
             "note": "This is a primary study proposing a new methodology and presenting experimental results, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC21",
@@ -1634,7 +1650,8 @@
             "note": "EC5 is not_met because the paper is a primary study, not a survey, review, or systematic mapping."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC23",
@@ -1730,7 +1747,8 @@
             "note": "The paper is a primary empirical study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC24",
@@ -1826,7 +1844,8 @@
             "note": "This is a primary study proposing and evaluating a novel approach, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC25",
@@ -1920,7 +1939,8 @@
             "note": "It is explicitly labeled a survey and does not present new primary research."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC28",
@@ -2014,7 +2034,8 @@
             "note": "The paper is a primary empirical study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC30",
@@ -2111,7 +2132,8 @@
             "note": "The paper is an original primary study, not a secondary or tertiary review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC34",
@@ -2205,7 +2227,8 @@
             "note": "It is a primary study proposing and empirically evaluating a framework, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC35",
@@ -2302,7 +2325,8 @@
             "note": "the paper is a primary study proposing a new compression method, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC37",
@@ -2396,7 +2420,8 @@
             "note": "This is a primary empirical study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC38",
@@ -2416,7 +2441,8 @@
             "note": "content unavailable or inaccessible"
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC39",
@@ -2510,7 +2536,8 @@
             "note": "It is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC40",
@@ -2606,7 +2633,8 @@
             "note": "The document is a primary study performing its own evaluation, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC41",
@@ -2703,7 +2731,8 @@
             "note": "It is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC43",
@@ -2799,7 +2828,8 @@
             "note": "The paper is a primary study proposing and validating a specific solution, not a secondary or tertiary study like a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC44",
@@ -2895,7 +2925,8 @@
             "note": "The paper is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC45",
@@ -2989,7 +3020,8 @@
             "note": "The paper is a primary study proposing and evaluating a new solution, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC46",
@@ -3086,7 +3118,8 @@
             "note": "The paper is a primary study, not a survey, review, or systematic mapping."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC47",
@@ -3183,7 +3216,8 @@
             "note": "It is not a secondary or tertiary study; it proposes a new framework."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC48",
@@ -3277,7 +3311,8 @@
             "note": "The paper is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC49",
@@ -3371,7 +3406,8 @@
             "note": "The paper is a primary conceptual framework, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC51",
@@ -3465,7 +3501,8 @@
             "note": "This is a primary study presenting an empirical evaluation of ChatGPT for refactoring, not a secondary or tertiary study like a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC52",
@@ -3559,7 +3596,8 @@
             "note": "This is a primary research article, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC54",
@@ -3653,7 +3691,8 @@
             "note": "The paper is a primary study proposing a tool and evaluating it with a case study, not a secondary or tertiary review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC56",
@@ -3750,7 +3789,8 @@
             "note": "The paper is a primary study proposing and evaluating a framework, not a secondary or tertiary review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC58",
@@ -3847,7 +3887,8 @@
             "note": "The paper is a primary study, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC59",
@@ -3943,7 +3984,8 @@
             "note": "It is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC62",
@@ -4039,7 +4081,8 @@
             "note": "The paper is a primary empirical study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC63",
@@ -4135,7 +4178,8 @@
             "note": "The paper is a primary study presenting a new model, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC65",
@@ -4233,7 +4277,8 @@
             "note": "It is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC66",
@@ -4330,7 +4375,8 @@
             "note": "The paper is a primary empirical study, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC67",
@@ -4426,7 +4472,8 @@
             "note": "This is a primary study presenting a novel tool and its empirical evaluation, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC68",
@@ -4522,7 +4569,8 @@
             "note": "This is a primary study proposing and evaluating a new tool; it is not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC69",
@@ -4619,7 +4667,8 @@
             "note": "This is a primary study proposing and evaluating a new approach, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC70",
@@ -4715,7 +4764,8 @@
             "note": "The paper presents a novel tool and its empirical evaluation, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC72",
@@ -4809,7 +4859,8 @@
             "note": "The paper is a primary study proposing a novel framework and reporting original experiments, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC74",
@@ -4905,7 +4956,8 @@
             "note": "The paper is a primary empirical study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC75",
@@ -5002,7 +5054,8 @@
             "note": "This is a primary study proposing a new model, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC76",
@@ -5096,7 +5149,8 @@
             "note": "The paper is a primary empirical study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC78",
@@ -5190,7 +5244,8 @@
             "note": "the paper is a primary study proposing a novel distillation framework with experimental evaluation, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC79",
@@ -5284,7 +5339,8 @@
             "note": "This is a primary research article proposing a novel method, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC82",
@@ -5380,7 +5436,8 @@
             "note": "The paper is a position article that proposes a framework and includes original experiments; it is not a secondary or tertiary study (survey, review, or systematic mapping)."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC83",
@@ -5474,7 +5531,8 @@
             "note": "The paper is not a secondary or tertiary study; it presents a specific tool evaluation and case study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC85",
@@ -5570,7 +5628,8 @@
             "note": "The paper is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC87",
@@ -5666,7 +5725,8 @@
             "note": "It does mention a small literature survey but the main contribution is an original empirical study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC89",
@@ -5760,7 +5820,8 @@
             "note": "This is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC93",
@@ -5854,7 +5915,8 @@
             "note": "The paper proposes a new methodology and is a primary study, not a review or survey."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC94",
@@ -5948,7 +6010,8 @@
             "note": "It is an original research study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC96",
@@ -6044,7 +6107,8 @@
             "note": "The paper is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC97",
@@ -6141,7 +6205,8 @@
             "note": "It is a primary study presenting original work, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC98",
@@ -6237,7 +6302,8 @@
             "note": "The paper is an extensive empirical study (primary study), not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC103",
@@ -6333,7 +6399,8 @@
             "note": "The paper presents a novel tool and its primary empirical evaluation, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC106",
@@ -6429,7 +6496,8 @@
             "note": "It is a primary empirical study, not a secondary or tertiary review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC107",
@@ -6526,7 +6594,8 @@
             "note": "The paper proposes a novel approach (FSCTrans) and is a primary study, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC111",
@@ -6622,7 +6691,8 @@
             "note": "This is a primary study proposing a new model, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC112",
@@ -6718,7 +6788,8 @@
             "note": "It is a primary study proposing a novel approach, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC114",
@@ -6812,7 +6883,8 @@
             "note": "It is a secondary study (a survey) that reviews existing literature."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC115",
@@ -6906,7 +6978,8 @@
             "note": "This is a primary study proposing a new technique, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC116",
@@ -7000,7 +7073,8 @@
             "note": "The paper is a primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC117",
@@ -7094,17 +7168,29 @@
             "note": "The paper is an experience report, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC118",
-      "status": "pending",
+      "status": "screened",
       "data": {
         "title": "A novel hybrid CNN-GRU model for website-based user interface code generator",
         "link": "https://doi.org/10.1080/1206212X.2024.2416955"
       },
       "answers": null,
-      "screening": null
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3 (full text unavailable)",
+        "criteria": {
+          "EC3": {
+            "verdict": "not_met",
+            "note": "Full text could not be obtained (download unavailable); manual retrieval also failed, so the item cannot be assessed."
+          }
+        }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "SC122",
@@ -7200,7 +7286,8 @@
             "note": "The paper is a primary study proposing a new model, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "SC127",
@@ -7298,7 +7385,16 @@
             "note": "This is a primary study comparing deep learning architectures; it is not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     }
-  ]
+  ],
+  "human_review": {
+    "sheet": "step-4-review-reviewed.xlsx",
+    "applied_at": "2026-07-23T22:32:19.665540+00:00",
+    "reviewed": 78,
+    "human_included": 59,
+    "recovered_from_exclude": 1,
+    "dropped_from_include": 2
+  }
 }

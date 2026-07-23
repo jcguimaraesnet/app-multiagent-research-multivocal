@@ -175,13 +175,20 @@ def _check_adjudication(label: str, r2: dict, conflicts: set, expected: tuple) -
 
 def _step_issues(review, step: int) -> list[str]:
     """Completeness issues of one screening step, empty when the step can be scored:
-    ``Review 1`` filled on every row, and ``Review 2`` filled on every conflict."""
+    every screened record has a ``Review 1`` verdict, and ``Review 2`` is filled on every
+    conflict."""
     label = REVIEWED_SHEETS[step]
     r1 = first_pass_column(review, step)
     issues = _check_review(label, r1, INCLUDE_EXCLUDE)
     if issues:
         return issues
     llm = {rid: d for _, rid, d in _llm_by_origin(step)}
+    # Coverage: every record the model screened must have a verdict, so a survivor that never
+    # made it onto a sheet (e.g. a late residual) is caught instead of being silently dropped.
+    uncovered = sorted(rid for rid in llm if r1.get(rid) not in INCLUDE_EXCLUDE)
+    if uncovered:
+        return [f"{label}: {len(uncovered)} screened record(s) have no '{R1_COL}' verdict "
+                f"({', '.join(uncovered[:8])})"]
     conflicts = {rid for rid, value in r1.items()
                  if value in INCLUDE_EXCLUDE and llm.get(rid) and llm[rid] != value}
     r2 = reviewed_column(review, step, R2_COL) or {}

@@ -105,7 +105,8 @@
             "note": "Article is a tutorial and demonstration of a solution, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO2",
@@ -201,7 +202,8 @@
             "note": "The source is a presentation of a concrete solution, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO3",
@@ -296,7 +298,8 @@
             "note": "the article is a technical blog post, not a secondary/tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO5",
@@ -391,7 +394,8 @@
             "note": "The source is a blog post presenting a new framework, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO6",
@@ -484,17 +488,29 @@
             "note": "It is a primary study proposing a new technique, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO7",
-      "status": "pending",
+      "status": "screened",
       "data": {
         "title": "Lessons learned from implementing RAG for code generation",
         "link": "https://www.reddit.com/r/LLMDevs/comments/1hw1n5o/lessons_learned_from_implementing_rag_for_code/"
       },
       "answers": null,
-      "screening": null
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: EC3 (full text unavailable)",
+        "criteria": {
+          "EC3": {
+            "verdict": "not_met",
+            "note": "Full text could not be obtained (download unavailable); manual retrieval also failed, so the item cannot be assessed."
+          }
+        }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO8",
@@ -589,7 +605,8 @@
             "note": "The article is a tutorial/blog post, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO9",
@@ -682,7 +699,8 @@
             "note": "The blog is a primary description of a project, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO10",
@@ -775,7 +793,8 @@
             "note": "The article is not a secondary or tertiary study; it is an educational piece."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO11",
@@ -868,7 +887,8 @@
             "note": "The paper is a primary study proposing a new system, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO12",
@@ -963,7 +983,8 @@
             "note": "It is an educational webinar, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO15",
@@ -1058,7 +1079,8 @@
             "note": "The paper presents a new evaluation framework, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO16",
@@ -1153,7 +1175,8 @@
             "note": "The source is a blog post describing a technique, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO18",
@@ -1249,7 +1272,8 @@
             "note": "This is a primary research article proposing a new method, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO19",
@@ -1342,7 +1366,8 @@
             "note": "The text is a browser verification page, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO22",
@@ -1438,7 +1463,8 @@
             "note": "This is a blog post describing a single method (Repoformer), not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO23",
@@ -1531,7 +1557,8 @@
             "note": "It is a primary study proposing a new approach, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO24",
@@ -1626,7 +1653,8 @@
             "note": "The source is a blog post demonstrating a practical tool and is not a secondary study such as a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO25",
@@ -1721,7 +1749,8 @@
             "note": "The paper presents an original framework and experimental evaluation, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO26",
@@ -1814,7 +1843,8 @@
             "note": "It is a conference talk, not a survey, review, or systematic mapping."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO30",
@@ -1907,7 +1937,8 @@
             "note": "This is an empirical study, not a secondary/tertiary study (survey, review, or mapping)."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO31",
@@ -2004,7 +2035,8 @@
             "note": "It is a guide, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO32",
@@ -2097,7 +2129,8 @@
             "note": "The source is a product announcement blog, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO34",
@@ -2192,7 +2225,8 @@
             "note": "The source is a podcast discussion, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO36",
@@ -2287,7 +2321,8 @@
             "note": "This is a blog post describing a practical solution, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO37",
@@ -2380,7 +2415,8 @@
             "note": "The blog post is a practical article with examples, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO38",
@@ -2473,7 +2509,8 @@
             "note": "It is a primary empirical study, not a secondary or tertiary review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO40",
@@ -2568,7 +2605,8 @@
             "note": "Not met; it is a blog post describing personal use of a tool, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO44",
@@ -2661,7 +2699,8 @@
             "note": "The blog is not a secondary or tertiary study; it is a general conceptual article."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO47",
@@ -2754,7 +2793,8 @@
             "note": "The paper is a primary empirical study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO49",
@@ -2849,7 +2889,8 @@
             "note": "Not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO53",
@@ -2945,7 +2986,8 @@
             "note": "It is a primary paper, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO54",
@@ -3038,7 +3080,8 @@
             "note": "This is a primary study proposing and evaluating an improvement framework, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO58",
@@ -3133,7 +3176,8 @@
             "note": "The paper presents original research, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO62",
@@ -3226,7 +3270,8 @@
             "note": "not_met"
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO64",
@@ -3322,7 +3367,8 @@
             "note": "The source is a primary forum post, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO77",
@@ -3417,7 +3463,8 @@
             "note": "The source is a blog post describing original research, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO79",
@@ -3510,7 +3557,8 @@
             "note": "The source is a virtual seminar, not a secondary or tertiary study"
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO86",
@@ -3605,7 +3653,8 @@
             "note": "It is a primary study presenting a new framework, not a secondary/tertiary review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO88",
@@ -3698,7 +3747,8 @@
             "note": "It is an original primary study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO92",
@@ -3793,7 +3843,8 @@
             "note": "This is an original research article, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO94",
@@ -3886,7 +3937,16 @@
             "note": "The blog is not a survey, review, or systematic mapping."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     }
-  ]
+  ],
+  "human_review": {
+    "sheet": "step-4-review-reviewed.xlsx",
+    "applied_at": "2026-07-23T22:32:19.676894+00:00",
+    "reviewed": 42,
+    "human_included": 30,
+    "recovered_from_exclude": 7,
+    "dropped_from_include": 4
+  }
 }
