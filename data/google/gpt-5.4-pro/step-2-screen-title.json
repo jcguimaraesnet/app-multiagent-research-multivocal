@@ -13,7 +13,8 @@
       "link": "https://medium.com/@rubenszimbres/code-generation-using-retrieval-augmented-generation-langchain-861e3c1a1a53",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns code generation and names retrieval-augmented generation and LangChain, indicating a generative AI solution for coding."
+      "reason": "The title explicitly concerns code generation and names retrieval-augmented generation and LangChain, indicating a generative AI solution for coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO2",
@@ -21,7 +22,8 @@
       "link": "https://www.youtube.com/watch?v=cObBj2UpWK8",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions RAG and code generation, which directly aligns with generative AI for software construction."
+      "reason": "The title explicitly mentions RAG and code generation, which directly aligns with generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO3",
@@ -29,7 +31,8 @@
       "link": "https://cloud.google.com/blog/products/ai-machine-learning/context-aware-code-generation-rag-and-vertex-ai-codey-apis",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns context-aware code generation using RAG and Vertex AI Codey APIs, which strongly indicates a generative AI solution for coding."
+      "reason": "The title explicitly concerns context-aware code generation using RAG and Vertex AI Codey APIs, which strongly indicates a generative AI solution for coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO4",
@@ -37,7 +40,8 @@
       "link": "https://arxiv.org/html/2510.04905v1",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns retrieval-augmented code generation, which is directly relevant to generative AI for software coding."
+      "reason": "The title explicitly concerns retrieval-augmented code generation, which is directly relevant to generative AI for software coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO5",
@@ -45,7 +49,8 @@
       "link": "https://www.vanderschaar-lab.com/l2mac/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions a large language model for extensive code generation, which directly matches generative AI for software construction."
+      "reason": "The title explicitly mentions a large language model for extensive code generation, which directly matches generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO6",
@@ -53,7 +58,8 @@
       "link": "https://www.sciencedirect.com/science/article/pii/S2352711026001299",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly describes a retrieval-augmented generation approach for code generation, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly describes a retrieval-augmented generation approach for code generation, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO7",
@@ -61,7 +67,8 @@
       "link": "https://www.reddit.com/r/LLMDevs/comments/1hw1n5o/lessons_learned_from_implementing_rag_for_code/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions implementing RAG for code generation, which is directly about generative AI applied to software coding."
+      "reason": "The title explicitly mentions implementing RAG for code generation, which is directly about generative AI applied to software coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO8",
@@ -69,7 +76,8 @@
       "link": "https://learnopencv.com/langgraph-self-correcting-agent-code-generation/",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title clearly concerns a generative AI/RAG agent, and although it does not explicitly mention coding or software construction, it is not clearly irrelevant from the title alone."
+      "reason": "The title clearly concerns a generative AI/RAG agent, and although it does not explicitly mention coding or software construction, it is not clearly irrelevant from the title alone.",
+      "human_decision": "include"
     },
     {
       "id": "GO9",
@@ -77,7 +85,8 @@
       "link": "https://blogs.sw.siemens.com/tecnomatix/retrieval-augmented-generation-rag-and-llms-for-smart-code-generation-advancing-plant-simulation-simtalk-and-beyond/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions RAG and LLMs applied to smart code generation for SimTalk, which is clearly relevant to generative AI for coding."
+      "reason": "The title explicitly mentions RAG and LLMs applied to smart code generation for SimTalk, which is clearly relevant to generative AI for coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO10",
@@ -85,7 +94,8 @@
       "link": "https://www.sonarsource.com/resources/library/owasp-llm-code-generation/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions LLMs and code generation, making it plausibly relevant to generative AI for software construction."
+      "reason": "The title explicitly mentions LLMs and code generation, making it plausibly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO11",
@@ -93,7 +103,8 @@
       "link": "https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title focuses on LLM-based hardware RTL code generation, which is clearly about hardware design rather than software construction."
+      "reason": "The title focuses on LLM-based hardware RTL code generation, which is clearly about hardware design rather than software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO12",
@@ -101,7 +112,8 @@
       "link": "https://www.youtube.com/watch?v=eaTIrJnkuNI",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns LLMs applied to code generation, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns LLMs applied to code generation, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO13",
@@ -109,7 +121,8 @@
       "link": "https://ai.meta.com/research/publications/cwm-an-open-weights-llm-for-research-on-code-generation-with-world-models/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly describes an open-weights LLM focused on code, which is plausibly relevant to generative AI for software construction."
+      "reason": "The title explicitly describes an open-weights LLM focused on code, which is plausibly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO14",
@@ -117,7 +130,8 @@
       "link": "https://code-rag-bench.github.io/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title clearly concerns code generation and retrieval augmentation, which plausibly relates to generative AI for software construction."
+      "reason": "The title clearly concerns code generation and retrieval augmentation, which plausibly relates to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO15",
@@ -125,7 +139,8 @@
       "link": "https://aclanthology.org/2025.acl-demo.48/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns LLM-based code generation, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns LLM-based code generation, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO16",
@@ -133,7 +148,8 @@
       "link": "https://vxrl.medium.com/enhancing-llm-code-generation-with-rag-and-ast-based-chunking-5b81902ae9fc",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns LLM-based code generation, a generative AI solution for software construction."
+      "reason": "The title explicitly concerns LLM-based code generation, a generative AI solution for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO17",
@@ -141,7 +157,8 @@
       "link": "https://github.blog/ai-and-ml/generative-ai/how-ai-code-generation-works/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns AI-based code generation, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns AI-based code generation, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO18",
@@ -149,7 +166,8 @@
       "link": "https://dl.acm.org/doi/10.1145/3643795.3648384",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns LLM-based and retrieval-augmented code generation, which is directly about generative AI for software coding."
+      "reason": "The title explicitly concerns LLM-based and retrieval-augmented code generation, which is directly about generative AI for software coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO19",
@@ -157,7 +175,8 @@
       "link": "https://openreview.net/forum?id=6pr7BUGkLp",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title explicitly concerns LLMs, but its connection to software construction or coding is unclear from the title alone, so it should be retained for high-recall screening."
+      "reason": "The title explicitly concerns LLMs, but its connection to software construction or coding is unclear from the title alone, so it should be retained for high-recall screening.",
+      "human_decision": "include"
     },
     {
       "id": "GO20",
@@ -165,7 +184,8 @@
       "link": "https://martinfowler.com/articles/pushing-ai-autonomy.html",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns AI autonomy in code generation, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns AI autonomy in code generation, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO21",
@@ -173,7 +193,8 @@
       "link": "https://www.coursera.org/learn/generative-ai-for-code-completion",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly targets generative AI applied to code completion, a core software construction activity."
+      "reason": "The title explicitly targets generative AI applied to code completion, a core software construction activity.",
+      "human_decision": "include"
     },
     {
       "id": "GO22",
@@ -181,7 +202,8 @@
       "link": "https://www.amazon.science/blog/enhancing-repository-level-code-completion-with-selective-retrieval",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title clearly concerns software coding via repository-level code completion, and the retrieval-based enhancement could plausibly be part of a generative AI coding solution."
+      "reason": "The title clearly concerns software coding via repository-level code completion, and the retrieval-based enhancement could plausibly be part of a generative AI coding solution.",
+      "human_decision": "include"
     },
     {
       "id": "GO23",
@@ -189,7 +211,8 @@
       "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5986423",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions retrieval-augmented generation and code generation, indicating a generative AI approach for software coding."
+      "reason": "The title explicitly mentions retrieval-augmented generation and code generation, indicating a generative AI approach for software coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO24",
@@ -197,7 +220,8 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/code-generation-using-code-llama-70b-and-mixtral-8x7b-on-amazon-sagemaker/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns code generation using Code Llama and Mixtral models, which is directly relevant to generative AI for software coding."
+      "reason": "The title explicitly concerns code generation using Code Llama and Mixtral models, which is directly relevant to generative AI for software coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO25",
@@ -205,7 +229,8 @@
       "link": "https://arxiv.org/html/2504.10046v1",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title clearly concerns code generation and code retrieval, and 'CodeRAG' strongly suggests a generative AI/RAG-based coding solution."
+      "reason": "The title clearly concerns code generation and code retrieval, and 'CodeRAG' strongly suggests a generative AI/RAG-based coding solution.",
+      "human_decision": "include"
     },
     {
       "id": "GO26",
@@ -213,7 +238,8 @@
       "link": "https://www.youtube.com/watch?v=u8tvVxUOwvY",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title clearly concerns AI-driven code refactoring for legacy codebases, which is relevant to software construction/coding."
+      "reason": "The title clearly concerns AI-driven code refactoring for legacy codebases, which is relevant to software construction/coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO27",
@@ -221,7 +247,8 @@
       "link": "https://www.ibm.com/think/topics/ai-code-refactoring",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly refers to AI applied to code refactoring, which is a software construction activity."
+      "reason": "The title explicitly refers to AI applied to code refactoring, which is a software construction activity.",
+      "human_decision": "include"
     },
     {
       "id": "GO28",
@@ -229,7 +256,8 @@
       "link": "https://amanagrawal.blog/2025/05/06/some-observations-on-ai-agentic-refactoring/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions AI/agentic refactoring, which is plausibly about generative AI applied to software code restructuring."
+      "reason": "The title explicitly mentions AI/agentic refactoring, which is plausibly about generative AI applied to software code restructuring.",
+      "human_decision": "include"
     },
     {
       "id": "GO29",
@@ -237,7 +265,8 @@
       "link": "https://getdx.com/blog/enterprise-ai-refactoring-best-practices/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns AI for code refactoring and enterprise software modernization, which is plausibly relevant to generative AI solutions for software construction."
+      "reason": "The title explicitly concerns AI for code refactoring and enterprise software modernization, which is plausibly relevant to generative AI solutions for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO30",
@@ -245,7 +274,8 @@
       "link": "https://arxiv.org/abs/2511.04824",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title clearly concerns software refactoring and AI coding agents, which plausibly involves generative AI for coding."
+      "reason": "The title clearly concerns software refactoring and AI coding agents, which plausibly involves generative AI for coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO31",
@@ -253,7 +283,8 @@
       "link": "https://www.augmentcode.com/tools/ai-code-refactoring-tools-tactics-and-best-practices",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title clearly concerns AI applied to code refactoring, which is a software construction/coding activity."
+      "reason": "The title clearly concerns AI applied to code refactoring, which is a software construction/coding activity.",
+      "human_decision": "include"
     },
     {
       "id": "GO32",
@@ -261,7 +292,8 @@
       "link": "https://codescene.com/blog/ai-coding-assistant-introducing-ai-generated-code-refactoring",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns AI-generated code refactoring, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns AI-generated code refactoring, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO33",
@@ -269,7 +301,8 @@
       "link": "https://www.reddit.com/r/ExperiencedDevs/comments/1o4zi8g/large_scale_refactoring_with_llm_any_experience/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions large-scale software refactoring using an LLM, which is directly relevant to generative AI for coding."
+      "reason": "The title explicitly mentions large-scale software refactoring using an LLM, which is directly relevant to generative AI for coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO34",
@@ -277,7 +310,8 @@
       "link": "https://www.youtube.com/watch?v=Kx7eIYxKARk",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title plausibly concerns AI applied to software refactoring, which is a software construction activity relevant to coding."
+      "reason": "The title plausibly concerns AI applied to software refactoring, which is a software construction activity relevant to coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO35",
@@ -285,7 +319,8 @@
       "link": "https://www.infoworld.com/article/3610521/refactoring-ai-code-the-good-the-bad-and-the-weird.html",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title explicitly mentions code refactoring and AI, making it plausibly relevant to AI-related software construction despite the ambiguity."
+      "reason": "The title explicitly mentions code refactoring and AI, making it plausibly relevant to AI-related software construction despite the ambiguity.",
+      "human_decision": "include"
     },
     {
       "id": "GO36",
@@ -293,7 +328,8 @@
       "link": "https://www.moderne.ai/blog/ai-assisted-refactoring-in-the-moderne-platform",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions AI-assisted refactoring, which is a software construction activity plausibly involving generative AI."
+      "reason": "The title explicitly mentions AI-assisted refactoring, which is a software construction activity plausibly involving generative AI.",
+      "human_decision": "include"
     },
     {
       "id": "GO37",
@@ -301,7 +337,8 @@
       "link": "https://tomassetti.me/automatic-code-refactoring-with-ai/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns AI applied to automatic code refactoring, which is a software construction activity."
+      "reason": "The title explicitly concerns AI applied to automatic code refactoring, which is a software construction activity.",
+      "human_decision": "include"
     },
     {
       "id": "GO38",
@@ -309,7 +346,8 @@
       "link": "https://dl.acm.org/doi/10.1145/3801158",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns large language models applied to code refactoring, which is a software construction activity."
+      "reason": "The title explicitly concerns large language models applied to code refactoring, which is a software construction activity.",
+      "human_decision": "include"
     },
     {
       "id": "GO39",
@@ -317,7 +355,8 @@
       "link": "https://www.tabnine.com/blog/code-refactoring-with-generative-ai/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns code refactoring and automation using generative AI, which is directly relevant to AI-supported software construction."
+      "reason": "The title explicitly concerns code refactoring and automation using generative AI, which is directly relevant to AI-supported software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO40",
@@ -325,7 +364,8 @@
       "link": "https://understandlegacycode.com/blog/can-ai-refactor-legacy-code/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title directly mentions AI applied to refactoring legacy code, which is software construction/coding."
+      "reason": "The title directly mentions AI applied to refactoring legacy code, which is software construction/coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO41",
@@ -333,7 +373,8 @@
       "link": "https://www.janeasystems.com/blog/ai-and-refactoring-part-1",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions AI and code refactoring, which is directly relevant to generative AI support for software construction."
+      "reason": "The title explicitly mentions AI and code refactoring, which is directly relevant to generative AI support for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO42",
@@ -341,7 +382,8 @@
       "link": "https://seal-queensu.github.io/publications/pdf/IDE-Jonathan-2025.pdf",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns LLM-driven code refactoring, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns LLM-driven code refactoring, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO43",
@@ -349,7 +391,8 @@
       "link": "https://graphite.com/guides/what-is-ai-code-refactoring",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns AI applied to code refactoring, which is a software construction activity."
+      "reason": "The title explicitly concerns AI applied to code refactoring, which is a software construction activity.",
+      "human_decision": "include"
     },
     {
       "id": "GO44",
@@ -357,7 +400,8 @@
       "link": "https://medium.com/@azirotechnologies/code-refactoring-with-agentic-ai-and-reinforcement-learning-e7f30a59397c",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns code refactoring and uses agentic AI with reinforcement learning, making it plausibly relevant to generative AI for coding."
+      "reason": "The title explicitly concerns code refactoring and uses agentic AI with reinforcement learning, making it plausibly relevant to generative AI for coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO45",
@@ -365,7 +409,8 @@
       "link": "https://www.youtube.com/watch?v=f84XbvASkk4",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns AI-assisted code refactoring and safe code changes, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns AI-assisted code refactoring and safe code changes, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO46",
@@ -373,7 +418,8 @@
       "link": "https://www.linkedin.com/pulse/automating-net-9-code-refactoring-ai-driven-codemods-shergilashvili-regtf",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title clearly concerns software code refactoring in .NET and explicitly mentions AI-driven codemods."
+      "reason": "The title clearly concerns software code refactoring in .NET and explicitly mentions AI-driven codemods.",
+      "human_decision": "include"
     },
     {
       "id": "GO47",
@@ -381,7 +427,8 @@
       "link": "https://www.nature.com/articles/s41598-026-49590-0",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title explicitly concerns AI-assisted software refactoring tools, which is plausibly about AI support for coding activities."
+      "reason": "The title explicitly concerns AI-assisted software refactoring tools, which is plausibly about AI support for coding activities.",
+      "human_decision": "include"
     },
     {
       "id": "GO48",
@@ -389,7 +436,8 @@
       "link": "https://www.atlassian.com/blog/development/how-to-effectively-utilise-ai-to-enhance-large-scale-refactoring",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title explicitly concerns AI applied to large-scale refactoring, which is a software construction activity plausibly relevant to generative AI solutions for coding."
+      "reason": "The title explicitly concerns AI applied to large-scale refactoring, which is a software construction activity plausibly relevant to generative AI solutions for coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO49",
@@ -397,7 +445,8 @@
       "link": "https://www.morphllm.com/automated-code-refactoring",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title clearly concerns code refactoring in software development and describes it as AI-powered, making it plausibly relevant to Generative AI for coding."
+      "reason": "The title clearly concerns code refactoring in software development and describes it as AI-powered, making it plausibly relevant to Generative AI for coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO50",
@@ -405,7 +454,8 @@
       "link": "https://community.openai.com/t/any-ai-tools-for-software-project-refactoring-exist/736992",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title explicitly mentions AI tools for software project refactoring, which is plausibly about AI-supported coding activity."
+      "reason": "The title explicitly mentions AI tools for software project refactoring, which is plausibly about AI-supported coding activity.",
+      "human_decision": "include"
     },
     {
       "id": "GO51",
@@ -413,7 +463,8 @@
       "link": "https://www.sciencedirect.com/science/article/abs/pii/S0950584925003167",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns LLM-based program generation, which is directly relevant to generative AI for coding."
+      "reason": "The title explicitly concerns LLM-based program generation, which is directly relevant to generative AI for coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO52",
@@ -421,7 +472,8 @@
       "link": "https://evanthebouncy.github.io/program-synthesis-minimal/generation-with-llm/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions a fine-tuned LLM used as program writers, which directly suggests generative AI for coding."
+      "reason": "The title explicitly mentions a fine-tuned LLM used as program writers, which directly suggests generative AI for coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO53",
@@ -429,7 +481,8 @@
       "link": "https://www.youtube.com/watch?v=48YDX3rMR6U",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title suggests an interactive prompt-driven system for generating XR programs, which plausibly fits generative AI applied to software construction."
+      "reason": "The title suggests an interactive prompt-driven system for generating XR programs, which plausibly fits generative AI applied to software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO54",
@@ -437,7 +490,8 @@
       "link": "https://arxiv.org/abs/2506.22954",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns large language models applied to program generation, which is directly relevant to generative AI for coding."
+      "reason": "The title explicitly concerns large language models applied to program generation, which is directly relevant to generative AI for coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO55",
@@ -445,7 +499,8 @@
       "link": "https://icml.cc/virtual/2026/poster/62121",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title is about LLM-driven CAD/model generation in a computer-aided design context, not software construction or coding activities."
+      "reason": "The title is about LLM-driven CAD/model generation in a computer-aided design context, not software construction or coding activities.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO56",
@@ -453,7 +508,8 @@
       "link": "https://dl.acm.org/doi/10.1145/3641540",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns language models used for program generation, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns language models used for program generation, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO57",
@@ -461,7 +517,8 @@
       "link": "https://www.linkedin.com/pulse/best-practices-high-quality-high-accuracy-program-generation-toda-rnlqe",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns program generation for coding using generative AI, which is directly relevant to software construction."
+      "reason": "The title explicitly concerns program generation for coding using generative AI, which is directly relevant to software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO58",
@@ -469,7 +526,8 @@
       "link": "https://www.usenix.org/conference/osdi24/presentation/zhai",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly describes a language model assisting in generating tensor programs, which is a generative AI approach to code generation."
+      "reason": "The title explicitly describes a language model assisting in generating tensor programs, which is a generative AI approach to code generation.",
+      "human_decision": "include"
     },
     {
       "id": "GO59",
@@ -477,7 +535,8 @@
       "link": "https://machinelearning.apple.com/research/aspera",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title describes a simulated environment for evaluating planning and action execution, not software construction or coding."
+      "reason": "The title describes a simulated environment for evaluating planning and action execution, not software construction or coding.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO60",
@@ -485,7 +544,8 @@
       "link": "https://ieeexplore.ieee.org/document/10567741/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions large language models used for test program generation, which is plausibly a coding-related software construction activity."
+      "reason": "The title explicitly mentions large language models used for test program generation, which is plausibly a coding-related software construction activity.",
+      "human_decision": "include"
     },
     {
       "id": "GO61",
@@ -493,7 +553,8 @@
       "link": "https://www.microsoft.com/en/customers/story/26357-arum-azure-ai-search",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title is about applying an LLM/Azure AI to machining centers in manufacturing, not about software construction or coding activities."
+      "reason": "The title is about applying an LLM/Azure AI to machining centers in manufacturing, not about software construction or coding activities.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO62",
@@ -501,7 +562,8 @@
       "link": "https://openreview.net/forum?id=xcLrUIeGo3",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title explicitly concerns generating automotive C programs, which is a software construction task, but the generative AI/LLM aspect is unclear from the truncated title."
+      "reason": "The title explicitly concerns generating automotive C programs, which is a software construction task, but the generative AI/LLM aspect is unclear from the truncated title.",
+      "human_decision": "include"
     },
     {
       "id": "GO63",
@@ -509,7 +571,8 @@
       "link": "https://aclanthology.org/2024.acl-long.545/",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title is about knowledge graph question answering via symbolic program generation, not software construction or coding activities."
+      "reason": "The title is about knowledge graph question answering via symbolic program generation, not software construction or coding activities.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO64",
@@ -517,7 +580,8 @@
       "link": "https://community.openai.com/t/convo-a-conversational-programming-language/969667",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title concerns programming and suggests a conversational approach that could plausibly relate to generative AI-assisted coding."
+      "reason": "The title concerns programming and suggests a conversational approach that could plausibly relate to generative AI-assisted coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO65",
@@ -525,7 +589,8 @@
       "link": "https://prior.allenai.org/projects/visprog",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title suggests a computer vision/visual reasoning method using visual programming, not a generative AI solution for software construction or coding tasks."
+      "reason": "The title suggests a computer vision/visual reasoning method using visual programming, not a generative AI solution for software construction or coding tasks.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO66",
@@ -533,7 +598,8 @@
       "link": "https://www.solitontech.com/generative-ai/",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title mentions generative AI but does not make clear whether the test and measurement workflows involve software construction or coding."
+      "reason": "The title mentions generative AI but does not make clear whether the test and measurement workflows involve software construction or coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO67",
@@ -541,7 +607,8 @@
       "link": "https://victordibia.com/blog/deep-learning-code-generation/",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns deep learning for code generation, which is directly relevant to generative AI in software construction."
+      "reason": "The title explicitly concerns deep learning for code generation, which is directly relevant to generative AI in software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO68",
@@ -549,7 +616,8 @@
       "link": "https://github.com/codefuse-ai/awesome-code-llm",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly refers to code-focused LLMs, making it clearly relevant to generative AI for software construction."
+      "reason": "The title explicitly refers to code-focused LLMs, making it clearly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO69",
@@ -557,7 +625,8 @@
       "link": "https://open.spotify.com/episode/2uv9WzmpOfSjsr1PxIUsHl",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title appears to be about the LSTM neural network itself or its history, not about generative AI applied to software construction or coding."
+      "reason": "The title appears to be about the LSTM neural network itself or its history, not about generative AI applied to software construction or coding.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO70",
@@ -565,7 +634,8 @@
       "link": "https://nlp.asu.edu/research/",
       "decision": "exclude",
       "confidence": "medium",
-      "reason": "The title indicates a generic NLP research group page and does not plausibly point to software construction or coding activities."
+      "reason": "The title indicates a generic NLP research group page and does not plausibly point to software construction or coding activities.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO71",
@@ -573,7 +643,8 @@
       "link": "https://medium.com/@techsachin/autopresent-llm-model-for-slide-generation-with-results-comparable-to-gpt-4o-3350f19a2d9d",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title indicates an LLM for slide generation rather than a solution for software construction or coding activities."
+      "reason": "The title indicates an LLM for slide generation rather than a solution for software construction or coding activities.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO72",
@@ -581,7 +652,8 @@
       "link": "https://dev.to/kurtmultivaluedev/u2-unidata-with-low-code-ai-uofast-vectorshift-rag-integration-mh8",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title suggests an AI/RAG integration in a software or data platform, and the coding-related context is too unclear to exclude at title screening."
+      "reason": "The title suggests an AI/RAG integration in a software or data platform, and the coding-related context is too unclear to exclude at title screening.",
+      "human_decision": "include"
     },
     {
       "id": "GO73",
@@ -589,7 +661,8 @@
       "link": "https://www.emergentmind.com/topics/llm-generated-numerical-representations",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title mentions LLMs but does not clearly specify the software construction context, so it should be retained at title screening."
+      "reason": "The title mentions LLMs but does not clearly specify the software construction context, so it should be retained at title screening.",
+      "human_decision": "include"
     },
     {
       "id": "GO74",
@@ -597,7 +670,8 @@
       "link": "https://joezhouai.com/research/",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too vague to determine relevance, so it should be retained for later screening."
+      "reason": "The title is too vague to determine relevance, so it should be retained for later screening.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO75",
@@ -605,7 +679,8 @@
       "link": "https://link.springer.com/article/10.1007/s11227-025-08034-8",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title is about deploying LLMs in edge–cloud environments and does not indicate any software construction or coding activity."
+      "reason": "The title is about deploying LLMs in edge–cloud environments and does not indicate any software construction or coding activity.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO76",
@@ -613,7 +688,8 @@
       "link": "https://www.linkedin.com/posts/robert-tjarko-lange-19539a12a_introducing-shinkaevolve-an-open-source-activity-7377023062929588224-2Gil",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions an LLM-driven approach for program evolution, which is directly relevant to generative AI in software construction."
+      "reason": "The title explicitly mentions an LLM-driven approach for program evolution, which is directly relevant to generative AI in software construction.",
+      "human_decision": "include"
     },
     {
       "id": "GO77",
@@ -621,7 +697,8 @@
       "link": "https://sakana.ai/drq/",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title explicitly mentions LLMs and program evolution, which plausibly concerns generative AI applied to creating or evolving code."
+      "reason": "The title explicitly mentions LLMs and program evolution, which plausibly concerns generative AI applied to creating or evolving code.",
+      "human_decision": "include"
     },
     {
       "id": "GO78",
@@ -629,7 +706,8 @@
       "link": "https://arxiv.org/abs/2606.05408",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions LLM-driven program evolution, which is plausibly about generative AI applied to software/code development."
+      "reason": "The title explicitly mentions LLM-driven program evolution, which is plausibly about generative AI applied to software/code development.",
+      "human_decision": "include"
     },
     {
       "id": "GO79",
@@ -637,7 +715,8 @@
       "link": "https://www.youtube.com/watch?v=dAOIer_1INo",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title suggests a solution related to program evolution in software, and the AI/Generative aspect is unclear from the title alone."
+      "reason": "The title suggests a solution related to program evolution in software, and the AI/Generative aspect is unclear from the title alone.",
+      "human_decision": "include"
     },
     {
       "id": "GO80",
@@ -645,7 +724,8 @@
       "link": "https://openreview.net/forum?id=lKEdGCoDNC",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is truncated and too vague to determine irrelevance, so it should be retained at this high-recall screening stage."
+      "reason": "The title is truncated and too vague to determine irrelevance, so it should be retained at this high-recall screening stage.",
+      "human_decision": "include"
     },
     {
       "id": "GO81",
@@ -653,7 +733,8 @@
       "link": "https://microsoft.simplilearn.com/applied-gen-ai-course",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title clearly concerns generative AI, and while coding is not explicit, its relevance to software construction cannot be ruled out from the title alone."
+      "reason": "The title clearly concerns generative AI, and while coding is not explicit, its relevance to software construction cannot be ruled out from the title alone.",
+      "human_decision": "include"
     },
     {
       "id": "GO82",
@@ -661,7 +742,8 @@
       "link": "https://bootcamp.engin.umich.edu/certifications/applied-gen-ai-course",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title explicitly mentions generative AI and coding, but it is unclear from the title alone whether it concerns a software construction solution or a training program."
+      "reason": "The title explicitly mentions generative AI and coding, but it is unclear from the title alone whether it concerns a software construction solution or a training program.",
+      "human_decision": "include"
     },
     {
       "id": "GO83",
@@ -669,7 +751,8 @@
       "link": "https://www.youtube.com/watch?v=IyYr2kUG0iI",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title describes a general beginner course on generative AI and does not plausibly indicate a focus on software construction or coding activities."
+      "reason": "The title describes a general beginner course on generative AI and does not plausibly indicate a focus on software construction or coding activities.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO84",
@@ -677,7 +760,8 @@
       "link": "https://www.linkedin.com/posts/sameer-dev-67b85725_coursera-online-courses-credentials-from-activity-7390862787050266624-HBxX",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title is about general takeaways from an IBM RAG and agentic AI specialization on LinkedIn, with no indication of software construction or coding."
+      "reason": "The title is about general takeaways from an IBM RAG and agentic AI specialization on LinkedIn, with no indication of software construction or coding.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO85",
@@ -685,7 +769,8 @@
       "link": "https://x.com/RobertTLange/status/1971189343235592219",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title appears to be a social media profile page and does not indicate any connection to generative AI or software coding."
+      "reason": "The title appears to be a social media profile page and does not indicate any connection to generative AI or software coding.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO86",
@@ -693,7 +778,8 @@
       "link": "https://iclr.cc/virtual/2026/poster/10007692",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title suggests a solution about program evolution, which is plausibly relevant to software/code evolution, and the AI approach is unclear from the title alone."
+      "reason": "The title suggests a solution about program evolution, which is plausibly relevant to software/code evolution, and the AI approach is unclear from the title alone.",
+      "human_decision": "include"
     },
     {
       "id": "GO87",
@@ -701,7 +787,8 @@
       "link": "https://onlineexeced.mccombs.utexas.edu/online-data-science-business-analytics-course",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title describes an online data science certificate course, not a Generative AI solution for software construction or coding."
+      "reason": "The title describes an online data science certificate course, not a Generative AI solution for software construction or coding.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO88",
@@ -709,7 +796,8 @@
       "link": "https://ieeexplore.ieee.org/document/11098743/",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title clearly concerns software construction via code generation, and the specific AI technique is unclear from the title so it should be retained at this high-recall stage."
+      "reason": "The title clearly concerns software construction via code generation, and the specific AI technique is unclear from the title so it should be retained at this high-recall stage.",
+      "human_decision": "include"
     },
     {
       "id": "GO89",
@@ -717,7 +805,8 @@
       "link": "https://www.youtube.com/watch?v=fwxfkPHqblg&vl=en",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is about generative AI agents and OpenAI, but it does not clearly state whether the tutorial is applied to software construction or coding."
+      "reason": "The title is about generative AI agents and OpenAI, but it does not clearly state whether the tutorial is applied to software construction or coding.",
+      "human_decision": "include"
     },
     {
       "id": "GO90",
@@ -725,7 +814,8 @@
       "link": "https://www.linkedin.com/posts/sumit-maloo-75876038_learning-ai-rag-activity-7266100821661020160-5hLW",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title mentions AI, RAG, and GenAI but is too vague to determine whether it concerns software construction, so it should be retained for later screening."
+      "reason": "The title mentions AI, RAG, and GenAI but is too vague to determine whether it concerns software construction, so it should be retained for later screening.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO91",
@@ -733,7 +823,8 @@
       "link": "https://www.reddit.com/r/barexam/comments/16nlc2a/i_would_like_to_know_for_the_new_york_state_bar/",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title appears to be a generic Reddit verification page and gives no indication of software construction or generative AI."
+      "reason": "The title appears to be a generic Reddit verification page and gives no indication of software construction or generative AI.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO92",
@@ -741,7 +832,8 @@
       "link": "https://dl.acm.org/doi/10.1145/3689484.3690738",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title concerns automatic generation of a code-related artifact (code contracts), and generative AI involvement is not clear from the title alone."
+      "reason": "The title concerns automatic generation of a code-related artifact (code contracts), and generative AI involvement is not clear from the title alone.",
+      "human_decision": "include"
     },
     {
       "id": "GO93",
@@ -749,7 +841,8 @@
       "link": "https://graduate.unl.edu/academics/programs/ARIN-MS-O/",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title describes a university graduate program in artificial intelligence, not a Generative AI solution for software construction or coding."
+      "reason": "The title describes a university graduate program in artificial intelligence, not a Generative AI solution for software construction or coding.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO94",
@@ -757,7 +850,8 @@
       "link": "https://www.emergentmind.com/topics/core-war",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title suggests automated evolution/generation of programs, which could be relevant to generative AI for code or program evolution."
+      "reason": "The title suggests automated evolution/generation of programs, which could be relevant to generative AI for code or program evolution.",
+      "human_decision": "include"
     },
     {
       "id": "GO95",
@@ -765,7 +859,8 @@
       "link": "https://www.youtube.com/shorts/bqKZRpE6wos",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title is a generic overview of AI models and does not indicate any connection to software construction or coding."
+      "reason": "The title is a generic overview of AI models and does not indicate any connection to software construction or coding.",
+      "human_decision": "exclude"
     },
     {
       "id": "GO96",
@@ -773,7 +868,8 @@
       "link": "https://gepa-ai.github.io/gepa/tutorials/",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too generic to determine whether it concerns generative AI for software construction, so it should be retained for later screening."
+      "reason": "The title is too generic to determine whether it concerns generative AI for software construction, so it should be retained for later screening.",
+      "human_decision": "include"
     },
     {
       "id": "GO97",
@@ -781,7 +877,8 @@
       "link": "https://www.coursera.org/specializations/tokens-to-deployment-nlp-language-models-production-apis",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title mentions language models and APIs, but it does not clearly reveal whether it concerns software construction, so include at this high-recall stage."
+      "reason": "The title mentions language models and APIs, but it does not clearly reveal whether it concerns software construction, so include at this high-recall stage.",
+      "human_decision": "include"
     },
     {
       "id": "GO98",
@@ -789,7 +886,8 @@
       "link": "https://github.com/SakanaAI/drq",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title explicitly mentions LLMs and program evolution, which plausibly relates to generative AI for coding even though it is framed in the Core War context."
+      "reason": "The title explicitly mentions LLMs and program evolution, which plausibly relates to generative AI for coding even though it is framed in the Core War context.",
+      "human_decision": "include"
     },
     {
       "id": "GO99",
@@ -797,7 +895,8 @@
       "link": "https://www.preprints.org/manuscript/202507.1600",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title explicitly concerns LLMs and their role in software engineering, which could plausibly include coding-related activities."
+      "reason": "The title explicitly concerns LLMs and their role in software engineering, which could plausibly include coding-related activities.",
+      "human_decision": "include"
     },
     {
       "id": "GO100",
@@ -805,7 +904,16 @@
       "link": "https://cloudonair.withgoogle.com/events/gen-ai-skills-accelerator",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title mentions generative AI but does not clearly reveal whether it is about software construction or coding, so it should be retained at title screening."
+      "reason": "The title mentions generative AI but does not clearly reveal whether it is about software construction or coding, so it should be retained at title screening.",
+      "human_decision": "exclude"
     }
-  ]
+  ],
+  "human_review": {
+    "sheet": "step-2-review-reviewed.xlsx",
+    "applied_at": "2026-07-22T02:30:36.089041+00:00",
+    "reviewed": 100,
+    "human_included": 81,
+    "recovered_from_exclude": 1,
+    "dropped_from_include": 3
+  }
 }

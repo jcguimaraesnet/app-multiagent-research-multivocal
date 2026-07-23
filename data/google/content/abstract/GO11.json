@@ -1,0 +1,14 @@
+{
+  "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems | Research",
+  "link": "https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using",
+  "summary": "This paper presents Spec2RTL-Agent, an LLM-based multi-agent system for automatically generating hardware RTL code from complex, unstructured specification documents. The system uses a three-module framework: a reasoning module to create structured implementation plans, a progressive coding module that iteratively refines synthesizable C++ optimized for High-Level Synthesis, and an adaptive reflection module that traces and corrects errors. Evaluated on three specification documents, Spec2RTL-Agent generates accurate RTL code with up to 75% fewer human interventions compared to existing methods, positioning it as the first fully automated multi-agent system for this task.",
+  "author": "Zhongzhi Yu, Mingjie Liu, Michael Zimmer, Yingyan Lin, Yong Liu, Mark Haoxing Ren",
+  "publication_date": "2025-06-26",
+  "keywords": [
+    "LLM agent",
+    "hardware code generation",
+    "RTL",
+    "multi-agent",
+    "Spec2RTL-Agent"
+  ]
+}

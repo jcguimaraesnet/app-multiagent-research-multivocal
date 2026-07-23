@@ -2,16 +2,16 @@
   "origin": "google",
   "step": 3,
   "model": "",
-  "updated_at": "2026-07-10T03:25:13.232136+00:00",
-  "count": 83,
+  "updated_at": "2026-07-21T19:26:56.498842+00:00",
+  "count": 81,
   "by_status": {
     "pending": 0,
     "scraped": 0,
     "summarized": 0,
-    "screened": 83
+    "screened": 81
   },
   "included": 37,
-  "excluded": 46,
+  "excluded": 44,
   "records": [
     {
       "id": "GO1",
@@ -58,7 +58,8 @@
             "note": "It is a primary description of a specific solution, not a review or survey."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO2",
@@ -105,7 +106,8 @@
             "note": "It is a primary study presenting a novel approach, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO3",
@@ -152,7 +154,8 @@
             "note": "It is a blog post presenting a method, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO4",
@@ -199,7 +202,8 @@
             "note": "It is a comprehensive review survey, a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO5",
@@ -246,7 +250,8 @@
             "note": "It presents a novel framework, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO6",
@@ -293,7 +298,8 @@
             "note": "presents original approach, not a secondary/tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO7",
@@ -340,7 +346,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO8",
@@ -387,7 +394,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO9",
@@ -434,7 +442,8 @@
             "note": "It is a blog post about a specific solution, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO10",
@@ -481,7 +490,56 @@
             "note": "This is not a secondary or tertiary study; it is a discussion piece."
           }
         }
-      }
+      },
+      "human_decision": "include"
+    },
+    {
+      "id": "GO11",
+      "status": "screened",
+      "data": {
+        "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems | Research",
+        "link": "https://research.nvidia.com/publication/2025-06_spec2rtl-agent-automated-hardware-code-generation-complex-specifications-using"
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The context is hardware RTL code generation, not software construction."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The system is LLM-based."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The system was implemented and evaluated on specification documents."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "Spec2RTL-Agent is a prototype system generating RTL code."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in 2025."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English, indicating the source is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper presents a new system, not a survey or review."
+          }
+        }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO12",
@@ -528,7 +586,8 @@
             "note": "This is a webinar, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO13",
@@ -575,7 +634,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO14",
@@ -622,7 +682,8 @@
             "note": "It is described as a benchmark, which is a tertiary artefact aggregating multiple contexts for evaluation."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO15",
@@ -669,7 +730,8 @@
             "note": "It presents an original evaluation framework, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO16",
@@ -716,7 +778,8 @@
             "note": "It presents a novel method, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO17",
@@ -763,7 +826,8 @@
             "note": "The text is a blog post explaining how a technology works, which constitutes a secondary description or overview, not a primary study presenting a novel solution."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO18",
@@ -810,7 +874,8 @@
             "note": "Proposes a novel method, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO19",
@@ -857,7 +922,8 @@
             "note": "It is not a secondary study; it is a browser verification page."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO20",
@@ -904,7 +970,8 @@
             "note": "This is an original experimental study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO21",
@@ -951,7 +1018,8 @@
             "note": "It is an educational course, not a survey, review, or mapping study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO22",
@@ -998,7 +1066,8 @@
             "note": "The source is a blog post presenting a new method, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO23",
@@ -1045,7 +1114,8 @@
             "note": "It introduces a new approach, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO24",
@@ -1092,7 +1162,8 @@
             "note": "It is a practical guide, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO25",
@@ -1139,7 +1210,8 @@
             "note": "The paper presents a novel framework with experiments, not a survey, review, or mapping."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO26",
@@ -1186,7 +1258,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO27",
@@ -1233,7 +1306,8 @@
             "note": "The article serves as an educational overview and surveys tools, making it a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO28",
@@ -1280,7 +1354,8 @@
             "note": "It is an original experiment and observation, not a survey or literature review."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO29",
@@ -1327,7 +1402,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO30",
@@ -1374,7 +1450,8 @@
             "note": "The abstract explicitly states it is a 'large-scale empirical study'."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO31",
@@ -1421,7 +1498,8 @@
             "note": "The article compares multiple AI refactoring platforms, functioning as a tool list or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO32",
@@ -1468,7 +1546,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO33",
@@ -1515,7 +1594,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO34",
@@ -1562,7 +1642,8 @@
             "note": "It describes a podcast discussing a specific tool and white paper, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO35",
@@ -1609,7 +1690,8 @@
             "note": "It is a feature article surveying experiences and practices, acting as a secondary source (not primary research)."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO36",
@@ -1656,7 +1738,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO37",
@@ -1703,7 +1786,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO38",
@@ -1750,7 +1834,8 @@
             "note": "It is a primary empirical study, not a review or survey."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO39",
@@ -1797,7 +1882,8 @@
             "note": "The text describes an overview of principles, techniques, and tools, which constitutes a secondary or tertiary source."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO40",
@@ -1844,7 +1930,8 @@
             "note": "It is a blog post reporting a practical experiment, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO41",
@@ -1891,7 +1978,8 @@
             "note": "It is a blog post discussing studies, not a secondary or tertiary study itself."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO42",
@@ -1938,7 +2026,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO43",
@@ -1985,7 +2074,8 @@
             "note": "This is a secondary source that surveys and lists various AI refactoring tools."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO44",
@@ -2032,7 +2122,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO45",
@@ -2079,7 +2170,8 @@
             "note": "It is not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO46",
@@ -2126,7 +2218,8 @@
             "note": "It is not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO47",
@@ -2173,7 +2266,8 @@
             "note": "the study is an empirical comparison, not a secondary or tertiary review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO48",
@@ -2220,7 +2314,8 @@
             "note": "It is a practical blog post about a specific project, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO49",
@@ -2267,7 +2362,8 @@
             "note": "The source describes a specific tool/platform (Morph), not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO50",
@@ -2314,7 +2410,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO51",
@@ -2361,7 +2458,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO52",
@@ -2408,7 +2506,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO53",
@@ -2455,7 +2554,8 @@
             "note": "It is a system description, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO54",
@@ -2502,7 +2602,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO56",
@@ -2549,7 +2650,8 @@
             "note": "it is an empirical study, not a secondary or tertiary study like a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO57",
@@ -2596,7 +2698,8 @@
             "note": "The article proposes a framework, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO58",
@@ -2643,7 +2746,8 @@
             "note": "It is a primary study on a framework, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO60",
@@ -2690,7 +2794,8 @@
             "note": "Primary research paper, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO62",
@@ -2737,7 +2842,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO64",
@@ -2784,7 +2890,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO66",
@@ -2831,7 +2938,8 @@
             "note": "it is a corporate webpage, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO67",
@@ -2878,7 +2986,8 @@
             "note": "The abstract explicitly states the blog post serves as a curated overview and a running catalogue of papers, making it a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO68",
@@ -2925,7 +3034,8 @@
             "note": "It is a survey/accompanying resource list, i.e., a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO72",
@@ -2972,7 +3082,8 @@
             "note": "It is a project description article, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO73",
@@ -3019,54 +3130,8 @@
             "note": "The summary states the source is a review article."
           }
         }
-      }
-    },
-    {
-      "id": "GO74",
-      "status": "screened",
-      "data": {
-        "title": "Research",
-        "link": "https://joezhouai.com/research/"
       },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "medium",
-        "reason": "failed: IC3, IC4",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "met",
-            "note": "The page focuses on large language models (LLMs) and code generation."
-          },
-          "IC3": {
-            "verdict": "not_met",
-            "note": "The abstract explicitly states no specific tool or solution is presented."
-          },
-          "IC4": {
-            "verdict": "not_met",
-            "note": "The abstract confirms no specific tool or solution is presented."
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The summary is in English, indicating English version exists."
-          },
-          "EC5": {
-            "verdict": "not_met",
-            "note": "It is a personal research page, not a secondary or tertiary study."
-          }
-        }
-      }
+      "human_decision": "exclude"
     },
     {
       "id": "GO76",
@@ -3113,7 +3178,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO77",
@@ -3160,7 +3226,8 @@
             "note": "It introduces a novel algorithm, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO78",
@@ -3207,7 +3274,8 @@
             "note": "This is a primary research study, not a review or survey."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO79",
@@ -3254,7 +3322,8 @@
             "note": "The source presents a specific method (ShinkaEvolve), not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO80",
@@ -3301,7 +3370,8 @@
             "note": "Not a secondary study; it is not a study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO81",
@@ -3348,7 +3418,8 @@
             "note": "it is a specialization program, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO82",
@@ -3395,7 +3466,8 @@
             "note": "It is a course description, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO86",
@@ -3442,7 +3514,8 @@
             "note": "it is a primary research paper proposing a new framework."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO88",
@@ -3489,7 +3562,8 @@
             "note": "The abstract describes CoCoEvo as a framework for automated code generation, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO89",
@@ -3536,54 +3610,8 @@
             "note": "it is a secondary educational resource (tutorial), not a primary research study."
           }
         }
-      }
-    },
-    {
-      "id": "GO90",
-      "status": "screened",
-      "data": {
-        "title": "learning #ai #rag #achievement #genai #ml #ibm",
-        "link": "https://www.linkedin.com/posts/sumit-maloo-75876038_learning-ai-rag-activity-7266100821661020160-5hLW"
       },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "unclear",
-            "note": ""
-          }
-        }
-      }
+      "human_decision": "exclude"
     },
     {
       "id": "GO92",
@@ -3630,7 +3658,8 @@
             "note": "The paper presents original experimental research, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO94",
@@ -3677,7 +3706,8 @@
             "note": "It describes a new algorithm and experimental results, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GO96",
@@ -3724,7 +3754,8 @@
             "note": "The page is a collection of tutorials, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO97",
@@ -3771,7 +3802,8 @@
             "note": "It is a course description, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO98",
@@ -3818,7 +3850,8 @@
             "note": "it is a software repository, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GO99",
@@ -3865,54 +3898,16 @@
             "note": "The paper is explicitly described as a comprehensive survey, thus a secondary study."
           }
         }
-      }
-    },
-    {
-      "id": "GO100",
-      "status": "screened",
-      "data": {
-        "title": "Gen AI Skillup | Kick-off Session",
-        "link": "https://cloudonair.withgoogle.com/events/gen-ai-skills-accelerator"
       },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: IC1, IC4",
-        "criteria": {
-          "IC1": {
-            "verdict": "not_met",
-            "note": "The context primarily describes a general AI training program, not a specific solution for software construction/coding processes."
-          },
-          "IC2": {
-            "verdict": "met",
-            "note": "It involves applied Generative AI methods (LLMs, Gemini, model deployment) as training topics."
-          },
-          "IC3": {
-            "verdict": "met",
-            "note": "It describes hands-on labs and practical skill-building, indicating a practical implementation."
-          },
-          "IC4": {
-            "verdict": "not_met",
-            "note": "It presents an educational program with labs, not a prototype or deployed tool for software construction."
-          },
-          "IC5": {
-            "verdict": "met",
-            "note": "The publication date is clearly stated as 2025, which falls within the 2021-2026 period."
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The text is entirely in English."
-          },
-          "EC5": {
-            "verdict": "not_met",
-            "note": "The source is an educational program/workshop, not a secondary or tertiary study."
-          }
-        }
-      }
+      "human_decision": "exclude"
     }
-  ]
+  ],
+  "human_review": {
+    "sheet": "step-3-review-reviewed.xlsx",
+    "applied_at": "2026-07-22T02:30:36.657025+00:00",
+    "reviewed": 81,
+    "human_included": 42,
+    "recovered_from_exclude": 10,
+    "dropped_from_include": 5
+  }
 }

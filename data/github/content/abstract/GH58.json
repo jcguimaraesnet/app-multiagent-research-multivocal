@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - isaziconsulting/AlphaEvolveLite: An open source simplified implementation of the AlphaEvolve paper.",
+  "link": "https://github.com/isaziconsulting/AlphaEvolveLite",
+  "summary": "AlphaEvolveLite is an open-source simplified implementation of the AlphaEvolve evolutionary coding agent. It uses LLM-based mutation and selection to automatically improve source code, integrating tabu search to help escape local optima. The tool supports multiple LLM providers (OpenAI, Gemini, OpenRouter) and flexible problem evaluation. It includes features such as conversation storage, progress tracking, and experiment visualization. The framework is designed for automatic program generation and optimization for arbitrary coding tasks defined by the user.",
+  "author": "isaziconsulting",
+  "publication_date": "",
+  "keywords": [
+    "AlphaEvolveLite",
+    "evolutionary programming",
+    "LLM",
+    "tabu search",
+    "code generation"
+  ]
+}

@@ -1,16 +1,20 @@
 """Step 7: screening-reliability metrics from the human reviews.
 
+Everything is read from the reviewers' filled workbook of each step
+(``step-<n>-review-reviewed.xlsx``), whose ``Review 1`` column holds the first reviewer's
+verdict on every row and whose ``Review 2`` column holds the adjudication of the rows where
+reviewer 1 differed from the model.
+
 Gold standard (census + adjudication):
 - LLM == reviewer 1  -> gold = that decision (two independents agree).
-- LLM != reviewer 1  -> gold = reviewer 2 (the step-6 tie-break).
+- LLM != reviewer 1  -> gold = reviewer 2 (the adjudication).
 - reviewer 1 left it blank, or a conflict has no reviewer 2 yet -> pending, excluded from the
   metrics (its count is reported).
 
 The positive class is ``include``. Per origin and pooled, it reports the LLM-vs-gold confusion
 matrix (TP/FP/FN/TN); precision, recall, F1, accuracy; and the LLM-vs-reviewer-1 percent
-agreement with the conflict/adjudication tallies. For ``step-4-answers`` it reports the
-validation rate (final agreement 'yes' after adjudication). Writes metrics.json and prints a
-summary. Reads files only; no LLM calls.
+agreement with the conflict/adjudication tallies. Writes metrics.json and prints a summary.
+Reads files only; no LLM calls.
 """
 
 import json
@@ -18,8 +22,8 @@ from datetime import datetime, timezone
 
 from rmr import config
 from rmr.paths import ensure_parent
-from rmr.review import (INCLUDE_EXCLUDE, ORIGINS, YES_NO, _records, _sheet_column,
-                        review_dir)
+from rmr.review import (INCLUDE_EXCLUDE, ORIGINS, R1_COL, R2_COL, REVIEWED_SHEETS, _records,
+                        first_pass_column, review_dir, reviewed_column)
 from rmr.validation.stats import percent_agreement
 
 SCREENING_STEPS = [2, 3, 4]
@@ -63,8 +67,8 @@ def _f1(precision: float, recall: float) -> float:
 
 def _screening_step(step: int, review) -> dict:
     """Metrics for one screening step, per origin and pooled."""
-    r1 = _sheet_column(review / f"step-{step}-review.xlsx", "decision") or {}
-    r2 = _sheet_column(review / "tiebreak" / f"step-{step}-tiebreak.xlsx", "decision") or {}
+    r1 = first_pass_column(review, step) or {}
+    r2 = reviewed_column(review, step, R2_COL) or {}
 
     origins: dict[str, dict] = {}
     pending_review = pending_adjudication = 0
@@ -117,43 +121,6 @@ def _screening_step(step: int, review) -> dict:
     }
 
 
-def _answers_step(review) -> dict | None:
-    """Validation rate of the research-answer extraction: fraction whose final agreement is
-    'yes' after adjudication (reviewer 1 'yes', or reviewer 1 'no' overturned by reviewer 2)."""
-    r1 = _sheet_column(review / "step-4-answers-review.xlsx", "Agreement")
-    if r1 is None:
-        return None
-    r2 = _sheet_column(review / "tiebreak" / "step-4-answers-tiebreak.xlsx", "Agreement") or {}
-    reviewed = final_yes = r1_yes = r1_no = overturned = confirmed = 0
-    pending_review = pending_adjudication = 0
-    for rid, value in r1.items():
-        if value not in YES_NO:
-            pending_review += 1
-            continue
-        reviewed += 1
-        if value == "yes":
-            r1_yes += 1
-            final_yes += 1
-        else:
-            r1_no += 1
-            r2_v = r2.get(rid, "")
-            if r2_v not in YES_NO:
-                pending_adjudication += 1
-            elif r2_v == "yes":
-                overturned += 1
-                final_yes += 1
-            else:
-                confirmed += 1
-    finalized = reviewed - pending_adjudication
-    return {
-        "reviewed": reviewed, "finalized": finalized, "validated": final_yes,
-        "validation_rate": final_yes / finalized if finalized else 0.0,
-        "reviewer1_yes": r1_yes, "reviewer1_no": r1_no,
-        "adjudicated_overturned": overturned, "adjudicated_confirmed": confirmed,
-        "pending_review": pending_review, "pending_adjudication": pending_adjudication,
-    }
-
-
 def _pct(x: float) -> str:
     return f"{x * 100:5.1f}%"
 
@@ -161,7 +128,9 @@ def _pct(x: float) -> str:
 def _print_summary(result: dict) -> None:
     print("\n=== Screening reliability (LLM vs human gold) ===")
     for step in SCREENING_STEPS:
-        data = result["screening"][str(step)]
+        data = result["screening"].get(str(step))
+        if data is None:
+            continue
         p = data["pooled"]
         print(f"\nStep {step}: reviewed={data['reviewed']} "
               f"conflicts={data['conflicts']} ({_pct(data['conflict_rate']).strip()}) "
@@ -175,94 +144,80 @@ def _print_summary(result: dict) -> None:
         print(f"  agreement={_pct(p['agreement_pct'])}  "
               f"(TP={p['tp']} FP={p['fp']} FN={p['fn']} TN={p['tn']})")
 
-    ans = result.get("answers")
-    print("\n=== Research-answer extraction ===")
-    if not ans:
-        print("  (no answers review sheet)")
-    else:
-        print(f"  validation_rate={_pct(ans['validation_rate'])} "
-              f"(validated={ans['validated']}/{ans['finalized']}); "
-              f"R1 yes/no={ans['reviewer1_yes']}/{ans['reviewer1_no']}; "
-              f"R2 overturned={ans['adjudicated_overturned']} confirmed={ans['adjudicated_confirmed']}; "
-              f"pending={ans['pending_review'] + ans['pending_adjudication']}")
+    skipped = result.get("skipped") or {}
+    if skipped:
+        print("\n=== Not scored yet (review still incomplete) ===")
+        for key, issues in skipped.items():
+            for issue in issues:
+                print(f"  {key}: {issue}")
 
 
-REVIEWER_STAMPS = ("reviewer a", "reviewer b")
 
-
-def _check_review(review, name: str, decision_col: str, expected: tuple) -> list[str]:
-    """Issue(s) if a review sheet is missing, has any unfilled decision cell, or any row
-    without a Reviewer stamp."""
-    decisions = _sheet_column(review / name, decision_col)
-    if decisions is None:
-        return [f"{name}: missing"]
-    issues = []
-    blanks = [rid for rid, value in decisions.items() if value not in expected]
+def _check_review(label: str, r1: dict | None, expected: tuple) -> list[str]:
+    """Issue(s) if a reviewed sheet is missing or leaves any ``Review 1`` cell unfilled."""
+    if r1 is None:
+        return [f"{label}: missing"]
+    if not r1:
+        return [f"{label}: no '{R1_COL}' column"]
+    blanks = [rid for rid, value in r1.items() if value not in expected]
     if blanks:
-        issues.append(f"{name}: {len(blanks)} of {len(decisions)} decisions not filled")
-    reviewers = _sheet_column(review / name, "Reviewer") or {}
-    unstamped = [rid for rid in decisions if reviewers.get(rid, "") not in REVIEWER_STAMPS]
-    if unstamped:
-        issues.append(f"{name}: {len(unstamped)} of {len(decisions)} rows not stamped (Reviewer)")
-    return issues
-
-
-def _check_tiebreak(review, name: str, decision_col: str, conflicts: set,
-                    expected: tuple) -> list[str]:
-    """Issue(s) if any conflict lacks a reviewer-2 (tie-break) decision."""
-    if not conflicts:
-        return []
-    tb = _sheet_column(review / "tiebreak" / name, decision_col) or {}
-    missing = [rid for rid in conflicts if tb.get(rid, "") not in expected]
-    if missing:
-        return [f"tiebreak/{name}: {len(missing)} of {len(conflicts)} conflicts not resolved"]
+        return [f"{label}: {len(blanks)} of {len(r1)} '{R1_COL}' cells not filled"]
     return []
 
 
-def _incomplete(review) -> list[str]:
-    """Every review AND tie-break sheet must be fully filled (decisions and Reviewer stamps)
-    before metrics are computed. Returns a list of issues (empty when everything is complete)."""
-    issues = []
-    for step in SCREENING_STEPS:
-        issues += _check_review(review, f"step-{step}-review.xlsx", "decision", INCLUDE_EXCLUDE)
-    issues += _check_review(review, "step-4-answers-review.xlsx", "Agreement", YES_NO)
+def _check_adjudication(label: str, r2: dict, conflicts: set, expected: tuple) -> list[str]:
+    """Issue(s) if any conflict lacks a reviewer-2 (``Review 2``) decision."""
+    missing = [rid for rid in conflicts if r2.get(rid, "") not in expected]
+    if missing:
+        return [f"{label}: {len(missing)} of {len(conflicts)} conflicts have no '{R2_COL}'"]
+    return []
 
-    for step in SCREENING_STEPS:
-        r1 = _sheet_column(review / f"step-{step}-review.xlsx", "decision")
-        if r1 is None:
-            continue  # already reported as missing above
-        llm = {rid: d for _, rid, d in _llm_by_origin(step)}
-        conflicts = {rid for rid, v in r1.items()
-                     if v in INCLUDE_EXCLUDE and llm.get(rid) and llm[rid] != v}
-        issues += _check_tiebreak(review, f"step-{step}-tiebreak.xlsx", "decision",
-                                  conflicts, INCLUDE_EXCLUDE)
-    ans = _sheet_column(review / "step-4-answers-review.xlsx", "Agreement")
-    if ans is not None:
-        conflicts = {rid for rid, v in ans.items() if v == "no"}
-        issues += _check_tiebreak(review, "step-4-answers-tiebreak.xlsx", "Agreement",
-                                  conflicts, YES_NO)
-    return issues
+
+def _step_issues(review, step: int) -> list[str]:
+    """Completeness issues of one screening step, empty when the step can be scored:
+    ``Review 1`` filled on every row, and ``Review 2`` filled on every conflict."""
+    label = REVIEWED_SHEETS[step]
+    r1 = first_pass_column(review, step)
+    issues = _check_review(label, r1, INCLUDE_EXCLUDE)
+    if issues:
+        return issues
+    llm = {rid: d for _, rid, d in _llm_by_origin(step)}
+    conflicts = {rid for rid, value in r1.items()
+                 if value in INCLUDE_EXCLUDE and llm.get(rid) and llm[rid] != value}
+    r2 = reviewed_column(review, step, R2_COL) or {}
+    return _check_adjudication(label, r2, conflicts, INCLUDE_EXCLUDE)
 
 
 def export_metrics() -> dict:
     """Compute the screening metrics for the current experiment; write metrics.json and print.
 
-    Refuses to run unless every review and tie-break sheet is fully filled (no partial data):
-    otherwise it raises with the list of what is still missing.
+    Completeness is enforced PER STEP: a step is scored only when its sheet is fully filled
+    (``Review 1`` on every row, ``Review 2`` on every conflict), so a step still under review
+    is reported as skipped instead of blocking the ones already finished. It raises only when
+    nothing at all can be scored.
     """
     review = review_dir()
-    issues = _incomplete(review)
-    if issues:
+    screening, skipped = {}, {}
+    for step in SCREENING_STEPS:
+        issues = _step_issues(review, step)
+        if issues:
+            skipped[str(step)] = issues
+        else:
+            screening[str(step)] = _screening_step(step, review)
+
+    if not screening:
         raise RuntimeError(
-            "step 7 requires every review and tie-break sheet to be fully filled; "
-            "the following are incomplete:\n  - " + "\n  - ".join(issues)
-            + f"\n(sheets under {review}; fill reviewer 1, run step 6, fill reviewer 2, retry)"
+            "no reviewed sheet is complete enough to score; the following are incomplete:\n  - "
+            + "\n  - ".join(issue for issues in skipped.values() for issue in issues)
+            + f"\n(sheets under {review}; fill '{R1_COL}', run step 6 to list the conflicts, "
+            f"fill '{R2_COL}' on them, then retry)"
         )
+
     result = {
         "model_experiment": config.model_experiment(),
         "computed_at": datetime.now(timezone.utc).isoformat(),
-        "screening": {str(step): _screening_step(step, review) for step in SCREENING_STEPS},
-        "answers": _answers_step(review),
+        "screening": screening,
+        "skipped": skipped,
     }
     path = review / "metrics" / "metrics.json"
     ensure_parent(path)

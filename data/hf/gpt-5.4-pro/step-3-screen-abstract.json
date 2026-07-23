@@ -2,16 +2,16 @@
   "origin": "hf",
   "step": 3,
   "model": "",
-  "updated_at": "2026-07-10T03:52:34.365165+00:00",
-  "count": 73,
+  "updated_at": "2026-07-21T19:29:25.306792+00:00",
+  "count": 60,
   "by_status": {
     "pending": 0,
     "scraped": 0,
     "summarized": 0,
-    "screened": 73
+    "screened": 60
   },
-  "included": 39,
-  "excluded": 34,
+  "included": 41,
+  "excluded": 19,
   "records": [
     {
       "id": "HF1",
@@ -58,7 +58,8 @@
             "note": "the article describes a tool/framework, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF2",
@@ -105,7 +106,8 @@
             "note": "The source describes a new benchmark, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF3",
@@ -152,7 +154,8 @@
             "note": "The source is an empirical study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF4",
@@ -199,7 +202,8 @@
             "note": "It is a primary study proposing new benchmarks and frameworks."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF5",
@@ -246,7 +250,8 @@
             "note": "It is an original contribution, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF6",
@@ -293,7 +298,8 @@
             "note": "It is a primary study proposing and evaluating a method, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF7",
@@ -340,7 +346,8 @@
             "note": "It is a primary study proposing a new framework and dataset."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF8",
@@ -387,7 +394,8 @@
             "note": "It is a primary study presenting a new benchmark and empirical evaluation, not a secondary review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF9",
@@ -434,7 +442,8 @@
             "note": "The paper proposes a novel reasoning mechanism, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF10",
@@ -481,7 +490,8 @@
             "note": "It is a primary research paper, not a survey."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF11",
@@ -528,7 +538,8 @@
             "note": "It is a benchmark paper, not a secondary or tertiary study like a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF12",
@@ -575,7 +586,8 @@
             "note": "The source describes a novel tool and its architecture, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF13",
@@ -622,7 +634,8 @@
             "note": "It presents a new dataset and evaluation, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF14",
@@ -669,7 +682,8 @@
             "note": "The source presents a novel framework, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF15",
@@ -716,7 +730,8 @@
             "note": "The abstract describes a primary study that proposes a new method and tool (CodeV), not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF16",
@@ -763,7 +778,8 @@
             "note": "The study is a primary benchmark evaluation, not a secondary/tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF17",
@@ -810,7 +826,8 @@
             "note": "It describes an original case study and implementation, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF18",
@@ -857,7 +874,8 @@
             "note": "Primary study creating and evaluating models."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF19",
@@ -904,7 +922,8 @@
             "note": "This is a primary benchmark proposal, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF20",
@@ -951,7 +970,8 @@
             "note": "It is a primary study presenting a new framework and model, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF21",
@@ -998,7 +1018,8 @@
             "note": "It is a primary study proposing a new framework, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF22",
@@ -1045,7 +1066,8 @@
             "note": "It presents a new model suite, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF23",
@@ -1092,7 +1114,8 @@
             "note": "The abstract presents an original method and empirical study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF24",
@@ -1139,7 +1162,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF25",
@@ -1186,7 +1210,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF26",
@@ -1233,7 +1258,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF27",
@@ -1280,7 +1306,8 @@
             "note": "presents an original framework, not a secondary study"
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF28",
@@ -1327,7 +1354,8 @@
             "note": "It introduces a new benchmark and environment for LLM agents, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF29",
@@ -1374,7 +1402,8 @@
             "note": "The source introduces a benchmark and analyzes multiple existing models, functioning as a secondary/tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF30",
@@ -1421,7 +1450,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF31",
@@ -1468,7 +1498,8 @@
             "note": "It is a primary study introducing a new framework, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF32",
@@ -1515,7 +1546,8 @@
             "note": "The paper proposes a novel framework, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF33",
@@ -1562,7 +1594,8 @@
             "note": "Primary research proposing and evaluating a system."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF34",
@@ -1609,7 +1642,8 @@
             "note": "It is a primary research study presenting a new tool/method, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF35",
@@ -1656,7 +1690,8 @@
             "note": "The abstract states it is a comprehensive and systematic review, i.e., a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF36",
@@ -1703,7 +1738,8 @@
             "note": "The paper presents a novel framework, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF37",
@@ -1750,7 +1786,8 @@
             "note": "While it is an evaluation benchmark, it is a primary study presenting a new dataset and results, not a secondary survey or review."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF38",
@@ -1797,7 +1834,8 @@
             "note": "It is explicitly a survey, which is a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF39",
@@ -1844,7 +1882,8 @@
             "note": "It is an original empirical study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF40",
@@ -1891,7 +1930,8 @@
             "note": "It is a primary study presenting a new model."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF41",
@@ -1938,7 +1978,8 @@
             "note": "The summary presents a new model and its training/evaluation, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF42",
@@ -1985,7 +2026,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF43",
@@ -2032,7 +2074,8 @@
             "note": "The abstract describes the creation of novel datasets and training methodology, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF44",
@@ -2079,7 +2122,8 @@
             "note": "This is an original benchmark study, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF45",
@@ -2126,7 +2170,8 @@
             "note": "It introduces a benchmark, which is a research artifact for evaluation, not a secondary or tertiary study summarizing existing work."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF47",
@@ -2173,7 +2218,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF48",
@@ -2220,7 +2266,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF49",
@@ -2267,7 +2314,8 @@
             "note": "It presents original research with a new framework, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF51",
@@ -2314,7 +2362,8 @@
             "note": "This is a primary research report, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF52",
@@ -2361,7 +2410,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF53",
@@ -2408,7 +2458,8 @@
             "note": "It is a primary study proposing a novel method and reporting experiments."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF54",
@@ -2455,7 +2506,8 @@
             "note": "It is a primary research paper introducing a new framework."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF55",
@@ -2502,7 +2554,8 @@
             "note": "The source is explicitly a review presenting a comprehensive analysis and taxonomy."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF56",
@@ -2549,101 +2602,8 @@
             "note": "The paper presents a novel framework and is not a secondary or tertiary study."
           }
         }
-      }
-    },
-    {
-      "id": "HF57",
-      "status": "screened",
-      "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=coding-agent%20benchmarks"
       },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "unclear",
-            "note": ""
-          }
-        }
-      }
-    },
-    {
-      "id": "HF58",
-      "status": "screened",
-      "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=skill%20marketplace"
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "unclear",
-            "note": ""
-          }
-        }
-      }
+      "human_decision": "include"
     },
     {
       "id": "HF60",
@@ -2690,7 +2650,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "HF61",
@@ -2737,383 +2698,56 @@
             "note": "This is a primary study proposing a new training objective, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
-      "id": "HF62",
+      "id": "HF70",
       "status": "screened",
       "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=prompt%2Fworkflow%20engineering"
+        "title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+        "link": "https://huggingface.co/papers/2606.06473"
       },
       "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
         "criteria": {
           "IC1": {
-            "verdict": "unclear",
-            "note": ""
+            "verdict": "met",
+            "note": "The paper focuses on machine learning engineering and code generation, which falls under software construction."
           },
           "IC2": {
-            "verdict": "unclear",
-            "note": ""
+            "verdict": "met",
+            "note": "Uses LLM agents for self-evolution and code generation."
           },
           "IC3": {
-            "verdict": "unclear",
-            "note": ""
+            "verdict": "met",
+            "note": "Evaluated on benchmarks with a publicly available code repository, showing a practical implementation."
           },
           "IC4": {
-            "verdict": "unclear",
-            "note": ""
+            "verdict": "met",
+            "note": "Provides a working framework (MLEvolve) with code released on GitHub."
           },
           "IC5": {
             "verdict": "unclear",
             "note": ""
           },
           "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
+            "verdict": "not_met",
+            "note": "content retrieved"
           },
           "EC4": {
-            "verdict": "unclear",
-            "note": ""
+            "verdict": "not_met",
+            "note": "The abstract is in English, no indication of non-English version."
           },
           "EC5": {
-            "verdict": "unclear",
-            "note": ""
+            "verdict": "not_met",
+            "note": "It presents a new framework, not a survey or review."
           }
         }
-      }
-    },
-    {
-      "id": "HF63",
-      "status": "screened",
-      "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=multi-model%20execution%20traces"
       },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "unclear",
-            "note": ""
-          }
-        }
-      }
-    },
-    {
-      "id": "HF64",
-      "status": "screened",
-      "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=agentic%20patch%20verifier"
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "unclear",
-            "note": ""
-          }
-        }
-      }
-    },
-    {
-      "id": "HF65",
-      "status": "screened",
-      "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=cross-file%20coordination"
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "unclear",
-            "note": ""
-          }
-        }
-      }
-    },
-    {
-      "id": "HF66",
-      "status": "screened",
-      "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=migration-aware%20placement"
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "unclear",
-            "note": ""
-          }
-        }
-      }
-    },
-    {
-      "id": "HF67",
-      "status": "screened",
-      "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=cryptographic%20proof%20generators"
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "unclear",
-            "note": ""
-          }
-        }
-      }
-    },
-    {
-      "id": "HF68",
-      "status": "screened",
-      "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=decentralized%20adaptation"
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "unclear",
-            "note": ""
-          }
-        }
-      }
-    },
-    {
-      "id": "HF69",
-      "status": "screened",
-      "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=modular%20research%20scenarios"
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "unclear",
-            "note": ""
-          }
-        }
-      }
+      "human_decision": "include"
     },
     {
       "id": "HF71",
@@ -3160,54 +2794,56 @@
             "note": "This is a primary study presenting a framework and dataset, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
-      "id": "HF74",
+      "id": "HF72",
       "status": "screened",
       "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=large%20language%20models"
+        "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems",
+        "link": "https://huggingface.co/papers/2506.13905"
       },
       "screening": {
-        "decision": "exclude",
+        "decision": "include",
         "confidence": "high",
-        "reason": "failed: EC3",
+        "reason": "all criteria met or unclear",
         "criteria": {
           "IC1": {
-            "verdict": "unclear",
-            "note": ""
+            "verdict": "met",
+            "note": "The context is hardware RTL code generation, which is a specialized form of software construction."
           },
           "IC2": {
-            "verdict": "unclear",
-            "note": ""
+            "verdict": "met",
+            "note": "It explicitly applies LLMs to generate code."
           },
           "IC3": {
-            "verdict": "unclear",
-            "note": ""
+            "verdict": "met",
+            "note": "It describes a practical implementation evaluated on specification documents."
           },
           "IC4": {
-            "verdict": "unclear",
-            "note": ""
+            "verdict": "met",
+            "note": "It presents a working multi-agent system (Spec2RTL-Agent) that generates synthesizable C++/RTL code."
           },
           "IC5": {
             "verdict": "unclear",
             "note": ""
           },
           "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
+            "verdict": "not_met",
+            "note": "content retrieved"
           },
           "EC4": {
-            "verdict": "unclear",
-            "note": ""
+            "verdict": "not_met",
+            "note": "The abstract and keywords are in English."
           },
           "EC5": {
-            "verdict": "unclear",
-            "note": ""
+            "verdict": "not_met",
+            "note": "It proposes a novel system, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "HF76",
@@ -3254,195 +2890,16 @@
             "note": "This is a primary study proposing a new model and dataset."
           }
         }
-      }
-    },
-    {
-      "id": "HF77",
-      "status": "screened",
-      "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=hardcoding"
       },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "unclear",
-            "note": ""
-          }
-        }
-      }
-    },
-    {
-      "id": "HF78",
-      "status": "screened",
-      "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=boundary%20modeling"
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "unclear",
-            "note": ""
-          }
-        }
-      }
-    },
-    {
-      "id": "HF79",
-      "status": "screened",
-      "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=GPU-friendly%20batched%20decode"
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "unclear",
-            "note": ""
-          }
-        }
-      }
-    },
-    {
-      "id": "HF80",
-      "status": "screened",
-      "data": {
-        "title": "Daily Papers",
-        "link": "https://huggingface.co/papers?q=few-shot%20object%20detection"
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: EC3",
-        "criteria": {
-          "IC1": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "met",
-            "note": "content unavailable or inaccessible"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "unclear",
-            "note": ""
-          }
-        }
-      }
+      "human_decision": "exclude"
     }
-  ]
+  ],
+  "human_review": {
+    "sheet": "step-3-review-reviewed.xlsx",
+    "applied_at": "2026-07-22T02:30:36.662991+00:00",
+    "reviewed": 60,
+    "human_included": 40,
+    "recovered_from_exclude": 2,
+    "dropped_from_include": 3
+  }
 }

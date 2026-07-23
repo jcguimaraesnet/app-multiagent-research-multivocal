@@ -1,0 +1,76 @@
+{
+  "step": 2,
+  "model_experiment": "gpt-5.4-pro",
+  "sheet": "step-2-review-reviewed.xlsx",
+  "reconciled_at": "2026-07-22T02:30:36.093206+00:00",
+  "by_origin": {
+    "scopus": {
+      "reviewed": 127,
+      "human_included": 118,
+      "recovered_from_exclude": 0,
+      "dropped_from_include": 1
+    },
+    "google": {
+      "reviewed": 100,
+      "human_included": 81,
+      "recovered_from_exclude": 1,
+      "dropped_from_include": 3
+    },
+    "github": {
+      "reviewed": 100,
+      "human_included": 59,
+      "recovered_from_exclude": 2,
+      "dropped_from_include": 7
+    },
+    "hf": {
+      "reviewed": 81,
+      "human_included": 60,
+      "recovered_from_exclude": 2,
+      "dropped_from_include": 15
+    }
+  },
+  "totals": {
+    "reviewed": 408,
+    "human_included": 318,
+    "recovered_from_exclude": 5,
+    "dropped_from_include": 26
+  },
+  "unmatched_sheet_rows": [],
+  "residuals": [
+    {
+      "id": "GO11",
+      "origin": "google",
+      "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems | Research",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GH58",
+      "origin": "github",
+      "title": "GitHub - isaziconsulting/AlphaEvolveLite: An open source simplified implementation of the AlphaEvolve paper.",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GH63",
+      "origin": "github",
+      "title": "GitHub - Julien-Au/gymcoach: Self-hosted AI workout tracker. Bring your own LLM (Anthropic or OpenRouter): weekly debriefs, a chat coach, and AI-generated programs.",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "HF70",
+      "origin": "hf",
+      "title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "HF72",
+      "origin": "hf",
+      "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    }
+  ]
+}

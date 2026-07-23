@@ -2,16 +2,16 @@
   "origin": "scopus",
   "step": 4,
   "model": "",
-  "updated_at": "2026-07-10T11:18:45.784382+00:00",
-  "count": 62,
+  "updated_at": "2026-07-22T04:06:57.286801+00:00",
+  "count": 78,
   "by_status": {
     "pending": 1,
     "converted": 0,
     "answered": 0,
-    "screened": 61
+    "screened": 77
   },
-  "included": 52,
-  "excluded": 9,
+  "included": 60,
+  "excluded": 17,
   "records": [
     {
       "id": "SC1",
@@ -777,6 +777,196 @@
       }
     },
     {
+      "id": "SC10",
+      "status": "screened",
+      "data": {
+        "title": "Empirical insights into Chat Generative Pre-trained Transformer-assisted code refactoring and developer dynamics",
+        "link": "https://doi.org/10.1016/j.engappai.2026.114865",
+        "markdown_chars": 85088
+      },
+      "answers": {
+        "solution_name": "ChatGPT",
+        "RQa": {
+          "note": "The source is a research paper published in the journal Engineering Applications of Artificial Intelligence.",
+          "value": "Academic Paper",
+          "evidence": "Engineering Applications of Artificial Intelligence 177 (2026) 114865"
+        },
+        "RQb": {
+          "note": "ChatGPT is used as a general-purpose large language model for various code development tasks, including refactoring.",
+          "value": "General-purpose (GP)",
+          "evidence": "Large Language Models (LLMs) have become an increasingly popular tool in all aspects of code development."
+        },
+        "RQc": {
+          "note": "The paper does not discuss the access/usage model or cost.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "The solution may be less effective for complex refactoring and requires human oversight, indicating technical limitations.",
+          "value": "Technical limitations",
+          "evidence": "its efficacy is less evident when attempting to resolve particular problems inside repositories"
+        },
+        "RQe": {
+          "note": "ChatGPT-3 was released in 2022 and is a production-ready tool widely used by developers.",
+          "value": "Production-ready",
+          "evidence": "after the release of OpenAI’s Chat Generative Pre-trained Transformer (ChatGPT-3) in 2022"
+        },
+        "RQf": {
+          "note": "The text does not mention any documentation, community, or support channels specific to ChatGPT.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The target users are software developers.",
+          "value": "Developers",
+          "evidence": "developers can use ChatGPT to refactor code effectively"
+        },
+        "RQh": {
+          "note": "The study uses a dataset of publicly shared developer conversations but does not report collaboration with industry.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper investigates ChatGPT-assisted code refactoring, a software engineering activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "ChatGPT, a large language model, is applied to code refactoring, a software construction activity.",
+            "type": "language model",
+            "software_engineering_activity": "refactoring"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper presents an empirical study analyzing real developer-ChatGPT refactoring interactions.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "ChatGPT is a deployed production-ready tool available for refactoring use."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper was published online in April 2026, within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper is an empirical study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC11",
+      "status": "screened",
+      "data": {
+        "title": "Can we trust the source? A systematic review of watermarking and attribution for AI-generated code",
+        "link": "https://doi.org/10.1016/j.infsof.2026.108157",
+        "markdown_chars": 139512
+      },
+      "answers": {
+        "solution_name": "Code Provenance SLR",
+        "RQa": {
+          "note": "The source is a journal article published in an academic journal (Information and Software Technology).",
+          "value": "Academic Paper",
+          "evidence": "Information and Software Technology 196 (2026) 108157"
+        },
+        "RQb": {
+          "note": "The paper is a systematic literature review covering code watermarking and authorship attribution, which are general-purpose provenance techniques for code.",
+          "value": "General-purpose (GP)",
+          "evidence": "This study aims to systematically analyze and compare existing techniques for tracing the provenance of AI-generated source code"
+        },
+        "RQc": {
+          "note": "The paper is published by Elsevier and is not open access; access likely requires a subscription or payment.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "© 2026 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies."
+        },
+        "RQd": {
+          "note": "The paper itself is a literature review, not a deployable tool, so its primary limitation is that it is an analytical study rather than an operational solution.",
+          "value": "Operational constraints",
+          "evidence": "the review reveals a clear trade-off between deployability and reliability"
+        },
+        "RQe": {
+          "note": "The paper is a research review; it is not a production-ready software solution but a scholarly analysis.",
+          "value": "Experimental or beta phase",
+          "evidence": "This review analyzed 31 high-quality studies published between 2020 and 2025"
+        },
+        "RQf": {
+          "note": "The paper includes a replication package with documentation, but there is no forum, issue tracker, or community chat mentioned.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "To enhance transparency and reproducibility of the study, we provide a publicly accessible replication package containing: ... This package is available at the following URL: https://zenodo.org/records/19336929."
+        },
+        "RQg": {
+          "note": "The target audience is academic researchers and practitioners in software engineering, not a specific developer role.",
+          "value": "Others",
+          "evidence": "the review is intended for software engineering researchers"
+        },
+        "RQh": {
+          "note": "The paper is a systematic literature review and does not involve industry collaboration, case studies, or experiments.",
+          "value": "Unspecified",
+          "evidence": "No industrial case studies or large-scale user studies are mentioned; the paper is a literature review."
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper addresses code provenance in software engineering."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The paper is a literature review and does not itself apply Generative AI to a software-construction activity.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The paper is a systematic review, not a primary study or empirical case.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The paper is a review, not a usable solution or prototype."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper is published in 2026, within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "The paper is a systematic literature review, a secondary study."
+          }
+        }
+      }
+    },
+    {
       "id": "SC12",
       "status": "screened",
       "data": {
@@ -962,6 +1152,103 @@
           "EC5": {
             "verdict": "not_met",
             "note": "The paper is not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC15",
+      "status": "screened",
+      "data": {
+        "title": "Assessing small language models for code generation: An empirical study with benchmarks",
+        "link": "https://doi.org/10.1016/j.jss.2026.112815",
+        "markdown_chars": 112185
+      },
+      "answers": {
+        "solution_name": "Assessing Small Language Models for Code Generation",
+        "RQa": {
+          "note": "This solution is described in a peer-reviewed academic journal article.",
+          "value": "Academic Paper",
+          "evidence": "The Journal of Systems & Software 236 (2026) 112815"
+        },
+        "RQb": {
+          "note": "The solution is a benchmarking study focused on code generation, a domain-specific software engineering task.",
+          "value": "Domain or language-specific",
+          "evidence": "Assessing small language models for code generation: An empirical study with benchmarks"
+        },
+        "RQc": {
+          "note": "The paper and accompanying code are freely available under an open access license and open-source repository.",
+          "value": "Open-source / free",
+          "evidence": "This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). All scripts used for running experiments and analysis are publicly available at: https://github.com/GPT-Laboratory/ Assessing-Small-Language-Models-SLMs-for-Code-Generation"
+        },
+        "RQd": {
+          "note": "The study discusses various technical limitations such as benchmark contamination, restricted language coverage, and evaluation metric constraints.",
+          "value": "Technical limitations",
+          "evidence": "We recognise several potential threats to the validity of this study, which we discuss below in terms of construct, internal, external, and conclusion validity."
+        },
+        "RQe": {
+          "note": "The solution is a research-oriented evaluation framework, not a production-ready commercial product.",
+          "value": "Experimental or beta phase",
+          "evidence": "To support full reproducibility, all scripts used for running experiments and analysis are publicly available at: https://github.com/GPT-Laboratory/ Assessing-Small-Language-Models-SLMs-for-Code-Generation"
+        },
+        "RQf": {
+          "note": "The code repository provides documentation (the paper) and likely has issue trackers; no mention of other community channels.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "All scripts used for running experiments and analysis are publicly available at: https://github.com/GPT-Laboratory/ Assessing-Small-Language-Models-SLMs-for-Code-Generation"
+        },
+        "RQg": {
+          "note": "The primary audience is software practitioners and developers who use code generation models.",
+          "value": "Developers",
+          "evidence": "For practitioners, our results suggest that SLMs can be generally relied upon..."
+        },
+        "RQh": {
+          "note": "No industrial collaboration or case studies have been conducted yet; it is only planned for future work.",
+          "value": "Unspecified",
+          "evidence": "We plan to extend this study through industrial case studies to assess how these models perform in practical software development settings."
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper evaluates code generation, a core software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The study applies generative AI methods (SLMs) to code generation.",
+            "type": "technique/solution",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper presents an empirical benchmark-based evaluation, making it a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The paper is a benchmarking study, not a prototype tool or deployed solution for software construction."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper is published in 2026, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper is a primary empirical study, not a secondary or tertiary study."
           }
         }
       }
@@ -1542,56 +1829,148 @@
       }
     },
     {
-      "id": "SC29",
+      "id": "SC25",
       "status": "screened",
       "data": {
-        "title": "Applying generative artificial intelligence for vulnerability fixing in a proprietary software ecosystem",
-        "link": "https://doi.org/10.1016/j.jss.2025.112723",
-        "markdown_chars": 128797
+        "title": "Code generation with large language models: a survey from neural program synthesis to autonomous software development",
+        "link": "https://doi.org/10.1007/s10489-026-07230-0",
+        "markdown_chars": 87520
       },
       "answers": {
-        "solution_name": "PSECO-SafePatch",
+        "solution_name": "LLM-based Code Generation",
         "RQa": {
-          "note": "The source is a scientific paper published in The Journal of Systems & Software.",
+          "note": "The source is a survey paper published in an academic journal.",
           "value": "Academic Paper",
-          "evidence": "The Journal of Systems and Software 234 (2026) 112723"
+          "evidence": "Applied Intelligence (2026) 56:200 https://doi.org/10.1007/s10489-026-07230-0"
         },
         "RQb": {
-          "note": "The solution is specifically designed for vulnerability remediation in proprietary software ecosystems (PSECO), making it domain-specific.",
-          "value": "Domain or language-specific",
-          "evidence": "This study investigates how a GenAI-based approach can support vulnerability remediation in PSECO while preserving delivery cadence in Continuous Integration and Continuous Delivery (CI/CD) pipelines."
+          "note": "The survey covers a wide range of general-purpose code generation tasks, not limited to a specific domain or frontend.",
+          "value": "General-purpose (GP)",
+          "evidence": "the survey covers code generation in the general-purpose software engineering sense: function-level synthesis, program completion, code translation, automated repair, and test generation for mainstream programming languages."
         },
         "RQc": {
-          "note": "The solution relies on a paid private Azure OpenAI instance subscribed to by the organization, indicating a commercial model.",
-          "value": "Commercial (paid, freemium, enterprise)",
-          "evidence": "the organization has subscribed to a private cloud service with Microsoft, ensuring that the data used for generating fixes is not available for public AI training."
+          "note": "The paper surveys many solutions with varying access models (open-source and commercial); no single model is specified for the solution.",
+          "value": "Unspecified",
+          "evidence": "There is no single access model; the survey discusses both open-source and commercial models."
         },
         "RQd": {
-          "note": "The main limitation discussed is the risk of overreliance on AI-generated fixes, requiring human-in-the-loop validation to preserve critical thinking and avoid knowledge erosion.",
-          "value": "Operational constraints",
-          "evidence": "Human-in-the-loop validation preserved critical thinking, addressing concerns about blind automation and knowledge erosion"
+          "note": "The survey emphasizes technical limitations such as reasoning, context length, and correctness issues.",
+          "value": "Technical limitations",
+          "evidence": "Limitations persist. Models struggle with complex reasoning, generate vulnerable code, exhibit unreliable behavior on novel problems, and perform inconsistently across programming languages."
         },
         "RQe": {
-          "note": "The approach is evaluated through a participative case study and is not yet positioned as a fully mature, production-ready offering.",
-          "value": "Experimental or beta phase",
-          "evidence": "We conducted a participative case study in a large global organization to design and evaluate PSECO-SafePatch"
+          "note": "LLM-based code generation is widely deployed in production tools like GitHub Copilot, indicating production readiness.",
+          "value": "Production-ready",
+          "evidence": "The technology has transitioned from research curiosity to practical tool used by millions of developers daily."
         },
         "RQf": {
-          "note": "The paper itself and the supplementary material provide documentation, but no dedicated user manual, forums, or community channels are mentioned.",
-          "value": [
-            "Docs/Tutorial/User Manual"
-          ],
-          "evidence": "The prototype source code is available in our supplementary material at https://doi.org/10.5281/zenodo.15386005."
+          "note": "The solution is a survey paper, not a tool with documentation, support, or community channels.",
+          "value": [],
+          "evidence": ""
         },
         "RQg": {
-          "note": "The tool is intended for developers and technical leaders who are responsible for fixing vulnerabilities.",
+          "note": "The primary target users are developers, as the survey focuses on code generation for software engineering.",
           "value": "Developers",
-          "evidence": "the development team reviews the AI-generated fixes. Developers assess whether the suggested corrections are appropriate"
+          "evidence": "The technology has transitioned from research curiosity to practical tool used by millions of developers daily."
         },
         "RQh": {
-          "note": "The evaluation was performed inside a large global organization, constituting an industrial case study.",
-          "value": "Industrial case studies",
-          "evidence": "We conducted a participative case study in a large global organization operating in the financial domain."
+          "note": "The survey is a literature review and does not include original industrial case studies or large-scale user studies of its own.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "It surveys solutions for code generation within the software engineering context."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "It describes various generative AI models used for coding activities but is itself a survey, not a specific solution.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "It is a secondary study that surveys primary studies and empirical cases, not itself a primary or empirical case.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "As a survey, it does not present a usable prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "It was published on 10 April 2026, which falls between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "It is written in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is explicitly labeled a survey and does not present new primary research."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC28",
+      "status": "screened",
+      "data": {
+        "title": "Can large language models identify and refactor code clones? An empirical study",
+        "link": "https://doi.org/10.1016/j.jss.2025.112717",
+        "markdown_chars": 127497
+      },
+      "answers": {
+        "solution_name": "GPT-4o",
+        "RQa": {
+          "note": "The source is a published academic paper.",
+          "value": "Academic Paper",
+          "evidence": "The Journal of Systems & Software 234 (2026) 112717"
+        },
+        "RQb": {
+          "note": "GPT-4o is a general-purpose large language model applied to code clone classification and refactoring tasks.",
+          "value": "General-purpose (GP)",
+          "evidence": "We explore how is GPT-4o’s performance when we consider the results of traditional method JDeodorant as ground truth"
+        },
+        "RQc": {
+          "note": "GPT-4o is accessed via commercial API (Azure OpenAI) with a paid usage model.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "we utilized Azure OpenAI and accessed the model with API calls. The total cost of API usage calling was $1,500."
+        },
+        "RQd": {
+          "note": "The model struggles to correctly classify and refactor Type-2 and Type-3 clones, and encounters compilation errors in cross-file scenarios.",
+          "value": "Technical limitations",
+          "evidence": "GPT-4o achieved the perfect performance to identify Type-1 clones, but the accuracy dropped to around 51.2 % for Type-2 clones and around 85.6 % for Type-3 clones."
+        },
+        "RQe": {
+          "note": "GPT-4o is a publicly available, production-ready large language model from OpenAI.",
+          "value": "Production-ready",
+          "evidence": "we selected GPT-4o for our study."
+        },
+        "RQf": {
+          "note": "No information about documentation, support, or community is provided in the text.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The solution is aimed at software developers performing code maintenance and refactoring.",
+          "value": "Developers",
+          "evidence": "Developers draw not only on principles but also on their sense of what fits the code context"
+        },
+        "RQh": {
+          "note": "The validation is based on open-source projects and a small-scale case study; no industrial collaboration is mentioned.",
+          "value": "Unspecified",
+          "evidence": "We also conducted a case study on the JHotDraw project."
         }
       },
       "screening": {
@@ -1601,26 +1980,26 @@
         "criteria": {
           "IC1": {
             "verdict": "met",
-            "note": "The paper is about applying GenAI for vulnerability remediation in software development, clearly within software engineering context."
+            "note": "The study evaluates LLMs on code clone detection and refactoring, which are software construction activities."
           },
           "IC2": {
             "verdict": "met",
-            "note": "It applies LLM-based GenAI to generate patches for fixing vulnerabilities, a software construction activity.",
-            "type": "tool",
-            "software_engineering_activity": "vulnerability fixing"
+            "note": "GPT-4o is a large language model applied to the coding-phase activity of refactoring.",
+            "type": "language model",
+            "software_engineering_activity": "refactoring"
           },
           "IC3": {
             "verdict": "met",
-            "note": "The source describes a participative case study that proposes and evaluates a specific solution, making it a primary study.",
+            "note": "The paper presents an empirical study evaluating GPT-4o on real-world codebases, making it a primary study.",
             "type": "primary study"
           },
           "IC4": {
             "verdict": "met",
-            "note": "The paper presents a web-based tool (PSECO-SafePatch) that was integrated into an organization's CI/CD pipeline and used in a case study, indicating a usable prototype."
+            "note": "GPT-4o is a publicly available, deployed language model accessible via API."
           },
           "IC5": {
             "verdict": "met",
-            "note": "The article is published in 2026 (volume 234, 2026) and was accepted in December 2025, which is within 2021-2026."
+            "note": "The paper is published in 2026, within the 2021-2026 window."
           },
           "EC3": {
             "verdict": "not_met",
@@ -1628,11 +2007,11 @@
           },
           "EC4": {
             "verdict": "not_met",
-            "note": "The full text is written in English."
+            "note": "The paper is written in English."
           },
           "EC5": {
             "verdict": "not_met",
-            "note": "The source is a primary case study proposing and evaluating a solution, not a secondary or tertiary study."
+            "note": "The paper is a primary empirical study, not a secondary or tertiary study."
           }
         }
       }
@@ -1730,100 +2109,6 @@
           "EC5": {
             "verdict": "not_met",
             "note": "The paper is an original primary study, not a secondary or tertiary review."
-          }
-        }
-      }
-    },
-    {
-      "id": "SC31",
-      "status": "screened",
-      "data": {
-        "title": "An extensible framework for energy community embedding business models and AI-generated code snippets",
-        "link": "https://doi.org/10.1016/j.asoc.2025.114455",
-        "markdown_chars": 112601
-      },
-      "answers": {
-        "solution_name": "GenECodes",
-        "RQa": {
-          "note": "The solution is presented in an academic paper published in the Applied Soft Computing journal.",
-          "value": "Academic Paper",
-          "evidence": "Applied Soft Computing Journal 190 (2026) 114455"
-        },
-        "RQb": {
-          "note": "The framework is specifically designed for simulating energy communities and local energy markets, making it domain-specific.",
-          "value": "Domain or language-specific",
-          "evidence": "modular and extensible framework for simulating the operation of Energy Communities (ECs) and their participation in Local Energy Markets (LEMs)"
-        },
-        "RQc": {
-          "note": "The paper does not specify the access model or cost of the framework; it only mentions data availability on request.",
-          "value": "Unspecified",
-          "evidence": "Data will be made available on request."
-        },
-        "RQd": {
-          "note": "The paper discusses technical limitations such as deterministic models not capturing stochastic variability and linear scaling constraints for large communities.",
-          "value": "Technical limitations",
-          "evidence": "the deterministic asset models ... do not capture stochastic variability such as abrupt behavioral shifts, rapid weather deviations or atypical consumption events"
-        },
-        "RQe": {
-          "note": "The solution is validated through simulations on a real energy community, indicating it is still in the experimental or beta phase.",
-          "value": "Experimental or beta phase",
-          "evidence": "Simulations based on a Romanian EC show high accuracy of the asset models"
-        },
-        "RQf": {
-          "note": "No technical documentation, support channels, or community forums are mentioned in the paper.",
-          "value": [],
-          "evidence": ""
-        },
-        "RQg": {
-          "note": "The framework is intended for developers and researchers who simulate and prototype energy community models.",
-          "value": "Developers",
-          "evidence": "The framework enables rapid prototyping of emerging business models and supports the digital transition of decentralized energy systems."
-        },
-        "RQh": {
-          "note": "The validation uses a case study of a real energy community but does not mention collaboration with industry.",
-          "value": "Unspecified",
-          "evidence": "The framework is tested on a residential EC located in a village near Constanta, Romania"
-        }
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: IC1, IC2",
-        "criteria": {
-          "IC1": {
-            "verdict": "not_met",
-            "note": "The solution is for simulating energy communities, which is not software construction (coding)."
-          },
-          "IC2": {
-            "verdict": "not_met",
-            "note": "The solution does not apply Generative AI to a software-construction activity.",
-            "type": "",
-            "software_engineering_activity": ""
-          },
-          "IC3": {
-            "verdict": "met",
-            "note": "The paper describes a practical implementation validated through simulations.",
-            "type": "primary study"
-          },
-          "IC4": {
-            "verdict": "met",
-            "note": "The paper presents a functional prototype framework validated with a case study."
-          },
-          "IC5": {
-            "verdict": "met",
-            "note": "The paper was published in 2026, which is within the 2021–2026 range."
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The paper is written entirely in English."
-          },
-          "EC5": {
-            "verdict": "not_met",
-            "note": "The paper presents a framework and its validation, not a secondary or tertiary study."
           }
         }
       }
@@ -2020,6 +2305,100 @@
       }
     },
     {
+      "id": "SC37",
+      "status": "screened",
+      "data": {
+        "title": "Evaluating Retrieval-Augmented Generation for LLM-Based Vulnerability Detection: An Empirical Study on Real-World Java Vulnerabilities",
+        "link": "https://doi.org/10.1109/ACCESS.2026.3676577",
+        "markdown_chars": 76642
+      },
+      "answers": {
+        "solution_name": "RAG-based Vulnerability Detection",
+        "RQa": {
+          "note": "The paper is a research article published in the IEEE Access journal.",
+          "value": "Academic Paper",
+          "evidence": "Digital Object Identifier 10.1109/ACCESS.2026.3676577"
+        },
+        "RQb": {
+          "note": "The solution targets Java vulnerability detection, making it domain- and language-specific.",
+          "value": "Domain or language-specific",
+          "evidence": "we explore the source code vulnerability detection capabilities of large language models (LLMs) in a realistic, language-specific setting. We investigate to what extent retrieval-augmented generation (RAG) improves their performance when applied to real-world Java vulnerabilities."
+        },
+        "RQc": {
+          "note": "The paper does not state an access model or cost for the described approach.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "Key limitations are sparse retrieval and persistent false positives, which are technical constraints.",
+          "value": "Technical limitations",
+          "evidence": "retrieval was often sparse, and false positives remained common, limiting practical impact."
+        },
+        "RQe": {
+          "note": "The work is presented as a research experiment, not as a production-ready solution.",
+          "value": "Experimental or beta phase",
+          "evidence": "Our study should be understood as an empirical exploration of LLM behavior under RAG-style augmentation, rather than as a practical solution for real-world deployment."
+        },
+        "RQf": {
+          "note": "No technical documentation, support forums, or community channels are mentioned for the RAG-based method itself.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The intended users are developers and security engineers who would use such a tool in code review and CI workflows.",
+          "value": "Developers",
+          "evidence": "when integrated into CI pipelines or security code review processes."
+        },
+        "RQh": {
+          "note": "No industrial case studies or large-scale user studies are reported; evaluation relies on the Vul4J dataset.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study deals with detecting vulnerabilities in Java source code, a software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution uses LLMs with retrieval-augmented generation for vulnerability detection, a coding-phase activity.",
+            "type": "technique/solution",
+            "software_engineering_activity": "vulnerability detection"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper reports an empirical evaluation with experiments, making it a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The work is presented as an empirical exploration, not as a usable prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper was published in 2026, within the 2021–2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The entire paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary empirical study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
       "id": "SC38",
       "status": "screened",
       "data": {
@@ -2035,6 +2414,196 @@
           "EC3": {
             "verdict": "met",
             "note": "content unavailable or inaccessible"
+          }
+        }
+      }
+    },
+    {
+      "id": "SC39",
+      "status": "screened",
+      "data": {
+        "title": "Intent-LLM: A Framework for Automated Network Configuration Through Code Generation",
+        "link": "https://doi.org/10.1109/TCCN.2026.3683230",
+        "markdown_chars": 64719
+      },
+      "answers": {
+        "solution_name": "Intent-LLM",
+        "RQa": {
+          "note": "The solution is presented in an academic paper published in a peer-reviewed journal.",
+          "value": "Academic Paper",
+          "evidence": "IEEE TRANSACTIONS ON COGNITIVE COMMUNICATIONS AND NETWORKING, VOL. 12, 2026"
+        },
+        "RQb": {
+          "note": "The solution is tailored to the networking domain, translating intents into network-specific Python code.",
+          "value": "Domain or language-specific",
+          "evidence": "Intent-LLM is a framework for automated network configuration focused on routing, resource allocation, topology management, and energy efficiency."
+        },
+        "RQc": {
+          "note": "The framework relies on GPT 4o Mini, a closed-source commercial LLM accessed via a paid API; no free or open-source distribution is mentioned.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "GPT 4o Mini ... closed-source, but they are extremely capable, even multimodal, and they come with an API for remote execution."
+        },
+        "RQd": {
+          "note": "The main limitations are technical: dependency on the API scope and sensitivity to prompt quality.",
+          "value": "Technical limitations",
+          "evidence": "The proposed framework inherently depends on the set of primitives exposed through the API, which defines the admissible operational space of the LLM. Requests that exceed this space may lead the model to generate unsupported implementations... performance remains sensitive to the quality and specificity of the prompting context..."
+        },
+        "RQe": {
+          "note": "The framework is still under research, with planned future investigations and no claims of production readiness.",
+          "value": "Experimental or beta phase",
+          "evidence": "Future works will investigate performance of the proposed framework in more complex and general optimization network problems... future work will investigate closed-loop assurance mechanisms..."
+        },
+        "RQf": {
+          "note": "The paper does not mention any separate technical documentation, support forums, issue trackers, release notes, or community channels.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The solution targets non‑developer stakeholders such as network end‑users and operators who express their goals in natural language.",
+          "value": "Others",
+          "evidence": "This approach aims to democratize network control, allowing a broader range of stakeholders to define and achieve their objectives without being burdened by the complexities of the underlying systems."
+        },
+        "RQh": {
+          "note": "Validation is performed on simulated scenarios (Home, Enterprise, RSU, Vertical) and with student implementations, not through industrial case studies or large‑scale user studies.",
+          "value": "Unspecified",
+          "evidence": "Validation of the proposed approach is provided, considering both the syntactical correctness and network effectiveness of the code produced. Finally, the human feedback is provided to test the strategies generated."
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC2",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The solution operates in the networking domain, not in software engineering or software construction."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The generated code is for network configuration/simulation, not for software construction activities.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical implementation of the framework.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The framework is a functional prototype tested on simulated scenarios."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in 2026, within the acceptable range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC40",
+      "status": "screened",
+      "data": {
+        "title": "EVALUATING THE CODE GENERATION CAPABILITIES OF CHATGPT THROUGH C++ DATABASE MANAGEMENT TASKS",
+        "link": "https://doi.org/10.5281/zenodo.18260582",
+        "markdown_chars": 44799
+      },
+      "answers": {
+        "solution_name": "ChatGPT GPT-4",
+        "RQa": {
+          "note": "The text is a paper published in an academic journal.",
+          "value": "Academic Paper",
+          "evidence": "Journal of Theoretical and Applied Information Technology"
+        },
+        "RQb": {
+          "note": "ChatGPT GPT-4 is evaluated in this study for generating C++ code for database management tasks, which represents a general-purpose AI coding assistant.",
+          "value": "General-purpose (GP)",
+          "evidence": "This study explores the coding capabilities of ChatGPT GPT 4... The model was evaluated on twenty C++ database management tasks"
+        },
+        "RQc": {
+          "note": "Access is via OpenAI's API, which is a paid commercial service; no free or open-source license is indicated for the model itself.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "ChatGPT GPT-4 was accessed through OpenAI’s Python API"
+        },
+        "RQd": {
+          "note": "The study identifies technical limitations related to code structure variability and task completeness.",
+          "value": "Technical limitations",
+          "evidence": "the model showed noticeable variability in code structure and length across repeated runs of the same task... Tasks generated without human input occasionally missed some system functions or provided limited internal testing, reducing the completeness of those implementations."
+        },
+        "RQe": {
+          "note": "The study's evaluation shows ChatGPT GPT-4 is production-ready for the specific tasks tested.",
+          "value": "Production-ready",
+          "evidence": "The results show that ChatGPT was able to consistently produce compilable and runnable C++ programs for all tasks, indicating reliable performance within this domain."
+        },
+        "RQf": {
+          "note": "A GitHub link with the dataset is provided, but no other community or documentation channels are mentioned.",
+          "value": [
+            "GitHub issue trackers"
+          ],
+          "evidence": "The full dataset of generated outputs is available on GitHub [33]."
+        },
+        "RQg": {
+          "note": "The solution is used by and evaluated for developers.",
+          "value": "Developers",
+          "evidence": "ChatGPT... can generate code from descriptions, assist in debugging by explaining errors, suggest optimizations, and even create documentation and comments for better code readability. This makes ChatGPT a practical assistant across many stages of development."
+        },
+        "RQh": {
+          "note": "The study presents an experimental evaluation by the author but does not mention collaboration with industry or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "This study evaluated ChatGPT’s ability to generate executable C++ programs across twenty database management tasks."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study evaluates ChatGPT's ability to generate C++ programs for software construction tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies the LLM ChatGPT to the coding activity of generating C++ programs.",
+            "type": "language model",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes an empirical study evaluating ChatGPT, an existing model, on practical tasks.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "ChatGPT GPT-4 is a deployed, usable language model accessed via API."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in January 2026, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The document is predominantly in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The document is a primary study performing its own evaluation, not a secondary or tertiary study."
           }
         }
       }
@@ -2711,6 +3280,194 @@
       }
     },
     {
+      "id": "SC49",
+      "status": "screened",
+      "data": {
+        "title": "Code Comprehension Gaps in AI-Assisted Development: A Conceptual Framework for Knowledge Erosion Patterns",
+        "link": "https://doi.org/10.1109/ACCESS.2026.3689574",
+        "markdown_chars": 99339
+      },
+      "answers": {
+        "solution_name": "Code Comprehension Framework for AI-Assisted Development",
+        "RQa": {
+          "note": "The solution is described in an academic paper published in IEEE Access.",
+          "value": "Academic Paper",
+          "evidence": "Abstract—The increasing adoption of AI-powered code generation tools ... This paper examines how AI-assisted development may create knowledge gaps ... We propose a conceptual framework ..."
+        },
+        "RQb": {
+          "note": "The framework is general-purpose, intended for reasoning about comprehension in any AI-augmented software development context.",
+          "value": "General-purpose (GP)",
+          "evidence": "We propose a conceptual framework for understanding code comprehension levels in AI-augmented development (Section III)"
+        },
+        "RQc": {
+          "note": "The paper is openly accessible under a Creative Commons license, implying free access.",
+          "value": "Open-source / free",
+          "evidence": "This work is licensed under a Creative Commons Attribution 4.0 License."
+        },
+        "RQd": {
+          "note": "The solution is a conceptual framework that has not been empirically validated, limiting its immediate operational applicability.",
+          "value": "Operational constraints",
+          "evidence": "This framework represents a theoretical model requiring empirical validation."
+        },
+        "RQe": {
+          "note": "The framework is still in an early, conceptual phase and requires future empirical validation.",
+          "value": "Experimental or beta phase",
+          "evidence": "This work is conceptual and theory-building in nature. ... The proposed constructs are designed to be hypothesis-generating and to guide future empirical investigation, rather than to serve as definitive or validated measurements."
+        },
+        "RQf": {
+          "note": "No dedicated community, issue tracker, forum, or release notes are mentioned for the conceptual framework itself; the paper is a standalone academic publication.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The solution targets developers and engineering teams who use AI-assisted development practices.",
+          "value": "Developers",
+          "evidence": "The developer community has been highly enthusiastic ... developers may not fully understand, document, or maintain ... codebases are increasingly populated with code that developers may not fully understand."
+        },
+        "RQh": {
+          "note": "No industrial case studies or large-scale user studies are reported; the work is purely conceptual and calls for future empirical research.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper is set in the context of software engineering, discussing AI-assisted coding and code comprehension."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The paper presents a conceptual framework, not a practical solution that applies Generative AI methods to a software-construction activity.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The paper is a purely theoretical proposal and does not describe a practical implementation.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No prototype or deployed tool is presented; it is a conceptual framework."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper is published in 2026, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper is a primary conceptual framework, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC51",
+      "status": "screened",
+      "data": {
+        "title": "Refactoring Object-Oriented Software With ChatGPT: An Empirical Study",
+        "link": "https://doi.org/10.1049/sfw2/3348017",
+        "markdown_chars": 81455
+      },
+      "answers": {
+        "solution_name": "ChatGPT",
+        "RQa": {
+          "note": "The source is a research article published in an academic journal (IET Software).",
+          "value": "Academic Paper",
+          "evidence": "IET Software, 2026; 2026:3348017 https://doi.org/10.1049/sfw2/3348017"
+        },
+        "RQb": {
+          "note": "ChatGPT is a general-purpose generative AI model, evaluated here for a specific software engineering task but not limited to any single domain.",
+          "value": "General-purpose (GP)",
+          "evidence": "In this study, we empirically investigate ChatGPT’s ability to perform code refactoring tasks."
+        },
+        "RQc": {
+          "note": "Access to ChatGPT is via a commercial web interface; the text implies a commercial product with a free tier but does not explicitly state cost.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "ChatGPT has been accessed via the web interface and prompted interactively using both single-turn text prompts, with the default temperature (0.7)."
+        },
+        "RQd": {
+          "note": "The main limitations are technical: lack of AST parsing, fuzzy text matching, inability to handle large projects, and failure to follow refactoring constraints.",
+          "value": "Technical limitations",
+          "evidence": "ChatGPT is not able to parse the Java code into an AST, even when explicitly instructed to do so. It, instead, breaks the input tokens through a tokenizer then processes the tokens using special encoding techniques."
+        },
+        "RQe": {
+          "note": "The study concludes that ChatGPT is not yet production-ready for automated refactoring; it is still in an experimental evaluation phase.",
+          "value": "Experimental or beta phase",
+          "evidence": "ChatGPT is not yet ready to be used as a fully automated refactoring tool for large-scale real-world applications. Its outputs still require human oversight to improve the refactored code’s correctness."
+        },
+        "RQf": {
+          "note": "The paper does not mention any documentation, support channels, or community resources for ChatGPT.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The intended users are software developers performing refactoring tasks.",
+          "value": "Developers",
+          "evidence": "We, therefore, explore the idea of using GenAI for code refactoring to overcome the limitations of the existing tools, as GenAI models are well suited for text-based applications."
+        },
+        "RQh": {
+          "note": "The paper does not describe any industrial case studies or large-scale user studies; it is an academic experiment on open-source projects.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The study explicitly investigates code refactoring, a core software construction activity, in a software engineering context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution applies a generative AI language model (ChatGPT) to the software construction activity of refactoring.",
+            "type": "language model",
+            "software_engineering_activity": "refactoring"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper describes an empirical study where ChatGPT is applied to refactor real-world Java applications and the results are analyzed.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "ChatGPT is a usable and deployed tool; the paper evaluates its application to refactoring, which is a practical implementation assessment."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The article was received in 2025 and published in 2026, which falls within the 2021–2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is provided in English with no indication of a non-English version requiring exclusion."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary study presenting an empirical evaluation of ChatGPT for refactoring, not a secondary or tertiary study like a survey or review."
+          }
+        }
+      }
+    },
+    {
       "id": "SC52",
       "status": "screened",
       "data": {
@@ -3093,6 +3850,198 @@
       }
     },
     {
+      "id": "SC59",
+      "status": "screened",
+      "data": {
+        "title": "Performance and interpretability analysis of code generation large language models",
+        "link": "https://doi.org/10.1016/j.neucom.2025.131461",
+        "markdown_chars": 132055
+      },
+      "answers": {
+        "solution_name": "Interpretability Analysis of LLM Code Translation",
+        "RQa": {
+          "note": "The paper is published in the academic journal Neurocomputing.",
+          "value": "Academic Paper",
+          "evidence": "Neurocomputing 656 (2025) 131461"
+        },
+        "RQb": {
+          "note": "The solution is a methodology for evaluating and interpreting code generation LLMs in code translation tasks, making it domain-specific to code.",
+          "value": "Domain or language-specific",
+          "evidence": "This study evaluates and interprets the performance of 15 open-source LLM Transcoding models ... on code translation and generation from requirements using the Rosetta Code dataset across diverse programming languages and tasks."
+        },
+        "RQc": {
+          "note": "The paper is published as open access, making the research findings freely available.",
+          "value": "Open-source / free",
+          "evidence": "This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/)."
+        },
+        "RQd": {
+          "note": "The study acknowledges limitations in the dataset scope, model selection, and evaluation metrics, which are technical constraints.",
+          "value": "Technical limitations",
+          "evidence": "The most important limitations of this study were the selection of only seven programming languages, 15 LLMs, and the Rosetta Code dataset."
+        },
+        "RQe": {
+          "note": "The solution is a research study with experimental methodology, not a production-ready tool.",
+          "value": "Experimental or beta phase",
+          "evidence": "The study evaluates ... through multiple evaluation metrics ... and interpretability analysis."
+        },
+        "RQf": {
+          "note": "The paper provides research artifacts and scripts, which serve as documentation for the evaluation methodology.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "Research artifacts which include the selected tasks and their implementations in seven coding languages, along with automation scripts and all intermediate results generated by the LLMs."
+        },
+        "RQg": {
+          "note": "The target users are developers who select and use LLMs for code generation, as the insights help in model selection and understanding.",
+          "value": "Developers",
+          "evidence": "This research provides quantitative and qualitative insights into the capabilities and limitations of open-source code-generating LLMs, informing model selection and the understanding of LLM-generated code."
+        },
+        "RQh": {
+          "note": "There is no mention of collaboration with industry or case studies; the validation is purely experimental.",
+          "value": "Unspecified",
+          "evidence": "The study uses the Rosetta Code dataset and does not mention any industrial case studies or large-scale user studies."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper evaluates LLMs for code translation and generation, which operates in software construction context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution applies Generative AI methods (LLMs) to support code translation and generation activities.",
+            "type": "technique/solution",
+            "software_engineering_activity": "code translation/generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper presents an experimental study with implemented scripts and empirical results, not a purely theoretical proposal.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The research provides automation scripts and artifacts as a prototype tool for the evaluation methodology."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in 2025, which falls within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The entire paper is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC62",
+      "status": "screened",
+      "data": {
+        "title": "Piloting Copilot, Codex, and StarCoder2: Hot temperature, cold prompts, or black magic?",
+        "link": "https://doi.org/10.1016/j.jss.2025.112562",
+        "markdown_chars": 114312
+      },
+      "answers": {
+        "solution_name": "StarCoder2",
+        "RQa": {
+          "note": "The source is a research article published in The Journal of Systems & Software.",
+          "value": "Academic Paper",
+          "evidence": "The Journal of Systems & Software 230 (2025) 112562"
+        },
+        "RQb": {
+          "note": "The solution generates code from natural language descriptions for general programming tasks.",
+          "value": "General-purpose (GP)",
+          "evidence": "the ability to produce programs on non-trivial programming problems or tasks."
+        },
+        "RQc": {
+          "note": "StarCoder2-15B is described as a fully open-source model, thus free to use.",
+          "value": "Open-source / free",
+          "evidence": "Starting with the sentence: 'Since we originally evaluated Codex and Copilot in 2022, we replicated our experiment with StarCoder2, a more recent open-source model...'"
+        },
+        "RQd": {
+          "note": "The source highlights reproducibility issues due to reliance on proprietary, closed-source services and the potentially high cost of experiments which could be a barrier for operational adoption.",
+          "value": "Operational constraints",
+          "evidence": "Part of our research is reproducible: we stored all parameters’ values for every provided prompt and synthesized programs. In particular, all output data is available in the companion Web page and can be revisited in the future. [...] Owing to the large audience of LeetCode, the test suite can be considered as mature and of high quality when it comes to validate programs sent daily. Another related issue is the cost of our experiments. For instance, we had privileged and free access to a private API of Codex. The actual cost of creating numerous programs can run into the thousands of dollars."
+        },
+        "RQe": {
+          "note": "The solution is a released model used in the study. While its description as an open-source model suggests production readiness, the paper's context is experimental evaluation.",
+          "value": "Experimental or beta phase",
+          "evidence": "Specifically, we used StarCoder2-15B, a 15-billion-parameter model released in February 2024, trained on 600+ programming languages from The Stack v2 dataset"
+        },
+        "RQf": {
+          "note": "The text provides a reference (Lozhkov et al., 2024a) to a paper detailing the model, which likely includes documentation. The dataset is also mentioned, but explicit discussion of a forum, issue trackers, release notes, or community is absent.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "StarCoder2-15B, a 15-billion-parameter model released in February 2024, trained on 600+ programming languages from The Stack v2 dataset (Lozhkov et al., 2024a)."
+        },
+        "RQg": {
+          "note": "The solution is a language model used for code generation, targeted for use by developers.",
+          "value": "Developers",
+          "evidence": "the end user of the model"
+        },
+        "RQh": {
+          "note": "The validation is done through an empirical study using standard benchmarks (HumanEval, LeetCode), not through industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "We conducted a large empirical study of Copilot, Codex, and StarCoder2 over 446 algorithmic problems and six different programming languages (leveraging the HumanEval and LeetCode datasets)."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper investigates LLM-based code assistants (Copilot, Codex, StarCoder2) for generating code from natural language prompts, clearly in the software engineering (coding) context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "StarCoder2 is a generative AI language model applied to code generation, a software-construction activity.",
+            "type": "language model",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper is an empirical study that provides a practical implementation and evaluation of the solution, making it a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "StarCoder2 is a released open-source language model, thus a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper was published online in 2025, which falls within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper is a primary empirical study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
       "id": "SC63",
       "status": "screened",
       "data": {
@@ -3282,6 +4231,103 @@
           "EC5": {
             "verdict": "not_met",
             "note": "It is a primary study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC66",
+      "status": "screened",
+      "data": {
+        "title": "An Empirical Study of Exploring the Capabilities of Large Language Models in Code Learning",
+        "link": "https://doi.org/10.1109/TSE.2025.3609876",
+        "markdown_chars": 87542
+      },
+      "answers": {
+        "solution_name": "Empirical Study of Code LLMs (CodeGen, LLaMA, StarCoder)",
+        "RQa": {
+          "note": "The source is a paper published in the IEEE Transactions on Software Engineering.",
+          "value": "Academic Paper",
+          "evidence": "IEEE TRANSACTIONS ON SOFTWARE ENGINEERING, VOL. 51, NO. 11, NOVEMBER 2025"
+        },
+        "RQb": {
+          "note": "The solution is a comprehensive empirical study evaluating LLMs across a broad spectrum of software engineering tasks.",
+          "value": "General-purpose (GP)",
+          "evidence": "We conduct a study in this paper to illustrate the performance of LLMs in different software engineering tasks... including code syntax understanding, code semantic reasoning, encoding representation quality, and adaptation performance for different software engineering tasks"
+        },
+        "RQc": {
+          "note": "The study focuses on open-source LLMs (CodeGen, LLaMA, StarCoder).",
+          "value": "Open-source / free",
+          "evidence": "we select three open-source large language models, CodeGen, LLaMA, and StarCoder, for the research targets"
+        },
+        "RQd": {
+          "note": "Technical limitations include sub-par performance on code understanding tasks compared to BERT-style models, zero-shot tasks, and the varying effectiveness of PEFT techniques.",
+          "value": "Technical limitations",
+          "evidence": "LLMs often do not perform as well as BERT-style code pre-trained models... for classification tasks... causal decoder architecture with left-to-right attention masking does not perform well in zero-shot tasks... LoRA emerged as a more effective PEFT technique than other PEFT techniques in different tasks"
+        },
+        "RQe": {
+          "note": "The study provides research findings, insights, and guidance for future work, indicating it is at the experimental research stage.",
+          "value": "Experimental or beta phase",
+          "evidence": "we conclude: (1) Compared with previous smaller pretrained models... (2) Causal decoder architecture... (3) For classification tasks... (4) Incorporating parameterefficient fine-tuning techniques... (5) LoRA emerges as a more effective PEFT technique... We hope these findings will better guide future researchers in designing more powerful code models"
+        },
+        "RQf": {
+          "note": "The paper points to a released code repository and a website for the public release of code, models, and scripts.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "All code, models, and evaluation scripts have been released publicly [19] to support reproducibility and further research... [19] 'An empirical study of exploring the capabilities of large language models in code learning.' Google. Accessed: Sep. 01, 2023. [Online]. Available: https://sites.google.com/view/studyllm4code"
+        },
+        "RQg": {
+          "note": "The target audience is primarily software engineering researchers and developers.",
+          "value": "Developers",
+          "evidence": "This paper makes the following contributions: ... We provide actionable insights for model selection and adaptation in real-world software engineering scenarios"
+        },
+        "RQh": {
+          "note": "The paper validates its proposal through a broad experimental study on open-source datasets, but does not describe collaboration with industry.",
+          "value": "Unspecified",
+          "evidence": "we conduct a study in this paper to illustrate the performance of LLMs in different software engineering tasks... We selected three open-source large language models... for the research targets... our study is conducted from four aspects... we select four typical PEFT techniques... to separately validate their performance on five code-related tasks"
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper focuses on code learning and software engineering coding tasks."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The study applies LLMs and PEFT techniques to activities like clone detection, code generation, and code completion.",
+            "type": "technique/solution",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper is a primary empirical study with experiments on real datasets.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The paper is an empirical study, not a prototype or deployed tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in November 2025, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper is a primary empirical study, not a survey or review."
           }
         }
       }
@@ -3959,6 +5005,100 @@
       }
     },
     {
+      "id": "SC76",
+      "status": "screened",
+      "data": {
+        "title": "Refactoring Loops in the Era of LLMs: A Comprehensive Study",
+        "link": "https://doi.org/10.3390/fi17090418",
+        "markdown_chars": 96392
+      },
+      "answers": {
+        "solution_name": "ChatGPT",
+        "RQa": {
+          "note": "The solution is described in a peer-reviewed journal article.",
+          "value": "Academic Paper",
+          "evidence": "Citation: Midolo, A.; Tramontana, E. Refactoring Loops in the Era of LLMs: A Comprehensive Study. Future Internet 2025, 17, 418."
+        },
+        "RQb": {
+          "note": "ChatGPT is a general-purpose large language model used for many tasks, including code refactoring.",
+          "value": "General-purpose (GP)",
+          "evidence": "ChatGPT, a generative pre-trained transformer (GPT), allows users to input prompts and receive human-like responses across various media, including text and code"
+        },
+        "RQc": {
+          "note": "The solution is accessed via the paid OpenAI API; the paper does not discuss specific pricing but indicates a commercial service.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "We used the GPT-3.5 turbo model to generate the refactoring. ... This step was automated by leveraging the OpenAI API"
+        },
+        "RQd": {
+          "note": "The paper details several technical limitations, such as struggles with complex loops, missing symbols, and exception handling, requiring human intervention.",
+          "value": "Technical limitations",
+          "evidence": "ChatGPT struggled with complex control flows and implicit dependencies … Common issues like ‘cannot find symbol’ were often easily resolved by adding imports or defining variables, while more complex errors such as handling exceptions in streams required deeper analysis."
+        },
+        "RQe": {
+          "note": "ChatGPT is a deployed, widely used product, though the study finds it needs human supervision for this task.",
+          "value": "Production-ready",
+          "evidence": "ChatGPT is a helpful tool for programmers; however, it is not yet reliable enough to be used without human oversight"
+        },
+        "RQf": {
+          "note": "The text does not mention any technical documentation, support, or community channels for the solution.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The aimed users are programmers/developers performing code refactoring.",
+          "value": "Developers",
+          "evidence": "ChatGPT is a helpful tool for programmers"
+        },
+        "RQh": {
+          "note": "The evaluation uses open-source repositories and does not mention industry collaboration or user studies.",
+          "value": "Unspecified",
+          "evidence": "We analyzed 2132 loops extracted from four open-source GitHub repositories and classified them …"
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper focuses on refactoring loops in Java code, a software construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The solution is ChatGPT, a large language model, applied to refactor loops (coding activity).",
+            "type": "language model",
+            "software_engineering_activity": "code refactoring"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper presents an empirical study evaluating ChatGPT on real-world code, making it a primary study.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "ChatGPT is a deployed, usable tool, and the paper demonstrates its practical application in refactoring."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper was published in 2025, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper is a primary empirical study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
       "id": "SC78",
       "status": "screened",
       "data": {
@@ -4433,6 +5573,102 @@
       }
     },
     {
+      "id": "SC87",
+      "status": "screened",
+      "data": {
+        "title": "An Empirical Study of the Non-Determinism of ChatGPT in Code Generation",
+        "link": "https://doi.org/10.1145/3697010",
+        "markdown_chars": 104277
+      },
+      "answers": {
+        "solution_name": "ChatGPT",
+        "RQa": {
+          "note": "The source is a research article published in ACM Transactions on Software Engineering and Methodology.",
+          "value": "Academic Paper",
+          "evidence": "ACM Transactions on Software Engineering and Methodology, Vol. 34, No. 2, Article 42. Publication date: January 2025."
+        },
+        "RQb": {
+          "note": "ChatGPT is used as a general-purpose LLM for code generation tasks across multiple benchmarks.",
+          "value": "General-purpose (GP)",
+          "evidence": "ChatGPT is the most widely adopted LLM in code generation in the literature."
+        },
+        "RQc": {
+          "note": "ChatGPT is a commercial product accessed via API (GPT-3.5 and GPT-4), which involves paid usage.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "Written in ChatGPT’s official website, using ChatGPT’s model API requires various parameters."
+        },
+        "RQd": {
+          "note": "Non-determinism leads to inconsistent and unreliable code, affecting trust and safety, which is a technical limitation of the model.",
+          "value": "Technical limitations",
+          "evidence": "Unreliable and inconsistent code snippets can have significant negative effects on the process of software development, particularly in safety-critical applications where consistency and reliability are paramount."
+        },
+        "RQe": {
+          "note": "ChatGPT is already widely adopted and in production use for code generation, indicating it is production‑ready.",
+          "value": "Production-ready",
+          "evidence": "ChatGPT has gained widespread popularity and recognition in multiple tasks including ... code generation."
+        },
+        "RQf": {
+          "note": "The paper references the official website for documentation; no other community channels are mentioned.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "Written in ChatGPT’s official website"
+        },
+        "RQg": {
+          "note": "Developers are the primary users, as the context is code generation for software development.",
+          "value": "Developers",
+          "evidence": "Such non-determinism ... undermines developers’ trust in LLMs"
+        },
+        "RQh": {
+          "note": "The validation is done using existing public benchmarks, not through industrial case studies or large‑scale user studies.",
+          "value": "Unspecified",
+          "evidence": "We report results from a study of 829 code generation problems across three code generation benchmarks (i.e., CodeContests, APPS and HumanEval)."
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC4",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper studies code generation, which is a core software construction activity, and analyzes non-determinism of generated code."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "ChatGPT (a language model) applies generative AI methods to code generation, a typical coding-phase activity.",
+            "type": "language model",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The work is an empirical case analyzing ChatGPT's behavior on benchmarks rather than proposing/implementing a new solution.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "The study evaluates the existing ChatGPT model; it does not propose or implement a new prototype/tool."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper was published in January 2025, which is between 2021 and 2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "Although not explicitly stated, the text is entirely in English and no non-English version is presented; hence exclusion for language does not apply (verdict 'not_met' means the exclusion is not triggered)."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It does mention a small literature survey but the main contribution is an original empirical study, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
       "id": "SC89",
       "status": "screened",
       "data": {
@@ -4527,151 +5763,54 @@
       }
     },
     {
-      "id": "SC92",
+      "id": "SC93",
       "status": "screened",
       "data": {
-        "title": "Optimizing Large Language Models’ Performance in Software Development Tasks through Structured Prompts",
-        "link": "https://doi.org/10.37394/232018.2025.13.42",
-        "markdown_chars": 26802
+        "title": "Code Clone Detection Techniques Based on Large Language Models",
+        "link": "https://doi.org/10.1109/ACCESS.2025.3549780",
+        "markdown_chars": 61814
       },
       "answers": {
-        "solution_name": "Structured Prompt Framework",
+        "solution_name": "Instruction-tuned GPT-4",
         "RQa": {
-          "note": "The solution is described in an academic paper published in a journal (WSEAS TRANSACTIONS on COMPUTER RESEARCH).",
+          "note": "The source is a published academic paper in the journal IEEE Access.",
           "value": "Academic Paper",
-          "evidence": "WSEAS TRANSACTIONS on COMPUTER RESEARCH DOI: 10.37394/232018.2025.13.42"
+          "evidence": "IEEE Access"
         },
         "RQb": {
-          "note": "The framework is designed for general software development tasks, including algorithm implementation, API design, and system architecture.",
-          "value": "General-purpose (GP)",
-          "evidence": "systematically examines the impact of structured prompting techniques on computational problem-solving efficacy across multiple development paradigms"
+          "note": "The solution provides automated code clone detection and refactoring within the IDE, classifying it as an automation tool.",
+          "value": "Automation (AU)",
+          "evidence": "Integration into an Integrated Development Environment (IDE) enables real-time detection and automated refactoring"
         },
         "RQc": {
-          "note": "The paper does not specify any licensing, cost, or access model for the prompt framework; it is only a research methodology.",
-          "value": "Unspecified",
-          "evidence": ""
+          "note": "The solution uses OpenAI's commercial services (GPT-3.5 Turbo and GPT-4) and its fine-tuning platform, indicating a paid commercial model.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "The instruction tuning was conducted using OpenAI’s fine-tuning platform."
         },
         "RQd": {
-          "note": "The authors caution that integrating AI code generation demands rigorous ethical frameworks and human oversight, highlighting legal and ethical concerns.",
-          "value": "Legal and ethical concerns",
-          "evidence": "The assimilation of AI code generation tools demands rigorous ethical frameworks prioritizing human cognitive oversight in architectural decision-making."
+          "note": "The solution faces token limitations that force code chunking, and increasing token limits raises costs, representing technical limitations.",
+          "value": "Technical limitations",
+          "evidence": "Token Limitations: Token limits restricted the ability to send the overall source code, requiring the code to be sent in chunks. While this limitation could be mitigated by increasing the token limit, this approach increased costs."
         },
         "RQe": {
-          "note": "The solution is a proposed methodological framework evaluated in controlled experiments; it is not presented as a production-ready tool.",
+          "note": "The IDE integration is mentioned as future work, indicating the solution is not yet production-ready and remains in an experimental phase.",
           "value": "Experimental or beta phase",
-          "evidence": "This research establishes a methodological framework to align advanced language model competencies with domain-specific requirements..."
+          "evidence": "While the specific contributions of this real-time IDE integration will be detailed in future research, this approach underscores the practical relevance of our model"
         },
         "RQf": {
-          "note": "The paper does not mention any documentation, tutorials, forums, issue trackers, release notes, or community channels for the framework.",
+          "note": "The paper does not mention any technical documentation, community forums, issue trackers, or other support resources for the solution.",
           "value": [],
           "evidence": ""
         },
         "RQg": {
-          "note": "The intended users are software developers and engineers leveraging LLMs for coding tasks.",
+          "note": "The solution is designed for developers working within the IDE workflow.",
           "value": "Developers",
-          "evidence": "By providing a systematic framework for prompt design, we enable developers to more effectively harness the power of LLMs in their workflow."
+          "evidence": "our framework integrates the instruction-tuned model into an IDE environment, enabling real-time code analysis and automated refactoring"
         },
         "RQh": {
-          "note": "The experiments use a custom dataset of LeetCode problems and simulated real-world tasks, but no industrial collaboration or case studies are reported.",
+          "note": "No industrial case studies or large-scale user studies are mentioned; the evaluation is based on the BigCloneBench dataset.",
           "value": "Unspecified",
-          "evidence": "Real-world Development Task Set: 100 tasks including image classification (50 samples), API development (30 samples), and performance monitoring scenarios (20 samples)."
-        }
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: IC4",
-        "criteria": {
-          "IC1": {
-            "verdict": "met",
-            "note": "The paper explicitly addresses software engineering tasks such as code generation, algorithm implementation, and API design."
-          },
-          "IC2": {
-            "verdict": "met",
-            "note": "The solution applies a structured prompting framework to guide LLMs in software construction activities.",
-            "type": "technique/solution",
-            "software_engineering_activity": "coding"
-          },
-          "IC3": {
-            "verdict": "met",
-            "note": "The study presents and experimentally evaluates the proposed framework on 400 programming challenges.",
-            "type": "primary study"
-          },
-          "IC4": {
-            "verdict": "not_met",
-            "note": "The paper describes a methodological framework and experimental evaluation but does not provide a downloadable prototype or deployed tool."
-          },
-          "IC5": {
-            "verdict": "met",
-            "note": "The paper was published on July 7, 2025, which falls within the 2021-2026 window."
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The full text is written in English."
-          },
-          "EC5": {
-            "verdict": "not_met",
-            "note": "The paper is a primary empirical study, not a secondary or tertiary review."
-          }
-        }
-      }
-    },
-    {
-      "id": "SC95",
-      "status": "screened",
-      "data": {
-        "title": "LLMs for science: Usage for code generation and data analysis",
-        "link": "https://doi.org/10.1002/smr.2723",
-        "markdown_chars": 33094
-      },
-      "answers": {
-        "solution_name": "GPT-4",
-        "RQa": {
-          "note": "This document is a peer-reviewed journal article published in the Journal of Software: Evolution and Process, available via Wiley Online Library.",
-          "value": "Academic Paper",
-          "evidence": "DOI: 10.1002/smr.2723 ... Published by John Wiley & Sons Ltd. ... Journal of Software: Evolution and Process"
-        },
-        "RQb": {
-          "note": "The solution is an ensemble/study of LLM tools for generating code for scientific applications, including general programming tasks and domain-specific data analysis/visualization scripts.",
-          "value": "Domain or language-specific",
-          "evidence": "LLM tools for science: Usage for code generation and data analysis ... use cases related to software engineering, specifically, on generating application code and developing scripts for data analytics and visualization."
-        },
-        "RQc": {
-          "note": "The paper studies a mix of commercially available tools (like Copilot and ChatGPT) and free but proprietary tools (like Google Bard and YouChat).",
-          "value": "Commercial (paid, freemium, enterprise)",
-          "evidence": "We selected a wide range of available LLM-based tools: ChatGPT with GPT 3.5, ChatGPT with GPT 4, Google Bard, Bing Chat, YouChat, GitHub Copilot, and GitLab Duo."
-        },
-        "RQd": {
-          "note": "The key limitation discussed is the integrity of the output, specifically the tendency of LLMs to hallucinate or confabulate, leading to incorrect or misleading results.",
-          "value": "Technical limitations",
-          "evidence": "A major problem is commonly referred to as “hallucination” ... the occurrence of this effect can be explained well. ... we also observe various issues, particularly regarding the integrity of the output these tools provide. ... some tools had difficulty to pick up on important details, which lead to wrong and misleading analysis results."
-        },
-        "RQe": {
-          "note": "The research is described as early-stage, with the subject of study at its onset and no established evaluation standards, placing it in an experimental phase.",
-          "value": "Experimental or beta phase",
-          "evidence": "With this study, we give first empirical evidence on the use of LLMs in the research process. ... we are only at the very onset of this subject of study. ... The research described above is early work, investigating a new subject of study, without established standards."
-        },
-        "RQf": {
-          "note": "A replication package with full interaction logs and evaluation criteria is provided via GitHub, serving as documentation. No mention is made of forums, issue trackers, release notes, or chat communities.",
-          "value": [
-            "Docs/Tutorial/User Manual",
-            "GitHub issue trackers"
-          ],
-          "evidence": "To this end, we publish a replication package, recording all our interactions with the tools and our evaluation criteria.† https://github.com/ISDO-TUM/LLMs4Science ... The data that support the findings of this study is openly available at https://github.com/ISDO-TUM/LLMs4Science."
-        },
-        "RQg": {
-          "note": "The target users are scientists and postdoctoral researchers who use these tools for coding and data analysis tasks in their research work.",
-          "value": "Developers",
-          "evidence": "Scientific research as an area of work ... the daily work of scientists ... And those two most reported use cases: text refinement and generating or troubleshooting code."
-        },
-        "RQh": {
-          "note": "The paper presents its own empirical experiments on various use cases. It does not mention collaboration with industry for case studies or user studies.",
-          "value": "Unspecified",
-          "evidence": "With this study, we give first empirical evidence on the use of LLMs in the research process. ... we examine around 20 use cases ... Our results highlight the promise of LLM-based tools in general, yet we also observe various issues ..."
+          "evidence": ""
         }
       },
       "screening": {
@@ -4681,26 +5820,26 @@
         "criteria": {
           "IC1": {
             "verdict": "met",
-            "note": "The context is software engineering, specifically the generation of application code and scripts for data analysis and visualization."
+            "note": "The paper addresses code clone detection, a software engineering activity within software construction."
           },
           "IC2": {
             "verdict": "met",
-            "note": "The solution is a practical evaluation of language model-based tools performing the software construction activity of code generation.",
-            "type": "language model",
-            "software_engineering_activity": "code generation"
+            "note": "The solution uses GPT-3.5 Turbo and GPT-4 (LLMs) for detecting code clones.",
+            "type": "tool",
+            "software_engineering_activity": "clone detection"
           },
           "IC3": {
             "verdict": "met",
-            "note": "The paper is a primary study presenting empirical experiments and findings from hands-on interaction with the tools.",
+            "note": "The paper presents a primary study that proposes and implements an instruction-tuned model for clone detection with empirical evaluation.",
             "type": "primary study"
           },
           "IC4": {
             "verdict": "met",
-            "note": "The paper evaluates usable, publicly available tools like ChatGPT, Copilot, and Bard."
+            "note": "The model was integrated into IntelliJ IDEA as a plugin and tested, representing a usable prototype."
           },
           "IC5": {
             "verdict": "met",
-            "note": "The paper was published online in 2024 and accepted in 2024, which falls within the 2021-2026 range."
+            "note": "The paper was published on 10 March 2025, which is within the 2021-2026 window."
           },
           "EC3": {
             "verdict": "not_met",
@@ -4708,11 +5847,105 @@
           },
           "EC4": {
             "verdict": "not_met",
-            "note": "The paper is written in English."
+            "note": "The paper is written in English, so EC4 does not apply."
           },
           "EC5": {
             "verdict": "not_met",
-            "note": "The paper describes an empirical study evaluating existing tools, not a secondary or tertiary study surveying other works."
+            "note": "The paper proposes a new methodology and is a primary study, not a review or survey."
+          }
+        }
+      }
+    },
+    {
+      "id": "SC94",
+      "status": "screened",
+      "data": {
+        "title": "Analysis of ChatGPT-Generated Codes Across Multiple Programming Languages",
+        "link": "https://doi.org/10.1109/ACCESS.2025.3538050",
+        "markdown_chars": 84162
+      },
+      "answers": {
+        "solution_name": "ChatGPT-4o",
+        "RQa": {
+          "note": "The paper is published in IEEE Access, a peer-reviewed scientific journal.",
+          "value": "Academic Paper",
+          "evidence": "Digital Object Identifier 10.1109/ACCESS.2025.3538050"
+        },
+        "RQb": {
+          "note": "ChatGPT-4o is used for general-purpose code generation from natural language prompts.",
+          "value": "General-purpose (GP)",
+          "evidence": "This research investigates ChatGPT-4o, a state-of-the-art language model, and its ability to generate functional, high-quality code in different programming languages."
+        },
+        "RQc": {
+          "note": "The paper does not discuss pricing or licensing of ChatGPT-4o.",
+          "value": "Unspecified",
+          "evidence": "No explicit cost or access information is provided in the text."
+        },
+        "RQd": {
+          "note": "The study highlights deficiencies in code quality, robustness, and maintainability as technical limitations.",
+          "value": "Technical limitations",
+          "evidence": "The error patterns observed throughout the research, especially the lack of exception management and inadequate documentation, indicate that while the generated code is often functional, it lacks the robustness needed for real-world deployment."
+        },
+        "RQe": {
+          "note": "ChatGPT-4o is a publicly available, production-ready AI model from OpenAI.",
+          "value": "Production-ready",
+          "evidence": "ChatGPT-4o, a state-of-the-art language model"
+        },
+        "RQf": {
+          "note": "The text does not mention any documentation, forums, or community resources for ChatGPT-4o.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The target users are software developers who use AI for code generation.",
+          "value": "Developers",
+          "evidence": "With advancements in large language models like ChatGPT, developers can now generate code from natural language prompts."
+        },
+        "RQh": {
+          "note": "No industrial collaboration is mentioned; the evaluation uses LeetCode problems and data structure tasks.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The context is software engineering, specifically code generation and analysis of ChatGPT-generated code across programming languages."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "ChatGPT-4o is a large language model that generates code, a core software construction activity.",
+            "type": "language model",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper presents a primary empirical study evaluating ChatGPT-4o's code generation performance on 600 programming problems.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "ChatGPT-4o is a publicly available, production-ready language model, thus a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper was published in 2025, within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English; no non-English version issue."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is an original research study, not a secondary or tertiary study."
           }
         }
       }
@@ -5103,6 +6336,102 @@
       }
     },
     {
+      "id": "SC106",
+      "status": "screened",
+      "data": {
+        "title": "No Need to Lift a Finger Anymore? Assessing the Quality of Code Generation by ChatGPT",
+        "link": "https://doi.org/10.1109/TSE.2024.3392499",
+        "markdown_chars": 214702
+      },
+      "answers": {
+        "solution_name": "ChatGPT",
+        "RQa": {
+          "note": "The source is a peer-reviewed journal article published in IEEE Transactions on Software Engineering.",
+          "value": "Academic Paper",
+          "evidence": "IEEE TRANSACTIONS ON SOFTWARE ENGINEERING, VOL. 50, NO. 6, JUNE 2024"
+        },
+        "RQb": {
+          "note": "ChatGPT is a general-purpose large language model that can be used for code generation across multiple languages and problem domains.",
+          "value": "General-purpose (GP)",
+          "evidence": "ChatGPT also possesses the capability of code-related tasks, which can further expand its potential applications. In this study, we perform a systematic empirical assessment to the quality of code generation using ChatGPT"
+        },
+        "RQc": {
+          "note": "The solution is accessed via the OpenAI API, which is a commercial service.",
+          "value": "Commercial (paid, freemium, enterprise)",
+          "evidence": "We query ChatGPT through a simple wrapper [39] of OpenAI API [38]"
+        },
+        "RQd": {
+          "note": "The paper identifies technical limitations such as functional correctness, complexity, security vulnerabilities, and non-determinism in the generated code.",
+          "value": "Technical limitations",
+          "evidence": "our findings uncover potential issues and limitations that arise in the ChatGPT-based code generation"
+        },
+        "RQe": {
+          "note": "ChatGPT is described as a state-of-the-art product, indicating it is production-ready.",
+          "value": "Production-ready",
+          "evidence": "ChatGPT is a recent state-of-the-art product LLM"
+        },
+        "RQf": {
+          "note": "The paper references online resources such as OpenAI Cookbook and PromptBase, which serve as documentation/tutorials for prompt engineering.",
+          "value": [
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "we refer to online prompt templates (e.g., OpenAI Cookbook [36] and PromptBase [37]) for code generation tasks"
+        },
+        "RQg": {
+          "note": "The primary target users are developers who use ChatGPT for code generation to improve productivity.",
+          "value": "Developers",
+          "evidence": "developers are able to enhance productivity, reduce development time, and assign more focus to higher-level tasks and core logic"
+        },
+        "RQh": {
+          "note": "The paper is an academic empirical study with no mention of industrial collaboration or case studies.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper focuses on evaluating ChatGPT for code generation, which is a core software engineering construction activity."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "ChatGPT is a large language model (Generative AI) applied to the software-construction activity of code generation.",
+            "type": "language model",
+            "software_engineering_activity": "code generation"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It is an empirical assessment of ChatGPT's code generation, providing practical evaluation results.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "ChatGPT is a deployed, publicly accessible product and the study uses it as a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The publication date is 2024, which falls within the 2021-2026 range."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The full text is in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary empirical study, not a secondary or tertiary review."
+          }
+        }
+      }
+    },
+    {
       "id": "SC107",
       "status": "screened",
       "data": {
@@ -5392,6 +6721,100 @@
       }
     },
     {
+      "id": "SC114",
+      "status": "screened",
+      "data": {
+        "title": "A survey on the application of large language models in software engineering",
+        "link": "https://doi.org/10.20537/2076-7633-2024-16-7-1715-1726",
+        "markdown_chars": 45729
+      },
+      "answers": {
+        "solution_name": "Large Language Models (LLMs)",
+        "RQa": {
+          "note": "The source is a journal article published in 'Computer Research and Modeling' 2025, which is a peer-reviewed academic paper.",
+          "value": "Academic Paper",
+          "evidence": "COMPUTER RESEARCH AND MODELING 2025 VOL. 16 NO. 7 P. 1715–1726"
+        },
+        "RQb": {
+          "note": "LLMs are applied across all major phases of the software development life cycle, making them general-purpose for software engineering tasks.",
+          "value": "General-purpose (GP)",
+          "evidence": "This survey examines the impact of LLMs across various stages of the SDLC, including requirement gathering, system design, coding, debugging, testing, and documentation."
+        },
+        "RQc": {
+          "note": "The paper does not discuss access models or costs of the LLMs it surveys.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "The paper explicitly identifies model accuracy, interpretability, and potential biases as limitations that must be addressed for reliable deployment.",
+          "value": "Technical limitations",
+          "evidence": "However, despite their benefits, there are challenges associated with LLM adoption, such as issues related to model accuracy, interpretability, and potential biases."
+        },
+        "RQe": {
+          "note": "The survey highlights that further research is needed in domain-specific challenges and that some areas are still underexplored, indicating an experimental or beta phase for many LLM applications in SE.",
+          "value": "Experimental or beta phase",
+          "evidence": "there is a need for more targeted efforts to address domain-specific challenges. This could involve designing specialized LLMs or integrating them into existing research workflows."
+        },
+        "RQf": {
+          "note": "The survey paper itself does not discuss any technical documentation, support channels, or community resources for LLMs.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The target users are software developers, as the paper focuses on enabling developers to interact with code and automate development tasks.",
+          "value": "Developers",
+          "evidence": "enabling developers to interact with code using natural language"
+        },
+        "RQh": {
+          "note": "The paper does not specify any industry collaboration or case studies conducted by the authors; it is a survey of existing literature.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2, IC3, IC4, EC5",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper discusses LLMs across software engineering activities, placing it firmly in the software engineering context."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The source is a survey summarizing other studies; it does not itself present a specific GenAI solution, so it does not fit a solution type nor a directly applied software-construction activity.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "not_met",
+            "note": "The paper is a survey, not a primary study or an empirical case; it does not present a new practical implementation.",
+            "type": ""
+          },
+          "IC4": {
+            "verdict": "not_met",
+            "note": "No usable solution (prototype or deployed tool) is presented; the paper only summarizes existing work."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Published in 2025, which is between 2021 and 2026 inclusive."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written entirely in English."
+          },
+          "EC5": {
+            "verdict": "met",
+            "note": "It is a secondary study (a survey) that reviews existing literature."
+          }
+        }
+      }
+    },
+    {
       "id": "SC115",
       "status": "screened",
       "data": {
@@ -5672,6 +7095,16 @@
           }
         }
       }
+    },
+    {
+      "id": "SC118",
+      "status": "pending",
+      "data": {
+        "title": "A novel hybrid CNN-GRU model for website-based user interface code generator",
+        "link": "https://doi.org/10.1080/1206212X.2024.2416955"
+      },
+      "answers": null,
+      "screening": null
     },
     {
       "id": "SC122",

@@ -1,0 +1,272 @@
+{
+  "step": 3,
+  "model_experiment": "gpt-5.4-pro",
+  "sheet": "step-3-review-reviewed.xlsx",
+  "reconciled_at": "2026-07-22T02:30:36.664996+00:00",
+  "by_origin": {
+    "scopus": {
+      "reviewed": 118,
+      "human_included": 78,
+      "recovered_from_exclude": 20,
+      "dropped_from_include": 3
+    },
+    "google": {
+      "reviewed": 81,
+      "human_included": 42,
+      "recovered_from_exclude": 10,
+      "dropped_from_include": 5
+    },
+    "github": {
+      "reviewed": 59,
+      "human_included": 36,
+      "recovered_from_exclude": 1,
+      "dropped_from_include": 4
+    },
+    "hf": {
+      "reviewed": 60,
+      "human_included": 40,
+      "recovered_from_exclude": 2,
+      "dropped_from_include": 3
+    }
+  },
+  "totals": {
+    "reviewed": 318,
+    "human_included": 196,
+    "recovered_from_exclude": 33,
+    "dropped_from_include": 15
+  },
+  "unmatched_sheet_rows": [],
+  "residuals": [
+    {
+      "id": "SC10",
+      "origin": "scopus",
+      "title": "Empirical insights into Chat Generative Pre-trained Transformer-assisted code refactoring and developer dynamics",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC11",
+      "origin": "scopus",
+      "title": "Can we trust the source? A systematic review of watermarking and attribution for AI-generated code",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC15",
+      "origin": "scopus",
+      "title": "Assessing small language models for code generation: An empirical study with benchmarks",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC25",
+      "origin": "scopus",
+      "title": "Code generation with large language models: a survey from neural program synthesis to autonomous software development",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC28",
+      "origin": "scopus",
+      "title": "Can large language models identify and refactor code clones? An empirical study",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC37",
+      "origin": "scopus",
+      "title": "Evaluating Retrieval-Augmented Generation for LLM-Based Vulnerability Detection: An Empirical Study on Real-World Java Vulnerabilities",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC39",
+      "origin": "scopus",
+      "title": "Intent-LLM: A Framework for Automated Network Configuration Through Code Generation",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC40",
+      "origin": "scopus",
+      "title": "EVALUATING THE CODE GENERATION CAPABILITIES OF CHATGPT THROUGH C++ DATABASE MANAGEMENT TASKS",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC49",
+      "origin": "scopus",
+      "title": "Code Comprehension Gaps in AI-Assisted Development: A Conceptual Framework for Knowledge Erosion Patterns",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC51",
+      "origin": "scopus",
+      "title": "Refactoring Object-Oriented Software With ChatGPT: An Empirical Study",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC59",
+      "origin": "scopus",
+      "title": "Performance and interpretability analysis of code generation large language models",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC62",
+      "origin": "scopus",
+      "title": "Piloting Copilot, Codex, and StarCoder2: Hot temperature, cold prompts, or black magic?",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC66",
+      "origin": "scopus",
+      "title": "An Empirical Study of Exploring the Capabilities of Large Language Models in Code Learning",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC76",
+      "origin": "scopus",
+      "title": "Refactoring Loops in the Era of LLMs: A Comprehensive Study",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC87",
+      "origin": "scopus",
+      "title": "An Empirical Study of the Non-Determinism of ChatGPT in Code Generation",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC93",
+      "origin": "scopus",
+      "title": "Code Clone Detection Techniques Based on Large Language Models",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC94",
+      "origin": "scopus",
+      "title": "Analysis of ChatGPT-Generated Codes Across Multiple Programming Languages",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC106",
+      "origin": "scopus",
+      "title": "No Need to Lift a Finger Anymore? Assessing the Quality of Code Generation by ChatGPT",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC114",
+      "origin": "scopus",
+      "title": "A survey on the application of large language models in software engineering",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "SC118",
+      "origin": "scopus",
+      "title": "A novel hybrid CNN-GRU model for website-based user interface code generator",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO7",
+      "origin": "google",
+      "title": "Lessons learned from implementing RAG for code generation",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO10",
+      "origin": "google",
+      "title": "OWASP LLM Top 10: How it Applies to Code Generation",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO11",
+      "origin": "google",
+      "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems | Research",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO19",
+      "origin": "google",
+      "title": "Self-Spec: Model-Authored Specifications for Reliable LLM ...",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO30",
+      "origin": "google",
+      "title": "Agentic Refactoring: An Empirical Study of AI Coding Agents",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO31",
+      "origin": "google",
+      "title": "AI Code Refactoring: Tools, Tactics & Best Practices",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO32",
+      "origin": "google",
+      "title": "Introducing AI Generated Code Refactoring",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO37",
+      "origin": "google",
+      "title": "Automatic Code Refactoring with AI - Federico Tomassetti",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO38",
+      "origin": "google",
+      "title": "An Empirical Study on the Code Refactoring Capability of Large Language Models | ACM Transactions on Software Engineering and Methodology",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GO94",
+      "origin": "google",
+      "title": "Core War: Adversarial Program Evolution",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "GH17",
+      "origin": "github",
+      "title": "GitHub - microsoft/copilot-intellij-feedback: Feedback on GitHub Copilot for JetBrains IDEs.",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "HF2",
+      "origin": "hf",
+      "title": "QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    },
+    {
+      "id": "HF12",
+      "origin": "hf",
+      "title": "GLLM: Self-Corrective G-Code Generation using Large Language Models with User Feedback",
+      "llm_decision": "exclude",
+      "human_decision": "include"
+    }
+  ]
+}

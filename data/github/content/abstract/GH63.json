@@ -1,0 +1,14 @@
+{
+  "title": "GitHub - Julien-Au/gymcoach: Self-hosted AI workout tracker. Bring your own LLM (Anthropic or OpenRouter): weekly debriefs, a chat coach, and AI-generated programs.",
+  "link": "https://github.com/Julien-Au/gymcoach",
+  "summary": "This source is the GitHub repository for GymCoach, an open-source, self-hosted workout tracker with a built-in AI coach. The application enables users to log strength and cardio sessions, track progress with analytics, and interact with an AI coach that provides weekly debriefs, streaming chat, and program generation, using either Anthropic Claude or any OpenRouter model. It is built with Next.js 15, TypeScript, Prisma, PostgreSQL, and Docker, and supports multi-user functionality with strict data isolation. The repository is also an experiment in autonomous software maintenance, with most ongoing changes made by Claude Code following documented autonomous loops. The project is MIT licensed and includes a live demo instance.",
+  "author": "Julien Au",
+  "publication_date": "2026-05-26",
+  "keywords": [
+    "GymCoach",
+    "AI coach",
+    "workout tracker",
+    "LLM integration",
+    "autonomous software maintenance"
+  ]
+}

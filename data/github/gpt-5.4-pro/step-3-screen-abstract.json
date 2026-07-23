@@ -2,64 +2,17 @@
   "origin": "github",
   "step": 3,
   "model": "",
-  "updated_at": "2026-07-10T02:42:04.163818+00:00",
-  "count": 64,
+  "updated_at": "2026-07-21T19:28:39.687415+00:00",
+  "count": 59,
   "by_status": {
     "pending": 0,
     "scraped": 0,
     "summarized": 0,
-    "screened": 64
+    "screened": 59
   },
   "included": 39,
-  "excluded": 25,
+  "excluded": 20,
   "records": [
-    {
-      "id": "GH1",
-      "status": "screened",
-      "data": {
-        "title": "GitHub Articles • Technical Guides, Developer Insights & Best Practices",
-        "link": "https://github.com/resources/articles"
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: IC2, IC3, IC4, EC5",
-        "criteria": {
-          "IC1": {
-            "verdict": "met",
-            "note": "The page covers software development topics including coding-related concepts."
-          },
-          "IC2": {
-            "verdict": "not_met",
-            "note": "The source itself does not apply generative AI; it only references AI coding tools as a topic."
-          },
-          "IC3": {
-            "verdict": "not_met",
-            "note": "The page is a resource index, not a practical implementation."
-          },
-          "IC4": {
-            "verdict": "not_met",
-            "note": "No usable solution, prototype, or deployed tool is presented."
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The abstract is in English."
-          },
-          "EC5": {
-            "verdict": "met",
-            "note": "The page is an educational resource index, which is a list of tools/resources."
-          }
-        }
-      }
-    },
     {
       "id": "GH2",
       "status": "screened",
@@ -105,7 +58,8 @@
             "note": "It is a curated repository accompanying a survey paper, thus a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH3",
@@ -152,7 +106,8 @@
             "note": "It is a curated list of tools, which is a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH4",
@@ -199,7 +154,8 @@
             "note": "It is explicitly a survey repository accompanying a survey paper."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH6",
@@ -246,7 +202,8 @@
             "note": "This is a primary project implementation, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH7",
@@ -293,7 +250,8 @@
             "note": "This is a blog post introducing a toolkit, not a secondary/tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH8",
@@ -340,7 +298,8 @@
             "note": "It is a product's codebase repository, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH9",
@@ -387,7 +346,8 @@
             "note": "It is a primary study presenting a model and extensions."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH10",
@@ -434,7 +394,8 @@
             "note": "It is a primary source introducing a model, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH11",
@@ -481,7 +442,8 @@
             "note": "The content is a GitHub sign-in page, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH12",
@@ -528,7 +490,8 @@
             "note": "It is a description of a tool, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH13",
@@ -575,7 +538,8 @@
             "note": "The source is not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH14",
@@ -622,101 +586,8 @@
             "note": "It is a software implementation (primary source), not a secondary/tertiary study."
           }
         }
-      }
-    },
-    {
-      "id": "GH15",
-      "status": "screened",
-      "data": {
-        "title": "Vue",
-        "link": "https://github.com/orgs/vuejs"
       },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: IC2, IC3, IC4",
-        "criteria": {
-          "IC1": {
-            "verdict": "met",
-            "note": "The source covers frontend software construction tools."
-          },
-          "IC2": {
-            "verdict": "not_met",
-            "note": "No Generative AI methods are mentioned in the summary."
-          },
-          "IC3": {
-            "verdict": "not_met",
-            "note": "The source is an organization page listing repositories, not a description of a practical implementation."
-          },
-          "IC4": {
-            "verdict": "not_met",
-            "note": "The page does not present a specific usable solution or tool demonstration."
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The page is in English."
-          },
-          "EC5": {
-            "verdict": "not_met",
-            "note": "It is not a secondary or tertiary study."
-          }
-        }
-      }
-    },
-    {
-      "id": "GH16",
-      "status": "screened",
-      "data": {
-        "title": "GitHub Community",
-        "link": "https://github.com/orgs/community"
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: IC1, IC2, IC3, IC4",
-        "criteria": {
-          "IC1": {
-            "verdict": "not_met",
-            "note": "The source is a community organization page, not about software construction."
-          },
-          "IC2": {
-            "verdict": "not_met",
-            "note": "The source explicitly states it does not present any generative AI solution."
-          },
-          "IC3": {
-            "verdict": "not_met",
-            "note": "No generative AI solution described."
-          },
-          "IC4": {
-            "verdict": "not_met",
-            "note": "The page is a community forum, not a usable generative AI tool."
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The source is in English."
-          },
-          "EC5": {
-            "verdict": "not_met",
-            "note": "The source is a community organization page, not a secondary study."
-          }
-        }
-      }
+      "human_decision": "include"
     },
     {
       "id": "GH17",
@@ -763,7 +634,8 @@
             "note": "This is a feedback repository, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH19",
@@ -810,7 +682,8 @@
             "note": "This is an exam outline/certification description, which is a list of topics and skills, not a primary study or tool."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH20",
@@ -857,7 +730,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH21",
@@ -904,7 +778,8 @@
             "note": "It is a curated list or survey of resources, fitting the definition of a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH22",
@@ -951,7 +826,8 @@
             "note": "Primary study describing an original tool, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH23",
@@ -998,7 +874,8 @@
             "note": "The summary states the repository is a community discussion space and does not present a specific solution."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH24",
@@ -1045,7 +922,8 @@
             "note": "It is a primary study presenting a new tool."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH25",
@@ -1092,7 +970,8 @@
             "note": "The source describes a specific automated refactoring tool, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH26",
@@ -1139,7 +1018,8 @@
             "note": "It is a workshop with demonstrations, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH27",
@@ -1186,54 +1066,8 @@
             "note": ""
           }
         }
-      }
-    },
-    {
-      "id": "GH28",
-      "status": "screened",
-      "data": {
-        "title": "DavidZWZ/Awesome-RAG-Reasoning",
-        "link": "https://github.com/DavidZWZ/Awesome-RAG-Reasoning"
       },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: IC1, IC3, IC4, EC5",
-        "criteria": {
-          "IC1": {
-            "verdict": "not_met",
-            "note": "The repository does not focus on software construction; it is a general resource on RAG and reasoning."
-          },
-          "IC2": {
-            "verdict": "met",
-            "note": "It clearly involves LLMs and retrieval-augmented generation, which are Generative AI methods."
-          },
-          "IC3": {
-            "verdict": "not_met",
-            "note": "It is a curated list, not a practical implementation."
-          },
-          "IC4": {
-            "verdict": "not_met",
-            "note": "It presents a collection of references, not a usable tool or prototype."
-          },
-          "IC5": {
-            "verdict": "met",
-            "note": "The publication date is 2026-01-25, which falls within the 2021–2026 window."
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The summary is in English, and the repository appears to be in English."
-          },
-          "EC5": {
-            "verdict": "met",
-            "note": "The repository is a curated collection of resources and accompanies a survey paper, making it a secondary study."
-          }
-        }
-      }
+      "human_decision": "include"
     },
     {
       "id": "GH29",
@@ -1280,7 +1114,8 @@
             "note": "The source is explicitly described as a curated list and survey of academic works."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH30",
@@ -1327,7 +1162,8 @@
             "note": "It is a tool, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH31",
@@ -1374,7 +1210,8 @@
             "note": "It describes a primary tool, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH33",
@@ -1421,7 +1258,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH35",
@@ -1468,7 +1306,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH36",
@@ -1515,7 +1354,8 @@
             "note": "It is a tool repository, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH38",
@@ -1562,7 +1402,8 @@
             "note": "it is a primary tool description, not a secondary study"
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH39",
@@ -1609,7 +1450,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH40",
@@ -1656,7 +1498,8 @@
             "note": "It is an 'awesome list', which is a secondary study / reference index."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH41",
@@ -1703,7 +1546,8 @@
             "note": "it is a code repository, not a secondary or tertiary study"
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH42",
@@ -1750,7 +1594,8 @@
             "note": "The source describes a primary tool, not a secondary study or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH43",
@@ -1797,7 +1642,8 @@
             "note": "It is a list of benchmarks (secondary study type), which meets the exclusion criterion."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH45",
@@ -1844,7 +1690,8 @@
             "note": "The source is described as a specific plugin implementation, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH46",
@@ -1891,7 +1738,8 @@
             "note": "It is a tool plugin, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH47",
@@ -1938,7 +1786,8 @@
             "note": "It is a tool prototype, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH48",
@@ -1985,54 +1834,8 @@
             "note": "It is a command-line tool, not a secondary or tertiary study."
           }
         }
-      }
-    },
-    {
-      "id": "GH49",
-      "status": "screened",
-      "data": {
-        "title": "FudanDISC/SocialAgent",
-        "link": "https://github.com/FudanDISC/SocialAgent"
       },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: IC1, EC5",
-        "criteria": {
-          "IC1": {
-            "verdict": "not_met",
-            "note": "While a sub-category mentions software development, the primary context is social simulation using agents."
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "met",
-            "note": "The publication date 2024-12-02 falls within the 2021-2026 range."
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The content is provided in English."
-          },
-          "EC5": {
-            "verdict": "met",
-            "note": "The source is explicitly a survey and a collection of resources/papers."
-          }
-        }
-      }
+      "human_decision": "include"
     },
     {
       "id": "GH50",
@@ -2079,7 +1882,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH51",
@@ -2126,7 +1930,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH55",
@@ -2173,7 +1978,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH56",
@@ -2220,7 +2026,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH57",
@@ -2267,7 +2074,56 @@
             "note": "It describes a platform and tool, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
+    },
+    {
+      "id": "GH58",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - isaziconsulting/AlphaEvolveLite: An open source simplified implementation of the AlphaEvolve paper.",
+        "link": "https://github.com/isaziconsulting/AlphaEvolveLite"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The tool is designed for automatic program generation and optimization of source code."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses LLM-based mutation and selection, and supports multiple LLM providers."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It is an open-source implementation with features like conversation storage and visualization."
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "It is an open-source tool available on GitHub."
+          },
+          "IC5": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The abstract is in English and the tool appears to be in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a primary description of a tool, not a survey or review."
+          }
+        }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH60",
@@ -2314,7 +2170,8 @@
             "note": "It is a primary tool paper, not a survey or review."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH62",
@@ -2361,7 +2218,56 @@
             "note": "This is an implementation, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
+    },
+    {
+      "id": "GH63",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - Julien-Au/gymcoach: Self-hosted AI workout tracker. Bring your own LLM (Anthropic or OpenRouter): weekly debriefs, a chat coach, and AI-generated programs.",
+        "link": "https://github.com/Julien-Au/gymcoach"
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "medium",
+        "reason": "all criteria met or unclear",
+        "criteria": {
+          "IC1": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It uses Anthropic Claude or OpenRouter models for AI coach and autonomous maintenance."
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The repository contains a fully implemented application."
+          },
+          "IC4": {
+            "verdict": "unclear",
+            "note": ""
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "Publication date is 2026-05-26."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The summary is in English and the repository likely content is English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "It is a GitHub repository, not a secondary study."
+          }
+        }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH64",
@@ -2408,54 +2314,8 @@
             "note": ""
           }
         }
-      }
-    },
-    {
-      "id": "GH65",
-      "status": "screened",
-      "data": {
-        "title": "Stable Lab @ UCSD",
-        "link": "https://github.com/stable-lab"
       },
-      "screening": {
-        "decision": "include",
-        "confidence": "medium",
-        "reason": "all criteria met or unclear",
-        "criteria": {
-          "IC1": {
-            "verdict": "met",
-            "note": "The MAGE and Pro-V projects are for automated RTL code generation and verification, which is a specialized form of software construction."
-          },
-          "IC2": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC3": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "IC5": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "unclear",
-            "note": ""
-          },
-          "EC5": {
-            "verdict": "not_met",
-            "note": "The source is not a secondary or tertiary study; it is a GitHub organization page hosting primary projects."
-          }
-        }
-      }
+      "human_decision": "include"
     },
     {
       "id": "GH68",
@@ -2502,7 +2362,8 @@
             "note": "It describes a tool implementation, not a secondary/tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH72",
@@ -2549,7 +2410,8 @@
             "note": "This is a primary tool, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH73",
@@ -2596,7 +2458,8 @@
             "note": "Describes a specific model and framework, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH74",
@@ -2643,7 +2506,8 @@
             "note": "This is a tool repository, not a survey, review, or mapping study."
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH77",
@@ -2690,7 +2554,8 @@
             "note": "It presents a novel fuzzing approach, not a secondary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH78",
@@ -2737,7 +2602,8 @@
             "note": "it is a framework, not a secondary study"
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH79",
@@ -2784,7 +2650,8 @@
             "note": "It is an implementation, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH80",
@@ -2831,7 +2698,8 @@
             "note": "This is a primary system description, not a secondary or tertiary study."
           }
         }
-      }
+      },
+      "human_decision": "include"
     },
     {
       "id": "GH85",
@@ -2878,54 +2746,8 @@
             "note": "The text states it is a curated list and literature survey, making it a secondary study."
           }
         }
-      }
-    },
-    {
-      "id": "GH91",
-      "status": "screened",
-      "data": {
-        "title": "danielgross/localpilot",
-        "link": "https://github.com/danielgross/localpilot"
       },
-      "screening": {
-        "decision": "include",
-        "confidence": "high",
-        "reason": "all criteria met or unclear",
-        "criteria": {
-          "IC1": {
-            "verdict": "met",
-            "note": "The tool provides code completions, directly supporting software construction."
-          },
-          "IC2": {
-            "verdict": "met",
-            "note": "It uses locally downloaded language models via llama.cpp, which are generative AI methods."
-          },
-          "IC3": {
-            "verdict": "met",
-            "note": "The description details a practical Python application proxy, not a theoretical proposal."
-          },
-          "IC4": {
-            "verdict": "met",
-            "note": "It offers a proof-of-concept tool that can be run locally, a usable prototype."
-          },
-          "IC5": {
-            "verdict": "met",
-            "note": "The publication date is 2023-10-03, which falls within 2021-2026."
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The source is in English, as indicated by the English summary and the GitHub repository typically being in English."
-          },
-          "EC5": {
-            "verdict": "not_met",
-            "note": "The source is a tool repository, not a secondary or tertiary study."
-          }
-        }
-      }
+      "human_decision": "exclude"
     },
     {
       "id": "GH93",
@@ -2972,7 +2794,8 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     },
     {
       "id": "GH98",
@@ -3019,7 +2842,16 @@
             "note": ""
           }
         }
-      }
+      },
+      "human_decision": "exclude"
     }
-  ]
+  ],
+  "human_review": {
+    "sheet": "step-3-review-reviewed.xlsx",
+    "applied_at": "2026-07-22T02:30:36.660431+00:00",
+    "reviewed": 59,
+    "human_included": 36,
+    "recovered_from_exclude": 1,
+    "dropped_from_include": 4
+  }
 }

@@ -2,15 +2,15 @@
   "origin": "github",
   "step": 4,
   "model": "",
-  "updated_at": "2026-07-10T04:54:14.644618+00:00",
-  "count": 39,
+  "updated_at": "2026-07-22T03:30:00.229787+00:00",
+  "count": 36,
   "by_status": {
     "pending": 0,
     "answered": 0,
-    "screened": 39
+    "screened": 36
   },
-  "included": 31,
-  "excluded": 8,
+  "included": 30,
+  "excluded": 6,
   "records": [
     {
       "id": "GH6",
@@ -683,6 +683,102 @@
           "EC5": {
             "verdict": "not_met",
             "note": "It is a primary software project, not a survey or review."
+          }
+        }
+      }
+    },
+    {
+      "id": "GH17",
+      "status": "screened",
+      "data": {
+        "title": "GitHub - microsoft/copilot-intellij-feedback: Feedback on GitHub Copilot for JetBrains IDEs.",
+        "link": "https://github.com/microsoft/copilot-intellij-feedback"
+      },
+      "answers": {
+        "solution_name": "GitHub Copilot Plugin for JetBrains IDEs",
+        "RQa": {
+          "note": "The solution is hosted on GitHub as a feedback repository, which qualifies as a code repository artifact.",
+          "value": "Code repository",
+          "evidence": "This repository is for providing feedback on the GitHub Copilot Plugin for JetBrains IDEs, including Copilot Chat, completions and other features."
+        },
+        "RQb": {
+          "note": "The plugin provides general-purpose coding assistance including completions and chat, suitable for any development work.",
+          "value": "General-purpose (GP)",
+          "evidence": "your AI-powered coding assistant, designed to enhance your development experience. Leveraging advanced language models, it provides intelligent code completions and chat-based assistance directly within your JetBrains IDEs."
+        },
+        "RQc": {
+          "note": "The text does not specify pricing or access model; the repository license is MIT but the plugin itself may be commercial.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "No limitations (technical, operational, or legal) are discussed in this feedback repository page.",
+          "value": "Technical limitations",
+          "evidence": ""
+        },
+        "RQe": {
+          "note": "The plugin is presented as a released product on the JetBrains marketplace, with docs and support, indicating production maturity.",
+          "value": "Production-ready",
+          "evidence": "GitHub Copilot Plugin for JetBrains IDEs is your AI-powered coding assistant, designed to enhance your development experience."
+        },
+        "RQf": {
+          "note": "The repository provides documentation (README, COLLECT-LOGS) and uses GitHub Issues for feedback and issue tracking.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "Learn more about GitHub Copilot in our docs. You can use this repository to file issues for Copilot Chat and completions in JetBrains IDEs."
+        },
+        "RQg": {
+          "note": "The plugin targets developers using JetBrains IDEs for coding tasks.",
+          "value": "Developers",
+          "evidence": "your AI-powered coding assistant, designed to enhance your development experience"
+        },
+        "RQh": {
+          "note": "The text does not mention any industry case studies or user studies validating the plugin.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The plugin is an AI-powered coding assistant for JetBrains IDEs, clearly in the software engineering context."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "The plugin uses advanced language models to provide code completions and chat assistance, applying generative AI to coding.",
+            "type": "extension",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The GitHub repository is a popular feedback channel for the tool, representing an empirical case in gray literature.",
+            "type": "empirical case"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The plugin is a deployed tool available on the JetBrains marketplace."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The repository was created in 2025 and last updated in 2026, within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The source is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The source is a feedback repository, not a secondary or tertiary study."
           }
         }
       }
@@ -2415,87 +2511,84 @@
       }
     },
     {
-      "id": "GH56",
+      "id": "GH58",
       "status": "screened",
       "data": {
-        "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++",
-        "link": "https://github.com/ggml-org/llama.cpp"
+        "title": "GitHub - isaziconsulting/AlphaEvolveLite: An open source simplified implementation of the AlphaEvolve paper.",
+        "link": "https://github.com/isaziconsulting/AlphaEvolveLite"
       },
       "answers": {
-        "solution_name": "llama.cpp",
+        "solution_name": "AlphaEvolveLite",
         "RQa": {
-          "note": "The source is a GitHub repository for the llama.cpp project.",
+          "note": "The solution is hosted as a public repository on GitHub with source code and documentation.",
           "value": "Code repository",
-          "evidence": "github.com/ggml-org/llama.cpp"
+          "evidence": "An open source simplified implementation of the AlphaEvolve evolutionary coding agent."
         },
         "RQb": {
-          "note": "llama.cpp is a general-purpose inference engine for large language models, not specialized for a single domain.",
+          "note": "The solution is a general-purpose evolutionary coding agent that uses LLMs to iteratively improve code for various programming problems.",
           "value": "General-purpose (GP)",
-          "evidence": "LLM inference in C/C++"
+          "evidence": "Evolutionary Program Generation: Uses LLM-based mutation and selection to improve code."
         },
         "RQc": {
-          "note": "The project is under the MIT license and is freely available on GitHub, indicating an open-source model.",
+          "note": "The repository is public and licensed under the MIT license, which is a permissive open-source license.",
           "value": "Open-source / free",
-          "evidence": "## License\nMIT license"
+          "evidence": "MIT"
         },
         "RQd": {
-          "note": "The documentation focuses on hardware optimization and model quantization, which are technical limitations related to performance and resource usage.",
+          "note": "The solution has technical and operational constraints related to managing LLM costs, provider-specific features like prompt caching, and model failures.",
           "value": "Technical limitations",
-          "evidence": "The main goal of llama.cpp is to enable LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware - locally and in the cloud. … 1.5-bit, 2-bit, 3-bit, 4-bit, 5-bit, 6-bit, and 8-bit integer quantization for faster inference and reduced memory use"
+          "evidence": "You can specify a dedicated model for retries and feedback per model... Lowering costs on models that don't support prompt caching or are just expensive to run"
         },
         "RQe": {
-          "note": "The solution has multiple installation methods, pre-built binaries, and a public release history, indicating it is production-ready.",
-          "value": "Production-ready",
-          "evidence": "Install llama.cpp using brew, nix, winget, or conda-forge … Download pre-built binaries from the releases page"
+          "note": "Described as a 'simplified implementation' of a research paper, with no releases published, indicating an experimental phase.",
+          "value": "Experimental or beta phase",
+          "evidence": "An open source simplified implementation of the AlphaEvolve paper."
         },
         "RQf": {
-          "note": "The repository contains documentation, guides, issue trackers, release notes, and discussion forums.",
+          "note": "The repository includes a detailed README providing documentation, tutorials, and examples.",
           "value": [
-            "Docs/Tutorial/User Manual",
-            "Forum",
-            "GitHub issue trackers",
-            "Release notes"
+            "Docs/Tutorial/User Manual"
           ],
-          "evidence": "docs … [guide : using the new WebUI of llama.cpp] … [HOWTO-add-model.md] … Contributing … See good first issues … https://github.com/ggml-org/llama.cpp/discussions"
+          "evidence": "README.md."
         },
         "RQg": {
-          "note": "The tools and examples are specifically described as being useful for developers.",
+          "note": "Users must implement evaluation functions in Python to define problems, indicating the target users are developers.",
           "value": "Developers",
-          "evidence": "A minimal example for implementing apps with llama.cpp. Useful for developers."
+          "evidence": "ProblemAPI: user-supplied evaluate() and tags evolvable regions with EVOLVE-START/END."
         },
         "RQh": {
-          "note": "A collaboration with NVIDIA is mentioned, which is an industrial partnership, but no formal case study or user study is described in the main README text.",
+          "note": "The text does not mention any industrial case studies or large-scale user studies to validate the proposal.",
           "value": "Unspecified",
-          "evidence": "Support for the gpt-oss model with native MXFP4 format has been added | PR | Collaboration with NVIDIA"
+          "evidence": ""
         }
       },
       "screening": {
-        "decision": "exclude",
+        "decision": "include",
         "confidence": "high",
-        "reason": "failed: IC2",
+        "reason": "all criteria met",
         "criteria": {
           "IC1": {
             "verdict": "met",
-            "note": "The source describes a framework for LLM inference which can be applied to code generation and completion tasks."
+            "note": "The tool operates in the software engineering context, focusing on evolutionary program generation and code improvement."
           },
           "IC2": {
-            "verdict": "not_met",
-            "note": "The source applies generative AI (LLMs) but is an inference engine/framework itself, not a solution for a specific software-construction activity beyond being a platform to run models.",
-            "type": "tool",
-            "software_engineering_activity": "inference"
+            "verdict": "met",
+            "note": "It applies LLM-based mutation and selection to improve code, which is a generative AI method for software construction.",
+            "type": "agent",
+            "software_engineering_activity": "coding"
           },
           "IC3": {
             "verdict": "met",
-            "note": "The source is a GitHub repository for a widely used software project, which is a practical implementation.",
-            "type": "empirical case"
+            "note": "It describes a practical implementation with source code, examples, and runnable CLI scripts.",
+            "type": "primary study"
           },
           "IC4": {
             "verdict": "met",
-            "note": "The source is a deployed and functional inference engine with CLI tools and a server, not just a concept."
+            "note": "The repository provides a usable, runnable open-source tool, not just a concept."
           },
           "IC5": {
             "verdict": "met",
-            "note": "The last commit date is July 2026."
+            "note": "The commit history shows activity in 2025, which is within the 2021-2026 range."
           },
           "EC3": {
             "verdict": "not_met",
@@ -2503,11 +2596,11 @@
           },
           "EC4": {
             "verdict": "not_met",
-            "note": "The source is entirely in English."
+            "note": "The full text is entirely in English."
           },
           "EC5": {
             "verdict": "not_met",
-            "note": "The source is a primary code repository and project description, not a secondary or tertiary study like a survey."
+            "note": "It is a primary description of a tool implementation, not a secondary or tertiary study."
           }
         }
       }
@@ -2793,198 +2886,6 @@
           "EC5": {
             "verdict": "not_met",
             "note": "The source is a GitHub repository presenting an original specification and technique, not a secondary or tertiary study."
-          }
-        }
-      }
-    },
-    {
-      "id": "GH65",
-      "status": "screened",
-      "data": {
-        "title": "Stable Lab @ UCSD",
-        "link": "https://github.com/stable-lab"
-      },
-      "answers": {
-        "solution_name": "MAGE",
-        "RQa": {
-          "note": "The page is a GitHub repository for the MAGE project.",
-          "value": "Code repository",
-          "evidence": "https://github.com/stable-lab/MAGE"
-        },
-        "RQb": {
-          "note": "MAGE is designed for automated generation of RTL code, which is domain-specific to hardware design.",
-          "value": "Domain or language-specific",
-          "evidence": "MAGE: A Multi-Agent Engine for Automated RTL Code Generation"
-        },
-        "RQc": {
-          "note": "The repository shows an MIT license, indicating it is open-source and free to use.",
-          "value": "Open-source / free",
-          "evidence": "MIT"
-        },
-        "RQd": {
-          "note": "The provided text does not mention any specific limitations for adopting this solution.",
-          "value": "Technical limitations",
-          "evidence": ""
-        },
-        "RQe": {
-          "note": "The text does not explicitly state the maturity level of the solution.",
-          "value": "Experimental or beta phase",
-          "evidence": ""
-        },
-        "RQf": {
-          "note": "The repository has GitHub issue and pull request trackers, but there is no mention of documentation, forums, releases, or chat communities.",
-          "value": [
-            "GitHub issue trackers"
-          ],
-          "evidence": "1 issue, 1 pull request"
-        },
-        "RQg": {
-          "note": "The tool generates RTL code, which is primarily written and used by hardware developers.",
-          "value": "Developers",
-          "evidence": "MAGE: A Multi-Agent Engine for Automated RTL Code Generation"
-        },
-        "RQh": {
-          "note": "The text does not describe any industrial case studies or user studies.",
-          "value": "Unspecified",
-          "evidence": ""
-        }
-      },
-      "screening": {
-        "decision": "include",
-        "confidence": "high",
-        "reason": "all criteria met",
-        "criteria": {
-          "IC1": {
-            "verdict": "met",
-            "note": "MAGE generates RTL (Register-Transfer Level) code, a hardware description language, which is a software construction activity in hardware engineering."
-          },
-          "IC2": {
-            "verdict": "met",
-            "note": "MAGE is a multi-agent engine that uses LLMs for automated RTL code generation, fitting the 'agent' type and 'coding' activity.",
-            "type": "agent",
-            "software_engineering_activity": "coding"
-          },
-          "IC3": {
-            "verdict": "met",
-            "note": "The repository presents a practical implementation with source code and version history, making it a primary study.",
-            "type": "primary study"
-          },
-          "IC4": {
-            "verdict": "met",
-            "note": "The provided GitHub repository contains a usable prototype or deployed tool, not just a concept."
-          },
-          "IC5": {
-            "verdict": "met",
-            "note": "The repository was last updated in 2025, which is within the 2021-2026 timeframe."
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The page content is in English."
-          },
-          "EC5": {
-            "verdict": "not_met",
-            "note": "It is a GitHub repository for a specific tool (MAGE), not a secondary or tertiary study."
-          }
-        }
-      }
-    },
-    {
-      "id": "GH68",
-      "status": "screened",
-      "data": {
-        "title": "GitHub - Minw913/AlphaOPT: Formulating Optimization Programs with Self-Improving LLM Experience Library",
-        "link": "https://github.com/Minw913/AlphaOPT"
-      },
-      "answers": {
-        "solution_name": "AlphaOPT",
-        "RQa": {
-          "note": "The source is the GitHub repository for the code associated with an academic paper.",
-          "value": "Code repository",
-          "evidence": "AlphaOPT: Formulating Optimization Programs with Self-Improving LLM Experience Library ... arXiv:2510.18428"
-        },
-        "RQb": {
-          "note": "The solution is a system for generating optimization programs using LLMs, which is domain-specific.",
-          "value": "Domain or language-specific",
-          "evidence": "AlphaOPT, a self-improving experience library that enables an LLM to learn from limited demonstrations ... and solver feedback"
-        },
-        "RQc": {
-          "note": "The code is available on GitHub under an open-source MIT license.",
-          "value": "Open-source / free",
-          "evidence": "License: MIT"
-        },
-        "RQd": {
-          "note": "The solution depends on external commercial LLM APIs (OpenAI, Google, OpenRouter), incurring costs and operational constraints.",
-          "value": "Operational constraints",
-          "evidence": "configure LLM API keys ... OPEN_ROUTER_KEY ... GEMINI_API_KEY ... OPENAI_API_KEY"
-        },
-        "RQe": {
-          "note": "The repository has a v1.0 release, suggesting it is more than experimental, and the associated paper indicates its feasibility.",
-          "value": "Production-ready",
-          "evidence": "AlphaOPT: Formulating Optimization Programs with a Self-Improving LLM Experience Library Latest on Jun 2, 2026"
-        },
-        "RQf": {
-          "note": "The repository includes a README with setup instructions, a CHANGELOG, has releases, and likely supports GitHub Issues.",
-          "value": [
-            "Docs/Tutorial/User Manual",
-            "Release notes",
-            "GitHub issue trackers"
-          ],
-          "evidence": "CHANGELOG.md ... README.md ... AlphaOPT: Formulating Optimization Programs with a Self-Improving LLM Experience Library Latest on Jun 2Jun 2, 2026"
-        },
-        "RQg": {
-          "note": "The solution involves LLM programming and solver integration, targeting developers who work with optimization tasks.",
-          "value": "Developers",
-          "evidence": "AlphaOPT, a self-improving experience library that enables an LLM to learn from limited demonstrations ... and solver feedback"
-        },
-        "RQh": {
-          "note": "The solution is validated on several benchmark datasets used in academic research, with no explicit mention of industrial case studies.",
-          "value": "Unspecified",
-          "evidence": "Using cleaned versions provided by Yang et al. (2025) ... Using cleaned releases from Astorga et al. (2025)"
-        }
-      },
-      "screening": {
-        "decision": "include",
-        "confidence": "high",
-        "reason": "all criteria met",
-        "criteria": {
-          "IC1": {
-            "verdict": "met",
-            "note": "The solution operates in software engineering, focusing on software construction by generating code for optimization programs."
-          },
-          "IC2": {
-            "verdict": "met",
-            "note": "The tool applies LLMs (Generative AI) to automatically formulate optimization programs, a coding activity.",
-            "type": "tool",
-            "software_engineering_activity": "coding"
-          },
-          "IC3": {
-            "verdict": "met",
-            "note": "The GitHub repository provides source code with a v1.0 release, implementing the AlphaOPT tool described in a paper.",
-            "type": "primary study"
-          },
-          "IC4": {
-            "verdict": "met",
-            "note": "The repository delivers a usable tool with source code, setup instructions, and a v1.0 release, not just a concept."
-          },
-          "IC5": {
-            "verdict": "met",
-            "note": "The repository was published/comitted in October 2025, which falls between 2021 and 2026."
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The full text (repository README) is written entirely in English."
-          },
-          "EC5": {
-            "verdict": "not_met",
-            "note": "The source is a primary tool/code repository (AlphaOPT), not a secondary or tertiary study."
           }
         }
       }
@@ -3562,194 +3463,6 @@
           "EC5": {
             "verdict": "not_met",
             "note": "This is a primary software project repository and not a secondary or tertiary study."
-          }
-        }
-      }
-    },
-    {
-      "id": "GH91",
-      "status": "screened",
-      "data": {
-        "title": "danielgross/localpilot",
-        "link": "https://github.com/danielgross/localpilot"
-      },
-      "answers": {
-        "solution_name": "localpilot",
-        "RQa": {
-          "note": "The solution is hosted as a public repository on GitHub.",
-          "value": "Code repository",
-          "evidence": "danielgross / localpilot Public"
-        },
-        "RQb": {
-          "note": "It provides general-purpose code completions similar to GitHub Copilot.",
-          "value": "General-purpose (GP)",
-          "evidence": "Use GitHub Copilot locally on your Macbook with one-click!"
-        },
-        "RQc": {
-          "note": "The solution is open-source and free under the MIT license.",
-          "value": "Open-source / free",
-          "evidence": "MIT license"
-        },
-        "RQd": {
-          "note": "The tool has limitations in code quality for complex functions and speed with larger models, and is an inefficient demonstration.",
-          "value": "Technical limitations",
-          "evidence": "For complex functions... maybe. ... Please consider this repo a demonstration of a very inefficient implementation."
-        },
-        "RQe": {
-          "note": "The project is an experimental demonstration without stable releases.",
-          "value": "Experimental or beta phase",
-          "evidence": "Please consider this repo a demonstration of a very inefficient implementation."
-        },
-        "RQf": {
-          "note": "The repository includes a README with installation instructions and a FAQ.",
-          "value": [
-            "Docs/Tutorial/User Manual"
-          ],
-          "evidence": "README.md"
-        },
-        "RQg": {
-          "note": "The target users are developers using VS Code for code completion.",
-          "value": "Developers",
-          "evidence": "open VS Code Settings"
-        },
-        "RQh": {
-          "note": "No industrial case studies, user studies, or experiments are mentioned.",
-          "value": "Unspecified",
-          "evidence": ""
-        }
-      },
-      "screening": {
-        "decision": "include",
-        "confidence": "high",
-        "reason": "all criteria met",
-        "criteria": {
-          "IC1": {
-            "verdict": "met",
-            "note": "The solution is a code completion tool for software construction."
-          },
-          "IC2": {
-            "verdict": "met",
-            "note": "It uses local LLMs to provide code completions.",
-            "type": "tool",
-            "software_engineering_activity": "coding"
-          },
-          "IC3": {
-            "verdict": "met",
-            "note": "The source is a practical GitHub repository with runnable code.",
-            "type": "empirical case"
-          },
-          "IC4": {
-            "verdict": "met",
-            "note": "It provides a working prototype that can be used locally."
-          },
-          "IC5": {
-            "verdict": "met",
-            "note": "The repository was created in 2023, within the 2021-2026 range."
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The source is in English."
-          },
-          "EC5": {
-            "verdict": "not_met",
-            "note": "It is a primary implementation, not a secondary study."
-          }
-        }
-      }
-    },
-    {
-      "id": "GH93",
-      "status": "screened",
-      "data": {
-        "title": "ShahandFahad/IBM-full-stack-software-developer",
-        "link": "https://github.com/ShahandFahad/IBM-full-stack-software-developer"
-      },
-      "answers": {
-        "solution_name": "IBM Full Stack Software Developer",
-        "RQa": {
-          "note": "This source describes an online educational program.",
-          "value": "Course / educational",
-          "evidence": "Prepare for a rewarding career in software development with the IBM Full Stack Software Developer program."
-        },
-        "RQb": {
-          "note": "The program teaches full-stack development, which is general-purpose across many domains.",
-          "value": "General-purpose (GP)",
-          "evidence": "cover front-end, back-end, and cloud-native application development"
-        },
-        "RQc": {
-          "note": "The text does not mention any pricing or access model.",
-          "value": "Unspecified",
-          "evidence": ""
-        },
-        "RQd": {
-          "note": "No limitations are explicitly mentioned in the text.",
-          "value": "Technical limitations",
-          "evidence": ""
-        },
-        "RQe": {
-          "note": "The program is available and has been completed by the author, indicating it is operational.",
-          "value": "Production-ready",
-          "evidence": "the IBM Full Stack Software Developer program"
-        },
-        "RQf": {
-          "note": "No technical documentation, support channels, or community forums are described.",
-          "value": [],
-          "evidence": ""
-        },
-        "RQg": {
-          "note": "The program targets aspiring software developers.",
-          "value": "Developers",
-          "evidence": "Prepare for a rewarding career in software development"
-        },
-        "RQh": {
-          "note": "No mention of industry case studies or validation experiments.",
-          "value": "Unspecified",
-          "evidence": ""
-        }
-      },
-      "screening": {
-        "decision": "exclude",
-        "confidence": "high",
-        "reason": "failed: IC2, IC3, IC4",
-        "criteria": {
-          "IC1": {
-            "verdict": "met",
-            "note": "The repository describes a full-stack software development program, which is clearly in the software engineering context."
-          },
-          "IC2": {
-            "verdict": "not_met",
-            "note": "The source does not describe any Generative AI method or application; it is a course curriculum.",
-            "type": "",
-            "software_engineering_activity": ""
-          },
-          "IC3": {
-            "verdict": "not_met",
-            "note": "The source is a personal overview of a completed online course, not a practical implementation of a Generative AI solution.",
-            "type": ""
-          },
-          "IC4": {
-            "verdict": "not_met",
-            "note": "No usable software solution is presented; only a curriculum outline."
-          },
-          "IC5": {
-            "verdict": "met",
-            "note": "The repository was created and last updated in 2023, within the required timeframe."
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The text is written in English."
-          },
-          "EC5": {
-            "verdict": "not_met",
-            "note": "The source is a personal course portfolio, not a secondary or tertiary study."
           }
         }
       }

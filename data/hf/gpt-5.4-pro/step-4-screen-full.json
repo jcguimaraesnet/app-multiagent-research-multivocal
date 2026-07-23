@@ -2,16 +2,16 @@
   "origin": "hf",
   "step": 4,
   "model": "",
-  "updated_at": "2026-07-10T05:39:11.048109+00:00",
-  "count": 39,
+  "updated_at": "2026-07-22T03:39:08.088784+00:00",
+  "count": 40,
   "by_status": {
     "pending": 0,
     "converted": 0,
     "answered": 0,
-    "screened": 39
+    "screened": 40
   },
   "included": 34,
-  "excluded": 5,
+  "excluded": 6,
   "records": [
     {
       "id": "HF1",
@@ -106,6 +106,104 @@
           "EC5": {
             "verdict": "not_met",
             "note": "The paper is a primary study proposing a new platform, not a secondary or tertiary study."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF2",
+      "status": "screened",
+      "data": {
+        "title": "QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation",
+        "link": "https://huggingface.co/papers/2604.08570",
+        "pdf_link": "https://arxiv.org/pdf/2604.08570v2",
+        "markdown_chars": 40360
+      },
+      "answers": {
+        "solution_name": "QuanBench+",
+        "RQa": {
+          "note": "The paper is published as a workshop paper at ICLR 2026, which is an academic venue.",
+          "value": "Academic Paper",
+          "evidence": "Published as a workshop paper at ICLR 2026"
+        },
+        "RQb": {
+          "note": "The solution is a benchmark specifically for quantum code generation, making it domain-specific.",
+          "value": "Domain or language-specific",
+          "evidence": "a unified multi-framework benchmark for LLM-based quantum code generation"
+        },
+        "RQc": {
+          "note": "The source code is publicly available on GitHub, indicating an open-source/free model.",
+          "value": "Open-source / free",
+          "evidence": "Source code: https://github.com/JawadKotaichh/quanbench-plus"
+        },
+        "RQd": {
+          "note": "The benchmark has limitations in task coverage, evaluation metrics, and framework support, which are technical constraints.",
+          "value": "Technical limitations",
+          "evidence": "QuanBench+ contains 42 tasks and therefore does not capture the full long tail of real-world quantum development. We also report only Pass@1, Pass@5, and Pass@1 (FB) in this version, which leaves out other potentially useful views of model behavior such as robustness to prompt variation, longer repair horizons, and tool-augmented workflows. Finally, the benchmark currently covers Qiskit, PennyLane, and Cirq; extending the same methodology to additional frameworks remains open future work."
+        },
+        "RQe": {
+          "note": "The solution is introduced as a new research contribution in a workshop paper, indicating an experimental phase.",
+          "value": "Experimental or beta phase",
+          "evidence": "We introduce QuanBench+"
+        },
+        "RQf": {
+          "note": "The GitHub repository suggests availability of documentation and issue trackers; the paper provides a detailed description.",
+          "value": [
+            "Docs/Tutorial/User Manual",
+            "GitHub issue trackers"
+          ],
+          "evidence": "Source code: https://github.com/JawadKotaichh/quanbench-plus"
+        },
+        "RQg": {
+          "note": "The benchmark targets developers who use quantum computing frameworks and LLM-based code generation.",
+          "value": "Developers",
+          "evidence": "developers increasingly rely on ecosystems such as Qiskit, PennyLane, and Cirq"
+        },
+        "RQh": {
+          "note": "No industrial case studies or collaboration are mentioned; the evaluation uses existing models without industry partnership.",
+          "value": "Unspecified",
+          "evidence": ""
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC2",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The paper focuses on evaluating LLMs for quantum code generation, which is a software construction (coding) activity."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The solution is a benchmark for evaluating LLM-based code generation, not a generative AI method applied to software construction.",
+            "type": "",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper describes a practical benchmark implementation with executable tests, not a purely theoretical proposal.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The benchmark (QuanBench+) is publicly available on GitHub, making it a usable solution."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper is published at ICLR 2026, which falls within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper is a primary study proposing a benchmark, not a secondary or tertiary study."
           }
         }
       }
@@ -789,280 +887,84 @@
       }
     },
     {
-      "id": "HF10",
+      "id": "HF12",
       "status": "screened",
       "data": {
-        "title": "MeshCoder: LLM-Powered Structured Mesh Code Generation from Point Clouds",
-        "link": "https://huggingface.co/papers/2508.14879",
-        "pdf_link": "https://arxiv.org/pdf/2508.14879v2",
-        "markdown_chars": 66491
+        "title": "GLLM: Self-Corrective G-Code Generation using Large Language Models with User Feedback",
+        "link": "https://huggingface.co/papers/2501.17584",
+        "pdf_link": "https://arxiv.org/pdf/2501.17584v1",
+        "markdown_chars": 36361
       },
       "answers": {
-        "solution_name": "MeshCoder",
+        "solution_name": "GLLM",
         "RQa": {
-          "note": "The document is a preprint, as indicated by the note 'Preprint. Under review.' on the first page, and a project homepage URL is provided.",
+          "note": "The source is a research paper describing the GLLM system.",
           "value": "Preprint",
-          "evidence": "Preprint. Under review."
+          "evidence": "This paper introduces GLLM, an innovative tool that leverages Large Language Models (LLMs) to automatically generate G-code from natural language instructions for Computer Numerical Control (CNC) machining."
         },
         "RQb": {
-          "note": "MeshCoder is a specific domain framework for 3D shape reconstruction into code, targeting point cloud inputs for a limited set of 41 object categories.",
+          "note": "GLLM is specifically designed for CNC G-code generation, a domain-specific task.",
           "value": "Domain or language-specific",
-          "evidence": "We introduce MeshCoder, a novel framework that reconstructs complex 3D objects from point clouds into editable Blender Python scripts. [...] Our approach not only achieves superior performance in shape-to-code reconstruction tasks but also facilitates intuitive geometric and topological editing through convenient code modifications."
+          "evidence": "GLLM addresses the challenges of manual G-code writing by bridging the gap between human-readable task descriptions and machine-executable code."
         },
         "RQc": {
-          "note": "The text does not specify licensing, pricing, or access terms. A project homepage is provided, but the usage model is unspecified.",
+          "note": "The paper does not explicitly state the availability or licensing of the GLLM tool; only that it uses open-source components.",
           "value": "Unspecified",
-          "evidence": "Project homepage: `https://daibingquan.github.io/MeshCoder`"
+          "evidence": ""
         },
         "RQd": {
-          "note": "The paper states its method is limited to human-made objects and does not work well for organic forms, which is a technical limitation.",
+          "note": "The system exhibits technical limitations such as decreased performance when integrating RAG with unstructured prompts.",
           "value": "Technical limitations",
-          "evidence": "Although our method achieves significant advancements in category diversity, geometric complexity, and reconstruction accuracy compared to existing approaches, it primarily targets human-made objects. The applicability of code-based representations to organic forms, such as animals and humans, remains underdeveloped."
+          "evidence": "the incorporation of RAG with unstructured prompts decreased performance. This unexpected result warrants further investigation"
         },
         "RQe": {
-          "note": "The solution is described in a preprint that is under review, indicating it is in an experimental or early dissemination phase and not yet a published, production-ready system.",
+          "note": "The tool is a research prototype requiring further optimization, indicating experimental status.",
           "value": "Experimental or beta phase",
-          "evidence": "Preprint. Under review."
+          "evidence": "Future research should explore optimizing RAG integration and further refining prompt structures to maximize the potential of LLMs in complex machining applications."
         },
         "RQf": {
-          "note": "Only a project homepage is mentioned. No other forms of documentation, issue trackers, forums, or community channels are referenced.",
+          "note": "The paper does not describe any technical documentation, support channels, or community resources for GLLM.",
           "value": [],
-          "evidence": "Project homepage: `https://daibingquan.github.io/MeshCoder`"
+          "evidence": ""
         },
         "RQg": {
-          "note": "The intended users are those involved in 3D shape reconstruction and editing, such as developers or designers, but the primary use case is for programmatic generation, suggesting a developer role.",
-          "value": "Developers",
-          "evidence": "By representing shapes as structured code, MeshCoder offers a flexible and powerful solution for programmatic 3D shape reconstruction and editing, paving the way for advanced applications in reverse engineering, design, and analysis."
+          "note": "The solution targets a broad audience including non-programmers, not exclusively traditional developers.",
+          "value": "Others",
+          "evidence": "democratize CNC programming, making it more accessible to a wider range of users, including those without extensive programming or CAM software experience"
         },
         "RQh": {
-          "note": "The evaluation is based on quantitative experiments against other methods on a synthetic dataset. No industrial case studies or large-scale user studies are reported.",
-          "value": "Unspecified",
-          "evidence": "We evaluate our approach against existing shape-to-code methods, with experimental results and quantitative metrics demonstrating that our framework significantly outperforms prior work."
-        }
-      },
-      "screening": {
-        "decision": "include",
-        "confidence": "high",
-        "reason": "all criteria met",
-        "criteria": {
-          "IC1": {
-            "verdict": "met",
-            "note": "The context is software engineering, specifically the automated generation of code (Blender Python scripts) for software construction tasks."
-          },
-          "IC2": {
-            "verdict": "met",
-            "note": "The solution applies a multimodal LLM to generate executable Blender Python code from point clouds, supporting the coding activity.",
-            "type": "tool",
-            "software_engineering_activity": "coding"
-          },
-          "IC3": {
-            "verdict": "met",
-            "note": "The paper presents a practical implementation and evaluates it with experiments, making it a primary study.",
-            "type": "primary study"
-          },
-          "IC4": {
-            "verdict": "met",
-            "note": "The framework is a usable solution, producing executable Blender Python scripts, with an implementation described and a project homepage provided."
-          },
-          "IC5": {
-            "verdict": "met",
-            "note": "The paper is a preprint from 2024/2025, fitting the 2021-2026 publication window."
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "The paper is written entirely in English."
-          },
-          "EC5": {
-            "verdict": "not_met",
-            "note": "This is a primary study proposing and evaluating the MeshCoder framework, not a secondary or tertiary study."
-          }
-        }
-      }
-    },
-    {
-      "id": "HF11",
-      "status": "screened",
-      "data": {
-        "title": "A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code",
-        "link": "https://huggingface.co/papers/2508.18106",
-        "pdf_link": "https://arxiv.org/pdf/2508.18106v3",
-        "markdown_chars": 80464
-      },
-      "answers": {
-        "solution_name": "A.S.E",
-        "RQa": {
-          "note": "The paper is an academic research paper that introduces and evaluates the A.S.E benchmark.",
-          "value": "Academic Paper",
-          "evidence": "**A.S.E Code:** https://github.com/Tencent/AICGSecEval **A.S.E Website:** https://aicgseceval.tencent.com/home"
-        },
-        "RQb": {
-          "note": "The solution is a benchmark for evaluating security in AI-generated code, applicable across multiple programming languages and web vulnerability types, not a specific code generation tool.",
-          "value": "Domain or language-specific",
-          "evidence": "A.S.E is designed to closely mirror real-world AI programming tasks, offering a comprehensive and reliable framework for assessing the security of AI-generated code."
-        },
-        "RQc": {
-          "note": "The benchmark dataset and evaluation framework are publicly available on GitHub, indicating an open-source / free access model.",
-          "value": "Open-source / free",
-          "evidence": "To facilitate further research and practical adoption, we have made both the source code of the A.S.E evaluation framework and the full benchmark dataset publicly available, which can be accessed at https://github.com/Tencent/ AICGSecEval."
-        },
-        "RQd": {
-          "note": "The solution has technical limitations including a restricted scope to web projects, a few languages and vulnerability types, reliance on static analysis, and inability to capture all real-world complexities.",
-          "value": "Technical limitations",
-          "evidence": "First, the current scope of A.S.E is restricted to web-related projects, four vulnerability categories, and five programming languages... Second, the evaluation framework relies on customized static analysis rules for code security assessment... it cannot dynamically verify functional correctness or detect vulnerabilities that manifest only at runtime... Finally, while A.S.E leverages repository-level context and patch-based evaluation to simulate real-world workflows, it cannot fully capture the diversity and unpredictability of software engineering practices in production environments."
-        },
-        "RQe": {
-          "note": "The benchmark is released and used for extensive evaluation of 26 models, indicating it is production-ready for research and evaluation purposes.",
-          "value": "Production-ready",
-          "evidence": "We release A.S.E, a repository-level evaluation benchmark derived from real-world GitHub repositories with documented CVEs... We evaluate 26 mainstream commercial and open-source LLMs on A.S.E, revealing several key findings."
-        },
-        "RQf": {
-          "note": "The project provides source code, a website, results and is hosted on GitHub, covering documentation, release notes, and implicitly issue trackers on GitHub. No specific forum or Discord/Slack is mentioned.",
-          "value": [
-            "Docs/Tutorial/User Manual",
-            "GitHub issue trackers",
-            "Release notes"
-          ],
-          "evidence": "**A.S.E Code:** https://github.com/Tencent/AICGSecEval **A.S.E Website:** https://aicgseceval.tencent.com/home ... comprehensive evaluation results for all tested models, which are continuously updated and maintained on the project website. By releasing both the framework and dataset, we aim to support reproducibility, encourage community contributions..."
-        },
-        "RQg": {
-          "note": "The solution is primarily aimed at developers and organizations to evaluate and select models for secure code generation.",
-          "value": "Developers",
-          "evidence": "This gap poses a significant challenge for both developers and organizations seeking to integrate AI-generated code securely into their systems... helping developers select the most appropriate models for their specific tasks... guiding developers in selecting the most suitable models for their tasks."
-        },
-        "RQh": {
-          "note": "The validation is done through a large-scale empirical study evaluating 26 LLMs, which constitutes a large-scale user study, not an industrial case study with a specific company.",
-          "value": "Large-scale user studies",
-          "evidence": "Based on A.S.E, we evaluated 26 mainstream commercial or open-source models under the same experimental setup, leading to several key findings."
-        }
-      },
-      "screening": {
-        "decision": "include",
-        "confidence": "high",
-        "reason": "all criteria met",
-        "criteria": {
-          "IC1": {
-            "verdict": "met",
-            "note": "the context is evaluating AI-generated code for security, which falls within software engineering (coding)."
-          },
-          "IC2": {
-            "verdict": "met",
-            "note": "it applies generative AI methods (LLMs) to evaluate code, and the solution is a benchmark.",
-            "type": "tool",
-            "software_engineering_activity": "coding"
-          },
-          "IC3": {
-            "verdict": "met",
-            "note": "it describes a practical implementation (the A.S.E framework) and conducts empirical evaluation.",
-            "type": "primary study"
-          },
-          "IC4": {
-            "verdict": "met",
-            "note": "it presents a deployed tool and publicly available benchmark dataset."
-          },
-          "IC5": {
-            "verdict": "met",
-            "note": "the paper appears to be published in 2025, which is between 2021 and 2026."
-          },
-          "EC3": {
-            "verdict": "not_met",
-            "note": "content retrieved"
-          },
-          "EC4": {
-            "verdict": "not_met",
-            "note": "the paper is written in English."
-          },
-          "EC5": {
-            "verdict": "not_met",
-            "note": "it is a primary study proposing a benchmark, not a secondary or tertiary study."
-          }
-        }
-      }
-    },
-    {
-      "id": "HF13",
-      "status": "screened",
-      "data": {
-        "title": "OpenClassGen: A Large-Scale Corpus of Real-World Python Classes for LLM Research",
-        "link": "https://huggingface.co/papers/2504.15564",
-        "pdf_link": "https://arxiv.org/pdf/2504.15564v3",
-        "markdown_chars": 58141
-      },
-      "answers": {
-        "solution_name": "OpenClassGen",
-        "RQa": {
-          "note": "The solution is presented in an academic paper published at the EASE 2026 conference.",
-          "value": "Academic Paper",
-          "evidence": "In *Proceedings of The 30th International Conference on Evaluation and Assessment in Software Engineering (EASE 2026)*"
-        },
-        "RQb": {
-          "note": "OpenClassGen is a corpus of real-world Python classes specifically curated for LLM-assisted class-level code generation research, making it domain- and language-specific.",
-          "value": "Domain or language-specific",
-          "evidence": "a large-scale corpus of 324,843 Python classes extracted from 2,970 engineered open-source projects"
-        },
-        "RQc": {
-          "note": "The dataset and curation scripts are publicly available at no cost.",
-          "value": "Open-source / free",
-          "evidence": "The complete dataset and curation scripts are publicly available at https://zenodo.org/records/18409150."
-        },
-        "RQd": {
-          "note": "The solution has technical limitations including data contamination risk, limited test coverage in functional validation, and a Python-only scope.",
-          "value": "Technical limitations",
-          "evidence": "Data Contamination Risk. LLMs are trained on public GitHub repositories, and our source projects may overlap with training data, potentially inflating performance estimates."
-        },
-        "RQe": {
-          "note": "The dataset is a research artifact with an illustrative evaluation, not a production-ready product; it is still in an experimental stage.",
-          "value": "Experimental or beta phase",
-          "evidence": "This evaluation is explicitly illustrative: its purpose is to confirm that OpenClassGen supports meaningful multi-dimensional LLM assessment, not to provide definitive model rankings"
-        },
-        "RQf": {
-          "note": "The paper provides a data dictionary and usage instructions, and the replication package includes documentation, but no community forums or issue trackers are mentioned.",
-          "value": [
-            "Docs/Tutorial/User Manual"
-          ],
-          "evidence": "The complete dataset and curation scripts are publicly available at https://zenodo.org/records/18409150. The dataset is also available on Hugging Face [28] and can be loaded using the datasets Python library as follows:"
-        },
-        "RQg": {
-          "note": "The intended users are developers and researchers working on LLM-based code generation.",
-          "value": "Developers",
-          "evidence": "OpenClassGen, the first large-scale corpus of real-world Python classes specifically curated for LLM-assisted class-level code generation research."
-        },
-        "RQh": {
-          "note": "The paper does not mention any collaboration with industry to validate the proposal; the evaluation is performed solely by the authors.",
+          "note": "The evaluation uses six synthetic test tasks without reported industrial case studies or large-scale user studies.",
           "value": "Unspecified",
           "evidence": ""
         }
       },
       "screening": {
-        "decision": "exclude",
+        "decision": "include",
         "confidence": "high",
-        "reason": "failed: IC2",
+        "reason": "all criteria met",
         "criteria": {
           "IC1": {
             "verdict": "met",
-            "note": "The solution operates in the software engineering context, specifically for class-level code generation."
+            "note": "GLLM generates G-code, a programming language for CNC machining, which is a software construction activity in the manufacturing domain."
           },
           "IC2": {
-            "verdict": "not_met",
-            "note": "The paper presents a large-scale corpus designed for LLM research, which is a dataset/resource and does not directly apply Generative AI methods to a software construction activity itself.",
-            "type": "",
-            "software_engineering_activity": ""
+            "verdict": "met",
+            "note": "GLLM applies a fine-tuned StarCoder-3B LLM for the coding activity of G-code generation.",
+            "type": "tool",
+            "software_engineering_activity": "coding"
           },
           "IC3": {
             "verdict": "met",
-            "note": "The paper presents the dataset as its primary contribution and includes a demonstrative evaluation, fitting the definition of a primary study proposing an implementation.",
+            "note": "The paper describes the implementation and performance evaluation of the GLLM tool prototype.",
             "type": "primary study"
           },
           "IC4": {
             "verdict": "met",
-            "note": "The paper presents a publicly available, usable dataset/corpus, not just a concept."
+            "note": "The paper presents a working tool, GLLM, with a user web interface and validation mechanisms."
           },
           "IC5": {
             "verdict": "met",
-            "note": "The paper is published in 2026."
+            "note": "The bibliography includes references up to 2024, and the paper's content implies recent publication after 2020."
           },
           "EC3": {
             "verdict": "not_met",
@@ -1074,7 +976,7 @@
           },
           "EC5": {
             "verdict": "not_met",
-            "note": "The paper presents a primary dataset and an illustrative evaluation, not a secondary or tertiary study."
+            "note": "It is a primary study proposing and evaluating the GLLM tool, not a secondary or tertiary study."
           }
         }
       }
@@ -3612,6 +3514,104 @@
       }
     },
     {
+      "id": "HF70",
+      "status": "screened",
+      "data": {
+        "title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+        "link": "https://huggingface.co/papers/2606.06473",
+        "pdf_link": "https://arxiv.org/pdf/2606.06473v1",
+        "markdown_chars": 74036
+      },
+      "answers": {
+        "solution_name": "MLEvolve",
+        "RQa": {
+          "note": "The text is formatted as an academic paper with an abstract, introduction, related work, methodology, experiments, and references. It explicitly references an associated arXiv preprint ID.",
+          "value": "Academic Paper",
+          "evidence": "arXiv preprint arXiv:2505.16938 (2025)."
+        },
+        "RQb": {
+          "note": "The solution focuses on general-purpose machine learning algorithm discovery, covering end-to-end ML pipelines from data preparation to model training and inference.",
+          "value": "General-purpose (GP)",
+          "evidence": "MLEvolve, an LLM-based self-evolving multi-agent framework for end-to-end machine learning algorithm discovery."
+        },
+        "RQc": {
+          "note": "The paper provides a public link to its code repository, indicating it is freely available.",
+          "value": "Open-source / free",
+          "evidence": "Our code is available at https://github.com/InternScience/MLEvolve."
+        },
+        "RQd": {
+          "note": "The text primarily discusses limitations of existing methods (such as information isolation and lack of experience reuse) that MLEvolve aims to overcome. It does not discuss technical, operational, or legal limitations for adopting MLEvolve itself. Therefore, the closest suitable value is 'Technical limitations', though the evidence reflects the challenges it addresses rather than its own limitations.",
+          "value": "Technical limitations",
+          "evidence": "However, these methods commonly suffer from inter-branch information isolation and the inability to accumulate and reuse experience from past trials. Our method addresses these limitations from a self-evolving perspective..."
+        },
+        "RQe": {
+          "note": "The solution's code is publicly available, and it achieves state-of-the-art performance on the MLE-Bench benchmark. There is no mention of it being in a beta or experimental phase.",
+          "value": "Production-ready",
+          "evidence": "Our code is available at https://github.com/InternScience/MLEvolve."
+        },
+        "RQf": {
+          "note": "A code repository link is provided, which typically implies the presence of documentation and an issue tracker on GitHub. No specific mention is made of other community platforms like forums or release notes.",
+          "value": [
+            "GitHub issue trackers",
+            "Docs/Tutorial/User Manual"
+          ],
+          "evidence": "Our code is available at https://github.com/InternScience/MLEvolve."
+        },
+        "RQg": {
+          "note": "The solution is described as an LLM-based multi-agent framework designed for automating machine learning engineering tasks, which are development and coding tasks.",
+          "value": "Developers",
+          "evidence": "LLM-based coding agents have been applied to MLE scenarios [10, 11, 12, 13, 14], using the planning and code generation capabilities of LLMs to iteratively optimize within open search spaces."
+        },
+        "RQh": {
+          "note": "The evaluation is performed on standard public benchmarks (MLE-Bench, AlphaEvolve tasks) and compared against numerous other agents from the literature. There is no mention of industrial case studies or large-scale user studies.",
+          "value": "Unspecified",
+          "evidence": "Evaluation on MLE-Bench shows that MLEvolve achieves state-of-the-art performance across multiple dimensions including average medal rate and valid submission rate under a 12-hour budget..."
+        }
+      },
+      "screening": {
+        "decision": "include",
+        "confidence": "high",
+        "reason": "all criteria met",
+        "criteria": {
+          "IC1": {
+            "verdict": "met",
+            "note": "The solution operates in the software engineering context, specifically automating machine learning engineering tasks like model training and pipeline coding."
+          },
+          "IC2": {
+            "verdict": "met",
+            "note": "It applies Generative AI (LLMs) to software construction activities.",
+            "type": "agent",
+            "software_engineering_activity": "coding"
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "It describes a practical implementation with a code repository and experimental evaluation.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The paper presents a working multi-agent framework (MLEvolve) with publicly available code, demonstrated on established benchmarks."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper references works published in 2025 and 2026, indicating it is published within the 2021-2026 window."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The paper is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "The paper proposes a new framework (MLEvolve) and evaluates it empirically; it is not a survey, review, or systematic mapping."
+          }
+        }
+      }
+    },
+    {
       "id": "HF71",
       "status": "screened",
       "data": {
@@ -3704,6 +3704,101 @@
           "EC5": {
             "verdict": "not_met",
             "note": "The paper is a primary study presenting a novel synthesis framework, not a survey, review, or systematic mapping."
+          }
+        }
+      }
+    },
+    {
+      "id": "HF72",
+      "status": "screened",
+      "data": {
+        "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems",
+        "link": "https://huggingface.co/papers/2506.13905",
+        "pdf_link": "https://arxiv.org/pdf/2506.13905v2",
+        "markdown_chars": 51343
+      },
+      "answers": {
+        "solution_name": "Spec2RTL-Agent",
+        "RQa": {
+          "note": "The document is a formal academic research paper with IEEE formatting, including an abstract, sections, and references.",
+          "value": "Academic Paper",
+          "evidence": "978-1-6654-XXXX/XX/$31.00 ©20XX IEEE"
+        },
+        "RQb": {
+          "note": "Spec2RTL-Agent is designed specifically for hardware register transfer level (RTL) code generation from specifications, a domain-specific task.",
+          "value": "Domain or language-specific",
+          "evidence": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems"
+        },
+        "RQc": {
+          "note": "The text does not provide any information about the availability, licensing, or cost of the Spec2RTL-Agent system itself.",
+          "value": "Unspecified",
+          "evidence": ""
+        },
+        "RQd": {
+          "note": "The system still requires some human intervention and suffers from token inefficiency (∼10 iterations per sub-function), which are technical limitations.",
+          "value": "Technical limitations",
+          "evidence": "Spec2RTL-Agent has limitations and points to future directions: (1) Reducing Human Intervention: While it minimizes manual input, some involvement is still required for optimal RTL implementation… (2) Improving Efficiency: Spec2RTL-Agent requires ∼ 10 iterations per sub-function, which consumes a nontrivial number of tokens and can cause inefficiencies."
+        },
+        "RQe": {
+          "note": "The paper presents a novel research prototype evaluated on three benchmark documents; it is not described as a production-ready tool.",
+          "value": "Experimental or beta phase",
+          "evidence": "We evaluate Spec2RTL-Agent on a benchmark of three specification documents"
+        },
+        "RQf": {
+          "note": "No technical documentation, forums, issue trackers, release notes, or community channels are mentioned in the paper.",
+          "value": [],
+          "evidence": ""
+        },
+        "RQg": {
+          "note": "The target users are hardware designers and RTL developers, aiming to reduce their manual effort and expertise requirements.",
+          "value": "Developers",
+          "evidence": "reducing the reliance on human effort and expertise in hardware design"
+        },
+        "RQh": {
+          "note": "Validation uses three NIST specification documents and baseline comparisons; no industrial case studies or large-scale user studies are described.",
+          "value": "Unspecified",
+          "evidence": "We evaluate Spec2RTL-Agent on a benchmark of three specification documents from the Federal Information Processing Standards (FIPS)"
+        }
+      },
+      "screening": {
+        "decision": "exclude",
+        "confidence": "high",
+        "reason": "failed: IC1, IC2",
+        "criteria": {
+          "IC1": {
+            "verdict": "not_met",
+            "note": "The context is hardware RTL code generation, not software engineering construction."
+          },
+          "IC2": {
+            "verdict": "not_met",
+            "note": "The software_engineering_activity is hardware code generation, not a software construction activity.",
+            "type": "agent",
+            "software_engineering_activity": ""
+          },
+          "IC3": {
+            "verdict": "met",
+            "note": "The paper presents a practical implementation evaluated on benchmark documents.",
+            "type": "primary study"
+          },
+          "IC4": {
+            "verdict": "met",
+            "note": "The system is a research prototype with demonstrated functionality."
+          },
+          "IC5": {
+            "verdict": "met",
+            "note": "The paper references works from 2025 and appears recent, well within 2021-2026."
+          },
+          "EC3": {
+            "verdict": "not_met",
+            "note": "content retrieved"
+          },
+          "EC4": {
+            "verdict": "not_met",
+            "note": "The document is written in English."
+          },
+          "EC5": {
+            "verdict": "not_met",
+            "note": "This is a primary study proposing a new system, not a secondary or tertiary study."
           }
         }
       }

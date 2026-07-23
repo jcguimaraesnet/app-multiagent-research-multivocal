@@ -1,0 +1,22 @@
+{
+  "step-2": {
+    "sheet": "step-2-review-reviewed.xlsx",
+    "rows": 408,
+    "not_reviewed": 0,
+    "conflicts": 49,
+    "pending": [],
+    "adjudicated_without_conflict": [
+      "GH52",
+      "SC34",
+      "SC41"
+    ]
+  },
+  "step-3": {
+    "sheet": "step-3-review-reviewed.xlsx",
+    "rows": 318,
+    "not_reviewed": 0,
+    "conflicts": 65,
+    "pending": [],
+    "adjudicated_without_conflict": []
+  }
+}

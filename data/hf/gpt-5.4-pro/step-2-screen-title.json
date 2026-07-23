@@ -13,7 +13,8 @@
       "link": "https://huggingface.co/papers/2503.01295",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns LLM-based code generation, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns LLM-based code generation, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF2",
@@ -21,7 +22,8 @@
       "link": "https://huggingface.co/papers/2604.08570",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns LLM-based code generation, specifically for quantum programming, which is relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns LLM-based code generation, specifically for quantum programming, which is relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF3",
@@ -29,7 +31,8 @@
       "link": "https://huggingface.co/papers/2505.02133",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns LLM-based code generation and techniques to improve coding performance through multi-agent collaboration and runtime debugging."
+      "reason": "The title explicitly concerns LLM-based code generation and techniques to improve coding performance through multi-agent collaboration and runtime debugging.",
+      "human_decision": "include"
     },
     {
       "id": "HF4",
@@ -37,7 +40,8 @@
       "link": "https://huggingface.co/papers/2604.19742",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns LLM-generated GUI code, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns LLM-generated GUI code, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF5",
@@ -45,7 +49,8 @@
       "link": "https://huggingface.co/papers/2504.17192",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title explicitly concerns automated code generation, a software construction activity, and it plausibly involves an AI-based approach even though the specific generative technique is not stated."
+      "reason": "The title explicitly concerns automated code generation, a software construction activity, and it plausibly involves an AI-based approach even though the specific generative technique is not stated.",
+      "human_decision": "include"
     },
     {
       "id": "HF6",
@@ -53,7 +58,8 @@
       "link": "https://huggingface.co/papers/2604.01193",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns improving code generation using self-distillation, which is plausibly a generative AI technique for coding."
+      "reason": "The title explicitly concerns improving code generation using self-distillation, which is plausibly a generative AI technique for coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF7",
@@ -61,7 +67,8 @@
       "link": "https://huggingface.co/papers/2402.01391",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns improving code generation using reinforcement learning, which is plausibly a generative AI approach for software construction."
+      "reason": "The title explicitly concerns improving code generation using reinforcement learning, which is plausibly a generative AI approach for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF8",
@@ -69,7 +76,8 @@
       "link": "https://huggingface.co/papers/2604.21505",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns LLM-based code generation at the function level, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns LLM-based code generation at the function level, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF9",
@@ -77,7 +85,8 @@
       "link": "https://huggingface.co/papers/2603.29957",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title explicitly concerns code generation and may refer to a generative AI-based coding approach, but the AI aspect is not explicit."
+      "reason": "The title explicitly concerns code generation and may refer to a generative AI-based coding approach, but the AI aspect is not explicit.",
+      "human_decision": "include"
     },
     {
       "id": "HF10",
@@ -85,7 +94,8 @@
       "link": "https://huggingface.co/papers/2508.14879",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title explicitly mentions an LLM-powered code generation approach, which plausibly fits generative AI for coding despite the domain-specific mesh context."
+      "reason": "The title explicitly mentions an LLM-powered code generation approach, which plausibly fits generative AI for coding despite the domain-specific mesh context.",
+      "human_decision": "include"
     },
     {
       "id": "HF11",
@@ -93,7 +103,8 @@
       "link": "https://huggingface.co/papers/2508.18106",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns AI-generated code and its evaluation in a software repository context, which is directly relevant to generative AI for coding."
+      "reason": "The title explicitly concerns AI-generated code and its evaluation in a software repository context, which is directly relevant to generative AI for coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF12",
@@ -101,7 +112,8 @@
       "link": "https://huggingface.co/papers/2501.17584",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title clearly involves LLM-based code generation, and although G-code may be outside mainstream software development, it is not clearly irrelevant from the title alone."
+      "reason": "The title clearly involves LLM-based code generation, and although G-code may be outside mainstream software development, it is not clearly irrelevant from the title alone.",
+      "human_decision": "include"
     },
     {
       "id": "HF13",
@@ -109,7 +121,8 @@
       "link": "https://huggingface.co/papers/2504.15564",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title clearly concerns code artifacts (real-world Python classes) and explicitly targets LLM research, making it plausibly relevant to generative AI for coding."
+      "reason": "The title clearly concerns code artifacts (real-world Python classes) and explicitly targets LLM research, making it plausibly relevant to generative AI for coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF14",
@@ -117,7 +130,8 @@
       "link": "https://huggingface.co/papers/2511.06251",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly describes a vision-language agentic framework for UI-to-code generation, which is directly about generative AI applied to software coding."
+      "reason": "The title explicitly describes a vision-language agentic framework for UI-to-code generation, which is directly about generative AI applied to software coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF15",
@@ -125,7 +139,8 @@
       "link": "https://huggingface.co/papers/2407.10424",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title explicitly concerns LLM-enabled HDL code generation, which is plausibly a coding-related generative AI solution and is not clearly irrelevant from the title alone."
+      "reason": "The title explicitly concerns LLM-enabled HDL code generation, which is plausibly a coding-related generative AI solution and is not clearly irrelevant from the title alone.",
+      "human_decision": "include"
     },
     {
       "id": "HF16",
@@ -133,7 +148,8 @@
       "link": "https://huggingface.co/papers/2506.16990",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title explicitly concerns LLM-based code generation, and although it focuses on LaTeX rather than software source code, it is not clearly irrelevant at title screening."
+      "reason": "The title explicitly concerns LLM-based code generation, and although it focuses on LaTeX rather than software source code, it is not clearly irrelevant at title screening.",
+      "human_decision": "include"
     },
     {
       "id": "HF17",
@@ -141,7 +157,8 @@
       "link": "https://huggingface.co/papers/2607.04939",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions LLMs and improving code completion in Pharo, which is directly relevant to generative AI for software coding."
+      "reason": "The title explicitly mentions LLMs and improving code completion in Pharo, which is directly relevant to generative AI for software coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF18",
@@ -149,7 +166,8 @@
       "link": "https://huggingface.co/papers/2203.13474",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly describes a large language model for code and program synthesis, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly describes a large language model for code and program synthesis, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF19",
@@ -157,7 +175,8 @@
       "link": "https://huggingface.co/papers/2501.01257",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns LLM-based code generation, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns LLM-based code generation, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF20",
@@ -165,7 +184,8 @@
       "link": "https://huggingface.co/papers/2307.14936",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns large language models for code, which is directly relevant to generative AI solutions for software construction."
+      "reason": "The title explicitly concerns large language models for code, which is directly relevant to generative AI solutions for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF21",
@@ -173,7 +193,8 @@
       "link": "https://huggingface.co/papers/2507.22827",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title clearly targets visual-to-code generation for front-end software construction using multimodal agents, which is plausibly a generative AI coding solution."
+      "reason": "The title clearly targets visual-to-code generation for front-end software construction using multimodal agents, which is plausibly a generative AI coding solution.",
+      "human_decision": "include"
     },
     {
       "id": "HF22",
@@ -181,7 +202,8 @@
       "link": "https://huggingface.co/papers/2508.21290",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title explicitly concerns code and code generation models, making it plausibly relevant to generative AI for software coding."
+      "reason": "The title explicitly concerns code and code generation models, making it plausibly relevant to generative AI for software coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF23",
@@ -189,7 +211,8 @@
       "link": "https://huggingface.co/papers/2506.15655",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title clearly concerns generative AI for coding, specifically improving code retrieval-augmented generation using AST-based structural chunking."
+      "reason": "The title clearly concerns generative AI for coding, specifically improving code retrieval-augmented generation using AST-based structural chunking.",
+      "human_decision": "include"
     },
     {
       "id": "HF24",
@@ -197,7 +220,8 @@
       "link": "https://huggingface.co/papers/2207.01780",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly targets code generation using pretrained models and deep reinforcement learning, which is plausibly a generative AI approach to software construction."
+      "reason": "The title explicitly targets code generation using pretrained models and deep reinforcement learning, which is plausibly a generative AI approach to software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF25",
@@ -205,7 +229,8 @@
       "link": "https://huggingface.co/papers/2507.04952",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns LLM code generation evaluation, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns LLM code generation evaluation, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF26",
@@ -213,7 +238,8 @@
       "link": "https://huggingface.co/papers/2504.14655",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns code LLMs and a dataset for their training and evaluation, which is relevant to generative AI for coding."
+      "reason": "The title explicitly concerns code LLMs and a dataset for their training and evaluation, which is relevant to generative AI for coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF27",
@@ -221,7 +247,8 @@
       "link": "https://huggingface.co/papers/2510.11498",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions a multimodal LLM and agentic web coding, indicating a generative-AI approach for software construction."
+      "reason": "The title explicitly mentions a multimodal LLM and agentic web coding, indicating a generative-AI approach for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF28",
@@ -229,7 +256,8 @@
       "link": "https://huggingface.co/papers/2605.26457",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title suggests an agentic AI environment for automatically formalizing software specifications, which is plausibly relevant to generative AI in software construction."
+      "reason": "The title suggests an agentic AI environment for automatically formalizing software specifications, which is plausibly relevant to generative AI in software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF29",
@@ -237,7 +265,8 @@
       "link": "https://huggingface.co/papers/2410.15037",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns large language models and code generation in a software-related benchmark context."
+      "reason": "The title explicitly concerns large language models and code generation in a software-related benchmark context.",
+      "human_decision": "include"
     },
     {
       "id": "HF30",
@@ -245,7 +274,8 @@
       "link": "https://huggingface.co/papers/2510.08697",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title clearly concerns code generation and evaluating human preferences via execution, which is plausibly relevant to generative AI solutions for coding."
+      "reason": "The title clearly concerns code generation and evaluating human preferences via execution, which is plausibly relevant to generative AI solutions for coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF31",
@@ -253,7 +283,8 @@
       "link": "https://huggingface.co/papers/2410.14209",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns LLM-based agents for PLC code generation and verification, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns LLM-based agents for PLC code generation and verification, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF32",
@@ -261,7 +292,8 @@
       "link": "https://huggingface.co/papers/2510.00446",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns code language models and handling long code context, which plausibly relates to generative AI for coding."
+      "reason": "The title explicitly concerns code language models and handling long code context, which plausibly relates to generative AI for coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF33",
@@ -269,7 +301,8 @@
       "link": "https://huggingface.co/papers/2503.00686",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly mentions language models for IoT program synthesis and development, which directly fits generative AI for software coding."
+      "reason": "The title explicitly mentions language models for IoT program synthesis and development, which directly fits generative AI for software coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF34",
@@ -277,7 +310,8 @@
       "link": "https://huggingface.co/papers/2505.11480",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title clearly concerns code-level program optimization for assembly programs using large language models."
+      "reason": "The title clearly concerns code-level program optimization for assembly programs using large language models.",
+      "human_decision": "include"
     },
     {
       "id": "HF35",
@@ -285,7 +319,8 @@
       "link": "https://huggingface.co/papers/2510.12399",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns coding and large language models, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly concerns coding and large language models, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF36",
@@ -293,7 +328,8 @@
       "link": "https://huggingface.co/papers/2512.05439",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title explicitly concerns an LLM-related verifier, and the title alone does not clearly rule out relevance to software construction or coding."
+      "reason": "The title explicitly concerns an LLM-related verifier, and the title alone does not clearly rule out relevance to software construction or coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF37",
@@ -301,7 +337,8 @@
       "link": "https://huggingface.co/papers/2505.24324",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns evaluating LLM-generated code with a language-specific benchmark, which is directly relevant to generative AI for software coding."
+      "reason": "The title explicitly concerns evaluating LLM-generated code with a language-specific benchmark, which is directly relevant to generative AI for software coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF38",
@@ -309,7 +346,8 @@
       "link": "https://huggingface.co/papers/2508.11126",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title clearly concerns AI and programming, and it plausibly covers generative/agentic techniques relevant to software construction or coding."
+      "reason": "The title clearly concerns AI and programming, and it plausibly covers generative/agentic techniques relevant to software construction or coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF39",
@@ -317,7 +355,8 @@
       "link": "https://huggingface.co/papers/2411.06774",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly evaluates large language models for iterative example-based code generation, which is directly relevant to generative AI for software coding."
+      "reason": "The title explicitly evaluates large language models for iterative example-based code generation, which is directly relevant to generative AI for software coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF40",
@@ -325,7 +364,8 @@
       "link": "https://huggingface.co/papers/2310.17680",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly describes a pre-trained diffusion model for code generation, which is directly relevant to generative AI for software construction."
+      "reason": "The title explicitly describes a pre-trained diffusion model for code generation, which is directly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF41",
@@ -333,7 +373,8 @@
       "link": "https://huggingface.co/papers/2602.13367",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title suggests a generative AI model, but its connection to software construction or coding is unclear from the title alone."
+      "reason": "The title suggests a generative AI model, but its connection to software construction or coding is unclear from the title alone.",
+      "human_decision": "include"
     },
     {
       "id": "HF42",
@@ -341,7 +382,8 @@
       "link": "https://huggingface.co/papers/2401.03003",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly describes a pretrained model for code generation and code understanding, which is directly relevant to generative AI for software coding."
+      "reason": "The title explicitly describes a pretrained model for code generation and code understanding, which is directly relevant to generative AI for software coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF43",
@@ -349,7 +391,8 @@
       "link": "https://huggingface.co/papers/2505.02881",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title explicitly mentions LLMs and code, making it plausibly relevant to generative AI for coding."
+      "reason": "The title explicitly mentions LLMs and code, making it plausibly relevant to generative AI for coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF44",
@@ -357,7 +400,8 @@
       "link": "https://huggingface.co/papers/2603.15309",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title suggests a benchmark for complex tool use that may involve generative AI or LLM agents, and the title alone does not clearly rule out a coding context."
+      "reason": "The title suggests a benchmark for complex tool use that may involve generative AI or LLM agents, and the title alone does not clearly rule out a coding context.",
+      "human_decision": "include"
     },
     {
       "id": "HF45",
@@ -365,7 +409,8 @@
       "link": "https://huggingface.co/papers/2406.11612",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns benchmarks for long-context code models, which plausibly relates to generative AI for software coding tasks."
+      "reason": "The title explicitly concerns benchmarks for long-context code models, which plausibly relates to generative AI for software coding tasks.",
+      "human_decision": "include"
     },
     {
       "id": "HF46",
@@ -373,7 +418,8 @@
       "link": "https://huggingface.co/papers/2505.13772",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title is about advancing Greek-language large language models and does not indicate any focus on software construction or coding."
+      "reason": "The title is about advancing Greek-language large language models and does not indicate any focus on software construction or coding.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF47",
@@ -381,7 +427,8 @@
       "link": "https://huggingface.co/papers/2311.00889",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title explicitly concerns generated code and plausibly relates to generative AI/LLM-based coding outputs in a software construction context."
+      "reason": "The title explicitly concerns generated code and plausibly relates to generative AI/LLM-based coding outputs in a software construction context.",
+      "human_decision": "include"
     },
     {
       "id": "HF48",
@@ -389,7 +436,8 @@
       "link": "https://huggingface.co/papers/2511.04824",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title clearly concerns software refactoring and AI coding agents, making it plausibly relevant to generative AI for software construction."
+      "reason": "The title clearly concerns software refactoring and AI coding agents, making it plausibly relevant to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF49",
@@ -397,7 +445,8 @@
       "link": "https://huggingface.co/papers/2605.20244",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title suggests an agentic AI method for refactoring or optimizing Lean proof code, which is plausibly relevant to generative-AI-assisted code restructuring."
+      "reason": "The title suggests an agentic AI method for refactoring or optimizing Lean proof code, which is plausibly relevant to generative-AI-assisted code restructuring.",
+      "human_decision": "include"
     },
     {
       "id": "HF50",
@@ -405,7 +454,8 @@
       "link": "https://huggingface.co/papers/2602.12612",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title is about recommender systems using LLM-based feedback, not about software construction or coding activities."
+      "reason": "The title is about recommender systems using LLM-based feedback, not about software construction or coding activities.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF51",
@@ -413,7 +463,8 @@
       "link": "https://huggingface.co/papers/2511.17592",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title mentions an LLM-powered open-source framework, but it does not clearly indicate whether the optimization is for software construction or coding."
+      "reason": "The title mentions an LLM-powered open-source framework, but it does not clearly indicate whether the optimization is for software construction or coding.",
+      "human_decision": "include"
     },
     {
       "id": "HF52",
@@ -421,7 +472,8 @@
       "link": "https://huggingface.co/papers/2509.14745",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title explicitly concerns coding activity on GitHub and 'agentic coding' plausibly refers to AI/LLM-based coding agents."
+      "reason": "The title explicitly concerns coding activity on GitHub and 'agentic coding' plausibly refers to AI/LLM-based coding agents.",
+      "human_decision": "include"
     },
     {
       "id": "HF53",
@@ -429,7 +481,8 @@
       "link": "https://huggingface.co/papers/2602.19128",
       "decision": "include",
       "confidence": "medium",
-      "reason": "The title explicitly mentions an LLM and kernel generation, which plausibly concerns generative AI for code generation or software construction."
+      "reason": "The title explicitly mentions an LLM and kernel generation, which plausibly concerns generative AI for code generation or software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF54",
@@ -437,7 +490,8 @@
       "link": "https://huggingface.co/papers/2601.03509",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title plausibly relates to programmatic/code-related skill development or evolution, but its connection to generative AI for software construction is unclear from the title alone."
+      "reason": "The title plausibly relates to programmatic/code-related skill development or evolution, but its connection to generative AI for software construction is unclear from the title alone.",
+      "human_decision": "include"
     },
     {
       "id": "HF55",
@@ -445,7 +499,8 @@
       "link": "https://huggingface.co/papers/2505.19443",
       "decision": "include",
       "confidence": "high",
-      "reason": "The title explicitly concerns coding practices and agentic AI, which plausibly relates to generative AI for software construction."
+      "reason": "The title explicitly concerns coding practices and agentic AI, which plausibly relates to generative AI for software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF56",
@@ -453,7 +508,8 @@
       "link": "https://huggingface.co/papers/2508.02473",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title suggests an AI-based next-edit suggestion framework learned from editing histories, which could be relevant to software/code editing even though coding is not explicit."
+      "reason": "The title suggests an AI-based next-edit suggestion framework learned from editing histories, which could be relevant to software/code editing even though coding is not explicit.",
+      "human_decision": "include"
     },
     {
       "id": "HF57",
@@ -461,7 +517,8 @@
       "link": "https://huggingface.co/papers?q=coding-agent%20benchmarks",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too vague to determine relevance, so it should be retained at this high-recall title-screening stage."
+      "reason": "The title is too vague to determine relevance, so it should be retained at this high-recall title-screening stage.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF58",
@@ -469,7 +526,8 @@
       "link": "https://huggingface.co/papers?q=skill%20marketplace",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too generic to determine relevance, so it should be retained for later screening."
+      "reason": "The title is too generic to determine relevance, so it should be retained for later screening.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF59",
@@ -477,7 +535,8 @@
       "link": "https://huggingface.co/papers/2607.04438",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title is about automating research dissemination outputs (poster, video, blog), not software construction or coding."
+      "reason": "The title is about automating research dissemination outputs (poster, video, blog), not software construction or coding.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF60",
@@ -485,7 +544,8 @@
       "link": "https://huggingface.co/papers?q=GPU%20provisioning",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too generic to determine relevance to generative AI for software coding, so it should be retained for later screening."
+      "reason": "The title is too generic to determine relevance to generative AI for software coding, so it should be retained for later screening.",
+      "human_decision": "include"
     },
     {
       "id": "HF61",
@@ -493,7 +553,8 @@
       "link": "https://huggingface.co/papers/2602.23881",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title clearly concerns a generative AI/LLM decoding technique, and it does not reveal enough to rule out relevance to code generation or software construction."
+      "reason": "The title clearly concerns a generative AI/LLM decoding technique, and it does not reveal enough to rule out relevance to code generation or software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF62",
@@ -501,7 +562,8 @@
       "link": "https://huggingface.co/papers?q=prompt%2Fworkflow%20engineering",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too vague to determine relevance to generative AI for coding, so it should be retained for later screening."
+      "reason": "The title is too vague to determine relevance to generative AI for coding, so it should be retained for later screening.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF63",
@@ -509,7 +571,8 @@
       "link": "https://huggingface.co/papers?q=multi-model%20execution%20traces",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too vague to judge relevance, and it does not clearly indicate irrelevance to generative AI for coding."
+      "reason": "The title is too vague to judge relevance, and it does not clearly indicate irrelevance to generative AI for coding.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF64",
@@ -517,7 +580,8 @@
       "link": "https://huggingface.co/papers?q=agentic%20patch%20verifier",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too generic to determine relevance, so it should be retained for later screening."
+      "reason": "The title is too generic to determine relevance, so it should be retained for later screening.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF65",
@@ -525,7 +589,8 @@
       "link": "https://huggingface.co/papers?q=cross-file%20coordination",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too generic to determine relevance to generative AI or software coding, so it should be kept for later screening."
+      "reason": "The title is too generic to determine relevance to generative AI or software coding, so it should be kept for later screening.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF66",
@@ -533,7 +598,8 @@
       "link": "https://huggingface.co/papers?q=migration-aware%20placement",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too generic to determine relevance to generative AI for coding, so it should be retained at this high-recall stage."
+      "reason": "The title is too generic to determine relevance to generative AI for coding, so it should be retained at this high-recall stage.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF67",
@@ -541,7 +607,8 @@
       "link": "https://huggingface.co/papers?q=cryptographic%20proof%20generators",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too vague to determine relevance, so it should be retained for later screening."
+      "reason": "The title is too vague to determine relevance, so it should be retained for later screening.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF68",
@@ -549,7 +616,8 @@
       "link": "https://huggingface.co/papers?q=decentralized%20adaptation",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too generic to determine whether it concerns generative AI for software coding, so it should be retained for later screening."
+      "reason": "The title is too generic to determine whether it concerns generative AI for software coding, so it should be retained for later screening.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF69",
@@ -557,7 +625,8 @@
       "link": "https://huggingface.co/papers?q=modular%20research%20scenarios",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too vague to determine relevance, so it should be retained at title screening."
+      "reason": "The title is too vague to determine relevance, so it should be retained at title screening.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF70",
@@ -565,7 +634,8 @@
       "link": "https://huggingface.co/papers/2606.06473",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title focuses on automated machine learning algorithm discovery rather than software construction or coding activities."
+      "reason": "The title focuses on automated machine learning algorithm discovery rather than software construction or coding activities.",
+      "human_decision": "include"
     },
     {
       "id": "HF71",
@@ -573,7 +643,8 @@
       "link": "https://huggingface.co/papers/2604.24479",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title suggests an agentic AI approach to synthesizing programs, which is plausibly relevant to generative AI for code generation, though the CAD focus makes relevance uncertain."
+      "reason": "The title suggests an agentic AI approach to synthesizing programs, which is plausibly relevant to generative AI for code generation, though the CAD focus makes relevance uncertain.",
+      "human_decision": "include"
     },
     {
       "id": "HF72",
@@ -581,7 +652,8 @@
       "link": "https://huggingface.co/papers/2506.13905",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title is about LLM-based hardware/RTL code generation, which is clearly in the hardware domain rather than software construction."
+      "reason": "The title is about LLM-based hardware/RTL code generation, which is clearly in the hardware domain rather than software construction.",
+      "human_decision": "include"
     },
     {
       "id": "HF73",
@@ -589,7 +661,8 @@
       "link": "https://huggingface.co/papers/2511.09058",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title is about multimodal visual question answering for Vietnamese, not software construction or coding."
+      "reason": "The title is about multimodal visual question answering for Vietnamese, not software construction or coding.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF74",
@@ -597,7 +670,8 @@
       "link": "https://huggingface.co/papers?q=large%20language%20models",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too vague and generic to determine irrelevance from the title alone, so it should be retained for later screening."
+      "reason": "The title is too vague and generic to determine irrelevance from the title alone, so it should be retained for later screening.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF75",
@@ -605,7 +679,8 @@
       "link": "https://huggingface.co/papers/2411.07279",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title indicates a general machine learning method for few-shot learning, not software construction or coding."
+      "reason": "The title indicates a general machine learning method for few-shot learning, not software construction or coding.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF76",
@@ -613,7 +688,8 @@
       "link": "https://huggingface.co/papers/2603.03072",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title suggests a generative text-to-code approach for producing TikZ code, which may be relevant to coding/code generation even though the software-construction context is not fully clear from the title alone."
+      "reason": "The title suggests a generative text-to-code approach for producing TikZ code, which may be relevant to coding/code generation even though the software-construction context is not fully clear from the title alone.",
+      "human_decision": "include"
     },
     {
       "id": "HF77",
@@ -621,7 +697,8 @@
       "link": "https://huggingface.co/papers?q=hardcoding",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too vague to determine relevance and does not clearly indicate irrelevance to generative AI for coding."
+      "reason": "The title is too vague to determine relevance and does not clearly indicate irrelevance to generative AI for coding.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF78",
@@ -629,7 +706,8 @@
       "link": "https://huggingface.co/papers?q=boundary%20modeling",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too vague to determine relevance, so it should be retained for later screening."
+      "reason": "The title is too vague to determine relevance, so it should be retained for later screening.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF79",
@@ -637,7 +715,8 @@
       "link": "https://huggingface.co/papers?q=GPU-friendly%20batched%20decode",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too vague to determine whether it concerns generative AI for software construction, so it should be kept for high-recall screening."
+      "reason": "The title is too vague to determine whether it concerns generative AI for software construction, so it should be kept for high-recall screening.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF80",
@@ -645,7 +724,8 @@
       "link": "https://huggingface.co/papers?q=few-shot%20object%20detection",
       "decision": "include",
       "confidence": "low",
-      "reason": "The title is too vague to determine relevance, so it should be retained at title screening for high recall."
+      "reason": "The title is too vague to determine relevance, so it should be retained at title screening for high recall.",
+      "human_decision": "exclude"
     },
     {
       "id": "HF81",
@@ -653,7 +733,16 @@
       "link": "https://huggingface.co/papers/2602.16317",
       "decision": "exclude",
       "confidence": "high",
-      "reason": "The title indicates generating CAD designs via program evolution, which is about computer-aided design rather than software coding or construction."
+      "reason": "The title indicates generating CAD designs via program evolution, which is about computer-aided design rather than software coding or construction.",
+      "human_decision": "exclude"
     }
-  ]
+  ],
+  "human_review": {
+    "sheet": "step-2-review-reviewed.xlsx",
+    "applied_at": "2026-07-22T02:30:36.091859+00:00",
+    "reviewed": 81,
+    "human_included": 60,
+    "recovered_from_exclude": 2,
+    "dropped_from_include": 15
+  }
 }
