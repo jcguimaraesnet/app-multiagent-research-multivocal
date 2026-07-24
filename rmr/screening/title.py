@@ -65,7 +65,7 @@ def _load_existing(path) -> dict:
 
 
 def step2_title_screening(origin: str) -> dict:
-    """Screen each step-1 record by its title; write data/screen/<origin>/step-2-screen-title.json.
+    """Screen each step-1 record by its title; write data/screen/<MODEL_EXPERIMENT>/<origin>/step-2-screen-title.json.
 
     Idempotent per record: records already screened in a prior run are kept as-is, so a
     re-run only screens what is still pending. Delete the step-2 output to force a full

@@ -10,7 +10,7 @@ Implemented for all origins. For each step-3 survivor (decision = include), in a
 How the full text is obtained differs by origin:
 
 - **scopus**: full texts are paywalled, so the PDFs are downloaded manually into
-  ``data/screen/scopus/content/pdf/<id>.pdf``. The step converts each PDF to ``content/full/<id>.md``
+  ``data/screen/<MODEL_EXPERIMENT>/scopus/content/pdf/<id>.pdf``. The step converts each PDF to ``content/full/<id>.md``
   with **pymupdf4llm** (reusing an existing conversion; an empty extraction, e.g. a scanned
   PDF, stays ``pending``). A missing PDF stays ``pending``.
   Status: ``pending -> converted -> answered -> screened``.
@@ -19,10 +19,10 @@ How the full text is obtained differs by origin:
   paper that is permanently gone (withdrawn / HTTP 404) is excluded via EC3 (content
   availability). Status: ``pending -> converted -> answered -> screened``.
 - **google/github**: the full page was already scraped in step 3 to
-  ``data/screen/<origin>/content/full/<id>.md``; step 4 reads it directly (no download/conversion).
+  ``data/screen/<MODEL_EXPERIMENT>/<origin>/content/full/<id>.md``; step 4 reads it directly (no download/conversion).
   A missing/empty scrape stays ``pending``. Status: ``pending -> answered -> screened``.
 
-The manifest ``data/screen/<origin>/step-4-screen-full.json`` is the source of truth; it is saved
+The manifest ``data/screen/<MODEL_EXPERIMENT>/<origin>/step-4-screen-full.json`` is the source of truth; it is saved
 after every phase, so a re-run resumes cleanly (an answered-but-not-screened record only runs
 screen; a screened record is skipped).
 
