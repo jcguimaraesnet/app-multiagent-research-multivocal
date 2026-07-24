@@ -20,8 +20,10 @@ Sheets (``data/review/<MODEL_EXPERIMENT>/``), each ending in the three review co
   llm_decision. Step 4 has a SINGLE sheet: the answers carry the evidence the reviewer needs,
   so the verdict is recorded on that same row.
 
-Reviewers save their filled copy as ``step-<n>-review-reviewed.xlsx``, which steps 6 to 8 read;
-re-running this step therefore never overwrites their work.
+Reviewers fill these sheets in place, and steps 6 to 8 read them back by column name. Records
+that enter a step as residuals of the previous step's human verdict go to a companion sheet,
+``step-<n>-review-residuals-from-step-<n-1>.xlsx`` (see ``export_residual_sheets``). Re-running
+this step rewrites the sheets, so it is only run before the reviewers start.
 """
 
 import json
@@ -308,23 +310,23 @@ def export_review_sheets() -> dict:
 INCLUDE_EXCLUDE = ("include", "exclude")
 YES_NO = ("yes", "no")
 
-# The reviewers' filled copy of each sheet, read by steps 6 to 8. Keeping it separate from the
-# exported ``step-<n>-review.xlsx`` means re-running step 5 never overwrites their work.
-# Step 4 has a SINGLE sheet: the research answers carry enough of the full text for the
-# reviewer to judge, so the verdict is given on that same sheet.
+# The sheets steps 6 to 8 read back: the same ``step-<n>-review.xlsx`` that step 5 exports and
+# the reviewers fill in place. Re-running step 5 rewrites them, so it is only run before the
+# reviewers start. Step 4 has a SINGLE sheet: the research answers carry enough of the full text
+# for the reviewer to judge, so the verdict is given on that same sheet.
 REVIEWED_SHEETS = {
-    2: "step-2-review-reviewed.xlsx",
-    3: "step-3-review-reviewed.xlsx",
-    4: "step-4-review-reviewed.xlsx",
+    2: "step-2-review.xlsx",
+    3: "step-3-review.xlsx",
+    4: "step-4-review.xlsx",
 }
 
 # A step's full sheet is usually already under review by the time the previous step's human
 # verdict admits new records (its residuals), so those cannot simply be appended. They go to a
-# small supplementary sheet instead, read side by side with the main one.
-RESIDUAL_SHEETS = {3: "step-3-residuals-review.xlsx",
-                   4: "step-4-residuals-review.xlsx"}
-RESIDUAL_REVIEWED_SHEETS = {step: name.replace(".xlsx", "-reviewed.xlsx")
-                            for step, name in RESIDUAL_SHEETS.items()}
+# small supplementary sheet instead, named for the step that fed them, read side by side with
+# the main one. The reviewers fill it in place too, so export and read share the name.
+RESIDUAL_SHEETS = {3: "step-3-review-residuals-from-step-2.xlsx",
+                   4: "step-4-review-residuals-from-step-3.xlsx"}
+RESIDUAL_REVIEWED_SHEETS = dict(RESIDUAL_SHEETS)
 
 
 def reviewed_column(review, step: int, header: str) -> dict | None:

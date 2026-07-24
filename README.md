@@ -117,9 +117,8 @@ columns, not who filled them, so either arrangement works unchanged.
 The `llm_decision` column carries the model's verdict for reference only; both reviewers work
 blind by hiding the columns to their left (the adjudicator also hides `Review 1`).
 
-**Reviewers save their filled copy as `step-<n>-review-reviewed.xlsx`** (and
-`step-4-review-reviewed.xlsx`), which steps 6 to 8 read. Re-running step 5 therefore
-never overwrites their work.
+**Reviewers fill these `step-<n>-review.xlsx` sheets in place**, which steps 6 to 8 read.
+Re-running step 5 rewrites them, so it is only run before the reviewers start.
 
 ### Residual sheet
 
@@ -130,10 +129,10 @@ uv run python main.py --step 5 --residuals
 When the previous step's human verdict admits records the model had excluded (its
 **residuals**, see step 7), the step they move into is usually already under review, so they
 cannot simply be appended. This exports a sheet holding **only** those records, with the same columns, to be reviewed
-alongside the sheet already in progress (`step-3-residuals-review.xlsx`, and
-`step-4-residuals-review.xlsx` for step 4).
+alongside the sheet already in progress (`step-3-review-residuals-from-step-2.xlsx`, and
+`step-4-review-residuals-from-step-3.xlsx` for step 4).
 
-Save it with the `-reviewed` suffix: steps 6 to 8 read it merged with the main
+Fill it in place: steps 6 to 8 read it merged with the main
 sheet, so the rows may stay in the supplementary file or be pasted into the main one, whichever
 is convenient. Run it after step 7 (which records the residuals) and after re-running the
 screening step for their origins (which produces the content the sheet shows).
@@ -156,7 +155,7 @@ uv run python main.py --step 7
 ```
 
 Applies the reviewers' consolidated verdict back to the pipeline. It reads any
-`step-<n>-review-reviewed.xlsx` present in the review folder (absent ones are skipped), using
+`step-<n>-review.xlsx` present in the review folder (absent ones are skipped), using
 the columns described under [Review (step 5)](#review-step-5). The `id` must stay in the first
 column; every other column is located by header name.
 
