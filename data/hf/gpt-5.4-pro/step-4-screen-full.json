@@ -34,7 +34,8 @@
         "RQb": {
           "note": "CodeArena is an online platform that automates the evaluation of LLM-generated code via APIs and dynamic scoring.",
           "value": "Automation (AU)",
-          "evidence": "provides automation-friendly APIs to streamline the code evaluation workflow."
+          "evidence": "provides automation-friendly APIs to streamline the code evaluation workflow.",
+          "human_value": "Domain or language-specific"
         },
         "RQc": {
           "note": "The platform provides public access to solutions and test cases, and includes a trial account; no cost is mentioned, indicating free use.",

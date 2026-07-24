@@ -1485,7 +1485,8 @@
         "RQb": {
           "note": "The solution is a general-purpose method for enriching LLM prompts with project-specific code context for code generation.",
           "value": "General-purpose (GP)",
-          "evidence": "RAGdeterm, a deterministic Retrieval-Augmented Generation approach proposed as an alternative to embedding-based RAG architectures. RAGdeterm enriches prompts using a relational database that explicitly represents object-oriented code structures and dependencies ... This design enables deterministic and repeatable retrieval of contextual information"
+          "evidence": "RAGdeterm, a deterministic Retrieval-Augmented Generation approach proposed as an alternative to embedding-based RAG architectures. RAGdeterm enriches prompts using a relational database that explicitly represents object-oriented code structures and dependencies ... This design enables deterministic and repeatable retrieval of contextual information",
+          "human_value": "Domain or language-specific"
         },
         "RQc": {
           "note": "The paper is published open access, but the access/cost model for the tool itself is not specified in the text.",

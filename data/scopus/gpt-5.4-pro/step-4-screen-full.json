@@ -3141,7 +3141,8 @@
         "RQb": {
           "note": "The solution automates the end-to-end software development lifecycle from requirements to code.",
           "value": "General-purpose (GP)",
-          "evidence": "We propose VeriGen, a novel end-to-end generative AI framework for automated software development... an integrated, end-to-end software solution."
+          "evidence": "We propose VeriGen, a novel end-to-end generative AI framework for automated software development... an integrated, end-to-end software solution.",
+          "human_value": "Domain or language-specific"
         },
         "RQc": {
           "note": "The access model and cost are not explicitly mentioned, though the tool's code and results are available in a GitHub repository.",
