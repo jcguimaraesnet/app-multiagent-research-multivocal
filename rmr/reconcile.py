@@ -5,7 +5,9 @@ The reviewers filled one sheet per screening step with three decision columns:
 reviewer, who adjudicates only the rows where ``Review 1`` differs from the LLM) and
 ``Finale`` (the consolidated verdict). This step reads ``Finale`` and stores it on every
 screened record as ``human_decision``, leaving the LLM's own ``decision`` untouched so the
-metrics keep comparing model against human.
+metrics keep comparing model against human. It also writes the final human tally onto the root
+of each step's JSON (``human_included``/``human_excluded``, next to the LLM's own
+``included``/``excluded``), which is what the PRISMA flow reports.
 
 It also reports the *residuals*: records the LLM excluded but the humans included. Those
 must still travel to the next screening step, which selects its survivors by
@@ -23,6 +25,22 @@ from rmr.review import (FINAL_COL, INCLUDE_EXCLUDE, ORIGINS, R2_COL, REVIEWED_SH
                         first_pass_column, reviewed_column)
 
 LLM_COL = "llm_decision"  # the model's verdict, carried in the sheet purely as a reference
+
+
+def _insert_after(doc: dict, anchor: str, extra: dict) -> dict:
+    """Return ``doc`` with ``extra``'s keys inserted right after ``anchor`` (kept adjacent to
+    the LLM's own tally). Existing keys are overwritten in place; if ``anchor`` is absent the
+    extras are appended. Preserves insertion order for a readable JSON file."""
+    if anchor not in doc:
+        return {**doc, **extra}
+    rebuilt = {}
+    for key, value in doc.items():
+        if key in extra:
+            continue  # re-placed below, next to the anchor
+        rebuilt[key] = value
+        if key == anchor:
+            rebuilt.update(extra)
+    return rebuilt
 
 
 def _llm_decision(record: dict, step: int) -> str:
@@ -109,10 +127,16 @@ def reconcile_step(step: int) -> dict | None:
             elif model == "include" and verdict == "exclude":
                 dropped += 1
 
+        human_excluded = reviewed - included
+        # Root-level final tally, mirroring the LLM's own `included`/`excluded`: place the
+        # human pair right after it so a reader can compare model vs. human side by side.
+        doc = _insert_after(doc, "excluded",
+                            {"human_included": included, "human_excluded": human_excluded})
         doc["human_review"] = {
             "sheet": REVIEWED_SHEETS[step],
             "applied_at": datetime.now(timezone.utc).isoformat(),
-            "reviewed": reviewed, "human_included": included,
+            "reviewed": reviewed,
+            "human_included": included, "human_excluded": human_excluded,
             "recovered_from_exclude": recovered, "dropped_from_include": dropped,
         }
         doc_path.write_text(json.dumps(doc, indent=2, ensure_ascii=False), encoding="utf-8")

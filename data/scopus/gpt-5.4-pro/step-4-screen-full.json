@@ -12,6 +12,8 @@
   },
   "included": 60,
   "excluded": 17,
+  "human_included": 59,
+  "human_excluded": 19,
   "records": [
     {
       "id": "SC1",
@@ -7391,9 +7393,10 @@
   ],
   "human_review": {
     "sheet": "step-4-review-reviewed.xlsx",
-    "applied_at": "2026-07-23T22:32:19.665540+00:00",
+    "applied_at": "2026-07-23T22:59:37.434727+00:00",
     "reviewed": 78,
     "human_included": 59,
+    "human_excluded": 19,
     "recovered_from_exclude": 1,
     "dropped_from_include": 2
   }

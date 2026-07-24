@@ -12,6 +12,8 @@
   },
   "included": 37,
   "excluded": 44,
+  "human_included": 42,
+  "human_excluded": 39,
   "records": [
     {
       "id": "GO1",
@@ -3904,9 +3906,10 @@
   ],
   "human_review": {
     "sheet": "step-3-review-reviewed.xlsx",
-    "applied_at": "2026-07-23T22:32:18.996419+00:00",
+    "applied_at": "2026-07-23T22:59:36.757418+00:00",
     "reviewed": 81,
     "human_included": 42,
+    "human_excluded": 39,
     "recovered_from_exclude": 10,
     "dropped_from_include": 5
   }

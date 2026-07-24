@@ -6,6 +6,8 @@
   "count": 100,
   "included": 83,
   "excluded": 17,
+  "human_included": 81,
+  "human_excluded": 19,
   "records": [
     {
       "id": "GO1",
@@ -910,9 +912,10 @@
   ],
   "human_review": {
     "sheet": "step-2-review-reviewed.xlsx",
-    "applied_at": "2026-07-23T22:32:18.152046+00:00",
+    "applied_at": "2026-07-23T22:59:36.033907+00:00",
     "reviewed": 100,
     "human_included": 81,
+    "human_excluded": 19,
     "recovered_from_exclude": 1,
     "dropped_from_include": 3
   }

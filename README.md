@@ -189,6 +189,12 @@ untouched so the metrics keep comparing model against human. The step warns (wit
 about rows with no `Finale` and about any `Finale` that departs from the reviewer-1/reviewer-2
 rule.
 
+It also records the **final human tally on the root of each step's JSON**, right after the
+model's own `included`/`excluded`: `human_included` and `human_excluded` (the reviewed records
+the humans kept vs. dropped, so `human_included + human_excluded = reviewed`). The same figures,
+plus provenance (`sheet`, `applied_at`, `recovered_from_exclude`, `dropped_from_include`), also
+live in the `human_review` block. These per-origin counts feed the PRISMA flow numbers.
+
 It then writes `.../residuals/step-<n>-residuals.json` with the **residuals**: records the
 model excluded but the reviewers included. From that point on the next screening step treats
 the human verdict as authoritative, so it picks the residuals up and drops whatever the
