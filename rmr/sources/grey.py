@@ -123,7 +123,7 @@ def _collect(buffers, takes):
 
 
 def step1_initial_search(origin):
-    """Run the identification search for a grey origin; write data/<origin>/step-1-initial-search.json."""
+    """Run the identification search for a grey origin; write data/screen/<origin>/step-1-initial-search.json."""
     if origin not in SITE_BY_ORIGIN:
         raise ValueError(f"unknown grey origin: {origin}")
     api_key = config.require_env("FIRECRAWL_API_KEY")

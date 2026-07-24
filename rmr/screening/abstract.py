@@ -2,10 +2,10 @@
 
 Two separate stores, so the expensive, model-independent captured content can be reused when
 the screening is re-run with a different LLM:
-- ``data/<origin>/content/abstract/<id>.json``: the captured/summarized content (title, link,
+- ``data/screen/<origin>/content/abstract/<id>.json``: the captured/summarized content (title, link,
   abstract or summary, keywords, and per-origin extras). Written by scrape/summary, read by
   screen. This is the source of truth for the content and is reused across re-runs.
-- ``data/<origin>/step-3-screen-abstract.json``: the manifest. Each record is `id`, `status`, a light
+- ``data/screen/<origin>/step-3-screen-abstract.json``: the manifest. Each record is `id`, `status`, a light
   `data` (title + link only), and the model-dependent `screening` result.
 
 Status:
