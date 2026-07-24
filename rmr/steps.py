@@ -23,8 +23,8 @@ STEPS = {
     4: "full-text screening",
     5: "export blind human-review spreadsheets",
     6: "generate blind tie-break spreadsheets",
-    7: "compute screening metrics from human reviews",
-    8: "reconcile the human review and report the residuals",
+    7: "reconcile the human review and report the residuals",
+    8: "compute screening metrics from human reviews",
 }
 
 

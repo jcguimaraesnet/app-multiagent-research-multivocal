@@ -21,8 +21,8 @@ def build_parser() -> argparse.ArgumentParser:
         "--step", required=True, type=int, choices=list(STEPS),
         help="1 initial complete search, 2 title, 3 abstract & keywords, 4 full text, "
              "5 export blind human-review spreadsheets, 6 report the rows awaiting "
-             "adjudication, 7 compute screening metrics, 8 reconcile the human review and "
-             "report the residuals (steps 5-8 cover all origins).",
+             "adjudication, 7 reconcile the human review and report the residuals, "
+             "8 compute screening metrics (steps 5-8 cover all origins).",
     )
     parser.add_argument(
         "--substep", choices=SUBSTEPS, default=None,
@@ -53,7 +53,7 @@ def main(argv=None) -> None:
 
 
 def _dispatch(args) -> None:
-    # local imports keep the openpyxl dependency (steps 5-7) out of steps 1-4
+    # local imports keep the openpyxl dependency (steps 5-8) out of steps 1-4
     if args.step == 5:
         from rmr import review
         if args.residuals:
@@ -66,12 +66,12 @@ def _dispatch(args) -> None:
         review.report_tiebreaks()
         return
     if args.step == 7:
-        from rmr import metrics
-        metrics.export_metrics()
-        return
-    if args.step == 8:
         from rmr import reconcile
         reconcile.reconcile()
+        return
+    if args.step == 8:
+        from rmr import metrics
+        metrics.export_metrics()
         return
     steps.check_prerequisite(args.origin, args.step)
     steps.run(args.origin, args.step, args.substep)

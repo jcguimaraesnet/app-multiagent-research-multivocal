@@ -45,7 +45,7 @@ AGREEMENT_VALUES = '"Yes,No"'          # ... for the step-4 `Agreement` column
 AGREEMENT_COL = "Agreement"
 # The three columns the reviewers fill. Reviewer 1 screens EVERY row; reviewer 2 adjudicates
 # only the rows where reviewer 1 differs from the model; `Finale` carries the consolidated
-# verdict that step 8 applies back to the pipeline. Both reviewers work blind, hiding the
+# verdict that step 7 applies back to the pipeline. Both reviewers work blind, hiding the
 # columns to their left (`llm_decision`, and `Review 1` for the adjudicator).
 R1_COL, R2_COL, FINAL_COL = "Review 1", "Review 2", "Finale"
 REVIEW_COLS = [R1_COL, R2_COL, FINAL_COL]
@@ -459,7 +459,7 @@ def export_residual_sheets() -> dict:
 
     if not counts:
         raise RuntimeError(
-            "no residual sheet to export; run step 8 to record the residuals first"
+            "no residual sheet to export; run step 7 to record the residuals first"
         )
     return counts
 

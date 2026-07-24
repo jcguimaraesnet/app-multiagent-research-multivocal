@@ -1,4 +1,4 @@
-"""Step 8: reconcile a screening step's human review back into the pipeline.
+"""Step 7: reconcile a screening step's human review back into the pipeline.
 
 The reviewers filled one sheet per screening step with three decision columns:
 ``Review 1`` (the first reviewer, who judges every row), ``Review 2`` (the second
@@ -180,7 +180,7 @@ def reconcile_step(step: int) -> dict | None:
 
 
 def reconcile() -> dict:
-    """Reconcile every screening step whose reviewed sheet is present (step 8)."""
+    """Reconcile every screening step whose reviewed sheet is present (step 7)."""
     results = {}
     for step in sorted(REVIEWED_SHEETS):
         outcome = reconcile_step(step)

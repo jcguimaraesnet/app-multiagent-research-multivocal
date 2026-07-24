@@ -234,7 +234,7 @@ def _mark_unavailable(record: dict) -> None:
 def _survivors(origin: str) -> list[dict]:
     """Step-3 records that go on to the full-text screening.
 
-    The human review is authoritative: once step 8 has written ``human_decision`` onto a
+    The human review is authoritative: once step 7 has written ``human_decision`` onto a
     record, that verdict decides, which both recovers the residuals (sources the model had
     excluded but the reviewers included) and drops what the reviewers rejected. Records with
     no human verdict fall back to the model's own decision.

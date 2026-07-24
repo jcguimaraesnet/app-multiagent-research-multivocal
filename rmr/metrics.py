@@ -1,4 +1,4 @@
-"""Step 7: screening-reliability metrics from the human reviews.
+"""Step 8: screening-reliability metrics from the human reviews.
 
 Everything is read from the reviewers' filled workbook of each step
 (``step-<n>-review-reviewed.xlsx``), whose ``Review 1`` column holds the first reviewer's
