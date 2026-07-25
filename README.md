@@ -78,9 +78,8 @@ text; the PRISMA flow and Table 1 keep their original labels.
 | `3`  | Abstract & keywords screening                         |
 | `4`  | Full-text screening                                   |
 | `5`  | Export blind human-review spreadsheets (all origins)  |
-| `6`  | Report the rows awaiting adjudication (`Review 2`)    |
-| `7`  | Reconcile the human review and report the residuals   |
-| `8`  | Compute screening metrics from the human reviews      |
+| `6`  | Reconcile the human review and report the residuals   |
+| `7`  | Compute screening metrics from the human reviews      |
 
 ## Review (step 5)
 
@@ -107,7 +106,7 @@ Each sheet ends with three empty dropdown columns, the census-with-adjudication 
 |------------|------------------|--------------------------------------------------------|
 | `Review 1` | First-pass       | **Every** row.                                         |
 | `Review 2` | The adjudicator  | Only the rows where `Review 1` differs from the model. |
-| `Finale`   | —                | The consolidated verdict, applied by step 7.           |
+| `Finale`   | —                | The consolidated verdict, applied by step 6.           |
 
 How the first pass is shared is a human convention the app does not enforce: steps 2 and 3 use
 a single reviewer, while step 4 splits the rows among three reviewers by position (row modulo
@@ -127,31 +126,20 @@ uv run python main.py --step 5 --residuals
 ```
 
 When the previous step's human verdict admits records the model had excluded (its
-**residuals**, see step 7), the step they move into is usually already under review, so they
+**residuals**, see step 6), the step they move into is usually already under review, so they
 cannot simply be appended. This exports a sheet holding **only** those records, with the same columns, to be reviewed
 alongside the sheet already in progress (`step-3-review-residuals-from-step-2.xlsx`, and
 `step-4-review-residuals-from-step-3.xlsx` for step 4).
 
 Fill it in place: steps 6 to 8 read it merged with the main
 sheet, so the rows may stay in the supplementary file or be pasted into the main one, whichever
-is convenient. Run it after step 7 (which records the residuals) and after re-running the
+is convenient. Run it after step 6 (which records the residuals) and after re-running the
 screening step for their origins (which produces the content the sheet shows).
 
-## Adjudication report (step 6)
+## Reconcile & residuals (step 6)
 
 ```
 uv run python main.py --step 6
-```
-
-Both reviewers share one workbook, so this step builds no sheet: it reads each reviewed sheet
-and reports which rows need `Review 2` (those where reviewer 1 differs from the model), which
-are still pending, and warns about rows adjudicated without an underlying conflict. Writes
-`.../tiebreak/pending.json`.
-
-## Reconcile & residuals (step 7)
-
-```
-uv run python main.py --step 7
 ```
 
 Applies the reviewers' consolidated verdict back to the pipeline. It reads any
@@ -182,18 +170,19 @@ uv run python main.py --origin <origin> --step 3
 The step-3 manifest is incremental: records already screened keep their result, and only the
 newly admitted ones are processed.
 
-## Metrics (step 8)
+## Metrics (step 7)
 
 ```
-uv run python main.py --step 8
+uv run python main.py --step 7
 ```
 
 Computes the LLM screening reliability from the reviewed sheets, writing
 `.../metrics/metrics.json` plus a console summary. The gold standard is `Review 1`, with
 `Review 2` breaking ties; the positive class is `include`.
 
-Completeness is enforced **per step**: a step is scored only when its sheet is fully filled
-(`Review 1` on every row and `Review 2` on every conflict), so a step still under review is
+Completeness is enforced **per step** and acts as the adjudication check: a step is scored only
+when its sheet is fully filled (`Review 1` on every row and `Review 2` on every conflict, i.e.
+every row where reviewer 1 differs from the model), so a step still awaiting a tie-break is
 listed as not scored yet instead of blocking the ones already finished. The command fails only
 when nothing at all can be scored. Reported per origin and pooled:
 

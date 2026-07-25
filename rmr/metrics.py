@@ -1,4 +1,4 @@
-"""Step 8: screening-reliability metrics from the human reviews.
+"""Step 7: screening-reliability metrics from the human reviews.
 
 Everything is read from the reviewers' filled workbook of each step
 (``step-<n>-review.xlsx``), whose ``Review 1`` column holds the first reviewer's
@@ -216,8 +216,8 @@ def export_metrics() -> dict:
         raise RuntimeError(
             "no reviewed sheet is complete enough to score; the following are incomplete:\n  - "
             + "\n  - ".join(issue for issues in skipped.values() for issue in issues)
-            + f"\n(sheets under {review}; fill '{R1_COL}', run step 6 to list the conflicts, "
-            f"fill '{R2_COL}' on them, then retry)"
+            + f"\n(sheets under {review}; fill '{R1_COL}' on every row and '{R2_COL}' on every "
+            f"conflict, then retry)"
         )
 
     result = {

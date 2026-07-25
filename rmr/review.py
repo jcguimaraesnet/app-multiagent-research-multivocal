@@ -47,7 +47,7 @@ AGREEMENT_VALUES = '"Yes,No"'          # ... for the step-4 `Agreement` column
 AGREEMENT_COL = "Agreement"
 # The three columns the reviewers fill. Reviewer 1 screens EVERY row; reviewer 2 adjudicates
 # only the rows where reviewer 1 differs from the model; `Finale` carries the consolidated
-# verdict that step 7 applies back to the pipeline. Both reviewers work blind, hiding the
+# verdict that step 6 applies back to the pipeline. Both reviewers work blind, hiding the
 # columns to their left (`llm_decision`, and `Review 1` for the adjudicator).
 R1_COL, R2_COL, FINAL_COL = "Review 1", "Review 2", "Finale"
 REVIEW_COLS = [R1_COL, R2_COL, FINAL_COL]
@@ -302,13 +302,10 @@ def export_review_sheets() -> dict:
     return counts
 
 
-# --- Step 6: report the rows awaiting adjudication ----------------------------------------
-# Reviewer 2 adjudicates exactly the rows where reviewer 1 differs from the model. Both
-# reviewers work in the SAME workbook, so this step builds no sheet: it lists which rows need
-# ``Review 2`` and which of those are still open.
-
+# Decision vocabulary for the review columns, lower-cased for comparison. Reviewer 2
+# adjudicates exactly the rows where reviewer 1 differs from the model, in the SAME workbook;
+# completeness of that adjudication is checked by the metrics step before it scores.
 INCLUDE_EXCLUDE = ("include", "exclude")
-YES_NO = ("yes", "no")
 
 # The sheets steps 6 to 8 read back: the same ``step-<n>-review.xlsx`` that step 5 exports and
 # the reviewers fill in place. Re-running step 5 rewrites them, so it is only run before the
@@ -386,23 +383,6 @@ def _sheet_column(path, header_name: str) -> dict | None:
     return out
 
 
-def _needs_adjudication(step: int, r1: dict) -> tuple[set, int]:
-    """Return (ids needing ``Review 2``, count of rows reviewer 1 has not judged yet).
-
-    A row needs adjudication when reviewer 1's Include/Exclude differs from the model's.
-    """
-    llm = _llm_decisions(step)
-    conflicts, blanks = set(), 0
-    for rid, value in r1.items():
-        if value not in INCLUDE_EXCLUDE:
-            blanks += 1
-            continue
-        model = llm.get(rid)
-        if model and model != value:
-            conflicts.add(rid)
-    return conflicts, blanks
-
-
 def first_pass_column(review, step: int) -> dict | None:
     """``{id: verdict}`` with the FIRST-PASS human verdict of a step.
 
@@ -461,56 +441,6 @@ def export_residual_sheets() -> dict:
 
     if not counts:
         raise RuntimeError(
-            "no residual sheet to export; run step 7 to record the residuals first"
+            "no residual sheet to export; run step 6 to record the residuals first"
         )
     return counts
-
-
-def report_tiebreaks() -> dict:
-    """Step 6: list the rows that need adjudication (``Review 2``) in each reviewed sheet.
-
-    Reviewer 2 fills ``Review 2`` only where reviewer 1 differs from the model, so this tells
-    the adjudicator exactly which rows to open, flags the ones still pending, and warns about
-    rows adjudicated without an underlying conflict.
-    """
-    review = review_dir()
-    specs = [(f"step-{step}", REVIEWED_SHEETS[step], step) for step in sorted(REVIEWED_SHEETS)]
-
-    report = {}
-    for label, filename, step in specs:
-        # merges the step's sheet with its residuals sheet
-        r1 = first_pass_column(review, step)
-        r2 = reviewed_column(review, step, R2_COL) or {}
-        if r1 is None:
-            print(f"[tiebreak] {label}: {filename} not found, skipped")
-            continue
-        if not r1:
-            print(f"[tiebreak] {label}: {filename} has no '{R1_COL}' column, skipped")
-            continue
-        expected = INCLUDE_EXCLUDE
-        conflicts, blanks = _needs_adjudication(step, r1)
-        pending = sorted(rid for rid in conflicts if r2.get(rid, "") not in expected)
-        spurious = sorted(rid for rid, value in r2.items()
-                          if value in expected and rid not in conflicts)
-        report[label] = {"sheet": filename, "rows": len(r1), "not_reviewed": blanks,
-                         "conflicts": len(conflicts), "pending": pending,
-                         "adjudicated_without_conflict": spurious}
-        print(f"[tiebreak] {label}: {len(conflicts)} of {len(r1)} rows need '{R2_COL}' "
-              f"({blanks} not reviewed by reviewer 1, {len(pending)} still pending)")
-        if pending:
-            shown = ", ".join(pending[:20]) + (" ..." if len(pending) > 20 else "")
-            print(f"[tiebreak] {label} pending -> {shown}")
-        if spurious:
-            print(f"[tiebreak] {label} warning: {len(spurious)} row(s) have '{R2_COL}' filled "
-                  f"without a conflict ({', '.join(spurious[:5])})")
-
-    if not report:
-        raise RuntimeError(
-            f"no reviewed sheet found in {review}; expected one of: "
-            + ", ".join(REVIEWED_SHEETS.values())
-        )
-    out = review / "tiebreak" / "pending.json"
-    ensure_parent(out)
-    out.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"[tiebreak] wrote {out}")
-    return report

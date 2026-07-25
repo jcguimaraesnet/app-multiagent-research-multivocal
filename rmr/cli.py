@@ -15,14 +15,13 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--origin", choices=ORIGINS,
         help="Source to process: " + ", ".join(ORIGINS) + ". Required for steps 1-4; "
-             "ignored for steps 5-8 (which aggregate all origins).",
+             "ignored for steps 5-7 (which aggregate all origins).",
     )
     parser.add_argument(
         "--step", required=True, type=int, choices=list(STEPS),
         help="1 initial complete search, 2 title, 3 abstract & keywords, 4 full text, "
-             "5 export blind human-review spreadsheets, 6 report the rows awaiting "
-             "adjudication, 7 reconcile the human review and report the residuals, "
-             "8 compute screening metrics (steps 5-8 cover all origins).",
+             "5 export blind human-review spreadsheets, 6 reconcile the human review and "
+             "report the residuals, 7 compute screening metrics (steps 5-7 cover all origins).",
     )
     parser.add_argument(
         "--substep", choices=SUBSTEPS, default=None,
@@ -43,7 +42,7 @@ def main(argv=None) -> None:
         parser.error("--substep is only valid with --step 3")
     if args.residuals and args.step != 5:
         parser.error("--residuals is only valid with --step 5")
-    if args.step not in (5, 6, 7, 8) and not args.origin:
+    if args.step not in (5, 6, 7) and not args.origin:
         parser.error("--origin is required for steps 1-4")
     try:
         _dispatch(args)
@@ -62,14 +61,10 @@ def _dispatch(args) -> None:
             review.export_review_sheets()
         return
     if args.step == 6:
-        from rmr import review
-        review.report_tiebreaks()
-        return
-    if args.step == 7:
         from rmr import reconcile
         reconcile.reconcile()
         return
-    if args.step == 8:
+    if args.step == 7:
         from rmr import metrics
         metrics.export_metrics()
         return
