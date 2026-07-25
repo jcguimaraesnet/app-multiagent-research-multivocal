@@ -1,0 +1,35 @@
+{
+  "upload_type": "software",
+  "title": "Replication Package for \"AI Solutions Applicable to Software Construction: A Rapid Multivocal Review\"",
+  "version": "v2.0.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "MIT",
+  "description": "<p>This is the replication package for the article \"AI Solutions Applicable to Software Construction: A Rapid Multivocal Review\" (Guimarães, Assis, Rocha, Feitosa, and Travassos; PESC/COPPE/UFRJ, Brazil). The review systematically maps Generative AI and Large Language Model solutions applicable to software construction, drawing on one academic source (Scopus) and three grey-literature channels (Google, GitHub, and Hugging Face Papers). From 408 retrieved records it catalogues 152 tools, characterising each one along eight research questions (availability, usage model, access and cost, limitations, maturity, documentation and community, target users, and industry validation).</p><p>The package contains the multi-agent automation pipeline behind the review (search, plus title, abstract, and full-text screening), together with the exact LLM prompts, the protocol settings (research questions, PICOC search string, and inclusion/exclusion criteria), the per-source extracted data in JSON, the blind census-with-adjudication human-review spreadsheets, the reconciled residuals, and the screening-reliability metrics (precision, recall, F1, and inter-rater agreement). The pipeline is written in Python (managed with uv) and is executed per source and per step, so the automated screening can be audited and reproduced end to end.</p><p>Full-text PDFs are omitted from the package: the Scopus ones are paywalled and copyrighted; the screened text is provided as Markdown instead. The method and artifacts are described in full in the accompanying technical report.</p>",
+  "keywords": [
+    "Generative AI",
+    "Large language models",
+    "LLM agents",
+    "Multi-agent systems",
+    "Software construction",
+    "Code generation",
+    "AI for software engineering",
+    "Multivocal literature review",
+    "Rapid review",
+    "Grey literature",
+    "Automated study selection",
+    "Empirical software engineering",
+    "Reproducibility",
+    "Replication package"
+  ],
+  "creators": [
+    {"name": "Guimarães, Júlio César", "affiliation": "PESC/COPPE/UFRJ, Brazil"},
+    {"name": "Souza, Felipe Assis de", "affiliation": "PESC/COPPE/UFRJ, Brazil"},
+    {"name": "Souza, Sabrina Rocha de", "affiliation": "PESC/COPPE/UFRJ, Brazil"},
+    {"name": "Feitosa, Rodrigo", "affiliation": "PESC/COPPE/UFRJ, Brazil"},
+    {"name": "Travassos, Guilherme Horta", "affiliation": "PESC/COPPE/UFRJ, Brazil"}
+  ],
+  "related_identifiers": [
+    {"identifier": "https://github.com/jcguimaraesnet/app-multiagent-research-multivocal", "relation": "isDerivedFrom"}
+  ]
+}
