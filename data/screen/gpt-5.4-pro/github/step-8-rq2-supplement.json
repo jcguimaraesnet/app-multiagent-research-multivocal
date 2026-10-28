@@ -1,0 +1,763 @@
+{
+  "origin": "github",
+  "step": 8,
+  "model": "",
+  "updated_at": "2026-10-28T02:26:05.728913+00:00",
+  "count": 30,
+  "by_status": {
+    "pending": 0,
+    "answered": 30
+  },
+  "records": [
+    {
+      "id": "GH6",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - sapritanand/Code-Generation-using-LLM: This project extracts Python code from the OpenAI Gym GitHub repository, creates a dataset of functions, and fine-tunes a code generation model (codegen-350M-mono) using Hugging Face Transformers to generate new code snippets.",
+        "solution_name": "Code-Generation-using-LLM"
+      },
+      "rq2": {
+        "form": {
+          "note": "The project presents a fine-tuned code-generation model as its main contribution, rather than a directly operated product.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "This project showcases the development of a code generation model using pre-trained Large Language Models (LLMs)."
+        },
+        "activity": {
+          "note": "The model is primarily intended to produce code snippets from natural-language descriptions.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "Generate code snippets from natural language descriptions."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH7",
+      "status": "answered",
+      "data": {
+        "title": "Spec-driven development with AI: Get started with a new open source toolkit",
+        "solution_name": "Spec Kit"
+      },
+      "rq2": {
+        "form": {
+          "note": "Spec Kit is an open-source toolkit used directly through a command-line initializer and workflow commands, so it is a command-line tool.",
+          "value": "Tool",
+          "tool_subtype": "Command-line tool",
+          "other": "",
+          "evidence": "First, install the `specify` command-line tool."
+        },
+        "activity": {
+          "note": "Spec Kit guides coding agents through producing implementations from specifications, plans, and tasks; code generation is the central supported activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "the specification captures the intent clearly, the plan translates it into technical decisions, the tasks break it into implementable pieces, and your AI coding agent handles the actual coding."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH9",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - zai-org/CodeGeeX: CodeGeeX: An Open Multilingual Code Generation Model (KDD 2023)",
+        "solution_name": "CodeGeeX"
+      },
+      "rq2": {
+        "form": {
+          "note": "CodeGeeX is presented primarily as a trained 13-billion-parameter multilingual programming model; the IDE extensions are based on it.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We introduce CodeGeeX, a large-scale multilingual code generation model with 13 billion parameters"
+        },
+        "activity": {
+          "note": "The model supports both generation and translation, but the text emphasizes code generation as its primary coding activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "CodeGeeX has good performance for generating executable programs in several mainstream programming languages"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH10",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - MiniMax-AI/MiniMax-M2.7",
+        "solution_name": "MiniMax-M2.7"
+      },
+      "rq2": {
+        "form": {
+          "note": "MiniMax-M2.7 is presented as a released language model, with instructions for downloading and serving its weights.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "Download the model from HuggingFace repository"
+        },
+        "activity": {
+          "note": "The model supports several software-engineering activities, but the text presents code generation as its broad baseline capability; no single narrower activity is singled out as the main one.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "Beyond code generation, M2.7 demonstrates strong system-level reasoning"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH12",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - jupyterlab/jupyter-ai: An open source extension that connects AI agents to computational notebooks in JupyterLab.",
+        "solution_name": "Jupyter AI"
+      },
+      "rq2": {
+        "form": {
+          "note": "Jupyter AI is a ready-to-use JupyterLab extension with a native chat interface, so it is a plugin or IDE integration.",
+          "value": "Tool",
+          "tool_subtype": "Plugin or IDE integration",
+          "other": "",
+          "evidence": "An open source extension that connects AI agents to computational notebooks in JupyterLab."
+        },
+        "activity": {
+          "note": "The text describes general-purpose agents that can work with files and notebooks, without emphasizing a more specific coding activity; code generation is the closest fit.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "Agents in Jupyter AI can read and write files, run terminal commands, and interact with notebooks through a built-in Jupyter MCP server."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH14",
+      "status": "answered",
+      "data": {
+        "title": "DmitryNekrasov/ai-code-completion-idea-plugin",
+        "solution_name": "IntelliJ IDEA AI Code Completion Plugin"
+      },
+      "rq2": {
+        "form": {
+          "note": "This is an installable IntelliJ IDEA plugin that developers use directly within the IDE.",
+          "value": "Tool",
+          "tool_subtype": "Plugin or IDE integration",
+          "other": "",
+          "evidence": "Open IntelliJ IDEA, Choose **Settings -> Plugins -> Gear-Icon -> Install Plugin from Disk...**, and select the downloaded plugin."
+        },
+        "activity": {
+          "note": "The plugin provides inline suggestions that continue code at the editor caret, so its main supported activity is code completion.",
+          "value": "Code completion",
+          "other": "",
+          "evidence": "The plugin is designed to enhance the coding experience within an IDE by providing inline code completion suggestions."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH17",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - microsoft/copilot-intellij-feedback: Feedback on GitHub Copilot for JetBrains IDEs.",
+        "solution_name": "GitHub Copilot Plugin for JetBrains IDEs"
+      },
+      "rq2": {
+        "form": {
+          "note": "This is a ready-to-use extension that provides coding assistance directly within JetBrains IDEs.",
+          "value": "Tool",
+          "tool_subtype": "Plugin or IDE integration",
+          "other": "",
+          "evidence": "it provides intelligent code completions and chat-based assistance directly within your JetBrains IDEs."
+        },
+        "activity": {
+          "note": "The text explicitly identifies code completions as a supported feature, so code completion is the best fit.",
+          "value": "Code completion",
+          "other": "",
+          "evidence": "it provides intelligent code completions"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH22",
+      "status": "answered",
+      "data": {
+        "title": "Type-Constrained Code Generation with Language Models",
+        "solution_name": "type-constrained-code-generation"
+      },
+      "rq2": {
+        "form": {
+          "note": "The solution is provided as a Python package with reusable sampling and parsing components, rather than as a directly operated product.",
+          "value": "Library or framework",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "This project is organized as a Python package."
+        },
+        "activity": {
+          "note": "It supports generating new TypeScript programs from a prompt, with sampling constrained to produce type-safe code.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "the package can be used to sample type-safe TypeScript programs from a language model"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH24",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - VichyTong/CodeJudge: [EMNLP 2024] CodeJudge: Evaluating Code Generation with Large Language Models",
+        "solution_name": "CodeJudge"
+      },
+      "rq2": {
+        "form": {
+          "note": "CodeJudge is an off-the-shelf framework intended for integration into code-generation systems, rather than a standalone product people operate directly.",
+          "value": "Library or framework",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "CodeJudge is an off-the-shelf evaluation framework that can be easily integrated into new LLM-based code generation systems."
+        },
+        "activity": {
+          "note": "It evaluates generated code for semantic correctness without modifying it, which is closest to code analysis and review among the available activities.",
+          "value": "Static analysis and code review",
+          "other": "",
+          "evidence": "CodeJudge is a code evaluation framework that leverages LLMs to evaluate the semantic correctness of generated code without the need of test cases."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH25",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - FlightVin/automated-refactoring: LLM based workflow that opens pull requests based on detected design smells",
+        "solution_name": "Automated Refactoring Pipeline"
+      },
+      "rq2": {
+        "form": {
+          "note": "This is an automated workflow that periodically scans a GitHub repository and opens pull requests, so it is best classified as a directly usable tool hosted through the GitHub platform.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "LLM based workflow that opens pull requests based on detected design smells"
+        },
+        "activity": {
+          "note": "The pipeline identifies design smells and changes existing code to improve its design while preserving functionality, which is refactoring and restructuring.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "Ensure that the refactoring process is robust, preserving the functionality of the code while enhancing its design."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH26",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - camilochs/pydaybcn2025-workshop-code-evolution: Code Evolution: Self-Improving Software with LLMs and Python.",
+        "solution_name": "Code Evolution Workshop"
+      },
+      "rq2": {
+        "form": {
+          "note": "This is an educational workshop with notebooks and demonstrations, not a ready-to-use coding product or a released model.",
+          "value": "Other",
+          "tool_subtype": "",
+          "other": "Educational workshop",
+          "evidence": "Workshop for PyDay Barcelona 2025"
+        },
+        "activity": {
+          "note": "The workshop emphasizes iteratively evolving and improving code solutions, which best fits code evolution.",
+          "value": "Code evolution",
+          "other": "",
+          "evidence": "Instead of fixing errors, we optimize solutions through evolution:"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH27",
+      "status": "answered",
+      "data": {
+        "title": "Genentech/opentreesearch: LLM-Guided Code Evolution",
+        "solution_name": "Open Tree Search"
+      },
+      "rq2": {
+        "form": {
+          "note": "Open Tree Search is distributed as an installable implementation with a command-line entry point users run directly on programs and evaluators.",
+          "value": "Tool",
+          "tool_subtype": "Command-line tool",
+          "other": "",
+          "evidence": "uv run treesearch-run examples/function_minimization/initial_program.py \\\n  examples/function_minimization/evaluator.py"
+        },
+        "activity": {
+          "note": "The repository describes the algorithm as guiding iterative changes to existing programs, so code evolution is its emphasized activity.",
+          "value": "Code evolution",
+          "other": "",
+          "evidence": "Open Tree Search is a PUCT-based tree search algorithm for LLM-guided code evolution"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH30",
+      "status": "answered",
+      "data": {
+        "title": "Refact.ai",
+        "solution_name": "Refact.ai"
+      },
+      "rq2": {
+        "form": {
+          "note": "Refact.ai is a ready-to-use coding assistant offered through IDE plugins, so it is a Tool with the plugin or IDE integration subtype.",
+          "value": "Tool",
+          "tool_subtype": "Plugin or IDE integration",
+          "other": "",
+          "evidence": "Get a VS Code plugin"
+        },
+        "activity": {
+          "note": "The text describes a general-purpose assistant for end-to-end engineering tasks and does not single out a narrower coding activity; code generation is the closest fit.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "AI Agent that handles engineering tasks end-to-end: integrates with developers’ tools, plans, executes, and iterates until it achieves a successful result."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH31",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - algorithmicsuperintelligence/openevolve: Open-source implementation of AlphaEvolve",
+        "solution_name": "OpenEvolve"
+      },
+      "rq2": {
+        "form": {
+          "note": "OpenEvolve is a ready-to-use coding system that users install and run directly; the documented quick start uses a terminal command.",
+          "value": "Tool",
+          "tool_subtype": "Command-line tool",
+          "other": "",
+          "evidence": "python openevolve-run.py examples/function_minimization/initial_program.py \\"
+        },
+        "activity": {
+          "note": "The solution primarily optimizes and improves existing programs. Refactoring and restructuring is the closest allowed category because the text emphasizes code optimization and performance improvement rather than migration or translation.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "Turn your LLMs into autonomous code optimizers that discover breakthrough algorithms"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH35",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - darrenhinde/OpenAgentsControl: AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
+        "solution_name": "OpenAgentsControl"
+      },
+      "rq2": {
+        "form": {
+          "note": "OpenAgentsControl is a ready-to-use coding assistant distributed through IDE integrations and plugins, rather than a library or model.",
+          "value": "Tool",
+          "tool_subtype": "Plugin or IDE integration",
+          "other": "",
+          "evidence": "Add comprehensive Claude Code plugin bringing OpenAgents Control to Claude Code users."
+        },
+        "activity": {
+          "note": "The text explicitly highlights code review with security analysis as a core capability, so this is the closest emphasized coding activity.",
+          "value": "Static analysis and code review",
+          "other": "",
+          "evidence": "Intelligent code review with security analysis"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH36",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal",
+        "solution_name": "Codex CLI"
+      },
+      "rq2": {
+        "form": {
+          "note": "Codex CLI is a directly installable product operated in a terminal, so it is a command-line tool.",
+          "value": "Tool",
+          "tool_subtype": "Command-line tool",
+          "other": "",
+          "evidence": "Lightweight coding agent that runs in your terminal"
+        },
+        "activity": {
+          "note": "The text describes a general-purpose coding agent without singling out a narrower activity; code generation is the closest fit.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "Codex CLI is a coding agent from OpenAI that runs locally on your computer."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH38",
+      "status": "answered",
+      "data": {
+        "title": "gsantopaolo/reforge-ai: Agentic-AI app modernization tool",
+        "solution_name": "ReforgeAI"
+      },
+      "rq2": {
+        "form": {
+          "note": "ReforgeAI is a directly usable application run through Python scripts, so it is a command-line tool.",
+          "value": "Tool",
+          "tool_subtype": "Command-line tool",
+          "other": "",
+          "evidence": "from the src folder: `python3 gen_docs.py temp_codebase/kitchensink/`"
+        },
+        "activity": {
+          "note": "Its main purpose is modernizing legacy Java code, including migration to new frameworks and updates for newer requirements; code evolution is the closest activity.",
+          "value": "Code evolution",
+          "other": "",
+          "evidence": "ReforgeAI is an agentic AI system designed to modernize legacy Java codebases."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH39",
+      "status": "answered",
+      "data": {
+        "title": "codescene-oss/pr-refactoring-agent",
+        "solution_name": "CodeScene PR Refactoring Agent"
+      },
+      "rq2": {
+        "form": {
+          "note": "This is a ready-to-use GitHub Action that teams add to their repository workflow and trigger from pull requests, so it is a tool integrated with a hosted platform.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "A GitHub Action that enables CodeScene's PR Refactoring Agent"
+        },
+        "activity": {
+          "note": "The agent changes existing code to improve code health and maintainability, which is refactoring and restructuring.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "AI-guided refactoring - Uses state-of-the-art LLMs to suggest and apply improvements"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH42",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - cline/cline: Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+        "solution_name": "Cline"
+      },
+      "rq2": {
+        "form": {
+          "note": "Cline is distributed as a VS Code extension that users operate within the IDE, so it is a plugin or IDE integration.",
+          "value": "Tool",
+          "tool_subtype": "Plugin or IDE integration",
+          "other": "",
+          "evidence": "The VSCode extension is fully esbuild-bundled into dist/extension.js"
+        },
+        "activity": {
+          "note": "Cline supports varied coding tasks; the text explicitly identifies code generation, making it the closest emphasized activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "05-typescript-function: Tests code generation"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH45",
+      "status": "answered",
+      "data": {
+        "title": "Rutex: The Autonomous AI Agent for Acode",
+        "solution_name": "Rutex"
+      },
+      "rq2": {
+        "form": {
+          "note": "Rutex is a ready-to-use plugin for the Acode mobile editor, so it is a plugin or IDE integration.",
+          "value": "Tool",
+          "tool_subtype": "Plugin or IDE integration",
+          "other": "",
+          "evidence": "autonomous AI agent plugin built specifically for the Acode mobile editor"
+        },
+        "activity": {
+          "note": "Rutex supports creating and modifying code, as well as refactoring; since the description does not single out one activity, code generation is the closest fit.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "enables LLMs to directly read, create, and refactor files"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH47",
+      "status": "answered",
+      "data": {
+        "title": "SMELLCC: LLM-based Code Smell Refactoring",
+        "solution_name": "SMELLCC"
+      },
+      "rq2": {
+        "form": {
+          "note": "SMELLCC is a ready-to-use VS Code extension that users install and operate through the editor’s interface.",
+          "value": "Tool",
+          "tool_subtype": "Plugin or IDE integration",
+          "other": "",
+          "evidence": "This VS Code extension is an implementation of the prototype system"
+        },
+        "activity": {
+          "note": "It uses an LLM to refactor existing Python code to address detected code smells, improving code structure.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "automatically refactor the **Top-10** most frequent code smells in Python codebases"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH48",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - raine/consult-llm: Get a second opinion from another AI model",
+        "solution_name": "consult-llm"
+      },
+      "rq2": {
+        "form": {
+          "note": "consult-llm is a directly operated command-line product that routes prompts to external models and streams their responses back to the user’s agent.",
+          "value": "Tool",
+          "tool_subtype": "Command-line tool",
+          "other": "",
+          "evidence": "The CLI resolves layered configuration, selects the requested backend, streams the model response to stdout"
+        },
+        "activity": {
+          "note": "It supports several coding-related tasks, including planning, review, and debugging, rather than emphasizing one activity. Following the rule for general-purpose assistants, Code generation is the closest fit.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "Use it to plan architecture, review changes, debate approaches, or get unstuck on tricky bugs."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH50",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - stable-lab/Pro-V: PRO-V: An Efficient Program Generation Multi-Agent System for Automatic RTL Verification",
+        "solution_name": "PRO-V"
+      },
+      "rq2": {
+        "form": {
+          "note": "PRO-V is presented as a research multi-agent system for RTL program generation, rather than as a directly operated product.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "PRO-V: An Efficient Program Generation Multi-Agent System for Automatic RTL Verification"
+        },
+        "activity": {
+          "note": "The system primarily generates RTL code; testbench creation, simulation, and debugging support its verification and refinement process.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "automated Register Transfer Level (RTL) code generation"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH58",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - isaziconsulting/AlphaEvolveLite: An open source simplified implementation of the AlphaEvolve paper.",
+        "solution_name": "AlphaEvolveLite"
+      },
+      "rq2": {
+        "form": {
+          "note": "AlphaEvolveLite is presented as a runnable command-line product that users install and operate directly.",
+          "value": "Tool",
+          "tool_subtype": "Command-line tool",
+          "other": "",
+          "evidence": "CLI entry-point: `python scripts/run.py config.yml [--debug] [--resume]`"
+        },
+        "activity": {
+          "note": "Its main supported activity is generating programs through LLM-based mutation and selection; code improvement is part of that generation process.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "Evolutionary Program Generation: Uses LLM-based mutation and selection to improve code"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH72",
+      "status": "answered",
+      "data": {
+        "title": "OpenAPI to MCP Server Code Generator · GitHub",
+        "solution_name": "openapi-mcp-codegen"
+      },
+      "rq2": {
+        "form": {
+          "note": "It is a ready-to-use command-line tool invoked through the `openapi_mcp_codegen` command.",
+          "value": "Tool",
+          "tool_subtype": "Command-line tool",
+          "other": "",
+          "evidence": "uvx --from git+https://github.com/cnoe-io/openapi-mcp-codegen.git openapi_mcp_codegen"
+        },
+        "activity": {
+          "note": "It generates new MCP server code from provided OpenAPI specifications.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "This tool generates **Model Context Protocol (MCP) servers** from OpenAPI specifications"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH73",
+      "status": "answered",
+      "data": {
+        "title": "CursorCore: Assist Programming through Aligning Anything",
+        "solution_name": "CursorCore"
+      },
+      "rq2": {
+        "form": {
+          "note": "CursorCore is presented primarily as a series of open-source trained models; the repository also provides code and a web demo, but the models are the main contribution.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "CursorCore is a series of open-source models designed for AI-assisted programming."
+        },
+        "activity": {
+          "note": "The solution emphasizes editing existing code in response to user instructions, which fits code evolution as changes to meet a requirement.",
+          "value": "Code evolution",
+          "other": "",
+          "evidence": "It aims to support features such as automated editing and inline chat"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH77",
+      "status": "answered",
+      "data": {
+        "title": "ise-uiuc/TitanFuzz",
+        "solution_name": "TitanFuzz"
+      },
+      "rq2": {
+        "form": {
+          "note": "TitanFuzz is provided as an implementation that users run through scripts and command-line commands, so it is a directly usable command-line tool.",
+          "value": "Tool",
+          "tool_subtype": "Command-line tool",
+          "other": "",
+          "evidence": "The main script for our evolutionary fuzzing algorithm is `ev_generation.py`."
+        },
+        "activity": {
+          "note": "TitanFuzz generates and executes fuzz inputs to test deep-learning libraries and find bugs. This is specialized fuzz testing rather than the unit or integration test construction described by the Construction testing category.",
+          "value": "Other",
+          "other": "Fuzz testing",
+          "evidence": "TitanFuzz is the first approach to directly leveraging Large Language Models (LLMs) to generate input programs for fuzzing Deep Learning (DL) libraries."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH78",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - SakanaAI/ShinkaEvolve: ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution 🧬",
+        "solution_name": "ShinkaEvolve"
+      },
+      "rq2": {
+        "form": {
+          "note": "ShinkaEvolve is a reusable Python framework installed as a package and used through its API or CLI, rather than only a research method or model.",
+          "value": "Library or framework",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "`shinka` is a framework that combines Large Language Models (LLMs) with evolutionary algorithms"
+        },
+        "activity": {
+          "note": "It iteratively modifies and improves an existing starting program through successive generations, so code evolution is the closest fit.",
+          "value": "Code evolution",
+          "other": "",
+          "evidence": "The `initial.py` file contains your starting solution with the core algorithm that will be iteratively improved by LLMs across generations."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH79",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - SakanaAI/drq: Digital Red Queen: Adversarial Program Evolution in Core War with LLMs",
+        "solution_name": "Digital Red Queen"
+      },
+      "rq2": {
+        "form": {
+          "note": "Digital Red Queen is presented as a self-play algorithm for adversarially evolving programs; the repository provides an implementation rather than a directly operated product.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "Here, we study Digital Red Queen (DRQ), a simple self-play algorithm"
+        },
+        "activity": {
+          "note": "The algorithm uses an LLM to produce new Core War programs and mutations; code generation is the closest activity category.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "DRQ uses an LLM to evolve assembly-like programs, called warriors"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GH80",
+      "status": "answered",
+      "data": {
+        "title": "GitHub - yash-srivastava19/cadence: Using LLMs(not RL) to find new solutions for problems that are hard. Batteries included.",
+        "solution_name": "Cadence"
+      },
+      "rq2": {
+        "form": {
+          "note": "Cadence is a ready-to-run system with experiment scripts and a built-in web interface; its experiments are launched from the command line.",
+          "value": "Tool",
+          "tool_subtype": "Command-line tool",
+          "other": "",
+          "evidence": "Run the out-of-the-box examples:"
+        },
+        "activity": {
+          "note": "Cadence iteratively modifies and improves existing programs, which fits code evolution.",
+          "value": "Code evolution",
+          "other": "",
+          "evidence": "Cadence is an evolutionary system that uses large language models to iteratively generate, mutate, and improve programs for hard computational problems."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    }
+  ]
+}

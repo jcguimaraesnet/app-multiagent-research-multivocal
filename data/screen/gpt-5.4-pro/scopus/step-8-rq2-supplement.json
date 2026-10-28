@@ -1,0 +1,1493 @@
+{
+  "origin": "scopus",
+  "step": 8,
+  "model": "",
+  "updated_at": "2026-10-28T02:26:05.726841+00:00",
+  "count": 59,
+  "by_status": {
+    "pending": 0,
+    "answered": 59
+  },
+  "records": [
+    {
+      "id": "SC1",
+      "status": "answered",
+      "data": {
+        "title": "Helping LLMs improve code generation using feedback from testing and static analysis",
+        "solution_name": "Testing and Static Analysis Feedback Framework"
+      },
+      "rq2": {
+        "form": {
+          "note": "The contribution is a research framework and automated procedure combining code generation, evaluation, and repair; the text does not present it as a directly operated product or an integrable library.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose a testing and analysis framework with three main phases: code generation, self-evaluation and repair."
+        },
+        "activity": {
+          "note": "The framework uses test and static-analysis feedback to fix existing generated code, making debugging and repair its emphasized supported activity.",
+          "value": "Debugging and repair",
+          "other": "",
+          "evidence": "Finally, we test the models ability to fix the generated code, providing the reports produced during the static analysis and incorrectness evaluation phases as feedback."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC2",
+      "status": "answered",
+      "data": {
+        "title": "An empirical study of LLM-based refactoring consistency",
+        "solution_name": "RAG-Structured Prompting"
+      },
+      "rq2": {
+        "form": {
+          "note": "RAG-Structured Prompting is a proposed prompting and retrieval strategy for improving LLM refactoring, not a standalone product or reusable software artifact.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose an approach to mitigate inconsistencies by integrating the RAG with a structured few-shot prompting approach during LLM-based code refactoring."
+        },
+        "activity": {
+          "note": "The strategy supports refactoring existing code while aiming to preserve its behavior, which best fits refactoring and restructuring.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "complete accurate code refactoring tasks while meeting task constraints."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC3",
+      "status": "answered",
+      "data": {
+        "title": "Effective Fine-tuning for Low-resource Languages: A Case Study of Cangjie",
+        "solution_name": "CodeBridge"
+      },
+      "rq2": {
+        "form": {
+          "note": "CodeBridge is presented as a proposed training and decoding approach, with an open-source pipeline, rather than a directly operated product.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "In this paper, we introduce CodeBridge, an innovative approach designed for code completion tasks of low-resource programming languages like Cangjie."
+        },
+        "activity": {
+          "note": "The approach is designed and evaluated specifically to complete partially written Cangjie code at line and block levels.",
+          "value": "Code completion",
+          "other": "",
+          "evidence": "We evaluated CodeBridge in line and block code completion tasks and found that CodeBridge achieved significant improvements."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC4",
+      "status": "answered",
+      "data": {
+        "title": "Data augmentation of Python code refactoring datasets based on LLMs",
+        "solution_name": "LLM-based data augmentation for refactoring"
+      },
+      "rq2": {
+        "form": {
+          "note": "The contribution is a proposed LLM-based augmentation approach and pipeline, rather than a directly operated product. Although the study also releases an augmented dataset, it presents the augmentation methods and pipeline as the central approach.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "a proposed pipeline for rectifying imbalanced datasets"
+        },
+        "activity": {
+          "note": "The approach generates new Python code from comments, specifications, and transformed code to create augmented samples. Code generation is the closest supported activity; the generated code is used to build refactoring datasets rather than to directly refactor a developer’s code.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "we used them to generate Python code directly from the available textual comments"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC6",
+      "status": "answered",
+      "data": {
+        "title": "iCoder: A multi agent software development platform",
+        "solution_name": "iCoder"
+      },
+      "rq2": {
+        "form": {
+          "note": "iCoder is presented as a one-stop multi-agent software development platform that people use directly.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "a one-stop multi-agent software development platform"
+        },
+        "activity": {
+          "note": "The platform primarily generates software code from requirements, while also incorporating review and testing.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "DevBot produces implementation code corresponding to the user stories within the current Sprint"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC7",
+      "status": "answered",
+      "data": {
+        "title": "VC-AWG: A Vibe Coding–based method for Automated Website Generation from heterogeneous artifacts",
+        "solution_name": "VC-AWG"
+      },
+      "rq2": {
+        "form": {
+          "note": "VC-AWG is presented as a two-phase method for generating website code from heterogeneous artifacts, rather than as a ready-to-use product.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "This paper proposes VC-AWG (Vibe Coding-based Automated Website Generation), a method for systematically generating complete website functionalities from heterogeneous artifacts"
+        },
+        "activity": {
+          "note": "The method supports generating new website source code from use cases, UI designs, API contracts, an existing codebase, and coding rules.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "The VC-AWG method receives use case specifications, UI/UX designs developed in Figma, API contracts, the existing project codebase, and predefined coding rules as inputs, and automatically generates the corresponding functionalities’ source code."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC9",
+      "status": "answered",
+      "data": {
+        "title": "Exploring full and parameter-efficient fine-tuning techniques for transformer-based design pattern detection",
+        "solution_name": "DPD_Att+"
+      },
+      "rq2": {
+        "form": {
+          "note": "DPD_Att+ is presented as a trained transformer-based Seq2Seq model for design-pattern detection, not as a directly operated product.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We present DPD Att +, a transformer-based framework that performs automated detection of GoF design patterns directly from Java source code"
+        },
+        "activity": {
+          "note": "Its main function is to analyze Java source code and identify GoF design patterns without modifying the code, which best fits static analysis.",
+          "value": "Static analysis and code review",
+          "other": "",
+          "evidence": "The Pattern Detector block encapsulates the fine-tuned CodeT5+ model, enabling automatic GoF design pattern detection on unseen Java source code."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC10",
+      "status": "answered",
+      "data": {
+        "title": "Empirical insights into Chat Generative Pre-trained Transformer-assisted code refactoring and developer dynamics",
+        "solution_name": "ChatGPT"
+      },
+      "rq2": {
+        "form": {
+          "note": "ChatGPT is presented as a directly used product for developer–ChatGPT interactions, including through its web interface; it is a hosted application or platform.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "the authors used the ChatGPT Web interface"
+        },
+        "activity": {
+          "note": "The study focuses on using ChatGPT to restructure existing code while preserving its functionality, so the best-fitting activity is refactoring and restructuring.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "how developers can use ChatGPT to refactor code effectively"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC12",
+      "status": "answered",
+      "data": {
+        "title": "AI-assisted code refactoring: Where can it be helpful and where do humans outperform it?",
+        "solution_name": "ChatGPT"
+      },
+      "rq2": {
+        "form": {
+          "note": "ChatGPT is used directly by participants as a ready-to-use product; the text identifies it as a free version but does not specify the access interface, so an application or platform is the closest subtype.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "The GenAI group was using the free version of ChatGPT that was available at the time of the experiment"
+        },
+        "activity": {
+          "note": "The study uses ChatGPT to assist with changing existing code to apply design patterns or SOLID principles, which fits refactoring and restructuring.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "we focus on refactoring an existing code to take advantage of DPs or SPs."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC14",
+      "status": "answered",
+      "data": {
+        "title": "HAFix: history-augmented large language models for bug fixing",
+        "solution_name": "HAFix"
+      },
+      "rq2": {
+        "form": {
+          "note": "HAFix is presented as a proposed history-augmentation approach using heuristics in prompts, not as a ready-to-use product or reusable software package.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose HAFix, a novel approach that leverages seven individual historical heuristics"
+        },
+        "activity": {
+          "note": "HAFix supports fixing existing software bugs by supplying historical context to LLMs that generate candidate fixes.",
+          "value": "Debugging and repair",
+          "other": "",
+          "evidence": "HAFix provides the model with additional context, aiding in identifying the root cause of the bug and generating a possible solution to solve it."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC16",
+      "status": "answered",
+      "data": {
+        "title": "RAGdeterm: Deterministic retrieval-augmented generation for code generation",
+        "solution_name": "RAGdeterm"
+      },
+      "rq2": {
+        "form": {
+          "note": "RAGdeterm is presented as a usable software tool, with components that can be run from the command line; its prompt-enrichment component also has a Java library interface.",
+          "value": "Tool",
+          "tool_subtype": "Command-line tool",
+          "other": "",
+          "evidence": "RAGdeterm is a tool intended to support LLMs in tasks that require precise and up-to-date access to source code."
+        },
+        "activity": {
+          "note": "The solution primarily supports generating new code by enriching prompts with current project context; the paper's examples include creating DTO and GraphQL classes.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "The task is to create, for each of these classes, a corresponding Data Transfer Object (DTO) class in Java and its counterpart in GraphQL."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC17",
+      "status": "answered",
+      "data": {
+        "title": "Less is more: Towards green code large language models via unified structural pruning",
+        "solution_name": "Flab-Pruner"
+      },
+      "rq2": {
+        "form": {
+          "note": "Flab-Pruner is presented as a unified structural pruning method and training strategy, not as a directly operated product or a model contribution.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose Flab-Pruner, an innovative unified structural pruning method"
+        },
+        "activity": {
+          "note": "The method is designed to preserve and improve code generation by pruning code LLMs; code generation is the primary emphasized activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "Flab-Pruner retains 97% of the original code generation performance on average after pruning 22% of the parameters"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC18",
+      "status": "answered",
+      "data": {
+        "title": "A Preference-Driven Methodology for Efficient Code Generation",
+        "solution_name": "DC-GRPO"
+      },
+      "rq2": {
+        "form": {
+          "note": "DC-GRPO is proposed and evaluated as an algorithmic training framework, not as a directly operated product or released model.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose DC-GRPO"
+        },
+        "activity": {
+          "note": "It supports generating code, with training explicitly optimized for correctness and execution efficiency.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "DC-GRPO advances LLM-based code generation by optimizing for execution efficiency alongside correctness"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC23",
+      "status": "answered",
+      "data": {
+        "title": "Can generative AI bridge the gap? A quasi-experimental study of non-programmers with AI vs. programmers without AI",
+        "solution_name": "ChatGPT (GPT-4o)"
+      },
+      "rq2": {
+        "form": {
+          "note": "ChatGPT Enterprise is a ready-to-use conversational product that participants used directly, rather than a model released as the study’s contribution.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "ChatGPT provides a widely accessible conversational interface"
+        },
+        "activity": {
+          "note": "The solution supports generating new programs from task descriptions; participants used it to solve specified programming challenges.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "a conversational code-generation tool can enable some non-programmers to solve small, well-specified programming challenges"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC24",
+      "status": "answered",
+      "data": {
+        "title": "Beyond Coverage: Automatic Test Suite Augmentation for Enhanced Effectiveness using Large Language Models",
+        "solution_name": "RAGTIME"
+      },
+      "rq2": {
+        "form": {
+          "note": "RAGTIME is presented as a proposed research approach for test-suite augmentation, not as a directly operated product or a reusable software library.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We propose RAGTIME to augment initial test suites guided by survived mutants."
+        },
+        "activity": {
+          "note": "It generates and executes new test cases to augment existing test suites, so its primary supported activity is construction testing.",
+          "value": "Construction testing",
+          "other": "",
+          "evidence": "After classifying the survived mutants, we adopt a three-step process to generate new test cases."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC28",
+      "status": "answered",
+      "data": {
+        "title": "Can large language models identify and refactor code clones? An empirical study",
+        "solution_name": "GPT-4o"
+      },
+      "rq2": {
+        "form": {
+          "note": "GPT-4o is presented as a large language model evaluated in the study, not as a software product or reusable library.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "as a result, we selected GPT-4o for our study."
+        },
+        "activity": {
+          "note": "The study emphasizes refactoring existing code clones through Extract Method; clone classification is also evaluated, but refactoring is the best fit for the primary coding activity.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "we instruct the GPT-4o to refactor the clones by extracting them into a single method"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC30",
+      "status": "answered",
+      "data": {
+        "title": "CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences",
+        "solution_name": "CodeUltraFeedback"
+      },
+      "rq2": {
+        "form": {
+          "note": "CodeUltraFeedback is presented primarily as a preference dataset; the paper describes CodeUltraFeedback-Bench as a separate evaluation artifact.",
+          "value": "Dataset or benchmark",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "CodeUltraFeedback is a preference dataset comprising 10,000 complex instructions with 40,000 meticulously curated LLMs responses"
+        },
+        "activity": {
+          "note": "The dataset supports aligning models to generate code responses according to user coding preferences.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "for aligning LLMs to coding preferences in a code generation scenario."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC34",
+      "status": "answered",
+      "data": {
+        "title": "Large Language Model Selection for Test-Driven Prompt Android iOS Development",
+        "solution_name": "TDP (Test-Driven Prompting)"
+      },
+      "rq2": {
+        "form": {
+          "note": "TDP is presented as a prompt-engineering technique rather than a standalone product or reusable software artifact.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "test-driven prompting (TDP), a prompt engineering technique that incorporates test suites"
+        },
+        "activity": {
+          "note": "TDP supports generating code from prompts that include test cases; the study evaluates its effect on generated-code accuracy.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "this technique increases the accuracy of LLM-generated code"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC35",
+      "status": "answered",
+      "data": {
+        "title": "Less Is More: DocString Compression in Code Generation",
+        "solution_name": "ShortenDoc"
+      },
+      "rq2": {
+        "form": {
+          "note": "ShortenDoc is presented as an adaptive DocString compression method for code-generation prompts, not as a directly operated product.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We design a novel method ShortenDoc, which is an adaptive compression method for compressing DocString"
+        },
+        "activity": {
+          "note": "The method compresses DocStrings to preserve or improve the quality of code generated from them.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "Our goal is to compress the DocString into D′ while preserving the overall semantics and effectiveness in guiding LLMs for code generation."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC40",
+      "status": "answered",
+      "data": {
+        "title": "EVALUATING THE CODE GENERATION CAPABILITIES OF CHATGPT THROUGH C++ DATABASE MANAGEMENT TASKS",
+        "solution_name": "ChatGPT GPT-4"
+      },
+      "rq2": {
+        "form": {
+          "note": "The study evaluates GPT-4 as a large language model, accessed through the OpenAI API, rather than presenting a separate user-facing product as its main contribution.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "This study explores the coding capabilities of ChatGPT GPT 4, a large language model introduced by OpenAI in May 2024."
+        },
+        "activity": {
+          "note": "The study emphasizes producing new C++ programs from task descriptions, so code generation is the supported activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "The objective of this study is to evaluate ChatGPT’s ability to generate C++ code for database management tasks in a systematic and measurable way."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC41",
+      "status": "answered",
+      "data": {
+        "title": "Identifying and Mitigating API Misuse in Large Language Models",
+        "solution_name": "Dr.Fix"
+      },
+      "rq2": {
+        "form": {
+          "note": "Dr.Fix is presented as a research approach combining staged LLM prompting with a misuse taxonomy, not as a directly usable product or released tool.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "a taxonomy-guided LLM-based APR method"
+        },
+        "activity": {
+          "note": "It detects and repairs API misuses in existing code, so its primary supported activity is debugging and repair.",
+          "value": "Debugging and repair",
+          "other": "",
+          "evidence": "Dr.Fix, a novel LLM-based APR approach that combines detection and reasoning capabilities to address these challenges."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC44",
+      "status": "answered",
+      "data": {
+        "title": "No Resource, No Benchmarks, No Problem? Evaluating and Improving LLMs for Code Generation in No-Resource Languages",
+        "solution_name": "Weight Diff Transfer"
+      },
+      "rq2": {
+        "form": {
+          "note": "Weight Diff Transfer is a proposed weight-transfer procedure for adding instruction-following capabilities to a language-specialized model, rather than a ready-to-use product or a model contribution.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "By computing the diff between Mi’s and Mb’s weights (∆ w), we can capture “the portion of Mi’s knowledge” allowing it to follow complex instructions. We can then sum ∆ w to Mbk’s weights"
+        },
+        "activity": {
+          "note": "The technique is evaluated for improving code generation on no-resource programming languages.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "instruction transferring significantly boosts the code generation capabilities of LLMs on no-resource languages."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC45",
+      "status": "answered",
+      "data": {
+        "title": "AI-Driven Refactoring: Semantic Reconstruction of Domain Models Using LLM Reasoning",
+        "solution_name": "AI-Driven Domain Reconstruction Pipeline"
+      },
+      "rq2": {
+        "form": {
+          "note": "The contribution is an LLM-driven reconstruction procedure presented and evaluated as a research methodology; the text does not describe a released product or reusable package.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "The methodology is delineated into four principal stages that outline the utilization of the LLM in reconstructing the domain layer"
+        },
+        "activity": {
+          "note": "It reorganizes existing domain-model elements and responsibilities into a DDD-aligned structure, so refactoring and restructuring is the best fit.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "the model is transformed into a Domain-Driven Design (DDD)-aligned Domain Layer by reorganizing the content into canonical building blocks"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC47",
+      "status": "answered",
+      "data": {
+        "title": "VeriGen: An LLM-Augmented Framework for End-to-End Automation of Software Development Lifecycle-From Requirements Specifications to Code Generation",
+        "solution_name": "VeriGen"
+      },
+      "rq2": {
+        "form": {
+          "note": "VeriGen is presented as a ready-to-use web-based application that users operate to enter requirements, run the pipeline, and inspect generated artifacts.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "the VeriGen framework as a functional, Web-based application tool"
+        },
+        "activity": {
+          "note": "The pipeline supports several development stages, but its emphasized coding activity is generating skeletal Java code from requirements and verified design models.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "a trustworthy, automated pathway from natural language specifications to verified software artifacts"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC51",
+      "status": "answered",
+      "data": {
+        "title": "Refactoring Object-Oriented Software With ChatGPT: An Empirical Study",
+        "solution_name": "ChatGPT"
+      },
+      "rq2": {
+        "form": {
+          "note": "ChatGPT is presented as a ready-to-use product operated through its web interface, rather than as a library or research-only system.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "ChatGPT has been accessed via the web interface and prompted interactively"
+        },
+        "activity": {
+          "note": "The study evaluates ChatGPT performing structural changes to existing Java code, so its emphasized coding activity is refactoring and restructuring.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "we empirically investigate ChatGPT’s ability to perform code refactoring tasks"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC52",
+      "status": "answered",
+      "data": {
+        "title": "Enhanced Architecture of Structure Semantics for Syntax-Aware Code Generation",
+        "solution_name": "SSECG"
+      },
+      "rq2": {
+        "form": {
+          "note": "SSECG is presented and evaluated as a code-generation model architecture, not as a directly operated product or reusable software library.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose SSECG, a structure semantics enhanced model based on Graph Neural Network (GNN) for code generation"
+        },
+        "activity": {
+          "note": "SSECG supports generating code from natural-language descriptions by predicting an abstract syntax tree that is converted into target code.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "The task of code generation aims to transform natural language descriptions into corresponding target code."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC54",
+      "status": "answered",
+      "data": {
+        "title": "AI-Powered Architecture Refactoring: From Legacy Systems to Modern Patterns An Initial Case Study with LLM and CQRS",
+        "solution_name": "Airchitect"
+      },
+      "rq2": {
+        "form": {
+          "note": "Airchitect is presented as a directly usable modular software tool for transforming legacy systems, rather than as a library or research-only agent. The text does not identify an IDE integration, API, or command-line interface, so Application or platform is the closest subtype.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "we developed AiRchitect, a modular tool."
+        },
+        "activity": {
+          "note": "The solution restructures legacy code into CQRS-aligned components by classifying and modularizing existing methods, which is architectural refactoring and restructuring.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "Each method was then extracted and modularized into separate files, promoting a clear separation of concerns"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC56",
+      "status": "answered",
+      "data": {
+        "title": "Comparative analysis of design pattern implementation validity in LLM-based code refactoring",
+        "solution_name": "Design Pattern Implementation Assessment Framework"
+      },
+      "rq2": {
+        "form": {
+          "note": "The main contribution is an assessment framework for measuring design-pattern implementation quality, rather than a directly operated product or reusable software package.",
+          "value": "Dataset or benchmark",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "This research introduces a novel assessment framework that combines predicate logic specifications with quantitative metrics to evaluate pattern implementation quality."
+        },
+        "activity": {
+          "note": "The framework assesses LLMs applying design patterns by refactoring existing programs; this is best classified as refactoring and restructuring.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "This research conducted a systematic evaluation of LLMs’ capabilities in implementing design patterns through code refactoring."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC58",
+      "status": "answered",
+      "data": {
+        "title": "Mokav: Execution-driven differential testing with LLMs",
+        "solution_name": "Mokav"
+      },
+      "rq2": {
+        "form": {
+          "note": "Mokav is presented as a publicly available, directly usable software tool implemented in Python. The text does not specify its interface; command-line tool is the closest subtype for this Python implementation.",
+          "value": "Tool",
+          "tool_subtype": "Command-line tool",
+          "other": "",
+          "evidence": "We propose Mokav, a novel execution-driven tool that leverages LLMs to generate DETs."
+        },
+        "activity": {
+          "note": "Mokav generates difference-exposing tests for differential testing, a specialized testing activity not otherwise listed among the allowed categories.",
+          "value": "Other",
+          "other": "Differential test generation",
+          "evidence": "Mokav’s outcome is a DET, an input data for which P and Q produce different outputs."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC59",
+      "status": "answered",
+      "data": {
+        "title": "Performance and interpretability analysis of code generation large language models",
+        "solution_name": "Interpretability Analysis of LLM Code Translation"
+      },
+      "rq2": {
+        "form": {
+          "note": "This is a research analysis using interpretability techniques, not a directly usable product or released model. Its contribution includes applying Feature Ablation and Shapley Value Sampling to analyze code translation.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "Feature Ablation and Shapley Value Sampling were chosen as the perturbation techniques for evaluating the interpretability of LLMs."
+        },
+        "activity": {
+          "note": "The analysis focuses on translating existing code from one programming language to another, which is code evolution. The paper also discusses code generation, but translation is the emphasized activity.",
+          "value": "Code evolution",
+          "other": "",
+          "evidence": "The LLM is asked to convert the code from a source to a target language along with a task description to ensure proper clarity on its code conversion task."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC62",
+      "status": "answered",
+      "data": {
+        "title": "Piloting Copilot, Codex, and StarCoder2: Hot temperature, cold prompts, or black magic?",
+        "solution_name": "StarCoder2"
+      },
+      "rq2": {
+        "form": {
+          "note": "StarCoder2 is presented as an open-source language model, specifically the StarCoder2-15B model, rather than as a directly operated product.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "StarCoder2-15B, a 15-billion-parameter model released in February 2024"
+        },
+        "activity": {
+          "note": "The study evaluates StarCoder2 primarily for generating programs from prompts, so code generation is the best-fitting activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "StarCoder2 demonstrates strong code generation performance"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC63",
+      "status": "answered",
+      "data": {
+        "title": "Transforming natural language into code: advancing automated code synthesis for software development",
+        "solution_name": "Proposed T5-based code generation model"
+      },
+      "rq2": {
+        "form": {
+          "note": "The main contribution is a fine-tuned T5 model for text-to-code synthesis, rather than a directly operated product.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "This paper presents a transformer-based T5 model fine-tuned on the multilingual XLCoST dataset for code generation."
+        },
+        "activity": {
+          "note": "The model supports generating Python and Java code from natural-language descriptions, which is the paper’s central evaluated activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "The model accepts natural language as input and generates source code."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC65",
+      "status": "answered",
+      "data": {
+        "title": "A Language-based Approach to Macroprogramming for IoT Systems through Large Language Models",
+        "solution_name": "LLM-based Macroprogramming for IoT"
+      },
+      "rq2": {
+        "form": {
+          "note": "The contribution is a proposed language-based pipeline and co-design approach for generating aggregate-computing code, not a directly usable product or released model.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose a language-based approach based on macroprogramming that leverages LLMs for IoT code generation."
+        },
+        "activity": {
+          "note": "It supports producing executable macroprogramming code from natural-language descriptions of desired IoT system behavior.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "When provided with natural language descriptions of desired system-wide behaviors, the LLM interprets these specifications and generates corresponding collective code"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC66",
+      "status": "answered",
+      "data": {
+        "title": "An Empirical Study of Exploring the Capabilities of Large Language Models in Code Learning",
+        "solution_name": "Empirical Study of Code LLMs (CodeGen, LLaMA, StarCoder)"
+      },
+      "rq2": {
+        "form": {
+          "note": "The contribution is an empirical evaluation of existing code models, not a released model, tool, or benchmark; the closest category is Other.",
+          "value": "Other",
+          "tool_subtype": "",
+          "other": "Empirical study",
+          "evidence": "This paper presents a comprehensive empirical study that addresses this gap by comparing several large and small code models",
+          "human_value": "Model",
+          "human_other": ""
+        },
+        "activity": {
+          "note": "The study evaluates several coding activities, but it highlights code generation performance among its main findings, so Code generation is the closest emphasized activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "LLMs are more powerful than previous code pretrained models in code generation tasks and code completion"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC67",
+      "status": "answered",
+      "data": {
+        "title": "Toward efficient vibe coding: An LLM-based agent for low-code software development",
+        "solution_name": "DSL Agent"
+      },
+      "rq2": {
+        "form": {
+          "note": "DSL Agent is an interactive conversational interface embedded in the Locsys low-code platform, which users operate directly to develop DSL models. This fits a ready-to-use application or platform rather than a research-only agent.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "The DSL Agent is embedded within Locsys, a modern low-code development platform."
+        },
+        "activity": {
+          "note": "The agent turns natural-language requests into DSL models, which the platform uses in application development. Since model generation is not a separate allowed activity, code generation is the closest fit.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "the DSL Agent enables developers to generate the desired DSL models through conversation"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC68",
+      "status": "answered",
+      "data": {
+        "title": "AutoVerus: Automated Proof Generation for Rust Code",
+        "solution_name": "AutoVerus"
+      },
+      "rq2": {
+        "form": {
+          "note": "AutoVerus is presented as a ready-to-use command-line Python tool that users run directly.",
+          "value": "Tool",
+          "tool_subtype": "Command-line tool",
+          "other": "",
+          "evidence": "We implemented AutoVerus as a command line Python tool"
+        },
+        "activity": {
+          "note": "It generates new Rust/Verus proof annotations from supplied code and specifications, which best fits code generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "AutoVerus uses LLMs to automatically generate correctness proof for Rust code."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC69",
+      "status": "answered",
+      "data": {
+        "title": "Integrating Large Language Models into Automated Software Testing",
+        "solution_name": "Codestral Mamba (LoRA)"
+      },
+      "rq2": {
+        "form": {
+          "note": "The solution is the LoRA-fine-tuned Codestral Mamba language model, which the study evaluates as a model; the chatbot is described as a deployment prototype.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "The Codestral Mamba 7B model was fine-tuned using the CodeXGLUE and proprietary TestCase2Code dataset."
+        },
+        "activity": {
+          "note": "It supports construction testing by generating automated Pytest test cases from test descriptions and source code.",
+          "value": "Construction testing",
+          "other": "",
+          "evidence": "This work demonstrates the viability of leveraging large language models, specifically the Codestral Mamba architecture, in combination with LoRA, to advance automated test case generation."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC70",
+      "status": "answered",
+      "data": {
+        "title": "SCEditor-Web: Bridging Model-Driven Engineering and Generative AI for Smart Contract Development",
+        "solution_name": "SCEditor-Web"
+      },
+      "rq2": {
+        "form": {
+          "note": "SCEditor-Web is a directly usable web-based editor and modeling environment for designing smart contracts and generating code.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "a web-based smart contract editor"
+        },
+        "activity": {
+          "note": "The platform supports generating platform-specific smart contract code from visual models and structured JSON.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "generate platform-specific code via prompt-based interactions with LLMs"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC72",
+      "status": "answered",
+      "data": {
+        "title": "CodeDiffuSe: A masked diffusion framework for structure-aware code completion and repair",
+        "solution_name": "CodeDiffuSe"
+      },
+      "rq2": {
+        "form": {
+          "note": "CodeDiffuSe is presented as a proposed masked diffusion model and evaluated as the paper’s research contribution, not as a ready-to-use product or reusable software package.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "“we propose CodeDiffuSe, a novel masked diffusion framework specifically designed for structure-aware code completion and repair.”"
+        },
+        "activity": {
+          "note": "The framework supports both completion and repair; code completion is the closest single fit because it reconstructs missing code spans using surrounding context.",
+          "value": "Code completion",
+          "other": "",
+          "evidence": "“CodeDiffuSe learns to recover missing code spans by leveraging both left and right context”"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC75",
+      "status": "answered",
+      "data": {
+        "title": "Generating vulnerability security fixes with Code Language Models",
+        "solution_name": "PatchLM"
+      },
+      "rq2": {
+        "form": {
+          "note": "PatchLM is presented as a newly fine-tuned code language model, not as a directly operated product or reusable library.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we introduce Patch Language Model (PatchLM), a novel CLM fine-tuned to fix security vulnerabilities"
+        },
+        "activity": {
+          "note": "PatchLM generates patches that repair security vulnerabilities in existing code, so its primary activity is debugging and repair.",
+          "value": "Debugging and repair",
+          "other": "",
+          "evidence": "The proposed model is capable of generating patches for given vulnerable code snippets."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC76",
+      "status": "answered",
+      "data": {
+        "title": "Refactoring Loops in the Era of LLMs: A Comprehensive Study",
+        "solution_name": "ChatGPT"
+      },
+      "rq2": {
+        "form": {
+          "note": "ChatGPT is presented as a coding assistant that users prompt directly, so it fits a ready-to-use application or platform.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "ChatGPT, a generative pre-trained transformer (GPT), allows users to input prompts and receive human-like responses across various media, including text and code"
+        },
+        "activity": {
+          "note": "The study focuses on changing existing Java loops into stream pipelines while aiming to preserve their behavior, which is refactoring and restructuring.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "evaluating ChatGPT’s effectiveness in transforming loops into streams"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC78",
+      "status": "answered",
+      "data": {
+        "title": "Symmetry-Aware Code Generation: Distilling Pseudocode Reasoning for Lightweight Deployment of Large Language Models",
+        "solution_name": "Cognitive-Chain Distillation Framework"
+      },
+      "rq2": {
+        "form": {
+          "note": "The solution is a proposed distillation framework and training approach, not a directly usable product or a released model.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose a novel distillation framework that extracts intermediate reasoning steps, such as pseudocode, from LLMs and transfers them to smaller models"
+        },
+        "activity": {
+          "note": "It supports producing code from natural-language problem descriptions; the framework explicitly trains smaller models for pseudocode and final code generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "The smaller model is simultaneously trained to generate both pseudocode and final code"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC79",
+      "status": "answered",
+      "data": {
+        "title": "Top Pass: improve code generation by pass@k-maximized code ranking",
+        "solution_name": "Top Pass"
+      },
+      "rq2": {
+        "form": {
+          "note": "Top Pass is presented as a proposed code-ranking approach and training objective, not as a ready-to-use product or released model.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose Top Pass, a code ranking approach that identifies potential correct solutions from a large number of candidates."
+        },
+        "activity": {
+          "note": "It supports code generation by ranking generated candidate programs so users can find a correct solution with fewer attempts.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "Top Pass substantially enhances the utility of current code generation models, by improving the pass@k performance."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC82",
+      "status": "answered",
+      "data": {
+        "title": "Open Source AI-based SE Tools: Opportunities and Challenges of Collaborative Software Learning",
+        "solution_name": "Federated Learning Governance Framework"
+      },
+      "rq2": {
+        "form": {
+          "note": "The contribution is a proposed governance framework for collaborative development and maintenance of open-source code models, not a ready-to-use product or reusable software package.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we discussed a framework for collaborative AI-based SE tool building based on FL."
+        },
+        "activity": {
+          "note": "The framework supports models for multiple software engineering tasks and does not single out one as its main activity; code generation is the closest broad fit under the general-purpose rule.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "This form of collaboration is particularly valuable in areas such as defect detection, code generation and security enhancement"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC83",
+      "status": "answered",
+      "data": {
+        "title": "Rich Data Versus Quantity of Data in Code Generation AI: A Paradigm Shift for Healthcare",
+        "solution_name": "Self-Evolving Software (SES)"
+      },
+      "rq2": {
+        "form": {
+          "note": "SES is described as a ready-to-use cloud-native Salesforce application and AI platform, rather than a reusable library or research-only system.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "The SES is a cloud-native Salesforce application designed to address the limitations of traditional Code Gen AI tools"
+        },
+        "activity": {
+          "note": "SES primarily generates new code from requirements and natural-language prompts; it also offers supporting analysis and documentation features.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "The SES is a Salesforce-native app that gathers requirements, auto-generates code, evaluates code quality, and produces documentation using rich data-centric principles."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC85",
+      "status": "answered",
+      "data": {
+        "title": "CodeScore: Evaluating Code Generation by Learning Code Execution",
+        "solution_name": "CodeScore"
+      },
+      "rq2": {
+        "form": {
+          "note": "CodeScore is presented as an LLM-based evaluation metric and the paper provides a released model artifact; the main contribution is therefore a trained model, not a directly operated product.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose an effective LLM-based CEM, called CodeScore",
+          "human_value": "Dataset or benchmark"
+        },
+        "activity": {
+          "note": "CodeScore evaluates the functional correctness of generated code. This code-evaluation activity does not fit the listed construction activities closely, so Other is the closest choice.",
+          "value": "Other",
+          "other": "Code evaluation",
+          "evidence": "CodeScore ... measures the functional correctness of generated code",
+          "human_value": "Code generation",
+          "human_other": ""
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC89",
+      "status": "answered",
+      "data": {
+        "title": "Quantitative Assessment of Generative Large Language Models on Design Pattern Application",
+        "solution_name": "ChatGPT 4"
+      },
+      "rq2": {
+        "form": {
+          "note": "ChatGPT is used directly by entering a prompt and receiving a refactored program, indicating a ready-to-use application or platform.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "ChatGPT is instructed with the following prompt without any further instructions such as the information about the pattern or the context of the program."
+        },
+        "activity": {
+          "note": "The emphasized activity is restructuring existing applications to apply the Visitor pattern, described as pattern application and refactoring.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "ChatGPT produces a refactored program with the Visitor pattern applied."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC93",
+      "status": "answered",
+      "data": {
+        "title": "Code Clone Detection Techniques Based on Large Language Models",
+        "solution_name": "Instruction-tuned GPT-4"
+      },
+      "rq2": {
+        "form": {
+          "note": "The solution is an instruction-tuned GPT-4 model adapted and evaluated for code clone detection, rather than a directly usable product as the main contribution.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we applied instruction fine-tuning to GPT-3.5 Turbo and GPT-4 with a focus on code clone detection."
+        },
+        "activity": {
+          "note": "Its emphasized activity is analyzing code to identify clones; automated refactoring is also mentioned but is secondary.",
+          "value": "Static analysis and code review",
+          "other": "",
+          "evidence": "The detector, described in detail below, leverages few-shot instruction tuning to identify potential code clones."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC94",
+      "status": "answered",
+      "data": {
+        "title": "Analysis of ChatGPT-Generated Codes Across Multiple Programming Languages",
+        "solution_name": "ChatGPT-4o"
+      },
+      "rq2": {
+        "form": {
+          "note": "The study presents ChatGPT-4o as a language model whose code-generation capabilities are evaluated, rather than as a specific product interface or integration.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "This research investigates ChatGPT-4o, a state-of-the-art language model, and its ability to generate functional, high-quality code"
+        },
+        "activity": {
+          "note": "The solution supports generating code from problem descriptions; the study evaluates its solutions to programming problems.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "ChatGPT-4.0 to provide solutions for 300 data structure-based problems using Java and Python"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC97",
+      "status": "answered",
+      "data": {
+        "title": "Enhancing Project-Specific Code Completion by Inferring Internal API Information",
+        "solution_name": "InferCom"
+      },
+      "rq2": {
+        "form": {
+          "note": "InferCom is presented as a proposed code-completion approach and API-inference method, rather than as a directly operated product or reusable library.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose a code completion approach that enhances project-specific code completion"
+        },
+        "activity": {
+          "note": "The approach supports project-specific line-level code completion by retrieving project context and generating the continuation of unfinished code.",
+          "value": "Code completion",
+          "other": "",
+          "evidence": "We focus on project-specific line-level code completion."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC98",
+      "status": "answered",
+      "data": {
+        "title": "Cross-lingual Transfer in Programming Languages: An Extensive Empirical Study",
+        "solution_name": "Cross-lingual Transfer (XPL)"
+      },
+      "rq2": {
+        "form": {
+          "note": "XPL is presented as an empirical study that proposes and evaluates a source-language prediction method, not as a ready-to-use product or released model.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "Developing a method to predict the best language to transfer from, for different target languages and tasks."
+        },
+        "activity": {
+          "note": "The study evaluates several coding activities and does not single out one as its sole focus; code generation is the closest default classification.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "The five tasks studied are derived from three multilingual code datasets: CodeNet, XCodeEval, and MBXP."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC103",
+      "status": "answered",
+      "data": {
+        "title": "Condor: A Code Discriminator Integrating General Semantics With Code Details",
+        "solution_name": "Condor"
+      },
+      "rq2": {
+        "form": {
+          "note": "Condor is presented as trained discriminator models (110M and 1.3B), rather than as a directly operated product or reusable software package.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We train two versions of Condor with different parameter scales (i.e., Condor-110M and Condor-1.3B)"
+        },
+        "activity": {
+          "note": "Condor analyzes code candidates for functional correctness without modifying them; among the available activities, static analysis and code review is the closest fit for this code-discrimination function.",
+          "value": "Static analysis and code review",
+          "other": "",
+          "evidence": "During inference, given a set of candidate code snippets {C1, C2, . . . , Ck}, the model outputs the probability pi that each code snippet Ci is functionally correct."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC106",
+      "status": "answered",
+      "data": {
+        "title": "No Need to Lift a Finger Anymore? Assessing the Quality of Code Generation by ChatGPT",
+        "solution_name": "ChatGPT"
+      },
+      "rq2": {
+        "form": {
+          "note": "ChatGPT is presented as a ready-to-use product that users interact with conversationally, rather than as a library or research-only system. The text describes its direct use through prompts and follow-up messages, so the best-fitting subtype is an application or platform.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "To use ChatGPT, developers send a text message as input."
+        },
+        "activity": {
+          "note": "The study primarily evaluates ChatGPT’s ability to produce code from problem descriptions and scenarios, which is code generation. Although it also examines multi-round fixing, code generation is the emphasized activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "we perform a systematic empirical assessment to the quality of code generation using ChatGPT"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC107",
+      "status": "answered",
+      "data": {
+        "title": "Few-shot code translation via task-adapted prompt learning",
+        "solution_name": "FSCTrans"
+      },
+      "rq2": {
+        "form": {
+          "note": "FSCTrans is presented as a proposed parameter-efficient prompt-learning approach, not as a ready-to-use product or reusable library.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "In this paper, we propose FSCTrans, a novel parameter-efficient tuning approach for code translation when furnished with only a few demonstration examples."
+        },
+        "activity": {
+          "note": "FSCTrans supports translating existing source code between programming languages, which is code evolution.",
+          "value": "Code evolution",
+          "other": "",
+          "evidence": "Code translation, the task of porting source code written in one language to another"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC111",
+      "status": "answered",
+      "data": {
+        "title": "StructCoder: Structure-Aware Transformer for Code Generation",
+        "solution_name": "StructCoder"
+      },
+      "rq2": {
+        "form": {
+          "note": "StructCoder is presented as a newly developed Transformer encoder-decoder model, rather than as a directly operated product or an integration library.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We develop a Transformer-based encoder-decoder model called StructCoder for code generation"
+        },
+        "activity": {
+          "note": "The model’s primary supported activity is generating code, including text-to-code generation and code translation; the paper explicitly focuses on code generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "This article addresses the problem of code generation, in which the goal is to generate target code given source code in a different language or a natural language description."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC112",
+      "status": "answered",
+      "data": {
+        "title": "Chain-of-Thought in Neural Code Generation: From and for Lightweight Language Models",
+        "solution_name": "COTTON"
+      },
+      "rq2": {
+        "form": {
+          "note": "COTTON is presented as a trained CoT-generation model built on CodeLlama, rather than as a user-facing application or integration.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "For model training, we employ CodeLlama-7b as the base model to generate CoTs automatically"
+        },
+        "activity": {
+          "note": "COTTON generates reasoning steps that guide language models in producing code from functional requirements; code generation is the emphasized construction activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "We design a novel approach COTTON to generate high-quality CoTs for guiding code generation"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC115",
+      "status": "answered",
+      "data": {
+        "title": "Evaluating Diverse Large Language Models for Automatic and General Bug Reproduction",
+        "solution_name": "LIBRO"
+      },
+      "rq2": {
+        "form": {
+          "note": "LIBRO is presented primarily as a proposed pipeline/technique for generating and postprocessing tests, rather than as a directly operated product. The paper notes that its implementation is public, but does not identify a user-facing product or interface.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose LIBRO, a pipeline that uses LLMs to first generate a number of BRT candidates"
+        },
+        "activity": {
+          "note": "LIBRO generates bug-reproducing test cases from bug reports, supporting test generation during software construction.",
+          "value": "Construction testing",
+          "other": "",
+          "evidence": "By prompting LLMs to generate bug-reproducing tests"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC122",
+      "status": "answered",
+      "data": {
+        "title": "Improving Code Completion by Solving Data Inconsistencies in the Source Code with a Hierarchical Language Model",
+        "solution_name": "Hierarchical Language Model"
+      },
+      "rq2": {
+        "form": {
+          "note": "HLM is proposed and evaluated as a language model for code, rather than as a directly operated product or reusable library.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose a novel Hierarchical Language Model (HLM)"
+        },
+        "activity": {
+          "note": "The model predicts code tokens to support code completion.",
+          "value": "Code completion",
+          "other": "",
+          "evidence": "The proposed HLM takes the hierarchical structure of the code tree into consideration to predict code."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "SC127",
+      "status": "answered",
+      "data": {
+        "title": "Automated Source Code Generation and Auto-Completion Using Deep Learning: Comparing and Discussing Current Language Model-Related Approaches",
+        "solution_name": "GPT-2"
+      },
+      "rq2": {
+        "form": {
+          "note": "GPT-2 is presented as a pretrained transformer model that the authors fine-tune and evaluate, not as a directly operated product.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we used three standard pre-trained models as a basis: GPT-2, BERT, and RoBERTa"
+        },
+        "activity": {
+          "note": "The paper describes GPT-2 as predicting the next token to generate source code and evaluates its code-generation outputs.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "We chose to use GPT-2 since it is a causal transformer (unidirectional) that can predict the next token in a sequence. Therefore, it can generate source code based on the input"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    }
+  ]
+}

@@ -1,0 +1,770 @@
+{
+  "origin": "google",
+  "step": 8,
+  "model": "",
+  "updated_at": "2026-10-28T02:26:05.728216+00:00",
+  "count": 30,
+  "by_status": {
+    "pending": 0,
+    "answered": 30
+  },
+  "records": [
+    {
+      "id": "GO1",
+      "status": "answered",
+      "data": {
+        "title": "Code Generation using Retrieval Augmented Generation + LangChain",
+        "solution_name": "LangChain + code-bison + RAG"
+      },
+      "rq2": {
+        "form": {
+          "note": "The solution is presented as an approach for combining retrieval-augmented generation, LangChain, and code-bison to generate code; the article does not describe a ready-to-use product.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "In this article I will present two ways of generating code: first, submit the question straight to LangChain, that will use code-bison pretrained model + instructions to give a response, and second, RAG"
+        },
+        "activity": {
+          "note": "The solution supports generating new code from user prompts, with retrieved code context used to inform the generated response.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "The top-K most similar embeddings to question embeddings will be used by LangChain + code-bison + instructions to generate a better response."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO3",
+      "status": "answered",
+      "data": {
+        "title": "Context-aware code generation: RAG and Vertex AI Codey APIs | Google Cloud Blog",
+        "solution_name": "Vertex AI Codey APIs"
+      },
+      "rq2": {
+        "form": {
+          "note": "Codey is a ready-to-use suite of APIs on Vertex AI, accessed programmatically to support coding tasks.",
+          "value": "Tool",
+          "tool_subtype": "Web service or API",
+          "other": "",
+          "evidence": "There are three Codey APIs that help boost developer productivity:"
+        },
+        "activity": {
+          "note": "The article focuses on using Codey with retrieval augmentation to generate code; it also mentions completion, but generation is the central activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "From there, a prompt, the user question and relevant information chunks are sent to the Codey APIs to generate a response."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO5",
+      "status": "answered",
+      "data": {
+        "title": "L2MAC: Large Language Model Automatic Computer for Extensive Code Generation // van der Schaar Lab",
+        "solution_name": "L2MAC"
+      },
+      "rq2": {
+        "form": {
+          "note": "L2MAC is presented as a research system that generates and executes sequential instructions, uses memory tools, and iteratively checks outputs, rather than as a directly operated product.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "the first practical LLM-based stored-program automatic computer (von Neumann architecture) framework for long and consistent output generation tasks"
+        },
+        "activity": {
+          "note": "The system is primarily evaluated for generating extensive codebases from user prompts and specified features.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "a practical instantiation of L2MAC for generating large, extensive code-bases was created"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO8",
+      "status": "answered",
+      "data": {
+        "title": "LangGraph: Building self-correcting RAG agent",
+        "solution_name": "Self-Correcting RAG Agent"
+      },
+      "rq2": {
+        "form": {
+          "note": "The solution is a LangGraph agent workflow that generates code, executes it, and retries after errors; the text presents it as an agent implementation, not a directly operated product.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "“we moved beyond linear workflows to build a sophisticated Self-Correcting Code Generation Agent.”"
+        },
+        "activity": {
+          "note": "The agent’s primary purpose is producing Python code from a user’s request; execution and reflection support iterative improvement of that generated code.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "“Your task is to answer the user's question by generating a complete, executable Python script.”"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO9",
+      "status": "answered",
+      "data": {
+        "title": "Retrieval-Augmented Generation (RAG) and LLMs for smart code generation: Advancing Plant Simulation SimTalk and beyond - Tecnomatix",
+        "solution_name": "SimTalk Copilot"
+      },
+      "rq2": {
+        "form": {
+          "note": "The solution is described as a code-generation assistant for SimTalk. The text does not specify its delivery interface, so Application or platform is the closest Tool subtype.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "building a code generation assistant for SimTalk"
+        },
+        "activity": {
+          "note": "The assistant supports producing SimTalk code, which is code generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "LLMs for generating SimTalk code"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO11",
+      "status": "answered",
+      "data": {
+        "title": "Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems | Research",
+        "solution_name": "Spec2RTL-Agent"
+      },
+      "rq2": {
+        "form": {
+          "note": "Spec2RTL-Agent is presented as a research LLM agent system, not as a directly usable product.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we address this gap by proposing an LLM agent system, termed Spec2RTL-Agent"
+        },
+        "activity": {
+          "note": "The system generates RTL implementations from complex specification documents.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "designed to directly process complex specification documentation and generate corresponding RTL code implementations"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO15",
+      "status": "answered",
+      "data": {
+        "title": "A Collective Evaluation Platform for LLM Code Generation",
+        "solution_name": "CodeArena"
+      },
+      "rq2": {
+        "form": {
+          "note": "CodeArena is presented as an online evaluation platform that users can access directly, so it is a tool and an application or platform.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "we introduce CodeArena, an online evaluation framework tailored for LLM code generation"
+        },
+        "activity": {
+          "note": "The platform evaluates LLMs' code-generation capabilities, so the supported coding activity is code generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "quantitatively evaluate their coding capabilities"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO16",
+      "status": "answered",
+      "data": {
+        "title": "Enhancing LLM Code Generation with RAG and AST-Based Chunking",
+        "solution_name": "AST-Based Chunking"
+      },
+      "rq2": {
+        "form": {
+          "note": "AST-based chunking is presented as a methodology for splitting code into syntactically meaningful chunks, not as a standalone product.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "AST-based chunking splits code at meaningful boundaries — such as function definitions or control structures — ensuring each chunk remains syntactically valid."
+        },
+        "activity": {
+          "note": "The approach is used in a RAG pipeline to provide context for generating code.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "In practical applications, we can then use these retrieved code chunks to enhance our prompt for code generation."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO18",
+      "status": "answered",
+      "data": {
+        "title": "LLM-based and Retrieval-Augmented Control Code Generation | Proceedings of the 1st International Workshop on Large Language Models for Code",
+        "solution_name": "LLM-based and Retrieval-Augmented Control Code Generation"
+      },
+      "rq2": {
+        "form": {
+          "note": "The contribution is presented as a retrieval-augmented code-generation method; the GPT-4-based prototype is used to evaluate it rather than presented as a ready-to-use product.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we proposed a retrieval-augmented control code generation method"
+        },
+        "activity": {
+          "note": "The method supports generating IEC 61131-3 control code, incorporating retrieved function blocks.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "successfully generated IEC 61131-3 ST code that integrated the desired function blocks"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO19",
+      "status": "answered",
+      "data": {
+        "title": "Self-Spec: Model-Authored Specifications for Reliable LLM Code Generation",
+        "solution_name": "Not applicable"
+      },
+      "rq2": {
+        "form": {
+          "note": "The text describes an OpenReview browser-verification page, not a coding product or research artifact.",
+          "value": "Other",
+          "tool_subtype": "",
+          "other": "Browser verification page",
+          "evidence": "# Verifying your browser",
+          "human_value": "Method or technique",
+          "human_other": ""
+        },
+        "activity": {
+          "note": "No coding activity is described; the page only asks the reader to complete a verification check.",
+          "value": "Other",
+          "other": "No coding activity stated",
+          "evidence": "Please complete the verification above.",
+          "human_value": "Code generation",
+          "human_other": ""
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO22",
+      "status": "answered",
+      "data": {
+        "title": "Enhancing repository-level code completion with selective retrieval",
+        "solution_name": "Repoformer"
+      },
+      "rq2": {
+        "form": {
+          "note": "Repoformer is presented as a fine-tuned code language model for making selective retrieval decisions, rather than as a directly operated product.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "the billion-parameter Repoformer model"
+        },
+        "activity": {
+          "note": "The solution is specifically designed to improve repository-level code completion using selectively retrieved context.",
+          "value": "Code completion",
+          "other": "",
+          "evidence": "on code completion tasks, a code LLM fine-tuned on our dataset performed even better"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO23",
+      "status": "answered",
+      "data": {
+        "title": "RAGdeterm: Deterministic retrieval-augmented generation for code generation",
+        "solution_name": "RAGdeterm"
+      },
+      "rq2": {
+        "form": {
+          "note": "RAGdeterm is presented as a deterministic retrieval-augmented generation approach, not as a directly usable product in the provided text.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "This paper introduces RAGdeterm, a deterministic Retrieval-Augmented Generation approach"
+        },
+        "activity": {
+          "note": "The approach enriches prompts with project-specific source-code context to support code generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "effective code generation requires reliable access to up-to-date project-specific source code"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO24",
+      "status": "answered",
+      "data": {
+        "title": "Code generation using Code Llama 70B and Mixtral 8x7B on Amazon SageMaker | Amazon Web Services",
+        "solution_name": "Code Llama 70B"
+      },
+      "rq2": {
+        "form": {
+          "note": "Code Llama 70B is described as a fine-tuned foundation model, so the solution is a model rather than the SageMaker platform used to deploy it.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "Code Llama 70B is a variant of the Code Llama foundation model (FM), a fine-tuned version of Meta’s renowned Llama 2 model."
+        },
+        "activity": {
+          "note": "The text primarily presents Code Llama 70B for producing new code from prompts; it also mentions code infilling, but code generation is the emphasized activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "This massive language model is specifically designed for code generation and understanding, capable of generating code from natural language prompts or existing code snippets."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO25",
+      "status": "answered",
+      "data": {
+        "title": "CodeRAG: Supportive Code Retrieval on Bigraph for Real-World Code Generation",
+        "solution_name": "CodeRAG"
+      },
+      "rq2": {
+        "form": {
+          "note": "CodeRAG is presented as a research system that uses an agentic process and programming tools to retrieve code and support generation, not as a directly operated product.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "CodeRAG is an agentic system, which allows LLMs to adaptively adjust reasoning strategy and search for the supportive codes which LLMs need."
+        },
+        "activity": {
+          "note": "The system retrieves repository context to help LLMs produce new code for real-world, repository-level requirements.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "CodeRAG aims to comprehensively retrieve supportive codes for real-world repo-level code generation."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO30",
+      "status": "answered",
+      "data": {
+        "title": "Agentic Refactoring: An Empirical Study of AI Coding Agents",
+        "solution_name": "Agentic Refactoring"
+      },
+      "rq2": {
+        "form": {
+          "note": "The paper presents an empirical study of refactorings produced by existing AI coding agents, rather than introducing a tool, agent, or other reusable artifact.",
+          "value": "Other",
+          "tool_subtype": "",
+          "other": "Empirical study",
+          "evidence": "we present a large-scale study of AI agent-generated refactorings in real-world open-source Java projects",
+          "human_value": "Tool",
+          "human_tool_subtype": "Application or platform",
+          "human_other": ""
+        },
+        "activity": {
+          "note": "The studied activity is improving the internal structure and quality of existing code while preserving observable behavior.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "refactoring, a cornerstone of sustainable software development aimed at improving internal code quality without altering observable behavior"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO31",
+      "status": "answered",
+      "data": {
+        "title": "AI Code Refactoring: Tools, Tactics & Best Practices",
+        "solution_name": "Augment Code"
+      },
+      "rq2": {
+        "form": {
+          "note": "Augment Code is presented as a ready-to-use coding product with a VS Code extension offering side-panel chat, inline suggestions, and diffs, so the closest subtype is an IDE integration.",
+          "value": "Tool",
+          "tool_subtype": "Plugin or IDE integration",
+          "other": "",
+          "evidence": "Augment Code's installation mirrors familiar patterns from GitHub Copilot and other tools, with side-panel chat, inline suggestions, and unified diffs"
+        },
+        "activity": {
+          "note": "The text focuses on using Augment Code to restructure existing code while preserving behavior, including renaming, extraction, and dead-code removal.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "Modern AI-powered tools can handle variable renaming across call sites, function extraction with proper parameter threading, dead-code elimination, and documentation updates while preserving existing behavior"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO32",
+      "status": "answered",
+      "data": {
+        "title": "Introducing AI Generated Code Refactoring",
+        "solution_name": "CodeScene AI Generated Code Refactoring"
+      },
+      "rq2": {
+        "form": {
+          "note": "The text presents CodeScene AI Generated Code Refactoring as a ready-to-use product offered through a beta program, rather than as a research-only method or model. The text does not specify a particular interface, so application or platform is the closest subtype.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "our AI Generated Code Refactoring tool"
+        },
+        "activity": {
+          "note": "The tool automates changes to existing unhealthy code to improve code quality and maintainability, so refactoring and restructuring is its emphasized activity.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "automate refactoring of unhealthy code"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO34",
+      "status": "answered",
+      "data": {
+        "title": "Refactoring With AI — Thoughtworks Technology Podcast",
+        "solution_name": "CodeScene"
+      },
+      "rq2": {
+        "form": {
+          "note": "CodeScene is presented as a directly usable automated refactoring product in beta, rather than only a research method or model. The text does not specify its delivery interface, so application or platform is the closest subtype.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "CodeScene's new automated refactoring tool is now in beta."
+        },
+        "activity": {
+          "note": "The solution supports improving the internal structure and quality of existing code while aiming to preserve its behavior.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "instructed them to refactor the code"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO36",
+      "status": "answered",
+      "data": {
+        "title": "Announcing AI-assisted refactoring in the Moderne Platform",
+        "solution_name": "Moderne Platform"
+      },
+      "rq2": {
+        "form": {
+          "note": "Moderne is a hosted platform that users operate to run recipes across codebases and review the resulting diffs.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "we are announcing AI-assisted auto-refactoring in the Moderne Platform"
+        },
+        "activity": {
+          "note": "The platform primarily supports automated refactoring of existing code across repositories; the featured recipe repairs misencoded comments and Javadocs.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "The Moderne Platform runs OpenRewrite recipes (or programs) against pre-built and cached LSTs to search and transform code."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO37",
+      "status": "answered",
+      "data": {
+        "title": "Automatic Code Refactoring with AI - Federico Tomassetti",
+        "solution_name": "Cursor"
+      },
+      "rq2": {
+        "form": {
+          "note": "Cursor is presented as a ready-to-use AI-based code editor that users operate directly, so it is a tool in the application or platform subtype.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "an AI-based code editor"
+        },
+        "activity": {
+          "note": "The article primarily examines using Cursor to refactor existing code and projects, despite also demonstrating method generation and dependency updates.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "We are going to look through several examples of refactoring tasks to see where AI can help"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO38",
+      "status": "answered",
+      "data": {
+        "title": "An Empirical Study on the Code Refactoring Capability of Large Language Models | ACM Transactions on Software Engineering and Methodology",
+        "solution_name": "StarCoder2, GPT-4o, LLaMA 3, DeepSeek-v3 (empirical study)"
+      },
+      "rq2": {
+        "form": {
+          "note": "The named solution is a set of language models evaluated for code refactoring, rather than a directly usable product or an integration artifact.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "evaluating the quality of refactored code produced by StarCoder2, GPT-4o-mini, GPT-4o, LLaMA 3, and DeepSeek-v3"
+        },
+        "activity": {
+          "note": "The study emphasizes changing existing code to improve its internal quality while preserving its functionality, which is refactoring and restructuring.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "Code refactoring is a technique used to enhance the internal quality of the code base without altering its external functionalities."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO40",
+      "status": "answered",
+      "data": {
+        "title": "Can AI help me refactor legacy code?",
+        "solution_name": "Rubberduck"
+      },
+      "rq2": {
+        "form": {
+          "note": "Rubberduck is a ready-to-use coding assistant integrated into VS Code, rather than a library or research-only system.",
+          "value": "Tool",
+          "tool_subtype": "Plugin or IDE integration",
+          "other": "",
+          "evidence": "an AI-powered coding assistant for VS Code"
+        },
+        "activity": {
+          "note": "The article uses Rubberduck to restructure existing code, simplify conditionals, and extract logic; refactoring is the emphasized activity.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "AI can really help you refactor code faster!"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO47",
+      "status": "answered",
+      "data": {
+        "title": "An empirical comparison of AI assisted software refactoring tools - Scientific Reports",
+        "solution_name": "Gemini"
+      },
+      "rq2": {
+        "form": {
+          "note": "The text identifies Gemini as a model used in the comparison and names its underlying Google model; it does not describe Gemini as a released research system or reusable library.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "Gemini based upon model of Google-Flash-1.5-8B"
+        },
+        "activity": {
+          "note": "Gemini is evaluated for improving the internal structure and quality of existing code while preserving its functionality, so refactoring and restructuring is the best fit.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "the potential of these tools to support developers in code refactoring tasks"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO53",
+      "status": "answered",
+      "data": {
+        "title": "GenAssist: Interactive Prompt-Driven XR Program Generation",
+        "solution_name": "GenAssist"
+      },
+      "rq2": {
+        "form": {
+          "note": "GenAssist is presented as a directly usable system with a user-facing prompt interface inside an XR environment, so it is best classified as an application or platform.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "A simple chat style prompt box inside the XR environment."
+        },
+        "activity": {
+          "note": "The system generates executable XR programs from natural-language prompts, which is code generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "GenAssist is a system for generating interactive Extended Reality (XR) programs from natural language."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO54",
+      "status": "answered",
+      "data": {
+        "title": "Evaluating and Improving Large Language Models for Competitive Program Generation",
+        "solution_name": "DeepSeek-R1 with improvement framework (for competitive programming generation)"
+      },
+      "rq2": {
+        "form": {
+          "note": "The contribution is a proposed improvement framework combining repair and information-augmented regeneration, rather than a released product or a new model.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose a targeted improvement framework by combining a multi-turn dialogue-based repair phase and an information-augmented regeneration phase"
+        },
+        "activity": {
+          "note": "The framework is evaluated to improve the generation of competitive programming solutions; code generation is the emphasized activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "we evaluate its competitive program generation capabilities"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO58",
+      "status": "answered",
+      "data": {
+        "title": "Enabling Tensor Language Model to Assist in Generating High-Performance Tensor Programs for Deep Learning | USENIX",
+        "solution_name": "TLM"
+      },
+      "rq2": {
+        "form": {
+          "note": "The paper presents TLM as a proposed tensor-program generation framework and exploration approach, rather than as a directly operated product or a general released model family.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We propose a tensor program generation framework for deep learning applications."
+        },
+        "activity": {
+          "note": "TLM supports generating tensor programs, with the paper emphasizing the production of high-performance programs for deep learning workloads.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "Enabling Tensor Language Model to Assist in Generating High-Performance Tensor Programs for Deep Learning"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO64",
+      "status": "answered",
+      "data": {
+        "title": "Convo: a conversational programming language",
+        "solution_name": "Convo"
+      },
+      "rq2": {
+        "form": {
+          "note": "Convo is presented as a conversational programming language, not as a directly operated product or one of the other listed forms.",
+          "value": "Other",
+          "tool_subtype": "",
+          "other": "Conversational programming language",
+          "evidence": "Convo is a high-level, conversational programming language designed to be interpreted by Generative AI models."
+        },
+        "activity": {
+          "note": "Convo supports generating code in a target programming language from a Convo program; this is best classified as code generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "A Large Language Model (LLM) can then translate into specific programming languages like Python, JavaScript, or any other language."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO86",
+      "status": "answered",
+      "data": {
+        "title": "ICLR Poster ShinkaEvolve: Towards Open-Ended and Sample-Efficient Program Evolution",
+        "solution_name": "ShinkaEvolve"
+      },
+      "rq2": {
+        "form": {
+          "note": "ShinkaEvolve is presented as a reusable research framework, with its code provided, rather than as a product people operate directly.",
+          "value": "Library or framework",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We introduce ShinkaEvolve: a new framework leveraging large language models (LLMs)"
+        },
+        "activity": {
+          "note": "It iteratively produces and evaluates program candidates to discover solutions; code generation is the closest listed activity because the text does not describe language or platform migration.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "ShinkaEvolve discovers a new state-of-the-art circle packing solution using only 150 samples"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO88",
+      "status": "answered",
+      "data": {
+        "title": "CoCoEvo: Co-Evolution of Programs and Test Cases to Enhance Code Generation",
+        "solution_name": "CoCoEvo"
+      },
+      "rq2": {
+        "form": {
+          "note": "CoCoEvo is presented as a novel LLM-based co-evolution framework with proposed evolutionary operators and optimization strategies, not as a directly usable product or released model.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we introduce CoCoEvo, a novel LLM-based co-evolution framework"
+        },
+        "activity": {
+          "note": "The framework generates programs from natural-language problem descriptions and function headers; although it also evolves test cases, the paper emphasizes automated code generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "CoCoEvo eliminates the dependency on pre-defined test cases by generating both programs and test cases directly from natural language problem descriptions and function headers."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "GO92",
+      "status": "answered",
+      "data": {
+        "title": "Automated Generation of Code Contracts",
+        "solution_name": "Fine-tuned CodeT5/CodeT5+ (for automated code contract generation)"
+      },
+      "rq2": {
+        "form": {
+          "note": "The solution consists of CodeT5 and CodeT5+ models fine-tuned to generate code contracts, rather than a directly operated product.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "To fine-tune two state-of-the-art Large Language Models, CodeT5 and CodeT5+, we derive a dataset of more than 14k Java methods comprising contracts in form of Java Modeling Language (JML) annotations, and train the models on the task of generating contracts."
+        },
+        "activity": {
+          "note": "The models produce new pre- and postconditions for Java methods, so their supported activity is code generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "This paper examines the potential of Generative AI to automatically generate code contracts in terms of pre- and postconditions"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    }
+  ]
+}

@@ -1,0 +1,838 @@
+{
+  "origin": "hf",
+  "step": 8,
+  "model": "",
+  "updated_at": "2026-10-28T02:26:05.729550+00:00",
+  "count": 33,
+  "by_status": {
+    "pending": 0,
+    "answered": 33
+  },
+  "records": [
+    {
+      "id": "HF1",
+      "status": "answered",
+      "data": {
+        "title": "CodeArena: A Collective Evaluation Platform for LLM Code Generation",
+        "solution_name": "CodeArena"
+      },
+      "rq2": {
+        "form": {
+          "note": "CodeArena is a ready-to-use online evaluation platform that users access directly; its APIs and Python library are supporting interfaces.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "CodeArena is an online code evaluation platform built upon an open-source OJ framework DMOJ"
+        },
+        "activity": {
+          "note": "The platform evaluates code produced by LLMs for programming problems, so its supported coding activity is code generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "CodeArena is an online evaluation framework tailored for LLM code generation."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF3",
+      "status": "answered",
+      "data": {
+        "title": "Enhancing LLM Code Generation: A Systematic Evaluation of Multi-Agent Collaboration and Runtime Debugging for Improved Accuracy, Reliability, and Latency",
+        "solution_name": "ACT + Debugger framework"
+      },
+      "rq2": {
+        "form": {
+          "note": "This is a research framework that coordinates analyst, coder, tester, and debugger agents in a multi-step coding workflow, rather than a ready-to-use product.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "The framework implements a sequential flow in which the code is first generated using the ACT (analyst, coder, and tester agents) collaboration system."
+        },
+        "activity": {
+          "note": "The framework primarily supports generating code from task requirements, with testing and debugging used to refine the generated output.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "we implement a framework that combines the two prominent post-training strategies discussed above—multi-agent collaboration as a process-oriented pipeline to generate the code and runtime execution information-based debugging"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF4",
+      "status": "answered",
+      "data": {
+        "title": "PlayCoder: Making LLM-Generated GUI Code Playable",
+        "solution_name": "PlayCoder"
+      },
+      "rq2": {
+        "form": {
+          "note": "PlayCoder is presented as a research multi-agent framework for generating and refining GUI application code, rather than as a directly operated product.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose PlayCoder, a novel multi-agent framework that leverages two specialized agents"
+        },
+        "activity": {
+          "note": "Its main supported activity is generating repository-aware GUI application code, with testing and repair used iteratively to improve generated code.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "a multi-agent framework that integrates repository-aware code generation, automated GUI behavioral testing, and iterative program repair"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF5",
+      "status": "answered",
+      "data": {
+        "title": "Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning",
+        "solution_name": "PaperCoder"
+      },
+      "rq2": {
+        "form": {
+          "note": "PaperCoder is presented as a research multi-agent system that coordinates planning, analysis, and code generation to produce repositories from papers, rather than as a directly operated product.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we introduce PaperCoder, a multi-agent LLM framework that transforms machine learning papers into operational code repositories"
+        },
+        "activity": {
+          "note": "Its central purpose is generating complete, repository-level code implementations from scientific papers.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "The goal of our repository-level code generation task is to automatically produce a repository that faithfully implements methods and experiments described in machine learning papers"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF6",
+      "status": "answered",
+      "data": {
+        "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
+        "solution_name": "simple self-distillation (SSD)"
+      },
+      "rq2": {
+        "form": {
+          "note": "SSD is presented as a proposed self-distillation procedure, not as a ready-to-use product; the repository link does not change the paper’s main contribution.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "sample solutions from the base model with specified temperature and truncation, then fine-tune on those raw, unverified samples via standard cross-entropy loss"
+        },
+        "activity": {
+          "note": "The method is evaluated as a way to improve code generation, including on competitive-programming problems.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "SSD improves code generation models’ performance"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF7",
+      "status": "answered",
+      "data": {
+        "title": "StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Feedback",
+        "solution_name": "StepCoder"
+      },
+      "rq2": {
+        "form": {
+          "note": "StepCoder is presented as a proposed reinforcement-learning training framework and method, not as a ready-to-use product or released model.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We introduce StepCoder, a novelty training method via RL, including CCCS and FGO."
+        },
+        "activity": {
+          "note": "The method supports generating code from human requirements; its code-completion subtasks are part of the training curriculum for code generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "StepCoder, a novel RL framework for code generation"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF9",
+      "status": "answered",
+      "data": {
+        "title": "Think Anywhere in Code Generation",
+        "solution_name": "THINK-ANYWHERE"
+      },
+      "rq2": {
+        "form": {
+          "note": "THINK-ANYWHERE is presented as a reasoning mechanism and training approach for LLMs, not as a ready-to-use product or released model.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose THINK-ANYWHERE, a novel reasoning mechanism of LLMs for code generation"
+        },
+        "activity": {
+          "note": "The mechanism supports producing code from coding requirements, with reasoning invoked during generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "enables LLMs to invoke thinking on-demand at any token position during code generation"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF12",
+      "status": "answered",
+      "data": {
+        "title": "GLLM: Self-Corrective G-Code Generation using Large Language Models with User Feedback",
+        "solution_name": "GLLM"
+      },
+      "rq2": {
+        "form": {
+          "note": "GLLM is presented as a directly usable web application for entering machining tasks and generating G-code.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "We developed a user-friendly web interface using Streamlit"
+        },
+        "activity": {
+          "note": "GLLM translates natural-language machining instructions into executable G-code, so its main supported activity is code generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "automatically generate G-code from natural language instructions"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF14",
+      "status": "answered",
+      "data": {
+        "title": "WebVIA: A Web-based Vision-Language Agentic Framework for Interactive and Verifiable UI-to-Code Generation",
+        "solution_name": "WebVIA"
+      },
+      "rq2": {
+        "form": {
+          "note": "WebVIA is presented as a research agentic system that explores webpages, generates code, and validates interactions, rather than as a directly operated product.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose WebVIA, the first agentic framework for interactive UI-to-Code generation and validation"
+        },
+        "activity": {
+          "note": "Its primary coding activity is generating executable, interactive front-end code from UI screenshots and interaction traces.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "the UI2Code model generates executable front-end HTML/CSS/JavaScript code"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF17",
+      "status": "answered",
+      "data": {
+        "title": "Teaching LLMs a Low-Resource Language: Enhancing Code Completion in Pharo",
+        "solution_name": "Pharo-specialized LLMs"
+      },
+      "rq2": {
+        "form": {
+          "note": "The solution consists of language models specialized for Pharo, rather than a directly operated product or an integrated library.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we fine-tune these models on a curated Pharo dataset"
+        },
+        "activity": {
+          "note": "The models are specialized and evaluated primarily to predict missing code in partially written Pharo programs.",
+          "value": "Code completion",
+          "other": "",
+          "evidence": "Our goal is, however, in-IDE code completion"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF18",
+      "status": "answered",
+      "data": {
+        "title": "CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis",
+        "solution_name": "CodeGen"
+      },
+      "rq2": {
+        "form": {
+          "note": "CODEGEN is presented as a released family of trained autoregressive language models, so the best-fitting form is Model.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we train and release a family of large language models up to 16.1B parameters, called CODEGEN"
+        },
+        "activity": {
+          "note": "The models support generating new programs from natural-language specifications, including through multi-turn program synthesis.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "program synthesis strives to generate a computer program as a solution to a given problem specification, expressed with input-output examples or natural language descriptions."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF20",
+      "status": "answered",
+      "data": {
+        "title": "PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback",
+        "solution_name": "PanGu-Coder2"
+      },
+      "rq2": {
+        "form": {
+          "note": "PanGu-Coder2 is presented as a trained code language model and the paper’s main model contribution, rather than as a directly operated product.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We present PanGu-Coder2, a model that improves nearly 30% over its base model"
+        },
+        "activity": {
+          "note": "The model supports generating code from programming problem descriptions; this is the paper’s emphasized and evaluated activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "boost pre-trained large language models for code generation"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF21",
+      "status": "answered",
+      "data": {
+        "title": "ScreenCoder: Advancing Visual-to-Code Generation for Front-End Automation via Modular Multimodal Agents",
+        "solution_name": "ScreenCoder"
+      },
+      "rq2": {
+        "form": {
+          "note": "ScreenCoder is presented as a research framework of specialized agents for grounding, planning, and generating UI code, rather than as a directly operated product.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we propose ScreenCoder, a modular multi-agent framework that decomposes the UI-to-code task into three interpretable stages: grounding, planning, and generation."
+        },
+        "activity": {
+          "note": "It supports generating front-end code from UI screenshots or design sketches, which is its central evaluated task.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "ScreenCoder accurately transforms website screenshots and design sketches into pixel-perfect front-end code."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF22",
+      "status": "answered",
+      "data": {
+        "title": "Efficient Code Embeddings from Code Generation Models",
+        "solution_name": "jina-code-embeddings"
+      },
+      "rq2": {
+        "form": {
+          "note": "The contribution is a family of trained code-embedding models, presented and evaluated as the solution.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We have introduced `jina-code-embeddings`, a family of code embedding models with 0.5B and 1.5B parameters."
+        },
+        "activity": {
+          "note": "The models primarily support code retrieval, an activity not listed among the allowed categories, so the closest value is Other.",
+          "value": "Other",
+          "other": "Code retrieval",
+          "evidence": "`jina-code-embeddings` is a novel code embedding model suite designed to retrieve code from natural language queries"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF23",
+      "status": "answered",
+      "data": {
+        "title": "cAST: Enhancing Code Retrieval-Augmented Generation with Structural Chunking via Abstract Syntax Tree",
+        "solution_name": "CAST"
+      },
+      "rq2": {
+        "form": {
+          "note": "CAST is presented as an AST-based chunking strategy, with released code, rather than as a ready-to-use product.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we present CAST as a simple and effective chunking strategy for retrieval-augmented code generation."
+        },
+        "activity": {
+          "note": "CAST supports retrieval-augmented code generation; the paper evaluates it across several generation tasks, so code generation is the best fit.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "Extensive experiments show that CAST improves performance across a range of code generation tasks."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF25",
+      "status": "answered",
+      "data": {
+        "title": "ArtifactsBench: Bridging the Visual-Interactive Gap in LLM Code Generation Evaluation",
+        "solution_name": "ArtifactsBench"
+      },
+      "rq2": {
+        "form": {
+          "note": "ArtifactsBench is presented primarily as a benchmark for evaluating LLMs on interactive visual artifacts; the evaluation harness is an accompanying artifact.",
+          "value": "Dataset or benchmark",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We introduce ArtifactsBench, a benchmark for evaluating LLMs on interactive visual artifacts."
+        },
+        "activity": {
+          "note": "The benchmark evaluates models’ ability to generate executable visual artifacts from instructions, so the supported activity is code generation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "transform multimodal instructions—spanning text, images, and interaction logic—into high-quality, executable interactive visual artifacts"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF26",
+      "status": "answered",
+      "data": {
+        "title": "LeetCodeDataset: A Temporal Dataset for Robust Evaluation and Efficient Training of Code LLMs",
+        "solution_name": "LeetCodeDataset"
+      },
+      "rq2": {
+        "form": {
+          "note": "LeetCodeDataset is presented as a curated benchmark and training dataset for code-generation models, rather than as a directly operated coding product.",
+          "value": "Dataset or benchmark",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We introduce LeetCodeDataset, a high-quality benchmark for evaluating and training code-generation models"
+        },
+        "activity": {
+          "note": "The dataset supports code generation through evaluation and training; code generation is the activity explicitly emphasized in the text.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "This dataset can also support RL training by leveraging test cases as verifiers, making it a self-contained testbed for LLM development in code generation."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF27",
+      "status": "answered",
+      "data": {
+        "title": "ReLook: Vision-Grounded RL with a Multimodal LLM Critic for Agentic Web Coding",
+        "solution_name": "ReLook"
+      },
+      "rq2": {
+        "form": {
+          "note": "ReLook is presented as a research agentic system that iteratively generates and refines front-end code by invoking a multimodal critic, not as a ready-to-use product.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We present ReLook, an agentic, vision-grounded reinforcement learning framework that empowers an agent to close a robust generate–diagnose–refine loop by invoking a multimodal LLM (MLLM) as a tool."
+        },
+        "activity": {
+          "note": "Its primary supported activity is generating front-end code from user requests, with visual feedback used to refine the generated output.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "The task of front-end code generation is to produce a code snippet c, consisting of SVG, HTML, CSS, and JavaScript, that correctly implements a user’s intent specified in a natural language question q."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF28",
+      "status": "answered",
+      "data": {
+        "title": "Verus-SpecGym: An Agentic Environment for Evaluating Specification Autoformalization",
+        "solution_name": "VERUS-SPECGYM"
+      },
+      "rq2": {
+        "form": {
+          "note": "VERUS-SPECGYM is an evaluation environment and benchmark infrastructure for measuring agents’ specification autoformalization, rather than a coding product or the agent itself.",
+          "value": "Dataset or benchmark",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "VERUS-SPECGYM, an agentic environment for evaluating specification autoformalization"
+        },
+        "activity": {
+          "note": "The environment supports translating informal programming intent into formal specifications. This specialized activity is not one of the listed code-production or code-maintenance categories, so Other is the closest fit.",
+          "value": "Other",
+          "other": "Formal specification generation (autoformalization)",
+          "evidence": "translating informal programming intent into faithful formal specifications"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF30",
+      "status": "answered",
+      "data": {
+        "title": "BigCodeArena: Unveiling More Reliable Human Preferences in Code Generation via Execution",
+        "solution_name": "BIGCODEARENA"
+      },
+      "rq2": {
+        "form": {
+          "note": "BIGCODEARENA is a ready-to-use web platform that people use directly to compare and evaluate generated code.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "we introduce BIGCODEARENA, a new open human evaluation platform for code generation"
+        },
+        "activity": {
+          "note": "The platform supports code generation by enabling users to evaluate LLM-generated code; code generation is the activity emphasized throughout the paper.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "BIGCODEARENA, a new platform for human-in-the-loop evaluation of code generation"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF31",
+      "status": "answered",
+      "data": {
+        "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents",
+        "solution_name": "Agents4PLC"
+      },
+      "rq2": {
+        "form": {
+          "note": "Agents4PLC is presented as a research multi-agent framework, rather than as a directly operated product; it coordinates agents to generate and verify PLC code.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "We propose Agents4PLC, an LLM-based multi-agent framework for automating the generation and verification process of ST code."
+        },
+        "activity": {
+          "note": "Its primary supported activity is generating PLC code from user requirements, with validation and debugging included in the workflow.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "The Coding Agent generates ST code accordingly to the received plans"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF32",
+      "status": "answered",
+      "data": {
+        "title": "LongCodeZip: Compress Long Context for Code Language Models",
+        "solution_name": "LongCodeZip"
+      },
+      "rq2": {
+        "form": {
+          "note": "LongCodeZip is presented as a proposed, training-free compression approach, not as a directly operated product or an integrated library. The paper describes its compression procedure as the contribution.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "we introduce LongCodeZip, a training-free, model-agnostic, and plug-and-play context compression framework for code LLMs"
+        },
+        "activity": {
+          "note": "The approach supports several downstream tasks, but code completion is a central evaluated use case and receives focused analysis in the paper.",
+          "value": "Code completion",
+          "other": "",
+          "evidence": "LongCodeZip consistently achieves the highest ES scores across all compression ratios, demonstrating its strong ability to identify and retain the most relevant context for code completion."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF33",
+      "status": "answered",
+      "data": {
+        "title": "GPIoT: Tailoring Small Language Models for IoT Program Synthesis and Development",
+        "solution_name": "GPIoT"
+      },
+      "rq2": {
+        "form": {
+          "note": "GPIoT is presented as a ready-to-use system for IoT application development, deployed locally for users to generate programs; the text does not identify an IDE plugin, API, or command-line interface.",
+          "value": "Tool",
+          "tool_subtype": "Application or platform",
+          "other": "",
+          "evidence": "We propose GPIoT, a code generation system tailored for IoT application development"
+        },
+        "activity": {
+          "note": "Its emphasized function is generating new IoT-specific programs from user requirements, with code and documentation.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "GPIoT can generate code adopting more IoT-specialized algorithms"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF34",
+      "status": "answered",
+      "data": {
+        "title": "SuperCoder: Assembly Program Superoptimization with Large Language Models",
+        "solution_name": "SuperCoder"
+      },
+      "rq2": {
+        "form": {
+          "note": "SuperCoder is presented as a reinforcement-learning fine-tuned language model, not as a directly operated product or reusable software package.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "the fine-tuned model SuperCoder attains 95.0% correctness and 1.46× average speedup"
+        },
+        "activity": {
+          "note": "It improves the performance of existing assembly while preserving behavior. Of the allowed activities, refactoring and restructuring is the closest fit because it includes performance improvement.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "Superoptimization is the task of transforming a program into a faster one while preserving its input–output behavior."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF41",
+      "status": "answered",
+      "data": {
+        "title": "Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts",
+        "solution_name": "Nanbeige4.1-3B"
+      },
+      "rq2": {
+        "form": {
+          "note": "Nanbeige4.1-3B is presented as an open-source trained language model, with its checkpoint made available; it is not described as a directly operated product.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "The model checkpoint is available at `https://huggingface.co/Nanbeige/Nanbeige4.1-3B`"
+        },
+        "activity": {
+          "note": "The model explicitly supports code generation, and the paper emphasizes generating solutions to programming problems.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "For code generation, we design complexity-aware rewards in Reinforcement Learning, optimizing both correctness and efficiency."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF42",
+      "status": "answered",
+      "data": {
+        "title": "AST-T5: Structure-Aware Pretraining for Code Generation and Understanding",
+        "solution_name": "AST-T5"
+      },
+      "rq2": {
+        "form": {
+          "note": "AST-T5 is presented as a pretrained code language model, not as a directly operated product or reusable software package.",
+          "value": "Model",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "AST-T5 is a language model aimed at automated generation, transpilation, and understanding of code."
+        },
+        "activity": {
+          "note": "The model supports generation, transpilation, and understanding; code generation is the closest primary activity, emphasized in the title and evaluations.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "We introduce AST-T5, a novel pretraining paradigm that leverages the Abstract Syntax Tree (AST) for enhanced code generation, transpilation, and understanding."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF47",
+      "status": "answered",
+      "data": {
+        "title": "SALLM: Security Assessment of Generated Code",
+        "solution_name": "Sallm"
+      },
+      "rq2": {
+        "form": {
+          "note": "Sallm is presented as a benchmarking framework with a security-focused prompt dataset, assessment environment, and evaluation metrics, rather than as a directly operated coding product.",
+          "value": "Dataset or benchmark",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "a framework to benchmark LLMs’ abilities to generate secure code systematically"
+        },
+        "activity": {
+          "note": "The framework evaluates models’ ability to generate code that is both functionally correct and secure; code generation is its supported activity, while security assessment is how it evaluates the outputs.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "measure to what extent an LLM is capable of generating secure code"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF49",
+      "status": "answered",
+      "data": {
+        "title": "Lean Refactor: Multi-Objective Controllable Proof Optimization via Agentic Strategy Search",
+        "solution_name": "Lean Refactor"
+      },
+      "rq2": {
+        "form": {
+          "note": "Lean Refactor is presented as a research framework whose agent plans and executes refactoring steps with compiler feedback, not as a directly operated product.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "a retrieval-augmented agentic framework"
+        },
+        "activity": {
+          "note": "It rewrites existing Lean proofs to improve their structure and concision while preserving correctness, so refactoring and restructuring is the best fit.",
+          "value": "Refactoring and restructuring",
+          "other": "",
+          "evidence": "refactoring of Lean proofs"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF52",
+      "status": "answered",
+      "data": {
+        "title": "On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub",
+        "solution_name": "Claude Code"
+      },
+      "rq2": {
+        "form": {
+          "note": "Claude Code is presented as a ready-to-use coding product operated through a command-line interface, rather than as a research-only agent system.",
+          "value": "Tool",
+          "tool_subtype": "Command-line tool",
+          "other": "",
+          "evidence": "Fig. 1 illustrates a command-line interaction in which Claude Code performs a refactoring task."
+        },
+        "activity": {
+          "note": "Claude Code supports a broad range of coding tasks, including generation, modification, repair, refactoring, and testing. Since the study describes it as a general-purpose assistant rather than emphasizing a single supported activity, code generation is the closest fit.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "agentic coding, defined as the use of autonomous AI agents to generate, modify, and submit code"
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF53",
+      "status": "answered",
+      "data": {
+        "title": "K-Search: LLM Kernel Generation via Co-Evolving Intrinsic World Model",
+        "solution_name": "K-Search"
+      },
+      "rq2": {
+        "form": {
+          "note": "K-Search is presented as a research system that plans and carries out iterative kernel optimization using an LLM world model and execution feedback, rather than as a directly operated product.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "The system operates by iteratively expanding, updating, and pruning an explicit search tree, decoupling high-level planning from low-level code generation."
+        },
+        "activity": {
+          "note": "The system generates concrete GPU kernel implementations from optimization intents and evaluates them; the paper emphasizes kernel generation and synthesis.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "We formulate GPU kernel synthesis as an optimization problem under a fixed evaluation budget."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF56",
+      "status": "answered",
+      "data": {
+        "title": "NES: An Instruction-Free, Low-Latency Next Edit Suggestion Framework Powered by Learned Historical Editing Trajectories",
+        "solution_name": "NES"
+      },
+      "rq2": {
+        "form": {
+          "note": "NES is deployed as a directly used IDE-integrated solution, with suggestions accepted through Tab-key interaction.",
+          "value": "Tool",
+          "tool_subtype": "Plugin or IDE integration",
+          "other": "",
+          "evidence": "captured exclusively via our IDE plugin"
+        },
+        "activity": {
+          "note": "NES supports changing existing code based on editing history and developer intent; code evolution is the closest fit for its code-editing function.",
+          "value": "Code evolution",
+          "other": "",
+          "evidence": "NES-Edit Model analyzes the developer’s editing history, including refactoring patterns and API call sequences, to generate personalized and precise code modifications for the current edit."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF70",
+      "status": "answered",
+      "data": {
+        "title": "MLEvolve: A Self-Evolving Framework for Automated Machine Learning Algorithm Discovery",
+        "solution_name": "MLEvolve"
+      },
+      "rq2": {
+        "form": {
+          "note": "MLEvolve is presented as a research framework of specialized agents for long-horizon algorithm discovery, not as a directly operated product.",
+          "value": "Agent",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "an LLM-based self-evolving multi-agent framework for end-to-end machine learning algorithm discovery"
+        },
+        "activity": {
+          "note": "The framework generates code for candidate machine-learning solutions, with code generation identified as a core capability; iterative refinement is also supported.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "Base mode: Full code generation from scratch."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    },
+    {
+      "id": "HF71",
+      "status": "answered",
+      "data": {
+        "title": "Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data",
+        "solution_name": "Zero-to-CAD"
+      },
+      "rq2": {
+        "form": {
+          "note": "Zero-to-CAD is presented as a research synthesis pipeline, with its main contribution being an integrated closed-loop approach rather than a directly operated product.",
+          "value": "Method or technique",
+          "tool_subtype": "",
+          "other": "",
+          "evidence": "our contribution is integrating them into a robust closed-loop synthesis pipeline"
+        },
+        "activity": {
+          "note": "The pipeline generates new executable CAD construction code from part descriptions; code generation is its emphasized coding activity.",
+          "value": "Code generation",
+          "other": "",
+          "evidence": "The second stage takes each description from the catalog and generates executable CadQuery code that implements the described geometry."
+        }
+      },
+      "validated": true,
+      "review_comment": ""
+    }
+  ]
+}
