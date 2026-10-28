@@ -80,6 +80,9 @@ text; the PRISMA flow and Table 1 keep their original labels.
 | `5`  | Export blind human-review spreadsheets (all origins)  |
 | `6`  | Reconcile the human review and report the residuals   |
 | `7`  | Compute screening metrics from the human reviews      |
+| `8`  | RQ2 supplementary extraction: form and coding activity |
+| `9`  | Export the RQ2 supplementary review sheet (all origins) |
+| `10` | Apply the reviewed RQ2 supplementary values (all origins) |
 
 ## Review (step 5)
 
@@ -194,3 +197,28 @@ when nothing at all can be scored. Reported per origin and pooled:
 | Agreement                         | How often the LLM and `Review 1` decided the same.  |
 | Conflicts                         | Rows where the LLM and `Review 1` disagree.         |
 | Adjudication                      | How `Review 2` resolved those conflicts.            |
+
+## RQ2 supplementary extraction (steps 8-10)
+
+Added during the second-round revision of the article. The metaprotocol's extraction form for
+RQ2 asks for the **form** of each solution and the **coding activity** it supports; the first
+execution recorded only the usage context (`RQb`). These steps extract the two facets for the
+studies included at step 4, with the same procedure as step 4: the agent answers from the full
+text, and one reviewer validates every answer against the text. The usage context is not
+re-extracted, and the step-4 files are only read.
+
+```
+uv run python main.py --origin <scopus|google|github|hf> --step 8   # per origin; resumable
+uv run python main.py --step 9    # export data/review/<MODEL_EXPERIMENT>/step-8-rq2-review.xlsx
+uv run python main.py --step 10   # apply the reviewed values
+```
+
+- **Step 8** writes `step-8-rq2-supplement.json` per origin, with the prompt
+  `prompts/step8-rq2-form-activity.md`. Run it with the same model configuration as steps 2-4.
+- **Step 9** refuses to overwrite an existing sheet, so the reviewer's work is never lost.
+  The reviewer columns (`Form`, `Tool subtype`, `Form other`, `Activity`, `Activity other`)
+  come prefilled with the agent's values, with dropdowns of the closed sets; the reviewer
+  changes a value only when the text contradicts it, and sets `Checked` to `Yes` on every row.
+- **Step 10** stores each changed value as `human_value` (and `human_tool_subtype`,
+  `human_other`) next to the model's own value, the same convention as the step-4 answers, and
+  reports rows not checked, values outside the closed sets, and unknown IDs.

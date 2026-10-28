@@ -20,6 +20,7 @@ STEP_FILENAMES = {
     2: "step-2-screen-title.json",
     3: "step-3-screen-abstract.json",
     4: "step-4-screen-full.json",
+    8: "step-8-rq2-supplement.json",
 }
 
 

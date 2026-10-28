@@ -24,7 +24,14 @@ STEPS = {
     5: "export blind human-review spreadsheets",
     6: "reconcile the human review and report the residuals",
     7: "compute screening metrics from human reviews",
+    8: "RQ2 supplementary extraction (form and coding activity)",
+    9: "export the RQ2 supplementary review spreadsheet",
+    10: "apply the reviewed RQ2 supplementary values",
 }
+
+# Steps whose predecessor is not simply step - 1: step 8 classifies the studies included at
+# step 4 (its human review, steps 5-7, runs across all origins).
+PREREQUISITE = {8: 4}
 
 
 class PrerequisiteError(Exception):
@@ -47,7 +54,7 @@ for _origin in ORIGINS:
 def check_prerequisite(origin: str, step: int) -> None:
     if step == 1:
         return
-    previous = step - 1
+    previous = PREREQUISITE.get(step, step - 1)
     previous_path = step_output_path(origin, previous)
     if not previous_path.exists():
         raise PrerequisiteError(
@@ -61,6 +68,9 @@ def run(origin: str, step: int, substep: str | None = None):
         return abstract_screening.step3_screening(origin, substep=substep)
     if step == 4:
         return fulltext_screening.step4_fulltext_screening(origin)
+    if step == 8:
+        from rmr import rq2_supplement
+        return rq2_supplement.step8_rq2_supplement(origin)
     handler = _HANDLERS.get((origin, step))
     if handler is None:
         raise NotImplementedError(

@@ -14,14 +14,16 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--origin", choices=ORIGINS,
-        help="Source to process: " + ", ".join(ORIGINS) + ". Required for steps 1-4; "
-             "ignored for steps 5-7 (which aggregate all origins).",
+        help="Source to process: " + ", ".join(ORIGINS) + ". Required for steps 1-4 and 8; "
+             "ignored for steps 5-7, 9 and 10 (which aggregate all origins).",
     )
     parser.add_argument(
         "--step", required=True, type=int, choices=list(STEPS),
         help="1 initial complete search, 2 title, 3 abstract & keywords, 4 full text, "
              "5 export blind human-review spreadsheets, 6 reconcile the human review and "
-             "report the residuals, 7 compute screening metrics (steps 5-7 cover all origins).",
+             "report the residuals, 7 compute screening metrics, 8 RQ2 supplementary "
+             "extraction (form and activity), 9 export its review sheet, 10 apply the "
+             "reviewed values (steps 5-7, 9 and 10 cover all origins).",
     )
     parser.add_argument(
         "--substep", choices=SUBSTEPS, default=None,
@@ -42,8 +44,8 @@ def main(argv=None) -> None:
         parser.error("--substep is only valid with --step 3")
     if args.residuals and args.step != 5:
         parser.error("--residuals is only valid with --step 5")
-    if args.step not in (5, 6, 7) and not args.origin:
-        parser.error("--origin is required for steps 1-4")
+    if args.step not in (5, 6, 7, 9, 10) and not args.origin:
+        parser.error("--origin is required for steps 1-4 and 8")
     try:
         _dispatch(args)
     except (PrerequisiteError, NotImplementedError, RuntimeError) as error:
@@ -67,6 +69,13 @@ def _dispatch(args) -> None:
     if args.step == 7:
         from rmr import metrics
         metrics.export_metrics()
+        return
+    if args.step in (9, 10):
+        from rmr import rq2_supplement
+        if args.step == 9:
+            rq2_supplement.export_review_sheet()
+        else:
+            rq2_supplement.apply_review()
         return
     steps.check_prerequisite(args.origin, args.step)
     steps.run(args.origin, args.step, args.substep)
