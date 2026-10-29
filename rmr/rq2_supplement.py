@@ -230,6 +230,13 @@ def export_review_sheet() -> dict:
     ws.freeze_panes = "B2"
     for row in rows:
         ws.append(row)
+    # Titles, names, and quoted evidence come from scraped pages and model output. openpyxl
+    # stores a string starting with "=" as a formula, and a spreadsheet may evaluate cells
+    # starting with these characters; keep every such cell as plain text.
+    for sheet_row in ws.iter_rows(min_row=2):
+        for cell in sheet_row:
+            if isinstance(cell.value, str) and cell.value[:1] in ("=", "+", "-", "@", "\t", "\r"):
+                cell.data_type = "s"
     wrap = Alignment(wrap_text=True, vertical="top")
     for col, name in enumerate(HEADER, start=1):
         letter = get_column_letter(col)
