@@ -1,7 +1,7 @@
 {
   "origin": "google",
   "step": 8,
-  "model": "",
+  "model": "openai/gpt-5.4-pro",
   "updated_at": "2026-10-28T02:26:05.728216+00:00",
   "count": 30,
   "by_status": {

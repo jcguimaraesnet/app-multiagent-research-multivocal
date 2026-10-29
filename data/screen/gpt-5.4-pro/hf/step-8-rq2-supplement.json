@@ -1,7 +1,7 @@
 {
   "origin": "hf",
   "step": 8,
-  "model": "",
+  "model": "openai/gpt-5.4-pro",
   "updated_at": "2026-10-28T02:26:05.729550+00:00",
   "count": 33,
   "by_status": {
