@@ -99,9 +99,7 @@ Exports blind human-review spreadsheets (`.xlsx`), one per screening step, cover
 | `step-4-review.xlsx` | Full-text screening: the research answers (solution name, RQa-RQh, IC2, IC3) as the evidence. |
 
 Step 4 has a **single** sheet: the extracted research answers carry the evidence the reviewer
-needs, so the verdict is recorded on that same row. It also has an `Agreement` column (Yes/No,
-right after `llm_decision`) auditing whether the extracted answers themselves are correct,
-separately from the include/exclude verdict.
+needs, so the verdict is recorded on that same row.
 
 Each sheet ends with three empty dropdown columns, the census-with-adjudication design:
 

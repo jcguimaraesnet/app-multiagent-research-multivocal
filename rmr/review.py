@@ -43,8 +43,6 @@ ORIGINS = ["scopus", "google", "github", "hf"]
 # (Scopus gateway / arXiv), so they go in as-is. Mirrors GREY_SUMMARY_ORIGINS in screening.
 COMPOSE_ORIGINS = {"google", "github"}
 DECISION_VALUES = '"Include,Exclude"'  # Excel list-validation formula for the review columns
-AGREEMENT_VALUES = '"Yes,No"'          # ... for the step-4 `Agreement` column
-AGREEMENT_COL = "Agreement"
 # The three columns the reviewers fill. Reviewer 1 screens EVERY row; reviewer 2 adjudicates
 # only the rows where reviewer 1 differs from the model; `Finale` carries the consolidated
 # verdict that step 6 applies back to the pipeline. Both reviewers work blind, hiding the
@@ -53,12 +51,10 @@ R1_COL, R2_COL, FINAL_COL = "Review 1", "Review 2", "Finale"
 REVIEW_COLS = [R1_COL, R2_COL, FINAL_COL]
 RQ_KEYS = ["RQa", "RQb", "RQc", "RQd", "RQe", "RQf", "RQg", "RQh"]
 # The step-4 sheet: the research answers give the reviewer the evidence, and the verdict is
-# recorded on the same row. `Agreement` (Yes/No) audits the extracted answers themselves,
-# separately from the include/exclude verdict in the three review columns.
+# recorded on the same row.
 ANSWERS_HEADER = (["ID", "Title", "Abstract", "Solution name"] + RQ_KEYS
-                  + ["IC2", "IC3", "llm_decision", AGREEMENT_COL] + REVIEW_COLS)
-ANSWERS_DROPDOWNS = {AGREEMENT_COL: AGREEMENT_VALUES,
-                     **{name: DECISION_VALUES for name in REVIEW_COLS}}
+                  + ["IC2", "IC3", "llm_decision"] + REVIEW_COLS)
+ANSWERS_DROPDOWNS = {name: DECISION_VALUES for name in REVIEW_COLS}
 
 
 def _records(origin: str, step: int) -> list[dict] | None:
@@ -187,17 +183,16 @@ def _step4_answers_rows() -> list[list]:
 
 def _answers_review_rows() -> list[list]:
     """The step-4 review row: the research answers, then the model's final verdict (the
-    reference column the reviewer hides), the empty ``Agreement`` cell and the three empty
-    review columns."""
+    reference column the reviewer hides) and the three empty review columns."""
     llm = _llm_decisions(4)
-    return [row[:-1] + [llm.get(str(row[0]), "").capitalize(), "", "", "", ""]
+    return [row[:-1] + [llm.get(str(row[0]), "").capitalize(), "", "", ""]
             for row in _step4_answers_rows()]
 
 
 # Column widths per header name (Excel character units); wrapped columns hold long text.
 _WIDTHS = {
     "id": 10, "ID": 10, "title": 60, "Title": 60, "abstract": 90, "Abstract": 80,
-    "keywords": 40, "file": 18, "llm_decision": 14, "Agreement": 12, "Review 1": 12, "Review 2": 12,
+    "keywords": 40, "file": 18, "llm_decision": 14, "Review 1": 12, "Review 2": 12,
     "Finale": 12, "Solution name": 24, "IC2": 40, "IC3": 40,
 }
 _WRAP = {"title", "Title", "abstract", "Abstract", "keywords", "IC2", "IC3"}
